@@ -1,11 +1,11 @@
 # cesm_dev
 The cesm_dev repository is dedicated to CESM development which encompass:
 - Development simulations (including cases directories and model sandboxes).
-- Relevant discussions to model development
-- Relevant "Issues" (we need to find another word: Projects). 
+- Relevant discussions to model development (e.g. discussions of biases, tuning, ...).
+- Spreadsheet to track tasks.
 
 ## Development simulations
-Note that the cesm development simulations are currently tracked under another [repo](https://github.com/NCAR/amwg_dev/). This is for historical reasons and the simulations will be tracked in another way soon.
+Note that the cesm development simulations are currently tracked under another [repo](https://github.com/NCAR/amwg_dev/). This is for historical reasons and the simulations will be tracked in the cirrent repo soon.
 
 The list of cesm development simulations can be found under [Issues](https://github.com/NCAR/amwg_dev/issues). 
   - Each simulation is represented as a github issue. 
@@ -21,7 +21,7 @@ Discussions relevant to cesm development could be posted under [Discussions](htt
   - To ensure that the conversation remains productive and helpful, please keep your discussions organized by using relevant titles, applying labels, and refraining from mixing topics.
 
 ## Projects
-Discussions relevant to cesm development could be posted under [Discussions](https://github.com/NCAR/cesm_dev/discussions).
+Discussions relevant to cesm development could be posted under [Projects](https://github.com/NCAR/cesm_dev/projects).
   
   - Discussions provide you with the ability to directly engage with other developers while staying on GitHub.
   - To ensure that the conversation remains productive and helpful, please keep your discussions organized by using relevant titles, applying labels, and refraining from mixing topics.
