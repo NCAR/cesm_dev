@@ -1,0 +1,70 @@
+name: Run request
+description: CESM developers, this is where to enter information about your run requests (for a new development simulation).
+title: "One line description for your simulation request"
+labels: ["Run request"]
+
+body:
+
+  - type: textarea
+    id: Purpose
+    attributes:
+      label: Purpose of the run
+      description: Please enter a short description of the purpose. (required for the CESM project meeeting) [Required]
+      value: "Enter Purpose"
+    validations:
+      required: true
+
+  - type: textarea
+    id: Description
+    attributes:
+      label: Description of the run
+      description: Please enter a short description of the run [Required]
+      value: "Enter Description"
+    validations:
+      required: true
+
+  - type: textarea
+    id: Suffix
+    attributes:
+      label: Suffix in the casename
+      description: Please enter the suffix for the casename. The suffix will appear in the casename as "f.$TAG.$COMPSET.$RES.$SUFFIX.001" [Optional]
+      value: "Suffix" 
+    validations:
+      required: False
+
+  - type: textarea
+    id: Namelist
+    attributes:
+      label: Namelist modifications
+      description: Please enter any namelist modification [Optional].
+      value: "Namelist"
+
+  - type: textarea
+    id: SourceMods
+    attributes:
+      label: Source modifications
+      description: Please enter any source modification [Optional].
+      value: "SourceMods"
+      
+  - type: textarea
+    id: Sandbox
+    attributes:
+      label: Sandbox
+      description: If you require the run to be done with a specific sandbox, please enter the info [Optional].
+      value: "Requested sandbox or tag"
+
+  - type: textarea
+    id: Contact
+    attributes:
+      label: Contact info
+      description: Enter the contact information (person who did the run, science lead, etc...)
+      value: "Contact information"  
+    validations:
+      required: true
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Any other relevant information
+      description: Please enter any relevant information/comments about this run.
+      value: "Enter relevant info"
