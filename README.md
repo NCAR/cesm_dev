@@ -22,7 +22,7 @@ Relevant discussions about CESM development should be posted under the [Discussi
 ## Projects
 A spreadsheet tracking current CESM development tasks is available under the [Projects](https://github.com/NCAR/cesm_dev/projects) section.
   
-  - Each task basically one or a collection of discussions about specific issues in cesm.
+  - Each task is basically one or a collection of discussions about specific issues in cesm.
 
 ## Code of Conduct
 We are committed to fostering a respectful and inclusive community for all participants.
