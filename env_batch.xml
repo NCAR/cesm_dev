@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<file id="env_batch.xml" version="2.0">
+  <header>
+      These variables may be changed anytime during a run, they
+      control arguments to the batch submit command.
+    </header>
+  <group id="config_batch">
+    <entry id="BATCH_SYSTEM" value="pbs">
+      <type>char</type>
+      <valid_values>nersc_slurm,lc_slurm,moab,pbs,lsf,slurm,cobalt,cobalt_theta,none</valid_values>
+      <desc>The batch system type to use for this machine.</desc>
+    </entry>
+  </group>
+  <batch_system type="pbs">
+    <batch_query args="-f">qstat</batch_query>
+    <batch_submit>qsub </batch_submit>
+    <batch_cancel>qdel</batch_cancel>
+    <batch_env>-v</batch_env>
+    <batch_directive>#PBS</batch_directive>
+    <jobid_pattern>^(\S+)$</jobid_pattern>
+    <depend_string> -W depend=afterok:jobid</depend_string>
+    <depend_allow_string> -W depend=afterany:jobid</depend_allow_string>
+    <depend_separator>:</depend_separator>
+    <walltime_format>%H:%M:%S</walltime_format>
+    <batch_mail_flag>-M</batch_mail_flag>
+    <batch_mail_type_flag>-m</batch_mail_type_flag>
+    <batch_mail_type>, bea, b, e, a</batch_mail_type>
+    <submit_args>
+      <argument> -q $JOB_QUEUE</argument>
+      <argument> -l walltime=$JOB_WALLCLOCK_TIME</argument>
+      <argument> -A $PROJECT</argument>
+    </submit_args>
+    <directives>
+      <directive>-N {{ job_id }}</directive>
+      <directive default="n"> -r {{ rerunnable }} </directive>
+      <directive> -j oe </directive>
+    </directives>
+  </batch_system>
+  <batch_system MACH="derecho" type="pbs">
+    <batch_submit>qsub</batch_submit>
+    <submit_args>
+      <argument> -l job_priority=$JOB_PRIORITY </argument>
+    </submit_args>
+    <directives gpu_enabled="false">
+      <directive default="/bin/bash"> -S {{ shell }}  </directive>
+      <directive> -l select={{ num_nodes }}:ncpus={{ max_tasks_per_node }}:mpiprocs={{ tasks_per_node }}:ompthreads={{ thread_count }}:mem=230GB</directive>
+    </directives>
+    <directives gpu_enabled="true">
+      <directive default="/bin/bash"> -S {{ shell }} </directive>
+      <directive> -l select={{ num_nodes }}:ncpus={{ max_cputasks_per_gpu_node }}:mpiprocs={{ tasks_per_node }}:ompthreads={{ thread_count }}:mem=480GB:ngpus={{ ngpus_per_node }}:mps=1 </directive>
+    </directives>
+    <queues>
+      <queue walltimemax="1:00:00" jobmin="1" jobmax="64">develop</queue>
+      <queue walltimemax="12:00:00" nodemin="1" nodemax="2488">main</queue>
+    </queues>
+  </batch_system>
+</file>

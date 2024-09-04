@@ -1,0 +1,329 @@
+"MOM6 diagnostic fields table for CESM case: ${CASE}"
+1 1 1 0 0 0
+### Section-1: File List
+#========================
+"${CASE}.mom6.h.rho2%4yr-%2mo",                        1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.native%4yr-%2mo",                      1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.z%4yr-%2mo",                           1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.sfc%4yr-%2mo",                         1,  "days",   1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.static",                               -1, "days",   1, "days",   "time"
+"${CASE}.mom6.h.Agulhas_Section%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Barents_Opening%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Bering_Strait%4yr-%2mo",               1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Bosphorus_Strait%4yr-%2mo",            1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Davis_Strait%4yr-%2mo",                1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Denmark_Strait%4yr-%2mo",              1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Drake_Passage%4yr-%2mo",               1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.English_Channel%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Fram_Strait%4yr-%2mo",                 1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Florida_Bahamas_extended%4yr-%2mo",    1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Florida_Cuba%4yr-%2mo",                1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Gibraltar_Strait%4yr-%2mo",            1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Iceland_Norway%4yr-%2mo",              1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Indonesian_Throughflow%4yr-%2mo",      1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Mozambique_Channel%4yr-%2mo",          1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Pacific_undercurrent%4yr-%2mo",        1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Robeson_Channel%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Taiwan_Luzon%4yr-%2mo",                1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Windward_Passage%4yr-%2mo",            1,  "months", 1, "days",   "time", 1, "months"
+"${CASE}.mom6.h.Yucatan_Channel%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
+
+### Section-2: Fields List
+#=========================
+# "${CASE}.mom6.h.rho2%4yr-%2mo"
+"ocean_model_rho2", "volcello","volcello","${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "vmo",     "vmo",     "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "vhGM",    "vhGM",    "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "vhml",    "vhml",    "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "umo",     "umo",     "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "uhGM",    "uhGM",    "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "uhml",    "uhml",    "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "thetao",  "thetao",  "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "so",      "so",      "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "agessc",  "agessc",  "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "cfc11",   "cfc11",   "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "cfc12",   "cfc12",   "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+
+# "${CASE}.mom6.h.native%4yr-%2mo"
+"ocean_model", "soga",         "soga",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "thetaoga",     "thetaoga",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uh",           "uh",           "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vh",           "vh",           "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vhbt",         "vhbt",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uhbt",         "uhbt",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "agessc",       "agessc",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_ady_2d",     "T_ady_2d",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_adx_2d",     "T_adx_2d",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_diffy_2d",   "T_diffy_2d",   "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_diffx_2d",   "T_diffx_2d",   "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_hbd_diffx_2d","T_hbd_diffx_2d","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_hbd_diffy_2d","T_hbd_diffy_2d","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "diftrelo",     "diftrelo",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "diftrblo",     "diftrblo",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difmxybo",     "difmxybo",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difmxylo",     "difmxylo",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "volcello",     "volcello",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vmo",          "vmo",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vhGM",         "vhGM",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vhml",         "vhml",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "umo",          "umo",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uhGM",         "uhGM",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uhml",         "uhml",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uo",           "uo",           "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vo",           "vo",           "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "h",            "h",            "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "e",            "e",            "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "thetao",       "thetao",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "so",           "so",           "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KE",           "KE",           "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rhopot0",      "rhopot0",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tauuo",        "tauuo",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tauvo",        "tauvo",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "friver",       "friver",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "prsn",         "prsn",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "prlq",         "prlq",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "evs",          "evs",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfsso",        "hfsso",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rlntds",       "rlntds",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfsnthermds",  "hfsnthermds",  "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sfdsi",        "sfdsi",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rsntds",       "rsntds",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfds",         "hfds",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "ustar",        "ustar",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfsifrazil",   "hfsifrazil",   "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "wfo",          "wfo",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vprec",        "vprec",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "ficeberg",     "ficeberg",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "fsitherm",     "fsitherm",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hflso",        "hflso",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "pso",          "pso",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "seaice_melt_heat","seaice_melt_heat","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Heat_PmE",     "Heat_PmE",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "salt_flux_added","salt_flux_added","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_lrunoff","heat_content_lrunoff","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_frunoff","heat_content_frunoff","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_lprec","heat_content_lprec","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_fprec","heat_content_fprec","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_vprec","heat_content_vprec","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_cond","heat_content_cond","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_evap","heat_content_evap","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSH",          "SSH",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sos",          "sos",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSU",          "SSU",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSV",          "SSV",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mass_wt",      "mass_wt",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottempmint", "opottempmint", "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "somint",       "somint",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Rd_dx",        "Rd_dx",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "speed",        "speed",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "cfc11_flux",   "cfc11_flux",   "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "cfc12_flux",   "cfc12_flux",   "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "ice_fraction", "ice_fraction", "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "u10_sqr",      "u10_sqr",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+
+# "${CASE}.mom6.h.z%4yr-%2mo"
+"ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "h",       "h",       "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "agessc",  "agessc",  "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "rhopot0", "rhopot0", "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "N2_int",  "N2_int",  "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vhGM",    "vhGM",    "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vhml",    "vhml",    "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "umo",     "umo",     "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "uhGM",    "uhGM",    "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "uhml",    "uhml",    "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "cfc11",   "cfc11",   "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "cfc12",   "cfc12",   "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+
+# "${CASE}.mom6.h.sfc%4yr-%2mo"
+"ocean_model", "SSH",          "SSH",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sos",          "sos",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSU",          "SSU",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSV",          "SSV",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mass_wt",      "mass_wt",      "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottempmint", "opottempmint", "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "somint",       "somint",       "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Rd_dx",        "Rd_dx",        "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "speed",        "speed",        "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst",       "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+
+# "${CASE}.mom6.h.static"
+"ocean_model", "geolon",      "geolon",      "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolat",      "geolat",      "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolon_c",    "geolon_c",    "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolat_c",    "geolat_c",    "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolon_u",    "geolon_u",    "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolat_u",    "geolat_u",    "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolon_v",    "geolon_v",    "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolat_v",    "geolat_v",    "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "deptho",      "deptho",      "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "wet",         "wet",         "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "wet_c",       "wet_c",       "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "wet_u",       "wet_u",       "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "wet_v",       "wet_v",       "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "Coriolis",    "Coriolis",    "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "areacello",   "areacello",   "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "areacello_cu","areacello_cu","${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "areacello_cv","areacello_cv","${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "areacello_bu","areacello_bu","${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "sin_rot",     "sin_rot",     "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "cos_rot",     "cos_rot",     "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+
+# "${CASE}.mom6.h.Agulhas_Section%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "${CASE}.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
+
+# "${CASE}.mom6.h.Barents_Opening%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Barents_Opening%4yr-%2mo", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Barents_Opening%4yr-%2mo", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Barents_Opening%4yr-%2mo", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Barents_Opening%4yr-%2mo", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Barents_Opening%4yr-%2mo", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
+
+# "${CASE}.mom6.h.Bering_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Bering_Strait%4yr-%2mo", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Bering_Strait%4yr-%2mo", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Bering_Strait%4yr-%2mo", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Bering_Strait%4yr-%2mo", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Bering_Strait%4yr-%2mo", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
+
+# "${CASE}.mom6.h.Bosphorus_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Bosphorus_Strait%4yr-%2mo", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Bosphorus_Strait%4yr-%2mo", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Bosphorus_Strait%4yr-%2mo", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Bosphorus_Strait%4yr-%2mo", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Bosphorus_Strait%4yr-%2mo", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
+
+# "${CASE}.mom6.h.Davis_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Davis_Strait%4yr-%2mo", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Davis_Strait%4yr-%2mo", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Davis_Strait%4yr-%2mo", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Davis_Strait%4yr-%2mo", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Davis_Strait%4yr-%2mo", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
+
+# "${CASE}.mom6.h.Denmark_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Denmark_Strait%4yr-%2mo", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Denmark_Strait%4yr-%2mo", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Denmark_Strait%4yr-%2mo", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Denmark_Strait%4yr-%2mo", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Denmark_Strait%4yr-%2mo", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
+
+# "${CASE}.mom6.h.Drake_Passage%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Drake_Passage%4yr-%2mo", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Drake_Passage%4yr-%2mo", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Drake_Passage%4yr-%2mo", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "${CASE}.mom6.h.Drake_Passage%4yr-%2mo", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.Drake_Passage%4yr-%2mo", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
+
+# "${CASE}.mom6.h.English_Channel%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.English_Channel%4yr-%2mo", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.English_Channel%4yr-%2mo", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.English_Channel%4yr-%2mo", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "${CASE}.mom6.h.English_Channel%4yr-%2mo", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.English_Channel%4yr-%2mo", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
+
+# "${CASE}.mom6.h.Fram_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
+
+# "${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
+
+# "${CASE}.mom6.h.Florida_Bahamas_extended%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
+
+# "${CASE}.mom6.h.Florida_Cuba%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Florida_Cuba%4yr-%2mo", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Florida_Cuba%4yr-%2mo", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Florida_Cuba%4yr-%2mo", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "${CASE}.mom6.h.Florida_Cuba%4yr-%2mo", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.Florida_Cuba%4yr-%2mo", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
+
+# "${CASE}.mom6.h.Gibraltar_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "${CASE}.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
+
+# "${CASE}.mom6.h.Iceland_Norway%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
+
+# "${CASE}.mom6.h.Indonesian_Throughflow%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Indonesian_Throughflow%4yr-%2mo", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Indonesian_Throughflow%4yr-%2mo", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Indonesian_Throughflow%4yr-%2mo", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Indonesian_Throughflow%4yr-%2mo", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Indonesian_Throughflow%4yr-%2mo", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
+
+# "${CASE}.mom6.h.Mozambique_Channel%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Mozambique_Channel%4yr-%2mo", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Mozambique_Channel%4yr-%2mo", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Mozambique_Channel%4yr-%2mo", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Mozambique_Channel%4yr-%2mo", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Mozambique_Channel%4yr-%2mo", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
+
+# "${CASE}.mom6.h.Pacific_undercurrent%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Pacific_undercurrent%4yr-%2mo", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Pacific_undercurrent%4yr-%2mo", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Pacific_undercurrent%4yr-%2mo", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "${CASE}.mom6.h.Pacific_undercurrent%4yr-%2mo", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.Pacific_undercurrent%4yr-%2mo", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
+
+# "${CASE}.mom6.h.Robeson_Channel%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Robeson_Channel%4yr-%2mo", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Robeson_Channel%4yr-%2mo", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Robeson_Channel%4yr-%2mo", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "${CASE}.mom6.h.Robeson_Channel%4yr-%2mo", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.Robeson_Channel%4yr-%2mo", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
+
+# "${CASE}.mom6.h.Taiwan_Luzon%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Taiwan_Luzon%4yr-%2mo", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Taiwan_Luzon%4yr-%2mo", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Taiwan_Luzon%4yr-%2mo", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "${CASE}.mom6.h.Taiwan_Luzon%4yr-%2mo", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.Taiwan_Luzon%4yr-%2mo", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
+
+# "${CASE}.mom6.h.Windward_Passage%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Windward_Passage%4yr-%2mo", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Windward_Passage%4yr-%2mo", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Windward_Passage%4yr-%2mo", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Windward_Passage%4yr-%2mo", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Windward_Passage%4yr-%2mo", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
+
+# "${CASE}.mom6.h.Yucatan_Channel%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Yucatan_Channel%4yr-%2mo", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Yucatan_Channel%4yr-%2mo", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
+"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Yucatan_Channel%4yr-%2mo", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Yucatan_Channel%4yr-%2mo", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Yucatan_Channel%4yr-%2mo", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
+

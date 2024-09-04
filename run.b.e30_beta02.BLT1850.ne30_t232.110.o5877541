@@ -1,0 +1,44 @@
+Generating namelists for /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta02.BLT1850.ne30_t232.110
+  2024-08-31 05:57:48 atm 
+Create namelist for component cam
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_beta02/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta02.BLT1850.ne30_t232.110/Buildconf/camconf/atm_in file2 /glade/derecho/scratch/hannay/b.e30_beta02.BLT1850.ne30_t232.110/run/atm_in 
+  2024-08-31 05:57:49 lnd 
+Create namelist for component clm
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_beta02/components/clm//cime_config/buildnml
+  2024-08-31 05:57:50 ice 
+Create namelist for component cice
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_beta02/components/cice//cime_config/buildnml
+RUN: /glade/work/hannay/cesm_tags/cesm3_0_beta02/components/cice/bld/generate_cice_decomp.pl -ccsmroot /glade/work/hannay/cesm_tags/cesm3_0_beta02 -res tx2_3v2 -nx 540 -ny 480 -nproc 1152 -thrds 1 -output all 
+FROM: /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta02.BLT1850.ne30_t232.110
+  output: 540 480 6 6 7 sectrobin square-ice
+
+  2024-08-31 05:57:50 ocn 
+Create namelist for component mom
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_beta02/components/mom//cime_config/buildnml
+  2024-08-31 05:57:51 rof 
+Create namelist for component mosart
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_beta02/components/mosart//cime_config/buildnml
+  2024-08-31 05:57:51 glc 
+Create namelist for component dglc
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_beta02/components/cdeps/dglc/cime_config/buildnml
+  2024-08-31 05:57:51 wav 
+Create namelist for component swav
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_beta02/cime/CIME/non_py/src/components/stub_comps_nuopc/swav/cime_config/buildnml
+  2024-08-31 05:57:51 esp 
+Create namelist for component sesp
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_beta02/cime/CIME/non_py/src/components/stub_comps_nuopc/sesp/cime_config/buildnml
+  2024-08-31 05:57:51 cpl 
+Create namelist for component drv
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_beta02/components/cmeps/cime_config/buildnml
+Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF', 'GLC']
+-------------------------------------------------------------------------
+ - Prestage required restarts into /glade/derecho/scratch/hannay/b.e30_beta02.BLT1850.ne30_t232.110/run
+ - Case input data directory (DIN_LOC_ROOT) is /glade/campaign/cesm/cesmdata/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_beta02.BLT1850.ne30_t232.110/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach derecho 
+resubmit_num 8
