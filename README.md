@@ -1,13 +1,13 @@
 # cesm_dev
-The `cesm_dev` repository is dedicated to the ongoing development of the Community Earth System Model (CESM) and includes:
-- **Development simulations**. Comprehensive information about individual runs, including case directories.
-- **Relevant discussions**: Topics related to model development, such as bias identification and tuning.
-- **Task Tracking**: A spreadsheet to manage development tasks.
+The `cesm_dev` repository is dedicated to the ongoing development of the Community Earth System Model (CESM) and includes tracking and discussion of -
+- **Development simulations**. Comprehensive information about individual development runs, including case directories, diagnostics, and output locations.
+- **Discussions topics**: Topics related to model development, such as bias identification and solutions, tuning exercises, perfomance evaluation, etc.
+- **Code Development Tasks**: A spreadsheet to manage/track code development tasks.
 
 ## Development simulations
-Please note that for historical reasons, CESM development simulations before version 109 were tracked in a different repo [amwg_dev](https://github.com/NCAR/amwg_dev/). Starting with ***run 110*** and the ***code chill*** (effective August 31, 2024), all CESM coupled development simulations are documented in the cesm_dev repository.
+Please note that for historical reasons, CESM development simulations before version 109 were tracked in a different repo [amwg_dev](https://github.com/NCAR/amwg_dev/). Starting with ***run 110***, after the CESM3 ***code chill*** (effective August 31, 2024), all CESM coupled development simulations are documented in the cesm_dev repository.
 
-You can find a list of CESM development simulations under the [Issues](https://github.com/NCAR/amwg_dev/issues) section. 
+You can find a list of prior CESM development simulations under the [Issues](https://github.com/NCAR/amwg_dev/issues) section. 
   - Each simulation is recorded as a github issue. 
   - Simulations can be sorted with labels (for instance, compset: BLT1850). 
 
