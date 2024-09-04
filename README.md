@@ -7,11 +7,11 @@ The `cesm_dev` repository is dedicated to the ongoing development of the Communi
 ## Development simulations
 Please note that for historical reasons, CESM development simulations before version 109 were tracked in a different repo [amwg_dev](https://github.com/NCAR/amwg_dev/). Starting with ***run 110***, after the CESM3 ***code chill*** (effective August 31, 2024), all CESM coupled development simulations are documented in the cesm_dev repository.
 
-You can find a list of prior CESM development simulations under the [Issues](https://github.com/NCAR/amwg_dev/issues) section. 
+You can find a list of CESM development simulations under the [Issues](https://github.com/NCAR/cesm_dev/issues) section. 
   - Each simulation is recorded as a github issue. 
   - Simulations can be sorted with labels (for instance, compset: BLT1850). 
 
-To request a new simulation run, please use the [Run request](https://github.com/NCAR/amwg_dev/issues/new/choose) template. and provide as much details as possible. 
+To request a new simulation run, please use the [Run request](https://github.com/NCAR/cesm_dev/issues/new/choose) template. and provide as much details as possible. 
 
 ## Discussions 
 Relevant discussions about CESM development should be posted under the [Discussions](https://github.com/NCAR/cesm_dev/discussions) section.
