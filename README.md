@@ -5,7 +5,7 @@ The `cesm_dev` repository is dedicated to the ongoing development of the Communi
 - **Task Tracking**: A spreadsheet to manage development tasks.
 
 ## Development simulations
-Please note that CESM development simulations before version 109 were tracked in a different are currently tracked under another [repo](https://github.com/NCAR/amwg_dev/) for historical reasons. Starting with simulation 110 and the *code chill* (effective August 31, 2024), all CESM coupled development simulations are documented in this repository.
+Please note that CESM development simulations before version 109 were tracked in a different [repo](https://github.com/NCAR/amwg_dev/) for historical reasons. Starting with simulation 110 and the *code chill* (effective August 31, 2024), all CESM coupled development simulations are documented in this repository.
 
 You can find a list of CESM development simulations under the [Issues](https://github.com/NCAR/amwg_dev/issues) section. 
   - Each simulation is recorded as a github issue. 
