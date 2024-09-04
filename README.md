@@ -5,7 +5,7 @@ The cesm_dev repository is dedicated to CESM development which encompass:
 - Spreadsheet to track development tasks.
 
 ## Development simulations
-Note that the cesm development simulations are currently tracked under another [repo](https://github.com/NCAR/amwg_dev/). This is for historical reasons and the simulations will be tracked in the cirrent repo soon.
+Note that the cesm development simulations before 109 are currently tracked under another [repo](https://github.com/NCAR/amwg_dev/). This is for historical reasons. Starting with 110, the simulations are tracked in the current repo soon.
 
 The list of cesm development simulations can be found under [Issues](https://github.com/NCAR/amwg_dev/issues). 
   - Each simulation is represented as a github issue. 
