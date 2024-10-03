@@ -12,3 +12,7 @@ cd "${CASEDIR}"
 
 ./case.setup
 
+./pelayout
+
+./xmlchange JOB_WALLCLOCK_TIME=01:00:00 --subgroup case.st_archive
+
