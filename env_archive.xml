@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<file id="env_archive.xml" version="2.0">
+  <header>
+      These are the variables specific to the short term archiver.
+      See  ./case.st_archive --help for details on running the short term archiver script.
+      To validate the env_archive.xml file using xmllint, run
+      xmllint -schema $SRCROOT/cime/config/xml_schemas/env_archive.xsd env_archive.xml
+      from the case root.
+      The patterns below are Python regular expressions.
+      The file names created from these patterns will add an optional digit
+      to them and will enclose them in a pair of '.'.
+      Some useful Python metacharacters are:
+         [] = any single character inside the brackets
+         \d = a digit = [0123456789] = [0-9]
+          ? = 0 or 1 of the previous character
+          * = 0 or more of the previous character (greedy!)
+          + = 1 or more of the previous character (greedy!)
+         \. = a period
+          . = any non-newline character
+      Use them carefully.  They're often confused with shell-type
+      wild card characters.
+    </header>
+  <components version="2.0">
+    <comp_archive_spec compname="cam" compclass="atm">
+      <rest_file_extension>r</rest_file_extension>
+      <rest_file_extension>rh\d*</rest_file_extension>
+      <rest_file_extension>rs</rest_file_extension>
+      <hist_file_extension>h\d*.*\.nc$</hist_file_extension>
+      <hist_file_extension>i\..*\.nc$</hist_file_extension>
+      <hist_file_extension>e</hist_file_extension>
+      <rest_history_varname>nhfil</rest_history_varname>
+      <rpointer>
+        <rpointer_file>rpointer.atm$NINST_STRING</rpointer_file>
+        <rpointer_content>$CASE.cam$NINST_STRING.r.$DATENAME.nc </rpointer_content>
+      </rpointer>
+      <test_file_names>
+        <tfile disposition="copy">rpointer.atm</tfile>
+        <tfile disposition="copy">rpointer.atm_9999</tfile>
+        <tfile disposition="copy">casename.cam.r.1976-01-01-00000.nc</tfile>
+        <tfile disposition="copy">casename.cam.rh4.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.cam.h0.1976-01-01-00000.nc</tfile>
+        <tfile disposition="ignore">casename.cam.h0.1976-01-01-00000.nc.base</tfile>
+        <tfile disposition="move">casename.cam_0002.e.postassim.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.cam_0002.e.preassim.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.cam.i.1976-01-01-00000.nc</tfile>
+      </test_file_names>
+    </comp_archive_spec>
+    <comp_archive_spec compname="clm" compclass="lnd">
+      <rest_file_extension>r</rest_file_extension>
+      <rest_file_extension>rh\d?</rest_file_extension>
+      <hist_file_extension>h\d*.*\.nc$</hist_file_extension>
+      <hist_file_extension>lilac_hi.*\.nc$</hist_file_extension>
+      <hist_file_extension>lilac_atm_driver_h\d*.*\.nc$</hist_file_extension>
+      <hist_file_extension>e</hist_file_extension>
+      <rest_history_varname>locfnh</rest_history_varname>
+      <rpointer>
+        <rpointer_file>rpointer.lnd$NINST_STRING</rpointer_file>
+        <rpointer_content>./$CASE.clm2$NINST_STRING.r.$DATENAME.nc</rpointer_content>
+      </rpointer>
+      <test_file_names>
+        <tfile disposition="copy">rpointer.lnd</tfile>
+        <tfile disposition="copy">rpointer.lnd_9999</tfile>
+        <tfile disposition="copy">casename.clm2.r.1976-01-01-00000.nc</tfile>
+        <tfile disposition="copy">casename.clm2.rh4.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.clm2.h0.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.clm2.lilac_hi.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.clm2.lilac_atm_driver_h0.0001-01.nc</tfile>
+        <tfile disposition="ignore">casename.clm2.h0.1976-01-01-00000.nc.base</tfile>
+        <tfile disposition="move">casename.clm2_0002.e.postassim.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.clm2_0002.e.preassim.1976-01-01-00000.nc</tfile>
+        <tfile disposition="ignore">anothercasename.clm2.i.1976-01-01-00000.nc</tfile>
+      </test_file_names>
+    </comp_archive_spec>
+    <comp_archive_spec compname="cice" compclass="ice">
+      <rest_file_extension>[ri]</rest_file_extension>
+      <hist_file_extension>h\d*.*\.nc$</hist_file_extension>
+      <rest_history_varname>unset</rest_history_varname>
+      <rpointer>
+        <rpointer_file>rpointer.ice$NINST_STRING</rpointer_file>
+        <rpointer_content>./$CASE.cice$NINST_STRING.r.$DATENAME.nc</rpointer_content>
+      </rpointer>
+      <test_file_names>
+        <tfile disposition="copy">rpointer.ice</tfile>
+        <tfile disposition="copy">casename.cice.r.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.cice.h.1976-01-01-00000.nc</tfile>
+      </test_file_names>
+    </comp_archive_spec>
+    <comp_archive_spec compname="mom" compclass="ocn">
+      <rest_file_extension>r</rest_file_extension>
+      <hist_file_extension>h(\.\w+)?(\._\d*)?\.[-\d+]+\.nc(\.\d*)?$</hist_file_extension>
+      <hist_file_extension>h\.(static|ocean_geometry)(\._\d*)?\.nc(\.\d*)?$</hist_file_extension>
+      <hist_file_extension>h\.bgc\..*?.?[_\d+]+.nc$</hist_file_extension>
+      <hist_file_extension>ic.[-\d+]+(\._\d*)?\.nc(\.\d*)?$</hist_file_extension>
+      <hist_file_ext_regex>\w+\.\w+(\._\d*)?</hist_file_ext_regex>
+      <rpointer>
+        <rpointer_file>rpointer.ocn$NINST_STRING</rpointer_file>
+        <rpointer_content>$CASE.mom6$NINST_STRING.r.$DATENAME.nc</rpointer_content>
+      </rpointer>
+    </comp_archive_spec>
+    <comp_archive_spec compname="mosart" compclass="rof">
+      <rest_file_extension>r</rest_file_extension>
+      <rest_file_extension>rh\d*</rest_file_extension>
+      <hist_file_extension>h\d*.*\.nc$</hist_file_extension>
+      <rest_history_varname>locfnh</rest_history_varname>
+      <rpointer>
+        <rpointer_file>rpointer.rof$NINST_STRING</rpointer_file>
+        <rpointer_content>$CASE.mosart$NINST_STRING.r.$DATENAME.nc</rpointer_content>
+      </rpointer>
+      <test_file_names>
+        <tfile disposition="copy">rpointer.rof</tfile>
+        <tfile disposition="copy">rpointer.rof_9999</tfile>
+        <tfile disposition="copy">casename.mosart.r.1976-01-01-00000.nc</tfile>
+        <tfile disposition="copy">casename.mosart.rh4.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.mosart.h0.1976-01-01-00000.nc</tfile>
+        <tfile disposition="ignore">casename.mosart.h0.1976-01-01-00000.nc.base</tfile>
+      </test_file_names>
+    </comp_archive_spec>
+    <comp_archive_spec compname="dglc" compclass="glc">
+      <rest_file_extension>r</rest_file_extension>
+      <rest_file_extension>rs1</rest_file_extension>
+      <rest_history_varname>unset</rest_history_varname>
+      <rpointer>
+        <rpointer_file>rpointer.glc$NINST_STRING</rpointer_file>
+        <rpointer_content>$CASE.dglc$NINST_STRING.r.$DATENAME.nc,$CASE.dglc$NINST_STRING.rs1.$DATENAME.bin</rpointer_content>
+      </rpointer>
+    </comp_archive_spec>
+    <comp_archive_spec compname="ww3" compclass="wav">
+      <rest_file_extension>r</rest_file_extension>
+      <hist_file_extension>hi.*\.nc$</hist_file_extension>
+      <rest_history_varname>unset</rest_history_varname>
+      <rpointer>
+        <rpointer_file>rpointer.wav$NINST_STRING</rpointer_file>
+        <rpointer_content>unset</rpointer_content>
+      </rpointer>
+      <test_file_names>
+        <tfile disposition="copy">rpointer.wav</tfile>
+        <tfile disposition="copy">rpointer.wav_9999</tfile>
+        <tfile disposition="copy">casename.ww3.r.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.ww3.hi.1976-01-01-00000.nc</tfile>
+        <tfile disposition="ignore">casename.ww3.hi.1976-01-01-00000.nc.base</tfile>
+      </test_file_names>
+    </comp_archive_spec>
+    <comp_archive_spec compname="drv" compclass="cpl">
+      <rest_file_extension>r</rest_file_extension>
+      <hist_file_extension>hi?\d*.*\.nc$</hist_file_extension>
+      <rest_history_varname>unset</rest_history_varname>
+      <rpointer>
+        <rpointer_file>rpointer.cpl$NINST_STRING</rpointer_file>
+        <rpointer_content>$CASE.cpl$NINST_STRING.r.$DATENAME.nc</rpointer_content>
+      </rpointer>
+      <test_file_names>
+        <tfile disposition="move">cpl_0001.log.5548574.chadmin1.180228-124723.gz</tfile>
+        <tfile disposition="copy">casename.cpl.r.1976-01-01-00000.nc</tfile>
+        <tfile disposition="copy">rpointer.drv_0001</tfile>
+        <tfile disposition="copy">rpointer.drv</tfile>
+        <tfile disposition="ignore">casenamenot.cpl.r.1976-01-01-00000.nc</tfile>
+      </test_file_names>
+    </comp_archive_spec>
+    <comp_archive_spec compclass="esp" compname="dart">
+      <rest_file_extension>r</rest_file_extension>
+      <rest_file_extension>rh\d?</rest_file_extension>
+      <hist_file_extension>[ei]</hist_file_extension>
+      <rest_history_varname>restart_hist</rest_history_varname>
+      <rpointer>
+        <rpointer_file>rpointer.unset</rpointer_file>
+        <rpointer_content>unset</rpointer_content>
+      </rpointer>
+      <test_file_names>
+        <tfile disposition="copy">casename.dart.r.1976-01-01-00000.nc</tfile>
+        <tfile disposition="copy">casename.dart.rh.pop_preassim_priorinf_mean.1976-01-01-00000.nc</tfile>
+        <tfile disposition="copy">casename.dart.rh.cam_preassim_priorinf_mean.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.dart.e.cam_postassim_mean.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.dart.i.cam_output_mean.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.dart.e.cam_obs_seq_final.1976-01-01-00000.nc</tfile>
+      </test_file_names>
+    </comp_archive_spec>
+  </components>
+</file>
