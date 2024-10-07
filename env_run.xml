@@ -276,14 +276,14 @@
       Run start time-of-day, units are seconds with values from 0 to 86400.
     </desc>
     </entry>
-    <entry id="STOP_OPTION" value="ndays">
+    <entry id="STOP_OPTION" value="nyears">
       <type>char</type>
       <valid_values>none,never,nsteps,nseconds,nminutes,nhours,ndays,nmonths,nyears,date,end</valid_values>
       <desc>
       Sets the run length along with STOP_N and STOP_DATE
     </desc>
     </entry>
-    <entry id="STOP_N" value="5">
+    <entry id="STOP_N" value="2">
       <type>integer</type>
       <desc>
       Provides a numerical count for $STOP_OPTION.
@@ -380,7 +380,7 @@
       A setting of TRUE implies a continuation run for mediator only
     </desc>
     </entry>
-    <entry id="RESUBMIT" value="0">
+    <entry id="RESUBMIT" value="10">
       <type>integer</type>
       <desc>If RESUBMIT is greater than 0, then case will automatically resubmit
     Enables the model to automatically resubmit a new run.  To get
