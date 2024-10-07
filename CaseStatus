@@ -18,3 +18,5 @@
  ---------------------------------------------------
 2024-10-07 13:52:18: xmlchange success <command> ./xmlchange CHARGE_ACCOUNT=CESM0023  </command>
  ---------------------------------------------------
+2024-10-07 13:52:34: xmlchange success <command> ./xmlchange --append CAM_CONFIG_OPTS=-rad rrtmgp  </command>
+ ---------------------------------------------------

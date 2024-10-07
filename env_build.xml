@@ -340,7 +340,7 @@
       <valid_values>eul,fv,fv3,se,mpas</valid_values>
       <desc>CAM dynamical core</desc>
     </entry>
-    <entry id="CAM_CONFIG_OPTS" value="-phys cam7 -nlev 58 -model_top lt">
+    <entry id="CAM_CONFIG_OPTS" value="-phys cam7 -nlev 58 -model_top lt -rad rrtmgp">
       <type>char</type>
       <valid_values/>
       <desc>
