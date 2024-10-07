@@ -32,3 +32,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
+./xmlchange CHARGE_ACCOUNT=CESM0023
+
