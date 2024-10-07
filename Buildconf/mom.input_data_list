@@ -1,0 +1,7 @@
+ocean_hgrid = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/ocean_hgrid_221123.nc
+ocean_vgrid1 = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/vgrid_65L_20200626.nc
+ocean_topog = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/ocean_topog_230413.nc
+saltrestore = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/state_restore_tx2_3_20230416.nc
+ocean_seaw = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/seawifs-clim-1997-2010-tx2_3v2.230416.nc
+cfcs_forcing = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/cfc_atm_20230310.nc
+diag_coord_def_rho2 = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/ocean_rho2_190917.nc

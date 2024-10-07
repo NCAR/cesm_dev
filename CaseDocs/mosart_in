@@ -1,0 +1,23 @@
+&mosart_inparm
+  budget_frq = -24
+  bypass_routing_option = "direct_to_outlet"
+  coupling_period = 10800
+  decomp_option = "roundrobin"
+  delt_mosart = 3600
+  fexcl1 = ""
+  fexcl2 = ""
+  fexcl3 = ""
+  fincl1 = ""
+  fincl2 = ""
+  fincl3 = ""
+  finidat = "b.e23_alpha17f.BLT1850.ne30_t232.098.mosart.r.0201-01-01-00000.nc"
+  frivinp = "/glade/campaign/cesm/cesmdata/inputdata/rof/mosart/MOSART_routing_Global_0.5x0.5_c170601.nc"
+  ice_runoff = .true.
+  mfilt = 1
+  mosart_euler_calc = "T:F"
+  mosart_tracers = "LIQ:ICE"
+  ndens = 1
+  nhtfrq = 0
+  qgwl_runoff_option = "negative"
+  use_halo_option = .false.
+/

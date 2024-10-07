@@ -783,7 +783,7 @@
     </entry>
     <entry id="PIO_TYPENAME">
       <type>char</type>
-      <valid_values>netcdf,pnetcdf,netcdf4p,netcdf4c,default</valid_values>
+      <valid_values>netcdf,netcdf4p,netcdf4c,pnetcdf,nothing</valid_values>
       <desc>pio io type</desc>
       <values>
         <value compclass="ATM">pnetcdf</value>

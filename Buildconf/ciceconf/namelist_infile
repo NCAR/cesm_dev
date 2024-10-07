@@ -1,0 +1,145 @@
+&comp_inparm 
+
+
+
+histfreq = 'm','d','x','x','x'
+
+histfreq_n = 1,1,1,1,1
+
+dumpfreq = 'x','x','x','x','x'
+
+
+
+grid_ice = 'C'
+
+congel_freeze = 'one-step'
+
+tr_snow = .true.
+
+snwgrain= .false.
+
+use_smliq_pnd = .false.
+
+snwredist = "snwITDrdg"
+
+tr_pond_sealvl = .true.
+
+tr_pond_lvl = .false.
+
+frzpnd = 'hlid'
+
+tscale_pnd_drain = 0.5
+
+rfracmin = 1.0
+
+rfracmax = 1.0
+
+
+
+f_albpnd = 'mdxxx'
+
+f_albsno = 'mdxxx'
+
+f_albice = 'mdxxx'
+
+f_fswdn = 'mdxxx'
+
+f_fswabs = 'mdxxx'
+
+f_apond = 'mdxxx'
+
+f_hpond = 'mdxxx'
+
+f_apondn = 'mdxxx'
+
+f_hpondn = 'mdxxx'
+
+f_apeff = 'mdxxx'
+
+f_apeffn = 'mdxxx'
+
+f_fresh = 'mxxxx'
+
+f_fresh_ai = 'mxxxx'
+
+f_aice = 'mdxxx'
+
+f_hi = 'mdxxx'
+
+f_hs = 'mdxxx'
+
+f_meltt = 'mdxxx'
+
+f_melts = 'mdxxx'
+
+f_meltl = 'mdxxx'
+
+f_meltb = 'mdxxx'
+
+f_congel = 'mdxxx'
+
+f_snoice = 'mdxxx'
+
+f_frazil = 'mdxxx'
+
+f_fsalt = 'mdxxx'
+
+f_fsalt_ai = 'mdxxx'
+
+f_fresh = 'mdxxx'
+
+f_fresh_ai = 'mdxxx'
+
+f_smassice = 'mdxxx'
+
+f_smassliq = 'mdxxx'
+
+f_rhos_cmp = 'mdxxx'
+
+f_rhos_cnt = 'mdxxx'
+
+f_rsnw = 'mdxxx'
+
+f_rsnwn = 'mdxxx'
+
+f_meltsliq = 'mdxxx'
+
+f_fsloss = 'mdxxx'
+
+f_snowfrac = "mdxxx"
+
+f_snowfracn = "mdxxx"
+
+f_aicen = 'mdxxx'
+
+f_vicen = 'mdxxx'
+
+f_vsnon = 'mdxxx'
+
+f_flpnd = 'mdxxx'
+
+f_expnd = 'mdxxx'
+
+f_frpnd = 'mdxxx'
+
+f_rfpnd = 'mdxxx'
+
+f_rdpnd = 'mdxxx'
+
+f_ilpnd = 'mdxxx'
+
+f_mipnd = 'mdxxx'
+
+f_flpndn = 'mdxxx'
+
+f_expndn = 'mdxxx'
+
+f_frpndn = 'mdxxx'
+
+f_rfpndn = 'mdxxx'
+
+f_ilpndn = 'mdxxx'
+
+f_CMIP = 'mdxxx'
+
+/ 
