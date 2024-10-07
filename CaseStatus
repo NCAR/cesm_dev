@@ -26,3 +26,5 @@
  ---------------------------------------------------
 2024-10-07 13:53:40: xmlchange success <command> ./xmlchange CHARGE_ACCOUNT=CESM0023  </command>
  ---------------------------------------------------
+2024-10-07 13:53:56: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
