@@ -20,4 +20,24 @@
 ! Parameters:
 !---------------------------------------------------------------------
 
+REMAP_VEL_CONSERVE_KE = True
 
+MAXTRUNC = 1000
+
+! Bill's changes
+CEMP_NL = 2.0
+WAVE_METHOD = SURFACE_BANDS
+SURFBAND_SOURCE = COUPLER
+STOKES_DDT = True
+STOKES_VF = True
+STOKES_PGF = True
+STK_BAND_COUPLER = 3      ;    4
+SURFBAND_WAVENUMBERS = 0.04, 0.11, 0.33
+
+GUST_CONST = 0.0004  ! ~0.5 m/s wind ;  was 0.02,  ~ 3.7 m/s wind
+
+FPMIX = True
+
+KPP%
+STOKES_MOST = True                       ! default = False
+%KPP

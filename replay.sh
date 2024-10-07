@@ -16,3 +16,11 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_WALLCLOCK_TIME=01:00:00 --subgroup case.st_archive
 
+./pelayout
+
+./pelayout
+
+./pelayout
+
+./xmlchange RUN_REFCASE=b.e23_alpha17f.BLT1850.ne30_t232.098
+

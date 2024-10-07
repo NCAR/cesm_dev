@@ -6,3 +6,5 @@
  ---------------------------------------------------
 2024-10-03 15:24:21: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=01:00:00 --subgroup case.st_archive  </command>
  ---------------------------------------------------
+2024-10-07 13:51:42: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e23_alpha17f.BLT1850.ne30_t232.098  </command>
+ ---------------------------------------------------
