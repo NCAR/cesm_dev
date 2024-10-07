@@ -36,3 +36,7 @@ cd "${CASEDIR}"
 
 ./xmlchange --append CAM_CONFIG_OPTS="-rad rrtmgp"
 
+./case.setup --reset
+
+./xmlchange CHARGE_ACCOUNT=CESM0023
+
