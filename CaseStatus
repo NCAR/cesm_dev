@@ -94,3 +94,7 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
  ---------------------------------------------------
 2024-10-08 09:42:09: model execution success 6294407.desched1
  ---------------------------------------------------
+2024-10-08 09:42:11: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run/med.log.6294407.desched1.241008-092856 
+ 
+ ---------------------------------------------------
