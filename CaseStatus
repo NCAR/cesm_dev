@@ -100,3 +100,8 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
  ---------------------------------------------------
 2024-10-08 11:06:53: case.build starting 
  ---------------------------------------------------
+2024-10-08 11:07:00: case.build error 
+ERROR: For your changes to take effect, run:
+./case.build --clean-all
+./case.build
+ ---------------------------------------------------
