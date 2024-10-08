@@ -105,3 +105,5 @@ ERROR: For your changes to take effect, run:
 ./case.build --clean-all
 ./case.build
  ---------------------------------------------------
+2024-10-08 11:07:11: build.clean starting 
+ ---------------------------------------------------
