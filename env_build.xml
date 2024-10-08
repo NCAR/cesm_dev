@@ -317,7 +317,7 @@
       <valid_values/>
       <desc>Status: ninst status of current case, coded string (DO NOT EDIT)</desc>
     </entry>
-    <entry id="BUILD_STATUS" value="1">
+    <entry id="BUILD_STATUS" value="0">
       <type>integer</type>
       <valid_values>0,1,2</valid_values>
       <desc>Status: of prior build. (DO NOT EDIT)</desc>
