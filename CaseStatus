@@ -92,3 +92,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
  ---------------------------------------------------
 2024-10-08 09:37:28: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
  ---------------------------------------------------
+2024-10-08 09:42:09: model execution success 6294407.desched1
+ ---------------------------------------------------
