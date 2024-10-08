@@ -4,6 +4,8 @@
         within CASEROOT.*/
 #override REMAP_VEL_CONSERVE_KE = True
 #override MAXTRUNC = 1000
+#override MIN_SALINITY = 1.e-06
+#override USE_CFC_CAP = True
 CEMP_NL = 2.0
 !!! WAVE_METHOD = SURFACE_BANDS !(UNCHANGED)
 !!! SURFBAND_SOURCE = COUPLER !(UNCHANGED)

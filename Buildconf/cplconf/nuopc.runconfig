@@ -1,3 +1,77 @@
+ALLCOMP_attributes::
+     ATM_model = cam
+     GLC_model = dglc
+     ICE_model = cice
+     LND_model = clm
+     MED_model = cesm
+     OCN_model = mom
+     Profiling = 0
+     ROF_model = mosart
+     ScalarFieldCount = 4
+     ScalarFieldIdxGridNX = 1
+     ScalarFieldIdxGridNY = 2
+     ScalarFieldIdxNextSwCday = 3
+     ScalarFieldIdxPrecipFactor = 0
+     ScalarFieldName = cpl_scalars
+     WAV_model = ww3
+     brnch_retain_casename = .false.
+     case_desc = UNSET
+     case_name = b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112
+     cism_evolve = .false.
+     coldair_outbreak_mod = .true.
+     data_assimilation_atm = .false.
+     data_assimilation_cpl = .false.
+     data_assimilation_glc = .false.
+     data_assimilation_ice = .false.
+     data_assimilation_lnd = .false.
+     data_assimilation_ocn = .false.
+     data_assimilation_rof = .false.
+     data_assimilation_wav = .false.
+     flds_bgc_oi = .false.
+     flds_brf = .false.
+     flds_co2a = .true.
+     flds_co2b = .false.
+     flds_co2c = .false.
+     flds_dms = .false.
+     flds_i2o_per_cat = .false.
+     flds_n2o = .false.
+     flds_nh3 = .false.
+     flds_r2l_stream_channel_depths = .false.
+     flds_wiso = .false.
+     flux_convergence = 0.01
+     flux_max_iteration = 5
+     glc_nec = 10
+     histaux_l2x1yrg = .true
+     histaux_wav2med_file1_enabled = .false.
+     history_n = -999
+     history_option = never
+     hostname = derecho
+     ice_ncat = 5
+     mediator_present = true
+     mesh_atm = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/ne30pg3_ESMFmesh_cdf5_c20211018.nc
+     mesh_glc = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/greenland_4km_epsg3413_c170414_ESMFmesh_c20190729.nc
+     mesh_ice = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/tx2_3v2_230415_ESMFmesh.nc
+     mesh_lnd = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/ne30pg3_ESMFmesh_cdf5_c20211018.nc
+     mesh_mask = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/tx2_3v2_230415_ESMFmesh.nc
+     mesh_ocn = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/tx2_3v2_230415_ESMFmesh.nc
+     model_version = unknown
+     ocn2glc_coupling = .false.
+     orb_eccen = 1.e36
+     orb_iyear = 1850
+     orb_iyear_align = 1850
+     orb_mode = fixed_year
+     orb_mvelp = 1.e36
+     orb_obliq = 1.e36
+     scol_lat = -999.99
+     scol_lon = -999.99
+     single_column_lnd_domainfile = UNSET
+     start_type = startup
+     tfreeze_option = linear_salt
+     username = gmarques
+     wav_coupling_to_cice = .false.
+     write_restart_at_endofrun = .false.
+::
+
 DRIVER_attributes::
      Verbosity = off
      cime_model = cesm
@@ -70,80 +144,6 @@ PELAYOUT_attributes::
 ::
 
 component_list: MED ATM LND ICE OCN ROF GLC WAV
-ALLCOMP_attributes::
-     ATM_model = cam
-     GLC_model = dglc
-     ICE_model = cice
-     LND_model = clm
-     MED_model = cesm
-     OCN_model = mom
-     Profiling = 0
-     ROF_model = mosart
-     ScalarFieldCount = 4
-     ScalarFieldIdxGridNX = 1
-     ScalarFieldIdxGridNY = 2
-     ScalarFieldIdxNextSwCday = 3
-     ScalarFieldIdxPrecipFactor = 0
-     ScalarFieldName = cpl_scalars
-     WAV_model = ww3
-     brnch_retain_casename = .false.
-     case_desc = UNSET
-     case_name = b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112
-     cism_evolve = .false.
-     coldair_outbreak_mod = .true.
-     data_assimilation_atm = .false.
-     data_assimilation_cpl = .false.
-     data_assimilation_glc = .false.
-     data_assimilation_ice = .false.
-     data_assimilation_lnd = .false.
-     data_assimilation_ocn = .false.
-     data_assimilation_rof = .false.
-     data_assimilation_wav = .false.
-     flds_bgc_oi = .false.
-     flds_brf = .false.
-     flds_co2a = .true.
-     flds_co2b = .false.
-     flds_co2c = .false.
-     flds_dms = .false.
-     flds_i2o_per_cat = .false.
-     flds_n2o = .false.
-     flds_nh3 = .false.
-     flds_r2l_stream_channel_depths = .false.
-     flds_wiso = .false.
-     flux_convergence = 0.01
-     flux_max_iteration = 5
-     glc_nec = 10
-     histaux_l2x1yrg = .false.
-     histaux_wav2med_file1_enabled = .false.
-     history_n = -999
-     history_option = never
-     hostname = derecho
-     ice_ncat = 5
-     mediator_present = true
-     mesh_atm = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/ne30pg3_ESMFmesh_cdf5_c20211018.nc
-     mesh_glc = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/greenland_4km_epsg3413_c170414_ESMFmesh_c20190729.nc
-     mesh_ice = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/tx2_3v2_230415_ESMFmesh.nc
-     mesh_lnd = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/ne30pg3_ESMFmesh_cdf5_c20211018.nc
-     mesh_mask = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/tx2_3v2_230415_ESMFmesh.nc
-     mesh_ocn = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/tx2_3v2_230415_ESMFmesh.nc
-     model_version = unknown
-     ocn2glc_coupling = .false.
-     orb_eccen = 1.e36
-     orb_iyear = 1850
-     orb_iyear_align = 1850
-     orb_mode = fixed_year
-     orb_mvelp = 1.e36
-     orb_obliq = 1.e36
-     scol_lat = -999.99
-     scol_lon = -999.99
-     single_column_lnd_domainfile = UNSET
-     start_type = startup
-     tfreeze_option = linear_salt
-     username = gmarques
-     wav_coupling_to_cice = .false.
-     write_restart_at_endofrun = .false.
-::
-
 MED_attributes::
      Verbosity = off
      add_gusts = .true.
@@ -344,7 +344,7 @@ WAV_attributes::
 
 MED_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run
-     logfile = med.log.6288588.desched1.241007-152103
+     logfile = med.log.241007-204743
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -356,7 +356,7 @@ MED_modelio::
 
 ATM_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run
-     logfile = atm.log.6288588.desched1.241007-152103
+     logfile = atm.log.241007-204743
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -368,7 +368,7 @@ ATM_modelio::
 
 LND_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run
-     logfile = lnd.log.6288588.desched1.241007-152103
+     logfile = lnd.log.241007-204743
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -380,7 +380,7 @@ LND_modelio::
 
 ICE_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run
-     logfile = ice.log.6288588.desched1.241007-152103
+     logfile = ice.log.241007-204743
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -392,7 +392,7 @@ ICE_modelio::
 
 OCN_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run
-     logfile = ocn.log.6288588.desched1.241007-152103
+     logfile = ocn.log.241007-204743
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -404,7 +404,7 @@ OCN_modelio::
 
 ROF_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run
-     logfile = rof.log.6288588.desched1.241007-152103
+     logfile = rof.log.241007-204743
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -416,7 +416,7 @@ ROF_modelio::
 
 GLC_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run
-     logfile = glc.log.6288588.desched1.241007-152103
+     logfile = glc.log.241007-204743
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -428,7 +428,7 @@ GLC_modelio::
 
 WAV_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run
-     logfile = wav.log.6288588.desched1.241007-152103
+     logfile = wav.log.241007-204743
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -440,7 +440,7 @@ WAV_modelio::
 
 ESP_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run
-     logfile = esp.log.6288588.desched1.241007-152103
+     logfile = esp.log.241007-204743
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -452,6 +452,6 @@ ESP_modelio::
 
 DRV_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run
-     logfile = drv.log.6288588.desched1.241007-152103
+     logfile = drv.log.241007-204743
 ::
 

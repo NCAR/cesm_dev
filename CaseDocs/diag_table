@@ -40,6 +40,8 @@
 "ocean_model_rho2", "thetao",  "thetao",  "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_rho2", "so",      "so",      "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_rho2", "agessc",  "agessc",  "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "cfc11",   "cfc11",   "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "cfc12",   "cfc12",   "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 
 # "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.native%4yr-%2mo"
 "ocean_model", "soga",         "soga",         "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
@@ -116,6 +118,10 @@
 "ocean_model", "Rd_dx",        "Rd_dx",        "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "speed",        "speed",        "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "mlotst",       "mlotst",       "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "cfc11_flux",   "cfc11_flux",   "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "cfc12_flux",   "cfc12_flux",   "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "ice_fraction", "ice_fraction", "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "u10_sqr",      "u10_sqr",      "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 
 # "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.z%4yr-%2mo"
 "ocean_model_z", "uo",      "uo",      "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
@@ -133,6 +139,8 @@
 "ocean_model_z", "umo",     "umo",     "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_z", "uhGM",    "uhGM",    "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_z", "uhml",    "uhml",    "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "cfc11",   "cfc11",   "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "cfc12",   "cfc12",   "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 
 # "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.sfc%4yr-%2mo"
 "ocean_model", "SSH",          "SSH",          "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
