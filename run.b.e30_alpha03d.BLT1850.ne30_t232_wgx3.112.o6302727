@@ -2,3 +2,44 @@
 /glade/u/home/gmarques/.bashrc: line 9: bind: warning: line editing not enabled
 /glade/u/home/gmarques/.bashrc: line 8: bind: warning: line editing not enabled
 /glade/u/home/gmarques/.bashrc: line 9: bind: warning: line editing not enabled
+Generating namelists for /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112
+  2024-10-09 10:47:08 atm 
+Create namelist for component cam
+   Calling /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/Buildconf/camconf/atm_in file2 /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run/atm_in 
+  2024-10-09 10:47:09 lnd 
+Create namelist for component clm
+   Calling /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice/components/clm//cime_config/buildnml
+  2024-10-09 10:47:10 ice 
+Create namelist for component cice
+   Calling /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice/components/cice//cime_config/buildnml
+RUN: /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice/components/cice/bld/generate_cice_decomp.pl -ccsmroot /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice -res tx2_3v2 -nx 540 -ny 480 -nproc 1152 -thrds 1 -output all 
+FROM: /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112
+  output: 540 480 6 6 7 sectrobin square-ice
+
+  2024-10-09 10:47:11 ocn 
+Create namelist for component mom
+   Calling /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice/components/mom//cime_config/buildnml
+  2024-10-09 10:47:12 rof 
+Create namelist for component mosart
+   Calling /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice/components/mosart//cime_config/buildnml
+  2024-10-09 10:47:12 glc 
+Create namelist for component dglc
+   Calling /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice/components/cdeps/dglc/cime_config/buildnml
+  2024-10-09 10:47:14 wav 
+Create namelist for component ww3
+   Calling /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice/components/ww3//cime_config/buildnml
+   Running /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice/components/ww3//cime_config/buildnml 
+  2024-10-09 10:47:14 esp 
+Create namelist for component sesp
+   Calling /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice/cime/CIME/non_py/src/components/stub_comps_nuopc/sesp/cime_config/buildnml
+  2024-10-09 10:47:14 cpl 
+Create namelist for component drv
+   Calling /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha03d_cice/components/cmeps/cime_config/buildnml
+Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF', 'GLC', 'WAV']
+-------------------------------------------------------------------------
+ - Prestage required restarts into /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run
+ - Case input data directory (DIN_LOC_ROOT) is /glade/campaign/cesm/cesmdata/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/bld/cesm.exe   >> cesm.log.$LID 2>&1  
