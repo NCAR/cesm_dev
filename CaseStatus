@@ -435,3 +435,5 @@ ERROR: For your changes to take effect, run:
  ---------------------------------------------------
 2024-10-14 06:08:07: st_archive success 6328731.desched1
  ---------------------------------------------------
+2024-10-14 13:39:03: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
+ ---------------------------------------------------
