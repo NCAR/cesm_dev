@@ -511,3 +511,5 @@ CESM0002, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2024-10-15 11:11:09: xmlchange success <command> ./xmlchange PROJECT=P93300012  </command>
  ---------------------------------------------------
+2024-10-15 11:11:30: case.submit starting 6337168.desched1
+ ---------------------------------------------------
