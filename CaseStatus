@@ -499,3 +499,13 @@ NCGD0011, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2024-10-15 11:10:12: case.submit starting 
  ---------------------------------------------------
+2024-10-15 11:10:14: case.submit error 
+ERROR: Command: 'qsub -q main -l walltime=12:00:00 -A P93300612 -l job_priority=regular -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/.case.run' failed with error 'qsub: Account is in state: Overspent 
+ available accounts:
+Project, Status, Active
+P93300012, Normal, True
+CESM0023, Normal, True
+P93300612, Overspent, True
+NCGD0011, Normal, True
+CESM0002, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112'
+ ---------------------------------------------------
