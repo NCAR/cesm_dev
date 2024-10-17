@@ -1,0 +1,88 @@
+---------------- TIMING PROFILE ---------------------
+  Case        : b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112
+  LID         : 6343483.desched1.241016-161643
+  Machine     : derecho
+  Caseroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112
+  Timeroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/Tools
+  User        : gmarques
+  Curr Date   : Wed Oct 16 21:59:53 2024
+  Driver      : CMEPS
+  grid        : a%ne30np4.pg3_l%ne30np4.pg3_oi%tx2_3v2_r%r05_g%gris4_w%wgx3v7_z%null_m%tx2_3v2
+  compset     : 1850_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP
+  run type    : hybrid, continue_run = TRUE (inittype = FALSE)
+  stop option : nyears, stop_n = 2
+  run length  : 730 days (730.0 for ocean)
+
+  component       comp_pes    root_pe   tasks  x threads instances (stride) 
+  ---------        ------     -------   ------   ------  ---------  ------  
+  cpl = cpl        1920        0        1920   x 1       1      (1     ) 
+  atm = cam        1920        0        1920   x 1       1      (1     ) 
+  lnd = clm        512         0        512    x 1       1      (1     ) 
+  ice = cice       1152        512      1152   x 1       1      (1     ) 
+  ocn = mom        512         1920     512    x 1       1      (1     ) 
+  rof = mosart     512         0        512    x 1       1      (1     ) 
+  glc = dglc       32          0        32     x 1       1      (1     ) 
+  wav = ww3        144         1664     144    x 1       1      (1     ) 
+  esp = sesp       1           0        1      x 1       1      (1     ) 
+
+  total pes active           : 2432 
+  mpi tasks per node         : 128 
+  pe count for cost estimate : 2432 
+
+  Overall Metrics: 
+    Model Cost:            6816.61   pe-hrs/simulated_year 
+    Model Throughput:         8.56   simulated_years/day 
+
+    Init Time   :     250.679 seconds 
+    Run Time    :   20180.766 seconds       27.645 seconds/day 
+    Final Time  :      16.003 seconds 
+
+
+Runs Time in total seconds, seconds/model-day, and model-years/wall-day 
+CPL Run Time represents time in CPL pes alone, not including time associated with data exchange with other components 
+
+    TOT Run Time:   20180.766 seconds       27.645 seconds/mday         8.56 myears/wday 
+    CPL Run Time:    1350.312 seconds        1.850 seconds/mday       127.97 myears/wday 
+    ATM Run Time:   13652.852 seconds       18.703 seconds/mday        12.66 myears/wday 
+    LND Run Time:    2046.184 seconds        2.803 seconds/mday        84.45 myears/wday 
+    ICE Run Time:    4159.962 seconds        5.699 seconds/mday        41.54 myears/wday 
+    OCN Run Time:   15553.461 seconds       21.306 seconds/mday        11.11 myears/wday 
+    ROF Run Time:      38.836 seconds        0.053 seconds/mday      4449.46 myears/wday 
+    GLC Run Time:       0.957 seconds        0.001 seconds/mday    180507.68 myears/wday 
+    WAV Run Time:    3238.082 seconds        4.436 seconds/mday        53.36 myears/wday 
+    ESP Run Time:       0.000 seconds        0.000 seconds/mday         0.00 myears/wday 
+    CPL COMM Time:   2883.215 seconds        3.950 seconds/mday        59.93 myears/wday 
+   NOTE: min:max driver timers (seconds/day):   
+                            CPL (pes 0 to 1919) 
+                                                ATM (pes 0 to 1919) 
+                                                LND (pes 0 to 511) 
+                                                          ICE (pes 512 to 1663) 
+                                                                                       OCN (pes 1920 to 2431) 
+                                                ROF (pes 0 to 511) 
+                                                GLC (pes 0 to 31) 
+                                                                                  WAV (pes 1664 to 1807) 
+                                                ESP (pes 0 to 0) 
+
+
+
+More info on coupler timing:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
