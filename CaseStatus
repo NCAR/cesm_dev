@@ -625,3 +625,5 @@ CESM0002, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2024-10-17 13:31:13: xmlchange success <command> ./xmlchange RESUBMIT=18  </command>
  ---------------------------------------------------
+2024-10-17 13:31:33: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
+ ---------------------------------------------------
