@@ -645,3 +645,5 @@ CESM0002, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2024-10-17 20:02:45: case.submit starting 6358150.desched1
  ---------------------------------------------------
+2024-10-17 20:02:47: case.submit success 6358150.desched1
+ ---------------------------------------------------
