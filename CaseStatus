@@ -733,3 +733,5 @@ CESM0002, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2024-10-19 12:55:10: model execution success 6366552.desched1
  ---------------------------------------------------
+2024-10-19 12:55:13: case.run success 6366552.desched1
+ ---------------------------------------------------
