@@ -380,7 +380,7 @@
       A setting of TRUE implies a continuation run for mediator only
     </desc>
     </entry>
-    <entry id="RESUBMIT" value="14">
+    <entry id="RESUBMIT" value="13">
       <type>integer</type>
       <desc>If RESUBMIT is greater than 0, then case will automatically resubmit
     Enables the model to automatically resubmit a new run.  To get
