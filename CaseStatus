@@ -845,3 +845,7 @@ CESM0002, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2024-10-21 05:15:05: model execution success 6376394.desched1
  ---------------------------------------------------
+2024-10-21 05:15:07: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run/med.log.6376394.desched1.241021-030957 
+ 
+ ---------------------------------------------------
