@@ -849,3 +849,5 @@ CESM0002, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
 ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112/run/med.log.6376394.desched1.241021-030957 
  
  ---------------------------------------------------
+2024-10-21 07:42:23: xmlchange success <command> ./xmlchange RESUBMIT=4  </command>
+ ---------------------------------------------------
