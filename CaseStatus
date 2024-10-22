@@ -889,3 +889,5 @@ CESM0002, Exceed One Threshold, True' from dir '/glade/campaign/cesm/cesmdata/cs
  ---------------------------------------------------
 2024-10-22 02:26:34: model execution success 6381688.desched1
  ---------------------------------------------------
+2024-10-22 02:26:35: case.run success 6381688.desched1
+ ---------------------------------------------------
