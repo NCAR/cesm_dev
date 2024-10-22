@@ -883,3 +883,5 @@ CESM0002, Exceed One Threshold, True' from dir '/glade/campaign/cesm/cesmdata/cs
  ---------------------------------------------------
 2024-10-21 20:09:21: case.submit success 6381689.desched1
  ---------------------------------------------------
+2024-10-21 20:47:41: case.run starting 6381688.desched1
+ ---------------------------------------------------
