@@ -12,3 +12,5 @@
  ---------------------------------------------------
 2024-12-27 08:35:55: xmlchange success <command> ./xmlchange --append CAM_CONFIG_OPTS=-rad rrtmgp  </command>
  ---------------------------------------------------
+2024-12-27 08:36:11: xmlchange success <command> ./xmlchange STOP_OPTION=nyears,STOP_N=2  </command>
+ ---------------------------------------------------

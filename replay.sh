@@ -20,3 +20,5 @@ cd "${CASEDIR}"
 
 ./xmlchange --append CAM_CONFIG_OPTS="-rad rrtmgp"
 
+./xmlchange STOP_OPTION=nyears,STOP_N=2
+
