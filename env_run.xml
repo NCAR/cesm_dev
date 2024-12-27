@@ -984,12 +984,12 @@
     </entry>
   </group>
   <group id="med_history">
-    <entry id="HIST_OPTION" value="never">
+    <entry id="HIST_OPTION" value="nyears">
       <type>char</type>
       <valid_values>none,never,nsteps,nseconds,nminutes,nhours,ndays,nmonths,nyears,date,end</valid_values>
       <desc>Sets driver snapshot history file frequency (like REST_OPTION)</desc>
     </entry>
-    <entry id="HIST_N" value="-999">
+    <entry id="HIST_N" value="1">
       <type>integer</type>
       <valid_values/>
       <desc>Sets driver snapshot history file frequency (like REST_N)</desc>

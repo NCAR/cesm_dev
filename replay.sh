@@ -22,3 +22,5 @@ cd "${CASEDIR}"
 
 ./xmlchange STOP_OPTION=nyears,STOP_N=2
 
+./xmlchange HIST_OPTION=nyears,HIST_N=1
+

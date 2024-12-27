@@ -14,3 +14,5 @@
  ---------------------------------------------------
 2024-12-27 08:36:11: xmlchange success <command> ./xmlchange STOP_OPTION=nyears,STOP_N=2  </command>
  ---------------------------------------------------
+2024-12-27 08:36:18: xmlchange success <command> ./xmlchange HIST_OPTION=nyears,HIST_N=1  </command>
+ ---------------------------------------------------
