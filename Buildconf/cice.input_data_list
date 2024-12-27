@@ -1,0 +1,3 @@
+grid_file = /glade/work/gmarques/cesm/tx2_3/seaice_files/horiz_grid_20230416.ieeer8
+kmt_file = /glade/work/gmarques/cesm/tx2_3/seaice_files/topography_20230416.ieeei4
+ice_ic = b.e23_alpha17f.BLT1850.ne30_t232.098.cice.r.0201-01-01-00000.nc
