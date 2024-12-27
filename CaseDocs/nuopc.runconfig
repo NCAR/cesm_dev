@@ -347,7 +347,7 @@ WAV_attributes::
 
 MED_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run
-     logfile = med.log.241227-092031
+     logfile = med.log.241227-092116
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -359,7 +359,7 @@ MED_modelio::
 
 ATM_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run
-     logfile = atm.log.241227-092031
+     logfile = atm.log.241227-092116
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -371,7 +371,7 @@ ATM_modelio::
 
 LND_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run
-     logfile = lnd.log.241227-092031
+     logfile = lnd.log.241227-092116
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -383,7 +383,7 @@ LND_modelio::
 
 ICE_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run
-     logfile = ice.log.241227-092031
+     logfile = ice.log.241227-092116
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -395,7 +395,7 @@ ICE_modelio::
 
 OCN_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run
-     logfile = ocn.log.241227-092031
+     logfile = ocn.log.241227-092116
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -407,7 +407,7 @@ OCN_modelio::
 
 ROF_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run
-     logfile = rof.log.241227-092031
+     logfile = rof.log.241227-092116
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -419,7 +419,7 @@ ROF_modelio::
 
 GLC_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run
-     logfile = glc.log.241227-092031
+     logfile = glc.log.241227-092116
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -431,7 +431,7 @@ GLC_modelio::
 
 WAV_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run
-     logfile = wav.log.241227-092031
+     logfile = wav.log.241227-092116
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -443,7 +443,7 @@ WAV_modelio::
 
 ESP_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run
-     logfile = esp.log.241227-092031
+     logfile = esp.log.241227-092116
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -455,6 +455,6 @@ ESP_modelio::
 
 DRV_modelio::
      diro = /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run
-     logfile = drv.log.241227-092031
+     logfile = drv.log.241227-092116
 ::
 
