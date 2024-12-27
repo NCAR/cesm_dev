@@ -24,3 +24,5 @@ cd "${CASEDIR}"
 
 ./xmlchange HIST_OPTION=nyears,HIST_N=1
 
+./case.build
+
