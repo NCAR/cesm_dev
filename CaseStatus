@@ -6,3 +6,5 @@
  ---------------------------------------------------
 2024-12-27 08:35:19:   local git repository created
  ---------------------------------------------------
+2024-12-27 08:35:32: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e23_alpha17f.BLT1850.ne30_t232.098,RUN_REFDATE=0201-01-01,RUN_TYPE=hybrid,GET_REFCASE=true,RUN_REFDIR=cesm2_init,CHARGE_ACCOUNT=CESM0023,REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
