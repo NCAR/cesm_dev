@@ -16,3 +16,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFCASE=b.e23_alpha17f.BLT1850.ne30_t232.098,RUN_REFDATE=0201-01-01,RUN_TYPE=hybrid,GET_REFCASE=true,RUN_REFDIR=cesm2_init,CHARGE_ACCOUNT=CESM0023,REST_OPTION=nyears,REST_N=1
 
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+
