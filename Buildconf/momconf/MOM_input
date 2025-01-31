@@ -138,7 +138,7 @@ CHECK_BAD_SURFACE_VALS = True
                                 ! "[Boolean] default = False
                                 ! If true, check the surface state for ridiculous values."
 
-SAVE_INITIAL_CONDS = True
+SAVE_INITIAL_CONDS = False
                                 ! "[Boolean] default = False
                                 ! If true, write the initial conditions to a file given
                                 ! by IC_OUTPUT_FILE."
@@ -1253,10 +1253,6 @@ VELOCITY_CONFIG = file
 
 VELOCITY_FILE = ./b.e23_alpha17f.BLT1850.ne30_t232.098.mom6.r.0201-01-01-00000.nc
                                 ! The name of the velocity initial condition file.
-
-AGE_IC_FILE = ./b.e23_alpha17f.BLT1850.ne30_t232.098.mom6.r.0201-01-01-00000.nc
-                                ! "The file in which the age-tracer initial values can be found, or an empty
-                                ! string for internal initialization."
 
 KV = 0.0
                                 ! "[m2 s-1]
