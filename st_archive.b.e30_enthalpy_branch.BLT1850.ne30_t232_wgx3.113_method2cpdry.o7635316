@@ -2514,3 +2514,15 @@ Archiving history files for drv (cpl)
 moving /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry.cpl.hi.0008-01-01-00000.nc to /glade/derecho/scratch/gmarques/archive/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/cpl/hist/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry.cpl.hi.0008-01-01-00000.nc 
 moving /glade/derecho/scratch/gmarques/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/run/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry.cpl.hi.0009-01-01-00000.nc to /glade/derecho/scratch/gmarques/archive/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/cpl/hist/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry.cpl.hi.0009-01-01-00000.nc 
 Archiving history files for dart (esp)
+st_archive completed
+resubmitting from st_archive, resubmit=1
+Submitting job 'case.run', resubmit=1
+submit_jobs case.run
+Submit job case.run
+Submitting job script qsub -q main -l walltime=12:00:00 -A P93300012 -l job_priority=regular -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/.case.run
+Submitted job id is 7638678.desched1
+Submit job case.st_archive
+Submitting job script qsub -q develop -l walltime=01:00:00 -A P93300012 -l job_priority=regular  -W depend=afterok:7638678.desched1 -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_enthalpy_branch.BLT1850.ne30_t232_wgx3.113_method2cpdry/case.st_archive
+Submitted job id is 7638679.desched1
+Submitted job case.run with id 7638678.desched1
+Submitted job case.st_archive with id 7638679.desched1
