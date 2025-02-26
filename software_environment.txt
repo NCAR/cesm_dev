@@ -63,7 +63,7 @@ LMOD_FAMILY_COMPILER_VERSION=2023.2.1
 NCAR_SPACK_HASH_NCO=c2uffnxpdeau37kun6ki5kcokuukosdt
 HOSTNAME=derecho2
 LMOD_SYSTEM_DEFAULT_MODULES=ncarenv/23.09:craype/2.7.23:intel/2023.2.1:ncarcompilers/1.0.0:cray-mpich/8.1.27:netcdf/4.9.2
-OLDPWD=/glade/p/cesmdata/cseg/runs/cesm2_0
+OLDPWD=/glade/p/cesmdata/cseg/runs/cesm2_0/b.e30_beta05.BLT1850.ne30_t232_wgx3.127
 NCAR_SPACK_HASH_NCARCOMPILERS=6q5se7pmud3mligoitk5667sdfna44rc
 WRFIO_NCD_LARGE_FILE_SUPPORT=1
 __LMOD_STACK_F77=aWZvcnQ=:aWZvcnQ=:aWZvcnQ=:aWZvcnQ=
