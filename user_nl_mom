@@ -22,6 +22,6 @@ ALE_COORDINATE_CONFIG = "HYBRID:hybrid_75layer_zstar2.50m-2025-02-14.nc,sigma2,d
 MAX_LAYER_THICKNESS_CONFIG = "FILE:dz_max.nc,dz"
 MAXIMUM_INT_DEPTH_CONFIG = "FILE:lev.nc,Z"
 
-THICKNESS_FILE = "/glade/derecho/scratch/gmarques/b.e30_beta05.BLT1850.ne30_t232_wgx3.127/run/INPUT/g.e30_b05.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.043.mom6.r.0016-01-01-00000.nc"
-TS_FILE = "/glade/derecho/scratch/gmarques/b.e30_beta05.BLT1850.ne30_t232_wgx3.127/run/INPUT/g.e30_b05.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.043.mom6.r.0016-01-01-00000.nc"
-VELOCITY_FILE = "/glade/derecho/scratch/gmarques/b.e30_beta05.BLT1850.ne30_t232_wgx3.127/run/INPUT/g.e30_b05.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.043.mom6.r.0016-01-01-00000.nc"
+THICKNESS_FILE = "/glade/derecho/scratch/gmarques/b.e30_beta05.BLT1850.ne30_t232_wgx3.129/run/INPUT/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.050.mom6.r.0016-01-01-00000.nc"
+TS_FILE = "/glade/derecho/scratch/gmarques/b.e30_beta05.BLT1850.ne30_t232_wgx3.129/run/INPUT/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.050.mom6.r.0016-01-01-00000.nc"
+VELOCITY_FILE = "/glade/derecho/scratch/gmarques/b.e30_beta05.BLT1850.ne30_t232_wgx3.129/run/INPUT/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.050.mom6.r.0016-01-01-00000.nc"
