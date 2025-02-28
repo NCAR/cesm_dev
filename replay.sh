@@ -2,11 +2,11 @@
 
 set -e
 
-# Created 2024-08-30 15:14:09
+# Created 2024-11-11 16:02:10
 
-CASEDIR="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta02.BLT1850.ne30_t232.110"
+CASEDIR="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLT1850.ne30_t232_wgx3.116"
 
-/glade/work/hannay/cesm_tags/cesm3_0_beta02/cime/scripts/create_newcase --compset BLT1850 --res ne30pg3_t232 --case "${CASEDIR}" --run-unsupported --project 93300722
+/glade/work/hannay/cesm_tags/cesm3_0_beta04/cime/scripts/create_newcase --compset 1850_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP --res ne30pg3_t232_wg37 --case "${CASEDIR}" --run-unsupported --project 93300722
 
 cd "${CASEDIR}"
 
@@ -26,13 +26,21 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
-./xmlchange MOM6_VERTICAL_GRID=hycom1
+./xmlchange RUN_REFCASE=b.e23_alpha17f.BLT1850.ne30_t232.098
 
-./preview_namelists
+./xmlchange RUN_REFDATE=0201-01-01
+
+./xmlchange RUN_TYPE=hybrid
+
+./xmlchange GET_REFCASE=true
+
+./xmlchange RUN_REFDIR=cesm2_init
 
 ./preview_namelists
 
 ./case.build
+
+./preview_namelists
 
 ./xmlchange PROJECT=CESM0023,RESUBMIT=10,STOP_N=2,STOP_OPTION=nyears
 
@@ -44,13 +52,15 @@ cd "${CASEDIR}"
 
 ./case.submit
 
-./preview_namelists
+./case.submit
 
-./preview_namelists
-
-./preview_namelists
-
-./preview_namelists
+./case.build
 
 ./case.submit
+
+./xmlchange RESUBMIT=12
+
+./case.submit
+
+./xmlchange RESUBMIT=19
 

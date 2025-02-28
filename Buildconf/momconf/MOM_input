@@ -55,12 +55,6 @@ USE_LEGACY_DIABATIC_DRIVER = False
                                 ! If true, use the a legacy version of the diabatic subroutine.
                                 ! This is temporary and is needed avoid change in answers."
 
-DIABATIC_FIRST = True
-                                ! "[Boolean] default = False
-                                ! If true, apply diabatic and thermodynamic processes,
-                                ! including buoyancy forcing and mass gain or loss,
-                                ! before stepping the dynamics forward."
-
 USE_REGRIDDING = True
                                 ! "[Boolean] default = False
                                 ! If True, use the ALE algorithm (regridding/remapping).
@@ -144,7 +138,7 @@ CHECK_BAD_SURFACE_VALS = True
                                 ! "[Boolean] default = False
                                 ! If true, check the surface state for ridiculous values."
 
-SAVE_INITIAL_CONDS = True
+SAVE_INITIAL_CONDS = False
                                 ! "[Boolean] default = False
                                 ! If true, write the initial conditions to a file given
                                 ! by IC_OUTPUT_FILE."
@@ -172,6 +166,10 @@ USE_CFC_CAP = False
 CFC_BC_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/cfc_atm_20230310.nc
                                 ! "The file in which the CFC-11 and CFC-12 atm concentrations can be found (units
                                 ! must be parts per trillion)."
+
+USE_MARBL_TRACERS = False
+                                ! "[Boolean] default = False
+                                ! If true, use the MARBL tracer package."
 
 REMAP_UV_USING_OLD_ALG = False
                                 ! "[Boolean] default = True
@@ -256,6 +254,12 @@ REMAPPING_SCHEME = PPM_CW
                                 ! PQM_IH4IH3  (4th-order accurate)
                                 ! PQM_IH6IH5  (5th-order accurate)"
 
+REMAP_VEL_CONSERVE_KE = True
+                                ! "[Boolean] default = False
+                                ! If true, a correction is applied to the baroclinic component of velocity after
+                                ! remapping so that total KE is conserved. KE may not be conserved when
+                                ! (CS%BBL_h_vel_mask > 0.0) .and. (CS%h_vel_mask > 0.0)"
+
 INIT_LAYERS_FROM_Z_FILE = False
                                 ! "[Boolean] default = False
                                 ! If true, intialize the layer thicknesses, temperatures,
@@ -281,6 +285,11 @@ Z_INIT_REMAP_OLD_ALG = False
                                 ! "[Boolean] default = True
                                 ! If false, uses the preferred remapping algorithm for initialization. If true,
                                 ! use an older, less robust algorithm for remapping."
+
+Z_INIT_REMAP_GENERAL = True
+                                ! "[Boolean] default = False
+                                ! If false, only initializes to z* coordinates. If true, allows initialization
+                                ! directly to general coordinates."
 
 USE_VARIABLE_MIXING = True
                                 ! "[Boolean] default = False
@@ -414,7 +423,7 @@ ALE_COORDINATE_CONFIG = "HYBRID:hybrid_75layer_zstar2.50m-2020-11-23.nc,sigma2,d
                                 ! by a comma or space, for sigma-2 and dz. e.g.
                                 ! HYBRID:vgrid.nc,sigma2,dz"
 
-REGRID_COMPRESSIBILITY_FRACTION = 0.01
+REGRID_COMPRESSIBILITY_FRACTION = 0.0
                                 ! "[not defined] default = 0.0
                                 ! When interpolating potential density profiles we can add
                                 ! some artificial compressibility solely to make homogenous
@@ -432,7 +441,8 @@ MAXIMUM_INT_DEPTH_CONFIG = "FNC1:5,8000.0,1.0,.01"
                                 ! FNC1:string - FNC1:dz_min,H_total,power,precision
                                 ! The list of maximum depths for each interface."
 
-MAX_LAYER_THICKNESS_CONFIG = "FNC1:400,31000.0,0.1,.01"
+MAX_LAYER_THICKNESS_CONFIG = '"FILE:/glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/dz_max_90th_quantile.nc,dz"'
+
                                 ! "default = 'NONE'
                                 ! Determines how to specify the maximum layer thicknesses.
                                 ! Valid options are:
@@ -676,6 +686,16 @@ KHTH = 0.0
                                 ! "[m2 s-1] default = 0.0
                                 ! The background horizontal thickness diffusivity."
 
+KHTH_MIN = 50.0
+                                ! "[m2 s-1] default = 0.0
+                                ! The minimum horizontal thickness diffusivity"
+
+FULL_DEPTH_KHTH_MIN = True
+                                ! "[Boolean] default = False
+                                ! KHTH_MIN is enforced throughout the whole water column. Otherwise,
+                                ! KHTH_MIN is only enforced at the surface. This parameter is only available
+                                ! when KHTH_USE_EBT_STRUCT=True and KHTH_MIN>0."
+
 STOCH_EOS = True
                                 ! [Boolean] default = False If true, stochastic perturbations are applied to the EOS in the PGF.
 
@@ -862,9 +882,17 @@ VAR_PEN_SW = True
 CHL_FILE = seawifs-clim-1997-2010-tx2_3v2.230416.nc
                                 ! "CHL_FILE is the file containing chl_a concentrations in the variable CHL_A."
 
-PEN_SW_NBANDS = 3
+PEN_SW_NBANDS = 2
                                 ! "default = 1
                                 ! The number of bands of penetrating shortwave radiation."
+
+OPACITY_SCHEME = OHLMANN_03
+                                ! "default = 'MANIZZA_05'
+                                ! This character string specifies how chlorophyll concentrations are translated
+                                ! into opacities. Currently valid options include:
+                                !        MANIZZA_05 - Use Manizza et al., GRL, 2005.
+                                !        MOREL_88 - Use Morel, JGR, 1988.
+                                !        OHLMANN_03 - Use Ohlmann, J Clim, 2003."
 
 TRACER_ADVECTION_SCHEME = "PPM:H3"
                                 ! "default = 'PLM'
@@ -880,6 +908,12 @@ KHTR_USE_EBT_STRUCT = True
 KHTR_MIN = 50.0
                                 ! "[m2 s-1] default = 0.0
                                 ! The minimum along-isopycnal tracer diffusivity."
+
+FULL_DEPTH_KHTR_MIN = True
+                                ! "[Boolean] default = False
+                                ! KHTR_MIN is enforced throughout the whole water column. Otherwise,
+                                ! KHTR_MIN is only enforced at the surface. This parameter is only available
+                                ! when KHTR_USE_EBT_STRUCT=True and KHTR_MIN>0."
 
 DEBUG = False
                                 ! "If true, write out verbose debugging data."
@@ -947,7 +981,7 @@ SRESTORE_AS_SFLUX = True
                                 ! If true, the restoring of salinity is applied as a salt
                                 ! flux instead of as a freshwater flux."
 
-GUST_CONST = 0.02
+GUST_CONST = 0.0004
                                 ! "[Pa] default = 0.02
                                 !  The background gustiness in the winds."
 
@@ -1028,8 +1062,7 @@ MEKE_FRCOEFF = 0.3
 
 MEKE_POSITIVE = True
                                 ! "[Boolean] default = False
-                                ! If true, it guarantees that MEKE will always be >= 0.
-                                ! "
+                                ! If true, it guarantees that MEKE will always be >= 0."
 
 USE_SIMPLER_EADY_GROWTH_RATE = True
                                 ! "[Boolean] default = False
@@ -1150,6 +1183,19 @@ DO_GEOTHERMAL = True
                                 ! "[Boolean] default = False
                                 ! If true, apply geothermal heating."
 
+FPMIX = True
+                                ! "[Boolean] default = False
+                                ! If true, add non-local momentum flux increments and diffuse down the Eulerian
+                                ! gradient.
+
+CEMP_NL = 2.0
+                                ! "default = 3.6
+                                ! Empirical coefficient of non-local momentum mixing."
+
+IC_OUTPUT_FILE = b.e30_beta04.BLT1850.ne30_t232_wgx3.116.mom6.ic.0001-01-01.nc
+                                ! "default = 'MOM_IC'
+                                ! The file into which to write the initial conditions."
+
 THICKNESS_CONFIG = thickness_file
                                 ! "A string that determines how the initial layer
                                 ! thicknesses are specified for a new run:
@@ -1241,12 +1287,65 @@ GEOTHERMAL_VARNAME = geothermal_hf
                                 ! The name of the geothermal heating variable in
                                 ! GEOTHERMAL_FILE."
 
+MIX_BOUNDARY_TRACER_ALE = True
+                                ! "[Boolean] default = True
+                                ! If true and in ALE mode, mix the passive tracers in massless layers at the
+                                ! bottom into the interior as though a diffusivity of KD_MIN_TR were operating."
+
+USE_WAVES = True
+                                ! "default = False
+                                ! If true, enables surface wave modules."
+
+WAVE_METHOD = SURFACE_BANDS
+                                ! "Choice of wave method, valid options include:
+                                !  TEST_PROFILE  - Prescribed from surface Stokes drift...
+                                !  SURFACE_BANDS - Computed from multiple surface values...
+                                !  DHH85         - Uses Donelan et al. 1985 empirical...
+                                !  LF17          - Infers Stokes drift profile from wind...
+                                !  EFACTOR       - Applies an enhancement factor to the KPP...""
+
+SURFBAND_SOURCE = COUPLER
+                                ! Choice of SURFACE_BANDS data mode, valid options include:
+                                ! DATAOVERRIDE  - Read from NetCDF using FMS DataOverride.
+                                ! COUPLER       - Look for variables from coupler pass
+                                ! INPUT         - Testing with fixed values.
+
+STOKES_DDT = True
+                                ! default = False
+                                ! Flag to use Stokes d/dt
+
+STOKES_VF = True
+                                ! default = False
+                                ! Flag to use Stokes vortex force
+
+STOKES_PGF = True
+                                ! default = False
+                                ! Flag to use Stokes pressure gradient force
+
+STK_BAND_COUPLER = 3
+                                ! default = 1
+                                ! STK_BAND_COUPLER is the number of Stokes drift bands in the coupler. This has
+                                ! to be consistent with the number of Stokes drift bands in WW3, or the model
+                                ! will fail.
+
+SURFBAND_WAVENUMBERS = 0.04, 0.11, 0.33
+                                ! [rad/m] default = 0.12566
+                                ! Central wavenumbers for surface Stokes drift bands.
+
 AUTO_MASKTABLE = True
                                 ! Turn on automatic mask table generation to eliminate land blocks
 
-GEOM_FILE = "b.e30_beta02.BLT1850.ne30_t232.110".mom6.h.ocean_geometry.nc
+GEOM_FILE = b.e30_beta04.BLT1850.ne30_t232_wgx3.116.mom6.h.ocean_geometry.nc
                                 ! default = ocean_geometry.nc
                                 ! The file into which to write the ocean geometry.
+
+SKEB_NPASS = 10
+                                ! "default = 3
+                                ! number of passes of a 9-point smoother of the dissipation estimate."
+
+SKEB_GM_COEF = 0.75
+                                ! "[nondim] default = 0.0
+                                ! Fraction of GM work that is added to backscatter rate."
 
 KPP%
 N_SMOOTH = 3
@@ -1272,5 +1371,24 @@ KPP_IS_ADDITIVE = False
                                 ! "[Boolean] default = True
                                 ! If true, adds KPP diffusivity to diffusivity from other schemes.If false, KPP is
                                 ! the only diffusivity wherever KPP is non-zero."
+
+KPP_LT_K_METHOD = VR12
+                                ! default = "CONSTANT"
+                                ! Method to enhance mixing coefficient in KPP. Valid options are:
+                                !    CONSTANT = Constant value (KPP_K_ENH_FAC)
+                                !    VR12     = Function of Langmuir number based on VR12
+                                !    RW16     = Function of Langmuir number based on RW16
+
+KPP_LT_VT2_METHOD = VR12
+                                ! default = "CONSTANT"
+                                ! Method to enhance Vt2 in KPP. Valid options are:
+                                !    CONSTANT = Constant value (KPP_VT2_ENH_FAC)
+                                !    VR12     = Function of Langmuir number based on VR12
+                                !    RW16     = Function of Langmuir number based on RW16
+                                !    LF17     = Function of Langmuir number based on LF17
+
+STOKES_MOST = True
+                                ! default = False
+                                ! If True, use Stokes Similarity package.
 
 %KPP

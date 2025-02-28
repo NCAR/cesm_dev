@@ -1,2 +1,2 @@
-# case: b.e30_beta02.BLT1850.ne30_t232.110
-https://github.com/NCAR/cesm_dev/issues/5
+# case: b.e30_beta04.BLT1850.ne30_t232_wgx3.116
+https://github.com/NCAR/cesm_dev/issues/19

@@ -9,7 +9,7 @@
  aer_wetdep_list		= 'bc_a1', 'bc_a4', 'dst_a1', 'dst_a2', 'dst_a3', 'ncl_a1', 'ncl_a2', 'ncl_a3', 'num_a1', 'num_a2', 'num_a3',
          'num_a4', 'pom_a1', 'pom_a4', 'so4_a1', 'so4_a2', 'so4_a3', 'soa_a1', 'soa_a2'
  modal_accum_coarse_exch		= .true.
- seasalt_emis_scale		= 0.75D0
+ seasalt_emis_scale		= 1.0D0
  sol_factb_interstitial		= 0.1D0
  sol_facti_cloud_borne		= 1.0D0
  sol_factic_interstitial		= 0.4D0
@@ -50,7 +50,7 @@
          'so4_a1_CLXF', 'so4_a2_CLXF', 'SFbc_a4', 'SFpom_a4', 'SFso4_a1', 'SFso4_a2', 'so4_a1_sfgaex1', 'so4_a2_sfgaex1', 'so4_a3_sfgaex1',
          'soa_a1_sfgaex1', 'soa_a2_sfgaex1', 'SFdst_a1', 'SFdst_a2', 'SFdst_a3', 'SFncl_a1', 'SFncl_a2', 'SFncl_a3', 'num_a2_sfnnuc1',
          'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO'
- fincl3		= 'PRECT','PRECC','FLUT','U850','U200','V850','V200','OMEGA500','TS','SST','PSL'
+ fincl3		= 'PRECT','PRECC','FLUT','U850','U200','V850','V200','OMEGA500','TS','SST','PSL','Z500'
  fincl4		= 'PRECC','PRECL'
  fincl5		= 'Uzm','Vzm','Wzm','THzm','VTHzm','WTHzm','UVzm','UWzm'
  interpolate_nlat		= 192,192,192,192,192,192,192
@@ -192,7 +192,7 @@
  clubb_c6thlc		=  1.0     
  clubb_c7		=  0.1     
  clubb_c7b		=  0.5     
- clubb_c8		= 4.95
+ clubb_c8		= 4.4
  clubb_c8b		=  0.0     
  clubb_c_invrs_tau_bkgnd		=  1.0     
  clubb_c_invrs_tau_n2		=  0.1     
@@ -284,8 +284,7 @@
  conv_water_in_rad		=  1 
 /
 &dust_nl
- dust_emis_fact		= 1.30D0
- soil_erod_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/dst/dst_source2x2tunedcam6-2x2-04062017.nc'
+ dust_emis_fact		= 2.3
 /
 &dyn_se_inparm
  se_dribble_in_rsplit_loop		=     0
@@ -330,7 +329,6 @@
  effgw_cm		= 1.D0
  effgw_rdg_beta		= 0.5D0
  effgw_rdg_beta_max		= 0.5D0
- fcrit2		= 1.0
  front_gaussian_width		=  30.D0 
  frontgfc		= 3.00D-15
  gw_apply_tndmax		= .false.
@@ -490,7 +488,7 @@
  prescribed_strataero_use_chemtrop		=   .true.   
 /
 &pumas_stochastic_tau_nl
- pumas_stochastic_tau_kernel_filename		= '/glade/work/hannay/cesm_tags/cesm3_0_beta02/components/cam/bld/../src/physics/pumas/KBARF_tau_kernel.dat'
+ pumas_stochastic_tau_kernel_filename		= '/glade/work/hannay/cesm_tags/cesm3_0_beta04/components/cam/bld/../src/physics/pumas/KBARF_tau_kernel.dat'
 /
 &qneg_nl
  print_qneg_warn		= 'summary'
@@ -523,8 +521,8 @@
 /
 &radiation_nl
  graupel_in_rad		=  .false. 
- rrtmgp_coefs_lw_file		= '/glade/work/hannay/cesm_tags/cesm3_0_beta02/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-lw-g128.nc'
- rrtmgp_coefs_sw_file		= '/glade/work/hannay/cesm_tags/cesm3_0_beta02/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-sw-g112.nc'
+ rrtmgp_coefs_lw_file		= '/glade/work/hannay/cesm_tags/cesm3_0_beta04/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-lw-g128.nc'
+ rrtmgp_coefs_sw_file		= '/glade/work/hannay/cesm_tags/cesm3_0_beta04/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-sw-g112.nc'
 /
 &ref_pres_nl
  clim_modal_aero_top_press		=  1.D-4 

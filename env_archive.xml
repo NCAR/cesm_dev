@@ -88,8 +88,9 @@
     <comp_archive_spec compname="mom" compclass="ocn">
       <rest_file_extension>r</rest_file_extension>
       <hist_file_extension>h(\.\w+)?(\._\d*)?\.[-\d+]+\.nc(\.\d*)?$</hist_file_extension>
-      <hist_file_extension>h\.static(\._\d*)?\.nc(\.\d*)?$</hist_file_extension>
-      <hist_file_extension>h\.ocean_geometry\.nc(\.\d*)?$</hist_file_extension>
+      <hist_file_extension>h\.(static|ocean_geometry)(\._\d*)?\.nc(\.\d*)?$</hist_file_extension>
+      <hist_file_extension>h\.bgc\..*?.?[_\d+]+.nc$</hist_file_extension>
+      <hist_file_extension>ic.[-\d+]+(\._\d*)?\.nc(\.\d*)?$</hist_file_extension>
       <hist_file_ext_regex>\w+\.\w+(\._\d*)?</hist_file_ext_regex>
       <rpointer>
         <rpointer_file>rpointer.ocn$NINST_STRING</rpointer_file>
@@ -122,6 +123,22 @@
         <rpointer_file>rpointer.glc$NINST_STRING</rpointer_file>
         <rpointer_content>$CASE.dglc$NINST_STRING.r.$DATENAME.nc,$CASE.dglc$NINST_STRING.rs1.$DATENAME.bin</rpointer_content>
       </rpointer>
+    </comp_archive_spec>
+    <comp_archive_spec compname="ww3" compclass="wav">
+      <rest_file_extension>r</rest_file_extension>
+      <hist_file_extension>hi.*\.nc$</hist_file_extension>
+      <rest_history_varname>unset</rest_history_varname>
+      <rpointer>
+        <rpointer_file>rpointer.wav$NINST_STRING</rpointer_file>
+        <rpointer_content>unset</rpointer_content>
+      </rpointer>
+      <test_file_names>
+        <tfile disposition="copy">rpointer.wav</tfile>
+        <tfile disposition="copy">rpointer.wav_9999</tfile>
+        <tfile disposition="copy">casename.ww3.r.1976-01-01-00000.nc</tfile>
+        <tfile disposition="move">casename.ww3.hi.1976-01-01-00000.nc</tfile>
+        <tfile disposition="ignore">casename.ww3.hi.1976-01-01-00000.nc.base</tfile>
+      </test_file_names>
     </comp_archive_spec>
     <comp_archive_spec compname="drv" compclass="cpl">
       <rest_file_extension>r</rest_file_extension>

@@ -2,6 +2,9 @@
   dep_data_file = '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_mozart/dvel/dep_data_c20221208.nc'
   drydep_list = 'DMS', 'H2O2', 'H2SO4', 'SO2', 'SOAG'
 /
+&dust_emis_inparm
+  dust_emis_method = 'Leung_2023'
+/
 &lightning_coupling_nl
   atm_provides_lightning = .true.
 /

@@ -24,3 +24,6 @@
 &lightning_coupling_nl
  atm_provides_lightning		= .true.
 /
+&dust_emis_inparm
+ dust_emis_method		= 'Leung_2023'
+/

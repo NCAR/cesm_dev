@@ -7,3 +7,4 @@ mesh_ocn = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/tx2_3v2_230415_E
 rof2ocn_liq_rmapname = /glade/campaign/cesm/cesmdata/inputdata/cpl/gridmaps/r05/map_r05_to_tx2_3_nnsm_e250r250_230914.nc
 rof2ocn_ice_rmapname = /glade/campaign/cesm/cesmdata/inputdata/cpl/gridmaps/r05/map_r05_to_tx2_3_nnsm_e1000r1000_230415.nc
 mesh_rof = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/r05_nomask_c110308_ESMFmesh.nc
+mesh_wav = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/wgx3v7_2301208_ESMFmesh.nc

@@ -23,7 +23,7 @@
     The following values should not be set by the user since they'll be
     overwritten by scripts: TOTALPES, NTASKS_PER_INST
     </header>
-  <comment>10 ypd/ 5100 pe-hrs/simyr expected</comment>
+  <comment>10 ypd/ 5500 pe-hrs/simyr expected</comment>
   <group id="mach_pes">
     <entry id="ESMF_AWARE_THREADING" value="FALSE">
       <type>logical</type>

@@ -1,3 +1,7 @@
-dumpfreq = 'x','x','x','x','x'
-f_fresh = 'mxxxx'
-f_fresh_ai = 'mxxxx'
+!----------------------------------------------------------------------------------
+! Users should add all user specific namelist changes below in the form of 
+!   namelist_var = new_namelist_value 
+! Note - that it does not matter what namelist group the namelist_var belongs to
+!----------------------------------------------------------------------------------
+
+ 

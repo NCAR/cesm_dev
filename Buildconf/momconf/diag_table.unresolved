@@ -16,11 +16,9 @@
 "${CASE}.mom6.h.Drake_Passage%4yr-%2mo",               1,  "months", 1, "days",   "time", 1, "months"
 "${CASE}.mom6.h.English_Channel%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
 "${CASE}.mom6.h.Fram_Strait%4yr-%2mo",                 1,  "months", 1, "days",   "time", 1, "months"
-"${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
 "${CASE}.mom6.h.Florida_Bahamas_extended%4yr-%2mo",    1,  "months", 1, "days",   "time", 1, "months"
 "${CASE}.mom6.h.Florida_Cuba%4yr-%2mo",                1,  "months", 1, "days",   "time", 1, "months"
 "${CASE}.mom6.h.Gibraltar_Strait%4yr-%2mo",            1,  "months", 1, "days",   "time", 1, "months"
-"${CASE}.mom6.h.Iceland_Norway%4yr-%2mo",              1,  "months", 1, "days",   "time", 1, "months"
 "${CASE}.mom6.h.Indonesian_Throughflow%4yr-%2mo",      1,  "months", 1, "days",   "time", 1, "months"
 "${CASE}.mom6.h.Mozambique_Channel%4yr-%2mo",          1,  "months", 1, "days",   "time", 1, "months"
 "${CASE}.mom6.h.Pacific_undercurrent%4yr-%2mo",        1,  "months", 1, "days",   "time", 1, "months"
@@ -42,8 +40,6 @@
 "ocean_model_rho2", "thetao",  "thetao",  "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_rho2", "so",      "so",      "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_rho2", "agessc",  "agessc",  "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model_rho2", "cfc11",   "cfc11",   "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model_rho2", "cfc12",   "cfc12",   "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 
 # "${CASE}.mom6.h.native%4yr-%2mo"
 "ocean_model", "soga",         "soga",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
@@ -120,10 +116,6 @@
 "ocean_model", "Rd_dx",        "Rd_dx",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "speed",        "speed",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "mlotst",       "mlotst",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "cfc11_flux",   "cfc11_flux",   "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "cfc12_flux",   "cfc12_flux",   "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "ice_fraction", "ice_fraction", "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "u10_sqr",      "u10_sqr",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 
 # "${CASE}.mom6.h.z%4yr-%2mo"
 "ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
@@ -141,8 +133,6 @@
 "ocean_model_z", "umo",     "umo",     "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_z", "uhGM",    "uhGM",    "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_z", "uhml",    "uhml",    "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model_z", "cfc11",   "cfc11",   "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model_z", "cfc12",   "cfc12",   "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 
 # "${CASE}.mom6.h.sfc%4yr-%2mo"
 "ocean_model", "SSH",          "SSH",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
@@ -243,13 +233,6 @@
 "ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
 "ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
 
-# "${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo"
-"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
-"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
-
 # "${CASE}.mom6.h.Florida_Bahamas_extended%4yr-%2mo"
 "ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
 "ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
@@ -270,13 +253,6 @@
 "ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
 "ocean_model_z", "umo",     "umo",     "${CASE}.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
 "ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
-
-# "${CASE}.mom6.h.Iceland_Norway%4yr-%2mo"
-"ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "${CASE}.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "so",      "so",      "${CASE}.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "${CASE}.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "${CASE}.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
 
 # "${CASE}.mom6.h.Indonesian_Throughflow%4yr-%2mo"
 "ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Indonesian_Throughflow%4yr-%2mo", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2

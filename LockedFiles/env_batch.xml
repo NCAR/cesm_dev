@@ -43,15 +43,15 @@
     </submit_args>
     <directives gpu_enabled="false">
       <directive default="/bin/bash"> -S {{ shell }}  </directive>
-      <directive> -l select={{ num_nodes }}:ncpus={{ max_tasks_per_node }}:mpiprocs={{ tasks_per_node }}:ompthreads={{ thread_count }}:mem=230GB</directive>
+      <directive> -l select={{ num_nodes }}:ncpus={{ max_tasks_per_node }}:mpiprocs={{ tasks_per_node }}:ompthreads={{ thread_count }}</directive>
     </directives>
     <directives gpu_enabled="true">
       <directive default="/bin/bash"> -S {{ shell }} </directive>
       <directive> -l select={{ num_nodes }}:ncpus={{ max_cputasks_per_gpu_node }}:mpiprocs={{ tasks_per_node }}:ompthreads={{ thread_count }}:mem=480GB:ngpus={{ ngpus_per_node }}:mps=1 </directive>
     </directives>
     <queues>
-      <queue walltimemax="1:00:00" jobmin="1" jobmax="64">develop</queue>
-      <queue walltimemax="12:00:00" nodemin="1" nodemax="2488">main</queue>
+      <queue walltimemax="1:00:00" jobmin="1" jobmax="63">develop</queue>
+      <queue walltimemax="12:00:00" jobmin="64" jobmax="318464">main</queue>
     </queues>
   </batch_system>
 </file>

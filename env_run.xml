@@ -273,7 +273,7 @@
     <entry id="START_TOD" value="0">
       <type>integer</type>
       <desc>
-      Run start time-of-day
+      Run start time-of-day, units are seconds with values from 0 to 86400.
     </desc>
     </entry>
     <entry id="STOP_OPTION" value="nyears">
@@ -405,7 +405,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to determine whether run has been submitted with the submit script or not</desc>
     </entry>
-    <entry id="JOB_IDS" value="case.run:5893164.desched1, case.st_archive:5893165.desched1">
+    <entry id="JOB_IDS" value="case.run:6718813.desched1, case.st_archive:6718814.desched1">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
@@ -575,7 +575,7 @@
       <type>char</type>
       <desc>rof mesh file (full pathname)</desc>
     </entry>
-    <entry id="WAV_DOMAIN_MESH" value="UNSET">
+    <entry id="WAV_DOMAIN_MESH" value="$DIN_LOC_ROOT/share/meshes/wgx3v7_2301208_ESMFmesh.nc">
       <type>char</type>
       <desc>wav mesh file (full pathname)</desc>
     </entry>
@@ -804,15 +804,15 @@
     https://www.unidata.ucar.edu/software/netcdf/docs/data_type.html
     </desc>
       <values>
-        <value compclass="ATM">64bit_offset</value>
-        <value compclass="CPL">64bit_offset</value>
-        <value compclass="OCN">64bit_offset</value>
-        <value compclass="WAV">64bit_offset</value>
-        <value compclass="GLC">64bit_offset</value>
-        <value compclass="ICE">64bit_offset</value>
-        <value compclass="ROF">64bit_offset</value>
-        <value compclass="LND">64bit_offset</value>
-        <value compclass="ESP">64bit_offset</value>
+        <value compclass="ATM">64bit_data</value>
+        <value compclass="CPL">64bit_data</value>
+        <value compclass="OCN">64bit_data</value>
+        <value compclass="WAV">64bit_data</value>
+        <value compclass="GLC">64bit_data</value>
+        <value compclass="ICE">64bit_data</value>
+        <value compclass="ROF">64bit_data</value>
+        <value compclass="LND">64bit_data</value>
+        <value compclass="ESP">64bit_data</value>
       </values>
     </entry>
     <entry id="PIO_STRIDE">
@@ -968,6 +968,11 @@
       for use when coupling POP to a DATM. Only used for C, G and J compsets.
       Default is off
     </desc>
+    </entry>
+    <entry id="LND_SETS_DUST_EMIS_DRV_FLDS" value="FALSE">
+      <type>logical</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>If CTSM will set the dust settings in drv_flds_in (TRUE), or if ATM (i.e. CAM) will - DO NOT EDIT (set by compset name)</desc>
     </entry>
   </group>
   <group id="med_history">
@@ -1158,8 +1163,8 @@
     </entry>
     <entry id="CLM_ACCELERATED_SPINUP" value="off">
       <type>char</type>
-      <valid_values>on,off</valid_values>
-      <desc>Turn on any settings for accellerating the model spinup.
+      <valid_values>on,sasu,off</valid_values>
+      <desc>Turn on any settings for accellerating the model spinup. SASU is to run the Semi-Analytic Spin-Up with the CN soil matrix method.
     </desc>
     </entry>
     <entry id="CLM_USRDAT_NAME" value="UNSET">
@@ -1170,7 +1175,8 @@
       to create_newcase.  The default value is UNSET.
       For NEON cases, this can be set to either NEON or NEON.PRISM, the latter of which would
       use PRISM precipitation instead of the default NEON precipitation. NEON cases then also
-      use the variable NEONSITE to specify the exact site.</desc>
+      use the variable NEONSITE to specify the exact site. PLUMBER cases use the variable 
+      PLUMBER2SITE to specify the exact site.</desc>
     </entry>
     <entry id="CLM_USRDAT_DIR" value="UNSET">
       <type>char</type>
@@ -1187,7 +1193,7 @@
       cold start (finidat will be set to blanks).
       A value of on forces the model to spin up from a cold-start
       (arbitrary initial conditions). Setting this value in the xml file will take
-      precedence over any settings for finidat in the $CASEROOT/user_nl_ctsm file.</desc>
+      precedence over any settings for finidat in the $CASEROOT/user_nl_clm file.</desc>
     </entry>
     <entry id="NEONSITE">
       <type>char</type>
@@ -1223,6 +1229,23 @@
       <valid_values>v1,v2,v3,latest</valid_values>
       <desc>Version id of Neon data</desc>
     </entry>
+    <entry id="PLUMBER2SITE">
+      <type>char</type>
+      <valid_values>
+      AR-SLu,AT-Neu,AU-ASM,AU-Cow,AU-Cpr,AU-Ctr,AU-Cum,AU-DaP,AU-DaS,AU-Dry,AU-Emr,AU-Gin,AU-GWW,AU-How,AU-Lit,
+      AU-Otw,AU-Rig,AU-Rob,AU-Sam,AU-Stp,AU-TTE,AU-Tum,AU-Whr,AU-Wrr,AU-Ync,BE-Bra,BE-Lon,BE-Vie,BR-Sa3,BW-Ma1,CA-NS1,
+      CA-NS2,CA-NS4,CA-NS5,CA-NS6,CA-NS7,CA-Qcu,CA-Qfo,CA-SF1,CA-SF2,CA-SF3,CH-Cha,CH-Dav,CH-Fru,CH-Oe1,CN-Cha,CN-Cng,
+      CN-Dan,CN-Din,CN-Du2,CN-HaM,CN-Qia,CZ-wet,DE-Bay,DE-Geb,DE-Gri,DE-Hai,DE-Kli,DE-Meh,DE-Obe,DE-Seh,DE-SfN,DE-Tha,
+      DE-Wet,DK-Fou,DK-Lva,DK-Ris,DK-Sor,DK-ZaH,ES-ES1,ES-ES2,ES-LgS,ES-LMa,ES-VDA,FI-Hyy,FI-Kaa,FI-Lom,FI-Sod,FR-Fon,
+      FR-Gri,FR-Hes,FR-LBr,FR-Lq1,FR-Lq2,FR-Pue,GF-Guy,HU-Bug,ID-Pag,IE-Ca1,IE-Dri,IT-Amp,IT-BCi,IT-CA1,IT-CA2,IT-CA3,
+      IT-Col,IT-Cpz,IT-Isp,IT-Lav,IT-LMa,IT-Mal,IT-MBo,IT-Noe,IT-Non,IT-PT1,IT-Ren,IT-Ro1,IT-Ro2,IT-SR2,IT-SRo,JP-SMF,
+      NL-Ca1,NL-Hor,NL-Loo,PL-wet,PT-Esp,PT-Mi1,PT-Mi2,RU-Che,RU-Fyo,RU-Zot,SD-Dem,SE-Deg,UK-Gri,UK-Ham,UK-PL3,US-AR1,
+      US-AR2,US-ARM,US-Aud,US-Bar,US-Bkg,US-Blo,US-Bo1,US-Cop,US-FPe,US-GLE,US-Goo,US-Ha1,US-Ho1,US-KS2,US-Los,US-Me2,
+      US-Me4,US-Me6,US-MMS,US-MOz,US-Myb,US-Ne1,US-Ne2,US-Ne3,US-NR1,US-PFa,US-Prr,US-SP1,US-SP2,US-SP3,US-SRG,US-SRM,
+      US-Syv,US-Ton,US-Tw4,US-Twt,US-UMB,US-Var,US-WCr,US-Whs,US-Wkg,ZA-Kru,ZM-Mon,
+    </valid_values>
+      <desc>Name of site for PLUMBER tower data</desc>
+    </entry>
   </group>
   <group id="build_component_cice">
     <entry id="CICE_MODE" value="prognostic">
@@ -1249,10 +1272,18 @@
   <group id="case_comp">
     <entry id="MOM6_VERTICAL_GRID" value="hycom1">
       <type>char</type>
-      <valid_values>zstar_75L,zstar_65L,hycom1,zstar_60L,sigma_shelf_zstar</valid_values>
+      <valid_values>zstar_75L,zstar_65L,hycom1,sigma_shelf_zstar</valid_values>
       <desc> This variable controls what vertical grid is used in MOM6.
     </desc>
     </entry>
+    <entry id="OCN_DIAG_SECTIONS" value="TRUE">
+      <type>logical</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc> Flag to turn on/off the MOM6 sections diagnostics.
+    </desc>
+    </entry>
+  </group>
+  <group id="run_component_mom">
     <entry id="OCN_DIAG_MODE" value="production">
       <type>char</type>
       <valid_values>spinup,production,development,none</valid_values>
@@ -1263,10 +1294,41 @@
            diag_table file in SourceMods/src.mom/
     </desc>
     </entry>
-    <entry id="OCN_DIAG_SECTIONS" value="TRUE">
-      <type>logical</type>
-      <valid_values>TRUE,FALSE</valid_values>
-      <desc> Flag to turn on/off the MOM6 sections diagnostics.
+    <entry id="OCN_CO2_TYPE" value="diagnostic">
+      <type>char</type>
+      <valid_values>constant,prognostic,diagnostic</valid_values>
+      <desc>Determines provenance of atmospheric CO2 for gas flux computation.
+      This option is used in MARBL.
+      The default is constant.</desc>
+    </entry>
+    <entry id="MARBL_TRACER_OPTS">
+      <type>char</type>
+      <valid_values/>
+      <desc>Configure what tracers MARBL will provide to MOM6
+    </desc>
+    </entry>
+    <entry id="MARBL_CONFIG" value="off">
+      <type>char</type>
+      <valid_values>off,latest,latest+4p2z</valid_values>
+      <desc>Version of ocean BGC tunings to use (default values can be overwritten by user_nl_mom and user_nl_marbl).
+    </desc>
+    </entry>
+    <entry id="MARBL_DIAG_MODE" value="full">
+      <type>char</type>
+      <valid_values>test_suite,full,minimal,none</valid_values>
+      <desc> This variable is used to choose from a set of predefined diagnostics configurations in MARBL.
+           Each configuration corresponds to a different combination of frequency and field lists.
+           'test_suite' implies "provide all MARBL output in double precision" while the rest of the
+           modes indicate single precision. Note that 'full' is a superset of 'minimal'.
+    </desc>
+    </entry>
+    <entry id="MARBL_HIST_VERT_GRID" value="interpolated">
+      <type>char</type>
+      <valid_values>interpolated,native,both</valid_values>
+      <desc>Vertical grid to use in BGC-specific history files that contain 3D variables
+          "native" will output on whatever levels MOM is using (e.g. z*); stream will be mom6.h.bgc.native.*
+          "interpolated" will output will be interpolated to static z levels; stream will be mom6.h.bgc.z.*
+          "both" will write both h.bgc.native and h.bgc.z files
     </desc>
     </entry>
   </group>
