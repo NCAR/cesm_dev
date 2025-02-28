@@ -30,7 +30,7 @@
       <type>char</type>
       <desc>Scripts root utils directory location (setup automatically to $CIMEROOT/scripts/Tools - DO NOT EDIT)</desc>
     </entry>
-    <entry id="MODEL_VERSION" value="cesm3_0_beta03-15-g92dae46">
+    <entry id="MODEL_VERSION" value="cesm3_0_beta04">
       <type>char</type>
       <desc>Apparent version of the model used for this case</desc>
     </entry>
@@ -297,7 +297,7 @@
       <desc> main configuration file that specifies all relevant filenames
     and directories to configure a case</desc>
     </entry>
-    <entry id="CASEROOT" value="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLT1850.ne30_t232_wgx3.116">
+    <entry id="CASEROOT" value="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLT1850.ne30_t232_wgx3.117">
       <type>char</type>
       <desc>full pathname of case</desc>
     </entry>
@@ -314,7 +314,7 @@
       <type>char</type>
       <desc>full pathname of source root directory</desc>
     </entry>
-    <entry id="CASE" value="b.e30_beta04.BLT1850.ne30_t232_wgx3.116">
+    <entry id="CASE" value="b.e30_beta04.BLT1850.ne30_t232_wgx3.117">
       <type>char</type>
       <desc>case name</desc>
     </entry>
@@ -344,7 +344,7 @@
       <type>char</type>
       <desc>username of user who created case</desc>
     </entry>
-    <entry id="CASE_HASH" value="5c6560c9558bf03989c8c85ed2048426bca2df5bafeae7aa915d3a7ecb7444a7">
+    <entry id="CASE_HASH" value="01bdcdba6a68890cf4c91ab251f2c4fd655f534ced84feff5faae62bfe84c5b0">
       <type>char</type>
       <desc>Unique identifier for case</desc>
     </entry>

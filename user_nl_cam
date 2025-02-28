@@ -44,7 +44,7 @@ phys_grid_ctem_nfreq=-6
 phys_grid_ctem_zm_nbas=120
 phys_grid_ctem_za_nlat=90
 
-seasalt_emis_scale = 1.0D0
+seasalt_emis_scale = 1.5D0
 clubb_c8=  4.4
 dust_emis_method = 'Leung_2023'
 dust_emis_fact = 2.3
