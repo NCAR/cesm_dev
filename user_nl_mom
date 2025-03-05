@@ -20,4 +20,8 @@
 ! Parameters:
 !---------------------------------------------------------------------
 
-
+MAXTRUNC = 2000
+REMAPPING_USE_OM4_SUBCELLS = False
+KPP%
+KPP_CVt2 = 1.0
+%KPP

@@ -16,3 +16,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange STOP_N=5,STOP_OPTION=nyears,RESUBMIT=11
+
