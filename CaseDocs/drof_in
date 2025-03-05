@@ -1,0 +1,9 @@
+&drof_nml
+  datamode = "copyall"
+  model_maskfile = "/glade/campaign/cesm/cesmdata/inputdata/lnd/dlnd7/JRA55/JRA.v1.4.runoff.1958_ESMFmesh_cdf5_20201020.nc"
+  model_meshfile = "/glade/campaign/cesm/cesmdata/inputdata/lnd/dlnd7/JRA55/JRA.v1.4.runoff.1958_ESMFmesh_cdf5_20201020.nc"
+  nx_global = 1440
+  ny_global = 720
+  restfilm = "null"
+  skip_restart_read = .false.
+/

@@ -1,0 +1,28 @@
+&const_forcing_nml
+  dn10 = 1.204
+  peak_lwdn = 450.0
+  peak_swdn = 330.0
+  q = 0.0
+  slp = 101325.0
+  t = 273.15
+  u = 0.0
+  v = 0.0
+/
+&datm_nml
+  datamode = "CORE_IAF_JRA"
+  factorfn_data = "null"
+  factorfn_mesh = "null"
+  flds_co2 = .false.
+  flds_presaero = .true.
+  flds_presndep = .true.
+  flds_preso3 = .false.
+  flds_wiso = .false.
+  iradsw = 1
+  model_maskfile = "/glade/campaign/cesm/cesmdata/inputdata/share/meshes/TL319_151007_ESMFmesh.nc"
+  model_meshfile = "/glade/campaign/cesm/cesmdata/inputdata/share/meshes/TL319_151007_ESMFmesh.nc"
+  nextsw_cday_calc = "cam6"
+  nx_global = 640
+  ny_global = 320
+  restfilm = "null"
+  skip_restart_read = .false.
+/

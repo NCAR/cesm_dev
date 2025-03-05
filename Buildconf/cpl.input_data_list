@@ -1,0 +1,8 @@
+mesh_mask = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/tx2_3v2_230415_ESMFmesh.nc
+mesh_atm = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/TL319_151007_ESMFmesh.nc
+mesh_ice = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/tx2_3v2_230415_ESMFmesh.nc
+mesh_ocn = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/tx2_3v2_230415_ESMFmesh.nc
+rof2ocn_liq_rmapname = /glade/campaign/cesm/cesmdata/inputdata/cpl/gridmaps/rJRA025/map_jra_to_tx2_3_nnsm_e250r250_241211.nc
+rof2ocn_ice_rmapname = /glade/campaign/cesm/cesmdata/inputdata/cpl/gridmaps/rJRA025/map_jra_to_tx2_3_nnsm_e250r250_241211.nc
+mesh_rof = /glade/campaign/cesm/cesmdata/inputdata/lnd/dlnd7/JRA55/JRA.v1.4.runoff.1958_ESMFmesh_cdf5_20201020.nc
+mesh_wav = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/wgx3v7_2301208_ESMFmesh.nc
