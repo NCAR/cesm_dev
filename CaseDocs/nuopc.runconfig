@@ -1,7 +1,7 @@
 DRIVER_attributes::
      Verbosity = off
      cime_model = cesm
-     drv_restart_pointer = rpointer.cpl
+     drv_restart_pointer = rpointer.cpl.0006-01-01-00000
      logFilePostFix = .log
      outPathRoot = ./
      pio_blocksize = -1
@@ -137,7 +137,7 @@ ALLCOMP_attributes::
      scol_lat = -999.99
      scol_lon = -999.99
      single_column_lnd_domainfile = UNSET
-     start_type = startup
+     start_type = continue
      tfreeze_option = linear_salt
      username = gmarques
      wav_coupling_to_cice = .false.
@@ -345,7 +345,7 @@ WAV_attributes::
 
 MED_modelio::
      diro = /glade/derecho/scratch/gmarques/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/run
-     logfile = med.log.8428266.desched1.250304-235035
+     logfile = med.log.8488722.desched1.250305-090354
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -357,7 +357,7 @@ MED_modelio::
 
 ATM_modelio::
      diro = /glade/derecho/scratch/gmarques/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/run
-     logfile = atm.log.8428266.desched1.250304-235035
+     logfile = atm.log.8488722.desched1.250305-090354
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -369,7 +369,7 @@ ATM_modelio::
 
 LND_modelio::
      diro = /glade/derecho/scratch/gmarques/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/run
-     logfile = lnd.log.8428266.desched1.250304-235035
+     logfile = lnd.log.8488722.desched1.250305-090354
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -381,7 +381,7 @@ LND_modelio::
 
 ICE_modelio::
      diro = /glade/derecho/scratch/gmarques/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/run
-     logfile = ice.log.8428266.desched1.250304-235035
+     logfile = ice.log.8488722.desched1.250305-090354
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -393,7 +393,7 @@ ICE_modelio::
 
 OCN_modelio::
      diro = /glade/derecho/scratch/gmarques/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/run
-     logfile = ocn.log.8428266.desched1.250304-235035
+     logfile = ocn.log.8488722.desched1.250305-090354
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -405,7 +405,7 @@ OCN_modelio::
 
 ROF_modelio::
      diro = /glade/derecho/scratch/gmarques/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/run
-     logfile = rof.log.8428266.desched1.250304-235035
+     logfile = rof.log.8488722.desched1.250305-090354
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -417,7 +417,7 @@ ROF_modelio::
 
 GLC_modelio::
      diro = /glade/derecho/scratch/gmarques/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/run
-     logfile = glc.log.8428266.desched1.250304-235035
+     logfile = glc.log.8488722.desched1.250305-090354
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -429,7 +429,7 @@ GLC_modelio::
 
 WAV_modelio::
      diro = /glade/derecho/scratch/gmarques/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/run
-     logfile = wav.log.8428266.desched1.250304-235035
+     logfile = wav.log.8488722.desched1.250305-090354
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -441,7 +441,7 @@ WAV_modelio::
 
 ESP_modelio::
      diro = /glade/derecho/scratch/gmarques/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/run
-     logfile = esp.log.8428266.desched1.250304-235035
+     logfile = esp.log.8488722.desched1.250305-090354
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -453,6 +453,6 @@ ESP_modelio::
 
 DRV_modelio::
      diro = /glade/derecho/scratch/gmarques/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/run
-     logfile = drv.log.8428266.desched1.250304-235035
+     logfile = drv.log.8488722.desched1.250305-090354
 ::
 
