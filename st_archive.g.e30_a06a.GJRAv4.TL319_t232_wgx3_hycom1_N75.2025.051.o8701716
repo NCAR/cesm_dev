@@ -4763,3 +4763,15 @@ Archiving history files for drof (rof)
 Archiving history files for ww3 (wav)
 Archiving history files for drv (cpl)
 Archiving history files for dart (esp)
+st_archive completed
+resubmitting from st_archive, resubmit=6
+Submitting job 'case.run', resubmit=6
+submit_jobs case.run
+Submit job case.run
+Submitting job script qsub -q main -l walltime=12:00:00 -A P93300012 -l job_priority=regular -v ARGS_FOR_SCRIPT='--resubmit' /glade/work/gmarques/cesm.cases/G/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/.case.run
+Submitted job id is 8708615.desched1
+Submit job case.st_archive
+Submitting job script qsub -q develop -l walltime=00:20:00 -A P93300012 -l job_priority=regular  -W depend=afterok:8708615.desched1 -v ARGS_FOR_SCRIPT='--resubmit' /glade/work/gmarques/cesm.cases/G/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.051/case.st_archive
+Submitted job id is 8708621.desched1
+Submitted job case.run with id 8708615.desched1
+Submitted job case.st_archive with id 8708621.desched1
