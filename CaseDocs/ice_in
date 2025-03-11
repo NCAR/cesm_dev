@@ -19,7 +19,7 @@
   ndtd = 1
   numax = 99
   numin = 11
-  pointer_file = "rpointer.ice.0056-01-01-00000"
+  pointer_file = "rpointer.ice.0061-01-01-00000"
   print_global = .true.
   print_points = .false.
   restart_ext = .false.
