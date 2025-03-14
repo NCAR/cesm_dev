@@ -24,3 +24,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDATE=0045-01-01
 
+./case.build
+
