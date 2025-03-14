@@ -25,3 +25,5 @@ ERROR: Reference case directory /glade/campaign/cesm/cesmdata/inputdata/cesm2_in
  ---------------------------------------------------
 2025-03-14 15:47:57: xmlchange success <command> ./xmlchange RUN_REFDATE=0045-01-01  </command>
  ---------------------------------------------------
+2025-03-14 15:47:59: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
