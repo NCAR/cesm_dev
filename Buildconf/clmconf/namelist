@@ -1,0 +1,36 @@
+&comp_inparm 
+
+finidat = 'b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.130.clm2.r.0045-01-01-00000.nc'
+
+
+nfix_method = 'Bytnerowicz'
+
+
+
+paramfile = '/glade/u/home/linnia/ctsm6_ppe/gen_ensembles/jobscripts/test/gen_paramfiles/ctsm5.3.012.Nfix_params.v9.c250112.nc'
+
+
+
+use_c13 = .true.
+
+use_c14 = .true.
+
+use_c13_timeseries = .true.
+
+use_c14_bombspike = .true.
+
+
+
+
+
+use_init_interp = .true.
+
+
+
+do_grossunrep=.false.
+
+reseed_dead_plants = .true.
+
+
+
+/ 
