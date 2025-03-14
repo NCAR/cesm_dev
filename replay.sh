@@ -20,3 +20,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
+./xmlchange RUN_REFCASE=b.e23_alpha17f.BLT1850.ne30_t232.130
+
