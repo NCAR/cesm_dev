@@ -21,3 +21,5 @@
 2025-03-14 15:29:47: case.build error 
 ERROR: Reference case directory /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e23_alpha17f.BLT1850.ne30_t232.130/0045-01-01 does not contain any rpointer files
  ---------------------------------------------------
+2025-03-14 15:47:55: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.130  </command>
+ ---------------------------------------------------
