@@ -4,6 +4,8 @@
         within CASEROOT.*/
 #override INPUTDIR = "INPUT"
 #override MAXTRUNC = 2000
+#override MEKE_FRCOEFF = 0.0
+#override MEKE_GEOMETRIC_ALPHA = 0.07
 REMAPPING_USE_OM4_SUBCELLS = False
 BODNER_DETECT_MLD = True
 MLE_USE_PBL_MLD = False
