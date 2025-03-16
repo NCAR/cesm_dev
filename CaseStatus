@@ -85,3 +85,5 @@ ERROR: Reference case directory /glade/campaign/cesm/cesmdata/inputdata/cesm2_in
  ---------------------------------------------------
 2025-03-15 18:08:52: case.submit success 8817125.desched1
  ---------------------------------------------------
+2025-03-15 18:12:33: case.run starting 8817124.desched1
+ ---------------------------------------------------
