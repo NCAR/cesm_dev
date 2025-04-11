@@ -63,3 +63,6 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2025-04-11 10:50:16: case.submit starting 
  ---------------------------------------------------
+2025-04-11 10:50:18: case.submit error 
+ERROR: Could not find all inputdata on any server
+ ---------------------------------------------------
