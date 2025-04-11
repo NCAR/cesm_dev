@@ -31,3 +31,6 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2025-04-11 10:14:49: case.build starting 
  ---------------------------------------------------
+2025-04-11 10:14:58: case.build error 
+ERROR: Could not download refcase from any server
+ ---------------------------------------------------
