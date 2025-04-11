@@ -52,3 +52,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange RUN_REFDIR=cesm2_init
+
