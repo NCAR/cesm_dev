@@ -14,3 +14,5 @@
  ---------------------------------------------------
 2025-04-11 13:39:14: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
  ---------------------------------------------------
+2025-04-11 13:39:19: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
+ ---------------------------------------------------
