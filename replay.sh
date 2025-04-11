@@ -30,3 +30,7 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./case.setup
+
+./case.build
+
