@@ -42,3 +42,5 @@ cd "${CASEDIR}"
 
 ./xmlchange GET_REFCASE=true
 
+./case.build
+
