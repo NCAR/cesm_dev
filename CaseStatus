@@ -362,3 +362,6 @@ See log file for details: /glade/derecho/scratch/gmarques/b.e30_alpha06b.B1850C_
  ---------------------------------------------------
 2025-04-13 14:07:42: case.submit starting 
  ---------------------------------------------------
+2025-04-13 14:07:44: case.submit error 
+ERROR: File /glade/derecho/scratch/gmarques/b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.150/run/b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.150.cpl.r.0069-01-01-00000.nc not present or does not match case b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.150
+ ---------------------------------------------------
