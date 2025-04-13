@@ -370,3 +370,5 @@ ERROR: File /glade/derecho/scratch/gmarques/b.e30_alpha06b.B1850C_LTso.ne30_t232
 2025-04-13 14:14:37: case.submit error 
 ERROR: CONTINUE_RUN is true but this case does not appear to have restart files staged in /glade/derecho/scratch/gmarques/b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.150/run rpointer.cpl.0069-01-01-00000
  ---------------------------------------------------
+2025-04-13 14:14:53: xmlchange success <command> ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0073-01-01-00000  </command>
+ ---------------------------------------------------
