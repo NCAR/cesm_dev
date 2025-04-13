@@ -114,3 +114,6 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2025-04-13 13:59:17: case.submit starting 
  ---------------------------------------------------
+2025-04-13 13:59:18: case.submit error 
+ERROR: File /glade/derecho/scratch/gmarques/b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.153/run/b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.153.cpl.r.0005-01-01-00000.nc not present or does not match case b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.153
+ ---------------------------------------------------
