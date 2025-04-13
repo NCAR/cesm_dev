@@ -119,3 +119,6 @@ ERROR: File /glade/derecho/scratch/gmarques/b.e30_alpha06b.B1850C_LTso.ne30_t232
  ---------------------------------------------------
 2025-04-13 14:10:06: case.submit starting 
  ---------------------------------------------------
+2025-04-13 14:10:07: case.submit error 
+ERROR: CONTINUE_RUN is true but this case does not appear to have restart files staged in /glade/derecho/scratch/gmarques/b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.153/run rpointer.cpl.0005-01-01-00000
+ ---------------------------------------------------
