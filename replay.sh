@@ -72,3 +72,9 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./check_case
+
+./preview_namelists
+
+./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0009-01-01-00000
+
