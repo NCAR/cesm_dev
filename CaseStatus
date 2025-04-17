@@ -292,3 +292,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2025-04-17 09:07:59: case.run starting 9223374.desched1
  ---------------------------------------------------
+2025-04-17 09:08:08: model execution starting 9223374.desched1
+ ---------------------------------------------------
