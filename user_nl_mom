@@ -1,23 +1,29 @@
-!---------------------------------------------------------------------
-! Users should add all user specific MOM_input parameter changes after
-! these comments as follows:
-!   parameter_name = new_parameter_value
-!
-! If the parameter belongs to a module, enter the parameter in MOM6
-! runtime parameter format ,e.g., change N_SMOOTH parameter within the
-! KPP module as follows:
-!   KPP%
-!   N_SMOOTH = 3
-!   %KPP
-!
-! Note: The parameter changes added to this file will automatically be
-!       applied to:
-!   $RUNDIR/MOM_override
-!
-! WARNING: If a MOM_override file is placed in SourceMods/src.mom/,
-! any additional parameter changes in this file will trigger an error.
-!
-! Parameters:
-!---------------------------------------------------------------------
+INPUTDIR = "INPUT"
+MAXTRUNC = 2000
+REMAPPING_USE_OM4_SUBCELLS = False
+BODNER_DETECT_MLD = True
+MLE_USE_PBL_MLD = False
+MLE_DENSITY_DIFF = 0.02
+MLE%
+USE_BODNER23 = True
+USE_CR_GRID = True
+CR_FILE = "mle-cr-tx2_3v2-v8_20250215.nc"
+MIN_WSTAR2 = 1.0E-09
+BLD_DECAYING_TFILTER = 8.64E+04
+MLD_DECAYING_TFILTER = 2.592E+06
+BLD_GROWING_TFILTER = 300.
+MLD_GROWING_TFILTER = 3600.
+%MLE
+KPP%
+KPP_CVt2 = 1.0
+%KPP
 
+TEMP_SALT_INIT_VERTICAL_REMAP_ONLY = True
+Z_INIT_REMAPPING_USE_OM4_SUBCELLS = False
+
+RESTART_CHECKSUMS_REQUIRED = FALSE
+INIT_LAYERS_FROM_Z_FILE = True
+TEMP_SALT_Z_INIT_FILE = "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.z.0001-01.nc"
+Z_INIT_FILE_PTEMP_VAR = "thetao"
+Z_INIT_FILE_SALT_VAR = "so"
 
