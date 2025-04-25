@@ -30,3 +30,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange RUN_REFDIR=cesm2_init
+

@@ -25,3 +25,5 @@
 2025-04-25 16:46:46: case.build error 
 ERROR: Could not download refcase from any server
  ---------------------------------------------------
+2025-04-25 16:48:32: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
+ ---------------------------------------------------
