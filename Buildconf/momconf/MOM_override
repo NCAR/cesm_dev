@@ -19,15 +19,16 @@ KV_TBL_MIN = 0.0
 #override LEITH_AH = True
 #override USE_LEITHY = False
 #override LEITH_BI_CONST = 128.0
-MINIMUM_OBL_DEPTH = 0.0
-COMPUTE_MONIN_OBUKHOV = False
 KD_MIN_TR = 0.0
 #override KD = 0.0
 #override KD_MIN = 2.0E-07
 #override PRANDTL_BKGND = 5.0
 !!! KHTR_USE_EBT_STRUCT = True !(UNCHANGED)
+#override FRICTWORK_BUG = True
 
 KPP%
 KPP_CVt2 = 2.4
+#override MINIMUM_OBL_DEPTH = 0.0
+#override COMPUTE_MONIN_OBUKHOV = False
 %KPP
 
