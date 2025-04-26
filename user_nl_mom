@@ -14,7 +14,8 @@ TEMP_SALT_Z_INIT_FILE = "b.e30_alpha03d.BLT1850.ne30_t232_wgx3.112.mom6.h.z.0001
 Z_INIT_FILE_PTEMP_VAR = "thetao"
 Z_INIT_FILE_SALT_VAR = "so"
 
-# params for 112
+!!! params for 112
+
 USE_POROUS_BARRIER = True
 MEKE_CT = 50.0
 KV = 0.0
