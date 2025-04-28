@@ -116,3 +116,5 @@ ERROR: Cannot parse the following line in user_nl_mom: # params for 112
  ---------------------------------------------------
 2025-04-27 23:17:20: case.run starting 9336119.desched1
  ---------------------------------------------------
+2025-04-27 23:17:28: model execution starting 9336119.desched1
+ ---------------------------------------------------
