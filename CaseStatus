@@ -174,3 +174,5 @@ ERROR: Cannot parse the following line in user_nl_mom: # params for 112
  ---------------------------------------------------
 2025-04-29 10:05:19: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
  ---------------------------------------------------
+2025-04-29 17:42:21: model execution success 9349168.desched1
+ ---------------------------------------------------
