@@ -62,7 +62,7 @@
  nhtfrq		= 0,-24,-24,-3,0,-2,0,-8760
 /
 &cam_initfiles_nl
- bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/se/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_20240720.nc'
+ bnd_topo		= '/glade/campaign/cgd/amp/pel/topo/cesm3/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0050_noleak_20250409_28kmGRISrough.nc'
  ncdata		= 'b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156.cam.i.0077-01-01-00000.nc'
  scale_dry_air_mass		=   98288.0D0 
  use_topo_file		=  .true.  
@@ -148,7 +148,7 @@
  cldfrc2m_rhminis		=   1.0D0 
 /
 &cldfrc_nl
- cldfrc_dp1		=  0.10D0 
+ cldfrc_dp1		= 0.05
  cldfrc_dp2		=  500.0D0 
  cldfrc_freeze_dry		= .true.
  cldfrc_ice		= .true.
@@ -386,7 +386,7 @@
  micro_mg_autocon_lwp_exp		=   2.47D0    
  micro_mg_autocon_nd_exp		=   -1.1D0    
  micro_mg_berg_eff_factor		=   1.D0    
- micro_mg_dcs		= 500.D-6
+ micro_mg_dcs		= 600.D-6
  micro_mg_do_graupel		=  .true. 
  micro_mg_do_hail		=  .false. 
  micro_mg_effi_factor		=   1.D0    
@@ -539,7 +539,7 @@
  solar_data_type		= 'FIXED'
  solar_data_ymd		=    18500101           
  solar_htng_spctrl_scl		= .true.
- solar_irrad_data_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/solar/SolarForcingCMIP6piControl_c160921.nc'
+ solar_irrad_data_file		= '/glade/campaign/cesm/development/cross-wg/inputdata/SolarForcingCMIP7piControl_c20250103.nc'
 /
 &tms_nl
  do_tms		=  .false. 
