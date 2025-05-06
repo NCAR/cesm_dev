@@ -44,3 +44,7 @@ cd "${CASEDIR}"
 
 ./preview_namelists
 
+./preview_namelists
+
+./xmlchange JOB_PRIORITY=regular
+
