@@ -61,3 +61,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2025-05-07 11:57:23: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
  ---------------------------------------------------
+2025-05-07 11:57:33: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
+ ---------------------------------------------------
