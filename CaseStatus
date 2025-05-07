@@ -79,3 +79,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2025-05-07 12:15:22: case.build success 
  ---------------------------------------------------
+2025-05-07 12:15:28: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
