@@ -83,3 +83,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2025-05-07 12:15:31: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=10,STOP_N=4,STOP_OPTION=nyears  </command>
  ---------------------------------------------------
+2025-05-07 12:15:32: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
