@@ -53,3 +53,5 @@
 2025-05-07 11:43:53: case.submit error 
 ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
+2025-05-07 11:57:21: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156  </command>
+ ---------------------------------------------------
