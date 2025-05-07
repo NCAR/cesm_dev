@@ -69,3 +69,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2025-05-07 11:59:33: case.build success 
  ---------------------------------------------------
+2025-05-07 11:59:37: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
+ ---------------------------------------------------
