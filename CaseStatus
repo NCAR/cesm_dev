@@ -173,3 +173,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2025-05-09 14:46:44: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
  ---------------------------------------------------
+2025-05-09 15:50:31: model execution success 9475584.desched1
+ ---------------------------------------------------
