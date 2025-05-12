@@ -185,3 +185,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2025-05-11 18:28:02: xmlchange success <command> ./xmlchange STOP_N=1  </command>
  ---------------------------------------------------
+2025-05-11 18:28:21: case.submit starting case.run:9497641.desched1, case.st_archive:9497642.desched1
+ ---------------------------------------------------
