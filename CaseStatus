@@ -160,3 +160,7 @@
  ---------------------------------------------------
 2025-05-13 18:45:59: model execution success 9506119.desched1
  ---------------------------------------------------
+2025-05-13 18:46:00: case.run error 
+ERROR: RUN FAIL: Command 'mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.165/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.165/run/cesm.log.9506119.desched1.250513-104404
+ ---------------------------------------------------
