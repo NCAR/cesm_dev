@@ -42,5 +42,5 @@
   dtcfli = 900
   dtmax = 1800.
   dtmin = 10
-  initfile = "/glade/campaign/cesm/cesmdata/inputdata/wav/ww3/wgx3v7.restart.ww3.calm.240722"
+  initfile = "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156.ww3.r.0149-01-01-00000"
 /

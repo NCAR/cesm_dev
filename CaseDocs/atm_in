@@ -63,7 +63,8 @@
 /
 &cam_initfiles_nl
  bnd_topo		= '/glade/campaign/cgd/amp/pel/topo/cesm3/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0050_noleak_20250409_28kmGRISrough.nc'
- ncdata		= 'b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.147.cam.i.0097-01-01-00000.nc'
+ cam_branch_file		= 'b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156.cam.r.0149-01-01-00000.nc'
+ ncdata		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/inic/se/FLT_L58_ne30pg3_IC_c220623.nc'
  scale_dry_air_mass		=   98288.0D0 
  use_topo_file		=  .true.  
 /

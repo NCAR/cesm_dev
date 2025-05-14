@@ -1,6 +1,6 @@
 &comp_inparm 
 
- ncdata = 'b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.147.cam.i.0097-01-01-00000.nc'
+ cam_branch_file = 'b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156.cam.r.0149-01-01-00000.nc'
  dtime = 1800
 mfilt               =       0,       5,     20,      40,      12,      120,      1,   1
 

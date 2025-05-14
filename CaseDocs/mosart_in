@@ -10,7 +10,6 @@
   fincl1 = ""
   fincl2 = ""
   fincl3 = ""
-  finidat = "b.e30_alpha06b.B1850C_LTso.ne30_t232_wgx3.147.mosart.r.0097-01-01-00000.nc"
   frivinp = "/glade/campaign/cesm/cesmdata/inputdata/rof/mosart/MOSART_routing_Global_0.5x0.5_c170601.nc"
   ice_runoff = .true.
   mfilt = 1
@@ -18,6 +17,7 @@
   mosart_tracers = "LIQ:ICE"
   ndens = 1
   nhtfrq = 0
+  nrevsn = "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156.mosart.r.0149-01-01-00000.nc"
   qgwl_runoff_option = "negative"
   use_halo_option = .false.
 /
