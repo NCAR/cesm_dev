@@ -46,3 +46,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_TYPE=branch
 
+./xmlchange GET_REFCASE=true
+
