@@ -1,0 +1,24 @@
+2025-05-15 15:03:24: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156  </command>
+ ---------------------------------------------------
+2025-05-15 15:03:32: xmlchange success <command> ./xmlchange RUN_REFDATE=0077-01-01  </command>
+ ---------------------------------------------------
+2025-05-15 15:03:38: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
+2025-05-15 15:03:48: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
+ ---------------------------------------------------
+2025-05-15 15:03:58: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
+ ---------------------------------------------------
+2025-05-15 15:04:07: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
+2025-05-15 15:04:16: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=10,STOP_N=4,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
+2025-05-15 15:04:22: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
+2025-05-15 15:04:28: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
+ ---------------------------------------------------
+2025-05-15 15:04:31: case.setup starting 
+ ---------------------------------------------------
+2025-05-15 15:04:33: case.setup success 
+ ---------------------------------------------------
+2025-05-15 15:04:33:   local git repository created
+ ---------------------------------------------------
