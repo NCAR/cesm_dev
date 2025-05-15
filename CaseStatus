@@ -68,3 +68,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha06e
  ---------------------------------------------------
 2025-05-15 10:09:20: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
  ---------------------------------------------------
+2025-05-15 10:09:29: build.clean starting 
+ ---------------------------------------------------
