@@ -62,3 +62,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha06e
  ---------------------------------------------------
 2025-05-15 09:22:51: xmlchange success <command> ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0149-01-01-00000  </command>
  ---------------------------------------------------
+2025-05-15 09:23:17: case.submit starting 9529183.desched1
+ ---------------------------------------------------
