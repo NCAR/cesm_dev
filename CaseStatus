@@ -216,3 +216,7 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha06e
  ---------------------------------------------------
 2025-05-19 22:05:26: model execution success 9566185.desched1
  ---------------------------------------------------
+2025-05-19 22:05:27: case.run error 
+ERROR: RUN FAIL: Command 'mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /glade/derecho/scratch/hannay/b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156/run/cesm.log.9566185.desched1.250519-140527
+ ---------------------------------------------------
