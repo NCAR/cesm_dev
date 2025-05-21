@@ -22,3 +22,5 @@
  ---------------------------------------------------
 2025-05-21 16:24:58: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2025-05-21 16:25:00: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
+ ---------------------------------------------------
