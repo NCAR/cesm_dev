@@ -180,3 +180,5 @@ See log file for details: /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso
  ---------------------------------------------------
 2025-05-21 14:15:47: xmlchange success <command> ./xmlchange CUPID_STARTDATE=0002-01-01  </command>
  ---------------------------------------------------
+2025-05-21 14:33:07: case.submit starting case.cupid:9596326.desched1
+ ---------------------------------------------------

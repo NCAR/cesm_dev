@@ -64,3 +64,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_STARTDATE=0002-01-01
 
+./case.submit --only-job case.cupid
+
