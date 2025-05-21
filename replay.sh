@@ -54,3 +54,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_BASE_STARTDATE=0081-01-01
 
+./xmlchange CUPID_BASE_NYEARS=100
+
