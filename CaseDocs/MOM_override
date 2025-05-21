@@ -21,7 +21,7 @@ ADJUST_NET_SRESTORE_TO_ZERO = False
 MLE%
 !!! USE_BODNER23 = True !(UNCHANGED)
 !!! USE_CR_GRID = True !(UNCHANGED)
-#override CR_FILE = "mle-cr-tx2_3v2-v8_20250215.nc"
+#override CR_FILE = "mle-cr-tx2_3v2-v11_20250521.nc"
 #override MIN_WSTAR2 = 1.0E-09
 #override BLD_DECAYING_TFILTER = 8.64E+04
 #override MLD_DECAYING_TFILTER = 2.592E+06
