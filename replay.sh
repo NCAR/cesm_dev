@@ -62,3 +62,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_RUN_ALL=TRUE
 
+./xmlchange CUPID_STARTDATE=0002-01-01
+
