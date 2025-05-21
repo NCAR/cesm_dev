@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<file id="env_postprocessing.xml" version="2.0">
+  <header>
+      These variables may be changed anytime during a run, they
+      control jobs that are dependent on case.run.
+    </header>
+  <group id="cupid_config">
+    <entry id="CUPID_GEN_TIMESERIES" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>When TRUE, CUPiD will generate time series files from history output</desc>
+    </entry>
+    <entry id="CUPID_GEN_DIAGNOSTICS" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>When TRUE, CUPiD will generate diagnostic plots</desc>
+    </entry>
+    <entry id="CUPID_GEN_HTML" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>When TRUE, CUPiD will generate web pages from the diagnostic plots</desc>
+    </entry>
+  </group>
+  <group id="cupid_environments">
+    <entry id="CUPID_ANALYSIS_ENV" value="cupid-analysis">
+      <type>char</type>
+      <desc>Conda environment to use when running CUPiD notebooks</desc>
+    </entry>
+    <entry id="CUPID_INFRASTRUCTURE_ENV" value="cupid-infrastructure">
+      <type>char</type>
+      <desc>Conda environment to use when running CUPiD tools</desc>
+    </entry>
+  </group>
+  <group id="cupid_analysis">
+    <entry id="CUPID_STARTDATE" value="0001-01-01">
+      <type>char</type>
+      <desc>First year of output to include in CUPiD analysis</desc>
+    </entry>
+    <entry id="CUPID_NYEARS" value="1">
+      <type>integer</type>
+      <desc>Number of years of output to include in CUPiD analysis</desc>
+    </entry>
+    <entry id="CUPID_BASE_STARTDATE" value="0001-01-01">
+      <type>char</type>
+      <desc>First year of baseline output to include in CUPiD analysis</desc>
+    </entry>
+    <entry id="CUPID_BASE_NYEARS" value="100">
+      <type>integer</type>
+      <desc>Number of years of baseline output to include in CUPiD analysis</desc>
+    </entry>
+    <entry id="CUPID_BASELINE_CASE" value="b.e23_alpha17f.BLT1850.ne30_t232.092">
+      <type>char</type>
+      <desc>Baseline case to use in CUPiD analysis</desc>
+    </entry>
+    <entry id="CUPID_BASELINE_ROOT" value="$DOUT_S_ROOT">
+      <type>char</type>
+      <desc>Baseline case root to use in CUPiD analysis</desc>
+    </entry>
+    <entry id="CUPID_EXAMPLE" value="key_metrics">
+      <type>char</type>
+      <desc>Example to use in CUPiD analysis</desc>
+    </entry>
+  </group>
+  <group id="cupid_run_components">
+    <entry id="CUPID_RUN_ALL" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not diagnostics for all components are run</desc>
+    </entry>
+    <entry id="CUPID_RUN_ATM" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ATM diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_OCN" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not OCN diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_LND" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not LND diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_ICE" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ICE diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_ROF" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ROF diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_GLC" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not GLC diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_ADF" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ADF diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+  </group>
+</file>
