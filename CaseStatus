@@ -168,3 +168,5 @@ See log file for details: /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso
  ---------------------------------------------------
 2025-05-21 14:14:13: xmlchange success <command> ./xmlchange CUPID_NYEARS=20  </command>
  ---------------------------------------------------
+2025-05-21 14:14:15: xmlchange success <command> ./xmlchange CUPID_BASE_STARTDATE=0081-01-01  </command>
+ ---------------------------------------------------
