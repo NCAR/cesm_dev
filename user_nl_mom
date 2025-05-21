@@ -1,23 +1,34 @@
-!---------------------------------------------------------------------
-! Users should add all user specific MOM_input parameter changes after
-! these comments as follows:
-!   parameter_name = new_parameter_value
-!
-! If the parameter belongs to a module, enter the parameter in MOM6
-! runtime parameter format ,e.g., change N_SMOOTH parameter within the
-! KPP module as follows:
-!   KPP%
-!   N_SMOOTH = 3
-!   %KPP
-!
-! Note: The parameter changes added to this file will automatically be
-!       applied to:
-!   $RUNDIR/MOM_override
-!
-! WARNING: If a MOM_override file is placed in SourceMods/src.mom/,
-! any additional parameter changes in this file will trigger an error.
-!
-! Parameters:
-!---------------------------------------------------------------------
+FPMIX = False
+USE_KPP = False
+ENERGETICS_SFC_PBL = True
+EPBL_IS_ADDITIVE = False
+ML_OMEGA_FRAC = 0.001
+EPBL_MSTAR_SCHEME = "OM4"
+TKE_DECAY = 0.01
+MSTAR_CAP = 1.25
+MSTAR2_COEF1 = 0.29
+MSTAR2_COEF2 = 0.152
+NSTAR = 0.06
+MSTAR_CONV_ADJ = 0.667
+USE_MLD_ITERATION = True
+EPBL_TRANSITION_SCALE = 0.01
+MIX_LEN_EXPONENT = 1.0
+USE_LA_LI2016 = True
+EPBL_LANGMUIR_SCHEME = "ADDITIVE"
+LT_ENHANCE_COEF = 0.044
+LT_ENHANCE_EXP = -1.5
+LT_MOD_LAC1 = 0.0
+LT_MOD_LAC4 = 0.0
+LT_MOD_LAC5 = 0.22
+BBL_EFFIC = 0.01
+USE_RESTRICTIVE_TOLERANCE_CHECK = True
+MAXTRUNC = 2000
 
-
+RESTORE_SALINITY = True
+MASK_SRESTORE = True
+ADJUST_NET_FRESH_WATER_TO_ZERO = False
+ADJUST_NET_SRESTORE_TO_ZERO = False
+SALT_RESTORE_FILE = "state_restore_tx2_3_20230416.nc"
+FLUXCONST = 1.667
+SRESTORE_AS_SFLUX = True
+MAX_DELTA_SRESTORE = 5.0
