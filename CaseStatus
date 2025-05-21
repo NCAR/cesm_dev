@@ -164,3 +164,5 @@
 ERROR: RUN FAIL: Command 'mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.165/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
 See log file for details: /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.165/run/cesm.log.9506119.desched1.250513-104404
  ---------------------------------------------------
+2025-05-21 14:14:11: xmlchange success <command> ./xmlchange CUPID_STARTDATE=0002-01-01  </command>
+ ---------------------------------------------------

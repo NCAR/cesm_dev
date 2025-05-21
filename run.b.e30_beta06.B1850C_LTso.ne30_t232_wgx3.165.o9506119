@@ -39,3 +39,11 @@ Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF'
  - Checking for required input datasets in DIN_LOC_ROOT
 -------------------------------------------------------------------------
 run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.165/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: Command: 'git -C /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.165 push origin' failed with error 'To github.com:NCAR/cesm_dev.git
+ ! [rejected]        b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.165 -> b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.165 (fetch first)
+error: failed to push some refs to 'github.com:NCAR/cesm_dev.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.165'

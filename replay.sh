@@ -48,3 +48,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange CUPID_STARTDATE=0002-01-01
+
