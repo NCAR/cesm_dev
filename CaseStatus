@@ -14,3 +14,5 @@
  ---------------------------------------------------
 2025-05-22 15:00:11: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2025-05-22 15:00:11: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
