@@ -1,5 +1,7 @@
 &clm_inparm
  albice = 0.50,0.30
+ atm_c13_filename = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/isotopes/atm_delta_C13_CMIP6_1850-2015_yearly_v2.0_c190528.nc'
+ atm_c14_filename = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/isotopes/atm_delta_C14_CMIP6_3x1_global_1850-2015_yearly_v2.0_c190528.nc'
  co2_type = 'diagnostic'
  collapse_urban = .false.
  compname = 'clm2'
@@ -30,7 +32,7 @@
  nlevsno = 12
  nsegspc = 35
  o3_veg_stress_method = 'unset'
- paramfile = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/paramdata/ctsm60_params_nfix.c241119.nc'
+ paramfile = '/glade/campaign/cesm/development/amwg/inputdata_extra/ctsm5.3.012.Nfix_params.v13.c250221_upplim250.nc'
  run_zero_weight_urban = .false.
  snicar_dust_optics = 'sahara'
  snicar_numrad_snw = 5
@@ -51,6 +53,10 @@
  toosmall_urban = 0.d00
  toosmall_wetland = 0.d00
  use_bedrock = .true.
+ use_c13 = .true.
+ use_c13_timeseries = .true.
+ use_c14 = .true.
+ use_c14_bombspike = .true.
  use_cn = .true.
  use_crop = .true.
  use_excess_ice = .true.
@@ -62,6 +68,7 @@
  use_hillslope = .false.
  use_hillslope_routing = .false.
  use_hydrstress = .true.
+ use_init_interp = .true.
  use_lai_streams = .false.
  use_lch4 = .true.
  use_luna = .true.
@@ -152,6 +159,7 @@
 &clm_soilhydrology_inparm
 /
 &dynamic_subgrid
+ do_grossunrep = .false.
  reset_dynbal_baselines = .false.
 /
 &cnvegcarbonstate
@@ -162,6 +170,7 @@
 &dynpft_consistency_checks
 /
 &clm_initinterp_inparm
+ init_interp_method = 'general'
 /
 &century_soilbgcdecompcascade
 /
@@ -309,6 +318,7 @@
 /
 &cn_general
  dribble_crophrv_xsmrpool_2atm = .true.
+ reseed_dead_plants = .true.
 /
 &nitrif_inparm
 /
