@@ -66,3 +66,5 @@ cd "${CASEDIR}"
 
 ./case.submit --only-job case.cupid
 
+./xmlchange RESUBMIT=10
+

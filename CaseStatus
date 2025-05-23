@@ -184,3 +184,5 @@ See log file for details: /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso
  ---------------------------------------------------
 2025-05-21 14:33:09: case.submit success case.cupid:9596326.desched1
  ---------------------------------------------------
+2025-05-23 11:24:14: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
+ ---------------------------------------------------
