@@ -102,18 +102,20 @@ bnd_topo = '/glade/campaign/cgd/amp/pel/topo/cesm3/ne30pg3_gmted2010_modis_bedma
 
 
 
-micro_mg_dcs= 600.D-6
+micro_mg_dcs= 500.D-6
 
-cldfrc_dp1 =  0.05
+clubb_l_do_expldiff_rtm_thlm = .false.
 
-clubb_l_do_expldiff_rtm_thlm           =  .false.
+cldfrc_dp1 =  0.1
 
-clubb_c8  = 4.202827
+clubb_c1 = 0.8171472
 
-clubb_c1  = 0.8171472
+clubb_c14 =  2.319504
 
-clubb_c4  = 5.497635
+clubb_c4 = 5.497635
 
-clubb_c14  = 2.319504
+clubb_c8 = 4.4
+
+
 
 / 

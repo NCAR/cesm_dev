@@ -148,7 +148,7 @@
  cldfrc2m_rhminis		=   1.0D0 
 /
 &cldfrc_nl
- cldfrc_dp1		= 0.05
+ cldfrc_dp1		= 0.1
  cldfrc_dp2		=  500.0D0 
  cldfrc_freeze_dry		= .true.
  cldfrc_ice		= .true.
@@ -193,7 +193,7 @@
  clubb_c6thlc		=  1.0     
  clubb_c7		=  0.1     
  clubb_c7b		=  0.5     
- clubb_c8		= 4.202827
+ clubb_c8		= 4.4
  clubb_c8b		=  0.0     
  clubb_c_invrs_tau_bkgnd		=  1.0     
  clubb_c_invrs_tau_n2		=  0.1     
@@ -386,7 +386,7 @@
  micro_mg_autocon_lwp_exp		=   2.47D0    
  micro_mg_autocon_nd_exp		=   -1.1D0    
  micro_mg_berg_eff_factor		=   1.D0    
- micro_mg_dcs		= 600.D-6
+ micro_mg_dcs		= 500.D-6
  micro_mg_do_graupel		=  .true. 
  micro_mg_do_hail		=  .false. 
  micro_mg_effi_factor		=   1.D0    
