@@ -33,3 +33,6 @@ ERROR: BUILD FAIL: clm.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_
 2025-05-23 15:35:09: case.build error 
 ERROR: BUILD FAIL: clm.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.177/bld/lnd.bldlog.250523-153331
  ---------------------------------------------------
+2025-05-23 15:35:18: case.build error 
+ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.177/env_run.xml appears to have changed without a corresponding invalidation.
+ ---------------------------------------------------
