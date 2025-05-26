@@ -192,3 +192,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_beta06
  ---------------------------------------------------
 2025-05-25 12:00:49: model execution starting 9632157.desched1
  ---------------------------------------------------
+2025-05-26 08:59:35: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
+ ---------------------------------------------------
