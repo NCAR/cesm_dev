@@ -382,3 +382,5 @@ See log file for details: /glade/derecho/scratch/hannay/b.e30_alpha06e.B1850C_LT
  ---------------------------------------------------
 2025-05-29 13:43:23: case.submit success 9671161.desched1
  ---------------------------------------------------
+2025-05-29 13:43:25: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
+ ---------------------------------------------------
