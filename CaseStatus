@@ -258,3 +258,5 @@
 ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.176/run/med.log.9673994.desched1.250530-003345 
  
  ---------------------------------------------------
+2025-05-30 12:05:31: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+ ---------------------------------------------------
