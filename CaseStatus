@@ -506,3 +506,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_beta06
  ---------------------------------------------------
 2025-06-13 06:52:16: st_archive success 9743903.desched1
  ---------------------------------------------------
+2025-06-13 13:38:57: xmlchange success <command> ./xmlchange RESUBMIT=5  </command>
+ ---------------------------------------------------
