@@ -69,3 +69,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha06e
 2025-06-15 13:50:14: case.submit error 
 ERROR: Error in parsing namelist: expected literal value, but got 'rpointer.cpl.0157-01-01-00000'
  ---------------------------------------------------
+2025-06-15 13:56:41: xmlchange success <command> ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0157-01-01-00000  </command>
+ ---------------------------------------------------
