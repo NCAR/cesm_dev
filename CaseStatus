@@ -85,3 +85,5 @@ ERROR: Error in parsing namelist: expected literal value, but got 'rpointer.cpl.
  ---------------------------------------------------
 2025-06-15 22:02:36:   Timing files created for run 9776468.desched1.250615-135757
  ---------------------------------------------------
+2025-06-15 22:03:07: st_archive starting 9776469.desched1
+ ---------------------------------------------------
