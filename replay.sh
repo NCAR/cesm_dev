@@ -24,3 +24,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
 
+./xmlchange JOB_PRIORITY=regular
+
