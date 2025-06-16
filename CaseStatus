@@ -125,3 +125,5 @@ ERROR: Error in parsing namelist: expected literal value, but got 'rpointer.cpl.
  ---------------------------------------------------
 2025-06-16 14:37:32: st_archive success 9783198.desched1
  ---------------------------------------------------
+2025-06-16 14:37:35: case.submit starting 9788672.desched1
+ ---------------------------------------------------
