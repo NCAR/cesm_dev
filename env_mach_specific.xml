@@ -28,6 +28,8 @@
       <command name="load">cesmdev/1.0</command>
       <command name="load">ncarenv/23.09</command>
       <command name="purge"/>
+      <command name="load">conda/latest</command>
+      <command name="load">nco</command>
       <command name="load">craype</command>
     </modules>
     <modules compiler="intel">

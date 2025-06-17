@@ -13,13 +13,13 @@
   history_file = "unknown"
   history_format = "default"
   history_precision = 4
-  ice_ic = "b.e30_beta04.BLT1850.ne30_t232_wgx3.121.cice.r.0125-01-01-00000.nc"
+  ice_ic = "b.e23_alpha17f.BLT1850.ne30_t232.098.cice.r.0201-01-01-00000.nc"
   latpnt = 90.0, -65.0
   lonpnt = 0.0, -45.0
   ndtd = 1
   numax = 99
   numin = 11
-  pointer_file = "rpointer.ice.0086-01-01-00000"
+  pointer_file = "rpointer.ice.0081-01-01-00000"
   print_global = .true.
   print_points = .false.
   restart_ext = .false.
@@ -94,7 +94,7 @@
   kitd = 1
   ktherm = 2
   phi_c_slow_mode = 0.05
-  phi_i_mushy = 0.85
+  phi_i_mushy = 0.45
   rac_rapid_mode = 10
 /
 &dynamics_nml
@@ -152,7 +152,7 @@
   pndaspect = 0.8d0
   rfracmax = 0.85
   rfracmin = 0.15
-  tscale_pnd_drain = 0.5d0
+  tscale_pnd_drain = 10.0d0
 /
 &snow_nml
   drhosdwind = 27.3

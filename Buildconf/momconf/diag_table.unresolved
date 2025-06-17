@@ -48,6 +48,7 @@
 "ocean_model", "vh",           "vh",           "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "vhbt",         "vhbt",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "uhbt",         "uhbt",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rsdo",         "rsdo",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "agessc",       "agessc",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "T_ady_2d",     "T_ady_2d",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "T_adx_2d",     "T_adx_2d",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
@@ -73,8 +74,11 @@
 "ocean_model", "thetao",       "thetao",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "so",           "so",           "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "KE",           "KE",           "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "MEKE",         "MEKE",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "rhopot0",      "rhopot0",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "KPP_OBLdepth", "oml",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_min",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_max",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
 "ocean_model", "tauuo",        "tauuo",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "tauvo",        "tauvo",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "friver",       "friver",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
@@ -105,17 +109,25 @@
 "ocean_model", "heat_content_vprec","heat_content_vprec","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "heat_content_cond","heat_content_cond","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "heat_content_evap","heat_content_evap","${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "SSH",          "SSH",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "tos",          "tos",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos_min",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "tos",          "tos_max",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
 "ocean_model", "sos",          "sos",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sos",          "sos_min",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "sos",          "sos_max",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
 "ocean_model", "SSU",          "SSU",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "SSV",          "SSV",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "mass_wt",      "mass_wt",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "opottempmint", "opottempmint", "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "somint",       "somint",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "Rd_dx",        "Rd_dx",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "speed",        "speed",        "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "mlotst",       "mlotst",       "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlots_min",    "${CASE}.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "mlotst",       "mlots_max",    "${CASE}.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "sst_global",   "sst_global",   "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sss_global",   "sss_global",   "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSH",          "SSH",          "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mass_wt",      "mass_wt",      "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 
 # "${CASE}.mom6.h.z%4yr-%2mo"
 "ocean_model_z", "uo",      "uo",      "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
@@ -135,18 +147,26 @@
 "ocean_model_z", "uhml",    "uhml",    "${CASE}.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 
 # "${CASE}.mom6.h.sfc%4yr-%2mo"
-"ocean_model", "SSH",          "SSH",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "tos",          "tos",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos_min",      "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "tos",          "tos_max",      "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
 "ocean_model", "sos",          "sos",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sos",          "sos_min",      "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "sos",          "sos_max",      "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
 "ocean_model", "SSU",          "SSU",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "SSV",          "SSV",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "mass_wt",      "mass_wt",      "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "opottempmint", "opottempmint", "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "somint",       "somint",       "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "Rd_dx",        "Rd_dx",        "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "speed",        "speed",        "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "mlotst",       "mlotst",       "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlots_min",    "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "mlotst",       "mlots_max",    "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "zos",          "zos",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "zossq",        "zossq",        "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "KPP_OBLdepth", "oml",          "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_min",      "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_max",      "${CASE}.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
 
 # "${CASE}.mom6.h.static"
 "ocean_model", "geolon",      "geolon",      "${CASE}.mom6.h.static", "all", ".false.", "none", 2
@@ -169,6 +189,9 @@
 "ocean_model", "areacello_bu","areacello_bu","${CASE}.mom6.h.static", "all", ".false.", "none", 2
 "ocean_model", "sin_rot",     "sin_rot",     "${CASE}.mom6.h.static", "all", ".false.", "none", 2
 "ocean_model", "cos_rot",     "cos_rot",     "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "C_P",         "C_P",         "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "Rho_0",       "Rho_0",       "${CASE}.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "Geo_heat",    "Geo_heat",    "${CASE}.mom6.h.static", "all", ".false.", "none", 2
 
 # "${CASE}.mom6.h.Agulhas_Section%4yr-%2mo"
 "ocean_model_z", "volcello","volcello","${CASE}.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2

@@ -1,7 +1,7 @@
 &comp_inparm 
 
+phi_i_mushy = 0.45
 
-
- 
+tscale_pnd_drain = 10.0d0
 
 / 

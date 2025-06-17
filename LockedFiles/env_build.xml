@@ -199,19 +199,29 @@
     </entry>
     <entry id="GPU_TYPE" value="none">
       <type>char</type>
-      <valid_values/>
+      <valid_values MACH="derecho">none,a100</valid_values>
       <desc>If set will compile and submit with this gpu type enabled </desc>
     </entry>
-    <entry id="GPU_OFFLOAD" value="none">
-      <type>char</type>
-      <valid_values/>
-      <desc>If set will compile and submit with this gpu offload method enabled </desc>
+    <entry id="OPENACC_GPU_OFFLOAD" value="FALSE">
+      <type>logical</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>True=&gt;compile the GPU code with OpenACC GPU flags </desc>
+    </entry>
+    <entry id="OPENMP_GPU_OFFLOAD" value="FALSE">
+      <type>logical</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>True=&gt;compile the GPU code with OpenMP GPU flags </desc>
+    </entry>
+    <entry id="KOKKOS_GPU_OFFLOAD" value="FALSE">
+      <type>logical</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>True=&gt;compile the GPU code with KOKKOS GPU target </desc>
     </entry>
     <entry id="MPI_GPU_WRAPPER_SCRIPT">
       <type>char</type>
       <valid_values/>
       <desc>If set will attach this script to the MPI run command, mapping
-    different MPI ranks to different GPUs within the same compute node</desc>
+    different MPI ranks to different GPUs within the same compute node </desc>
     </entry>
     <entry id="USE_PETSC" value="FALSE">
       <type>logical</type>
@@ -340,7 +350,7 @@
       <valid_values>eul,fv,fv3,se,mpas</valid_values>
       <desc>CAM dynamical core</desc>
     </entry>
-    <entry id="CAM_CONFIG_OPTS" value="-phys cam7 -nlev 58 -model_top lt -rad rrtmgp">
+    <entry id="CAM_CONFIG_OPTS" value="-phys cam7 -nlev 58 -model_top lt">
       <type>char</type>
       <valid_values/>
       <desc>

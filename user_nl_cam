@@ -7,7 +7,7 @@ interpolate_nlon    =     288,     288,    288,     288,     288,     288,   288
 
 empty_htapes = .true.
 
-fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODVIS', 'AODVISdn','BURDENBC', 
+fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODDUSTdn','AODVIS', 'AODVISdn','BURDENBC', 
 'BURDENDUST', 'BURDENPOM', 'BURDENSEASALT',
 'BURDENSO4', 'BURDENSOA', 'CAPE', 'CCN3', 'CDNUMC', 'CH4', 'CLDHGH', 'CLDICE', 'CLDLIQ', 'CLDLOW', 
 'CLDMED', 'CLDTOT', 'CLOUD', 'CMFMC_DP',
@@ -33,7 +33,8 @@ fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODVIS', 'AODVISdn','
 'so4_a1_CLXF', 'so4_a2_CLXF', 'SFbc_a4', 'SFpom_a4', 'SFso4_a1', 'SFso4_a2',
 'so4_a1_sfgaex1', 'so4_a2_sfgaex1', 'so4_a3_sfgaex1', 'soa_a1_sfgaex1', 'soa_a2_sfgaex1',
 'SFdst_a1','SFdst_a2', 'SFdst_a3', 'SFncl_a1', 'SFncl_a2', 'SFncl_a3',
-'num_a2_sfnnuc1', 'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO'
+'num_a2_sfnnuc1', 'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO',
+'AODVISstdn', 'REFF_AERO', 'so4_a1', 'so4_a2', 'SAD_AERO', 'PS', 'TROP_P' 
 
 fincl3 = 'PRECT', 'PRECC', 'FLUT', 'U850', 'U200', 'V850', 'V200', 'OMEGA500', 'TS', 'SST', 'PSL', 'Z500'
 
@@ -45,12 +46,9 @@ phys_grid_ctem_zm_nbas=120
 phys_grid_ctem_za_nlat=90
 
 seasalt_emis_scale = 1.5D0
-clubb_c8=  4.5
+clubb_c8 = 4.5
 dust_emis_method = 'Leung_2023'
 dust_emis_fact = 2.3
 
- flbc_cycle_yr          = -1
+clubb_l_min_wp2_from_corr_wx=.false. 
 
- flbc_file              = '/glade/campaign/cesm/cesmdata/cseg/inputdata/atm/waccm/lb/LBC_CMIP6_1pctCO2ramp_y1-165_0p5degLat_c180930.nc'
- flbc_type              = 'SERIAL'
- 

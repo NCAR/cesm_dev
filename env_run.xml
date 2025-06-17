@@ -238,13 +238,13 @@
       Reference directory containing RUN_REFCASE data - used for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFCASE" value="b.e30_beta04.BLT1850.ne30_t232_wgx3.121">
+    <entry id="RUN_REFCASE" value="b.e23_alpha17f.BLT1850.ne30_t232.098">
       <type>char</type>
       <desc>
       Reference case for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFDATE" value="0125-01-01">
+    <entry id="RUN_REFDATE" value="0201-01-01">
       <type>char</type>
       <desc>
       Reference date for hybrid or branch runs (yyyy-mm-dd)
@@ -314,6 +314,13 @@
       <desc>
       Alternative date in yyyymmdd format
       sets model restart write date with REST_OPTION and REST_N
+    </desc>
+    </entry>
+    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl.0085-01-01-00000">
+      <type>char</type>
+      <desc>
+      Name of the restart pointer file, this can be used to restart from an
+      intermediate restart by appending the restart date and time in format YYYY-MM-DD-SSSSS
     </desc>
     </entry>
     <entry id="PAUSE_OPTION" value="never">
@@ -405,7 +412,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to determine whether run has been submitted with the submit script or not</desc>
     </entry>
-    <entry id="JOB_IDS" value="case.run:7633244.desched1, case.st_archive:7633245.desched1">
+    <entry id="JOB_IDS" value="case.run:7776977.desched1, case.st_archive:7776978.desched1">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
@@ -610,6 +617,14 @@
     <entry id="ROF2OCN_ICE_RMAPNAME" value="cpl/gridmaps/r05/map_r05_to_tx2_3_nnsm_e1000r1000_230415.nc">
       <type>char</type>
       <desc>rof2ocn runoff mapping file</desc>
+    </entry>
+    <entry id="OCN2WAV_SMAPNAME" value="unset">
+      <type>char</type>
+      <desc>ocn2wav state mapping file</desc>
+    </entry>
+    <entry id="WAV2OCN_SMAPNAME" value="unset">
+      <type>char</type>
+      <desc>wav2ocn state mapping file</desc>
     </entry>
     <entry id="EPS_FRAC" value="1.0e-02">
       <type>char</type>
@@ -1101,11 +1116,11 @@
                ERA5   (not tuned)
           Other atm forcing options are invalid to run CLM and will result in an error.
     </desc>
-      <valid_values>clm5_0_cam6.0,clm5_0_cam7.0,clm5_0_cam5.0,clm5_0_cam4.0,clm5_0_GSWP3v1,clm5_0_CRUv7,clm5_0_QIAN,clm5_0_1PT,clm5_0_NLDAS2,clm5_0_ERA5,clm4_5_CRUv7,clm4_5_GSWP3v1,clm4_5_QIAN,clm4_5_cam6.0,clm4_5_cam7.0,clm4_5_cam5.0,clm4_5_cam4.0,clm4_5_1PT,clm4_5_NLDAS2,clm4_5_ERA5,clm5_1_CRUv7,clm5_1_GSWP3v1,clm5_1_cam6.0,clm5_1_QIAN,clm5_1_1PT,clm5_1_NLDAS2,clm5_1_ERA5,clm6_0_CRUv7,clm6_0_GSWP3v1,clm6_0_cam6.0,clm6_0_cam7.0,clm6_0_cam5.0,clm6_0_cam4.0,clm6_0_QIAN,clm6_0_1PT,clm6_0_NLDAS2,clm6_0_ERA5</valid_values>
+      <valid_values>clm5_0_cam6.0,clm5_0_cam7.0,clm5_0_cam5.0,clm5_0_cam4.0,clm5_0_GSWP3v1,clm5_0_CRUv7,clm5_0_QIAN,clm5_0_1PT,clm5_0_NLDAS2,clm5_0_ERA5,clm4_5_CRUv7,clm4_5_GSWP3v1,clm4_5_QIAN,clm4_5_cam6.0,clm4_5_cam7.0,clm4_5_cam5.0,clm4_5_cam4.0,clm4_5_1PT,clm4_5_NLDAS2,clm4_5_ERA5,clm6_0_CRUv7,clm6_0_GSWP3v1,clm6_0_cam6.0,clm6_0_cam7.0,clm6_0_cam5.0,clm6_0_cam4.0,clm6_0_QIAN,clm6_0_1PT,clm6_0_NLDAS2,clm6_0_ERA5</valid_values>
     </entry>
     <entry id="CLM_PHYSICS_VERSION" value="clm6_0">
       <type>char</type>
-      <valid_values>clm4_5,clm5_0,clm5_1,clm6_0</valid_values>
+      <valid_values>clm4_5,clm5_0,clm6_0</valid_values>
       <desc>Overall physics version to use.
     This sets the default values for many different namelist options.
     This is typically set by the compset.</desc>
@@ -1284,6 +1299,18 @@
     </entry>
   </group>
   <group id="run_component_mom">
+    <entry id="MOM6_WW3_CPL_METHOD" value="most">
+      <type>char</type>
+      <valid_values>none,legacy,most</valid_values>
+      <desc> This variable determines the method used to couple MOM6 to WW3.
+           The method "most" corresponds to the newest coupling method 
+           that turns on FPMix parameterization, Stokes_Bands coupling,
+           and Stokes similarity package. The method "legacy" corresponds to
+           the older coupling method based on receiving a Langmuir number from
+           WW3 and passing it to CVMix. When set to "none", no wave
+           parameterization is used.
+    </desc>
+    </entry>
     <entry id="OCN_DIAG_MODE" value="production">
       <type>char</type>
       <valid_values>spinup,production,development,none</valid_values>

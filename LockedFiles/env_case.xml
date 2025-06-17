@@ -30,7 +30,7 @@
       <type>char</type>
       <desc>Scripts root utils directory location (setup automatically to $CIMEROOT/scripts/Tools - DO NOT EDIT)</desc>
     </entry>
-    <entry id="MODEL_VERSION" value="cesm3_0_beta04">
+    <entry id="MODEL_VERSION" value="cesm3_0_beta05">
       <type>char</type>
       <desc>Apparent version of the model used for this case</desc>
     </entry>
@@ -297,7 +297,7 @@
       <desc> main configuration file that specifies all relevant filenames
     and directories to configure a case</desc>
     </entry>
-    <entry id="CASEROOT" value="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_1pctco2">
+    <entry id="CASEROOT" value="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta05.BLT1850.ne30_t232_wgx3.122">
       <type>char</type>
       <desc>full pathname of case</desc>
     </entry>
@@ -306,15 +306,15 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>user is not on the requested machine</desc>
     </entry>
-    <entry id="CIMEROOT" value="/glade/work/hannay/cesm_tags/cesm3_0_beta04/cime">
+    <entry id="CIMEROOT" value="/glade/work/hannay/cesm_tags/cesm3_0_beta05/cime">
       <type>char</type>
       <desc>full pathname of CIME source root directory</desc>
     </entry>
-    <entry id="SRCROOT" value="/glade/work/hannay/cesm_tags/cesm3_0_beta04">
+    <entry id="SRCROOT" value="/glade/work/hannay/cesm_tags/cesm3_0_beta05">
       <type>char</type>
       <desc>full pathname of source root directory</desc>
     </entry>
-    <entry id="CASE" value="b.e30_beta04.BLT1850.ne30_t232_wgx3.121_1pctco2">
+    <entry id="CASE" value="b.e30_beta05.BLT1850.ne30_t232_wgx3.122">
       <type>char</type>
       <desc>case name</desc>
     </entry>
@@ -326,7 +326,7 @@
       <type>char</type>
       <desc>Machine name</desc>
     </entry>
-    <entry id="MACHDIR" value="/glade/work/hannay/cesm_tags/cesm3_0_beta04/ccs_config/machines">
+    <entry id="MACHDIR" value="/glade/work/hannay/cesm_tags/cesm3_0_beta05/ccs_config/machines">
       <type>char</type>
       <desc>Machines directory location</desc>
     </entry>
@@ -344,7 +344,7 @@
       <type>char</type>
       <desc>username of user who created case</desc>
     </entry>
-    <entry id="CASE_HASH" value="8b97766f09a6b46e6ae0911ca14b8e36ed5e170078aab16de59497187570361d">
+    <entry id="CASE_HASH" value="f065de5cc1b747e4a7938aa77d2ea4ef2152db8d219e5833b7169b7ffee61b97">
       <type>char</type>
       <desc>Unique identifier for case</desc>
     </entry>

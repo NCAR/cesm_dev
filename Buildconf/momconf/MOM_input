@@ -111,7 +111,7 @@ FRAZIL = True
                                 ! ENABLE_THERMODYNAMICS is true.
                                 ! If true, apply geothermal heating."
 
-MIN_SALINITY = 0.0
+MIN_SALINITY = 1e-06
                                 ! "[PPT] default = 0.01
                                 !  The minimum value of salinity when BOUND_SALINITY=True. The default is 0.01
                                 !  for backward compatibility but ideally should be 0."
@@ -224,6 +224,10 @@ TOPO_CONFIG = file
 TOPO_FILE = ocean_topo_tx2_3v2_240501.nc
                                 ! "default = 'topog.nc'
                                 ! The file from which the bathymetry is read."
+
+TOPO_EDITS_FILE = topo_edits_tx2_3v2_250107.nc
+                                ! "default = ''
+                                ! The file from which to read a list of i,j,z topography overrides."
 
 MAXIMUM_DEPTH = 6000.0
                                 ! "[m]
@@ -496,14 +500,24 @@ AH = 1000000000000.0
                                 ! "[m4 s-1] default = 0.0
                                 ! The background biharmonic horizontal viscosity."
 
-LEITH_AH = True
+USE_LEITHY = True
+                                ! "[Boolean] default = False
+                                ! If true, use a modified version of the biharmonic Leith nonlinear
+                                ! eddy viscosity. This implementation can include harmonic backscatter
+                                ! when LEITHY_CK > 0."
+
+LEITH_AH = False
                                 ! "[Boolean] default = False
                                 ! If true, use a biharmonic Leith nonlinear eddy viscosity."
 
-LEITH_BI_CONST = 128.0
+LEITH_BI_CONST = 75.0
                                 ! "[nondim] default = 0.0
                                 ! The nondimensional biharmonic Leith constant, typical values are thus far
                                 ! undetermined."
+
+LEITHY_CK = 0.0
+                                ! "[nondim] default = 1.0
+                                ! Fraction of biharmonic dissipation that gets backscattered, in Leith+E."
 
 USE_LAND_MASK_FOR_HVISC = True
                                 ! "[Boolean] default = False
@@ -512,6 +526,12 @@ USE_LAND_MASK_FOR_HVISC = True
                                 ! values over land or outside of the domain. Default is False in order to
                                 ! maintain answers with legacy experiments but should be changed to True
                                 ! for new experiments."
+
+FRICTWORK_BUG = False
+                                ! "[Boolean] default = True
+                                ! If true, retain an answer-changing bug in calculating the FrictWork, which
+                                ! cancels the h in thickness flux and the h at velocity point. This is not
+                                ! recommended."
 
 HMIX_FIXED = 0.5
                                 ! "[m]
@@ -750,6 +770,14 @@ MLE_FRONT_LENGTH = 1000.0
                                 ! by the parameter FOX_KEMPER_ML_RESTRAT_COEF. If MLE_FRONT_LENGTH is
                                 ! non-zero, it is recommended to set FOX_KEMPER_ML_RESTRAT_COEF=1."
 
+MLE_FRONT_LENGTH_FROM_FILE = False
+                                ! "[Boolean] default = False
+                                ! If true, the MLE front-length scale is read from a file."
+
+MLE_FL_FILE = mle-lf-clim-tx2_3v2_20250115.nc
+                                ! "The path to the file containing the MLE
+                                ! front-length scale.."
+
 MLE_MLD_DECAY_TIME = 345600.0
                                 ! "[s] default = 0.0
                                 ! The time-scale for a running-mean filter applied to the mixed-layer
@@ -791,7 +819,7 @@ HORIZ_VARYING_BACKGROUND = True
                                 !  If true, apply vertically uniform, latitude-dependent background diffusivity,
                                 !  as described in Danabasoglu et al., 2012."
 
-KD = 0.0
+KD = 1e-07
                                 ! "[m2 s-1]
                                 ! The background diapycnal diffusivity of density in the
                                 ! interior. Zero or the molecular value, ~1e-7 m2 s-1,
@@ -802,12 +830,12 @@ KDML = 0.0
                                 ! If BULKMIXEDLAYER is false, KDML is the elevated diapycnal diffusivity in the
                                 ! topmost HMIX of fluid. KDML is only used if BULKMIXEDLAYER is false."
 
-PRANDTL_BKGND = 5.0
+PRANDTL_BKGND = 10.0
                                 ! "[nondim] default = 1.0
                                 ! Turbulent Prandtl number used to convert vertical background diffusivities
                                 ! into viscosities."
 
-KD_MIN = 2e-07
+KD_MIN = 1e-07
                                 ! "[m2 s-1] default = 2.0E-07
                                 ! The minimum diapycnal diffusivity.
                                 ! If true, use an internal tidal dissipation scheme to
@@ -1030,35 +1058,20 @@ MEKE_MIN_LSCALE = True
                                 ! If true, use a strict minimum of provided length scales rather than harmonic
                                 ! mean."
 
-MEKE_ALPHA_RHINES = 1.0
-                                ! "[nondim] default = 0.05
-                                ! If positive, is a coefficient weighting the Rhines scale
-                                ! in the expression for mixing length used in MEKE-derived diffusiviity."
-
 MEKE_ALPHA_EADY = 1.0
                                 ! "[nondim] default = 0.05
                                 ! If positive, is a coefficient weighting the Eady length scale
                                 ! in the expression for mixing length used in MEKE-derived diffusiviity."
 
-MEKE_ALPHA_DEFORM = 1.0
-                                ! "[nondim] default = 0.0
-                                ! If positive, is a coefficient weighting the deformation scale in the
-                                ! expression for mixing length used in MEKE-derived diffusivity."
-
-MEKE_ALPHA_FRICT = 1.0
-                                ! "[nondim] default = 0.0
-                                ! If positive, is a coefficient weighting the frictional arrest scale in the
-                                ! expression for mixing length used in MEKE-derived diffusivity."
-
-MEKE_ALPHA_GRID = 1.0
-                                ! "[nondim] default = 0.0
-                                ! If positive, is a coefficient weighting the grid-spacing as a scale in the
-                                ! expression for mixing length used in MEKE-derived diffusivity."
-
 MEKE_FRCOEFF = 0.3
                                 ! "[nondim] default = -1.0
                                 ! If positive, is a coefficient weighting the grid-spacing as a scale in the
                                 ! expression for mixing length used in MEKE-derived diffusivity."
+
+MEKE_CT = 0.0
+                                ! "[nondim] default = 50.0
+                                ! ! A coefficient in the expression for the ratio of barotropic eddy energy and
+                                ! ! mean column energy (see Jansen et al. 2015)."
 
 MEKE_POSITIVE = True
                                 ! "[Boolean] default = False
@@ -1155,7 +1168,7 @@ CHANNEL_CONFIG = list
                                 ! file - Read open face widths everywhere from a
                                 ! NetCDF file on the model grid."
 
-CHANNEL_LIST_FILE = MOM_channels_global_tx2_3v2_240501
+CHANNEL_LIST_FILE = channels_tx2_3v2_250107.txt
                                 ! "default = MOM_channel_list
                                 ! The file from which the list of narrowed channels is read."
 
@@ -1192,7 +1205,14 @@ CEMP_NL = 2.0
                                 ! "default = 3.6
                                 ! Empirical coefficient of non-local momentum mixing."
 
-IC_OUTPUT_FILE = b.e30_beta04.BLT1850.ne30_t232_wgx3.121_1pctco2.mom6.ic.0001-01-01.nc
+VISC_REM_BUG = False
+                                ! "[Boolean] default = True
+                                ! If true, visc_rem_[uv] in split mode is incorrectly calculated or accounted
+                                ! for in two places. This parameter controls the defaults of two individual
+                                ! flags, VISC_REM_TIMESTEP_BUG in MOM_dynamics_split_RK2(b) and
+                                ! VISC_REM_BT_WEIGHT_BUG in MOM_barotropic."
+
+IC_OUTPUT_FILE = b.e30_beta05.BLT1850.ne30_t232_wgx3.122.mom6.ic.0001-01-01.nc
                                 ! "default = 'MOM_IC'
                                 ! The file into which to write the initial conditions."
 
@@ -1220,7 +1240,7 @@ THICKNESS_CONFIG = thickness_file
                                 ! rossby_front - a mixed layer front in thermal wind balance.
                                 ! USER - call a user modified routine."
 
-THICKNESS_FILE = ./b.e30_beta04.BLT1850.ne30_t232_wgx3.121.mom6.r.0125-01-01-00000.nc
+THICKNESS_FILE = ./b.e23_alpha17f.BLT1850.ne30_t232.098.mom6.r.0201-01-01-00000.nc
                                 ! The name of the thickness file
 
 HYCOM1_ONLY_IMPROVES = True
@@ -1248,7 +1268,7 @@ TS_CONFIG = file
                                 ! SCM_ideal_hurr - used in the SCM idealized hurricane test.
                                 ! USER - call a user modified routine."
 
-TS_FILE = ./b.e30_beta04.BLT1850.ne30_t232_wgx3.121.mom6.r.0125-01-01-00000.nc
+TS_FILE = ./b.e23_alpha17f.BLT1850.ne30_t232.098.mom6.r.0201-01-01-00000.nc
                                 ! The initial condition file for the temperature and salinity.
 
 TEMP_IC_VAR = Temp
@@ -1260,10 +1280,10 @@ SALT_IC_VAR = Salt
 VELOCITY_CONFIG = file
                                 ! A string that determines how the initial velocities are specified for a new run.
 
-VELOCITY_FILE = ./b.e30_beta04.BLT1850.ne30_t232_wgx3.121.mom6.r.0125-01-01-00000.nc
+VELOCITY_FILE = ./b.e23_alpha17f.BLT1850.ne30_t232.098.mom6.r.0201-01-01-00000.nc
                                 ! The name of the velocity initial condition file.
 
-KV = 0.0
+KV = 1e-06
                                 ! "[m2 s-1]
                                 ! kinematic viscosity in the interior. The molecular value, ~1e-6
                                 ! m2 s-1, may be used."
@@ -1335,7 +1355,7 @@ SURFBAND_WAVENUMBERS = 0.04, 0.11, 0.33
 AUTO_MASKTABLE = True
                                 ! Turn on automatic mask table generation to eliminate land blocks
 
-GEOM_FILE = b.e30_beta04.BLT1850.ne30_t232_wgx3.121_1pctco2.mom6.h.ocean_geometry.nc
+GEOM_FILE = b.e30_beta05.BLT1850.ne30_t232_wgx3.122.mom6.h.ocean_geometry.nc
                                 ! default = ocean_geometry.nc
                                 ! The file into which to write the ocean geometry.
 
@@ -1390,5 +1410,14 @@ KPP_LT_VT2_METHOD = VR12
 STOKES_MOST = True
                                 ! default = False
                                 ! If True, use Stokes Similarity package.
+
+COMPUTE_MONIN_OBUKHOV = True
+                                ! default = False
+                                ! If True, limit the OBL depth to be no deeper than Monin-Obukhov depth.
+
+MINIMUM_OBL_DEPTH = 5.0
+                                ! "[m] default = 0.0
+                                ! If non-zero, a minimum depth to use for KPP OBL depth. Independent of this
+                                ! parameter, the OBL depth is always at least as deep as the first layer."
 
 %KPP

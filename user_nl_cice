@@ -1,7 +1,2 @@
-!----------------------------------------------------------------------------------
-! Users should add all user specific namelist changes below in the form of 
-!   namelist_var = new_namelist_value 
-! Note - that it does not matter what namelist group the namelist_var belongs to
-!----------------------------------------------------------------------------------
-
- 
+phi_i_mushy = 0.45
+tscale_pnd_drain = 10.0d0

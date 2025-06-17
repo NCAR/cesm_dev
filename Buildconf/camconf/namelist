@@ -1,6 +1,6 @@
 &comp_inparm 
 
- ncdata = 'b.e30_beta04.BLT1850.ne30_t232_wgx3.121.cam.i.0125-01-01-00000.nc'
+ ncdata = 'b.e23_alpha17f.BLT1850.ne30_t232.098.cam.i.0201-01-01-00000.nc'
  dtime = 1800
 mfilt    =       0,       5,     20,      40,      12,       120,      1,   1
 
@@ -20,7 +20,7 @@ empty_htapes = .true.
 
 
 
-fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODVIS', 'AODVISdn','BURDENBC', 
+fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODDUSTdn','AODVIS', 'AODVISdn','BURDENBC', 
 
 'BURDENDUST', 'BURDENPOM', 'BURDENSEASALT',
 
@@ -72,7 +72,9 @@ fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODVIS', 'AODVISdn','
 
 'SFdst_a1','SFdst_a2', 'SFdst_a3', 'SFncl_a1', 'SFncl_a2', 'SFncl_a3',
 
-'num_a2_sfnnuc1', 'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO'
+'num_a2_sfnnuc1', 'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO',
+
+'AODVISstdn', 'REFF_AERO', 'so4_a1', 'so4_a2', 'SAD_AERO', 'PS', 'TROP_P' 
 
 
 
@@ -96,7 +98,7 @@ phys_grid_ctem_za_nlat=90
 
 seasalt_emis_scale = 1.5D0
 
-clubb_c8=  4.5
+clubb_c8 = 4.5
 
 dust_emis_method = 'Leung_2023'
 
@@ -104,14 +106,8 @@ dust_emis_fact = 2.3
 
 
 
- flbc_cycle_yr          = -1
+clubb_l_min_wp2_from_corr_wx=.false. 
 
 
-
- flbc_file              = '/glade/campaign/cesm/cesmdata/cseg/inputdata/atm/waccm/lb/LBC_CMIP6_1pctCO2ramp_y1-165_0p5degLat_c180930.nc'
-
- flbc_type              = 'SERIAL'
-
- 
 
 / 
