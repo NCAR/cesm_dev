@@ -163,3 +163,5 @@ ERROR: Error in parsing namelist: expected literal value, but got 'rpointer.cpl.
  ---------------------------------------------------
 2025-06-17 07:01:51: case.submit starting 9792779.desched1
  ---------------------------------------------------
+2025-06-17 07:01:53: case.submit success 9792779.desched1
+ ---------------------------------------------------
