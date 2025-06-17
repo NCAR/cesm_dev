@@ -1,0 +1,98 @@
+failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:16:02--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try: 2) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:18:14--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try: 3) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:20:28--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try: 4) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:22:42--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try: 5) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:24:58--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try: 6) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:27:15--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try: 7) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:29:31--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try: 8) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:31:49--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try: 9) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:34:07--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try:10) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:36:27--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try:11) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:38:47--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try:12) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:41:06--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try:13) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:43:25--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try:14) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:45:45--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try:15) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:48:04--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try:16) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:50:23--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try:17) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:52:42--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try:18) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:55:02--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try:19) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Retrying.
+
+--2025-01-22 16:57:21--  ftp://ftp.cgd.ucar.edu/cesm/inputdata/
+  (try:20) => ‘.listing’
+Connecting to ftp.cgd.ucar.edu (ftp.cgd.ucar.edu)|128.117.13.41|:21... failed: Connection timed out.
+Giving up.
+

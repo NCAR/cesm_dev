@@ -104,10 +104,14 @@ dust_emis_fact = 2.3
 
 
 
-flbc_file              = '//glade/campaign/cesm/cesmdata/cseg/inputdata/atm/waccm/lb/LBC_CMIP6abrupt4xCO2_cyclicalYear1_0p5degLat_c180929.nc'
-
-flbc_cycle_yr= 1
+ flbc_cycle_yr          = -1
 
 
+
+ flbc_file              = '/glade/campaign/cesm/cesmdata/cseg/inputdata/atm/waccm/lb/LBC_CMIP6_1pctCO2ramp_y1-165_0p5degLat_c180930.nc'
+
+ flbc_type              = 'SERIAL'
+
+ 
 
 / 

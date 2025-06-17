@@ -297,7 +297,7 @@
       <desc> main configuration file that specifies all relevant filenames
     and directories to configure a case</desc>
     </entry>
-    <entry id="CASEROOT" value="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2">
+    <entry id="CASEROOT" value="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_1pctco2">
       <type>char</type>
       <desc>full pathname of case</desc>
     </entry>
@@ -314,7 +314,7 @@
       <type>char</type>
       <desc>full pathname of source root directory</desc>
     </entry>
-    <entry id="CASE" value="b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2">
+    <entry id="CASE" value="b.e30_beta04.BLT1850.ne30_t232_wgx3.121_1pctco2">
       <type>char</type>
       <desc>case name</desc>
     </entry>
@@ -344,7 +344,7 @@
       <type>char</type>
       <desc>username of user who created case</desc>
     </entry>
-    <entry id="CASE_HASH" value="b5b78b9233f484e30525442943327999623e2e2b54d3b169a40533cdb6dc34b3">
+    <entry id="CASE_HASH" value="8b97766f09a6b46e6ae0911ca14b8e36ed5e170078aab16de59497187570361d">
       <type>char</type>
       <desc>Unique identifier for case</desc>
     </entry>

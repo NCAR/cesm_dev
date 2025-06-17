@@ -130,10 +130,10 @@
  xs_long_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/waccm/phot/temp_prs_GT200nm_c221005mm.nc'
 /
 &chem_surfvals_nl
- flbc_cycle_yr		= 1
- flbc_file		= '//glade/campaign/cesm/cesmdata/cseg/inputdata/atm/waccm/lb/LBC_CMIP6abrupt4xCO2_cyclicalYear1_0p5degLat_c180929.nc'
+ flbc_cycle_yr		= -1
+ flbc_file		= '/glade/campaign/cesm/cesmdata/cseg/inputdata/atm/waccm/lb/LBC_CMIP6_1pctCO2ramp_y1-165_0p5degLat_c180930.nc'
  flbc_list		= 'CO2','CH4','N2O','CFC11','CFC12','CFC11eq'
- flbc_type		= 'CYCLICAL'
+ flbc_type		= 'SERIAL'
  scenario_ghg		= 'CHEM_LBC_FILE'
 /
 &cldfrc2m_nl
