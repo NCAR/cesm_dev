@@ -1,15 +1,15 @@
 ---------------- TIMING PROFILE ---------------------
-  Case        : b.e30_beta05.BLT1850.ne30_t232_wgx3.128
-  LID         : 7793738.desched1.250218-183440
+  Case        : b.e30_beta05.BLT1850.ne30_t232_wgx3.129
+  LID         : 8014922.desched1.250227-081649
   Machine     : derecho
-  Caseroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta05.BLT1850.ne30_t232_wgx3.128
-  Timeroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta05.BLT1850.ne30_t232_wgx3.128/Tools
-  User        : hannay
-  Curr Date   : Wed Feb 19 02:19:11 2025
+  Caseroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta05.BLT1850.ne30_t232_wgx3.129
+  Timeroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta05.BLT1850.ne30_t232_wgx3.129/Tools
+  User        : gmarques
+  Curr Date   : Thu Feb 27 16:03:01 2025
   Driver      : CMEPS
   grid        : a%ne30np4.pg3_l%ne30np4.pg3_oi%tx2_3v2_r%r05_g%gris4_w%wgx3v7_z%null_m%tx2_3v2
   compset     : 1850_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP
-  run type    : hybrid, continue_run = FALSE (inittype = TRUE)
+  run type    : startup, continue_run = FALSE (inittype = TRUE)
   stop option : nyears, stop_n = 4
   run length  : 1460 days (1459.9583333333333 for ocean)
 
@@ -30,28 +30,28 @@
   pe count for cost estimate : 3456 
 
   Overall Metrics: 
-    Model Cost:            6632.96   pe-hrs/simulated_year 
-    Model Throughput:        12.50   simulated_years/day 
+    Model Cost:            6661.71   pe-hrs/simulated_year 
+    Model Throughput:        12.45   simulated_years/day 
 
-    Init Time   :     164.201 seconds 
-    Run Time    :   27637.336 seconds       18.930 seconds/day 
-    Final Time  :      14.723 seconds 
+    Init Time   :     140.843 seconds 
+    Run Time    :   27757.111 seconds       19.012 seconds/day 
+    Final Time  :      15.175 seconds 
 
 
 Runs Time in total seconds, seconds/model-day, and model-years/wall-day 
 CPL Run Time represents time in CPL pes alone, not including time associated with data exchange with other components 
 
-    TOT Run Time:   27637.336 seconds       18.930 seconds/mday        12.50 myears/wday 
-    CPL Run Time:    2305.035 seconds        1.579 seconds/mday       149.93 myears/wday 
-    ATM Run Time:   19373.529 seconds       13.270 seconds/mday        17.84 myears/wday 
-    LND Run Time:    2282.444 seconds        1.563 seconds/mday       151.42 myears/wday 
-    ICE Run Time:    5563.951 seconds        3.811 seconds/mday        62.11 myears/wday 
-    OCN Run Time:   22983.752 seconds       15.742 seconds/mday        15.04 myears/wday 
-    ROF Run Time:      94.503 seconds        0.065 seconds/mday      3657.04 myears/wday 
-    GLC Run Time:       0.997 seconds        0.001 seconds/mday    346674.69 myears/wday 
-    WAV Run Time:    6321.834 seconds        4.330 seconds/mday        54.67 myears/wday 
+    TOT Run Time:   27757.111 seconds       19.012 seconds/mday        12.45 myears/wday 
+    CPL Run Time:    2315.840 seconds        1.586 seconds/mday       149.23 myears/wday 
+    ATM Run Time:   19516.482 seconds       13.367 seconds/mday        17.71 myears/wday 
+    LND Run Time:    2250.832 seconds        1.542 seconds/mday       153.54 myears/wday 
+    ICE Run Time:    5495.711 seconds        3.764 seconds/mday        62.89 myears/wday 
+    OCN Run Time:   22467.414 seconds       15.389 seconds/mday        15.38 myears/wday 
+    ROF Run Time:     120.400 seconds        0.082 seconds/mday      2870.42 myears/wday 
+    GLC Run Time:       0.827 seconds        0.001 seconds/mday    417946.55 myears/wday 
+    WAV Run Time:    6145.236 seconds        4.209 seconds/mday        56.24 myears/wday 
     ESP Run Time:       0.000 seconds        0.000 seconds/mday         0.00 myears/wday 
-    CPL COMM Time:   4334.592 seconds        2.969 seconds/mday        79.73 myears/wday 
+    CPL COMM Time:   4458.635 seconds        3.054 seconds/mday        77.51 myears/wday 
    NOTE: min:max driver timers (seconds/day):   
                             CPL (pes 0 to 2699) 
                                                 ATM (pes 0 to 2699) 

@@ -63,7 +63,7 @@
 /
 &cam_initfiles_nl
  bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/se/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_20240117.nc'
- ncdata		= 'b.e23_alpha17f.BLT1850.ne30_t232.098.cam.i.0201-01-01-00000.nc'
+ ncdata		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/inic/se/FLT_L58_ne30pg3_IC_c220623.nc'
  scale_dry_air_mass		=   98288.0D0 
  use_topo_file		=  .true.  
 /
@@ -489,7 +489,7 @@
  prescribed_strataero_use_chemtrop		=   .true.   
 /
 &pumas_stochastic_tau_nl
- pumas_stochastic_tau_kernel_filename		= '/glade/work/hannay/cesm_tags/cesm3_0_beta05/components/cam/bld/../src/physics/pumas/KBARF_tau_kernel.dat'
+ pumas_stochastic_tau_kernel_filename		= '/glade/work/gmarques/cesm.sandboxes/cesm3_0_beta05_v2/components/cam/bld/../src/physics/pumas/KBARF_tau_kernel.dat'
 /
 &qneg_nl
  print_qneg_warn		= 'summary'
@@ -522,8 +522,8 @@
 /
 &radiation_nl
  graupel_in_rad		=  .false. 
- rrtmgp_coefs_lw_file		= '/glade/work/hannay/cesm_tags/cesm3_0_beta05/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-lw-g128.nc'
- rrtmgp_coefs_sw_file		= '/glade/work/hannay/cesm_tags/cesm3_0_beta05/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-sw-g112.nc'
+ rrtmgp_coefs_lw_file		= '/glade/work/gmarques/cesm.sandboxes/cesm3_0_beta05_v2/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-lw-g128.nc'
+ rrtmgp_coefs_sw_file		= '/glade/work/gmarques/cesm.sandboxes/cesm3_0_beta05_v2/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-sw-g112.nc'
 /
 &ref_pres_nl
  clim_modal_aero_top_press		=  1.D-4 
