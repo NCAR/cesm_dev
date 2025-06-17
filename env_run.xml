@@ -232,19 +232,19 @@
       a restart file.
     </desc>
     </entry>
-    <entry id="RUN_REFDIR" value="cesm2_init">
+    <entry id="RUN_REFDIR" value="ccsm4_init">
       <type>char</type>
       <desc>
       Reference directory containing RUN_REFCASE data - used for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFCASE" value="b.e23_alpha17f.BLT1850.ne30_t232.130">
+    <entry id="RUN_REFCASE" value="case.std">
       <type>char</type>
       <desc>
       Reference case for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFDATE" value="0045-01-01">
+    <entry id="RUN_REFDATE" value="0001-01-01">
       <type>char</type>
       <desc>
       Reference date for hybrid or branch runs (yyyy-mm-dd)
@@ -256,7 +256,7 @@
       Reference time of day (seconds) for hybrid or branch runs (sssss)
     </desc>
     </entry>
-    <entry id="GET_REFCASE" value="TRUE">
+    <entry id="GET_REFCASE" value="FALSE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>
@@ -412,7 +412,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to determine whether run has been submitted with the submit script or not</desc>
     </entry>
-    <entry id="JOB_IDS" value="case.run:8376581.desched1, case.st_archive:8376583.desched1">
+    <entry id="JOB_IDS" value="case.run:8379800.desched1, case.st_archive:8379801.desched1">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>

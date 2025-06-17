@@ -386,7 +386,7 @@
  micro_mg_autocon_lwp_exp		=   2.47D0    
  micro_mg_autocon_nd_exp		=   -1.1D0    
  micro_mg_berg_eff_factor		=   1.D0    
- micro_mg_dcs		= 500.D-6
+ micro_mg_dcs		= 600.D-6
  micro_mg_do_graupel		=  .true. 
  micro_mg_do_hail		=  .false. 
  micro_mg_effi_factor		=   1.D0    
