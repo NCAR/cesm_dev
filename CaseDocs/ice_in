@@ -13,13 +13,13 @@
   history_file = "unknown"
   history_format = "default"
   history_precision = 4
-  ice_ic = "b.e23_alpha17f.BLT1850.ne30_t232.098.cice.r.0201-01-01-00000.nc"
+  ice_ic = "b.e30_beta04.BLT1850.ne30_t232_wgx3.121.cice.r.0075-01-01-00000.nc"
   latpnt = 90.0, -65.0
   lonpnt = 0.0, -45.0
   ndtd = 1
   numax = 99
   numin = 11
-  pointer_file = "rpointer.ice.0199-01-01-00000"
+  pointer_file = "rpointer.ice.2014-01-01-00000"
   print_global = .true.
   print_points = .false.
   restart_ext = .false.
@@ -199,15 +199,15 @@
 /
 &domain_nml
   add_mpi_barriers = .false.
-  block_size_x = 9
-  block_size_y = 8
-  distribution_type = "sectrobin"
+  block_size_x = 6
+  block_size_y = 6
+  distribution_type = "spacecurve"
   distribution_wght = "blockall"
   ew_boundary_type = "cyclic"
   maskhalo_bound = .true.
   maskhalo_dyn = .true.
   maskhalo_remap = .true.
-  max_blocks = 5
+  max_blocks = 6
   ns_boundary_type = "tripole"
   nx_global = 540
   ny_global = 480

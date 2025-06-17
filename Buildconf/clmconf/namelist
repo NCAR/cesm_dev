@@ -1,13 +1,11 @@
 &comp_inparm 
 
-finidat = 'b.e23_alpha17f.BLT1850.ne30_t232.098.clm2.r.0201-01-01-00000.nc'
+finidat = 'b.e30_beta04.BLT1850.ne30_t232_wgx3.121.clm2.r.0075-01-01-00000.nc'
 use_init_interp = .true.
 
 
 
-finidat = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/initdata_esmf/ctsm5.3/ctsm53n04ctsm52028_ne30pg3t232_BgcCrop_exice_pSASU.clm60.r.0121-01-01.nc'
-
-reseed_dead_plants = .true.
+reseed_dead_plants =.false.
 
 
 

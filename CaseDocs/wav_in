@@ -1,5 +1,5 @@
 &domain_nml
-  domain%start = "00010101 0"
+  domain%start = "18500101 0"
   domain%stop = "99990101 0"
 /
 &input_nml
@@ -27,13 +27,13 @@
 /
 &output_date_nml
   date%field%outffile = "1"
-  date%field%start = "00010101 0"
+  date%field%start = "18500101 0"
   date%field%stop = "99990101 0"
   date%field%stride = "1800"
   date%restart2%start = "99990101 0"
   date%restart2%stop = "99990101 0"
   date%restart2%stride = "0"
-  date%restart%start = "00010101 0"
+  date%restart%start = "18500101 0"
   date%restart%stop = "99990101 0"
   date%restart%stride = "1800"
 /

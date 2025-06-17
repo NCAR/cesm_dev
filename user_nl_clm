@@ -1,7 +1,6 @@
 use_init_interp = .true.
 
-finidat = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/initdata_esmf/ctsm5.3/ctsm53n04ctsm52028_ne30pg3t232_BgcCrop_exice_pSASU.clm60.r.0121-01-01.nc'
-reseed_dead_plants = .true.
+reseed_dead_plants =.false.
 
 ! turn off shifting cultivation
 do_grossunrep = .false.

@@ -2,11 +2,11 @@
 
 set -e
 
-# Created 2024-12-24 16:18:48
+# Created 2025-01-07 16:44:48
 
-CASEDIR="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLT1850.ne30_t232_wgx3.121"
+CASEDIR="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLTHIST.ne30_t232_wgx3.121"
 
-/glade/work/hannay/cesm_tags/cesm3_0_beta04/cime/scripts/create_newcase --compset 1850_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP --res ne30pg3_t232_wg37 --case "${CASEDIR}" --run-unsupported --project 93300722
+/glade/work/hannay/cesm_tags/cesm3_0_beta04/cime/scripts/create_newcase --compset HIST_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP --res ne30pg3_t232_wg37 --case "${CASEDIR}" --run-unsupported --project 93300722
 
 cd "${CASEDIR}"
 
@@ -14,13 +14,11 @@ cd "${CASEDIR}"
 
 ./case.setup
 
-./case.setup
-
 ./preview_namelists
 
-./xmlchange RUN_REFCASE=b.e23_alpha17f.BLT1850.ne30_t232.098
+./xmlchange RUN_REFCASE=b.e30_beta04.BLT1850.ne30_t232_wgx3.121
 
-./xmlchange RUN_REFDATE=0201-01-01
+./xmlchange RUN_REFDATE=0075-01-01
 
 ./xmlchange RUN_TYPE=hybrid
 
@@ -28,13 +26,17 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
-./xmlchange MOM6_VERTICAL_GRID=hycom1
+./preview_namelists
 
 ./preview_namelists
 
 ./preview_namelists
 
 ./case.build
+
+./preview_namelists
+
+./preview_namelists
 
 ./preview_namelists
 
@@ -48,21 +50,13 @@ cd "${CASEDIR}"
 
 ./case.submit
 
-./case.submit
+./xmlchange RESUBMIT=50
 
-./xmlchange RESUBMIT=20
-
-./xmlchange RESUBMIT=20
+./xmlchange RESUBMIT=30
 
 ./case.submit
 
-./xmlchange RESUBMIT=20
-
-./xmlchange RESUBMIT=15
-
-./case.submit
-
-./xmlchange RESUBMIT=20
+./case.setup --reset
 
 ./case.setup --reset
 
@@ -72,11 +66,27 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./case.submit
+
+./case.setup --reset
+
+./case.build --clean
+
+./preview_namelists
+
 ./case.build
 
-./case.submit
+./xmlchange PROJECT=CESM0023,RESUBMIT=75,STOP_N=2,STOP_OPTION=nyears
+
+./xmlchange REST_OPTION=nyears,REST_N=1
+
+./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run
 
 ./case.submit
 
-./xmlchange RESUBMIT=2
+./case.submit
+
+./xmlchange STOP_N=1
+
+./case.submit
 
