@@ -3,5 +3,7 @@
         MOM6 parameter changes may ve made via SourceMods or user_nl_mom
         within CASEROOT.*/
 #override MAXTRUNC = 1000
-RESTART_CHECKSUMS_REQUIRED = FALSE
-#override TOPO_EDITS_FILE = ""
+!!! INIT_LAYERS_FROM_Z_FILE = False !(UNCHANGED)
+#override THICKNESS_FILE = "/glade/derecho/scratch/hannay/b.e30_beta05.BLT1850.ne30_t232_wgx3.123_test/run/g.e30_a05cish.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.008.mom6.r.0016-01-01-00000.nc"
+#override TS_FILE = "/glade/derecho/scratch/hannay/b.e30_beta05.BLT1850.ne30_t232_wgx3.123_test/run/g.e30_a05cish.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.008.mom6.r.0016-01-01-00000.nc"
+#override VELOCITY_FILE = "/glade/derecho/scratch/hannay/b.e30_beta05.BLT1850.ne30_t232_wgx3.123_test/run/g.e30_a05cish.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.008.mom6.r.0016-01-01-00000.nc"
