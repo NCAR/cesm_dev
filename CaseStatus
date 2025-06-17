@@ -24,3 +24,5 @@
  ---------------------------------------------------
 2025-06-17 14:57:18: xmlchange success <command> ./xmlchange CONTINUE_RUN=FALSE  </command>
  ---------------------------------------------------
+2025-06-17 14:57:19: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
+ ---------------------------------------------------
