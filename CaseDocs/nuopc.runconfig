@@ -16,7 +16,7 @@ ALLCOMP_attributes::
      WAV_model = ww3
      brnch_retain_casename = .false.
      case_desc = UNSET
-     case_name = b.e30_beta04.BLTHIST.ne30_t232_wgx3.121
+     case_name = b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2
      cism_evolve = .false.
      coldair_outbreak_mod = .true.
      data_assimilation_atm = .false.
@@ -59,7 +59,7 @@ ALLCOMP_attributes::
      orb_eccen = 1.e36
      orb_iyear = 1850
      orb_iyear_align = 1850
-     orb_mode = variable_year
+     orb_mode = fixed_year
      orb_mvelp = 1.e36
      orb_obliq = 1.e36
      scol_lat = -999.99
@@ -240,11 +240,11 @@ DRIVER_attributes::
 ::
 
 PELAYOUT_attributes::
-     atm_ntasks = 2700
+     atm_ntasks = 5400
      atm_nthreads = 1
      atm_pestride = 1
      atm_rootpe = 0
-     cpl_ntasks = 2700
+     cpl_ntasks = 5400
      cpl_nthreads = 1
      cpl_pestride = 1
      cpl_rootpe = 0
@@ -252,34 +252,34 @@ PELAYOUT_attributes::
      esp_nthreads = 1
      esp_pestride = 1
      esp_rootpe = 0
-     glc_ntasks = 116
+     glc_ntasks = 104
      glc_nthreads = 1
      glc_pestride = 1
-     glc_rootpe = 2700
-     ice_ntasks = 1420
+     glc_rootpe = 5400
+     ice_ntasks = 2776
      ice_nthreads = 1
      ice_pestride = 1
-     ice_rootpe = 1280
-     lnd_ntasks = 1280
+     ice_rootpe = 2624
+     lnd_ntasks = 2624
      lnd_nthreads = 1
      lnd_pestride = 1
      lnd_rootpe = 0
      ninst = 1
-     ocn_ntasks = 640
+     ocn_ntasks = 896
      ocn_nthreads = 1
      ocn_pestride = 1
-     ocn_rootpe = 2816
+     ocn_rootpe = 5504
      pio_asyncio_ntasks = 0
      pio_asyncio_rootpe = 1
      pio_asyncio_stride = 0
-     rof_ntasks = 1280
+     rof_ntasks = 2624
      rof_nthreads = 1
      rof_pestride = 1
      rof_rootpe = 0
-     wav_ntasks = 116
+     wav_ntasks = 104
      wav_nthreads = 1
      wav_pestride = 1
-     wav_rootpe = 2700
+     wav_rootpe = 5400
 ::
 
 component_list: MED ATM LND ICE OCN ROF GLC WAV
@@ -298,8 +298,8 @@ CLOCK_attributes::
      restart_ymd = -999
      rof_cpl_dt = 10800
      start_tod = 0
-     start_ymd = 18500101
-     stop_n = 1
+     start_ymd = 00010101
+     stop_n = 6
      stop_option = nyears
      stop_tod = 0
      stop_ymd = -999
@@ -343,8 +343,8 @@ WAV_attributes::
 ::
 
 MED_modelio::
-     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLTHIST.ne30_t232_wgx3.121/run
-     logfile = med.log.7630711.desched1.250131-151934
+     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2/run
+     logfile = med.log.7648183.desched1.250203-124041
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -355,8 +355,8 @@ MED_modelio::
 ::
 
 ATM_modelio::
-     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLTHIST.ne30_t232_wgx3.121/run
-     logfile = atm.log.7630711.desched1.250131-151934
+     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2/run
+     logfile = atm.log.7648183.desched1.250203-124041
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -367,8 +367,8 @@ ATM_modelio::
 ::
 
 LND_modelio::
-     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLTHIST.ne30_t232_wgx3.121/run
-     logfile = lnd.log.7630711.desched1.250131-151934
+     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2/run
+     logfile = lnd.log.7648183.desched1.250203-124041
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -379,8 +379,8 @@ LND_modelio::
 ::
 
 ICE_modelio::
-     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLTHIST.ne30_t232_wgx3.121/run
-     logfile = ice.log.7630711.desched1.250131-151934
+     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2/run
+     logfile = ice.log.7648183.desched1.250203-124041
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -391,8 +391,8 @@ ICE_modelio::
 ::
 
 OCN_modelio::
-     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLTHIST.ne30_t232_wgx3.121/run
-     logfile = ocn.log.7630711.desched1.250131-151934
+     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2/run
+     logfile = ocn.log.7648183.desched1.250203-124041
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -403,8 +403,8 @@ OCN_modelio::
 ::
 
 ROF_modelio::
-     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLTHIST.ne30_t232_wgx3.121/run
-     logfile = rof.log.7630711.desched1.250131-151934
+     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2/run
+     logfile = rof.log.7648183.desched1.250203-124041
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -415,8 +415,8 @@ ROF_modelio::
 ::
 
 GLC_modelio::
-     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLTHIST.ne30_t232_wgx3.121/run
-     logfile = glc.log.7630711.desched1.250131-151934
+     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2/run
+     logfile = glc.log.7648183.desched1.250203-124041
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -427,8 +427,8 @@ GLC_modelio::
 ::
 
 WAV_modelio::
-     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLTHIST.ne30_t232_wgx3.121/run
-     logfile = wav.log.7630711.desched1.250131-151934
+     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2/run
+     logfile = wav.log.7648183.desched1.250203-124041
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -439,8 +439,8 @@ WAV_modelio::
 ::
 
 ESP_modelio::
-     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLTHIST.ne30_t232_wgx3.121/run
-     logfile = esp.log.7630711.desched1.250131-151934
+     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2/run
+     logfile = esp.log.7648183.desched1.250203-124041
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -451,7 +451,7 @@ ESP_modelio::
 ::
 
 DRV_modelio::
-     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLTHIST.ne30_t232_wgx3.121/run
-     logfile = drv.log.7630711.desched1.250131-151934
+     diro = /glade/derecho/scratch/hannay/b.e30_beta04.BLT1850.ne30_t232_wgx3.121_4xco2/run
+     logfile = drv.log.7648183.desched1.250203-124041
 ::
 

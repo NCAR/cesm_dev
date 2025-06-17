@@ -244,7 +244,7 @@
       Reference case for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFDATE" value="0075-01-01">
+    <entry id="RUN_REFDATE" value="0125-01-01">
       <type>char</type>
       <desc>
       Reference date for hybrid or branch runs (yyyy-mm-dd)
@@ -264,7 +264,7 @@
       If TRUE, then the refcase data is prestaged into the executable directory
     </desc>
     </entry>
-    <entry id="RUN_STARTDATE" value="1850-01-01">
+    <entry id="RUN_STARTDATE" value="0001-01-01">
       <type>char</type>
       <desc>
       Run start date (yyyy-mm-dd). Only used for startup or hybrid runs.
@@ -283,7 +283,7 @@
       Sets the run length along with STOP_N and STOP_DATE
     </desc>
     </entry>
-    <entry id="STOP_N" value="1">
+    <entry id="STOP_N" value="6">
       <type>integer</type>
       <desc>
       Provides a numerical count for $STOP_OPTION.
@@ -380,7 +380,7 @@
       A setting of TRUE implies a continuation run for mediator only
     </desc>
     </entry>
-    <entry id="RESUBMIT" value="44">
+    <entry id="RESUBMIT" value="0">
       <type>integer</type>
       <desc>If RESUBMIT is greater than 0, then case will automatically resubmit
     Enables the model to automatically resubmit a new run.  To get
@@ -405,7 +405,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to determine whether run has been submitted with the submit script or not</desc>
     </entry>
-    <entry id="JOB_IDS" value="case.run:7630711.desched1, case.st_archive:7630712.desched1">
+    <entry id="JOB_IDS" value="case.run:7648183.desched1, case.st_archive:7648184.desched1">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
@@ -1037,7 +1037,7 @@
     </entry>
   </group>
   <group id="run_component_cam">
-    <entry id="CAM_NML_USE_CASE" value="hist_cam_lt">
+    <entry id="CAM_NML_USE_CASE" value="1850_cam_lt">
       <type>char</type>
       <valid_values/>
       <desc>CAM namelist use_case.  Provides the use_case option for the
@@ -1065,15 +1065,15 @@
       <type>char</type>
       <desc>Nitrogen deposition data year first</desc>
     </entry>
-    <entry id="CAM_STREAM_NDEP_YEAR_LAST" value="2015">
+    <entry id="CAM_STREAM_NDEP_YEAR_LAST" value="1850">
       <type>char</type>
       <desc>Nitrogen deposition data year last</desc>
     </entry>
-    <entry id="CAM_STREAM_NDEP_YEAR_ALIGN" value="1850">
+    <entry id="CAM_STREAM_NDEP_YEAR_ALIGN" value="1">
       <type>char</type>
       <desc>Nitrogen deposition align CAM_STREAM_NDEP_YEAR_FIRST with this model year</desc>
     </entry>
-    <entry id="CAM_STREAM_NDEP_DATA_FILENAME" value="$DIN_LOC_ROOT/lnd/clm2/ndepdata/fndep_clm_hist_b.e21.BWHIST.f09_g17.CMIP6-historical-WACCM.ensmean_1849-2015_monthly_0.9x1.25_c180926.nc">
+    <entry id="CAM_STREAM_NDEP_DATA_FILENAME" value="$DIN_LOC_ROOT/lnd/clm2/ndepdata/fndep_clm_WACCM6_CMIP6piControl001_y21-50avg_1850monthly_0.95x1.25_c180802.nc">
       <type>char</type>
       <desc>Nitrogen deposition data filename</desc>
     </entry>
@@ -1128,7 +1128,7 @@
     subgrid heterogeneity, shallower soil, etc.
     </desc>
     </entry>
-    <entry id="CLM_NML_USE_CASE" value="20thC_transient">
+    <entry id="CLM_NML_USE_CASE" value="1850_control">
       <type>char</type>
       <desc>CLM namelist use_case.
       Determines the use-case that will be sent to the CLM build-namelist utility.

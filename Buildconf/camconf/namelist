@@ -1,6 +1,6 @@
 &comp_inparm 
 
- ncdata = 'b.e30_beta04.BLT1850.ne30_t232_wgx3.121.cam.i.0075-01-01-00000.nc'
+ ncdata = 'b.e30_beta04.BLT1850.ne30_t232_wgx3.121.cam.i.0125-01-01-00000.nc'
  dtime = 1800
 mfilt    =       0,       5,     20,      40,      12,       120,      1,   1
 
@@ -101,6 +101,12 @@ clubb_c8=  4.5
 dust_emis_method = 'Leung_2023'
 
 dust_emis_fact = 2.3
+
+
+
+flbc_file              = '//glade/campaign/cesm/cesmdata/cseg/inputdata/atm/waccm/lb/LBC_CMIP6abrupt4xCO2_cyclicalYear1_0p5degLat_c180929.nc'
+
+flbc_cycle_yr= 1
 
 
 
