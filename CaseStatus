@@ -1,267 +1,258 @@
-2025-03-06 21:01:21: case.setup starting 
+2025-02-18 15:34:31: case.setup starting 
  ---------------------------------------------------
-2025-03-06 21:01:23: case.setup success 
+2025-02-18 15:34:34: case.setup success 
  ---------------------------------------------------
-2025-03-06 21:01:23:   local git repository created
+2025-02-18 15:34:34:   local git repository created
  ---------------------------------------------------
-2025-03-06 21:02:15: case.setup starting 
+2025-02-18 15:34:42: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e23_alpha17f.BLT1850.ne30_t232.098  </command>
  ---------------------------------------------------
-2025-03-06 21:02:17: case.setup success 
+2025-02-18 15:34:44: xmlchange success <command> ./xmlchange RUN_REFDATE=0201-01-01  </command>
  ---------------------------------------------------
-2025-03-06 21:03:11: case.build starting 
+2025-02-18 15:34:44: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
  ---------------------------------------------------
-2025-03-06 21:05:54: case.build success 
+2025-02-18 15:34:45: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
  ---------------------------------------------------
-2025-03-06 21:37:06: xmlchange success <command> ./xmlchange CONTINUE_RUN=True  </command>
+2025-02-18 15:34:56: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
-2025-03-06 21:37:13: xmlchange success <command> ./xmlchange RESUBMIT=4  </command>
+2025-02-18 15:36:34: case.build starting 
  ---------------------------------------------------
-2025-03-06 21:38:10: xmlchange success <command> ./xmlchange STOP_OPTION=nyears,STOP_N=4  </command>
+2025-02-18 15:48:59: case.build success 
  ---------------------------------------------------
-2025-03-06 21:38:16: case.submit starting 
+2025-02-18 18:08:18: case.build starting 
  ---------------------------------------------------
-2025-03-06 21:38:16: case.submit error 
-ERROR: CONTINUE_RUN is true but this case does not appear to have restart files staged in /glade/derecho/scratch/gmarques/b.e30_beta05.BLT1850.ne30_t232_wgx3.127/run rpointer.cpl
+2025-02-18 18:09:01: case.build success 
  ---------------------------------------------------
-2025-03-06 21:41:04: case.submit starting 8700138.desched1
+2025-02-18 18:14:36: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
  ---------------------------------------------------
-2025-03-06 21:41:04: case.submit success 8700138.desched1
+2025-02-18 18:14:37: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=10,STOP_N=4,STOP_OPTION=nyears  </command>
  ---------------------------------------------------
-2025-03-07 00:47:15: case.run starting 8700137.desched1
+2025-02-18 18:14:38: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
  ---------------------------------------------------
-2025-03-07 00:47:23: model execution starting 8700137.desched1
+2025-02-18 18:14:39: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
-2025-03-07 00:48:30: model execution success 8700137.desched1
+2025-02-18 18:14:48: case.submit starting 7793739.desched1
  ---------------------------------------------------
-2025-03-07 00:48:30: case.run error 
-ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_beta05.BLT1850.ne30_t232_wgx3.127/run/med.log.8700137.desched1.250307-004715 
+2025-02-18 18:14:48: case.submit success 7793739.desched1
+ ---------------------------------------------------
+2025-02-18 18:34:40: case.run starting 7793738.desched1
+ ---------------------------------------------------
+2025-02-18 18:34:47: model execution starting 7793738.desched1
+ ---------------------------------------------------
+2025-02-19 02:19:10: model execution success 7793738.desched1
+ ---------------------------------------------------
+2025-02-19 02:19:11: case.run success 7793738.desched1
+ ---------------------------------------------------
+2025-02-19 02:19:11:   Timing files created for run 7793738.desched1.250218-183440
+ ---------------------------------------------------
+2025-02-19 02:19:26: st_archive starting 7793739.desched1
+ ---------------------------------------------------
+2025-02-19 02:20:16: st_archive success 7793739.desched1
+ ---------------------------------------------------
+2025-02-19 02:20:17: case.submit starting 7796137.desched1
+ ---------------------------------------------------
+2025-02-19 02:20:17: case.submit success 7796137.desched1
+ ---------------------------------------------------
+2025-02-19 02:27:11: case.run starting 7796136.desched1
+ ---------------------------------------------------
+2025-02-19 02:27:17: model execution starting 7796136.desched1
+ ---------------------------------------------------
+2025-02-19 10:13:38: model execution success 7796136.desched1
+ ---------------------------------------------------
+2025-02-19 10:13:39: case.run success 7796136.desched1
+ ---------------------------------------------------
+2025-02-19 10:13:39:   Timing files created for run 7796136.desched1.250219-022711
+ ---------------------------------------------------
+2025-02-19 10:13:59: st_archive starting 7796137.desched1
+ ---------------------------------------------------
+2025-02-19 10:14:49: st_archive success 7796137.desched1
+ ---------------------------------------------------
+2025-02-19 10:14:49: case.submit starting 7798869.desched1
+ ---------------------------------------------------
+2025-02-19 10:14:50: case.submit success 7798869.desched1
+ ---------------------------------------------------
+2025-02-19 10:15:05: case.run starting 7798868.desched1
+ ---------------------------------------------------
+2025-02-19 10:15:12: model execution starting 7798868.desched1
+ ---------------------------------------------------
+2025-02-19 17:59:07: model execution success 7798868.desched1
+ ---------------------------------------------------
+2025-02-19 17:59:07: case.run success 7798868.desched1
+ ---------------------------------------------------
+2025-02-19 17:59:08:   Timing files created for run 7798868.desched1.250219-101505
+ ---------------------------------------------------
+2025-02-19 17:59:26: st_archive starting 7798869.desched1
+ ---------------------------------------------------
+2025-02-19 18:00:19: st_archive success 7798869.desched1
+ ---------------------------------------------------
+2025-02-19 18:00:20: case.submit starting 7803190.desched1
+ ---------------------------------------------------
+2025-02-19 18:00:20: case.submit success 7803190.desched1
+ ---------------------------------------------------
+2025-02-19 18:00:38: case.run starting 7803189.desched1
+ ---------------------------------------------------
+2025-02-19 18:00:45: model execution starting 7803189.desched1
+ ---------------------------------------------------
+2025-02-19 18:00:51: model execution success 7803189.desched1
+ ---------------------------------------------------
+2025-02-19 18:00:52: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_beta05.BLT1850.ne30_t232_wgx3.128/run/med.log.7803189.desched1.250219-180038 
  
  ---------------------------------------------------
-2025-03-07 09:25:38: case.submit starting 8709034.desched1
+2025-02-19 21:19:25: case.submit starting 7804968.desched1
  ---------------------------------------------------
-2025-03-07 09:25:38: case.submit success 8709034.desched1
+2025-02-19 21:19:26: case.submit success 7804968.desched1
  ---------------------------------------------------
-2025-03-07 09:25:54: case.run starting 8709033.desched1
+2025-02-19 21:28:14: case.run starting 7804967.desched1
  ---------------------------------------------------
-2025-03-07 09:26:01: model execution starting 8709033.desched1
+2025-02-19 21:28:21: model execution starting 7804967.desched1
  ---------------------------------------------------
-2025-03-07 17:12:12: model execution success 8709033.desched1
+2025-02-19 21:28:29: model execution success 7804967.desched1
  ---------------------------------------------------
-2025-03-07 17:12:12: case.run success 8709033.desched1
+2025-02-19 21:28:29: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_beta05.BLT1850.ne30_t232_wgx3.128/run/med.log.7804967.desched1.250219-212814 
+ 
  ---------------------------------------------------
-2025-03-07 17:12:12:   Timing files created for run 8709033.desched1.250307-092554
+2025-02-20 12:52:40: case.submit starting 7809171.desched1
  ---------------------------------------------------
-2025-03-07 17:13:03: st_archive starting 8709034.desched1
+2025-02-20 12:52:41: case.submit success 7809171.desched1
  ---------------------------------------------------
-2025-03-07 22:33:53: xmlchange success <command> ./xmlchange STOP_N=2  </command>
+2025-02-20 12:58:04: case.run starting 7809170.desched1
  ---------------------------------------------------
-2025-03-07 22:34:02: xmlchange success <command> ./xmlchange RESUBMIT=8  </command>
+2025-02-20 12:58:12: model execution starting 7809170.desched1
  ---------------------------------------------------
-2025-03-07 22:34:17: case.submit starting 8725681.desched1
+2025-02-20 20:43:49: model execution success 7809170.desched1
  ---------------------------------------------------
-2025-03-07 22:34:17: case.submit success 8725681.desched1
+2025-02-20 20:43:49: case.run success 7809170.desched1
  ---------------------------------------------------
-2025-03-08 05:12:59: case.run starting 8725680.desched1
+2025-02-20 20:43:50:   Timing files created for run 7809170.desched1.250220-125804
  ---------------------------------------------------
-2025-03-08 05:13:06: model execution starting 8725680.desched1
+2025-02-20 20:44:07: st_archive starting 7809171.desched1
  ---------------------------------------------------
-2025-03-08 09:06:37: model execution success 8725680.desched1
+2025-02-20 20:45:04: st_archive success 7809171.desched1
  ---------------------------------------------------
-2025-03-08 09:06:37: case.run success 8725680.desched1
+2025-02-20 20:45:06: case.submit starting 7813331.desched1
  ---------------------------------------------------
-2025-03-08 09:06:37:   Timing files created for run 8725680.desched1.250308-051259
+2025-02-20 20:45:06: case.submit success 7813331.desched1
  ---------------------------------------------------
-2025-03-08 09:07:13: st_archive starting 8725681.desched1
+2025-02-20 20:45:48: case.run starting 7813329.desched1
  ---------------------------------------------------
-2025-03-08 11:18:34: case.submit starting 8729282.desched1
+2025-02-20 20:45:54: model execution starting 7813329.desched1
  ---------------------------------------------------
-2025-03-08 11:18:34: case.submit success 8729282.desched1
+2025-02-21 04:29:51: model execution success 7813329.desched1
  ---------------------------------------------------
-2025-03-08 14:31:45: case.run starting 8729281.desched1
+2025-02-21 04:29:51: case.run success 7813329.desched1
  ---------------------------------------------------
-2025-03-08 14:31:52: model execution starting 8729281.desched1
+2025-02-21 04:29:52:   Timing files created for run 7813329.desched1.250220-204548
  ---------------------------------------------------
-2025-03-08 18:26:41: model execution success 8729281.desched1
+2025-02-21 04:30:10: st_archive starting 7813331.desched1
  ---------------------------------------------------
-2025-03-08 18:26:41: case.run success 8729281.desched1
+2025-02-21 04:31:03: st_archive success 7813331.desched1
  ---------------------------------------------------
-2025-03-08 18:26:42:   Timing files created for run 8729281.desched1.250308-143145
+2025-02-21 04:31:05: case.submit starting 7816446.desched1
  ---------------------------------------------------
-2025-03-08 18:26:59: st_archive starting 8729282.desched1
+2025-02-21 04:31:05: case.submit success 7816446.desched1
  ---------------------------------------------------
-2025-03-11 06:34:42: st_archive starting 
+2025-02-21 07:44:11: case.run starting 7816445.desched1
  ---------------------------------------------------
-2025-03-11 06:37:12: st_archive success 
+2025-02-21 07:44:18: model execution starting 7816445.desched1
  ---------------------------------------------------
-2025-03-11 06:41:44: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=01:30 --subgroup case.st_archive  </command>
+2025-02-21 15:29:43: model execution success 7816445.desched1
  ---------------------------------------------------
-2025-03-11 06:42:12: xmlchange success <command> ./xmlchange STOP_N=3  </command>
+2025-02-21 15:29:44: case.run success 7816445.desched1
  ---------------------------------------------------
-2025-03-11 06:42:28: case.submit starting 8757261.desched1
+2025-02-21 15:29:44:   Timing files created for run 7816445.desched1.250221-074411
  ---------------------------------------------------
-2025-03-11 06:42:28: case.submit success 8757261.desched1
+2025-02-21 15:30:00: st_archive starting 7816446.desched1
  ---------------------------------------------------
-2025-03-11 06:42:53: case.run starting 8757260.desched1
+2025-02-21 15:31:01: st_archive success 7816446.desched1
  ---------------------------------------------------
-2025-03-11 06:43:14: model execution starting 8757260.desched1
+2025-02-21 15:31:05: case.submit starting 7820912.desched1
  ---------------------------------------------------
-2025-03-11 12:49:32: model execution success 8757260.desched1
+2025-02-21 15:31:06: case.submit success 7820912.desched1
  ---------------------------------------------------
-2025-03-11 12:49:32: case.run success 8757260.desched1
+2025-02-22 00:31:47: case.run starting 7820911.desched1
  ---------------------------------------------------
-2025-03-11 12:49:32:   Timing files created for run 8757260.desched1.250311-064253
+2025-02-22 00:31:54: model execution starting 7820911.desched1
  ---------------------------------------------------
-2025-03-11 15:49:11: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=01:30:00 --subgroup case.st_archive  </command>
+2025-02-22 08:18:00: model execution success 7820911.desched1
  ---------------------------------------------------
-2025-03-11 15:49:48: case.submit starting 8766308.desched1
+2025-02-22 08:18:00: case.run success 7820911.desched1
  ---------------------------------------------------
-2025-03-11 15:49:48: case.submit success 8766308.desched1
+2025-02-22 08:18:01:   Timing files created for run 7820911.desched1.250222-003147
  ---------------------------------------------------
-2025-03-11 15:50:00: st_archive starting 8766308.desched1
+2025-02-22 08:18:17: st_archive starting 7820912.desched1
  ---------------------------------------------------
-2025-03-11 16:06:23: st_archive success 8766308.desched1
+2025-02-22 08:19:29: st_archive success 7820912.desched1
  ---------------------------------------------------
-2025-03-11 16:06:28: case.submit starting 8766487.desched1
+2025-02-22 08:19:29: case.submit starting 7826124.desched1
  ---------------------------------------------------
-2025-03-11 16:06:29: case.submit success 8766487.desched1
+2025-02-22 08:19:29: case.submit success 7826124.desched1
  ---------------------------------------------------
-2025-03-11 16:06:49: case.run starting 8766486.desched1
+2025-02-22 13:26:02: case.run starting 7826123.desched1
  ---------------------------------------------------
-2025-03-11 16:06:57: model execution starting 8766486.desched1
+2025-02-22 13:26:09: model execution starting 7826123.desched1
  ---------------------------------------------------
-2025-03-11 21:57:02: model execution success 8766486.desched1
+2025-02-22 21:14:40: model execution success 7826123.desched1
  ---------------------------------------------------
-2025-03-11 21:57:02: case.run success 8766486.desched1
+2025-02-22 21:14:41: case.run success 7826123.desched1
  ---------------------------------------------------
-2025-03-11 21:57:03:   Timing files created for run 8766486.desched1.250311-160649
+2025-02-22 21:14:41:   Timing files created for run 7826123.desched1.250222-132602
  ---------------------------------------------------
-2025-03-11 21:57:23: st_archive starting 8766487.desched1
+2025-02-22 21:14:57: st_archive starting 7826124.desched1
  ---------------------------------------------------
-2025-03-11 22:14:46: st_archive success 8766487.desched1
+2025-02-22 21:16:06: st_archive success 7826124.desched1
  ---------------------------------------------------
-2025-03-11 22:14:48: case.submit starting 8772074.desched1
+2025-02-22 21:16:07: case.submit starting 7830698.desched1
  ---------------------------------------------------
-2025-03-11 22:14:48: case.submit success 8772074.desched1
+2025-02-22 21:16:07: case.submit success 7830698.desched1
  ---------------------------------------------------
-2025-03-11 22:15:15: case.run starting 8772073.desched1
+2025-02-22 21:16:28: case.run starting 7830697.desched1
  ---------------------------------------------------
-2025-03-11 22:15:23: model execution starting 8772073.desched1
+2025-02-22 21:16:34: model execution starting 7830697.desched1
  ---------------------------------------------------
-2025-03-12 04:06:28: model execution success 8772073.desched1
+2025-02-23 04:59:48: model execution success 7830697.desched1
  ---------------------------------------------------
-2025-03-12 04:06:28: case.run success 8772073.desched1
+2025-02-23 04:59:49: case.run success 7830697.desched1
  ---------------------------------------------------
-2025-03-12 04:06:28:   Timing files created for run 8772073.desched1.250311-221515
+2025-02-23 04:59:49:   Timing files created for run 7830697.desched1.250222-211628
  ---------------------------------------------------
-2025-03-12 04:06:49: st_archive starting 8772074.desched1
+2025-02-23 05:00:17: st_archive starting 7830698.desched1
  ---------------------------------------------------
-2025-03-12 04:22:11: st_archive success 8772074.desched1
+2025-02-23 05:01:18: st_archive success 7830698.desched1
  ---------------------------------------------------
-2025-03-12 04:22:12: case.submit starting 8775175.desched1
+2025-02-23 05:01:18: case.submit starting 7833232.desched1
  ---------------------------------------------------
-2025-03-12 04:22:12: case.submit success 8775175.desched1
+2025-02-23 05:01:18: case.submit success 7833232.desched1
  ---------------------------------------------------
-2025-03-12 10:36:55: case.run starting 8775173.desched1
+2025-02-23 14:17:12: case.run starting 7833231.desched1
  ---------------------------------------------------
-2025-03-12 10:37:02: model execution starting 8775173.desched1
+2025-02-23 14:17:19: model execution starting 7833231.desched1
  ---------------------------------------------------
-2025-03-12 16:29:44: model execution success 8775173.desched1
+2025-02-23 22:01:34: model execution success 7833231.desched1
  ---------------------------------------------------
-2025-03-12 16:29:44: case.run success 8775173.desched1
+2025-02-23 22:01:34: case.run success 7833231.desched1
  ---------------------------------------------------
-2025-03-12 16:29:45:   Timing files created for run 8775173.desched1.250312-103655
+2025-02-23 22:01:35:   Timing files created for run 7833231.desched1.250223-141712
  ---------------------------------------------------
-2025-03-12 16:30:12: st_archive starting 8775175.desched1
+2025-02-23 22:01:56: st_archive starting 7833232.desched1
  ---------------------------------------------------
-2025-03-12 16:46:36: st_archive success 8775175.desched1
+2025-02-23 22:03:02: st_archive success 7833232.desched1
  ---------------------------------------------------
-2025-03-12 16:46:39: case.submit starting 8779391.desched1
+2025-02-23 22:03:05: case.submit starting 7838278.desched1
  ---------------------------------------------------
-2025-03-12 16:46:39: case.submit success 8779391.desched1
+2025-02-23 22:03:05: case.submit success 7838278.desched1
  ---------------------------------------------------
-2025-03-12 18:56:05: case.run starting 8779390.desched1
+2025-02-23 22:05:11: case.run starting 7838277.desched1
  ---------------------------------------------------
-2025-03-12 18:56:12: model execution starting 8779390.desched1
+2025-02-23 22:05:18: model execution starting 7838277.desched1
  ---------------------------------------------------
-2025-03-13 00:46:40: model execution success 8779390.desched1
+2025-02-24 05:49:10: model execution success 7838277.desched1
  ---------------------------------------------------
-2025-03-13 00:46:40: case.run success 8779390.desched1
+2025-02-24 05:49:10: case.run success 7838277.desched1
  ---------------------------------------------------
-2025-03-13 00:46:41:   Timing files created for run 8779390.desched1.250312-185605
+2025-02-24 05:49:11:   Timing files created for run 7838277.desched1.250223-220511
  ---------------------------------------------------
-2025-03-13 00:47:13: st_archive starting 8779391.desched1
+2025-02-24 05:49:31: st_archive starting 7838278.desched1
  ---------------------------------------------------
-2025-03-13 01:02:48: st_archive success 8779391.desched1
- ---------------------------------------------------
-2025-03-13 01:02:49: case.submit starting 8782388.desched1
- ---------------------------------------------------
-2025-03-13 01:02:49: case.submit success 8782388.desched1
- ---------------------------------------------------
-2025-03-13 06:02:01: case.run starting 8782387.desched1
- ---------------------------------------------------
-2025-03-13 06:02:08: model execution starting 8782387.desched1
- ---------------------------------------------------
-2025-03-13 12:02:50: model execution success 8782387.desched1
- ---------------------------------------------------
-2025-03-13 12:02:51: case.run success 8782387.desched1
- ---------------------------------------------------
-2025-03-13 12:02:51:   Timing files created for run 8782387.desched1.250313-060201
- ---------------------------------------------------
-2025-03-13 12:03:12: st_archive starting 8782388.desched1
- ---------------------------------------------------
-2025-03-13 12:19:22: st_archive success 8782388.desched1
- ---------------------------------------------------
-2025-03-13 12:19:29: case.submit starting 8785170.desched1
- ---------------------------------------------------
-2025-03-13 12:19:29: case.submit success 8785170.desched1
- ---------------------------------------------------
-2025-03-13 15:15:11: case.run starting 8785169.desched1
- ---------------------------------------------------
-2025-03-13 15:15:17: model execution starting 8785169.desched1
- ---------------------------------------------------
-2025-03-13 21:05:05: model execution success 8785169.desched1
- ---------------------------------------------------
-2025-03-13 21:05:05: case.run success 8785169.desched1
- ---------------------------------------------------
-2025-03-13 21:05:05:   Timing files created for run 8785169.desched1.250313-151511
- ---------------------------------------------------
-2025-03-13 21:05:32: st_archive starting 8785170.desched1
- ---------------------------------------------------
-2025-03-13 21:23:50: st_archive success 8785170.desched1
- ---------------------------------------------------
-2025-03-13 21:23:50: case.submit starting 8793745.desched1
- ---------------------------------------------------
-2025-03-13 21:23:51: case.submit success 8793745.desched1
- ---------------------------------------------------
-2025-03-13 21:24:56: case.run starting 8793744.desched1
- ---------------------------------------------------
-2025-03-13 21:25:25: model execution starting 8793744.desched1
- ---------------------------------------------------
-2025-03-14 03:15:58: model execution success 8793744.desched1
- ---------------------------------------------------
-2025-03-14 03:15:59: case.run success 8793744.desched1
- ---------------------------------------------------
-2025-03-14 03:15:59:   Timing files created for run 8793744.desched1.250313-212456
- ---------------------------------------------------
-2025-03-14 03:16:20: st_archive starting 8793745.desched1
- ---------------------------------------------------
-2025-03-14 03:32:31: st_archive success 8793745.desched1
- ---------------------------------------------------
-2025-03-14 03:32:38: case.submit starting 8797276.desched1
- ---------------------------------------------------
-2025-03-14 03:32:38: case.submit success 8797276.desched1
- ---------------------------------------------------
-2025-03-14 08:30:46: case.run starting 8797275.desched1
- ---------------------------------------------------
-2025-03-14 08:30:53: model execution starting 8797275.desched1
- ---------------------------------------------------
-2025-03-14 14:24:02: model execution success 8797275.desched1
- ---------------------------------------------------
-2025-03-14 14:24:02: case.run success 8797275.desched1
- ---------------------------------------------------
-2025-03-14 14:24:03:   Timing files created for run 8797275.desched1.250314-083046
- ---------------------------------------------------
-2025-03-14 14:24:32: st_archive starting 8797276.desched1
- ---------------------------------------------------
-2025-03-14 14:41:27: st_archive success 8797276.desched1
+2025-02-24 05:50:33: st_archive success 7838278.desched1
  ---------------------------------------------------

@@ -131,7 +131,7 @@
     </entry>
   </group>
   <group id="build_def">
-    <entry id="CIME_OUTPUT_ROOT" value="/glade/derecho/scratch/gmarques">
+    <entry id="CIME_OUTPUT_ROOT" value="/glade/derecho/scratch/hannay">
       <type>char</type>
       <valid_values/>
       <desc>Output root directory for each machine.
