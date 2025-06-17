@@ -535,7 +535,7 @@
  solar_data_type		= 'FIXED'
  solar_data_ymd		=    18500101           
  solar_htng_spctrl_scl		= .true.
- solar_irrad_data_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/solar/SolarForcingCMIP6piControl_c160921.nc'
+ solar_irrad_data_file		= '/glade/campaign/cesm/development/cross-wg/inputdata/SolarForcingCMIP7piControl_c20250103.nc'
 /
 &tms_nl
  do_tms		=  .false. 

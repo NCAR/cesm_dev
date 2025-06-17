@@ -110,4 +110,8 @@ clubb_l_min_wp2_from_corr_wx=.false.
 
 
 
+solar_irrad_data_file= '/glade/campaign/cesm/development/cross-wg/inputdata/SolarForcingCMIP7piControl_c20250103.nc'
+
+
+
 / 
