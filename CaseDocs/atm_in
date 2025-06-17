@@ -12,7 +12,7 @@
  aer_drydep_list		= 'bc_a1', 'bc_a4', 'dst_a1', 'dst_a2', 'dst_a3', 'ncl_a1', 'ncl_a2', 'ncl_a3', 'num_a1', 'num_a2', 'num_a3',
          'num_a4', 'pom_a1', 'pom_a4', 'so4_a1', 'so4_a2', 'so4_a3', 'soa_a1', 'soa_a2'
  modal_accum_coarse_exch		= .true.
- seasalt_emis_scale		= 1.5D0
+ seasalt_emis_scale		= 1.50D0
 /
 &aerosol_optics_nl
  water_refindex_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/water_refindex_rrtmg_c080910.nc'
@@ -50,19 +50,19 @@
          'soa_a2DDF', 'so4_a1_CLXF', 'so4_a2_CLXF', 'SFbc_a4', 'SFpom_a4', 'SFso4_a1', 'SFso4_a2', 'so4_a1_sfgaex1', 'so4_a2_sfgaex1',
          'so4_a3_sfgaex1', 'soa_a1_sfgaex1', 'soa_a2_sfgaex1', 'SFdst_a1', 'SFdst_a2', 'SFdst_a3', 'SFncl_a1', 'SFncl_a2', 'SFncl_a3',
          'num_a2_sfnnuc1', 'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO', 'AODVISstdn', 'REFF_AERO', 'so4_a1',
-         'so4_a2', 'SAD_AERO', 'PS', 'TROP_P'
+         'so4_a2', 'SAD_AERO', 'PS', 'TROP_P', 'FSNTOAC'
  fincl3		= 'PRECT','PRECC','FLUT','U850','U200','V850','V200','OMEGA500','TS','SST','PSL','Z500'
  fincl4		= 'PRECC','PRECL'
  fincl5		= 'Uzm','Vzm','Wzm','THzm','VTHzm','WTHzm','UVzm','UWzm'
  interpolate_nlat		= 192,192,192,192,192,192,192
  interpolate_nlon		= 288,288,288,288,288,288,288
- interpolate_output		= .true.,.true.,.true.,.false.,.false.,.true.,.true.
+ interpolate_output		= .true.,.true.,.true.,.true.,.false.,.true.,.true.
  mfilt		= 0,5,20,40,12,120,1,1
  ndens		= 2,2,2,2,2,1,2,1
  nhtfrq		= 0,-24,-24,-3,0,-2,0,-8760
 /
 &cam_initfiles_nl
- bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/se/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_20240117.nc'
+ bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/se/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_20240720.nc'
  ncdata		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/inic/se/FLT_L58_ne30pg3_IC_c220623.nc'
  scale_dry_air_mass		=   98288.0D0 
  use_topo_file		=  .true.  
@@ -193,7 +193,7 @@
  clubb_c6thlc		=  1.0     
  clubb_c7		=  0.1     
  clubb_c7b		=  0.5     
- clubb_c8		= 4.5
+ clubb_c8		=  4.5     
  clubb_c8b		=  0.0     
  clubb_c_invrs_tau_bkgnd		=  1.0     
  clubb_c_invrs_tau_n2		=  0.1     
@@ -234,7 +234,7 @@
  clubb_l_intr_sfc_flux_smooth		=  .true.  
  clubb_l_lmm_stepping		=  .false. 
  clubb_l_lscale_plume_centered		=  .false. 
- clubb_l_min_wp2_from_corr_wx		= .false.
+ clubb_l_min_wp2_from_corr_wx		=  .false.  
  clubb_l_min_xp2_from_corr_wx		=  .true.  
  clubb_l_mono_flux_lim_rtm		=  .true.  
  clubb_l_mono_flux_lim_spikefix		=  .true.  
@@ -285,7 +285,7 @@
  conv_water_in_rad		=  1 
 /
 &dust_nl
- dust_emis_fact		= 2.3
+ dust_emis_fact		= 2.30D0
 /
 &dyn_se_inparm
  se_dribble_in_rsplit_loop		=     0
@@ -328,6 +328,7 @@
  alpha_gw_movmtn		=  0.01d0  
  effgw_beres_dp		= 0.30D0
  effgw_cm		= 1.D0
+ effgw_movmtn_pbl		=  1.0d0   
  effgw_rdg_beta		= 0.5D0
  effgw_rdg_beta_max		= 0.5D0
  front_gaussian_width		=  30.D0 
@@ -343,6 +344,9 @@
  gw_polar_taper		= .false.
  gw_prndl		= 0.5D0
  gw_qbo_hdepth_scaling		= 1.0D0
+ movmtn_plaunch		=  32500.0d0  
+ movmtn_psteer		=  65000.0d0  
+ movmtn_source		=  1       
  n_rdg_beta		= 10
  pgwv		= 32
  pgwv_long		= 0
@@ -489,7 +493,7 @@
  prescribed_strataero_use_chemtrop		=   .true.   
 /
 &pumas_stochastic_tau_nl
- pumas_stochastic_tau_kernel_filename		= '/glade/work/gmarques/cesm.sandboxes/cesm3_0_beta05_v2/components/cam/bld/../src/physics/pumas/KBARF_tau_kernel.dat'
+ pumas_stochastic_tau_kernel_filename		= '/glade/work/hannay/cesm_tags/cesm3_0_alpha06b/components/cam/bld/../src/physics/pumas/KBARF_tau_kernel.dat'
 /
 &qneg_nl
  print_qneg_warn		= 'summary'
@@ -522,8 +526,8 @@
 /
 &radiation_nl
  graupel_in_rad		=  .false. 
- rrtmgp_coefs_lw_file		= '/glade/work/gmarques/cesm.sandboxes/cesm3_0_beta05_v2/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-lw-g128.nc'
- rrtmgp_coefs_sw_file		= '/glade/work/gmarques/cesm.sandboxes/cesm3_0_beta05_v2/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-sw-g112.nc'
+ rrtmgp_coefs_lw_file		= '/glade/work/hannay/cesm_tags/cesm3_0_alpha06b/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-lw-g128.nc'
+ rrtmgp_coefs_sw_file		= '/glade/work/hannay/cesm_tags/cesm3_0_alpha06b/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-sw-g112.nc'
 /
 &ref_pres_nl
  clim_modal_aero_top_press		=  1.D-4 
@@ -535,7 +539,7 @@
  solar_data_type		= 'FIXED'
  solar_data_ymd		=    18500101           
  solar_htng_spctrl_scl		= .true.
- solar_irrad_data_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/solar/SolarForcingCMIP6piControl_c160921.nc'
+ solar_irrad_data_file		= '/glade/campaign/cesm/development/cross-wg/inputdata/SolarForcingCMIP7piControl_c20250103.nc'
 /
 &tms_nl
  do_tms		=  .false. 
@@ -569,7 +573,6 @@
  zmconv_momcd		=  0.7000D0 
  zmconv_momcu		=  0.7000D0 
  zmconv_num_cin		=  1       
- zmconv_org		=  .false. 
  zmconv_parcel_pbl		= .true.
  zmconv_tau		=  3600.0    
  zmconv_tiedke_add		=  0.5     

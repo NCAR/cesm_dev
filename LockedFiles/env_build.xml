@@ -131,7 +131,7 @@
     </entry>
   </group>
   <group id="build_def">
-    <entry id="CIME_OUTPUT_ROOT" value="/glade/derecho/scratch/gmarques">
+    <entry id="CIME_OUTPUT_ROOT" value="/glade/derecho/scratch/hannay">
       <type>char</type>
       <valid_values/>
       <desc>Output root directory for each machine.
@@ -334,7 +334,7 @@
     </entry>
   </group>
   <group id="case_git">
-    <entry id="CASE_GIT_REPOSITORY" value="git@github.com:NCAR/cesm_dev.git">
+    <entry id="CASE_GIT_REPOSITORY">
       <type>char</type>
       <desc>Remote git repository used for this case</desc>
     </entry>

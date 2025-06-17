@@ -232,19 +232,19 @@
       a restart file.
     </desc>
     </entry>
-    <entry id="RUN_REFDIR" value="ccsm4_init">
+    <entry id="RUN_REFDIR" value="cesm2_init">
       <type>char</type>
       <desc>
       Reference directory containing RUN_REFCASE data - used for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFCASE" value="case.std">
+    <entry id="RUN_REFCASE" value="b.e23_alpha17f.BLT1850.ne30_t232.130">
       <type>char</type>
       <desc>
       Reference case for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFDATE" value="0001-01-01">
+    <entry id="RUN_REFDATE" value="0045-01-01">
       <type>char</type>
       <desc>
       Reference date for hybrid or branch runs (yyyy-mm-dd)
@@ -256,7 +256,7 @@
       Reference time of day (seconds) for hybrid or branch runs (sssss)
     </desc>
     </entry>
-    <entry id="GET_REFCASE" value="FALSE">
+    <entry id="GET_REFCASE" value="TRUE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>
@@ -296,14 +296,14 @@
       negative value implies off
     </desc>
     </entry>
-    <entry id="REST_OPTION" value="$STOP_OPTION">
+    <entry id="REST_OPTION" value="nyears">
       <type>char</type>
       <valid_values>none,never,nsteps,nseconds,nminutes,nhours,ndays,nmonths,nyears,date,end</valid_values>
       <desc>
       sets frequency of model restart writes (same options as STOP_OPTION)
     </desc>
     </entry>
-    <entry id="REST_N" value="$STOP_N">
+    <entry id="REST_N" value="1">
       <type>integer</type>
       <desc>
       sets model restart writes with REST_OPTION and REST_DATE
@@ -316,7 +316,7 @@
       sets model restart write date with REST_OPTION and REST_N
     </desc>
     </entry>
-    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl.0061-01-01-00000">
+    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl.0045-01-01-00000">
       <type>char</type>
       <desc>
       Name of the restart pointer file, this can be used to restart from an
@@ -412,7 +412,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to determine whether run has been submitted with the submit script or not</desc>
     </entry>
-    <entry id="JOB_IDS" value="case.run:8422384.desched1, case.st_archive:8422385.desched1">
+    <entry id="JOB_IDS" value="case.run:8376581.desched1, case.st_archive:8376583.desched1">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
@@ -1075,26 +1075,6 @@
       utility.  This should be reserved for component set
       specification. Users should modify CAM namelists only via the
       $CASEROOT/user_nl_cam file.</desc>
-    </entry>
-    <entry id="CAM_STREAM_NDEP_YEAR_FIRST" value="1850">
-      <type>char</type>
-      <desc>Nitrogen deposition data year first</desc>
-    </entry>
-    <entry id="CAM_STREAM_NDEP_YEAR_LAST" value="1850">
-      <type>char</type>
-      <desc>Nitrogen deposition data year last</desc>
-    </entry>
-    <entry id="CAM_STREAM_NDEP_YEAR_ALIGN" value="1">
-      <type>char</type>
-      <desc>Nitrogen deposition align CAM_STREAM_NDEP_YEAR_FIRST with this model year</desc>
-    </entry>
-    <entry id="CAM_STREAM_NDEP_DATA_FILENAME" value="$DIN_LOC_ROOT/lnd/clm2/ndepdata/fndep_clm_WACCM6_CMIP6piControl001_y21-50avg_1850monthly_0.95x1.25_c180802.nc">
-      <type>char</type>
-      <desc>Nitrogen deposition data filename</desc>
-    </entry>
-    <entry id="CAM_STREAM_NDEP_MESH_FILENAME" value="$DIN_LOC_ROOT/share/meshes/fv0.9x1.25_141008_polemod_ESMFmesh.nc">
-      <type>char</type>
-      <desc>Nitrogen deposition mesh filename (corresponding to the CAM_STREAM_NDEP_DATA_FILENAME)</desc>
     </entry>
   </group>
   <group id="run_component_ctsm">
