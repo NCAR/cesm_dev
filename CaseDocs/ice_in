@@ -13,7 +13,7 @@
   history_file = "unknown"
   history_format = "default"
   history_precision = 4
-  ice_ic = "/glade/derecho/scratch/hannay/b.e30_beta05.BLT1850.ne30_t232_wgx3.123_test/run/g.e30_a05cish.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.008.cice.r.0016-01-01-00000.nc"
+  ice_ic = "b.e30_beta05.BLT1850.ne30_t232_wgx3.122.cice.r.0029-01-01-00000.nc"
   latpnt = 90.0, -65.0
   lonpnt = 0.0, -45.0
   ndtd = 1

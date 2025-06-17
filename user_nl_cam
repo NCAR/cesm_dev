@@ -51,4 +51,4 @@ dust_emis_method = 'Leung_2023'
 dust_emis_fact = 2.3
 
 clubb_l_min_wp2_from_corr_wx=.false. 
-
+ micro_mg_dcs= 600.D-6

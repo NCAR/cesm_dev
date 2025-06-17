@@ -4,6 +4,4 @@ phi_i_mushy = 0.45
 
 tscale_pnd_drain = 10.0d0
 
-ice_ic = "/glade/derecho/scratch/hannay/b.e30_beta05.BLT1850.ne30_t232_wgx3.123_test/run/g.e30_a05cish.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.008.cice.r.0016-01-01-00000.nc"
-
 / 
