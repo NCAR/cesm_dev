@@ -155,3 +155,5 @@ ERROR: Error in parsing namelist: expected literal value, but got 'rpointer.cpl.
  ---------------------------------------------------
 2025-06-17 06:59:11: case.run success 9791643.desched1
  ---------------------------------------------------
+2025-06-17 06:59:13:   Timing files created for run 9791643.desched1.250616-230212
+ ---------------------------------------------------
