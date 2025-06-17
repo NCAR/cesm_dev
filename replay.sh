@@ -34,3 +34,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange CONTINUE_RUN=FALSE
+
