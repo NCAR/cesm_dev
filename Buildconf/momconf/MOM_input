@@ -1192,7 +1192,7 @@ CEMP_NL = 2.0
                                 ! "default = 3.6
                                 ! Empirical coefficient of non-local momentum mixing."
 
-IC_OUTPUT_FILE = b.e30_beta04.BLT1850.ne30_t232_wgx3.120.mom6.ic.0001-01-01.nc
+IC_OUTPUT_FILE = b.e30_beta04.BLT1850.ne30_t232_wgx3.121.mom6.ic.0001-01-01.nc
                                 ! "default = 'MOM_IC'
                                 ! The file into which to write the initial conditions."
 
@@ -1335,7 +1335,7 @@ SURFBAND_WAVENUMBERS = 0.04, 0.11, 0.33
 AUTO_MASKTABLE = True
                                 ! Turn on automatic mask table generation to eliminate land blocks
 
-GEOM_FILE = b.e30_beta04.BLT1850.ne30_t232_wgx3.120.mom6.h.ocean_geometry.nc
+GEOM_FILE = b.e30_beta04.BLT1850.ne30_t232_wgx3.121.mom6.h.ocean_geometry.nc
                                 ! default = ocean_geometry.nc
                                 ! The file into which to write the ocean geometry.
 

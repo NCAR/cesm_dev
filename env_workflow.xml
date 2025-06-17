@@ -16,7 +16,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>whether the PROJECT value is required on this machine</desc>
     </entry>
-    <entry id="CHARGE_ACCOUNT" value="CESM0023">
+    <entry id="CHARGE_ACCOUNT" value="93300722">
       <type>char</type>
       <desc>project to charge in scripts if different from PROJECT</desc>
     </entry>
@@ -72,7 +72,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>whether the PROJECT value is required on this machine</desc>
     </entry>
-    <entry id="CHARGE_ACCOUNT" value="CESM0023">
+    <entry id="CHARGE_ACCOUNT" value="93300722">
       <type>char</type>
       <desc>project to charge in scripts if different from PROJECT</desc>
     </entry>

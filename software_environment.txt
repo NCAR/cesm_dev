@@ -1,6 +1,9 @@
 Currently Loaded Modules:
-  1) cesmdev/1.0   (H,S)   3) craype/2.7.31    5) mkl/2023.2.0          7) cmake/3.26.3        9) hdf5-mpi/1.12.2   11) parallel-netcdf/1.12.3  13) esmf/8.6.0
-  2) ncarenv/23.09 (S)     4) intel/2023.2.1   6) ncarcompilers/1.0.0   8) cray-mpich/8.1.27  10) netcdf-mpi/4.9.2  12) parallelio/2.6.2
+  1) cesmdev/1.0    (H,S)   6) ncarcompilers/1.0.0  11) parallel-netcdf/1.12.3
+  2) ncarenv/23.09  (S)     7) cmake/3.26.3         12) parallelio/2.6.2
+  3) craype/2.7.31          8) cray-mpich/8.1.27    13) esmf/8.6.0
+  4) intel/2023.2.1         9) hdf5-mpi/1.12.2
+  5) mkl/2023.2.0          10) netcdf-mpi/4.9.2
 
   Where:
    H:  Hidden Module
@@ -32,8 +35,8 @@ NCAR_ID_COMPILER=oneapi-2023.2.1
 _ModuleTable002_=PSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiY2VzbWRldi8xLjAiLAp3ViA9ICIwMDAwMDAwMDEuKnpmaW5hbCIsCn0sCmNtYWtlID0gewpmbiA9ICIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy8yMy4wOS9Db3JlL2NtYWtlLzMuMjYuMy5sdWEiLApmdWxsTmFtZSA9ICJjbWFrZS8zLjI2LjMiLApsb2FkT3JkZXIgPSA3LApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImNtYWtlIiwKd1YgPSAiMDAwMDAwMDAzLjAwMDAwMDAyNi4wMDAwMDAwMDMuKnpmaW5hbCIsCn0sClsiY3JheS1tcGljaCJdID0gewpmbiA9ICIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy8yMy4wOS9vbmVhcGkvMjAyMy4yLjEvY3JheS1t
 FPGA_VARS_ARGS=
 PE_MPICH_GTL_DIR_amd_gfx90a=-L/opt/cray/pe/mpich/8.1.27/gtl/lib
-SSH_CONNECTION=128.117.231.173 56122 128.117.211.176 22
-XAUTHLOCALHOSTNAME=derecho7
+SSH_CONNECTION=67.165.214.208 53439 128.117.211.171 22
+XAUTHLOCALHOSTNAME=derecho2
 LESSCLOSE=lessclose.sh %s %s
 CRAY_LD_LIBRARY_PATH=/opt/cray/pe/cti/2.18.1/lib:/opt/cray/pe/pmi/6.1.12/lib:/opt/cray/pe/mpich/8.1.27/ofi/intel/2022.1/lib:/opt/cray/pe/mpich/8.1.27/gtl/lib
 XKEYSYMDB=/usr/X11R6/lib/X11/XKeysymDB
@@ -60,9 +63,9 @@ _ModuleTable008_=dXNlck5hbWUgPSAibmNhcmVudi8yMy4wOSIsCndWID0gIl4wMDAwMDAyMy4wMDA
 LESS=-M -I -R
 PE_MPICH_GTL_LIBS_nvidia70=-lmpi_gtl_cuda
 __NCAR_MODULEROOT_CSEG=/glade/u/apps/cseg/derecho/modules/23.09
-DISPLAY=localhost:17.0
+DISPLAY=localhost:51.0
 LMOD_FAMILY_COMPILER_VERSION=2023.2.1
-HOSTNAME=derecho7.de.hpc.ucar.edu
+HOSTNAME=derecho2.de.hpc.ucar.edu
 LMOD_SYSTEM_DEFAULT_MODULES=ncarenv/23.09:craype/2.7.23:intel/2023.2.1:ncarcompilers/1.0.0:cray-mpich/8.1.27:netcdf/4.9.2
 NCAR_SPACK_HASH_NCARCOMPILERS=6q5se7pmud3mligoitk5667sdfna44rc
 WRFIO_NCD_LARGE_FILE_SUPPORT=1
@@ -71,7 +74,7 @@ CSHEDIT=emacs
 PALS_FANOUT=32
 EDITOR=/usr/bin/emacs
 __LMOD_REF_COUNT_ACL_BOARD_VENDOR_PATH=/opt/Intel/OpenCLFPGA/oneAPI/Boards:1
-GPG_TTY=/dev/pts/17
+GPG_TTY=/dev/pts/134
 LESS_ADVANCED_PREPROCESSOR=no
 ACL_BOARD_VENDOR_PATH=/opt/Intel/OpenCLFPGA/oneAPI/Boards
 NCAR_ROOT_ESMF=/glade/u/apps/derecho/23.09/spack/opt/spack/esmf/8.6.0/cray-mpich/8.1.27/oneapi/2023.2.1/7haa
@@ -126,7 +129,7 @@ I_MPI_FC=ifort
 DAV_PROJECT=P93300642
 PIO_TYPENAME_VALID_VALUES=netcdf,netcdf4p,netcdf4c,pnetcdf
 CC=icx
-XDG_SESSION_ID=3670
+XDG_SESSION_ID=1449129
 CURL_CA_BUNDLE=/etc/ssl/ca-bundle.pem
 USER=hannay
 FPGA_VARS_DIR=/glade/u/apps/common/23.08/spack/opt/spack/intel-oneapi-compilers/2023.2.1/compiler/2023.2.1/linux/lib/oclfpga
@@ -139,7 +142,7 @@ PE_MPICH_GENCOMPILERS_INTEL=2022.1
 PE_CTI_MODULE_NAME=cray-cti
 NCAR_LDFLAGS_MKL=/glade/u/apps/derecho/23.09/spack/opt/spack/intel-oneapi-mkl/2023.2.0/oneapi/2023.2.1/vhs7/mkl/2023.2.0/lib/intel64
 NCAR_DEFAULT_MANPATH=/usr/local/share/man:/usr/share/man
-_ModuleTable012_=ZWFwaS8yMDIzLjIuMSIsICIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy8yMy4wOS9jcmF5LW1waWNoLzguMS4yNy9vbmVhcGkvMjAyMy4yLjEiLAp9LApzeXN0ZW1CYXNlTVBBVEggPSAiL2dsYWRlL3UvYXBwcy9kZXJlY2hvL21vZHVsZXMvZW52aXJvbm1lbnQiLAp9Cg==
+_ModuleTable012_=Ny9vbmVhcGkvMjAyMy4yLjEiLCAiL2dsYWRlL3UvYXBwcy9kZXJlY2hvL21vZHVsZXMvMjMuMDkvY3JheS1tcGljaC84LjEuMjcvb25lYXBpLzIwMjMuMi4xIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9nbGFkZS91L2FwcHMvZGVyZWNoby9tb2R1bGVzL2Vudmlyb25tZW50IiwKfQo=
 PE_MPICH_GTL_LIBS_ponteVecchio=-lmpi_gtl_ze
 OMPI_CXX=icpx
 CRAY_CPU_TARGET=x86-milan
@@ -154,7 +157,7 @@ PE_FORTRAN_PKGCONFIG_LIBS=mpichf90
 __LMOD_REF_COUNT_CRAY_LD_LIBRARY_PATH=/opt/cray/pe/cti/2.18.1/lib:1;/opt/cray/pe/pmi/6.1.12/lib:1;/opt/cray/pe/mpich/8.1.27/ofi/intel/2022.1/lib:1;/opt/cray/pe/mpich/8.1.27/gtl/lib:1
 GROUP=ncar
 NCAR_LDFLAGS_PARALLELIO=/glade/u/apps/derecho/23.09/spack/opt/spack/parallelio/2.6.2/cray-mpich/8.1.27/oneapi/2023.2.1/zyhu/lib
-PWD=/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLT1850.ne30_t232_wgx3.120
+PWD=/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLT1850.ne30_t232_wgx3.121
 PE_MPICH_GTL_DIR_ponteVecchio=-L/opt/cray/pe/mpich/8.1.27/gtl/lib
 PE_MPICH_GTL_DIR_nvidia70=-L/opt/cray/pe/mpich/8.1.27/gtl/lib
 HOME=/glade/u/home/hannay
@@ -165,9 +168,9 @@ CMAKE_PREFIX_PATH=/glade/u/apps/derecho/23.09/spack/opt/spack/esmf/8.6.0/cray-mp
 NCAR_GLOBUS_STRATUS=b9cf5e6c-9245-11eb-b7a4-f57b2d55370d
 PE_MPICH_GTL_LIBS_amd_gfx940=-lmpi_gtl_hsa
 NCAR_INC_INTEL_ONEAPI_MKL=/glade/u/apps/derecho/23.09/spack/opt/spack/intel-oneapi-mkl/2023.2.0/oneapi/2023.2.1/vhs7/include
-HOST=derecho7
+HOST=derecho2
 __LMOD_REF_COUNT_PE_PMI_PKGCONFIG_LIBS=cray-pmi:1
-SSH_CLIENT=128.117.231.173 56122 22
+SSH_CLIENT=67.165.214.208 53439 22
 LMOD_VERSION=8.7.24
 TARG_TITLE_BAR_PAREN= 
 NCAR_LDFLAGS_0_COMMON64=/glade/u/apps/derecho/23.09/opt/view/lib64
@@ -214,7 +217,7 @@ PROFILEREAD=true
 TMPDIR=/glade/derecho/scratch/hannay/tmp
 LIBRARY_PATH=/glade/u/apps/derecho/23.09/spack/opt/spack/intel-oneapi-mkl/2023.2.0/oneapi/2023.2.1/vhs7/mkl/2023.2.0/lib/intel64:/glade/u/apps/common/23.08/spack/opt/spack/intel-oneapi-compilers/2023.2.1/compiler/2023.2.1/linux/compiler/lib/intel64_lin:/glade/u/apps/common/23.08/spack/opt/spack/intel-oneapi-compilers/2023.2.1/compiler/2023.2.1/linux/lib
 __LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/glade/u/apps/derecho/23.09/spack/opt/spack/esmf/8.6.0/cray-mpich/8.1.27/oneapi/2023.2.1/7haa:1;/glade/u/apps/derecho/23.09/spack/opt/spack/parallelio/2.6.2/cray-mpich/8.1.27/oneapi/2023.2.1/zyhu:1;/glade/u/apps/derecho/23.09/spack/opt/spack/parallel-netcdf/1.12.3/cray-mpich/8.1.27/oneapi/2023.2.1/2qqp:1;/glade/u/apps/derecho/23.09/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.27/oneapi/2023.2.1/wplx:1;/glade/u/apps/derecho/23.09/spack/opt/spack/hdf5/1.12.2/cray-mpich/8.1.27/oneapi/2023.2.1/avlh:1;/glade/u/apps/derecho/23.09/spack/opt/spack/cmake/3.26.3/gcc/7.5.0/k34x:1;/glade/u/apps/derecho/23.09/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2023.2.1/6q5s:1;/glade/u/apps/derecho/23.09/spack/opt/spack/intel-oneapi-mkl/2023.2.0/oneapi/2023.2.1/vhs7:1;/glade/u/apps/common/23.08/spack/opt/spack/intel-oneapi-compilers/2023.2.1/compiler/2023.2.1/linux/IntelDPCPP:1;/glade/u/apps/common/23.08/spack/opt/spack/intel-oneapi-compilers/2023.2.1:1
-_ModuleTable010_=YWxsZWxpby8yLjYuMi5sdWEiLApmdWxsTmFtZSA9ICJwYXJhbGxlbGlvLzIuNi4yIiwKbG9hZE9yZGVyID0gMTIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAicGFyYWxsZWxpby8yLjYuMiIsCndWID0gIl4wMDAwMDAwMi4wMDAwMDAwMDYuMDAwMDAwMDAyLip6ZmluYWwiLAp9LAp9LAptcGF0aEEgPSB7CiIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy9lbnZpcm9ubWVudCIsICIvZ2xhZGUvdS9hcHBzL2NzZWcvZGVyZWNoby9tb2R1bGVzLzIzLjA5L0NvcmUiLCAiL2dsYWRlL3dvcmsvaGFubmF5L3NwYWNrLWRvd25zdHJlYW1zL2RlcmVjaG8vbW9kdWxlcy8yMy4wOS9Db3JlIgosICIvZ2xhZGUvdS9hcHBz
+_ModuleTable010_=YWxsZWxpby8yLjYuMi5sdWEiLApmdWxsTmFtZSA9ICJwYXJhbGxlbGlvLzIuNi4yIiwKbG9hZE9yZGVyID0gMTIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAicGFyYWxsZWxpby8yLjYuMiIsCndWID0gIl4wMDAwMDAwMi4wMDAwMDAwMDYuMDAwMDAwMDAyLip6ZmluYWwiLAp9LAp9LAptcGF0aEEgPSB7CiIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy9lbnZpcm9ubWVudCIKLCAiL2dsYWRlL3UvYXBwcy9jc2VnL2RlcmVjaG8vbW9kdWxlcy8yMy4wOS9Db3JlIgosICIvZ2xhZGUvd29yay9oYW5uYXkvc3BhY2stZG93bnN0cmVhbXMvZGVyZWNoby9tb2R1bGVzLzIzLjA5L0NvcmUiCiwgIi9nbGFkZS91L2Fw
 PE_PKGCONFIG_LIBS=mpich
 _ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJpbnRlbCIsCmNyYXlwZSA9ICJjcmF5cGUiLAplbnYgPSAibmNhcmVudiIsCm1hdGhwYWNrID0gIm1rbCIsCm1waSA9ICJjcmF5LW1waWNoIiwKfSwKbVQgPSB7CmNlc21kZXYgPSB7CmZuID0gIi9nbGFkZS91L2FwcHMvZGVyZWNoby9tb2R1bGVzL2Vudmlyb25tZW50L2Nlc21kZXYvMS4wLmx1YSIsCmZ1bGxOYW1lID0gImNlc21kZXYvMS4wIiwKbG9hZE9yZGVyID0gMSwKcHJvcFQgPSB7Cmxtb2QgPSB7CnN0aWNreSA9IDEsCn0sCn0sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMg
 __LMOD_REF_COUNT_NCAR_LDFLAGS_NETCDF=/glade/u/apps/derecho/23.09/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.27/oneapi/2023.2.1/wplx/lib:1
@@ -234,7 +237,7 @@ _ModuleTable003_=cGljaC84LjEuMjcubHVhIiwKZnVsbE5hbWUgPSAiY3JheS1tcGljaC84LjEuMjc
 LMOD_ROOT=/glade/u/apps/derecho/23.09/spack/opt/spack/lmod/8.7.24/gcc/7.5.0/c645/lmod
 __LMOD_REF_COUNT_NCAR_LDFLAGS_HDF5=/glade/u/apps/derecho/23.09/spack/opt/spack/hdf5/1.12.2/cray-mpich/8.1.27/oneapi/2023.2.1/avlh/lib:1
 QSCACHE_SERVER=derecho
-SSH_TTY=/dev/pts/17
+SSH_TTY=/dev/pts/134
 NCAR_SPACK_HASH_ONEAPI=rjphuj5dtbuqxwo64jywasdingvs5inb
 FROM_HEADER=
 CRAY_MPICH_ROOTDIR=/opt/cray/pe/mpich/8.1.27
@@ -336,7 +339,7 @@ PKG_CONFIG_PATH=/glade/u/apps/derecho/23.09/spack/opt/spack/parallel-netcdf/1.12
 LMOD_SETTARG_FULL_SUPPORT=no
 INFOPATH=/glade/u/apps/derecho/23.09/opt/view/share/info:/usr/local/share/info:/usr/share/info
 G_BROKEN_FILENAMES=1
-_ModuleTable011_=L2RlcmVjaG8vbW9kdWxlcy8yMy4wOS9Db3JlIiwgIi9nbGFkZS91L2FwcHMvY3NlZy9kZXJlY2hvL21vZHVsZXMvMjMuMDkvb25lYXBpLzIwMjMuMi4xIgosICIvZ2xhZGUvd29yay9oYW5uYXkvc3BhY2stZG93bnN0cmVhbXMvZGVyZWNoby9tb2R1bGVzLzIzLjA5L29uZWFwaS8yMDIzLjIuMSIsICIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy8yMy4wOS9vbmVhcGkvMjAyMy4yLjEiCiwgIi9nbGFkZS91L2FwcHMvY3NlZy9kZXJlY2hvL21vZHVsZXMvMjMuMDkvY3JheS1tcGljaC84LjEuMjcvb25lYXBpLzIwMjMuMi4xIgosICIvZ2xhZGUvd29yay9oYW5uYXkvc3BhY2stZG93bnN0cmVhbXMvZGVyZWNoby9tb2R1bGVzLzIzLjA5L2NyYXktbXBpY2gvOC4xLjI3L29u
+_ModuleTable011_=cHMvZGVyZWNoby9tb2R1bGVzLzIzLjA5L0NvcmUiCiwgIi9nbGFkZS91L2FwcHMvY3NlZy9kZXJlY2hvL21vZHVsZXMvMjMuMDkvb25lYXBpLzIwMjMuMi4xIgosICIvZ2xhZGUvd29yay9oYW5uYXkvc3BhY2stZG93bnN0cmVhbXMvZGVyZWNoby9tb2R1bGVzLzIzLjA5L29uZWFwaS8yMDIzLjIuMSIKLCAiL2dsYWRlL3UvYXBwcy9kZXJlY2hvL21vZHVsZXMvMjMuMDkvb25lYXBpLzIwMjMuMi4xIgosICIvZ2xhZGUvdS9hcHBzL2NzZWcvZGVyZWNoby9tb2R1bGVzLzIzLjA5L2NyYXktbXBpY2gvOC4xLjI3L29uZWFwaS8yMDIzLjIuMSIKLCAiL2dsYWRlL3dvcmsvaGFubmF5L3NwYWNrLWRvd25zdHJlYW1zL2RlcmVjaG8vbW9kdWxlcy8yMy4wOS9jcmF5LW1waWNoLzguMS4y
 LMOD_FAMILY_ENV_VERSION=23.09
 PE_MPICH_GTL_LIBS_amd_gfx90a=-lmpi_gtl_hsa
 CRAYPE_DIR=/opt/cray/pe/craype/2.7.31

@@ -2,15 +2,17 @@
 
 set -e
 
-# Created 2024-12-03 16:38:49
+# Created 2024-12-24 16:18:48
 
-CASEDIR="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLT1850.ne30_t232_wgx3.120"
+CASEDIR="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta04.BLT1850.ne30_t232_wgx3.121"
 
 /glade/work/hannay/cesm_tags/cesm3_0_beta04/cime/scripts/create_newcase --compset 1850_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP --res ne30pg3_t232_wg37 --case "${CASEDIR}" --run-unsupported --project 93300722
 
 cd "${CASEDIR}"
 
 ./xmlchange --append CAM_CONFIG_OPTS="-rad rrtmgp"
+
+./case.setup
 
 ./case.setup
 
@@ -34,13 +36,47 @@ cd "${CASEDIR}"
 
 ./case.build
 
-./xmlchange PROJECT=CESM0023,RESUBMIT=10,STOP_N=2,STOP_OPTION=nyears
+./preview_namelists
 
-./xmlchange CHARGE_ACCOUNT=CESM0023
+./case.build
+
+./xmlchange PROJECT=CESM0023,RESUBMIT=10,STOP_N=2,STOP_OPTION=nyears
 
 ./xmlchange REST_OPTION=nyears,REST_N=1
 
 ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run
 
 ./case.submit
+
+./case.submit
+
+./xmlchange RESUBMIT=20
+
+./xmlchange RESUBMIT=20
+
+./case.submit
+
+./xmlchange RESUBMIT=20
+
+./xmlchange RESUBMIT=15
+
+./case.submit
+
+./xmlchange RESUBMIT=20
+
+./case.setup --reset
+
+./case.build --clean
+
+./case.build
+
+./case.submit
+
+./case.build
+
+./case.submit
+
+./case.submit
+
+./xmlchange RESUBMIT=2
 
