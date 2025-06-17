@@ -1,6 +1,5 @@
 &comp_inparm 
 
- ncdata = 'b.e23_alpha17f.BLT1850.ne30_t232.098.cam.i.0201-01-01-00000.nc'
  dtime = 1800
 mfilt    =       0,       5,     20,      40,      12,       120,      1,   1
 
@@ -107,10 +106,6 @@ dust_emis_fact = 2.3
 
 
 clubb_l_min_wp2_from_corr_wx=.false. 
-
-
-
-solar_irrad_data_file= '/glade/campaign/cesm/development/cross-wg/inputdata/SolarForcingCMIP7piControl_c20250103.nc'
 
 
 

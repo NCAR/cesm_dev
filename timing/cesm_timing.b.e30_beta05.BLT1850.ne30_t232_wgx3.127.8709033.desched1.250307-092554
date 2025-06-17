@@ -1,17 +1,17 @@
 ---------------- TIMING PROFILE ---------------------
-  Case        : b.e30_beta05.BLT1850.ne30_t232_wgx3.126
-  LID         : 7768127.desched1.250216-163333
+  Case        : b.e30_beta05.BLT1850.ne30_t232_wgx3.127
+  LID         : 8709033.desched1.250307-092554
   Machine     : derecho
-  Caseroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta05.BLT1850.ne30_t232_wgx3.126
-  Timeroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta05.BLT1850.ne30_t232_wgx3.126/Tools
-  User        : hannay
-  Curr Date   : Mon Feb 17 00:16:44 2025
+  Caseroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta05.BLT1850.ne30_t232_wgx3.127
+  Timeroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta05.BLT1850.ne30_t232_wgx3.127/Tools
+  User        : gmarques
+  Curr Date   : Fri Mar  7 17:12:12 2025
   Driver      : CMEPS
   grid        : a%ne30np4.pg3_l%ne30np4.pg3_oi%tx2_3v2_r%r05_g%gris4_w%wgx3v7_z%null_m%tx2_3v2
   compset     : 1850_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP
-  run type    : hybrid, continue_run = FALSE (inittype = TRUE)
+  run type    : startup, continue_run = TRUE (inittype = FALSE)
   stop option : nyears, stop_n = 4
-  run length  : 1460 days (1459.9583333333333 for ocean)
+  run length  : 1460 days (1460.0 for ocean)
 
   component       comp_pes    root_pe   tasks  x threads instances (stride) 
   ---------        ------     -------   ------   ------  ---------  ------  
@@ -30,28 +30,28 @@
   pe count for cost estimate : 3456 
 
   Overall Metrics: 
-    Model Cost:            6622.50   pe-hrs/simulated_year 
-    Model Throughput:        12.52   simulated_years/day 
+    Model Cost:            6663.38   pe-hrs/simulated_year 
+    Model Throughput:        12.45   simulated_years/day 
 
-    Init Time   :     131.181 seconds 
-    Run Time    :   27593.742 seconds       18.900 seconds/day 
-    Final Time  :      14.934 seconds 
+    Init Time   :     138.261 seconds 
+    Run Time    :   27764.102 seconds       19.017 seconds/day 
+    Final Time  :      14.661 seconds 
 
 
 Runs Time in total seconds, seconds/model-day, and model-years/wall-day 
 CPL Run Time represents time in CPL pes alone, not including time associated with data exchange with other components 
 
-    TOT Run Time:   27593.742 seconds       18.900 seconds/mday        12.52 myears/wday 
-    CPL Run Time:    2297.095 seconds        1.573 seconds/mday       150.45 myears/wday 
-    ATM Run Time:   19372.533 seconds       13.269 seconds/mday        17.84 myears/wday 
-    LND Run Time:    2279.940 seconds        1.562 seconds/mday       151.58 myears/wday 
-    ICE Run Time:    5536.594 seconds        3.792 seconds/mday        62.42 myears/wday 
-    OCN Run Time:   22744.172 seconds       15.578 seconds/mday        15.20 myears/wday 
-    ROF Run Time:      85.719 seconds        0.059 seconds/mday      4031.80 myears/wday 
-    GLC Run Time:       0.934 seconds        0.001 seconds/mday    369942.20 myears/wday 
-    WAV Run Time:    6292.652 seconds        4.310 seconds/mday        54.92 myears/wday 
+    TOT Run Time:   27764.102 seconds       19.017 seconds/mday        12.45 myears/wday 
+    CPL Run Time:    2327.617 seconds        1.594 seconds/mday       148.48 myears/wday 
+    ATM Run Time:   19498.633 seconds       13.355 seconds/mday        17.72 myears/wday 
+    LND Run Time:    2231.940 seconds        1.529 seconds/mday       154.84 myears/wday 
+    ICE Run Time:    5562.875 seconds        3.810 seconds/mday        62.13 myears/wday 
+    OCN Run Time:   22399.221 seconds       15.342 seconds/mday        15.43 myears/wday 
+    ROF Run Time:      90.429 seconds        0.062 seconds/mday      3821.79 myears/wday 
+    GLC Run Time:       0.732 seconds        0.001 seconds/mday    471937.73 myears/wday 
+    WAV Run Time:    6199.681 seconds        4.246 seconds/mday        55.74 myears/wday 
     ESP Run Time:       0.000 seconds        0.000 seconds/mday         0.00 myears/wday 
-    CPL COMM Time:   4340.129 seconds        2.973 seconds/mday        79.63 myears/wday 
+    CPL COMM Time:   4454.437 seconds        3.051 seconds/mday        77.59 myears/wday 
    NOTE: min:max driver timers (seconds/day):   
                             CPL (pes 0 to 2699) 
                                                 ATM (pes 0 to 2699) 
