@@ -42,3 +42,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_WALLCLOCK_TIME=2:00:00 --subgroup case.run
 
+./case.submit
+
