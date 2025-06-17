@@ -10,7 +10,7 @@
   fincl1 = ""
   fincl2 = ""
   fincl3 = ""
-  finidat = "b.e30_beta05.BLT1850.ne30_t232_wgx3.122.mosart.r.0029-01-01-00000.nc"
+  finidat = "b.e23_alpha17f.BLT1850.ne30_t232.098.mosart.r.0201-01-01-00000.nc"
   frivinp = "/glade/campaign/cesm/cesmdata/inputdata/rof/mosart/MOSART_routing_Global_0.5x0.5_c170601.nc"
   ice_runoff = .true.
   mfilt = 1

@@ -1,6 +1,6 @@
 &comp_inparm 
 
- ncdata = 'b.e30_beta05.BLT1850.ne30_t232_wgx3.122.cam.i.0029-01-01-00000.nc'
+ ncdata = 'b.e23_alpha17f.BLT1850.ne30_t232.098.cam.i.0201-01-01-00000.nc'
  dtime = 1800
 mfilt    =       0,       5,     20,      40,      12,       120,      1,   1
 
@@ -108,6 +108,6 @@ dust_emis_fact = 2.3
 
 clubb_l_min_wp2_from_corr_wx=.false. 
 
- micro_mg_dcs= 600.D-6
+
 
 / 

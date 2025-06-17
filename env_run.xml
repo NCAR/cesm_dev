@@ -238,13 +238,13 @@
       Reference directory containing RUN_REFCASE data - used for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFCASE" value="b.e30_beta05.BLT1850.ne30_t232_wgx3.122">
+    <entry id="RUN_REFCASE" value="b.e23_alpha17f.BLT1850.ne30_t232.098">
       <type>char</type>
       <desc>
       Reference case for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFDATE" value="0029-01-01">
+    <entry id="RUN_REFDATE" value="0201-01-01">
       <type>char</type>
       <desc>
       Reference date for hybrid or branch runs (yyyy-mm-dd)
@@ -316,7 +316,7 @@
       sets model restart write date with REST_OPTION and REST_N
     </desc>
     </entry>
-    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl.0045-01-01-00000">
+    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl.0065-01-01-00000">
       <type>char</type>
       <desc>
       Name of the restart pointer file, this can be used to restart from an
@@ -412,7 +412,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to determine whether run has been submitted with the submit script or not</desc>
     </entry>
-    <entry id="JOB_IDS" value="case.run:7776967.desched1, case.st_archive:7776968.desched1">
+    <entry id="JOB_IDS" value="case.run:7826171.desched1, case.st_archive:7826172.desched1">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
