@@ -26,3 +26,9 @@ cd "${CASEDIR}"
 
 ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0173-01-01-00000
 
+./preview_namelists
+
+./preview_namelists
+
+./xmlchange RUN_REFCASE=b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156
+
