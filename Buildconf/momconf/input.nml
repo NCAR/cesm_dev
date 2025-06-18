@@ -1,0 +1,34 @@
+&MOM_input_nml
+    output_directory = './'
+    restart_input_dir = './'
+    restart_output_dir = './'
+    parameter_filename = 'MOM_input', 'MOM_override'
+/
+
+&fms_nml
+    clock_grain = 'ROUTINE'
+    clock_flags = 'NONE'
+    domains_stack_size = 5000000
+    stack_size = 0
+/
+
+&diag_manager_nml
+    flush_nc_files = .true.
+    max_input_fields = 900
+    max_output_fields = 300
+    max_num_axis_sets = 30
+    max_axes = 90
+/
+
+&mpp_io_nml
+    cf_compliance = .true.
+/
+
+&nam_stochy
+    new_lscale = .true.
+    OCNSKEB = 1.0
+    OCNSKEB_LSCALE = 200e3
+    OCNSKEB_TAU = 21600
+    ISEED_OCNSKEB = 20
+/
+
