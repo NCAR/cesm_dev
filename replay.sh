@@ -34,3 +34,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0165-01-01-00000
+

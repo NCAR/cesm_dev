@@ -23,3 +23,5 @@
 2025-06-18 14:01:37: case.build error 
 ERROR: Could not download refcase from any server
  ---------------------------------------------------
+2025-06-18 14:02:10: xmlchange success <command> ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0165-01-01-00000  </command>
+ ---------------------------------------------------
