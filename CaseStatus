@@ -8,3 +8,5 @@
  ---------------------------------------------------
 2025-06-18 16:00:36: xmlchange success <command> ./xmlchange RUN_REFDATE=0181-01-01  </command>
  ---------------------------------------------------
+2025-06-18 16:00:36: xmlchange success <command> ./xmlchange RUN_TYPE=branch  </command>
+ ---------------------------------------------------
