@@ -26,3 +26,5 @@
  ---------------------------------------------------
 2025-06-18 15:35:46: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2025-06-18 15:36:46: xmlchange success <command> ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0173-01-01-00000  </command>
+ ---------------------------------------------------
