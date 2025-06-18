@@ -24,3 +24,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
+./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0165-01-01-00000
+
