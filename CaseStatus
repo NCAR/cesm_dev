@@ -189,3 +189,5 @@ ERROR: Error in parsing namelist: expected literal value, but got 'rpointer.cpl.
  ---------------------------------------------------
 2025-06-17 23:20:53: model execution success 9796137.desched1
  ---------------------------------------------------
+2025-06-17 23:20:54: case.run success 9796137.desched1
+ ---------------------------------------------------
