@@ -129,6 +129,30 @@
 "ocean_model", "SSH",          "SSH",          "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "mass_wt",      "mass_wt",      "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 
+"ocean_model", "opottemptend", "opottemptend", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottempdiff", "opottempdiff", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottemppmdiff", "opottemppmdiff", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "boundary_forcing_heat_tendency", "boundary_forcing_heat_tendency", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "frazil_heat_tendency", "frazil_heat_tendency", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "internal_heat_heat_tendency", "internal_heat_heat_tendency", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_advection_xy", "T_advection_xy", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Th_tendency_vert_remap", "Th_tendency_vert_remap", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_NLT_temp_budget", "KPP_NLT_temp_budget", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_hbdxy_cont_tendency", "T_hbdxy_cont_tendency", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_adx", "T_adx", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_ady", "T_ady", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+
+"ocean_model", "osalttend", "osalttend", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "osaltdiff", "osaltdiff", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "osaltpmdiff", "osaltpmdiff", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "boundary_forcing_salt_tendency", "boundary_forcing_salt_tendency", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_advection_xy", "S_advection_xy", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Sh_tendency_vert_remap", "Sh_tendency_vert_remap", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_NLT_saln_budget", "KPP_NLT_saln_budget", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_hbdxy_cont_tendency", "S_hbdxy_cont_tendency", "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_adx", "S_adx",           "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_ady", "S_ady",           "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+
 # "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.z%4yr-%2mo"
 "ocean_model_z", "uo",      "uo",      "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_z", "vo",      "vo",      "b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156g.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
