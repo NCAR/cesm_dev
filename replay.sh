@@ -26,3 +26,9 @@ cd "${CASEDIR}"
 
 ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0189-01-01-00000
 
+./preview_namelists
+
+./preview_namelists
+
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+

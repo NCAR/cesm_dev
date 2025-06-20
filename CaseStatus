@@ -16,3 +16,5 @@
  ---------------------------------------------------
 2025-06-20 14:45:40: xmlchange success <command> ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0189-01-01-00000  </command>
  ---------------------------------------------------
+2025-06-20 14:46:08: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
+ ---------------------------------------------------
