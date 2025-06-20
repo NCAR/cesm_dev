@@ -18,3 +18,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDATE=0189-01-01
 
+./xmlchange RUN_TYPE=branch
+
