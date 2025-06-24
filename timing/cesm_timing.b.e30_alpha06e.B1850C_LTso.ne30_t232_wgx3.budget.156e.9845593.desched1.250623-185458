@@ -1,0 +1,88 @@
+---------------- TIMING PROFILE ---------------------
+  Case        : b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156e
+  LID         : 9845593.desched1.250623-185458
+  Machine     : derecho
+  Caseroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156e
+  Timeroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.budget.156e/Tools
+  User        : hannay
+  Curr Date   : Tue Jun 24 02:58:05 2025
+  Driver      : CMEPS
+  grid        : a%ne30np4.pg3_l%ne30np4.pg3_oi%tx2_3v2_r%r05_g%gris4_w%wgx3v7_z%null_m%tx2_3v2
+  compset     : 1850C_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP
+  run type    : branch, continue_run = TRUE (inittype = FALSE)
+  stop option : nyears, stop_n = 4
+  run length  : 1460 days (1460.0 for ocean)
+
+  component       comp_pes    root_pe   tasks  x threads instances (stride) 
+  ---------        ------     -------   ------   ------  ---------  ------  
+  cpl = cpl        2700        0        2700   x 1       1      (1     ) 
+  atm = cam        2700        0        2700   x 1       1      (1     ) 
+  lnd = clm        1280        0        1280   x 1       1      (1     ) 
+  ice = cice       1420        1280     1420   x 1       1      (1     ) 
+  ocn = mom        640         2816     640    x 1       1      (1     ) 
+  rof = mosart     1280        0        1280   x 1       1      (1     ) 
+  glc = dglc       116         2700     116    x 1       1      (1     ) 
+  wav = ww3        116         2700     116    x 1       1      (1     ) 
+  esp = sesp       1           0        1      x 1       1      (1     ) 
+
+  total pes active           : 3456 
+  mpi tasks per node         : 128 
+  pe count for cost estimate : 3456 
+
+  Overall Metrics: 
+    Model Cost:            6899.95   pe-hrs/simulated_year 
+    Model Throughput:        12.02   simulated_years/day 
+
+    Init Time   :     148.763 seconds 
+    Run Time    :   28749.805 seconds       19.692 seconds/day 
+    Final Time  :      22.852 seconds 
+
+
+Runs Time in total seconds, seconds/model-day, and model-years/wall-day 
+CPL Run Time represents time in CPL pes alone, not including time associated with data exchange with other components 
+
+    TOT Run Time:   28749.805 seconds       19.692 seconds/mday        12.02 myears/wday 
+    CPL Run Time:    2440.558 seconds        1.672 seconds/mday       141.61 myears/wday 
+    ATM Run Time:   19611.012 seconds       13.432 seconds/mday        17.62 myears/wday 
+    LND Run Time:    2206.741 seconds        1.511 seconds/mday       156.61 myears/wday 
+    ICE Run Time:    5897.020 seconds        4.039 seconds/mday        58.61 myears/wday 
+    OCN Run Time:   23662.162 seconds       16.207 seconds/mday        14.61 myears/wday 
+    ROF Run Time:     158.043 seconds        0.108 seconds/mday      2186.75 myears/wday 
+    GLC Run Time:       1.128 seconds        0.001 seconds/mday    306464.49 myears/wday 
+    WAV Run Time:    6161.578 seconds        4.220 seconds/mday        56.09 myears/wday 
+    ESP Run Time:       0.000 seconds        0.000 seconds/mday         0.00 myears/wday 
+    CPL COMM Time:   4966.426 seconds        3.402 seconds/mday        69.59 myears/wday 
+   NOTE: min:max driver timers (seconds/day):   
+                            CPL (pes 0 to 2699) 
+                                                ATM (pes 0 to 2699) 
+                                                LND (pes 0 to 1279) 
+                                                                  ICE (pes 1280 to 2699) 
+                                                                                       OCN (pes 2816 to 3455) 
+                                                ROF (pes 0 to 1279) 
+                                                                                      GLC (pes 2700 to 2815) 
+                                                                                      WAV (pes 2700 to 2815) 
+                                                ESP (pes 0 to 0) 
+
+
+
+More info on coupler timing:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
