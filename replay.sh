@@ -48,3 +48,7 @@ cd "${CASEDIR}"
 
 ./xmlchange CAM_NML_USE_CASE=hist_cam_lt
 
+./preview_namelists
+
+./xmlchange PROJECT=CESM0023,RESUBMIT=10,STOP_N=2,STOP_OPTION=nyears
+
