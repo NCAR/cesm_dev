@@ -60,3 +60,5 @@ NCGD0006, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2025-06-28 10:24:11: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2025-06-28 10:24:22: case.submit starting case.run:9903353.desched1, case.st_archive:9903354.desched1
+ ---------------------------------------------------
