@@ -72,3 +72,5 @@
  ---------------------------------------------------
 2025-06-27 21:55:32: xmlchange success <command> ./xmlchange RESUBMIT=10,CONTINUE_RUN=False  </command>
  ---------------------------------------------------
+2025-06-27 21:56:17: case.submit starting case.run:9897827.desched1, case.st_archive:9897828.desched1
+ ---------------------------------------------------

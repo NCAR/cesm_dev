@@ -38,3 +38,7 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=10,CONTINUE_RUN=False
 
+./check_case
+
+./case.submit
+
