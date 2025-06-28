@@ -63,4 +63,5 @@ zmconv_num_cin = 2
 zmconv_capelmt = 109.0163
 dust_emis_fact = 3.069244
 
+clubb_l_do_expldiff_rtm_thlm = .false. 
 
