@@ -274,3 +274,5 @@ NCGD0006, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2025-07-02 13:44:42: xmlchange success <command> ./xmlchange RUN_REFDATE=0077-01-01  </command>
  ---------------------------------------------------
+2025-07-02 13:44:44: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
