@@ -30,3 +30,7 @@ cd "${CASEDIR}"
 
 ./xmlchange CAM_NML_USE_CASE=hist_cam_lt
 
+./preview_namelists
+
+./case.build
+
