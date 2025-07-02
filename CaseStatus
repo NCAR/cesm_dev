@@ -266,3 +266,9 @@ NCGD0006, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2025-07-02 11:26:39: case.build success 
  ---------------------------------------------------
+2025-07-02 13:44:27: case.setup starting 
+ ---------------------------------------------------
+2025-07-02 13:44:31: case.setup success 
+ ---------------------------------------------------
+2025-07-02 13:44:40: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156  </command>
+ ---------------------------------------------------
