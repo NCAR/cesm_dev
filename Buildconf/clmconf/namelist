@@ -1,0 +1,34 @@
+&comp_inparm 
+
+finidat = 'b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156.clm2.r.0077-01-01-00000.nc'
+
+
+nfix_method = 'Bytnerowicz'
+
+
+
+use_c13 = .true.
+
+use_c14 = .true.
+
+use_c13_timeseries = .true.
+
+use_c14_bombspike = .true.
+
+
+
+use_init_interp = .true.
+
+
+
+do_grossunrep=.false.
+
+reseed_dead_plants = .true.
+
+
+
+paramfile = '/glade/campaign/cesm/development/amwg/inputdata_extra/ctsm5.3.012.Nfix_params.v13.c250221_upplim250.nc'
+
+
+
+/ 

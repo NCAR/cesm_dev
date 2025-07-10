@@ -1,0 +1,46 @@
+&domain_nml
+  domain%start = "00010101 0"
+  domain%stop = "99990101 0"
+/
+&input_nml
+  input%assim%mean = "F"
+  input%assim%spec1d = "F"
+  input%assim%spec2d = "F"
+  input%forcing%air_density = "F"
+  input%forcing%atm_momentum = "F"
+  input%forcing%currents = "T"
+  input%forcing%ice_conc = "T"
+  input%forcing%ice_param1 = "T"
+  input%forcing%ice_param2 = "F"
+  input%forcing%ice_param3 = "F"
+  input%forcing%ice_param4 = "F"
+  input%forcing%ice_param5 = "T"
+  input%forcing%mud_density = "F"
+  input%forcing%mud_thickness = "F"
+  input%forcing%mud_viscosity = "F"
+  input%forcing%water_levels = "T"
+  input%forcing%winds = "T"
+/
+&output_type_nml
+  type%field%list = "WND ICE HS T02 T0M1 T01 FP DIR EF USS TOC"
+  type%point%file = "points.list"
+/
+&output_date_nml
+  date%field%outffile = "1"
+  date%field%start = "00010101 0"
+  date%field%stop = "99990101 0"
+  date%field%stride = "1800"
+  date%restart2%start = "99990101 0"
+  date%restart2%stop = "99990101 0"
+  date%restart2%stride = "0"
+  date%restart%start = "00010101 0"
+  date%restart%stop = "99990101 0"
+  date%restart%stride = "1800"
+/
+&ww3_inparm
+  dtcfl = 450.
+  dtcfli = 900
+  dtmax = 1800.
+  dtmin = 10
+  initfile = "/glade/campaign/cesm/cesmdata/inputdata/wav/ww3/wgx3v7.restart.ww3.calm.240722"
+/
