@@ -6,7 +6,7 @@
 DO_SKEB = True
 #override SKEB_NPASS = 8
 SKEB_USE_GM = True
-#override SKEB_GM_COEF = 0.5
-#override MEKE_GMCOEFF = 0.5
+#override SKEB_GM_COEF = 0.25
+#override MEKE_GMCOEFF = 0.75
 SKEB_USE_FRICT = False
 SKEB_FRICT_COEF = 0.0
