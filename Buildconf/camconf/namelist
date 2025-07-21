@@ -112,7 +112,9 @@ clubb_c8 = 4.6
 
 
 
- ext_frc_specifier              = 'num_a1 -> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a1_ene_vertical-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
+ext_frc_specifier              =
+
+         'num_a1 -> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a1_ene_vertical-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
 
          'num_a1 -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_num_a1_so4_contvolcano_vertical_850-5000_ne30pg3_c20250711.nc',
 
@@ -130,7 +132,11 @@ clubb_c8 = 4.6
 
 
 
+
+
 srf_emis_specifier             =
+
+
 
          'bc_a4 -> /glade/campaign/acom/acom-da/cmip7/ne30/bc_a4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
 
@@ -148,11 +154,11 @@ srf_emis_specifier             =
 
          'num_a4 -> /glade/campaign/acom/acom-da/cmip7/ne30/num_pom_a4_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
 
-         'DMS      -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6-ScenarioMIP_IAMC-AIM-ssp370-1-1_smoothed_DMS_bb_surface_mol_175001-210101_ne30pg3_c20250711.nc',
-
          'num_a1-> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a1_ag-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
 
          'num_a1-> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a1_ship_slv-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
+
+         'num_a1-> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a1_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
 
          'num_a2-> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a2_res_trs-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
 
@@ -161,8 +167,6 @@ srf_emis_specifier             =
          'so4_a2-> /glade/campaign/acom/acom-da/cmip7/ne30/so4_a2_res_trs-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
 
          'so4_a1-> /glade/campaign/acom/acom-da/cmip7/ne30/so4_a1_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-
-         'num_a1-> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a1_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
 
          'SO2 -> /glade/campaign/acom/acom-da/cmip7/ne30/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
 
@@ -174,11 +178,11 @@ srf_emis_specifier             =
 
          'SOAE -> 0.5954D0*/glade/campaign/acom/acom-da/cmip7/ne30/ISOP_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
 
-         'SOAE -> 8.5371D0*/glade/campaign/acom/acom-da/cmip7/ne30/emissions-cmip6_IVOC_anthro_surface_175001-201412_ne30pg3_c20200103.nc',
+         'SOAE -> 8.5371D0*//glade/campaign/acom/acom-da/cmip7/ne30/IVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
 
-         'SOAE -> 8.5371D0*/glade/campaign/acom/acom-da/cmip7/ne30/emissions-cmip6_IVOC_bb_surface_175001-201512_ne30pg3_c20191119.nc',
+         'SOAE -> 8.5371D0*/glade/campaign/acom/acom-da/cmip7/ne30/IVOC_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
 
-         'SOAE -> 5.1004D0*/glade/campaign/acom/acom-da/cmip7/ne30/emissions-cmip6_MTERP_bb_surface_175001-201512_ne30pg3_c20191118.nc',
+         'SOAE -> 5.1004D0*/glade/campaign/acom/acom-da/cmip7/ne30/MTERP_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
 
          'SOAE -> 16.650D0*/glade/campaign/acom/acom-da/cmip7/ne30/IVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
 
@@ -191,5 +195,9 @@ srf_emis_specifier             =
          'SOAE -> 6.5013D0*/glade/campaign/acom/acom-da/cmip7/ne30/XYLENES-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18-supplemental_gn_175001-202312.nc',
 
          'SOAE -> 6.5013D0*/glade/campaign/acom/acom-da/cmip7/ne30/XYLENES_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc'
+
+
+
+
 
 / 
