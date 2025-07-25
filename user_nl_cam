@@ -95,4 +95,5 @@ clubb_c8 = 4.6
          'SOAE -> 6.5013D0*/glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_XYLENES_anthro_surface_1750-2015_ne30pg3_c20250711.nc',
          'SOAE -> 6.5013D0*/glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_XYLENES_bb_surface_1750-2015_ne30pg3_c20250711.nc'
  srf_emis_type          = 'CYCLICAL'
+bnd_topo = "/glade/campaign/cgd/amp/pel/topo/cesm3/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greendlndantarcsgh30fac2.50_20250708.nc"
 
