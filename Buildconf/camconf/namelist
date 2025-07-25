@@ -196,6 +196,8 @@ clubb_c8 = 4.6
 
  srf_emis_type          = 'CYCLICAL'
 
+bnd_topo = "/glade/campaign/cgd/amp/pel/topo/cesm3/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greendlndantarcsgh30fac2.50_20250708.nc"
+
 
 
 / 
