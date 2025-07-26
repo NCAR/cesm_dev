@@ -36,3 +36,5 @@
 2025-07-25 18:15:29: case.build error 
 ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.186/env_run.xml appears to have changed without a corresponding invalidation.
  ---------------------------------------------------
+2025-07-25 18:15:31: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
