@@ -104,3 +104,5 @@ ERROR: For your changes to take effect, run:
  ---------------------------------------------------
 2025-07-26 13:23:18: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
  ---------------------------------------------------
+2025-07-26 13:23:20: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
+ ---------------------------------------------------
