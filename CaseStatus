@@ -93,3 +93,8 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_beta06.B
  ---------------------------------------------------
 2025-07-26 13:23:11: case.build starting 
  ---------------------------------------------------
+2025-07-26 13:23:13: case.build error 
+ERROR: For your changes to take effect, run:
+./case.build --clean-all
+./case.build
+ ---------------------------------------------------
