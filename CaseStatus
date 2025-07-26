@@ -232,3 +232,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2025-07-26 13:30:03: case.build success 
  ---------------------------------------------------
+2025-07-26 13:30:07: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
