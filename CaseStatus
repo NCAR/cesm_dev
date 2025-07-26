@@ -98,3 +98,5 @@ ERROR: For your changes to take effect, run:
 ./case.build --clean-all
 ./case.build
  ---------------------------------------------------
+2025-07-26 13:23:15: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
