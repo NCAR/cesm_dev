@@ -248,3 +248,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2025-07-26 13:32:11: case.build starting 
  ---------------------------------------------------
+2025-07-26 13:32:52: case.build success 
+ ---------------------------------------------------
