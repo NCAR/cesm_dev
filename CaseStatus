@@ -152,3 +152,5 @@ ERROR: For your changes to take effect, run:
  ---------------------------------------------------
 2025-07-26 13:46:35: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
  ---------------------------------------------------
+2025-07-26 13:46:36: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=1,STOP_N=3,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
