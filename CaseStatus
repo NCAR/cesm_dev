@@ -221,3 +221,6 @@ ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.o
  ---------------------------------------------------
 2025-07-26 13:15:57: case.submit starting 
  ---------------------------------------------------
+2025-07-26 13:15:57: case.submit error 
+ERROR: CONTINUE_RUN is true but this case does not appear to have restart files staged in /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.184/run rpointer.cpl.0033-01-01-00000
+ ---------------------------------------------------
