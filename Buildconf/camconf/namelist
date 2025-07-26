@@ -308,4 +308,6 @@ clubb_c8 = 4.6
 
  csw_specifier= '/glade/campaign/cgd/cas/islas/CESM_input/ocnexch/Csw_DMS_Lana2011_ne30pg3_1750_2100_20200717a.nc'
 
+ ocean_salinity_file            = '/glade/campaign/cgd/cas/islas/CESM_input/ocnexch/SSS_climatology_n30pg3_c20230110.nc'
+
 / 

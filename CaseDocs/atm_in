@@ -480,7 +480,7 @@
  csw_cycle_yr		= 1850 
  csw_specifier		= '/glade/campaign/cgd/cas/islas/CESM_input/ocnexch/Csw_DMS_Lana2011_ne30pg3_1750_2100_20200717a.nc'
  csw_time_type		= 'CYCLICAL'
- ocean_salinity_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/ocnexch/SSS_climatology_f09f09_c20230110.nc'
+ ocean_salinity_file		= '/glade/campaign/cgd/cas/islas/CESM_input/ocnexch/SSS_climatology_n30pg3_c20230110.nc'
 /
 &phys_ctl_nl
  cam_chempkg		= 'ghg_mam4'

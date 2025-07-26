@@ -75,3 +75,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.186/run/med.log.2084678.desched1.250726-015555 
  
  ---------------------------------------------------
+2025-07-26 11:33:46: case.submit starting case.run:2091914.desched1, case.st_archive:2091915.desched1
+ ---------------------------------------------------

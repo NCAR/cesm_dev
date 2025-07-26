@@ -151,3 +151,4 @@ clubb_c8 = 4.6
  bnd_topo = "/glade/campaign/cgd/amp/pel/topo/cesm3/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greendlndantarcsgh30fac2.50_20250708.nc"
 
  csw_specifier= '/glade/campaign/cgd/cas/islas/CESM_input/ocnexch/Csw_DMS_Lana2011_ne30pg3_1750_2100_20200717a.nc'
+ ocean_salinity_file            = '/glade/campaign/cgd/cas/islas/CESM_input/ocnexch/SSS_climatology_n30pg3_c20230110.nc'
