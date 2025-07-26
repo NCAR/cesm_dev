@@ -30,3 +30,6 @@
  ---------------------------------------------------
 2025-07-25 18:08:05: case.build starting 
  ---------------------------------------------------
+2025-07-25 18:09:48: case.build error 
+[Errno 2] No such file or directory: '/glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.186/bld/CDEPS.bldlog.250725-180404'
+ ---------------------------------------------------
