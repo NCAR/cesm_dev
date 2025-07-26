@@ -44,3 +44,5 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta06.B1850C_
  ---------------------------------------------------
 2025-07-25 18:15:32: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2025-07-25 18:15:40: case.submit starting 
+ ---------------------------------------------------
