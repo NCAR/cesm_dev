@@ -89,3 +89,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_beta06.B
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.186/run/med.log.2091914.desched1.250726-113444 
  
  ---------------------------------------------------
+2025-07-26 13:22:43: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
+ ---------------------------------------------------
