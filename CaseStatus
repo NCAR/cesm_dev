@@ -46,3 +46,6 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_beta06.B1850C_
  ---------------------------------------------------
 2025-07-25 18:15:40: case.submit starting 
  ---------------------------------------------------
+2025-07-25 18:15:40: case.submit error 
+ERROR: Build complete is not True please rebuild the model by calling case.build
+ ---------------------------------------------------
