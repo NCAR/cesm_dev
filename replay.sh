@@ -6,3 +6,7 @@
 
 ./xmlchange RESUBMIT=12
 
+./check_case
+
+./case.submit
+
