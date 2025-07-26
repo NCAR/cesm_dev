@@ -106,3 +106,5 @@ ERROR: For your changes to take effect, run:
  ---------------------------------------------------
 2025-07-26 13:23:20: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2025-07-26 13:23:21: case.submit starting 
+ ---------------------------------------------------
