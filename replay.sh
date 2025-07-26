@@ -12,3 +12,5 @@
 
 ./case.submit
 
+./case.build
+
