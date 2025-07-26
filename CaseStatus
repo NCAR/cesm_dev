@@ -150,3 +150,5 @@ ERROR: For your changes to take effect, run:
  ---------------------------------------------------
 2025-07-26 13:46:33: case.build success 
  ---------------------------------------------------
+2025-07-26 13:46:35: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
