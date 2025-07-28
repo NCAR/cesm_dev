@@ -1,1 +1,125 @@
 st_archive starting
+moving /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/ocn.log.2093059.desched1.250726-133531.gz to /glade/derecho/scratch/hannay/archive/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/logs/ocn.log.2093059.desched1.250726-133531.gz
+moving /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/lnd.log.2093059.desched1.250726-133531.gz to /glade/derecho/scratch/hannay/archive/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/logs/lnd.log.2093059.desched1.250726-133531.gz
+moving /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/wav.log.2093059.desched1.250726-133531.gz to /glade/derecho/scratch/hannay/archive/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/logs/wav.log.2093059.desched1.250726-133531.gz
+moving /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/med.log.2093059.desched1.250726-133531.gz to /glade/derecho/scratch/hannay/archive/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/logs/med.log.2093059.desched1.250726-133531.gz
+moving /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/drv.log.2093059.desched1.250726-133531.gz to /glade/derecho/scratch/hannay/archive/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/logs/drv.log.2093059.desched1.250726-133531.gz
+moving /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/cesm.log.2093059.desched1.250726-133531.gz to /glade/derecho/scratch/hannay/archive/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/logs/cesm.log.2093059.desched1.250726-133531.gz
+moving /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/rof.log.2093059.desched1.250726-133531.gz to /glade/derecho/scratch/hannay/archive/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/logs/rof.log.2093059.desched1.250726-133531.gz
+moving /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/atm.log.2093059.desched1.250726-133531.gz to /glade/derecho/scratch/hannay/archive/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/logs/atm.log.2093059.desched1.250726-133531.gz
+moving /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/diags.log.2093059.desched1.250726-133531.gz to /glade/derecho/scratch/hannay/archive/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/logs/diags.log.2093059.desched1.250726-133531.gz
+moving /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/glc.log.2093059.desched1.250726-133531.gz to /glade/derecho/scratch/hannay/archive/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/logs/glc.log.2093059.desched1.250726-133531.gz
+moving /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/ice.log.2093059.desched1.250726-133531.gz to /glade/derecho/scratch/hannay/archive/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/logs/ice.log.2093059.desched1.250726-133531.gz
+-------------------------------------------
+Archiving restarts for date date(2, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+WARNING, tried to add a duplicate file to histfiles
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cam.r.0002-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v nhfil /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cam.rs.0002-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: nhfil: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cam.rs.0002-01-01-00000.nc
+Archiving restarts for clm (lnd)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.clm2.r.0002-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.clm2.rh0.0002-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.clm2.rh0.0002-01-01-00000.nc
+Archiving restarts for cice (ice)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cice.r.0002-01-01-00000.nc
+Archiving restarts for mom (ocn)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mom6.r.0002-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: None: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mom6.r.0002-01-01-00000.nc
+Archiving restarts for mosart (rof)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mosart.r.0002-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mosart.rh0.0002-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mosart.rh0.0002-01-01-00000.nc
+Archiving restarts for dglc (glc)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.dglc.r.0002-01-01-00000.nc
+Archiving restarts for ww3 (wav)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.ww3.r.0002-01-01-00000
+Archiving restarts for drv (cpl)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cpl.r.0002-01-01-00000.nc
+Archiving restarts for dart (esp)
+-------------------------------------------
+Archiving restarts for date date(3, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+WARNING, tried to add a duplicate file to histfiles
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cam.r.0003-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v nhfil /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cam.rs.0003-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: nhfil: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cam.rs.0003-01-01-00000.nc
+Archiving restarts for clm (lnd)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.clm2.r.0003-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.clm2.rh0.0003-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.clm2.rh0.0003-01-01-00000.nc
+Archiving restarts for cice (ice)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cice.r.0003-01-01-00000.nc
+Archiving restarts for mom (ocn)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mom6.r.0003-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: None: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mom6.r.0003-01-01-00000.nc
+Archiving restarts for mosart (rof)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mosart.r.0003-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mosart.rh0.0003-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mosart.rh0.0003-01-01-00000.nc
+Archiving restarts for dglc (glc)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.dglc.r.0003-01-01-00000.nc
+Archiving restarts for ww3 (wav)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.ww3.r.0003-01-01-00000
+Archiving restarts for drv (cpl)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cpl.r.0003-01-01-00000.nc
+Archiving restarts for dart (esp)
+-------------------------------------------
+Archiving restarts for date date(4, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+WARNING, tried to add a duplicate file to histfiles
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cam.r.0004-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v nhfil /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cam.rs.0004-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: nhfil: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cam.rs.0004-01-01-00000.nc
+Archiving restarts for clm (lnd)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.clm2.r.0004-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.clm2.rh0.0004-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.clm2.rh0.0004-01-01-00000.nc
+Archiving restarts for cice (ice)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cice.r.0004-01-01-00000.nc
+Archiving restarts for mom (ocn)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mom6.r.0004-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: None: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mom6.r.0004-01-01-00000.nc
+Archiving restarts for mosart (rof)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mosart.r.0004-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mosart.rh0.0004-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.2/cray-mpich/8.1.29/oneapi/2024.2.1/g6nu/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.mosart.rh0.0004-01-01-00000.nc
+Archiving restarts for dglc (glc)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.dglc.r.0004-01-01-00000.nc
+Archiving restarts for ww3 (wav)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.ww3.r.0004-01-01-00000
+Archiving restarts for drv (cpl)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185/run/b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.185.cpl.r.0004-01-01-00000.nc
+Archiving restarts for dart (esp)
+-------------------------------------------
+Archiving restarts for date date(5, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+WARNING, tried to add a duplicate file to histfiles
