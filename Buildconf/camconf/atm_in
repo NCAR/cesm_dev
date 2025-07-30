@@ -62,7 +62,7 @@
  nhtfrq		= 0,-24,-24,-3,0,-2,0,-8760
 /
 &cam_initfiles_nl
- bnd_topo		= "/glade/campaign/cgd/amp/pel/topo/cesm3/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greendlndantarcsgh30fac2.50_20250708.nc"
+ bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/se/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_20240720.nc'
  ncdata		= 'b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156.cam.i.0077-01-01-00000.nc'
  scale_dry_air_mass		=   98288.0D0 
  use_topo_file		=  .true.  
@@ -94,6 +94,7 @@
  srf_emis_specifier		= 'bc_a4    -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_bc_a4_anthro_surface_1750-2015_ne30pg3_c20250711.nc',
          'bc_a4    -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6-ScenarioMIP_IAMC-AIM-ssp370-1-1_smoothed_bc_a4_bb_surface_mol_175001-210101_ne30pg3_c20250711.nc',
          'DMS      -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6-ScenarioMIP_IAMC-AIM-ssp370-1-1_smoothed_DMS_bb_surface_mol_175001-210101_ne30pg3_c20250711.nc',
+         'DMS      -> /glade/campaign/cgd/cas/islas/CESM_input/CMIP6_emissions_1750_2015/emissions-cmip6_DMS_other_surface_1750-2015_ne30pg3_c20170322.nc',
          'num_a1   -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6-ScenarioMIP_IAMC-AIM-ssp370-1-1_smoothed_num_so4_a1_bb_surface_mol_175001-210101_ne30pg3_c20250711.nc',
          'num_a1   -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6-ScenarioMIP_IAMC-AIM-ssp370-1-1_num_so4_a1_anthro-ag-ship_surface_mol_175001-210101_ne30pg3_c20250711.nc',
          'num_a2   -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6-ScenarioMIP_IAMC-AIM-ssp370-1-1_num_so4_a2_anthro-res_surface_mol_175001-210101_ne30pg3_c20250711.nc',
@@ -429,7 +430,7 @@
 &ocean_emis_nl
  bubble_mediated_transfer		= .false.
  csw_cycle_yr		= 1850 
- csw_specifier		= 'DMS -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/ocnexch/Csw_DMS_Lana2011_f09f09_1750_2100_20200717a.nc'
+ csw_specifier		= ' '
  csw_time_type		= 'CYCLICAL'
  ocean_salinity_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/ocnexch/SSS_climatology_f09f09_c20230110.nc'
 /

@@ -66,6 +66,7 @@ clubb_c8 = 4.6
  srf_emis_specifier             = 'bc_a4    -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_bc_a4_anthro_surface_1750-2015_ne30pg3_c20250711.nc',
          'bc_a4    -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6-ScenarioMIP_IAMC-AIM-ssp370-1-1_smoothed_bc_a4_bb_surface_mol_175001-210101_ne30pg3_c20250711.nc',
          'DMS      -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6-ScenarioMIP_IAMC-AIM-ssp370-1-1_smoothed_DMS_bb_surface_mol_175001-210101_ne30pg3_c20250711.nc',
+         'DMS      -> /glade/campaign/cgd/cas/islas/CESM_input/CMIP6_emissions_1750_2015/emissions-cmip6_DMS_other_surface_1750-2015_ne30pg3_c20170322.nc', 
          'num_a1   -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6-ScenarioMIP_IAMC-AIM-ssp370-1-1_smoothed_num_so4_a1_bb_surface_mol_175001-210101_ne30pg3_c20250711.nc',
          'num_a1   -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6-ScenarioMIP_IAMC-AIM-ssp370-1-1_num_so4_a1_anthro-ag-ship_surface_mol_175001-210101_ne30pg3_c20250711.nc',
          'num_a2   -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6-ScenarioMIP_IAMC-AIM-ssp370-1-1_num_so4_a2_anthro-res_surface_mol_175001-210101_ne30pg3_c20250711.nc',
@@ -94,5 +95,6 @@ clubb_c8 = 4.6
          'SOAE -> 6.5013D0*/glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_XYLENES_anthro_surface_1750-2015_ne30pg3_c20250711.nc',
          'SOAE -> 6.5013D0*/glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_XYLENES_bb_surface_1750-2015_ne30pg3_c20250711.nc'
  srf_emis_type          = 'CYCLICAL'
-bnd_topo = "/glade/campaign/cgd/amp/pel/topo/cesm3/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greendlndantarcsgh30fac2.50_20250708.nc"
+
+ csw_specifier = ' '
 
