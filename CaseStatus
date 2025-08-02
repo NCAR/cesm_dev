@@ -482,3 +482,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2025-08-01 22:56:06: model execution starting 2154759.desched1
  ---------------------------------------------------
+2025-08-02 06:34:47: model execution success 2154759.desched1
+ ---------------------------------------------------
