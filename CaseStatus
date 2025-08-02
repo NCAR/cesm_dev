@@ -474,3 +474,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2025-08-01 21:12:59: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
  ---------------------------------------------------
+2025-08-01 21:13:10: case.submit starting case.run:2154759.desched1, case.st_archive:2154760.desched1
+ ---------------------------------------------------
