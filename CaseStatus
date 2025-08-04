@@ -584,3 +584,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2025-08-04 04:50:56: case.submit success case.run:2191721.desched1, case.st_archive:2191722.desched1
  ---------------------------------------------------
+2025-08-04 04:51:30: case.run starting 2191721.desched1
+ ---------------------------------------------------
