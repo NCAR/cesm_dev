@@ -612,3 +612,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2025-08-04 23:55:11:   Timing files created for run 2195988.desched1.250804-160853
  ---------------------------------------------------
+2025-08-04 23:55:39: st_archive starting 2195989.desched1
+ ---------------------------------------------------
