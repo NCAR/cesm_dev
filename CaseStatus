@@ -664,3 +664,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2025-08-06 03:15:39: case.run success 2213926.desched1
  ---------------------------------------------------
+2025-08-06 03:15:41:   Timing files created for run 2213926.desched1.250805-193850
+ ---------------------------------------------------
