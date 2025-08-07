@@ -3,3 +3,10 @@
         MOM6 parameter changes may ve made via SourceMods or user_nl_mom
         within CASEROOT.*/
 #override MAXTRUNC = 2000
+DO_SKEB = True
+#override SKEB_NPASS = 8
+SKEB_USE_GM = True
+!!! SKEB_GM_COEF = 0.75 !(UNCHANGED)
+#override MEKE_GMCOEFF = 0.25
+SKEB_USE_FRICT = False
+SKEB_FRICT_COEF = 0.0
