@@ -700,3 +700,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2025-08-07 20:31:04: model execution success 2225516.desched1
  ---------------------------------------------------
+2025-08-07 20:31:06: case.run success 2225516.desched1
+ ---------------------------------------------------
