@@ -738,3 +738,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2025-08-08 10:23:15: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
  ---------------------------------------------------
+2025-08-08 10:23:29: xmlchange success <command> ./xmlchange RESUBMIT=11  </command>
+ ---------------------------------------------------
