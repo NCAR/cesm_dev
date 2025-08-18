@@ -32,3 +32,5 @@
 
 ./xmlchange STOP_N=2
 
+./case.submit
+
