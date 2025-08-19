@@ -14,3 +14,5 @@
  ---------------------------------------------------
 2025-08-19 15:22:48: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=12,STOP_N=4,STOP_OPTION=nyears  </command>
  ---------------------------------------------------
+2025-08-19 15:46:22: case.submit starting case.run:2442860.desched1, case.st_archive:2442861.desched1
+ ---------------------------------------------------
