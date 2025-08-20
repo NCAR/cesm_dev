@@ -28,3 +28,5 @@ cd "${CASEDIR}"
 
 ./case.build --clean lnd
 
+./case.build
+
