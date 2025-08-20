@@ -1,4 +1,26 @@
-MAXTRUNC = 2000
+HREF_FOR_MLD = 10.0
+DIAG_MLD_DENSITY_DIFF = 0.03
+
+INPUTDIR = "INPUT"
+
+KPP%
+KPP_CVt2 = 1.0
+%KPP
+
+MLE%
+BODNER_MSTAR = 1.0
+BODNER_NSTAR = 1.0
+CR = 0.01
+CR_FILE = "mle-cr-mask_20250627.nc"
+%MLE
+
+SMAGORINSKY_KH = True
+SMAG_LAP_CONST = 0.15
+
+AH = 1.0e+12
+LEITH_BI_CONST = 90.0
+LEITHY_CK = 0.0
+
 DO_SKEB = True
 SKEB_NPASS = 8
 SKEB_USE_GM = True
@@ -7,16 +29,17 @@ MEKE_GMCOEFF = 0.25
 SKEB_USE_FRICT = False
 SKEB_FRICT_COEF = 0.0
 
-HREF_FOR_MLD = 10.0
-DIAG_MLD_DENSITY_DIFF = 0.03
+ALE_COORDINATE_CONFIG = "HYBRID:hybrid_75layer_zstar2.50m-2025-04-04.nc,sigma2,dz"
+MAX_LAYER_THICKNESS_CONFIG = "FILE:dz_max.nc,dz"
+MAXIMUM_INT_DEPTH_CONFIG = "FILE:lev.nc,Z"
 
 THICKNESS_CONFIG = thickness_file
 VELOCITY_CONFIG = file
 TS_CONFIG = file
 INIT_LAYERS_FROM_Z_FILE = False
-THICKNESS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_b06.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.112/rest/0016-01-01-00000/g.e30_b06.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.112.mom6.r.0016-01-01-00000.nc"
-TS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_b06.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.112/rest/0016-01-01-00000/g.e30_b06.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.112.mom6.r.0016-01-01-00000.nc"
-VELOCITY_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_b06.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.112/rest/0016-01-01-00000/g.e30_b06.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.112.mom6.r.0016-01-01-00000.nc"
+THICKNESS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111/rest/0016-01-01-00000/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111.mom6.r.0016-01-01-00000.nc"
+TS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111/rest/0016-01-01-00000/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111.mom6.r.0016-01-01-00000.nc"
+VELOCITY_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111/rest/0016-01-01-00000/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111.mom6.r.0016-01-01-00000.nc"
 
 TEMP_IC_VAR = "Temp"
 SALT_IC_VAR = "Salt"
