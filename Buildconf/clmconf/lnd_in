@@ -10,7 +10,7 @@
  crop_residue_removal_frac = 0.5d00
  do_sno_oc = .false.
  downscale_hillslope_meteorology = .true.
- finidat = '/glade/campaign/cgd/tss/common/Land_Only_Simulations/CTSM53_DEV/ctsm53026_BNF_pSASU/rest/0161-01-01-00000/ctsm53026_BNF_pSASU.clm2.r.0161-01-01-00000.nc'
+ finidat = '/glade/derecho/scratch/wwieder/archive/ctsm53041_54surfdata_ne30_102_pSASU/rest/0081-01-01-00000/ctsm53041_54surfdata_ne30_102_pSASU.clm2.r.0081-01-01-00000.nc'
  flush_gdd20 = .false.
  for_testing_no_crop_seed_replenishment = .false.
  for_testing_run_ncdiopio_tests = .false.
@@ -161,7 +161,6 @@
 &clm_soilhydrology_inparm
 /
 &dynamic_subgrid
- do_grossunrep = .false.
  reset_dynbal_baselines = .false.
 /
 &cnvegcarbonstate

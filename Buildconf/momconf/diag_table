@@ -43,6 +43,7 @@
 "ocean_model_rho2", "e",       "e",       "b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.196.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 
 # "b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.196.mom6.h.native%4yr-%2mo"
+"ocean_model", "MLD_user",         "MLD_user",         "b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.196.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "soga",         "soga",         "b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.196.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "thetaoga",     "thetaoga",     "b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.196.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "uh",           "uh",           "b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.196.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
