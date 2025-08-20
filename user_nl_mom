@@ -36,7 +36,9 @@ MAXIMUM_INT_DEPTH_CONFIG = "FILE:lev.nc,Z"
 THICKNESS_CONFIG = thickness_file
 VELOCITY_CONFIG = file
 TS_CONFIG = file
+
 INIT_LAYERS_FROM_Z_FILE = False
+
 THICKNESS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111/rest/0016-01-01-00000/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111.mom6.r.0016-01-01-00000.nc"
 TS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111/rest/0016-01-01-00000/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111.mom6.r.0016-01-01-00000.nc"
 VELOCITY_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111/rest/0016-01-01-00000/g.e30_a07_dev.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.111.mom6.r.0016-01-01-00000.nc"
