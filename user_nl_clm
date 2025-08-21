@@ -2,7 +2,3 @@
 use_init_interp = .true.
 
 reseed_dead_plants = .true.
-
-paramfile = '/glade/campaign/cesm/development/amwg/inputdata_extra/ctsm5.3.012.Nfix_params.v13.c250221_upplim250.nc'
-
-finidat='/glade/derecho/scratch/wwieder/archive/ctsm53041_54surfdata_ne30_102_pSASU/rest/0081-01-01-00000/ctsm53041_54surfdata_ne30_102_pSASU.clm2.r.0081-01-01-00000.nc'
