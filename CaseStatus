@@ -8,3 +8,5 @@
  ---------------------------------------------------
 2025-08-22 14:43:41: xmlchange success <command> ./xmlchange RUN_REFDATE=0093-01-01  </command>
  ---------------------------------------------------
+2025-08-22 14:43:41: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
