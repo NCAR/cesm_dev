@@ -36,3 +36,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange PROJECT=ncgd0011
+
