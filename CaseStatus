@@ -16,3 +16,5 @@
  ---------------------------------------------------
 2025-08-22 14:45:00: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
  ---------------------------------------------------
+2025-08-22 14:45:02: xmlchange success <command> ./xmlchange CAM_NML_USE_CASE=hist_cam_lt  </command>
+ ---------------------------------------------------
