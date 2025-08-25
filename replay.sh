@@ -38,3 +38,5 @@ cd "${CASEDIR}"
 
 ./xmlchange PROJECT=ncgd0011
 
+./xmlchange RESUBMIT=0
+
