@@ -1,0 +1,2 @@
+model_datafiles_list = /glade/campaign/cesm/cesmdata/inputdata/glc/cism/Greenland/greenland_4km_epsg3413_c171126.nc
+model_meshfiles_list = /glade/campaign/cesm/cesmdata/inputdata/share/meshes/greenland_4km_epsg3413_c170414_ESMFmesh_c20190729.nc
