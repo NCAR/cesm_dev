@@ -77,13 +77,16 @@
  drydep_srf_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_mam/atmsrf_ne30pg3_180522.nc'
  exo_coldens_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_mozart/phot/exo_coldens.nc'
  ext_frc_cycle_yr		=   1850       
- ext_frc_specifier		= 'num_a1 -> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a1_ene_vertical-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'num_a1 -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_num_a1_so4_contvolcano_vertical_850-5000_ne30pg3_c20250711.nc',
-         'num_a2 -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_num_a2_so4_contvolcano_vertical_850-5000_ne30pg3_c20250711.nc',
-         'SO2    -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_SO2_contvolcano_vertical_850-5000_ne30pg3_c20250711.nc',
-         'so4_a1 -> /glade/campaign/acom/acom-da/cmip7/ne30/so4_a1_ene_vertical-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'so4_a1 -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_so4_a1_contvolcano_vertical_850-5000_ne30pg3_c20250711.nc',
-         'so4_a2 -> /glade/derecho/scratch/nanr/regrid/ne30/emissions-cmip6_so4_a2_contvolcano_vertical_850-5000_ne30pg3_c20250711.nc'
+ ext_frc_specifier		= 'bc_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/bc_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'num_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/num_bc_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'SO2 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/SO2-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'so4_a1 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/so4_a1_ene_vertical-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'num_a1 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/num_so4_a1_ene_vertical-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'num_a1 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/historical_ne30pg3/emissions-cmip6_num_a1_so4_contvolcano_vertical_850-5000_ne30pg3_c20200125.nc',
+         'num_a2 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/historical_ne30pg3/emissions-cmip6_num_a2_so4_contvolcano_vertical_850-5000_ne30pg3_c20200125.nc',
+         'so4_a1 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/historical_ne30pg3/emissions-cmip6_so4_a1_contvolcano_vertical_850-5000_ne30pg3_c20200125.nc',
+         'so4_a2 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/historical_ne30pg3/emissions-cmip6_so4_a2_contvolcano_vertical_850-5000_ne30pg3_c20200125.nc',
+         'SO2 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/historical_ne30pg3/emissions-cmip6_SO2_contvolcano_vertical_850-5000_ne30pg3_c20200125.nc'
  ext_frc_type		= 'CYCLICAL'
  fstrat_list		= ' '
  ghg_chem		= .true.
@@ -91,35 +94,35 @@
  photo_max_zen		= 88.85D0
  rsf_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/waccm/phot/RSF_GT200nm_v3.0_c080811.nc'
  srf_emis_cycle_yr		=  1850       
- srf_emis_specifier		= 'bc_a4 -> /glade/campaign/acom/acom-da/cmip7/ne30/bc_a4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'bc_a4 -> /glade/campaign/acom/acom-da/cmip7/ne30/bc_a4_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'pom_a4 -> /glade/campaign/acom/acom-da/cmip7/ne30/pom_a4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'pom_a4 -> /glade/campaign/acom/acom-da/cmip7/ne30/pom_a4_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'num_a4 -> /glade/campaign/acom/acom-da/cmip7/ne30/num_bc_a4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'num_a4 -> /glade/campaign/acom/acom-da/cmip7/ne30/num_bc_a4_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'num_a4 -> /glade/campaign/acom/acom-da/cmip7/ne30/num_pom_a4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'num_a4 -> /glade/campaign/acom/acom-da/cmip7/ne30/num_pom_a4_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'num_a1-> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a1_ag-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'num_a1-> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a1_ship_slv-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'num_a1-> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a1_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'num_a2-> /glade/campaign/acom/acom-da/cmip7/ne30/num_so4_a2_res_trs-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'so4_a1-> /glade/campaign/acom/acom-da/cmip7/ne30/so4_a1_ag_ship_slv-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'so4_a2-> /glade/campaign/acom/acom-da/cmip7/ne30/so4_a2_res_trs-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'so4_a1-> /glade/campaign/acom/acom-da/cmip7/ne30/so4_a1_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'SO2 -> /glade/campaign/acom/acom-da/cmip7/ne30/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'SO2 -> /glade/campaign/acom/acom-da/cmip7/ne30/SO2_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'SOAE -> 2.5592D0*/glade/campaign/acom/acom-da/cmip7/ne30/BENZENE-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18-supplemental_gn_175001-202312.nc',
-         'SOAE -> 2.5592D0*/glade/campaign/acom/acom-da/cmip7/ne30/BENZENE_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'SOAE -> 0.5954D0*/glade/campaign/acom/acom-da/cmip7/ne30/ISOP_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'SOAE -> 8.5371D0*//glade/campaign/acom/acom-da/cmip7/ne30/IVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'SOAE -> 8.5371D0*/glade/campaign/acom/acom-da/cmip7/ne30/IVOC_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'SOAE -> 5.1004D0*/glade/campaign/acom/acom-da/cmip7/ne30/MTERP_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'SOAE -> 16.650D0*/glade/campaign/acom/acom-da/cmip7/ne30/IVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'SOAE -> 16.650D0*/glade/campaign/acom/acom-da/cmip7/ne30/SVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18_gn_175001-202312.nc',
-         'SOAE -> 8.2367D0*/glade/campaign/acom/acom-da/cmip7/ne30/TOLUENE-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18-supplemental_gn_175001-202312.nc',
-         'SOAE -> 8.2367D0*/glade/campaign/acom/acom-da/cmip7/ne30/TOLUENE_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc',
-         'SOAE -> 6.5013D0*/glade/campaign/acom/acom-da/cmip7/ne30/XYLENES-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-03-18-supplemental_gn_175001-202312.nc',
-         'SOAE -> 6.5013D0*/glade/campaign/acom/acom-da/cmip7/ne30/XYLENES_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202312.nc'
+ srf_emis_specifier		= 'bc_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/bc_a4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'bc_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/bc_a4_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'pom_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/pom_a4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'pom_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/pom_a4_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'num_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/num_bc_a4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'num_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/num_bc_a4_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'num_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/num_pom_a4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'num_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/num_pom_a4_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'num_a1-> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/num_so4_a1_ag-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'num_a1-> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/num_so4_a1_ship_slv-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'num_a2-> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/num_so4_a2_res_trs-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'so4_a1-> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/so4_a1_ag_ship_slv-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'so4_a2-> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/so4_a2_res_trs-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'so4_a1-> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/SO4_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'num_a1-> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/num_SO4_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'SO2 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'SO2 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/SO2_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'SOAE -> 0.5954D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/ISOP_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'SOAE -> 2.5592D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/BENZENE_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'SOAE -> 2.5592D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/BENZENE-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-202312.nc',
+         'SOAE -> 8.5371D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/IVOC_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'SOAE -> 8.5371D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/IVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'SOAE -> 16.650D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/SVOC_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'SOAE -> 16.650D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/SVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
+         'SOAE -> 8.2367D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/TOLUENE_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'SOAE -> 8.2367D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/TOLUENE-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-202312.nc',
+         'SOAE -> 6.5013D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/XYLENES_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc',
+         'SOAE -> 6.5013D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/XYLENES-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-202312.nc',
+         'SOAE -> 5.1004D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/MTERP_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc'
  srf_emis_type		= 'CYCLICAL'
  tracer_cnst_cycle_yr		=    1850    
  tracer_cnst_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/tracer_cnst'
