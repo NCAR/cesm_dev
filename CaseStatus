@@ -83,3 +83,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
  ---------------------------------------------------
 2025-08-29 16:45:59: case.build success 
  ---------------------------------------------------
+2025-08-29 16:46:40: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
