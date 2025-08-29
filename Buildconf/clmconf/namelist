@@ -1,6 +1,6 @@
 &comp_inparm 
 
-finidat = 'b.e30_alpha06e.B1850C_LTso.ne30_t232_wgx3.156.clm2.r.0077-01-01-00000.nc'
+finidat = 'b.e30_beta06.B1850C_LTso.ne30_t232_wgx3.192.clm2.r.0093-01-01-00000.nc'
 
 
 nfix_method = 'Bytnerowicz'
