@@ -20,3 +20,11 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
+./preview_namelists
+
+./case.setup
+
+./preview_namelists
+
+./xmlchange RUN_TYPE=startup
+
