@@ -32,3 +32,5 @@
  ---------------------------------------------------
 2025-09-02 15:15:39: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
  ---------------------------------------------------
+2025-09-02 15:40:31: case.submit starting case.run:2628735.desched1, case.st_archive:2628736.desched1
+ ---------------------------------------------------
