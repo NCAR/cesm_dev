@@ -1,0 +1,1 @@
+/glade/derecho/scratch/gmarques/for_cecile/198/INPUT/g.e30_a06a.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.050.mom6.r.0016-01-01-00000.nc

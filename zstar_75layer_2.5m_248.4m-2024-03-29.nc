@@ -1,0 +1,1 @@
+/glade/derecho/scratch/gmarques/for_cecile/198/INPUT/zstar_75layer_2.5m_248.4m-2024-03-29.nc
