@@ -30,3 +30,5 @@
  ---------------------------------------------------
 2025-09-03 17:21:45: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
  ---------------------------------------------------
+2025-09-03 17:21:55: case.submit starting case.run:2695033.desched1, case.st_archive:2695034.desched1
+ ---------------------------------------------------
