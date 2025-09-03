@@ -213,7 +213,7 @@
  clubb_c_wp2_splat		=  0.0     
  clubb_c_wp3_pr_turb		=  0.4     
  clubb_detice_rad		= 8.511726e-05
- clubb_detliq_rad		= 20.E-6
+ clubb_detliq_rad		=  8.0D-6              
  clubb_detphase_lowtemp		=  238.15D0            
  clubb_do_energyfix		=  .true.  
  clubb_do_liqsupersat		=  .false. 
@@ -571,7 +571,7 @@
  zmconv_ke_lnd		=  1.0E-5 
  zmconv_momcd		=  0.7000D0 
  zmconv_momcu		=  0.7000D0 
- zmconv_num_cin		= 2
+ zmconv_num_cin		= 1
  zmconv_parcel_hscale		=   0.5    
  zmconv_parcel_pbl		= .true.
  zmconv_tau		=  3600.0    

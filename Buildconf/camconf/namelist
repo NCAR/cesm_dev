@@ -207,8 +207,6 @@ micro_mg_autocon_lwp_exp= 2.389657
 
 zmconv_dmpdz = -0.0006569823
 
-zmconv_num_cin = 2
-
 zmconv_capelmt = 110.8177
 
 
@@ -223,6 +221,6 @@ micro_mg_dcs = 600E-6
 
 
 
-clubb_detliq_rad = 20.E-6
+ zmconv_num_cin = 1
 
 / 

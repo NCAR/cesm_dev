@@ -108,4 +108,4 @@ seasalt_emis_scale= 1.0D0
 dust_emis_fact = 2.3 
 micro_mg_dcs = 600E-6
 
-num_cin = 1
+ zmconv_num_cin = 1
