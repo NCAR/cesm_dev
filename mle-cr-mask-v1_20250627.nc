@@ -1,0 +1,1 @@
+/glade/derecho/scratch/gmarques/for_cecile/198/INPUT/mle-cr-mask-v1_20250627.nc

@@ -1,0 +1,1 @@
+/glade/derecho/scratch/gmarques/for_cecile/198/INPUT/riv_nut.gnews_gnm.rJRA025_to_tx2_3v2_nnsm_e333r100_230415.20240202.nc
