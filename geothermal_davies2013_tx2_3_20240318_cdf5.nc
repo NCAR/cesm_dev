@@ -1,0 +1,1 @@
+/glade/derecho/scratch/gmarques/for_cecile/198/INPUT/geothermal_davies2013_tx2_3_20240318_cdf5.nc

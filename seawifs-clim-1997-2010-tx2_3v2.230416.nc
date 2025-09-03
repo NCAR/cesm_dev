@@ -1,0 +1,1 @@
+/glade/derecho/scratch/gmarques/for_cecile/198/INPUT/seawifs-clim-1997-2010-tx2_3v2.230416.nc
