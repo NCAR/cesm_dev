@@ -6,3 +6,5 @@
 
 ./xmlchange RESUBMIT=9
 
+./xmlchange JOB_PRIORITY=special --force
+
