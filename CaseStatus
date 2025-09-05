@@ -136,3 +136,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha07b
  ---------------------------------------------------
 2025-09-05 09:39:46: model execution starting 2759985.desched1
  ---------------------------------------------------
+2025-09-05 16:46:55: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
