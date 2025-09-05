@@ -77,7 +77,6 @@
  depvel_lnd_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_mozart/dvel/regrid_vegetation.nc'
  drydep_srf_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_mam/atmsrf_ne30pg3_180522.nc'
  exo_coldens_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_mozart/phot/exo_coldens.nc'
- ext_frc_cycle_yr		= 2000
  ext_frc_specifier		= 'bc_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/bc_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
          'num_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/num_bc_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
          'SO2 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/SO2-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312.nc',
@@ -88,7 +87,7 @@
          'so4_a1 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/historical_ne30pg3/emissions-cmip6_so4_a1_contvolcano_vertical_850-5000_ne30pg3_c20200125.nc',
          'so4_a2 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/historical_ne30pg3/emissions-cmip6_so4_a2_contvolcano_vertical_850-5000_ne30pg3_c20200125.nc',
          'SO2 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/historical_ne30pg3/emissions-cmip6_SO2_contvolcano_vertical_850-5000_ne30pg3_c20200125.nc'
- ext_frc_type		= 'CYCLICAL'
+ ext_frc_type		= 'INTERP_MISSING_MONTHS'
  fstrat_list		= ' '
  ghg_chem		= .true.
  h2orates		= '/glade/campaign/cesm/cesmdata/inputdata/atm/waccm/phot/xh2o_c080826.nc'
@@ -124,18 +123,17 @@
          'SOAE -> 6.5013D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/XYLENES-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-202312.nc',
          'SOAE -> 5.1004D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-1/MTERP_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-202312.nc'
  srf_emis_type		= 'INTERP_MISSING_MONTHS'
- tracer_cnst_cycle_yr		= 2000
- tracer_cnst_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/waccm/halons'
- tracer_cnst_file		= 'halons_oxid_1.9x2.5zm_L66_1849-2099_c160714.nc'
+ tracer_cnst_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/tracer_cnst'
+ tracer_cnst_file		= 'tracer_cnst_halons_3D_L70_1849-2015_CMIP6ensAvg_c180927.nc'
+ tracer_cnst_filelist		= ''
  tracer_cnst_specifier		= 'O3','OH','NO3','HO2','HALONS'
- tracer_cnst_type		= 'CYCLICAL'
+ tracer_cnst_type		= 'INTERP_MISSING_MONTHS'
  xs_long_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/waccm/phot/temp_prs_GT200nm_c221005mm.nc'
 /
 &chem_surfvals_nl
- flbc_cycle_yr		= 2000
  flbc_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/waccm/lb/LBC_17500116-20150116_CMIP6_0p5degLat_c180905.nc'
- flbc_list		= 'CH4','N2O','CO2','CFC11','CFC12'
- flbc_type		= 'CYCLICAL'
+ flbc_list		= 'CO2','CH4','N2O','CFC11','CFC12','CFC11eq'
+ flbc_type		= 'SERIAL'
  scenario_ghg		= 'CHEM_LBC_FILE'
 /
 &cldfrc2m_nl
@@ -415,9 +413,9 @@
 &ndep_stream_nl
  stream_ndep_data_filename		= '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/ndepdata/fndep_clm_hist_b.e21.BWHIST.f09_g17.CMIP6-historical-WACCM.ensmean_1849-2015_monthly_0.9x1.25_c180926.nc'
  stream_ndep_mesh_filename		= '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/fv0.9x1.25_141008_polemod_ESMFmesh.nc'
- stream_ndep_year_align		= 1
- stream_ndep_year_first		= 2000
- stream_ndep_year_last		= 2000
+ stream_ndep_year_align		= 1850
+ stream_ndep_year_first		= 1850
+ stream_ndep_year_last		= 2015
 /
 &nucleate_ice_nl
  nucleate_ice_incloud		= .false.
@@ -429,9 +427,8 @@
 /
 &ocean_emis_nl
  bubble_mediated_transfer		= .false.
- csw_cycle_yr		= 2000
  csw_specifier		= 'DMS -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/ocnexch/Csw_DMS_Lana2011_f09f09_1750_2100_20200717a.nc'
- csw_time_type		= 'CYCLICAL'
+ csw_time_type		= 'SERIAL'
  ocean_salinity_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/ocnexch/SSS_climatology_f09f09_c20230110.nc'
 /
 &phys_ctl_nl
@@ -480,18 +477,16 @@
  phys_grid_ctem_zm_nbas		= 120
 /
 &prescribed_ozone_nl
- prescribed_ozone_cycle_yr		= 2000
- prescribed_ozone_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/ozone'
- prescribed_ozone_file		= 'ozone_1.9x2.5_L26_2000clim_c091112.nc'
+ prescribed_ozone_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/ozone_strataero'
+ prescribed_ozone_file		= 'ozone_strataero_WACCM_L70_zm5day_18500101-20150103_CMIP6ensAvg_c180923.nc'
  prescribed_ozone_name		= 'O3'
- prescribed_ozone_type		= 'CYCLICAL'
+ prescribed_ozone_type		= 'SERIAL'
 /
 &prescribed_strataero_nl
- prescribed_strataero_cycle_yr		= 1990
- prescribed_strataero_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/ozone'
- prescribed_strataero_file		= 'ozone_strataero_CAM6chem_1849-2014_zm_5day_c170924.nc'
- prescribed_strataero_type		= 'CYCLICAL'
- prescribed_strataero_use_chemtrop		= .false.
+ prescribed_strataero_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/ozone_strataero'
+ prescribed_strataero_file		= 'ozone_strataero_WACCM_L70_zm5day_18500101-20150103_CMIP6ensAvg_c180923.nc'
+ prescribed_strataero_type		= 'SERIAL'
+ prescribed_strataero_use_chemtrop		=    .true.                                                                       
 /
 &pumas_stochastic_tau_nl
  pumas_stochastic_tau_kernel_filename		= '/glade/work/hannay/cesm_tags/cesm3_0_beta06/components/cam/bld/../src/physics/pumas/KBARF_tau_kernel.dat'
@@ -545,6 +540,13 @@
 /
 &tropopause_nl
  tropopause_climo_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_mozart/ub/clim_p_trop.nc'
+/
+&upper_bc_file_opts
+ ubc_file_input_type		= 'SERIAL'
+ ubc_file_path		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/ubc/b.e21.BWHIST.f09_g17.CMIP6-historical-WACCM.ensAvg123.cam.h0zm.H2O.1849-2014_c240604.nc'
+/
+&upper_bc_opts
+ ubc_specifier		= 'Q:H2O->UBC_FILE'
 /
 &vert_diff_nl
  diff_cnsrv_mass_check		=  .false. 
