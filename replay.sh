@@ -12,3 +12,7 @@ cd "${CASEDIR}"
 
 ./case.setup
 
+./preview_namelists
+
+./xmlchange RUN_TYPE=startup
+
