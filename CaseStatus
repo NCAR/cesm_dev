@@ -10,3 +10,5 @@
  ---------------------------------------------------
 2025-09-07 09:35:23: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2025-09-07 09:39:00: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
+ ---------------------------------------------------
