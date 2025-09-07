@@ -42,3 +42,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CONTINUE_RUN=FALSE
 
+./xmlchange JOB_PRIORITY=regular
+
