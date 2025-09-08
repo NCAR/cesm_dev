@@ -1,0 +1,1 @@
+/glade/derecho/scratch/gmarques/for_cecile/198/INPUT/hybrid_75layer_zstar2.50m-2025-02-09.nc

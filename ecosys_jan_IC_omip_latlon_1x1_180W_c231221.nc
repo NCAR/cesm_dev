@@ -1,0 +1,1 @@
+/glade/derecho/scratch/gmarques/for_cecile/198/INPUT/ecosys_jan_IC_omip_latlon_1x1_180W_c231221.nc
