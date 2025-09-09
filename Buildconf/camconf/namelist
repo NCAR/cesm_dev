@@ -223,6 +223,6 @@ micro_mg_dcs = 600E-6
 
 
 
-clubb_detliq_rad = 10.E-6
+clubb_detliq_rad = 10.E-5
 
 / 

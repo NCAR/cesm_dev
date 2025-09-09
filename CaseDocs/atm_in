@@ -213,7 +213,7 @@
  clubb_c_wp2_splat		=  0.0     
  clubb_c_wp3_pr_turb		=  0.4     
  clubb_detice_rad		= 8.511726e-05
- clubb_detliq_rad		= 10.E-6
+ clubb_detliq_rad		= 10.E-5
  clubb_detphase_lowtemp		=  238.15D0            
  clubb_do_energyfix		=  .true.  
  clubb_do_liqsupersat		=  .false. 
