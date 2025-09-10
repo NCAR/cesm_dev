@@ -64,3 +64,9 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./preview_namelists
+
+./preview_namelists
+
+./xmlchange JOB_PRIORITY=regular
+
