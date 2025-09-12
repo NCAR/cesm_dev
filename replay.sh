@@ -40,3 +40,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run
 
+./xmlchange RUN_REFCASE=b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.198
+
