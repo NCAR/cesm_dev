@@ -22,3 +22,11 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_PRIORITY=special --force
 
+./check_case
+
+./preview_namelists
+
+./check_case
+
+./case.submit
+
