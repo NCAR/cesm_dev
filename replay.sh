@@ -14,3 +14,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
 
+./xmlchange REST_OPTION=nyears,REST_N=1
+
