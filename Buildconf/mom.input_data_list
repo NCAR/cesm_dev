@@ -1,0 +1,2 @@
+MAX_LAYER_THICKNESS_CONFIG = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/dz_max_90th_quantile.nc
+CFC_BC_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/cfc_atm_20230310.nc
