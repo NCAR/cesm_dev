@@ -6,3 +6,5 @@
 
 ./preview_namelists
 
+./xmlchange RESUBMIT=9
+
