@@ -1,23 +1,58 @@
-!---------------------------------------------------------------------
-! Users should add all user specific MOM_input parameter changes after
-! these comments as follows:
-!   parameter_name = new_parameter_value
-!
-! If the parameter belongs to a module, enter the parameter in MOM6
-! runtime parameter format ,e.g., change N_SMOOTH parameter within the
-! KPP module as follows:
-!   KPP%
-!   N_SMOOTH = 3
-!   %KPP
-!
-! Note: The parameter changes added to this file will automatically be
-!       applied to:
-!   $RUNDIR/MOM_override
-!
-! WARNING: If a MOM_override file is placed in SourceMods/src.mom/,
-! any additional parameter changes in this file will trigger an error.
-!
-! Parameters:
-!---------------------------------------------------------------------
+MAXTRUNC = 2000
 
+HREF_FOR_MLD = 10.0
+INPUTDIR = "INPUT"
+
+KPP%
+KPP_CVt2 = 1.8   ! 1.0
+ENHANCE_DIFFUSION = False
+%KPP
+
+MLE%
+BODNER_MSTAR = 0.5
+BODNER_NSTAR = 0.066
+WAVE_ENHANCED_USTAR = True
+CR = 0.01
+CR_FILE = "mle-cr-mask_20250627.nc"
+%MLE
+
+SMAGORINSKY_KH = True
+SMAG_LAP_CONST = 0.15
+AH = 1.0e+12
+LEITH_BI_CONST = 90.0
+LEITHY_CK = 0.0
+DO_SKEB = True
+SKEB_NPASS = 8
+SKEB_USE_GM = True
+SKEB_GM_COEF = 0.75
+MEKE_GMCOEFF = 0.25
+SKEB_USE_FRICT = False
+SKEB_FRICT_COEF = 0.0
+ALE_COORDINATE_CONFIG = "HYBRID:hybrid_75layer_zstar2.50m-2025-04-04.nc,sigma2,dz"
+MAX_LAYER_THICKNESS_CONFIG = "FILE:dz_max.nc,dz"
+MAXIMUM_INT_DEPTH_CONFIG = "FILE:lev.nc,Z"
+
+! CESM3 target
+CEMP_NL = 3.5
+DEPTH_SCALED_KHTH_H0 = 500
+RHO_PGF_REF_BUG = False
+REMAPPING_SCHEME = "C_PPM_CW"
+VELOCITY_REMAPPING_SCHEME = "C_PPM_CW"
+!HBD_REMAPPING_SCHEME = "C_PPM_CW"
+USE_STANLEY_ISO = False
+USE_STANLEY_GM = False
+
+! set above
+! BODNER_MSTAR = 0.5
+! BODNER_NSTAR = 0.066
+! WAVE_ENHANCED_USTAR = True
+
+! Sensitivity to interior mixing settings and background @ Banda Sea
+BCKGRND_VDC_BAN = 5.0E-04
+NU_ZERO = 0.0025
+RI_ZERO = 0.5
+
+CVMix_CONVECTION%
+BV_SQR_CONV = -1.0e-8
+%CVMix_CONVECTION
 

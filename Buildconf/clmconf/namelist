@@ -3,4 +3,22 @@
 finidat = 'b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.198.clm2.r.0125-01-01-00000.nc'
 
 
+paramfile = '/glade/campaign/cesm/cesmdata/cseg/inputdata/lnd/clm2/paramdata/ctsm60_params_cal115_c250813.nc'
+
+glcmec_downscale_longwave = .false.
+
+
+
+
+
+snow_thermal_cond_lake_method = 'Sturm1997'
+
+
+
+use_init_interp = .true.
+
+reseed_dead_plants = .true.
+
+
+
 / 
