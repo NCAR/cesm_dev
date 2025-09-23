@@ -28,3 +28,9 @@ cd "${CASEDIR}"
 
 ./case.setup
 
+./case.setup
+
+./preview_namelists
+
+./xmlchange RUN_REFCASE=b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.198
+
