@@ -4,3 +4,5 @@
 
 ./case.build
 
+./preview_namelists
+

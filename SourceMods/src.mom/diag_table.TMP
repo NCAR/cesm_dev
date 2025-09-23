@@ -43,6 +43,8 @@
 "ocean_model_rho2", "e",       "e",       "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 
 # "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.native%4yr-%2mo"
+"ocean_model", "Lam2",     "Lam2",         "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "skeb_amp",     "skeb_amp",         "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "soga",         "soga",         "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "thetaoga",     "thetaoga",     "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "uh",           "uh",           "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
@@ -207,6 +209,8 @@
 "ocean_model", "C_P",         "C_P",         "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.static", "all", ".false.", "none", 2
 "ocean_model", "Rho_0",       "Rho_0",       "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.static", "all", ".false.", "none", 2
 "ocean_model", "Geo_heat",    "Geo_heat",    "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "skeb_taper_u",    "skeb_taper_u",    "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "skeb_taper_v",    "skeb_taper_v",    "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.static", "all", ".false.", "none", 2
 
 # "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.Agulhas_Section%4yr-%2mo"
 "ocean_model_z", "volcello","volcello","b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.218.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
