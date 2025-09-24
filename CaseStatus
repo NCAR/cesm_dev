@@ -151,3 +151,5 @@ invalid literal for int() with base 10: '$CUPID_MEM_PER_TASK'
  ---------------------------------------------------
 2025-09-24 15:04:20: st_archive success 3218030.desched1
  ---------------------------------------------------
+2025-09-24 15:04:22: case.submit starting case.run:3221764.desched1, case.st_archive:3221765.desched1
+ ---------------------------------------------------
