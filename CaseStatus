@@ -120,3 +120,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
  ---------------------------------------------------
 2025-09-24 06:37:37: model execution starting 3217806.desched1
  ---------------------------------------------------
+2025-09-24 08:52:55: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+ ---------------------------------------------------
