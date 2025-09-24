@@ -1,0 +1,62 @@
+2025-09-24 11:53:33: /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07c_cesm3/cime/scripts/create_clone --clone b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.217 --case b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.220
+ ---------------------------------------------------
+2025-09-24 11:53:33: Compset longname is 1850C_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP
+ ---------------------------------------------------
+2025-09-24 11:53:33: Compset specification file is /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07c_cesm3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2025-09-24 11:53:33: Pes     specification file is /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07c_cesm3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2025-09-22 08:22:23: /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07c_cesm3/cime/scripts/create_clone --clone b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.216 --case b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.217
+ ---------------------------------------------------
+2025-09-22 08:22:23: Compset longname is 1850C_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP
+ ---------------------------------------------------
+2025-09-22 08:22:23: Compset specification file is /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07c_cesm3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2025-09-22 08:22:23: Pes     specification file is /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07c_cesm3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2025-09-17 14:19:24: /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07c_cesm3/cime/scripts/create_newcase --compset B1850C_LTso --res ne30pg3_t232_wg37 --case b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.216 --run-unsupported --project cesm0023
+ ---------------------------------------------------
+2025-09-17 14:19:24: Compset longname is 1850C_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP
+ ---------------------------------------------------
+2025-09-17 14:19:24: Compset specification file is /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07c_cesm3/cime_config/config_compsets.xml
+ ---------------------------------------------------
+2025-09-17 14:19:24: Pes     specification file is /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07c_cesm3/cime_config/config_pes.xml
+ ---------------------------------------------------
+2025-09-17 14:19:24: Forcing is 
+ ---------------------------------------------------
+2025-09-17 14:19:24: Using 1 coupler instances
+ ---------------------------------------------------
+2025-09-17 14:19:24: Component ATM is CAM cam7 physics:CAM low top model 
+ ---------------------------------------------------
+2025-09-17 14:19:24: ATM_GRID is ne30np4.pg3
+ ---------------------------------------------------
+2025-09-17 14:19:24: Component LND is clm6.0:BGC (vert. resol. CN and methane) with prognostic crop:
+ ---------------------------------------------------
+2025-09-17 14:19:24: LND_GRID is ne30np4.pg3
+ ---------------------------------------------------
+2025-09-17 14:19:24: Component ICE is Sea ICE (cice) model version 6
+ ---------------------------------------------------
+2025-09-17 14:19:24: ICE_GRID is tx2_3v2
+ ---------------------------------------------------
+2025-09-17 14:19:24: Component OCN is MOM6 OCEAN 
+ ---------------------------------------------------
+2025-09-17 14:19:24: OCN_GRID is tx2_3v2
+ ---------------------------------------------------
+2025-09-17 14:19:24: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
+ ---------------------------------------------------
+2025-09-17 14:19:24: ROF_GRID is r05
+ ---------------------------------------------------
+2025-09-17 14:19:24: Component GLC is Data glc model (DGLC) no evolve mode 
+ ---------------------------------------------------
+2025-09-17 14:19:24: GLC_GRID is gris4
+ ---------------------------------------------------
+2025-09-17 14:19:24: Component WAV is Wave Watch
+ ---------------------------------------------------
+2025-09-17 14:19:24: WAV_GRID is wgx3v7
+ ---------------------------------------------------
+2025-09-17 14:19:24: ESP_GRID is None
+ ---------------------------------------------------
