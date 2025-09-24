@@ -32,7 +32,7 @@
  nlevsno = 12
  nsegspc = 35
  o3_veg_stress_method = 'unset'
- paramfile = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/paramdata/ctsm5.3.041.Nfix_params.v13.c250221_upplim250.nc'
+ paramfile = '/glade/campaign/cesm/cesmdata/cseg/inputdata/lnd/clm2/paramdata/ctsm60_params_cal115_c250813.nc'
  run_zero_weight_urban = .false.
  snicar_dust_optics = 'sahara'
  snicar_numrad_snw = 5
@@ -119,10 +119,8 @@
 &lai_streams
 /
 &atm2lnd_inparm
- glcmec_downscale_longwave = .true.
+ glcmec_downscale_longwave = .false.
  lapse_rate = 0.006
- lapse_rate_longwave = 0.032
- longwave_downscaling_limit = 0.5
  precip_repartition_glc_all_rain_t = 0.
  precip_repartition_glc_all_snow_t = -2.
  precip_repartition_nonglc_all_rain_t = 2.
@@ -322,6 +320,7 @@
 /
 &cn_general
  dribble_crophrv_xsmrpool_2atm = .true.
+ reseed_dead_plants = .true.
 /
 &nitrif_inparm
 /
