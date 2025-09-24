@@ -24,11 +24,6 @@
 HREF_FOR_MLD = 10.0
 INPUTDIR = "INPUT"
 
-KPP%
-KPP_CVt2 = 1.8   ! 1.0
-ENHANCE_DIFFUSION = False
-%KPP
-
 MLE%
 BODNER_MSTAR = 0.5
 BODNER_NSTAR = 0.066
@@ -54,8 +49,6 @@ MAX_LAYER_THICKNESS_CONFIG = "FILE:dz_max.nc,dz"
 MAXIMUM_INT_DEPTH_CONFIG = "FILE:lev.nc,Z"
 
 ! CESM3 target
-CEMP_NL = 3.5
-DEPTH_SCALED_KHTH_H0 = 500
 RHO_PGF_REF_BUG = False
 REMAPPING_SCHEME = "C_PPM_CW"
 VELOCITY_REMAPPING_SCHEME = "C_PPM_CW"
@@ -68,15 +61,6 @@ USE_STANLEY_GM = False
 ! BODNER_MSTAR = 0.5
 ! BODNER_NSTAR = 0.066
 ! WAVE_ENHANCED_USTAR = True
-
-! Sensitivity to interior mixing settings and background @ Banda Sea
-BCKGRND_VDC_BAN = 5.0E-04
-NU_ZERO = 0.0025
-RI_ZERO = 0.5
-
-CVMix_CONVECTION%
-BV_SQR_CONV = -1.0e-8
-%CVMix_CONVECTION
 
 THICKNESS_CONFIG = thickness_file
 VELOCITY_CONFIG = file
@@ -92,3 +76,26 @@ TEMP_IC_VAR = "Temp"
 SALT_IC_VAR = "Salt"
 
 RESTART_CHECKSUMS_REQUIRED = FALSE
+
+! GMM: reverting changes that might be leading to Lab Sea freeze
+! There are not likely to be the culprit, but reverting them anyway
+ENABLE_BUGS_BY_DEFAULT = False
+DEPTH_SCALED_KHTH_H0 = 250.0
+TFREEZE_S_IS_PRACS = False
+TFREEZE_T_IS_POTT = False
+
+! There are the key changes that might have contributed to the freeze
+CEMP_NL = 2.0
+KPP%
+KPP_CVt2 = 1.0
+ENHANCE_DIFFUSION = True
+%KPP
+
+CVMix_CONVECTION%
+BV_SQR_CONV = 0.0
+%CVMix_CONVECTION
+
+! Sensitivity to interior mixing settings and background @ Banda Sea
+BCKGRND_VDC_BAN = 1.0E-04
+NU_ZERO = 0.005
+RI_ZERO = 0.8
