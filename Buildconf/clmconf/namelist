@@ -20,4 +20,6 @@ reseed_dead_plants = .true.
 
 
 
+finidat= '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/initdata_esmf/ctsm5.4/ctsm5.4_5.3.068_PPEcal115_116_pSASU.clm2.r.0161-01-01-00000.nc'
+
 / 
