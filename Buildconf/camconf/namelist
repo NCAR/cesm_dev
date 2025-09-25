@@ -223,4 +223,7 @@ srf_emis_specifier = 'bc_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-
 
          'SOAE -> 5.1004D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-0_smoothed/MTERP_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112.nc'
 
+
+
+ clubb_gamma_coef		= 0.3000001
 / 
