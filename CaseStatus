@@ -195,3 +195,5 @@ invalid literal for int() with base 10: '$CUPID_MEM_PER_TASK'
  ---------------------------------------------------
 2025-09-25 06:32:18: model execution starting 3228034.desched1
  ---------------------------------------------------
+2025-09-25 08:29:36: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+ ---------------------------------------------------
