@@ -12,3 +12,7 @@
 
 ./pelayout
 
+./xmlchange RESUBMIT=0
+
+./xmlchange RESUBMIT=0
+
