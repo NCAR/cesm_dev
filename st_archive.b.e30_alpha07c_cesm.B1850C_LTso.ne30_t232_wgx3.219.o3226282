@@ -5072,3 +5072,15 @@ Archiving history files for dglc (glc)
 Archiving history files for ww3 (wav)
 Archiving history files for drv (cpl)
 Archiving history files for dart (esp)
+st_archive completed
+resubmitting from st_archive, resubmit=6
+Submitting job 'case.run', resubmit=6
+submit_jobs case.run
+Submit job case.run
+Submitting job script qsub -q main -l walltime=12:00:00 -A CESM0023 -l job_priority=special -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.219/.case.run
+Submitted job id is 3228034.desched1
+Submit job case.st_archive
+Submitting job script qsub -q develop -l walltime=00:20:00 -A CESM0023 -l job_priority=special  -W depend=afterok:3228034.desched1 -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.219/case.st_archive
+Submitted job id is 3228035.desched1
+Submitted job case.run with id 3228034.desched1
+Submitted job case.st_archive with id 3228035.desched1
