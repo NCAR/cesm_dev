@@ -1,0 +1,14 @@
+#!/bin/bash -e
+
+# Batch system directives
+#PBS -N cupid.b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.225
+#PBS  -r n 
+#PBS  -j oe 
+#PBS  -S /bin/bash  
+#PBS  -l select=1:ncpus=1:mpiprocs=1:ompthreads=1:mem=10GB
+
+# Set environment for CESM
+source .env_mach_specific.sh
+
+# Run shell script in CUPiD external
+(. /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07b_dev/tools/CUPiD/helper_scripts/cesm_postprocessing.sh)

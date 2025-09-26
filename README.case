@@ -1,0 +1,42 @@
+2025-09-26 17:12:04: ./create_newcase --compset B1850C_LTso --res ne30pg3_t232_wg37 --case /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.225 --run-unsupported --project 93300722
+ ---------------------------------------------------
+2025-09-26 17:12:04: Compset longname is 1850C_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP
+ ---------------------------------------------------
+2025-09-26 17:12:04: Compset specification file is /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07b_dev/cime_config/config_compsets.xml
+ ---------------------------------------------------
+2025-09-26 17:12:04: Pes     specification file is /glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07b_dev/cime_config/config_pes.xml
+ ---------------------------------------------------
+2025-09-26 17:12:04: Forcing is 
+ ---------------------------------------------------
+2025-09-26 17:12:04: Using 1 coupler instances
+ ---------------------------------------------------
+2025-09-26 17:12:04: Component ATM is CAM cam7 physics:CAM low top model 
+ ---------------------------------------------------
+2025-09-26 17:12:04: ATM_GRID is ne30np4.pg3
+ ---------------------------------------------------
+2025-09-26 17:12:04: Component LND is clm6.0:BGC (vert. resol. CN and methane) with prognostic crop:
+ ---------------------------------------------------
+2025-09-26 17:12:04: LND_GRID is ne30np4.pg3
+ ---------------------------------------------------
+2025-09-26 17:12:04: Component ICE is Sea ICE (cice) model version 6
+ ---------------------------------------------------
+2025-09-26 17:12:04: ICE_GRID is tx2_3v2
+ ---------------------------------------------------
+2025-09-26 17:12:04: Component OCN is MOM6 OCEAN 
+ ---------------------------------------------------
+2025-09-26 17:12:04: OCN_GRID is tx2_3v2
+ ---------------------------------------------------
+2025-09-26 17:12:04: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
+ ---------------------------------------------------
+2025-09-26 17:12:04: ROF_GRID is r05
+ ---------------------------------------------------
+2025-09-26 17:12:04: Component GLC is Data glc model (DGLC) no evolve mode 
+ ---------------------------------------------------
+2025-09-26 17:12:04: GLC_GRID is gris4
+ ---------------------------------------------------
+2025-09-26 17:12:04: Component WAV is Wave Watch
+ ---------------------------------------------------
+2025-09-26 17:12:04: WAV_GRID is wgx3v7
+ ---------------------------------------------------
+2025-09-26 17:12:04: ESP_GRID is None
+ ---------------------------------------------------
