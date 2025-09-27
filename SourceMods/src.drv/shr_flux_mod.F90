@@ -9,9 +9,6 @@ module shr_flux_mod
   use shr_const_mod, only : shr_const_latvap, shr_const_latice, shr_const_stebol, shr_const_tkfrz, shr_const_pi, shr_const_spval
   use shr_const_mod, only : shr_const_ocn_ref_sal, shr_const_zsrflyr, shr_const_rgas
   use shr_sys_mod, only : shr_sys_abort   ! shared system routines
-  use shr_wv_sat_mod, only: shr_wv_sat_qsat_liquid
-
-
   implicit none
 
   private ! default private
@@ -273,7 +270,7 @@ contains
     real(R8)    :: ugust      ! function: gustiness as a function of convective rainfall.  
     real(R8)    :: gprec   ! convective rainfall argument for ugust
 
-  !!qsat(Tk)   = 640380.0_R8 / exp(5107.4_R8/Tk)
+    qsat(Tk)   = 640380.0_R8 / exp(5107.4_R8/Tk)
 
     ! Large and Yeager 2009
     cdn(Umps)  =  0.0027_R8 / min(33.0000_R8,Umps) + 0.000142_R8 + &
@@ -372,9 +369,7 @@ contains
                 endif
              endif
 
-           !!ssq    = 0.98_R8 * qsat(ts(n)) / rbot(n)   ! sea surf hum (kg/kg)
-             call shr_wv_sat_qsat_liquid(ts(n), pslv(n), qsat, ssq)
-             ssq = 0.98_R8 * ssq
+             ssq    = 0.98_R8 * qsat(ts(n)) / rbot(n)   ! sea surf hum (kg/kg)
              delt   = thbot(n) - ts(n)                  ! pot temp diff (K)
              delq   = qbot(n) - ssq                     ! spec hum dif (kg/kg)
              alz    = log(zbot(n)/zref)
@@ -531,9 +526,7 @@ contains
                    vmag=vmag*vscl
                 endif
              endif
-           !!ssq    = 0.98_R8 * qsat(ts(n)) / rbot(n)   ! sea surf hum (kg/kg)
-             call shr_wv_sat_qsat_liquid(ts(n), pslv(n), qsat, ssq)
-             ssq = 0.98_R8 * ssq
+             ssq    = 0.98_R8 * qsat(ts(n)) / rbot(n)   ! sea surf hum (kg/kg)
 
              call cor30a(ubot(n),vbot(n),tbot(n),qbot(n),rbot(n) &  ! in atm params
                   & ,us(n),vs(n),ts(n),ssq                   &  ! in surf params
@@ -583,6 +576,10 @@ contains
              if (present(re_sv   )) re_sv(n)    = re
              if (present(ssq_sv )) ssq_sv(n) = ssq
 
+!+++arh
+             u10res(n) = sqrt(duu10n(n))
+             ugust_out(n) = 0._r8
+
           else
              !------------------------------------------------------------
              ! no valid data here -- out of domain
@@ -599,6 +596,9 @@ contains
              tref     (n) = spval  !  2m reference height temperature (K)
              qref     (n) = spval  !  2m reference height humidity (kg/kg)
              duu10n   (n) = spval  ! 10m wind speed squared (m/s)^2
+!+++arh
+             u10res   (n) = spval
+             ugust_out(n) = spval
 
              if (present(ustar_sv)) ustar_sv(n) = spval
              if (present(re_sv   )) re_sv   (n) = spval
@@ -618,6 +618,16 @@ contains
                           taux, tauy, tref, qref, &
                           duu10n, ustar_sv, re_sv, ssq_sv, &
                           missval)
+!+++arh
+       do n=1,nMax
+          if (mask(n) /= 0) then
+             u10res(n) = sqrt(duu10n(n))
+             ugust_out(n) = 0._r8
+          else
+             u10res   (n) = spval
+             ugust_out(n) = spval
+          end if
+       end do
 
     else
 
