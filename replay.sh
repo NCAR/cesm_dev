@@ -16,3 +16,5 @@ cd "${CASEDIR}"
 
 ./xmlchange PROJECT=CESM0023,RESUBMIT=3,STOP_N=4,STOP_OPTION=nyears
 
+./xmlchange JOB_PRIORITY=special --force
+
