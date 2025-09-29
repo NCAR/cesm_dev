@@ -2,4 +2,24 @@
 
 
 
+paramfile = '/glade/campaign/cesm/cesmdata/cseg/inputdata/lnd/clm2/paramdata/ctsm60_params_cal115_c250813.nc'
+
+glcmec_downscale_longwave = .false.
+
+
+
+
+
+snow_thermal_cond_lake_method = 'Sturm1997'
+
+
+
+use_init_interp = .true.
+
+reseed_dead_plants = .true.
+
+
+
+finidat= '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/initdata_esmf/ctsm5.4/ctsm5.4_5.3.068_PPEcal115_116_pSASU.clm2.r.0161-01-01-00000.nc'
+
 / 
