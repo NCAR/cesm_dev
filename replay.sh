@@ -8,3 +8,7 @@
 
 ./xmlchange RESUBMIT=3
 
+./check_case
+
+./case.submit
+
