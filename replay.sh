@@ -52,3 +52,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=12
 
+./xmlchange JOB_PRIORITY=special --force
+
