@@ -358,3 +358,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha07b
  ---------------------------------------------------
 2025-10-02 11:28:10: xmlchange success <command> ./xmlchange RESUBMIT=12  </command>
  ---------------------------------------------------
+2025-10-02 11:28:12: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
