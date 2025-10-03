@@ -6,3 +6,7 @@
 
 ./xmlchange RESUBMIT=4
 
+./check_case
+
+./xmlchange RESUBMIT=9
+
