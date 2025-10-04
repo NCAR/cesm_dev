@@ -43,6 +43,8 @@
 "ocean_model_rho2", "e",       "e",       "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.217.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 
 # "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.217.mom6.h.native%4yr-%2mo"
+"ocean_model", "surface_stokes_y",     "surface_stokes_y",         "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.217.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "surface_stokes_x",     "surface_stokes_x",         "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.217.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "Lam2",     "Lam2",         "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.217.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "skeb_amp",     "skeb_amp",         "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.217.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "soga",         "soga",         "b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.217.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2

@@ -18,3 +18,5 @@
 
 ./xmlchange CONTINUE_RUN=False
 
+./case.submit
+
