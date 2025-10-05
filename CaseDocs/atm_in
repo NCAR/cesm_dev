@@ -220,7 +220,7 @@
  clubb_detphase_lowtemp		=  238.15D0            
  clubb_do_energyfix		=  .true.  
  clubb_do_liqsupersat		=  .false. 
- clubb_gamma_coef		= 0.30000001
+ clubb_gamma_coef		=  0.3     
  clubb_gamma_coefb		=  0.3     
  clubb_ipdf_call_placement		=  2       
  clubb_l_brunt_vaisala_freq_moist		=  .false. 
