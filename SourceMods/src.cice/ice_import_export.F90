@@ -48,7 +48,7 @@ module ice_import_export
 ! used to read lab sea mask
   use ice_read_write,  only: ice_open_nc, ice_read_nc, ice_close_nc
 
-  
+
   implicit none
   public
 
@@ -97,7 +97,7 @@ module ice_import_export
   type (fld_list_type)     :: fldsToIce(fldsMax)
   type (fld_list_type)     :: fldsFrIce(fldsMax)
   real(dbl_kind), allocatable  :: LSMask(:,:,:)
-  
+
   logical                  :: flds_wave           ! wave ice coupling
   integer     , parameter  :: io_dbug = 10        ! i/o debug messages
   character(*), parameter  :: u_FILE_u = &
@@ -502,7 +502,7 @@ contains
 
     allocate(aflds(nx_block,ny_block,nflds,nblocks))
     aflds = c0
-    
+
     ! import ocean states
 
     call state_getimport(importState, 'So_t', output=aflds, index=1, rc=rc)
@@ -1073,7 +1073,8 @@ contains
     if(.not. allocated(LSMask)) then
        allocate(LSMask(nx_block, ny_block, nblocks))
        LSMask = c0
-       filename = "/glade/work/gmarques/cesm/tx2_3/mle_frontal_length_scale/mle-cr-mask_20250627.nc"
+       !filename = "/glade/work/gmarques/cesm/tx2_3/mle_frontal_length_scale/mle-cr-mask_20250627.nc"
+       filename = "/glade/work/gmarques/cesm/tx2_3/mle_frontal_length_scale/mle-cr-mask_20251005.nc"
        call ice_open_nc(filename, ncid)
        call ice_read_nc(ncid, 1, "Cr", LSMask, .true.)
        call ice_close_nc(ncid)
@@ -1113,14 +1114,14 @@ contains
     ! exclude the lab sea in a mask specifically for wav
 
 
-    
-    
+
+
     call state_setexport(exportState, 'Si_ifrac_wav', input=ailohi_wav, rc=rc)
     if (ChkErr(rc,__LINE__,u_FILE_u)) return
 
 
 
-    
+
     if (trim(grid_format) == 'meshnc') then
        call state_setexport(exportState, 'Si_imask', input=ocn_gridcell_frac, rc=rc)
        if (ChkErr(rc,__LINE__,u_FILE_u)) return
