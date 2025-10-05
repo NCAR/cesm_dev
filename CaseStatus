@@ -26,3 +26,7 @@
  ---------------------------------------------------
 2025-10-05 15:41:54: model execution success 3301692.desched1
  ---------------------------------------------------
+2025-10-05 15:41:55: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.231/run/med.log.3301692.desched1.251005-153323 
+ 
+ ---------------------------------------------------
