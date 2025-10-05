@@ -1074,7 +1074,7 @@ contains
        allocate(LSMask(nx_block, ny_block, nblocks))
        LSMask = c0
        !filename = "/glade/work/gmarques/cesm/tx2_3/mle_frontal_length_scale/mle-cr-mask_20250627.nc"
-       filename = "/glade/work/gmarques/cesm/tx2_3/mle_frontal_length_scale/mle-cr-mask_20251005.nc"
+       filename = "/glade/work/gmarques/cesm/tx2_3/mle_frontal_length_scale/mle-cr-mask-v2_20251005.nc"
        call ice_open_nc(filename, ncid)
        call ice_read_nc(ncid, 1, "Cr", LSMask, .true.)
        call ice_close_nc(ncid)
