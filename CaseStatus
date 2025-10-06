@@ -70,3 +70,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
  ---------------------------------------------------
 2025-10-06 13:40:32: case.submit success case.run:3306121.desched1, case.st_archive:3306122.desched1
  ---------------------------------------------------
+2025-10-06 13:43:11: case.run starting 3306121.desched1
+ ---------------------------------------------------
