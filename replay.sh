@@ -6,3 +6,5 @@
 
 ./case.build
 
+./xmlchange RESUBMIT=10
+
