@@ -16,3 +16,5 @@
  ---------------------------------------------------
 2025-10-09 15:05:23: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
  ---------------------------------------------------
+2025-10-09 15:05:38: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
+ ---------------------------------------------------

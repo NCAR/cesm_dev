@@ -8,3 +8,5 @@
 
 ./xmlchange JOB_PRIORITY=regular
 
+./xmlchange RESUBMIT=10
+
