@@ -1075,7 +1075,7 @@ contains
        LSMask = c0
        !filename = "/glade/work/gmarques/cesm/tx2_3/mle_frontal_length_scale/mle-cr-mask_20250627.nc"
        ! Lab Sea, Baffin Bay, EGreenland, and Arctic masks
-       filename = "/glade/work/gmarques/cesm/tx2_3/mle_frontal_length_scale/mle-cr-mask-v3_20251005.nc"
+       filename = "/glade/work/gmarques/cesm/tx2_3/mle_frontal_length_scale/mle-cr-mask-v4_20251009.nc"
        call ice_open_nc(filename, ncid)
        call ice_read_nc(ncid, 1, "Cr", LSMask, .true.)
        call ice_close_nc(ncid)
