@@ -10,3 +10,7 @@
 
 ./case.submit
 
+./check_case
+
+./case.submit
+
