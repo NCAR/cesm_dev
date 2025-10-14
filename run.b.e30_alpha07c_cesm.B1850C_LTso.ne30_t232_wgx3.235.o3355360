@@ -44,3 +44,7 @@ Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF'
 -------------------------------------------------------------------------
 run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/gmarques/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.235/bld/cesm.exe   >> cesm.log.$LID 2>&1  
 No timing file found in run directory
+check for resubmit
+dout_s True 
+mach derecho 
+resubmit_num 0
