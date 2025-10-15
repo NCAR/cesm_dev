@@ -32,3 +32,5 @@
 
 ./case.submit
 
+./xmlchange CONTINUE_RUN=False
+

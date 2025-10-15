@@ -147,3 +147,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
 2025-10-15 14:16:19: case.submit error 
 ERROR: CONTINUE_RUN is true but this case does not appear to have restart files staged in /glade/derecho/scratch/gmarques/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234/run rpointer.cpl.0017-01-01-00000
  ---------------------------------------------------
+2025-10-15 14:16:48: xmlchange success <command> ./xmlchange CONTINUE_RUN=False  </command>
+ ---------------------------------------------------
