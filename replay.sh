@@ -28,3 +28,5 @@
 
 ./case.build
 
+./xmlchange RESUBMIT=9
+
