@@ -20,3 +20,7 @@
 
 ./case.submit
 
+./case.build
+
+./case.build
+
