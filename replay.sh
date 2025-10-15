@@ -24,3 +24,5 @@
 
 ./case.build
 
+./case.build --clean-all
+
