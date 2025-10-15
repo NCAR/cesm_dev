@@ -163,3 +163,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
 ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234/run/med.log.3378175.desched1.251015-141912 
  
  ---------------------------------------------------
+2025-10-15 16:39:33: case.submit starting case.run:3379972.desched1, case.st_archive:3379973.desched1
+ ---------------------------------------------------
