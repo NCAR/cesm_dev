@@ -212,3 +212,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
  ---------------------------------------------------
 2025-10-16 11:51:30: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
  ---------------------------------------------------
+2025-10-16 13:37:44: case.submit starting case.run:3388431.desched1, case.st_archive:3388432.desched1
+ ---------------------------------------------------
