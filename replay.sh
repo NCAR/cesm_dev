@@ -22,3 +22,5 @@
 
 ./xmlchange RESUBMIT=4
 
+./xmlchange RESUBMIT=9
+
