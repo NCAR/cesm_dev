@@ -40,8 +40,6 @@ CR_FILE = "mle-cr-mask_20250627.nc"
 SMAGORINSKY_KH = True
 SMAG_LAP_CONST = 0.15
 AH = 1.0e+12
-LEITH_BI_CONST = 90.0
-LEITHY_CK = 0.0
 DO_SKEB = True
 SKEB_NPASS = 8
 SKEB_USE_GM = True
@@ -49,7 +47,7 @@ SKEB_GM_COEF = 0.75
 MEKE_GMCOEFF = 0.25
 SKEB_USE_FRICT = False
 SKEB_FRICT_COEF = 0.0
-ALE_COORDINATE_CONFIG = "HYBRID:hybrid_75layer_zstar2.50m-2025-04-04.nc,sigma2,dz"
+ALE_COORDINATE_CONFIG = "HYBRID:hybrid_75layer_zstar_2.50m-2025-09-12.nc,sigma2,dz"
 MAX_LAYER_THICKNESS_CONFIG = "FILE:dz_max.nc,dz"
 MAXIMUM_INT_DEPTH_CONFIG = "FILE:lev.nc,Z"
 
@@ -63,11 +61,18 @@ VELOCITY_REMAPPING_SCHEME = "C_PPM_CW"
 USE_STANLEY_ISO = False
 USE_STANLEY_GM = False
 
-
-! set above
-! BODNER_MSTAR = 0.5
-! BODNER_NSTAR = 0.066
-! WAVE_ENHANCED_USTAR = True
+! Leith backscatter from Ian's run 090d
+USE_BETA_IN_LEITH = False
+LEITH_BI_CONST = 130.0
+LEITHY_CK = 1.0
+TAPER_LEITHY = True
+LEITHY_DEPTH = 1000.0
+LEITHY_WIDTH = 500.0
+USE_KH_BG_2D = True
+KH_BG_2D_FILENAME = "KH_BG_2D.nc"
+KH_BG_2D_VARNAME = "KH"
+PRANDTL_BKGND = 5.0
+KV = 5.0e-7
 
 ! Sensitivity to interior mixing settings and background @ Banda Sea
 BCKGRND_VDC_BAN = 5.0E-04
