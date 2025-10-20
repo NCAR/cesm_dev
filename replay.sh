@@ -38,3 +38,5 @@
 
 ./case.submit
 
+./xmlchange RESUBMIT=9
+
