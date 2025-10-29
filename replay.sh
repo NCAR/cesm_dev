@@ -16,3 +16,5 @@ cd "${CASEDIR}"
 
 ./case.setup
 
+./xmlchange RUN_STARTDATE=1990-01-01
+
