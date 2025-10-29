@@ -48,7 +48,7 @@
       <type>char</type>
       <desc>First year of baseline output to include in CUPiD analysis</desc>
     </entry>
-    <entry id="CUPID_BASE_NYEARS" value="100">
+    <entry id="CUPID_BASE_NYEARS" value="20">
       <type>integer</type>
       <desc>Number of years of baseline output to include in CUPiD analysis</desc>
     </entry>

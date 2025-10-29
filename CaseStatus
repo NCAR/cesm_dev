@@ -32,3 +32,5 @@
  ---------------------------------------------------
 2025-10-29 14:16:36: xmlchange success <command> ./xmlchange CUPID_BASELINE_ROOT=/glade/derecho/scratch/hannay/archive/  </command>
  ---------------------------------------------------
+2025-10-29 14:16:38: xmlchange success <command> ./xmlchange CUPID_BASE_NYEARS=20  </command>
+ ---------------------------------------------------
