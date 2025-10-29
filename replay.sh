@@ -60,3 +60,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_TS_DIR=/glade/derecho/scratch/hannay/archive/
 
+./case.build
+
