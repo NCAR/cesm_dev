@@ -22,3 +22,7 @@ cd "${CASEDIR}"
 
 ./xmlchange NTASKS=2176
 
+./case.setup
+
+./xmlchange RUN_STARTDATE=1990-01-01
+
