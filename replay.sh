@@ -28,3 +28,7 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange RUN_POSTPROCESSING=TRUE.
+
+./xmlchange RUN_POSTPROCESSING=TRUE
+
