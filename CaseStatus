@@ -20,3 +20,5 @@
  ---------------------------------------------------
 2025-10-29 16:54:40: xmlchange success <command> ./xmlchange RUN_STARTDATE=1990-01-01  </command>
  ---------------------------------------------------
+2025-10-29 16:55:12: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/amwg_dev.git  </command>
+ ---------------------------------------------------
