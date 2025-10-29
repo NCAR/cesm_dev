@@ -38,3 +38,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_POSTPROCESSING=TRUE
 
+./xmlchange CUPID_RUN_ADF=TRUE
+
