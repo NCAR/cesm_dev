@@ -85,6 +85,10 @@ fincl2 ='FISCCP1_COSP','CLDTOT_ISCCP','MEANCLDALB_ISCCP','CLDLOW_CAL','CLDMED_CA
 
 
 
+cosp_histfile_num=2
+
+
+
 fincl3 = 'PRECT', 'PRECC', 'FLUT', 'U850', 'U200', 'V850', 'V200', 'OMEGA500', 'TS', 'SST', 'PSL'
 
 fincl4 =  'PRECC','PRECL'

@@ -33,3 +33,5 @@ CAM build-namelist - ERROR: interpolate_output does not work with COSP.  Use cos
  to direct COSP output to a history file that is not interpolated.  COSP output is
  currently on cosp_histfile_num=1 which contains interpolated output. at /glade/work/hannay/cesm_tags/cam6_4_127/bld/build-namelist line 4451.
  ---------------------------------------------------
+2025-10-29 16:58:07: case.build starting 
+ ---------------------------------------------------

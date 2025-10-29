@@ -1,2 +1,7 @@
+&comp_inparm 
+
 use_init_interp = .true.
 
+
+
+/ 
