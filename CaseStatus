@@ -36,3 +36,5 @@
  ---------------------------------------------------
 2025-10-29 14:16:39: xmlchange success <command> ./xmlchange CUPID_BASE_STARTDATE=0002-01-01  </command>
  ---------------------------------------------------
+2025-10-29 14:16:41: xmlchange success <command> ./xmlchange CUPID_EXAMPLE=key_metrics  </command>
+ ---------------------------------------------------
