@@ -44,3 +44,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_POSTPROCESSING=TRUE
 
+./xmlchange CUPID_BASELINE_CASE=b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.225
+

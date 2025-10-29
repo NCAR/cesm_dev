@@ -52,7 +52,7 @@
       <type>integer</type>
       <desc>Number of years of baseline output to include in CUPiD analysis</desc>
     </entry>
-    <entry id="CUPID_BASELINE_CASE" value="b.e23_alpha17f.BLT1850.ne30_t232.092">
+    <entry id="CUPID_BASELINE_CASE" value="b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.225">
       <type>char</type>
       <desc>Baseline case to use in CUPiD analysis</desc>
     </entry>

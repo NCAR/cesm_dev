@@ -28,3 +28,5 @@
  ---------------------------------------------------
 2025-10-29 14:16:33: xmlchange success <command> ./xmlchange RUN_POSTPROCESSING=TRUE  </command>
  ---------------------------------------------------
+2025-10-29 14:16:35: xmlchange success <command> ./xmlchange CUPID_BASELINE_CASE=b.e30_alpha07b_dev.B1850C_LTso.ne30_t232_wgx3.225  </command>
+ ---------------------------------------------------
