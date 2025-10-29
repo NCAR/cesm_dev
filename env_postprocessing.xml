@@ -60,7 +60,7 @@
       <type>char</type>
       <desc>Baseline case root to use in CUPiD analysis</desc>
     </entry>
-    <entry id="CUPID_TS_DIR" value="$DOUT_S_ROOT/..">
+    <entry id="CUPID_TS_DIR" value="/glade/derecho/scratch/hannay/archive/">
       <type>char</type>
       <desc>Timeseries directory for baseline case to use in generating ts. Change this in the case of directory permission issues to eg, your scratch directory</desc>
     </entry>

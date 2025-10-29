@@ -58,3 +58,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_STARTDATE=0002-01-01
 
+./xmlchange CUPID_TS_DIR=/glade/derecho/scratch/hannay/archive/
+
