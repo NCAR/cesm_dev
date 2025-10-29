@@ -54,3 +54,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_EXAMPLE=key_metrics
 
+./xmlchange CUPID_NYEARS=4
+

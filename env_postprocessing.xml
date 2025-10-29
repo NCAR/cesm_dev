@@ -40,7 +40,7 @@
       <type>char</type>
       <desc>First year of output to include in CUPiD analysis</desc>
     </entry>
-    <entry id="CUPID_NYEARS" value="1">
+    <entry id="CUPID_NYEARS" value="4">
       <type>integer</type>
       <desc>Number of years of output to include in CUPiD analysis</desc>
     </entry>
