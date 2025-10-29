@@ -16,3 +16,5 @@
  ---------------------------------------------------
 2025-10-29 14:06:29: xmlchange success <command> ./xmlchange RUN_POSTPROCESSING=TRUE  </command>
  ---------------------------------------------------
+2025-10-29 14:10:46: xmlchange success <command> ./xmlchange CUPID_RUN_ADF=TRUE  </command>
+ ---------------------------------------------------
