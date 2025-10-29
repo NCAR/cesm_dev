@@ -329,7 +329,7 @@
       <valid_values/>
       <desc>Status: smp status of previous build, coded string. (DO NOT EDIT)</desc>
     </entry>
-    <entry id="SMP_VALUE" value="0">
+    <entry id="SMP_VALUE" value="c0a0l0i0o0r0g0">
       <type>char</type>
       <valid_values/>
       <desc>Status: smp status of current case, coded string (DO NOT EDIT)</desc>
@@ -339,7 +339,7 @@
       <valid_values/>
       <desc>Status: ninst status of previous build, coded string. (DO NOT EDIT)&gt;</desc>
     </entry>
-    <entry id="NINST_VALUE" value="0">
+    <entry id="NINST_VALUE" value="c1a1l1i1o1r1g1">
       <type>char</type>
       <valid_values/>
       <desc>Status: ninst status of current case, coded string (DO NOT EDIT)</desc>

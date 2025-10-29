@@ -24,3 +24,12 @@
  ---------------------------------------------------
 2025-10-29 16:55:59: case.build starting 
  ---------------------------------------------------
+2025-10-29 16:56:03: case.build error 
+ERROR: Command /glade/work/hannay/cesm_tags/cam6_4_127/bld/build-namelist -ntasks 2176 -csmdata /glade/campaign/cesm/cesmdata/inputdata -infile /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_cam6_4_127.FHISTC_LTso.ne30.baseline_DGLC.001/Buildconf/camconf/namelist -start_ymd 19900101 -ignore_ic_year -use_case hist_cam_lt -inputdata /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_cam6_4_127.FHISTC_LTso.ne30.baseline_DGLC.001/Buildconf/cam.input_data_list -namelist " &atmexp /"  -cmeps failed rc=255
+out=
+err=Smartmatch is deprecated at /glade/work/hannay/cesm_tags/cam6_4_127/bld/perl5lib/Build/ChemNamelist.pm line 300.
+Smartmatch is deprecated at /glade/work/hannay/cesm_tags/cam6_4_127/bld/build-namelist line 2337.
+CAM build-namelist - ERROR: interpolate_output does not work with COSP.  Use cosp_histfile_num
+ to direct COSP output to a history file that is not interpolated.  COSP output is
+ currently on cosp_histfile_num=1 which contains interpolated output. at /glade/work/hannay/cesm_tags/cam6_4_127/bld/build-namelist line 4451.
+ ---------------------------------------------------
