@@ -20,3 +20,5 @@ cd "${CASEDIR}"
 
 ./xmlchange --append CAM_CONFIG_OPTS=-cosp
 
+./xmlchange NTASKS=2176
+

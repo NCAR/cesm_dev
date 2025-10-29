@@ -12,3 +12,5 @@
  ---------------------------------------------------
 2025-10-29 16:54:38: xmlchange success <command> ./xmlchange --append CAM_CONFIG_OPTS=-cosp  </command>
  ---------------------------------------------------
+2025-10-29 16:54:38: xmlchange success <command> ./xmlchange NTASKS=2176  </command>
+ ---------------------------------------------------
