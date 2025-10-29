@@ -10,3 +10,5 @@
  ---------------------------------------------------
 2025-10-29 16:53:44: xmlchange success <command> ./xmlchange RUN_STARTDATE=1990-01-01  </command>
  ---------------------------------------------------
+2025-10-29 16:54:38: xmlchange success <command> ./xmlchange --append CAM_CONFIG_OPTS=-cosp  </command>
+ ---------------------------------------------------
