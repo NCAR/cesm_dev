@@ -129,3 +129,5 @@ CAM build-namelist - ERROR: interpolate_output does not work with COSP.  Use cos
  ---------------------------------------------------
 2025-10-30 17:50:14:   Timing files created for run 3500257.desched1.251030-114556
  ---------------------------------------------------
+2025-10-30 17:54:01: st_archive starting 3500258.desched1
+ ---------------------------------------------------
