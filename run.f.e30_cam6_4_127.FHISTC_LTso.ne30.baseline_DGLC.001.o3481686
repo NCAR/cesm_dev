@@ -1,0 +1,41 @@
+Generating namelists for /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_cam6_4_127.FHISTC_LTso.ne30.baseline_DGLC.001
+  2025-10-29 23:27:57 atm 
+Create namelist for component cam
+   Calling /glade/work/hannay/cesm_tags/cam6_4_127/cime_config/buildnml
+CAM namelist copy: file1 /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_cam6_4_127.FHISTC_LTso.ne30.baseline_DGLC.001/Buildconf/camconf/atm_in file2 /glade/derecho/scratch/hannay/f.e30_cam6_4_127.FHISTC_LTso.ne30.baseline_DGLC.001/run/atm_in 
+  2025-10-29 23:27:58 lnd 
+Create namelist for component clm
+   Calling /glade/work/hannay/cesm_tags/cam6_4_127/components/clm//cime_config/buildnml
+  2025-10-29 23:27:59 ice 
+Create namelist for component cice
+   Calling /glade/work/hannay/cesm_tags/cam6_4_127/components/cice//cime_config/buildnml
+RUN: /glade/work/hannay/cesm_tags/cam6_4_127/components/cice/bld/generate_cice_decomp.pl -ccsmroot /glade/work/hannay/cesm_tags/cam6_4_127 -res ne30np4.pg3 -nx 48600 -ny 1 -nproc 2176 -thrds 1 -output all 
+FROM: /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_cam6_4_127.FHISTC_LTso.ne30.baseline_DGLC.001
+  output: 48600 1 20 1 2 roundrobin square-ice
+
+  2025-10-29 23:27:59 ocn 
+Create namelist for component docn
+   Calling /glade/work/hannay/cesm_tags/cam6_4_127/components/cdeps/docn/cime_config/buildnml
+docn_mode is prescribed
+  2025-10-29 23:27:59 rof 
+Create namelist for component mosart
+   Calling /glade/work/hannay/cesm_tags/cam6_4_127/components/mosart//cime_config/buildnml
+  2025-10-29 23:27:59 glc 
+Create namelist for component dglc
+   Calling /glade/work/hannay/cesm_tags/cam6_4_127/components/cdeps/dglc/cime_config/buildnml
+  2025-10-29 23:28:00 wav 
+Create namelist for component swav
+   Calling /glade/work/hannay/cesm_tags/cam6_4_127/cime/CIME/non_py/src/components/stub_comps_nuopc/swav/cime_config/buildnml
+  2025-10-29 23:28:00 esp 
+Create namelist for component sesp
+   Calling /glade/work/hannay/cesm_tags/cam6_4_127/cime/CIME/non_py/src/components/stub_comps_nuopc/sesp/cime_config/buildnml
+  2025-10-29 23:28:00 cpl 
+Create namelist for component drv
+   Calling /glade/work/hannay/cesm_tags/cam6_4_127/components/cmeps/cime_config/buildnml
+Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF', 'GLC']
+-------------------------------------------------------------------------
+ - Prestage required restarts into /glade/derecho/scratch/hannay/f.e30_cam6_4_127.FHISTC_LTso.ne30.baseline_DGLC.001/run
+ - Case input data directory (DIN_LOC_ROOT) is /glade/campaign/cesm/cesmdata/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/f.e30_cam6_4_127.FHISTC_LTso.ne30.baseline_DGLC.001/bld/cesm.exe   >> cesm.log.$LID 2>&1  
