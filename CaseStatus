@@ -90,3 +90,5 @@ invalid literal for int() with base 10: '$CUPID_MEM_PER_TASK'
  ---------------------------------------------------
 2025-10-31 15:53:05: case.build success 
  ---------------------------------------------------
+2025-10-31 15:53:09: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
