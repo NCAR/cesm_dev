@@ -15,3 +15,5 @@ invalid literal for int() with base 10: '$CUPID_MEM_PER_TASK'
  ---------------------------------------------------
 2025-10-31 14:40:44:   local git repository created
  ---------------------------------------------------
+2025-10-31 14:40:48: xmlchange success <command> ./xmlchange RUN_TYPE=startup  </command>
+ ---------------------------------------------------

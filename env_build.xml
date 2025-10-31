@@ -59,7 +59,7 @@
       <type>integer</type>
       <desc>number of ice cells in j direction - DO NOT EDIT (for experts only)</desc>
     </entry>
-    <entry id="ICE_NCAT" value="1">
+    <entry id="ICE_NCAT" value="5">
       <type>integer</type>
       <desc>number of ice thickness categories - DO NOT EDIT (set by CICE configure)</desc>
     </entry>
