@@ -187,4 +187,18 @@
       <desc>RootPE of tasks for asyncronous IO, only valid if PIO_ASYNC_INTERFACE is True</desc>
     </entry>
   </group>
+  <group id="cupid_run_components">
+    <entry id="CUPID_NTASKS" value="1">
+      <type>integer</type>
+      <desc>Number of tasks used in CUPiD analysis</desc>
+    </entry>
+    <entry id="CUPID_MEM_PER_TASK" value="$MEM_PER_TASK">
+      <type>integer</type>
+      <desc>Memory per task to use for postprocessing, units are specified in config_batch.xml</desc>
+    </entry>
+    <entry id="CUPID_TASKS_PER_NODE" value="$MAX_MPITASKS_PER_NODE">
+      <type>integer</type>
+      <desc>Number of mpi tasks per node used in CUPiD analysis</desc>
+    </entry>
+  </group>
 </file>

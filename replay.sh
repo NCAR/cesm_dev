@@ -78,3 +78,7 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./case.setup
+
+./case.build --clean
+

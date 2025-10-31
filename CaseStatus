@@ -70,3 +70,9 @@ invalid literal for int() with base 10: '$CUPID_MEM_PER_TASK'
 2025-10-31 15:41:55: case.submit error 
 invalid literal for int() with base 10: '$CUPID_MEM_PER_TASK'
  ---------------------------------------------------
+2025-10-31 15:44:30: case.setup starting 
+ ---------------------------------------------------
+2025-10-31 15:44:31: case.setup success 
+ ---------------------------------------------------
+2025-10-31 15:45:00: build.clean starting 
+ ---------------------------------------------------
