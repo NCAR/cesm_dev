@@ -151,3 +151,5 @@ CAM build-namelist - ERROR: interpolate_output does not work with COSP.  Use cos
  ---------------------------------------------------
 2025-10-31 00:05:08: st_archive starting 3502079.desched1
  ---------------------------------------------------
+2025-10-31 00:06:22: st_archive success 3502079.desched1
+ ---------------------------------------------------
