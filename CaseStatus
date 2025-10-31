@@ -155,3 +155,5 @@ CAM build-namelist - ERROR: interpolate_output does not work with COSP.  Use cos
  ---------------------------------------------------
 2025-10-31 00:06:24: case.submit starting case.run:3503974.desched1, case.st_archive:3503975.desched1
  ---------------------------------------------------
+2025-10-31 00:06:25: case.submit success case.run:3503974.desched1, case.st_archive:3503975.desched1
+ ---------------------------------------------------
