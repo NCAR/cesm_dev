@@ -1,0 +1,17 @@
+2025-10-31 14:39:33: case.setup starting 
+ ---------------------------------------------------
+2025-10-31 14:39:34: case.setup error 
+invalid literal for int() with base 10: '$CUPID_MEM_PER_TASK'
+ ---------------------------------------------------
+2025-10-31 14:39:37: xmlchange success <command> ./xmlchange RUN_TYPE=startup  </command>
+ ---------------------------------------------------
+2025-10-31 14:39:37: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
+ ---------------------------------------------------
+2025-10-31 14:40:06: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
+ ---------------------------------------------------
+2025-10-31 14:40:41: case.setup starting 
+ ---------------------------------------------------
+2025-10-31 14:40:44: case.setup success 
+ ---------------------------------------------------
+2025-10-31 14:40:44:   local git repository created
+ ---------------------------------------------------
