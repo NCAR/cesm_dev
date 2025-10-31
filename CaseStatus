@@ -100,3 +100,5 @@ invalid literal for int() with base 10: '$CUPID_MEM_PER_TASK'
  ---------------------------------------------------
 2025-10-31 15:53:15: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2025-10-31 15:53:24: case.submit starting case.run:3512935.desched1, case.st_archive:3512936.desched1
+ ---------------------------------------------------
