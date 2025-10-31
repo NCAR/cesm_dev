@@ -195,4 +195,34 @@ srf_emis_specifier = 'bc_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-
 
 
 
+zmconv_dmpdz = -0.0006569823
+
+zmconv_num_cin = 2
+
+zmconv_capelmt = 110.8177
+
+
+
+micro_mg_autocon_lwp_exp= 2.389657
+
+dust_emis_fact = 3.835513
+
+clubb_wpxp_l_thresh = 95.32662
+
+clubb_gamma_coef = 0.29
+
+clubb_detice_rad = 8.511726e-05
+
+clubb_c8 = 3.824302
+
+clubb_c1 = 0.868526
+
+cldfrc_dp1 = 0.094424
+
+clubb_l_do_expldiff_rtm_thlm = .false.
+
+seasalt_emis_scale= 1.0D0
+
+
+
 / 

@@ -95,3 +95,18 @@ srf_emis_specifier = 'bc_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-
          'SOAE -> 6.5013D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18/XYLENES-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-202312.nc',
          'SOAE -> 5.1004D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-0_smoothed/MTERP_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112.nc'
 
+zmconv_dmpdz = -0.0006569823
+zmconv_num_cin = 2
+zmconv_capelmt = 110.8177
+
+micro_mg_autocon_lwp_exp= 2.389657
+dust_emis_fact = 3.835513
+clubb_wpxp_l_thresh = 95.32662
+clubb_gamma_coef = 0.29
+clubb_detice_rad = 8.511726e-05
+clubb_c8 = 3.824302
+clubb_c1 = 0.868526
+cldfrc_dp1 = 0.094424
+clubb_l_do_expldiff_rtm_thlm = .false.
+seasalt_emis_scale= 1.0D0
+

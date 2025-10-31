@@ -1,7 +1,7 @@
 &comp_inparm 
 
-histaux_l2x1yrg = .true.
+wav_coupling_to_cice = .true.
 
-ocn_surface_flux_scheme = 2
+histaux_l2x1yrg = .true.
 
 / 
