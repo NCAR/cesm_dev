@@ -3,7 +3,7 @@
         MOM6 parameter changes may ve made via SourceMods or user_nl_mom
         within CASEROOT.*/
 HREF_FOR_MLD = 10.0
-#override INPUTDIR = "INPUT"
+#override INPUTDIR = "/glade/derecho/scratch/gmarques/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234/run/INPUT"
 SMAGORINSKY_KH = True
 SMAG_LAP_CONST = 0.15
 #override AH = 1.0e+12

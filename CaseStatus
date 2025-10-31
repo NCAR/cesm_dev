@@ -114,3 +114,5 @@ invalid literal for int() with base 10: '$CUPID_MEM_PER_TASK'
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.242/run/med.log.3512935.desched1.251031-162516 
  
  ---------------------------------------------------
+2025-10-31 16:38:04: case.submit starting case.run:3513505.desched1, case.st_archive:3513506.desched1
+ ---------------------------------------------------

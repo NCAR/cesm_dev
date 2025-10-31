@@ -1,5 +1,7 @@
 HREF_FOR_MLD = 10.0
-INPUTDIR = "INPUT"
+!INPUTDIR = "INPUT"
+INPUTDIR = "/glade/derecho/scratch/gmarques/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234/run/INPUT"
+
 
 KPP%
 KPP_CVt2 = 1.8   ! 1.0
