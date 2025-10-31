@@ -110,3 +110,7 @@ invalid literal for int() with base 10: '$CUPID_MEM_PER_TASK'
  ---------------------------------------------------
 2025-10-31 16:26:03: model execution success 3512935.desched1
  ---------------------------------------------------
+2025-10-31 16:26:04: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.242/run/med.log.3512935.desched1.251031-162516 
+ 
+ ---------------------------------------------------
