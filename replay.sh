@@ -82,3 +82,7 @@ cd "${CASEDIR}"
 
 ./case.build --clean
 
+./case.setup --reset
+
+./case.build --clean
+
