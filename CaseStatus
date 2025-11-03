@@ -84,3 +84,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha07f
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001/run/med.log.3512285.desched1.251101-053541 
  
  ---------------------------------------------------
+2025-11-03 15:45:55: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
