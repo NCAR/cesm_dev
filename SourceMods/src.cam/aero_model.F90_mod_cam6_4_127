@@ -706,6 +706,7 @@ contains
              end if
              ! dmleung --
              
+
           end if
 
           do lspec = 0, nspec_amode(m)+1   ! loop over number + constituents + water
@@ -1080,6 +1081,7 @@ contains
 
     if( has_sox ) then
        call setsox( state, &
+              pbuf,     &
               ncol,     &
               lchnk,    &
               loffset,  &
@@ -1091,7 +1093,6 @@ contains
               cwat,     &
               cldfr,    &
               cldnum,   &
-              airdens,  &
               invariants, &
               vmrcw,    &
               vmr,      &
@@ -1463,7 +1464,7 @@ contains
   !===============================================================================
   !===============================================================================
   subroutine modal_aero_depvel_part( ncol, t, pmid, ram1, fv, vlc_dry, vlc_trb, vlc_grv,  &
-                                     radius_part, density_part, sig_part, moment, lchnk, aspherical )   ! dmleung added aspherical flag 20 Oct 2025 )
+                                     radius_part, density_part, sig_part, moment, lchnk, aspherical )   ! dmleung added aspherical flag 20 Oct 2025
 
 !    calculates surface deposition velocity of particles
 !    L. Zhang, S. Gong, J. Padro, and L. Barrie
@@ -1496,7 +1497,7 @@ contains
     real(r8), intent(out) :: vlc_trb(pcols)       !Turbulent deposn velocity (m/s)
     real(r8), intent(out) :: vlc_grv(pcols,pver)       !grav deposn velocity (m/s)
     real(r8), intent(out) :: vlc_dry(pcols,pver)       !dry deposn velocity (m/s)
-    logical,  intent(in), OPTIONAL :: aspherical   ! dmleung: asphericity is .True. for coarse-mode interstitial aerosols only, mostly dust and seasalt. For coarse mode aerosols, asphericity increases aerodynamic resistance by 25 % following Yue Huang et al. (2020). This translates into a reduced gravitational setting by 20 %. 
+    logical,  intent(in), OPTIONAL :: aspherical   ! dmleung: asphericity is .True. for coarse-mode interstitial aerosols only, mostly dust and seasalt. For coarse mode aerosols, asphericity increases aerodynamic resistance by 25 % following Yue Huang et al. (2020). This translates into a reduced gravitational setting by 20 %.
     !------------------------------------------------------------------------
 
     !------------------------------------------------------------------------
@@ -1529,7 +1530,7 @@ contains
 
      real(r8), parameter :: asphericaldust_drydep = 1.25 ! dmleung added 20 Oct 2025: aspherical dust increases dust aerodynamic resistance and lifetime by ~ 25 %. Yue Huang et al. (2020)
 
-     real(r8) gamma(11)      ! exponent of schmidt number
+    real(r8) gamma(11)      ! exponent of schmidt number
 !   data gamma/0.54d+00,  0.56d+00,  0.57d+00,  0.54d+00,  0.54d+00, &
 !              0.56d+00,  0.54d+00,  0.54d+00,  0.54d+00,  0.56d+00, &
 !              0.50d+00/
@@ -1605,7 +1606,7 @@ contains
              vlc_grv(i,k) = vlc_grv(i,k) / asphericaldust_drydep
           end if
           ! dmleung --
-          
+
           vlc_dry(i,k)=vlc_grv(i,k)
        enddo
     enddo
