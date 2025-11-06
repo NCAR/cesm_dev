@@ -5021,3 +5021,20 @@ moving /glade/derecho/scratch/hannay/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wg
 moving /glade/derecho/scratch/hannay/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001/run/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001.cpl.hx.1yr2glc.0004-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001/cpl/hist/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001.cpl.hx.1yr2glc.0004-01-01-00000.nc 
 moving /glade/derecho/scratch/hannay/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001/run/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001.cpl.hx.1yr2glc.0005-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001/cpl/hist/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001.cpl.hx.1yr2glc.0005-01-01-00000.nc 
 Archiving history files for dart (esp)
+st_archive completed
+resubmitting from st_archive, resubmit=1
+Submitting job 'case.run', resubmit=1
+submit_jobs case.run
+Could not resolve $CUPID_MEM_PER_TASK using a value of 10
+Submit job case.run
+Submitting job script qsub -q main -l walltime=12:00:00 -A CESM0023 -l job_priority=special -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001/.case.run
+Submitted job id is 3553041.desched1
+Submit job case.st_archive
+Submitting job script qsub -q develop -l walltime=00:20:00 -A CESM0023 -l job_priority=special  -W depend=afterok:3553041.desched1 -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001/case.st_archive
+Submitted job id is 3553042.desched1
+Submit job case.cupid
+Submitting job script qsub -q develop -l walltime=00:40:00 -A CESM0023 -l job_priority=special  -W depend=afterok:3553042.desched1  /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07f_dev.B1850C_LTso.ne30_t232_wgx3.test-cupid.001/case.cupid
+Submitted job id is 3553043.desched1
+Submitted job case.run with id 3553041.desched1
+Submitted job case.st_archive with id 3553042.desched1
+Submitted job case.cupid with id 3553043.desched1
