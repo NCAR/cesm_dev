@@ -31,3 +31,5 @@
 2025-11-06 16:11:14: case.build error 
 ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.245/bld/atm.bldlog.251106-161003
  ---------------------------------------------------
+2025-11-06 16:11:46: case.build starting 
+ ---------------------------------------------------
