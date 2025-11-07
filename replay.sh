@@ -42,3 +42,5 @@ cd "${CASEDIR}"
 
 ./xmlchange NTASKS_ICE=1920
 
+./xmlchange ROOTPE_ICE=0
+
