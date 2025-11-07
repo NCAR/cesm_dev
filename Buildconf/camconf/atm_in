@@ -50,7 +50,7 @@
          'soa_a2DDF', 'so4_a1_CLXF', 'so4_a2_CLXF', 'SFbc_a4', 'SFpom_a4', 'SFso4_a1', 'SFso4_a2', 'so4_a1_sfgaex1', 'so4_a2_sfgaex1',
          'so4_a3_sfgaex1', 'soa_a1_sfgaex1', 'soa_a2_sfgaex1', 'SFdst_a1', 'SFdst_a2', 'SFdst_a3', 'SFncl_a1', 'SFncl_a2', 'SFncl_a3',
          'num_a2_sfnnuc1', 'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO', 'AODVISstdn', 'REFF_AERO', 'so4_a1',
-         'so4_a2', 'SAD_AERO', 'PS', 'TROP_P', 'FSNTOAC', 'CME', 'CMEIOUT'
+         'so4_a2', 'SAD_AERO', 'PS', 'TROP_P', 'FSNTOAC', 'CME', 'CMEIOUT', 'MEG_SOAE'
  fincl3		= 'PRECT','PRECC','FLUT','U850','U200','V850','V200','OMEGA500','TS','SST','PSL','Z500'
  fincl4		= 'PRECC','PRECL'
  fincl5		= 'Uzm','Vzm','Wzm','THzm','VTHzm','WTHzm','UVzm','UWzm'
@@ -110,7 +110,7 @@
          'so4_a1-> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-0_smoothed_20251102/SO4_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112_c20251102.nc',
          'num_a1-> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-0_smoothed_20251102/num_SO4_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112_c20251102.nc',
          'SO2 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20251030/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20251030.nc',
-         'SO2 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-0_smoothed_20251102/SO2_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112_c20251102_c20251030.nc',
+         'SO2 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-0_smoothed_20251102/SO2_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112_c20251102.nc',
          'SOAE -> 0.5954D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-0_smoothed_20251102/ISOP_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112_c20251102.nc',
          'SOAE -> 2.5592D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-0_smoothed_20251102/BENZENE_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112_c20251102.nc',
          'SOAE -> 2.5592D0*/glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20251030/BENZENE-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-202312_c20251030.nc',
