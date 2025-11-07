@@ -44,3 +44,9 @@ cd "${CASEDIR}"
 
 ./xmlchange ROOTPE_ICE=0
 
+./case.setup
+
+./case.setup --reset
+
+./case.build --clean
+
