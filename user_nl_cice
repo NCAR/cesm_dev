@@ -1,1 +1,26 @@
 ice_ic = "/glade/derecho/scratch/gmarques/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.229/run/INPUT/g.e30_a07c_cesm.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.130.cice.r.0009-01-01-00000.nc"
+tr_fsd = .true.
+nfsd = 12
+wave_spec_type = 'alt'
+histfreq = "m", "x", "x", "x", "x"
+histfreq_n = 1, 1, 0, 0, 0
+
+f_fresh = 'mxxxx'
+f_fresh_ai = 'mxxxx'
+f_frzmlt = 'mdxxx'
+f_afsd = "mdxxx"
+f_afsdn = "mdxxx"
+f_dafsd_latg = "mdxxx"
+f_dafsd_latm = "mdxxx"
+f_dafsd_newi = "mdxxx"
+f_dafsd_wave = "mdxxx"
+f_dafsd_weld = "mdxxx"
+f_wave_sig_ht = "mdxxx"
+f_diam_ww = "mdxxx"
+f_hice_ww = "mdxxx"
+f_fsdrad = "mdxxx"
+f_fsdperim = "mdxxx"
+f_uvel = "mdxxx"
+f_vvel = "mdxxx"
+ r_snw = 1.0
+

@@ -32,3 +32,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange NTASKS_ICE=1920
+
