@@ -64,3 +64,7 @@ cd "${CASEDIR}"
 
 ./xmlchange REST_OPTION=nyears,REST_N=1
 
+./preview_namelists
+
+./case.build
+
