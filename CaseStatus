@@ -35,3 +35,7 @@ ERROR: Command: 'qsub -q main -l walltime=12:00:00 -A CESM0024 -l job_priority=s
  ---------------------------------------------------
 2025-11-08 03:55:17: model execution success 3567122.desched1
  ---------------------------------------------------
+2025-11-08 03:55:17: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.002/run/med.log.3567122.desched1.251107-212348 
+ 
+ ---------------------------------------------------
