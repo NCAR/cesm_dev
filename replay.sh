@@ -92,3 +92,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./case.build
+
