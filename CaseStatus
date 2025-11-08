@@ -23,3 +23,5 @@
 2025-11-07 20:52:50: case.submit error 
 ERROR: Command: 'qsub -q main -l walltime=12:00:00 -A CESM0024 -l job_priority=special -v ARGS_FOR_SCRIPT='--resubmit' /glade/u/home/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.002/.case.run' failed with error 'qsub: job_priority "special" is invalid' from dir '/glade/u/home/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.002'
  ---------------------------------------------------
+2025-11-07 21:06:01: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
+ ---------------------------------------------------
