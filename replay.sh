@@ -12,3 +12,7 @@ cd "${CASEDIR}"
 
 ./case.setup
 
+./preview_namelists
+
+./xmlchange JOB_PRIORITY=premium
+
