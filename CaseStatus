@@ -62,3 +62,8 @@ ERROR: For your changes to take effect, run:
  ---------------------------------------------------
 2025-11-10 09:26:15: case.build starting 
  ---------------------------------------------------
+2025-11-10 09:26:15: case.build error 
+ERROR: For your changes to take effect, run:
+./case.build --clean-all
+./case.build
+ ---------------------------------------------------
