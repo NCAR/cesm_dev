@@ -4,3 +4,5 @@
  ---------------------------------------------------
 2025-11-10 11:56:26:   local git repository created
  ---------------------------------------------------
+2025-11-10 11:56:37: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
+ ---------------------------------------------------
