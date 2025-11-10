@@ -74,3 +74,5 @@ ERROR: For your changes to take effect, run:
 ./case.build --clean-all
 ./case.build
  ---------------------------------------------------
+2025-11-10 09:35:38: case.build starting 
+ ---------------------------------------------------
