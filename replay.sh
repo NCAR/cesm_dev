@@ -18,3 +18,9 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./case.setup
+
+./preview_namelists
+
+./case.build
+

@@ -1,1 +1,5 @@
+&comp_inparm 
+
 reseed_dead_plants = .true.
+
+/ 
