@@ -55,3 +55,8 @@ ERROR: Model did not complete - see /glade/derecho/scratch/cmip7/b.e30_alpha07f.
  ---------------------------------------------------
 2025-11-10 09:26:05: case.submit starting 
  ---------------------------------------------------
+2025-11-10 09:26:05: case.submit error 
+ERROR: For your changes to take effect, run:
+./case.build --clean-all
+./case.build
+ ---------------------------------------------------
