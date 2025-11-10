@@ -64,3 +64,7 @@ ERROR: Model did not complete - see /glade/derecho/scratch/cmip7/b.e30_alpha07f.
  ---------------------------------------------------
 2025-11-10 13:35:22: model execution success 3580219.desched1
  ---------------------------------------------------
+2025-11-10 13:35:22: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.003/run/med.log.3580219.desched1.251110-133113 
+ 
+ ---------------------------------------------------
