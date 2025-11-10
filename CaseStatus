@@ -69,3 +69,8 @@ ERROR: For your changes to take effect, run:
  ---------------------------------------------------
 2025-11-10 09:35:32: case.submit starting 
  ---------------------------------------------------
+2025-11-10 09:35:32: case.submit error 
+ERROR: For your changes to take effect, run:
+./case.build --clean-all
+./case.build
+ ---------------------------------------------------
