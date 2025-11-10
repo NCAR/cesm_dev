@@ -40,3 +40,7 @@
  ---------------------------------------------------
 2025-11-10 12:37:15: model execution success 3579858.desched1
  ---------------------------------------------------
+2025-11-10 12:37:15: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.003/run/med.log.3579858.desched1.251110-123331 
+ 
+ ---------------------------------------------------
