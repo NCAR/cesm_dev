@@ -48,3 +48,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./case.submit
+
