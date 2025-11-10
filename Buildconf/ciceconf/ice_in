@@ -8,12 +8,12 @@
   hist_avg = .true., .true., .true., .true., .true.
   hist_suffix = "x", "1", "2", "3", "4"
   hist_time_axis = "middle"
-  histfreq = "m", "d", "x", "x", "x"
+  histfreq = "m", "x", "x", "x", "x"
   histfreq_n = 1, 1, 0, 0, 0
   history_file = "unknown"
   history_format = "default"
   history_precision = 4
-  ice_ic = "default"
+  ice_ic = "/glade/derecho/scratch/gmarques/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.229/run/INPUT/g.e30_a07c_cesm.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.130.cice.r.0009-01-01-00000.nc"
   latpnt = 90.0, -65.0
   lonpnt = 0.0, -45.0
   ndtd = 1
@@ -47,7 +47,7 @@
   kmt_file = "/glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/topography_20230416.ieeei4"
   nblyr = 3
   ncat = 5
-  nfsd = 1
+  nfsd = 12
   nilyr = 8
   nslyr = 3
   orca_halogrid = .false.
@@ -74,7 +74,7 @@
   restart_pond_topo = .false.
   restart_snow = .false.
   tr_aero = .true.
-  tr_fsd = .false.
+  tr_fsd = .true.
   tr_fy = .true.
   tr_iage = .true.
   tr_iso = .false.
@@ -137,7 +137,7 @@
   kalg = 0.0
   r_ice = 0.0
   r_pnd = 0.0
-  r_snw = 1.25
+  r_snw = 1.0
   rsnw_mlt = 1500.
   shortwave = "dEdd"
   sw_dtemp = 0.01d0
@@ -195,7 +195,7 @@
   update_ocn_f = .true.
   ustar_min = 0.005
   wave_spec_file = "unknown_wave_spec_file"
-  wave_spec_type = "none"
+  wave_spec_type = 'alt'
 /
 &domain_nml
   add_mpi_barriers = .false.
@@ -271,18 +271,18 @@
   f_drag = "xxxxx"
 /
 &icefields_fsd_nml
-  f_afsd = "xxxxx"
-  f_afsdn = "xxxxx"
-  f_dafsd_latg = "xxxxx"
-  f_dafsd_latm = "xxxxx"
-  f_dafsd_newi = "xxxxx"
-  f_dafsd_wave = "xxxxx"
-  f_dafsd_weld = "xxxxx"
-  f_diam_ww = "xxxxx"
-  f_fsdperim = "xxxxx"
-  f_fsdrad = "xxxxx"
-  f_hice_ww = "xxxxx"
-  f_wave_sig_ht = "xxxxx"
+  f_afsd = "mdxxx"
+  f_afsdn = "mdxxx"
+  f_dafsd_latg = "mdxxx"
+  f_dafsd_latm = "mdxxx"
+  f_dafsd_newi = "mdxxx"
+  f_dafsd_wave = "mdxxx"
+  f_dafsd_weld = "mdxxx"
+  f_diam_ww = "mdxxx"
+  f_fsdperim = "mdxxx"
+  f_fsdrad = "mdxxx"
+  f_hice_ww = "mdxxx"
+  f_wave_sig_ht = "mdxxx"
 /
 &icefields_mechred_nml
   f_alvl = "xxxxx"
@@ -392,10 +392,10 @@
   f_fmeltt_ai = "xxxxx"
   f_fmelttn_ai = "xxxxx"
   f_frazil = "mdxxx"
-  f_fresh = "mdxxx"
-  f_fresh_ai = "mdxxx"
+  f_fresh = 'mxxxx'
+  f_fresh_ai = 'mxxxx'
   f_frz_onset = "xxxxx"
-  f_frzmlt = "xxxxx"
+  f_frzmlt = 'mdxxx'
   f_fsalt = "mdxxx"
   f_fsalt_ai = "mdxxx"
   f_fsens = "mxxxx"
@@ -463,7 +463,7 @@
   f_uarea = .true.
   f_uatm = "mxxxx"
   f_uocn = "xxxxx"
-  f_uvel = "mxxxx"
+  f_uvel = "mdxxx"
   f_vatm = "mxxxx"
   f_vgrdb = .true.
   f_vgrdi = .true.
@@ -471,5 +471,5 @@
   f_vicen = "mdhxx"
   f_vocn = "xxxxx"
   f_vsnon = "mdhxx"
-  f_vvel = "mxxxx"
+  f_vvel = "mdxxx"
 /
