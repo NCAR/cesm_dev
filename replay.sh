@@ -42,3 +42,5 @@ cd "${CASEDIR}"
 
 ./xmlchange PROJECT=CESM0024,RESUBMIT=0,STOP_N=3,STOP_OPTION=ndays
 
+./xmlchange REST_OPTION=nyears,REST_N=1
+
