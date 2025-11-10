@@ -51,18 +51,6 @@
          'TAUY', 'TGCLDIWP', 'TGCLDLWP', 'TMQ', 'TOT_CLD_VISTAU', 'TREFHT', 'TREFHTMN', 'TREFHTMX', 'TROP_P',
          'TROP_T', 'TROP_Z', 'TS', 'TTEND_TOT', 'TTGWORO', 'TTGWSPEC', 'U', 'U10', 'UTGWORO',
          'UTGWSPEC', 'V', 'VD01', 'WD_SO2', 'Z3', 'ZMDQ', 'ZMDT', 'ZMMTT', 'ZMMU'
- fincl2		= 'ACTNL', 'ACTREL', 'AODVISdn', 'bc_a1', 'bc_a4', 'BURDENBCdn', 'BURDENDUSTdn', 'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn',
-         'BUTGWSPEC', 'CDNUMC', 'CLDICE', 'CLDLIQ', 'CLDTOT', 'CLOUD', 'OMEGA', 'OMEGA500', 'PM25_SRF', 'pom_a1', 'pom_a4',
-         'PRECC', 'PRECT', 'PS', 'PSL', 'PTTEND', 'Q', 'QFLX', 'QRL', 'QRS', 'QSNOW', 'RELHUM',
-         'RHREFHT', 'SHFLX', 'SO2', 'so4_a1', 'so4_a2', 'so4_a3', 'SOLIN', 'SOLLD', 'SOLSD', 'T', 'T700',
-         'T850', 'TAUBLJX', 'TAUBLJY', 'TAUGWX', 'TAUGWY', 'TAUX', 'TAUY', 'TGCLDIWP', 'TGCLDLWP', 'TMQ', 'TOT_CLD_VISTAU',
-         'TREFHT', 'TREFHTMN', 'TREFHTMX', 'TREFMNAV', 'TREFMXAV', 'TS', 'U', 'U10', 'UTGWORO', 'UTGWSPEC', 'V',
-         'Z1000', 'Z3', 'Z500', 'ZMFLXSNW'
- fincl3		= 'FLDS', 'FSDS', 'PRECT', 'PSL', 'PS', 'QREFHT', 'RHREFHT', 'TMQ', 'TREFHT', 'TS', 'U', 'U10', 'V', 'Z1000',
-         'Z3', 'Z500', 'Z700', 'PRECTMX', 'Q'
- fincl4		= 'QREFHT', 'PRECT', 'PS', 'FLDS', 'FSDS', 'TREFHT', 'RHREFHT', 'num_a1', 'num_a2', 'num_a3', 'num_a4',
-         'bc_a1', 'bc_a4', 'dst_a1', 'dst_a2', 'dst_a3', 'pom_a1', 'pom_a4', 'so4_a1', 'so4_a2', 'so4_a3', 'ncl_a1',
-         'ncl_a2', 'ncl_a3', 'ncl_c1', 'ncl_c2', 'ncl_c3', 'SO2', 'U10'
  interpolate_output		= .false.,.false.,.false.,.false.
  mfilt		= 0,5,20,40
  ndens		= 2,2,2,2
