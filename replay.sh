@@ -32,3 +32,15 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+
+./xmlchange CASE_GIT_REPOSITORY=https://github.com/NCAR/cesm_dev.git
+
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+
+./xmlchange CASE_GIT_REPOSITORY=https://github.com/NCAR/cesm_dev.git
+
+./xmlchange JOB_PRIORITY=premium
+

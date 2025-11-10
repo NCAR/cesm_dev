@@ -39,3 +39,5 @@ ERROR: Command: 'qsub -q main -l walltime=12:00:00 -A CESM0024 -l job_priority=s
 ERROR: Model did not complete - see /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.002/run/med.log.3567122.desched1.251107-212348 
  
  ---------------------------------------------------
+2025-11-10 09:22:31: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
+ ---------------------------------------------------
