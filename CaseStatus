@@ -68,3 +68,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/cmip7/b.e30_alpha07f.
 ERROR: Model did not complete - see /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.003/run/med.log.3580219.desched1.251110-133113 
  
  ---------------------------------------------------
+2025-11-10 13:49:07: xmlchange success <command> ./xmlchange PROJECT=CESM0024,RESUBMIT=2,STOP_N=3,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
