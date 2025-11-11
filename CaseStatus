@@ -130,3 +130,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/cmip7/b.e30_alpha07f.
  ---------------------------------------------------
 2025-11-11 07:09:37: case.submit success case.run:3586052.desched1, case.st_archive:3586053.desched1, amon:3586054.desched1, lmon:3586055.desched1
  ---------------------------------------------------
+2025-11-11 08:39:42: case.run starting 3586052.desched1
+ ---------------------------------------------------
