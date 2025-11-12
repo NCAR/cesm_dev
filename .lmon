@@ -2,6 +2,7 @@
 #PBS -N lmon.b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.003
 #PBS  -r n 
 #PBS  -j oe 
+#PBS  -V 
 #PBS  -S /bin/bash  
 #PBS  -l select=1:ncpus=4:mpiprocs=4:ompthreads=1:mem=40GB
 
