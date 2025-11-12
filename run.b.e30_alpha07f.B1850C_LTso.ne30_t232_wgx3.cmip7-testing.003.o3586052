@@ -39,3 +39,8 @@ Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF'
  - Checking for required input datasets in DIN_LOC_ROOT
 -------------------------------------------------------------------------
 run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.003/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: Command: 'git -C /glade/u/home/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.003 push origin' failed with error 'git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.' from dir '/glade/u/home/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.003'
