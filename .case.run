@@ -5,7 +5,7 @@
 #PBS  -j oe 
 #PBS  -S /bin/bash  
 #PBS  -l select=27:ncpus=128:mpiprocs=128:ompthreads=1:mem=235GB
-
+#PBS -V
 """
 template to create a case run script. This should only ever be called
 by case.submit when on batch system. This script only exists as a way of providing

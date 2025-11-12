@@ -344,7 +344,7 @@ WAV_attributes::
 
 MED_modelio::
      diro = /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005/run
-     logfile = med.log.251112-075354
+     logfile = med.log.251112-083231
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -356,7 +356,7 @@ MED_modelio::
 
 ATM_modelio::
      diro = /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005/run
-     logfile = atm.log.251112-075354
+     logfile = atm.log.251112-083231
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -368,7 +368,7 @@ ATM_modelio::
 
 LND_modelio::
      diro = /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005/run
-     logfile = lnd.log.251112-075354
+     logfile = lnd.log.251112-083231
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -380,7 +380,7 @@ LND_modelio::
 
 ICE_modelio::
      diro = /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005/run
-     logfile = ice.log.251112-075354
+     logfile = ice.log.251112-083231
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -392,7 +392,7 @@ ICE_modelio::
 
 OCN_modelio::
      diro = /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005/run
-     logfile = ocn.log.251112-075354
+     logfile = ocn.log.251112-083231
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -404,7 +404,7 @@ OCN_modelio::
 
 ROF_modelio::
      diro = /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005/run
-     logfile = rof.log.251112-075354
+     logfile = rof.log.251112-083231
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -416,7 +416,7 @@ ROF_modelio::
 
 GLC_modelio::
      diro = /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005/run
-     logfile = glc.log.251112-075354
+     logfile = glc.log.251112-083231
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -428,7 +428,7 @@ GLC_modelio::
 
 WAV_modelio::
      diro = /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005/run
-     logfile = wav.log.251112-075354
+     logfile = wav.log.251112-083231
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -440,7 +440,7 @@ WAV_modelio::
 
 ESP_modelio::
      diro = /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005/run
-     logfile = esp.log.251112-075354
+     logfile = esp.log.251112-083231
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_data
      pio_numiotasks = -99
@@ -452,6 +452,6 @@ ESP_modelio::
 
 DRV_modelio::
      diro = /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005/run
-     logfile = drv.log.251112-075354
+     logfile = drv.log.251112-083231
 ::
 
