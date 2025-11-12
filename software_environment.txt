@@ -1,6 +1,7 @@
 Currently Loaded Modules:
-  1) cesmdev/1.0   (H,S)   3) conda/latest   5) craype/2.7.31   7) intel/2024.2.1   9) kokkos/4.2.01        11) libfabric/1.15.2.0  13) hdf5-mpi/1.12.3   15) parallel-netcdf/1.14.0  17) esmf/8.9.0
-  2) ncarenv/24.12 (S)     4) nco/5.3.1      6) cmake/3.26.6    8) mkl/2024.2.2    10) ncarcompilers/1.0.0  12) cray-mpich/8.1.29   14) netcdf-mpi/4.9.3  16) parallelio/2.6.6
+  1) cesmdev/1.0   (H,S)   4) nco/5.3.1       7) intel/2024.2.1  10) ncarcompilers/1.0.0  13) hdf5-mpi/1.12.3         16) parallelio/2.6.6
+  2) ncarenv/24.12 (S)     5) craype/2.7.31   8) mkl/2024.2.2    11) libfabric/1.15.2.0   14) netcdf-mpi/4.9.3        17) esmf/8.9.0
+  3) conda/latest          6) cmake/3.26.6    9) kokkos/4.2.01   12) cray-mpich/8.1.29    15) parallel-netcdf/1.14.0
 
   Where:
    H:  Hidden Module
@@ -14,16 +15,15 @@ NCAR_INC_ESMF=/glade/u/apps/derecho/24.12/spack/opt/spack/esmf/8.9.0/cray-mpich/
 NCAR_LDFLAGS_ESMF=/glade/u/apps/derecho/24.12/spack/opt/spack/esmf/8.9.0/cray-mpich/8.1.29/oneapi/2024.2.1/zlqr/lib
 LD_LIBRARY_PATH=/opt/cray/pe/cti/2.18.3/lib:/opt/cray/pe/pmi/6.1.14/lib:/opt/cray/pe/mpich/8.1.29/ofi/intel/2022.1/lib:/opt/cray/libfabric/1.15.2.0/lib64:/opt/cray/libfabric/1.15.2.0/lib:/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-mkl/2024.2.2/oneapi/2024.2.1/kvnq/mkl/2024.2/lib:/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b/compiler/2024.2/opt/compiler/lib:/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b/compiler/2024.2/lib:/glade/u/apps/derecho/24.12/spack/opt/spack/hdf5/1.12.3/cray-mpich/8.1.29/oneapi/2024.2.1/3vyi/lib
 LS_COLORS=no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.dl=01;35:*.fli=01;35:*.gif=01;35:*.gl=01;35:*.jpg=01;35:*.jpeg=01;35:*.mkv=01;35:*.mng=01;35:*.mov=01;35:*.mp4=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.svg=01;35:*.tga=01;35:*.tif=01;35:*.webm=01;35:*.webp=01;35:*.wmv=01;35:*.xbm=01;35:*.xcf=01;35:*.xpm=01;35:*.aiff=00;32:*.ape=00;32:*.au=00;32:*.flac=00;32:*.m4a=00;32:*.mid=00;32:*.mp3=00;32:*.mpc=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:*.wma=00;32:*.wv=00;32:
-CSHRCREAD=true
 HOSTTYPE=x86_64
 __LMOD_REF_COUNT_NCAR_INC_ESMF=/glade/u/apps/derecho/24.12/spack/opt/spack/esmf/8.9.0/cray-mpich/8.1.29/oneapi/2024.2.1/zlqr/include:1
-GIT_COMMITTER_NAME=Cecile Hannay
+GIT_COMMITTER_NAME=Jim Edwards
 NCAR_GLOBUS_GDRIVE=397f7166-9af5-402f-abfc-c3b184d609ba
 NCAR_LDFLAGS_KOKKOS64=/glade/u/apps/derecho/24.12/spack/opt/spack/kokkos/4.2.01/oneapi/2024.2.1/vr5f/lib64
 LARAMIE_SCRATCH=/picnic/scratch/cmip7
 __LMOD_REF_COUNT_NCAR_INC_NETCDF=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/include:1
 PIO_VERSION_MAJOR=2
-__LMOD_REF_COUNT_PATH=/glade/u/apps/derecho/24.12/spack/opt/spack/esmf/8.9.0/cray-mpich/8.1.29/oneapi/2024.2.1/zlqr/bin:2;/glade/u/apps/derecho/24.12/spack/opt/spack/parallel-netcdf/1.14.0/cray-mpich/8.1.29/oneapi/2024.2.1/la34/bin:2;/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin:2;/glade/u/apps/derecho/24.12/spack/opt/spack/hdf5/1.12.3/cray-mpich/8.1.29/oneapi/2024.2.1/3vyi/bin:2;/glade/u/apps/derecho/24.12/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2024.2.1/3aiv/bin/mpi:1;/opt/cray/pe/pals/1.2.12/bin:1;/opt/cray/libfabric/1.15.2.0/bin:2;/opt/cray/pe/mpich/8.1.29/ofi/intel/2022.1/bin:1;/opt/cray/pe/mpich/8.1.29/bin:1;/glade/u/apps/derecho/24.12/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2024.2.1/3aiv/bin:2;/glade/u/apps/derecho/24.12/spack/opt/spack/kokkos/4.2.01/oneapi/2024.2.1/vr5f/bin:2;/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-mkl/2024.2.2/oneapi/2024.2.1/kvnq/mkl/2024.2/bin:1;/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b/compiler/2024.2/bin:1;/glade/u/apps/derecho/24.12/spack/opt/spack/cmake/3.26.6/gcc/12.4.0/okco/bin:2;/opt/cray/pe/craype/2.7.31/bin:1;/glade/u/apps/derecho/24.12/spack/opt/spack/nco/5.3.1/gcc/12.4.0/vih5/bin:2;/glade/u/apps/opt/conda/condabin:1;/glade/u/apps/casper/24.12/spack/opt/spack/gcc/12.4.0/5b5c/bin:1;/glade/u/apps/derecho/24.12/opt/utils/bin:1;/glade/u/apps/cseg/derecho/python/lib64/python3.10/site-packages/bin:1;/opt/clmgr/sbin:1;/opt/clmgr/bin:1;/opt/sgi/sbin:1;/opt/sgi/bin:1;/glade/u/home/cmip7/bin:1;/usr/sbin:1;/usr/local/sbin:1;/opt/c3/bin:1;/usr/lib/mit/bin:1;/usr/lib/mit/sbin:1;/opt/pbs/bin:1;/glade/u/apps/derecho/24.12/opt/view/bin:1;/usr/local/bin:4;/usr/bin:4;/sbin:5;/bin:5;/opt/cray/pe/bin:1
+__LMOD_REF_COUNT_PATH=/glade/u/apps/derecho/24.12/spack/opt/spack/esmf/8.9.0/cray-mpich/8.1.29/oneapi/2024.2.1/zlqr/bin:2;/glade/u/apps/derecho/24.12/spack/opt/spack/parallel-netcdf/1.14.0/cray-mpich/8.1.29/oneapi/2024.2.1/la34/bin:2;/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin:2;/glade/u/apps/derecho/24.12/spack/opt/spack/hdf5/1.12.3/cray-mpich/8.1.29/oneapi/2024.2.1/3vyi/bin:2;/glade/u/apps/derecho/24.12/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2024.2.1/3aiv/bin/mpi:1;/opt/cray/pe/pals/1.2.12/bin:1;/opt/cray/libfabric/1.15.2.0/bin:2;/opt/cray/pe/mpich/8.1.29/ofi/intel/2022.1/bin:1;/opt/cray/pe/mpich/8.1.29/bin:1;/glade/u/apps/derecho/24.12/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2024.2.1/3aiv/bin:2;/glade/u/apps/derecho/24.12/spack/opt/spack/kokkos/4.2.01/oneapi/2024.2.1/vr5f/bin:2;/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-mkl/2024.2.2/oneapi/2024.2.1/kvnq/mkl/2024.2/bin:1;/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b/compiler/2024.2/bin:1;/glade/u/apps/derecho/24.12/spack/opt/spack/cmake/3.26.6/gcc/12.4.0/okco/bin:2;/opt/cray/pe/craype/2.7.31/bin:1;/glade/u/apps/derecho/24.12/spack/opt/spack/nco/5.3.1/gcc/12.4.0/vih5/bin:2;/glade/u/apps/opt/conda/condabin:1;/glade/u/apps/casper/24.12/spack/opt/spack/gcc/12.4.0/5b5c/bin:1;/glade/u/apps/derecho/24.12/opt/utils/bin:1;/glade/u/apps/cseg/derecho/python/lib64/python3.10/site-packages/bin:1;/opt/clmgr/sbin:1;/opt/clmgr/bin:1;/opt/sgi/sbin:1;/opt/sgi/bin:1;/glade/u/home/cmip7/bin:1;/opt/c3/bin:1;/usr/lib/mit/bin:1;/usr/lib/mit/sbin:1;/opt/pbs/bin:1;/glade/u/apps/derecho/24.12/opt/view/bin:1;/usr/local/bin:3;/usr/bin:3;/sbin:3;/bin:4;/opt/cray/pe/bin:1
 NCAR_GLOBUS_QUASAR=58bc6c98-8bba-11e9-b808-0a37f382de32
 NCAR_MODULEROOT_USER=/glade/work/cmip7/spack-downstreams/derecho/modules/24.12
 NCAR_SPACK_HASH_HDF5=3vyi4ygl7ocnpluw4nj6g77k2uhk36dw
@@ -59,20 +59,20 @@ PE_MPICH_GTL_LIBS_nvidia70=-lmpi_gtl_cuda
 NCAR_ENV_CONFIG=/glade/u/apps/derecho/24.12/config
 NCAR_INC_LIBFABRIC=/opt/cray/libfabric/1.15.2.0/include
 __NCAR_MODULEROOT_CSEG=/glade/u/apps/cseg/derecho/modules/24.12
-DISPLAY=localhost:21.0
+DISPLAY=localhost:18.0
 SUDO_GID=1000
 LMOD_FAMILY_COMPILER_VERSION=2024.2.1
 NCAR_SPACK_HASH_NCO=vih5rlm6xlmjwjpnmo5cvjdawrygov6f
-HOSTNAME=derecho4.de.hpc.ucar.edu
+HOSTNAME=derecho5
 LMOD_SYSTEM_DEFAULT_MODULES=ncarenv/24.12:craype/2.7.31:intel/2024.2.1:ncarcompilers/1.0.0:cray-mpich/8.1.29:netcdf/4.9.2
-OLDPWD=/glade/u/home/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005
+OLDPWD=/glade/u/home/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.003
 NCAR_SPACK_HASH_NCARCOMPILERS=3aiv6winjxzcur3obqvg7j7xteh6b2b6
 WRFIO_NCD_LARGE_FILE_SUPPORT=1
 __LMOD_STACK_F77=aWZvcnQ=:aWZvcnQ=:aWZvcnQ=:aWZ4
 CSHEDIT=emacs
 PALS_FANOUT=32
 NVCC_WRAPPER_DEFAULT_COMPILER=CC
-GPG_TTY=/dev/pts/74
+GPG_TTY=/dev/pts/143
 LESS_ADVANCED_PREPROCESSOR=no
 NCAR_ROOT_ESMF=/glade/u/apps/derecho/24.12/spack/opt/spack/esmf/8.9.0/cray-mpich/8.1.29/oneapi/2024.2.1/zlqr
 COLORTERM=1
@@ -92,8 +92,7 @@ NCAR_INC_KOKKOS=/glade/u/apps/derecho/24.12/spack/opt/spack/kokkos/4.2.01/oneapi
 __LMOD_STACK_LMOD_AVAIL_STYLE=Z3JvdXBlZDpzeXN0ZW0=:Z3JvdXBlZDpzeXN0ZW0=
 NCAR_SPACK_HASH_KOKKOS=vr5fge7rhzjsxoctjenfx7bfq33vonaz
 LMOD_FAMILY_CRAYPE_VERSION=2.7.31
-SUDO_COMMAND=/glade/u/home/hannay/.sudox_cmds
-VENDOR=unknown
+SUDO_COMMAND=/glade/u/home/jedwards/.sudox_cmds
 MACHTYPE=x86_64-suse-linux
 INSTALLPATH_ROOT=/glade/u/apps/derecho/default/spack/opt/spack
 NCAR_ROOT_INTEL=/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b
@@ -157,10 +156,9 @@ __LMOD_REF_COUNT_MODULEPATH=/glade/u/apps/derecho/modules/environment:1;/glade/u
 MORE=-sl
 PE_FORTRAN_PKGCONFIG_LIBS=mpichf90
 __LMOD_REF_COUNT_CRAY_LD_LIBRARY_PATH=/opt/cray/pe/cti/2.18.3/lib:1;/opt/cray/pe/pmi/6.1.14/lib:1;/opt/cray/pe/mpich/8.1.29/ofi/intel/2022.1/lib:1;/opt/cray/pe/mpich/8.1.29/gtl/lib:1
-GROUP=ncar
 NCAR_LDFLAGS_PARALLELIO=/glade/u/apps/derecho/24.12/spack/opt/spack/parallelio/2.6.6/cray-mpich/8.1.29/oneapi/2024.2.1/5oef/lib
 __LMOD_REF_COUNT_NCAR_LDFLAGS_NETCDF64=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/lib64:1
-GIT_COMMITTER_EMAIL=hannay@ucar.edu
+GIT_COMMITTER_EMAIL=jedwards@ucar.edu
 PWD=/glade/u/home/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.005
 PE_MPICH_GTL_DIR_ponteVecchio=-L/opt/cray/pe/mpich/8.1.29/gtl/lib
 PE_MPICH_GTL_DIR_nvidia70=-L/opt/cray/pe/mpich/8.1.29/gtl/lib
@@ -172,13 +170,12 @@ CMAKE_PREFIX_PATH=/glade/u/apps/derecho/24.12/spack/opt/spack/esmf/8.9.0/cray-mp
 NCAR_GLOBUS_STRATUS=b9cf5e6c-9245-11eb-b7a4-f57b2d55370d
 PE_MPICH_GTL_LIBS_amd_gfx942=-lmpi_gtl_hsa
 PE_MPICH_GTL_LIBS_amd_gfx940=-lmpi_gtl_hsa
-HOST=derecho4
+HOST=derecho5
 __LMOD_REF_COUNT_PE_PMI_PKGCONFIG_LIBS=cray-pmi:1
 LMOD_VERSION=8.7.37
-TARG_TITLE_BAR_PAREN= 
 NCAR_LDFLAGS_0_COMMON64=/glade/u/apps/derecho/24.12/opt/view/lib64
 NCAR_SPACK_HASH_PARALLEL_NETCDF=la34ociabwtfuoinbsky3doiuatvrv32
-SUDO_USER=hannay
+SUDO_USER=jedwards
 XNLSPATH=/usr/share/X11/nls
 __NCAR_MODULEROOT_USER=/glade/work/cmip7/spack-downstreams/derecho/modules/24.12
 PE_MPICH_FORTRAN_PKGCONFIG_LIBS=mpichf90
@@ -186,22 +183,21 @@ CPATH=/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-mkl/2024.2.2/oneap
 Kokkos_ROOT=/glade/u/apps/derecho/24.12/spack/opt/spack/kokkos/4.2.01/oneapi/2024.2.1/vr5f
 NCAR_ROOT_CONDA=/glade/u/apps/opt/conda
 WORK=/glade/work/cmip7
-LMOD_SETTARG_CMD=:
 NCAR_DEFAULT_PATH=/usr/local/bin:/usr/bin:/sbin:/bin
 NCAR_LDFLAGS_NETCDF=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/lib
 PNETCDF=/glade/u/apps/derecho/24.12/spack/opt/spack/parallel-netcdf/1.14.0/cray-mpich/8.1.29/oneapi/2024.2.1/la34
 NCAR_INC_NETCDF=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/include
-__LMOD_REF_COUNT_INFOPATH=/glade/u/apps/derecho/24.12/opt/view/share/info:1;/usr/local/share/info:3;/usr/share/info:3
+__LMOD_REF_COUNT_INFOPATH=:1;/glade/u/apps/derecho/24.12/opt/view/share/info:1;/usr/local/share/info:2;/usr/share/info:2
 PE_MPICH_GTL_LIBS_nvidia80=-lmpi_gtl_cuda
 F77=ifort
-GIT_SSH_COMMAND=ssh -i ~/.ssh/id_rsa.hannay
-BASH_ENV=/glade/u/apps/derecho/24.12/spack/opt/spack/lmod/8.7.37/gcc/12.4.0/nr3e/lmod/lmod/init/bash
-XDG_DATA_DIRS=/usr/local/share:/usr/share
+GIT_SSH_COMMAND=ssh -i ~/.ssh/id_rsa.jedwards
+XDG_DATA_DIRS=/usr/share
 PE_PALS_PKGCONFIG_LIBS=libpals
 NCAR_ROOT_COMPILER=/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b
 __LMOD_REF_COUNT_PE_MPICH_FORTRAN_PKGCONFIG_LIBS=mpichf90:1
 QHIST_SERVER_CONFIG=/glade/u/apps/config/qhist/derecho.json
 __NCAR_VARS_MODULEROOT=NCAR_MODULEROOT_CSEG:NCAR_MODULEROOT_USER
+PBS_ACCOUNT=CESM0024
 DERECHO_SCRATCH=/glade/derecho/scratch/cmip7
 NCAR_LDFLAGS_PARALLEL_NETCDF=/glade/u/apps/derecho/24.12/spack/opt/spack/parallel-netcdf/1.14.0/cray-mpich/8.1.29/oneapi/2024.2.1/la34/lib
 PE_PMI_PKGCONFIG_LIBS=cray-pmi
@@ -236,17 +232,17 @@ NCAR_ENV_SPACK=/glade/u/apps/derecho/24.12/spack
 PIO=/glade/u/apps/derecho/24.12/spack/opt/spack/parallelio/2.6.6/cray-mpich/8.1.29/oneapi/2024.2.1/5oef
 __LMOD_REF_COUNT_ACLOCAL_PATH=/glade/u/apps/derecho/24.12/spack/opt/spack/cmake/3.26.6/gcc/12.4.0/okco/share/aclocal:1;/usr/share/aclocal:1;/glade/u/apps/derecho/24.12/opt/view/share/aclocal:1
 _ModuleTable006_=Mi4zIiwKd1YgPSAiMDAwMDAwMDAxLjAwMDAwMDAxMi4wMDAwMDAwMDMuKnpmaW5hbCIsCn0sCmludGVsID0gewpmbiA9ICIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9Db3JlL2ludGVsLzIwMjQuMi4xLmx1YSIsCmZ1bGxOYW1lID0gImludGVsLzIwMjQuMi4xIiwKbG9hZE9yZGVyID0gNywKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDAsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJpbnRlbC8yMDI0LjIuMSIsCndWID0gIl4wMDAwMjAyNC4wMDAwMDAwMDIuMDAwMDAwMDAxLip6ZmluYWwiLAp9LAprb2trb3MgPSB7CmZuID0gIi9nbGFkZS91L2FwcHMvZGVyZWNoby9tb2R1bGVzLzI0LjEyL29uZWFwaS8yMDI0LjIuMS9rb2trb3MvNC4yLjAx
-__LMOD_REF_COUNT_MANPATH=/glade/u/apps/derecho/24.12/spack/opt/spack/parallel-netcdf/1.14.0/cray-mpich/8.1.29/oneapi/2024.2.1/la34/share/man:2;/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/share/man:2;/opt/cray/pe/cti/2.18.3/share/man:1;/opt/cray/pe/pmi/6.1.14/man:1;/opt/cray/pe/pals/1.2.12/man:1;/opt/cray/libfabric/1.15.2.0/share/man:2;/opt/cray/pe/mpich/8.1.29/ofi/man:1;/opt/cray/pe/mpich/8.1.29/man/mpich:1;/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b/compiler/2024.2/share/man:1;/opt/cray/pe/craype/2.7.31/man:1;/glade/u/apps/derecho/24.12/spack/opt/spack/nco/5.3.1/gcc/12.4.0/vih5/share/man:2;/usr/local/man:1;/usr/man:1;/opt/c3/man:1;/opt/pbs/share/man:1;/opt/clmgr/man:1;/opt/sgi/share/man:1;/opt/clmgr/share/man:1;/opt/clmgr/lib/cm-cli/man:1;/glade/u/apps/derecho/24.12/opt/view/man:1;/glade/u/apps/derecho/24.12/opt/view/share/man:1;/usr/local/share/man:3;/usr/share/man:4
+__LMOD_REF_COUNT_MANPATH=/glade/u/apps/derecho/24.12/spack/opt/spack/parallel-netcdf/1.14.0/cray-mpich/8.1.29/oneapi/2024.2.1/la34/share/man:2;/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/share/man:2;/opt/cray/pe/cti/2.18.3/share/man:1;/opt/cray/pe/pmi/6.1.14/man:1;/opt/cray/pe/pals/1.2.12/man:1;/opt/cray/libfabric/1.15.2.0/share/man:2;/opt/cray/pe/mpich/8.1.29/ofi/man:1;/opt/cray/pe/mpich/8.1.29/man/mpich:1;/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b/compiler/2024.2/share/man:1;/opt/cray/pe/craype/2.7.31/man:1;/glade/u/apps/derecho/24.12/spack/opt/spack/nco/5.3.1/gcc/12.4.0/vih5/share/man:2;/usr/local/man:1;/usr/man:1;/opt/c3/man:1;/opt/pbs/share/man:1;/opt/clmgr/man:1;/opt/sgi/share/man:1;/opt/clmgr/share/man:1;/opt/clmgr/lib/cm-cli/man:1;/glade/u/apps/derecho/24.12/opt/view/man:1;/glade/u/apps/derecho/24.12/opt/view/share/man:1;/usr/local/share/man:2;/usr/share/man:3
 SCRATCH=/glade/derecho/scratch/cmip7
 _ModuleTable003_=ZSA9ICJjb25kYS9sYXRlc3QiLApsb2FkT3JkZXIgPSAzLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImNvbmRhL2xhdGVzdCIsCndWID0gIipsYXRlc3QuKnpmaW5hbCIsCn0sClsiY3JheS1tcGljaCJdID0gewpmbiA9ICIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9vbmVhcGkvMjAyNC4yLjEvY3JheS1tcGljaC84LjEuMjkubHVhIiwKZnVsbE5hbWUgPSAiY3JheS1tcGljaC84LjEuMjkiLApsb2FkT3JkZXIgPSAxMiwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDAsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJjcmF5LW1waWNoLzguMS4yOSIsCndWID0gIjAwMDAwMDAwOC4wMDAw
 LMOD_ROOT=/glade/u/apps/derecho/24.12/spack/opt/spack/lmod/8.7.37/gcc/12.4.0/nr3e/lmod
 __LMOD_REF_COUNT_NCAR_LDFLAGS_HDF5=/glade/u/apps/derecho/24.12/spack/opt/spack/hdf5/1.12.3/cray-mpich/8.1.29/oneapi/2024.2.1/3vyi/lib:1
 QSCACHE_SERVER=derecho
-SUDO_UID=7912
+SUDO_UID=2738
 FROM_HEADER=
-GIT_AUTHOR_NAME=Cecile Hannay
+GIT_AUTHOR_NAME=Jim Edwards
 CRAY_MPICH_ROOTDIR=/opt/cray/pe/mpich/8.1.29
-_ModuleTable013_=Lip6ZmluYWwiLAp9LAp9LAptcGF0aEEgPSB7CiIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy9lbnZpcm9ubWVudCIsICIvZ2xhZGUvdS9hcHBzL2NzZWcvZGVyZWNoby9tb2R1bGVzLzI0LjEyL0NvcmUiLCAiL2dsYWRlL3dvcmsvY21pcDcvc3BhY2stZG93bnN0cmVhbXMvZGVyZWNoby9tb2R1bGVzLzI0LjEyL0NvcmUiLCAiL2dsYWRlL3UvYXBwcy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvQ29yZSIKLCAiL2dsYWRlL3UvYXBwcy9jc2VnL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9vbmVhcGkvMjAyNC4yLjEiLCAiL2dsYWRlL3dvcmsvY21pcDcvc3BhY2stZG93bnN0cmVhbXMvZGVyZWNoby9tb2R1bGVzLzI0LjEyL29uZWFwaS8yMDI0LjIuMSIsICIvZ2xhZGUvdS9hcHBz
+_ModuleTable013_=Lip6ZmluYWwiLAp9LAp9LAptcGF0aEEgPSB7CiIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy9lbnZpcm9ubWVudCIsICIvZ2xhZGUvdS9hcHBzL2NzZWcvZGVyZWNoby9tb2R1bGVzLzI0LjEyL0NvcmUiLCAiL2dsYWRlL3dvcmsvY21pcDcvc3BhY2stZG93bnN0cmVhbXMvZGVyZWNoby9tb2R1bGVzLzI0LjEyL0NvcmUiCiwgIi9nbGFkZS91L2FwcHMvZGVyZWNoby9tb2R1bGVzLzI0LjEyL0NvcmUiLCAiL2dsYWRlL3UvYXBwcy9jc2VnL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9vbmVhcGkvMjAyNC4yLjEiCiwgIi9nbGFkZS93b3JrL2NtaXA3L3NwYWNrLWRvd25zdHJlYW1zL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9vbmVhcGkvMjAyNC4yLjEiLCAiL2dsYWRlL3UvYXBw
 MAIL=/var/mail/cmip7
 PE_INTEL_FIXED_PKGCONFIG_PATH=/opt/cray/pe/mpich/8.1.29/ofi/intel/2022.1/lib/pkgconfig
 CXX=icpx
@@ -292,7 +288,7 @@ NCAR_ID_MPI=cray-mpich-8.1.29
 PYTHONSTARTUP=/etc/pythonstart
 ESMF_RUNTIME_PROFILE_OUTPUT=SUMMARY
 CRAY_ADD_RPATH=yes
-SHLVL=4
+SHLVL=3
 LANGUAGE=en_US.UTF-8
 PYTHONPATH=/glade/work/cmip7/cesm_tags/cesm3_0_alpha07f/cime:/glade/work/cmip7/cesm_tags/cesm3_0_alpha07f/cime/CIME/Tools:/glade/u/apps/derecho/24.12/spack/opt/spack/esmf/8.9.0/cray-mpich/8.1.29/oneapi/2024.2.1/zlqr/lib/python3.11/site-packages:/glade/work/cmip7/cesm_tags/cesm3_0_alpha07f/cime:/glade/work/cmip7/cesm_tags/cesm3_0_alpha07f/cime/CIME/Tools:/glade/u/apps/cseg/derecho/python/lib64/python3.10/site-packages
 G_FILENAME_ENCODING=@locale,UTF-8,ISO-8859-15,CP1252
@@ -332,10 +328,10 @@ __LMOD_REF_COUNT_PE_INTEL_FIXED_PKGCONFIG_PATH=/opt/cray/pe/mpich/8.1.29/ofi/int
 __NCARENV_WORK=1
 PE_MPICH_GTL_LIBS_amd_gfx906=-lmpi_gtl_hsa
 XDG_CONFIG_DIRS=/etc/xdg
-PATH=/glade/u/apps/derecho/24.12/spack/opt/spack/esmf/8.9.0/cray-mpich/8.1.29/oneapi/2024.2.1/zlqr/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/parallel-netcdf/1.14.0/cray-mpich/8.1.29/oneapi/2024.2.1/la34/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/hdf5/1.12.3/cray-mpich/8.1.29/oneapi/2024.2.1/3vyi/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2024.2.1/3aiv/bin/mpi:/opt/cray/pe/pals/1.2.12/bin:/opt/cray/libfabric/1.15.2.0/bin:/opt/cray/pe/mpich/8.1.29/ofi/intel/2022.1/bin:/opt/cray/pe/mpich/8.1.29/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2024.2.1/3aiv/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/kokkos/4.2.01/oneapi/2024.2.1/vr5f/bin:/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-mkl/2024.2.2/oneapi/2024.2.1/kvnq/mkl/2024.2/bin:/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b/compiler/2024.2/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/cmake/3.26.6/gcc/12.4.0/okco/bin:/opt/cray/pe/craype/2.7.31/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/nco/5.3.1/gcc/12.4.0/vih5/bin:/glade/u/apps/opt/conda/condabin:/glade/u/apps/casper/24.12/spack/opt/spack/gcc/12.4.0/5b5c/bin:/glade/u/apps/derecho/24.12/opt/utils/bin:/glade/u/apps/cseg/derecho/python/lib64/python3.10/site-packages/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/glade/u/home/cmip7/bin:/usr/sbin:/usr/local/sbin:/opt/c3/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/opt/pbs/bin:/glade/u/apps/derecho/24.12/opt/view/bin:/usr/local/bin:/usr/bin:/sbin:/bin:/opt/cray/pe/bin
+PATH=/glade/u/apps/derecho/24.12/spack/opt/spack/esmf/8.9.0/cray-mpich/8.1.29/oneapi/2024.2.1/zlqr/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/parallel-netcdf/1.14.0/cray-mpich/8.1.29/oneapi/2024.2.1/la34/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/hdf5/1.12.3/cray-mpich/8.1.29/oneapi/2024.2.1/3vyi/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2024.2.1/3aiv/bin/mpi:/opt/cray/pe/pals/1.2.12/bin:/opt/cray/libfabric/1.15.2.0/bin:/opt/cray/pe/mpich/8.1.29/ofi/intel/2022.1/bin:/opt/cray/pe/mpich/8.1.29/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2024.2.1/3aiv/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/kokkos/4.2.01/oneapi/2024.2.1/vr5f/bin:/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-mkl/2024.2.2/oneapi/2024.2.1/kvnq/mkl/2024.2/bin:/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b/compiler/2024.2/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/cmake/3.26.6/gcc/12.4.0/okco/bin:/opt/cray/pe/craype/2.7.31/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/nco/5.3.1/gcc/12.4.0/vih5/bin:/glade/u/apps/opt/conda/condabin:/glade/u/apps/casper/24.12/spack/opt/spack/gcc/12.4.0/5b5c/bin:/glade/u/apps/derecho/24.12/opt/utils/bin:/glade/u/apps/cseg/derecho/python/lib64/python3.10/site-packages/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/glade/u/home/cmip7/bin:/opt/c3/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/opt/pbs/bin:/glade/u/apps/derecho/24.12/opt/view/bin:/usr/local/bin:/usr/bin:/sbin:/bin:/opt/cray/pe/bin
 ESMF_RUNTIME_PROFILE=ON
 PE_MPICH_GTL_LIBS_amd_gfx908=-lmpi_gtl_hsa
-_ModuleTable014_=L2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9vbmVhcGkvMjAyNC4yLjEiCiwgIi9nbGFkZS91L2FwcHMvY3NlZy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvY3JheS1tcGljaC84LjEuMjkvb25lYXBpLzIwMjQuMi4xIiwgIi9nbGFkZS93b3JrL2NtaXA3L3NwYWNrLWRvd25zdHJlYW1zL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9jcmF5LW1waWNoLzguMS4yOS9vbmVhcGkvMjAyNC4yLjEiLCAiL2dsYWRlL3UvYXBwcy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvY3JheS1tcGljaC84LjEuMjkvb25lYXBpLzIwMjQuMi4xIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9nbGFkZS91L2FwcHMvZGVyZWNoby9tb2R1bGVzL2Vudmlyb25tZW50IiwKfQo=
+_ModuleTable014_=cy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvb25lYXBpLzIwMjQuMi4xIgosICIvZ2xhZGUvdS9hcHBzL2NzZWcvZGVyZWNoby9tb2R1bGVzLzI0LjEyL2NyYXktbXBpY2gvOC4xLjI5L29uZWFwaS8yMDI0LjIuMSIsICIvZ2xhZGUvd29yay9jbWlwNy9zcGFjay1kb3duc3RyZWFtcy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvY3JheS1tcGljaC84LjEuMjkvb25lYXBpLzIwMjQuMi4xIiwgIi9nbGFkZS91L2FwcHMvZGVyZWNoby9tb2R1bGVzLzI0LjEyL2NyYXktbXBpY2gvOC4xLjI5L29uZWFwaS8yMDI0LjIuMSIsCn0sCnN5c3RlbUJhc2VNUEFUSCA9ICIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy9lbnZpcm9ubWVudCIsCn0K
 PE_MPICH_GTL_DIR_nvidia90=-L/opt/cray/pe/mpich/8.1.29/gtl/lib
 __LMOD_REF_COUNT_PE_PRODUCT_LIST=CRAYPE_X86_MILAN:1;CRAYPE:1
 NCAR_SPACK_HASH_NETCDF=rjvvb7yjaoov2pz5iy5ncpgmoxwmkouh
@@ -344,13 +340,14 @@ __LMOD_REF_COUNT_NCAR_INC_HDF5=/glade/u/apps/derecho/24.12/spack/opt/spack/hdf5/
 MODULESHOME=/glade/u/apps/derecho/24.12/spack/opt/spack/lmod/8.7.37/gcc/12.4.0/nr3e/lmod/lmod
 LMOD_SETTARG_FULL_SUPPORT=no
 PKG_CONFIG_PATH=/glade/u/apps/derecho/24.12/spack/opt/spack/parallel-netcdf/1.14.0/cray-mpich/8.1.29/oneapi/2024.2.1/la34/lib/pkgconfig:/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/lib64/pkgconfig:/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/lib/pkgconfig:/glade/u/apps/derecho/24.12/spack/opt/spack/hdf5/1.12.3/cray-mpich/8.1.29/oneapi/2024.2.1/3vyi/lib/pkgconfig:/opt/cray/pe/pmi/6.1.14/lib/pkgconfig:/opt/cray/pe/pals/1.2.12/lib/pkgconfig:/opt/cray/libfabric/1.15.2.0/lib64/pkgconfig:/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-mkl/2024.2.2/oneapi/2024.2.1/kvnq/mkl/2024.2/lib/pkgconfig:/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b/compiler/2024.2/lib/pkgconfig:/opt/cray/pe/craype/2.7.31/pkg-config:/glade/u/apps/derecho/24.12/opt/view/lib64/pkgconfig:/glade/u/apps/derecho/24.12/opt/view/lib/pkgconfig
-INFOPATH=/glade/u/apps/derecho/24.12/opt/view/share/info:/usr/local/share/info:/usr/share/info
+INFOPATH=:/glade/u/apps/derecho/24.12/opt/view/share/info:/usr/local/share/info:/usr/share/info
 G_BROKEN_FILENAMES=1
 _ModuleTable011_=cGkvNC45LjMubHVhIiwKZnVsbE5hbWUgPSAibmV0Y2RmLW1waS80LjkuMyIsCmxvYWRPcmRlciA9IDE0LApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gIm5ldGNkZi1tcGkvNC45LjMiLAp3ViA9ICIwMDAwMDAwMDQuMDAwMDAwMDA5LjAwMDAwMDAwMy4qemZpbmFsIiwKfSwKWyJwYXJhbGxlbC1uZXRjZGYiXSA9IHsKZm4gPSAiL2dsYWRlL3UvYXBwcy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvY3JheS1tcGljaC84LjEuMjkvb25lYXBpLzIwMjQuMi4xL3BhcmFsbGVsLW5ldGNkZi8xLjE0LjAubHVhIiwKZnVsbE5hbWUgPSAicGFyYWxsZWwtbmV0Y2RmLzEuMTQuMCIsCmxvYWRPcmRlciA9IDE1LApwcm9wVCA9IHt9LApz
 NCAR_SPACK_HASH_INTEL=ribzzel7zvgin7ey4kmgy4dnzrhaal4q
 __LMOD_REF_COUNT_NCAR_LDFLAGS_NCO=/glade/u/apps/derecho/24.12/spack/opt/spack/nco/5.3.1/gcc/12.4.0/vih5/lib:1
 LMOD_FAMILY_ENV_VERSION=24.12
 PE_MPICH_GTL_LIBS_amd_gfx90a=-lmpi_gtl_hsa
+HISTSIZE=1000
 CRAYPE_DIR=/opt/cray/pe/craype/2.7.31
 LMOD_PKG=/glade/u/apps/derecho/24.12/spack/opt/spack/lmod/8.7.37/gcc/12.4.0/nr3e/lmod/lmod
 __LMOD_REF_COUNT_PE_MPICH_PKGCONFIG_LIBS=mpich:1
@@ -370,8 +367,36 @@ __LMOD_STACK_LMOD_PACKAGE_PATH=L2dsYWRlL3UvYXBwcy9kZXJlY2hvLzI0LjEyL2VudnMvcHVib
 CVS_RSH=ssh
 LESSOPEN=lessopen.sh %s
 OMP_NUM_THREADS=1
-GIT_AUTHOR_EMAIL=hannay@ucar.edu
+GIT_AUTHOR_EMAIL=jedwards@ucar.edu
 NCAR_BUILD_ENV_MPI=derecho-oneapi-2024.2.1-cray-mpich-8.1.29
 LMOD_DIR=/glade/u/apps/derecho/24.12/spack/opt/spack/lmod/8.7.37/gcc/12.4.0/nr3e/lmod/lmod/libexec
 LMOD_FAMILY_MPI=cray-mpich
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
 _=/usr/bin/env
