@@ -182,3 +182,5 @@ See log file for details: /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTs
  ---------------------------------------------------
 2025-11-13 10:04:30: case.submit starting case.run:3608391.desched1, case.st_archive:3608392.desched1, amon:3608393.desched1, lmon:3608394.desched1
  ---------------------------------------------------
+2025-11-13 10:07:56: case.submit starting case.run:3608458.desched1, case.st_archive:3608459.desched1, amon:3608460.desched1, lmon:3608461.desched1
+ ---------------------------------------------------
