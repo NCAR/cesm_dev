@@ -1,1 +1,3 @@
 ice_ic = "/glade/derecho/scratch/gmarques/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.229/run/INPUT/g.e30_a07c_cesm.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.130.cice.r.0009-01-01-00000.nc"
+histfreq = "m", "x", "x", "x", "x"
+histfreq_n = 1, 1, 0, 0, 0

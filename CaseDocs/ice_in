@@ -8,7 +8,7 @@
   hist_avg = .true., .true., .true., .true., .true.
   hist_suffix = "x", "1", "2", "3", "4"
   hist_time_axis = "middle"
-  histfreq = "m", "d", "x", "x", "x"
+  histfreq = "m", "x", "x", "x", "x"
   histfreq_n = 1, 1, 0, 0, 0
   history_file = "unknown"
   history_format = "default"
