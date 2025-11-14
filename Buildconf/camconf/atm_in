@@ -150,7 +150,7 @@
  cldfrc2m_rhminis		=   1.0D0 
 /
 &cldfrc_nl
- cldfrc_dp1		= 0.05
+ cldfrc_dp1		= 0.1
  cldfrc_dp2		=  500.0D0 
  cldfrc_freeze_dry		= .true.
  cldfrc_ice		= .true.
@@ -195,7 +195,7 @@
  clubb_c6thlc		=  1.0     
  clubb_c7		=  0.1     
  clubb_c7b		=  0.5     
- clubb_c8		= 4.6
+ clubb_c8		= 4.5
  clubb_c8b		=  0.0     
  clubb_c_invrs_tau_bkgnd		=  1.0     
  clubb_c_invrs_tau_n2		=  0.1     
@@ -377,7 +377,7 @@
 /
 &hetfrz_classnuc_nl
  hetfrz_bc_scalfac		= 0.01D0
- hetfrz_dust_scalfac		= 0.05D0
+ hetfrz_dust_scalfac		= 0.20
 /
 &micro_mg_nl
  micro_do_massless_droplet_destroyer		=   .false. 
