@@ -42,7 +42,7 @@
  snicar_solarspec = 'mid_latitude_winter'
  snicar_use_aerosol = .true.
  snow_cover_fraction_method = 'SwensonLawrence2012'
- snow_thermal_cond_glc_method = 'Jordan1991'
+ snow_thermal_cond_glc_method = 'Sturm1997'
  snow_thermal_cond_lake_method = 'Sturm1997'
  snow_thermal_cond_method = 'Sturm1997'
  soil_layerstruct_predefined = '20SL_8.5m'

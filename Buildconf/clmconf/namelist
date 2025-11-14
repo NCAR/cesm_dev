@@ -10,6 +10,8 @@ glcmec_downscale_longwave = .false.
 
 snow_thermal_cond_lake_method = 'Sturm1997'
 
+snow_thermal_cond_glc_method = 'Sturm1997'
+
 
 
 use_init_interp = .true.
