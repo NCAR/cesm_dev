@@ -208,3 +208,5 @@
  ---------------------------------------------------
 2025-11-14 13:59:21: xmlchange success <command> ./xmlchange NTASKS_ATM=2700,NTASKS_LND=2700,NTASKS_ICE=2700,NTASKS_ROF=1280,NTASKS_GLC=116,NTASKS_WAV=116,NTASKS_CPL=2700,ROOTPE_OCN=2816,ROOTPE_GLC=2700,ROOTPE_WAV=2700  </command>
  ---------------------------------------------------
+2025-11-14 22:50:31: model execution success 3621725.desched1
+ ---------------------------------------------------
