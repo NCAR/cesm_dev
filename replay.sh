@@ -86,3 +86,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=0
 
+./xmlchange NTASKS_OCN=640
+
