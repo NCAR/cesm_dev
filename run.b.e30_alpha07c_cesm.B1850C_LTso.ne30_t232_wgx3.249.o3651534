@@ -39,3 +39,8 @@ Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF'
  - Checking for required input datasets in DIN_LOC_ROOT
 -------------------------------------------------------------------------
 run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.249/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: Command: 'git -C /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.249 push origin' failed with error 'ERROR: 
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.249'
