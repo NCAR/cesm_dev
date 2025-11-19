@@ -46,3 +46,5 @@ CAM build-namelist - ERROR: Invalid namelist variable in '-infile' /glade/campai
 2025-11-19 11:53:01: case.build error 
 ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.253/bld/cesm.bldlog.251119-115222
  ---------------------------------------------------
+2025-11-19 11:54:24: case.build starting 
+ ---------------------------------------------------

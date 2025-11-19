@@ -201,7 +201,7 @@ se_statefreq = 144
 
 
 
-seasalt_emis_scale = 1.0
+seasalt_emis_scale = 1.2
 
 dust_emis_fact = 4.0
 
@@ -217,7 +217,7 @@ clubb_c8 = 4.5
 
 
 
-dust_emis_fact = 3.2
+dust_emis_fac = 3.2
 
 
 
