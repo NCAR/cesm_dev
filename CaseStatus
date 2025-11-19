@@ -58,3 +58,5 @@ CAM build-namelist - ERROR: Invalid namelist variable in '-infile' /glade/campai
  ---------------------------------------------------
 2025-11-19 11:54:27: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
  ---------------------------------------------------
+2025-11-19 11:54:30: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
