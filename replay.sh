@@ -50,3 +50,7 @@ cd "${CASEDIR}"
 
 ./case.build --clean-all
 
+./case.setup --reset
+
+./case.build --clean-all
+
