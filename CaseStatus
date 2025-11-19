@@ -64,3 +64,5 @@ CAM build-namelist - ERROR: Invalid namelist variable in '-infile' /glade/campai
  ---------------------------------------------------
 2025-11-19 11:54:33: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
  ---------------------------------------------------
+2025-11-19 11:54:34: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
+ ---------------------------------------------------
