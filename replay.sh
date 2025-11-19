@@ -22,3 +22,13 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
+./preview_namelists
+
+./case.setup
+
+./preview_namelists
+
+./case.setup --reset
+
+./case.build --clean-all
+
