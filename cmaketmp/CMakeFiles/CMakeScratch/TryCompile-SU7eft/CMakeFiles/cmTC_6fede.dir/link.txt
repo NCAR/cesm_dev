@@ -1,1 +1,0 @@
-/glade/u/apps/derecho/24.12/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2024.2.1/3aiv/bin/icx  -v CMakeFiles/cmTC_6fede.dir/CMakeCCompilerABI.c.o -o cmTC_6fede 
