@@ -40,3 +40,13 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./case.setup
+
+./preview_namelists
+
+./case.setup --reset
+
+./case.setup --reset
+
+./case.build --clean-all
+
