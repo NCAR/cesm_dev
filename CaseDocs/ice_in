@@ -8,12 +8,12 @@
   hist_avg = .true., .true., .true., .true., .true.
   hist_suffix = "x", "1", "2", "3", "4"
   hist_time_axis = "middle"
-  histfreq = "m", "d", "x", "x", "x"
+  histfreq = "m", "x", "x", "x", "x"
   histfreq_n = 1, 1, 0, 0, 0
   history_file = "unknown"
   history_format = "default"
   history_precision = 4
-  ice_ic = "default"
+  ice_ic = "/glade/derecho/scratch/gmarques/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.229/run/INPUT/g.e30_a07c_cesm.GJRAv4.TL319_t232_wgx3_hycom1_N75.2025.130.cice.r.0009-01-01-00000.nc"
   latpnt = 90.0, -65.0
   lonpnt = 0.0, -45.0
   ndtd = 1
@@ -199,15 +199,15 @@
 /
 &domain_nml
   add_mpi_barriers = .false.
-  block_size_x = 9
-  block_size_y = 8
-  distribution_type = "sectrobin"
+  block_size_x = 5
+  block_size_y = 5
+  distribution_type = "spacecurve"
   distribution_wght = "blockall"
   ew_boundary_type = "cyclic"
   maskhalo_bound = .true.
   maskhalo_dyn = .true.
   maskhalo_remap = .true.
-  max_blocks = 5
+  max_blocks = 4
   ns_boundary_type = "tripole"
   nx_global = 540
   ny_global = 480
