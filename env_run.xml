@@ -387,7 +387,7 @@
       A setting of TRUE implies a continuation run for mediator only
     </desc>
     </entry>
-    <entry id="RESUBMIT" value="0">
+    <entry id="RESUBMIT" value="10">
       <type>integer</type>
       <desc>If RESUBMIT is greater than 0, then case will automatically resubmit
     Enables the model to automatically resubmit a new run.  To get
@@ -412,7 +412,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to determine whether run has been submitted with the submit script or not</desc>
     </entry>
-    <entry id="JOB_IDS" value="case.run:3651582.desched1, case.st_archive:3651583.desched1">
+    <entry id="JOB_IDS" value="case.run:3660155.desched1, case.st_archive:3660156.desched1">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
