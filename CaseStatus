@@ -10,3 +10,5 @@
  ---------------------------------------------------
 2025-11-21 08:16:32: xmlchange success <command> ./xmlchange RUN_POSTPROCESSING=TRUE  </command>
  ---------------------------------------------------
+2025-11-21 08:16:34: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
+ ---------------------------------------------------

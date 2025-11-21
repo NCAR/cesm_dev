@@ -18,3 +18,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_POSTPROCESSING=TRUE
 
+./xmlchange JOB_PRIORITY=premium
+
