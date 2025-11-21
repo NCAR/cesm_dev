@@ -4,3 +4,7 @@
  ---------------------------------------------------
 2025-11-21 08:16:20:   local git repository created
  ---------------------------------------------------
+2025-11-21 08:16:21: Created in cmip7 account by jedwards
+ ---------------------------------------------------
+2025-11-21 08:16:30: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
+ ---------------------------------------------------
