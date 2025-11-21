@@ -22,3 +22,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=10,STOP_N=5,STOP_OPTION=nyears
 
+./xmlchange REST_OPTION=nyears,REST_N=1
+
