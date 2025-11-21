@@ -8,3 +8,5 @@
  ---------------------------------------------------
 2025-11-21 08:16:30: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
  ---------------------------------------------------
+2025-11-21 08:16:32: xmlchange success <command> ./xmlchange RUN_POSTPROCESSING=TRUE  </command>
+ ---------------------------------------------------
