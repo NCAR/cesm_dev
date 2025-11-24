@@ -192,3 +192,5 @@
  ---------------------------------------------------
 2025-11-23 16:11:42: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
  ---------------------------------------------------
+2025-11-23 18:57:58: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
+ ---------------------------------------------------
