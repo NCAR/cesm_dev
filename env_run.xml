@@ -422,7 +422,7 @@
       <desc>Logical to turn on short term archiving.
     If TRUE, short term archiving will be turned on.</desc>
     </entry>
-    <entry id="RUN_POSTPROCESSING" value="FALSE">
+    <entry id="RUN_POSTPROCESSING" value="TRUE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to run post-processing analysis tools.
