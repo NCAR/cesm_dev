@@ -313,3 +313,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
  ---------------------------------------------------
 2025-11-23 18:57:09: case.submit success case.run:3728971.desched1, case.st_archive:3728972.desched1
  ---------------------------------------------------
+2025-11-23 18:57:11: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
+ ---------------------------------------------------
