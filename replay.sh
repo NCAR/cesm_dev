@@ -20,3 +20,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_PRIORITY=premium
 
+./xmlchange RESUBMIT=10,STOP_N=5,STOP_OPTION=nyears
+
