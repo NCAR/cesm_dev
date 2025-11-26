@@ -280,3 +280,5 @@
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.252/run/med.log.3743016.desched1.251125-182218 
  
  ---------------------------------------------------
+2025-11-26 15:04:55: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
