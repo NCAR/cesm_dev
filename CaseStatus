@@ -14,3 +14,5 @@
  ---------------------------------------------------
 2025-11-26 15:36:16: xmlchange success <command> ./xmlchange RESUBMIT=5,STOP_N=2,STOP_OPTION=nyears  </command>
  ---------------------------------------------------
+2025-11-26 15:36:18: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
