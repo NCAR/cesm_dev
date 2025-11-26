@@ -32,3 +32,7 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange REST_OPTION=nyears,REST_N=1
+
+./case.build
+
