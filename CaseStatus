@@ -34,3 +34,5 @@
 2025-11-26 11:27:23: case.build error 
 ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.254/bld/cesm.bldlog.251126-112119
  ---------------------------------------------------
+2025-11-26 11:27:25: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
