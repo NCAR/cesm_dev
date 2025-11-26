@@ -77,3 +77,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
  ---------------------------------------------------
 2025-11-26 11:48:29: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2025-11-26 11:48:37: case.submit starting case.run:3748660.desched1, case.st_archive:3748661.desched1
+ ---------------------------------------------------
