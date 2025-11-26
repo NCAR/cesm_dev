@@ -1,0 +1,221 @@
+!===============================================================================
+! Dust for Modal Aerosol Model
+!===============================================================================
+module dust_model
+  use shr_kind_mod,     only: r8 => shr_kind_r8, cl => shr_kind_cl
+  use spmd_utils,       only: masterproc
+  use cam_abortutils,   only: endrun
+  use modal_aero_data,  only: ntot_amode, ndst=>nDust
+  use cam_logfile,      only: iulog
+  use shr_dust_emis_mod,only: is_dust_emis_zender, is_zender_soil_erod_from_atm
+
+  implicit none
+  private
+
+  public :: dust_names
+  public :: dust_nbin
+  public :: dust_nnum
+  public :: dust_indices
+  public :: dust_emis
+  public :: dust_readnl
+  public :: dust_init
+  public :: dust_active
+
+  integer, protected :: dust_nbin != 2
+  integer, protected :: dust_nnum != 2
+  character(len=6), protected, allocatable :: dust_names(:)
+
+  real(r8), allocatable :: dust_dmt_grd(:)
+  real(r8), allocatable :: dust_emis_sclfctr(:)
+
+  integer , protected, allocatable :: dust_indices(:)
+  real(r8), allocatable :: dust_dmt_vwr(:)
+  real(r8), allocatable :: dust_stk_crc(:)
+
+  real(r8)          :: dust_emis_fact = 0._r8     ! tuning parameter for dust emissions
+  character(len=cl) :: soil_erod_file = 'none'    ! full pathname for soil erodibility dataset
+
+  logical :: dust_active = .false.
+
+ contains
+
+  !=============================================================================
+  ! reads dust namelist options
+  !=============================================================================
+  subroutine dust_readnl(nlfile)
+
+    use namelist_utils,  only: find_group_name
+    use spmd_utils,      only: mpicom, masterprocid, mpi_character, mpi_real8, mpi_success
+    use shr_dust_emis_mod, only: shr_dust_emis_readnl
+
+    character(len=*), intent(in) :: nlfile  ! filepath for file containing namelist input
+
+    ! Local variables
+    integer :: unitn, ierr
+    character(len=*), parameter :: subname = 'dust_readnl'
+
+    namelist /dust_nl/ dust_emis_fact, soil_erod_file
+
+    !-----------------------------------------------------------------------------
+
+    ! Read namelist
+    if (masterproc) then
+       open( newunit=unitn, file=trim(nlfile), status='old' )
+       call find_group_name(unitn, 'dust_nl', status=ierr)
+       if (ierr == 0) then
+          read(unitn, dust_nl, iostat=ierr)
+          if (ierr /= 0) then
+             call endrun(subname // ':: ERROR reading namelist')
+          end if
+       end if
+       close(unitn)
+    end if
+
+    ! Broadcast namelist variables
+    call mpi_bcast(soil_erod_file, len(soil_erod_file), mpi_character, masterprocid, mpicom, ierr)
+    if (ierr/=mpi_success) then
+       call endrun(subname//' MPI_BCAST ERROR: soil_erod_file')
+    end if
+    call mpi_bcast(dust_emis_fact, 1, mpi_real8, masterprocid, mpicom, ierr)
+    if (ierr/=mpi_success) then
+       call endrun(subname//' MPI_BCAST ERROR: dust_emis_fact')
+    end if
+
+    call shr_dust_emis_readnl(mpicom, 'drv_flds_in')
+
+    if ((soil_erod_file /= 'none') .and. (.not.is_zender_soil_erod_from_atm())) then
+       call endrun(subname//': should not specify soil_erod_file if Zender soil erosion is not in CAM')
+    end if
+
+    if (masterproc) then
+       if (is_dust_emis_zender()) then
+          write(iulog,*) subname,': Zender_2003 dust emission method is being used.'
+       end if
+       if (is_zender_soil_erod_from_atm()) then
+          write(iulog,*) subname,': Zender soil erod file is handled in atm'
+          write(iulog,*) subname,': soil_erod_file = ',trim(soil_erod_file)
+          write(iulog,*) subname,': dust_emis_fact = ',dust_emis_fact
+       end if
+    end if
+
+  end subroutine dust_readnl
+
+  !=============================================================================
+  !=============================================================================
+  subroutine dust_init()
+    use soil_erod_mod, only: soil_erod_init
+    use constituents,  only: cnst_get_ind
+    use rad_constituents, only: rad_cnst_get_info
+    use dust_common,   only: dust_set_params
+
+    integer :: l, m, mm, ndx, nspec
+    character(len=32) :: spec_name
+    integer, parameter :: mymodes(7) = (/ 2, 1, 3, 4, 5, 6, 7 /) ! tricky order ...
+
+    dust_nbin = ndst
+    dust_nnum = ndst
+
+    allocate( dust_names(2*ndst) )
+    allocate( dust_indices(2*ndst) )
+    allocate( dust_dmt_grd(ndst+1) )
+    allocate( dust_emis_sclfctr(ndst) )
+    allocate( dust_dmt_vwr(ndst) )
+    allocate( dust_stk_crc(ndst) )
+
+    if ( ntot_amode == 3 ) then
+       dust_dmt_grd(:) = (/ 0.1e-6_r8, 1.0e-6_r8, 10.0e-6_r8/)
+       dust_emis_sclfctr(:) = (/ 0.021_r8,0.979_r8 /)
+    elseif ( ntot_amode == 4 .or. ntot_amode == 5 ) then
+       dust_dmt_grd(:) = (/ 0.01e-6_r8, 0.1e-6_r8, 1.0e-6_r8, 10.0e-6_r8 /) ! Aitken dust
+       dust_emis_sclfctr(:) = (/ 1.65E-05_r8, 0.021_r8, 0.979_r8 /) ! Aitken dust
+    else if( ntot_amode == 7 ) then
+       dust_dmt_grd(:) = (/ 0.1e-6_r8, 2.0e-6_r8, 10.0e-6_r8/)
+       dust_emis_sclfctr(:) = (/ 0.13_r8, 0.87_r8 /)
+    endif
+
+    ndx = 0
+    do mm = 1, ntot_amode
+       m = mymodes(mm)
+       call rad_cnst_get_info(0, m, nspec=nspec)
+       do l = 1, nspec
+          call rad_cnst_get_info(0, m, l, spec_name=spec_name )
+          if (spec_name(:3) == 'dst') then
+             ndx=ndx+1
+             dust_names(ndx) = spec_name
+             dust_names(ndst+ndx) = 'num_'//spec_name(5:)
+             call cnst_get_ind(dust_names(     ndx), dust_indices(     ndx))
+             call cnst_get_ind(dust_names(ndst+ndx), dust_indices(ndst+ndx))
+          endif
+       enddo
+    enddo
+
+    dust_active = any(dust_indices(:) > 0)
+    if (.not.dust_active) return
+
+    if (is_zender_soil_erod_from_atm()) then
+       call  soil_erod_init( dust_emis_fact, soil_erod_file )
+    end if
+
+    call dust_set_params( dust_nbin, dust_dmt_grd, dust_dmt_vwr, dust_stk_crc )
+
+  end subroutine dust_init
+
+  !===============================================================================
+  !===============================================================================
+  subroutine dust_emis( ncol, lchnk, dust_flux_in, cflx, soil_erod )
+    use soil_erod_mod, only : soil_erod_fact
+    use soil_erod_mod, only : soil_erodibility
+    use mo_constants,  only : dust_density
+    use physconst,     only : pi
+
+  ! args
+    integer,  intent(in)    :: ncol, lchnk
+    real(r8), intent(in)    :: dust_flux_in(:,:)
+    real(r8), intent(inout) :: cflx(:,:)
+    real(r8), intent(out)   :: soil_erod(:)
+
+  ! local vars
+    integer :: i, m, idst, inum
+    real(r8) :: x_mton
+    real(r8),parameter :: soil_erod_threshold = 0.1_r8
+    real(r8), parameter :: dustaspherical_opts = 1.3_r8 ! dmleung 20 Oct 2025: The dust loading in reality generates ~20-60 % (Jasper F. Kok et al., 2017) higher dust AOD because dust is aspherical. This is currently not captured by a spherical assumption in the optics calculation in CESM. This is more true for D > 1 um, but for now for simplicity we apply the optics correction to all modes/bins in aerosol_topics_cam.F90.
+    real(r8), parameter :: dustaspherical_drydep = 1.1_r8 ! dmleung 20 Oct 2025: Dust asphericity leads to 25 % (Yue Huang et al., 2020) higher aerodynamic resistance and therefore reduces dust gravitational settling. Upon sensitivity experiment, the total dust loading increases by ~7-10 %. This is currently not captured by a spherical assumption in the dry deposition calculation in CESM. The deposition changes are applied to the coarse mode only in modal_aero/aero_model.F90.
+    ! set dust emissions
+
+    if (is_zender_soil_erod_from_atm()) then  ! Zender_2003 emissions
+       col_loop1: do i = 1,ncol
+          soil_erod(i) = soil_erodibility( i, lchnk )
+          if( soil_erod(i) .lt. soil_erod_threshold ) soil_erod(i) = 0._r8
+
+          ! rebin and adjust dust emissons.
+          do m = 1,dust_nbin
+             idst = dust_indices(m)
+             cflx(i,idst) = sum( -dust_flux_in(i,:) ) &
+                  * dust_emis_sclfctr(m)*soil_erod(i)/dust_emis_fact*1.15_r8
+             x_mton = 6._r8 / (pi * dust_density * (dust_dmt_vwr(m)**3._r8))
+             inum = dust_indices(m+dust_nbin)
+             cflx(i,inum) = cflx(i,idst)*x_mton
+          enddo
+       enddo col_loop1
+
+    else ! Leung_2023 emissions
+
+       col_loop2: do i = 1,ncol
+          ! rebin and adjust dust emissons.
+          do m = 1,dust_nbin
+             idst = dust_indices(m)
+
+             ! dmleung 20 Oct 2025: reduces lnd dust emissions into atm by 28 %. This is a global tuning, so it should be technically done by changing dust_emis_fact in namelist_defaults_cam.xml (dust_emis_fact => dust_emis_fact/dustaspherical_opts). dmleung put it here because dmleung does not want to keep changing dust_emis_fact in namelist_defaults_cam.xml, which bothers the current CAM people working on CMIP7.
+             cflx(i,idst) = sum( -dust_flux_in(i,:) ) &
+                  * dust_emis_sclfctr(m) / dust_emis_fact !& 
+                  !/ dustaspherical_opts / dustaspherical_drydep  ! dmleung 20 Oct 2025
+             x_mton = 6._r8 / (pi * dust_density * (dust_dmt_vwr(m)**3._r8))
+             inum = dust_indices(m+dust_nbin)
+             cflx(i,inum) = cflx(i,idst)*x_mton
+          enddo
+       enddo col_loop2
+    end if
+
+  end subroutine dust_emis
+
+end module dust_model
