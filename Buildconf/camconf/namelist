@@ -205,8 +205,6 @@ dust_emis_fact = 4.0
 
 
 
-
-
 micro_mg_dcs = 500.D-6
 
 hetfrz_dust_scalfac = 0.20
@@ -215,15 +213,15 @@ cldfrc_dp1 =  0.1
 
 
 
-zmconv_c0_lnd = 0.0035D0
-
 micro_mg_vtrmi_factor = 1.0
 
 
 
-seasalt_emis_scale = 1.3
+seasalt_emis_scale = 1.4
 
-clubb_c8 = 4.5
+clubb_c8 = 4.3
+
+zmconv_c0_lnd = 0.0035D0
 
 
 
