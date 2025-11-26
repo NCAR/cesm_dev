@@ -61,3 +61,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
  ---------------------------------------------------
 2025-11-26 11:34:15: build.clean starting 
  ---------------------------------------------------
+2025-11-26 11:34:20: build.clean success 
+ ---------------------------------------------------
