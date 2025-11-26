@@ -54,3 +54,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
 2025-11-26 11:30:51: case.build error 
 ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.254/bld/cesm.bldlog.251126-113011
  ---------------------------------------------------
+2025-11-26 11:32:26: case.build starting 
+ ---------------------------------------------------
