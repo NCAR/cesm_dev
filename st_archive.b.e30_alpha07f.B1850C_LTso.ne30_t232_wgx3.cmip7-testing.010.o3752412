@@ -2964,3 +2964,27 @@ Archiving history files for drv (cpl)
 moving /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010/run/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010.cpl.hx.1yr2glc.0004-01-01-00000.nc to /glade/derecho/scratch/cmip7/archive/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010/cpl/hist/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010.cpl.hx.1yr2glc.0004-01-01-00000.nc 
 moving /glade/derecho/scratch/cmip7/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010/run/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010.cpl.hx.1yr2glc.0005-01-01-00000.nc to /glade/derecho/scratch/cmip7/archive/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010/cpl/hist/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010.cpl.hx.1yr2glc.0005-01-01-00000.nc 
 Archiving history files for dart (esp)
+st_archive completed
+resubmitting from st_archive, resubmit=4
+Submitting job 'case.run', resubmit=4
+submit_jobs case.run
+Submit job case.run
+Submitting job script qsub -q main -l walltime=12:00:00 -A CESM0024 -l job_priority=premium -v ARGS_FOR_SCRIPT='--resubmit' /glade/work/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010/.case.run
+Submitted job id is 3755644.desched1
+Submit job case.st_archive
+Submitting job script qsub -q develop -l walltime=00:20:00 -A CESM0024 -l job_priority=premium  -W depend=afterok:3755644.desched1 -v ARGS_FOR_SCRIPT='--resubmit' /glade/work/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010/case.st_archive
+Submitted job id is 3755645.desched1
+Submit job case.cupid
+Submitting job script qsub -q develop -l walltime=00:40:00 -A CESM0024 -l job_priority=premium  -W depend=afterok:3755645.desched1  /glade/work/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010/case.cupid
+Submitted job id is 3755646.desched1
+Submit job amon
+Submitting job script qsub -q main -l walltime=00:40:00 -A CESM0024 -l job_priority=premium  -W depend=afterok:3755645.desched1  /glade/work/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010/.amon
+Submitted job id is 3755647.desched1
+Submit job lmon
+Submitting job script qsub -q develop -l walltime=00:40:00 -A CESM0024 -l job_priority=premium  -W depend=afterok:3755645.desched1  /glade/work/cmip7/cases/testing/b.e30_alpha07f.B1850C_LTso.ne30_t232_wgx3.cmip7-testing.010/.lmon
+Submitted job id is 3755648.desched1
+Submitted job case.run with id 3755644.desched1
+Submitted job case.st_archive with id 3755645.desched1
+Submitted job case.cupid with id 3755646.desched1
+Submitted job amon with id 3755647.desched1
+Submitted job lmon with id 3755648.desched1
