@@ -434,3 +434,5 @@ See log file for details: /glade/derecho/scratch/hannay/b.e30_alpha07c_cesm.B185
  ---------------------------------------------------
 2025-11-28 09:13:58: case.submit starting case.run:3763882.desched1, case.st_archive:3763883.desched1
  ---------------------------------------------------
+2025-11-28 09:14:00: case.submit success case.run:3763882.desched1, case.st_archive:3763883.desched1
+ ---------------------------------------------------
