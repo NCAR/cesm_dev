@@ -22,3 +22,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_TYPE=startup
 
+./xmlchange GET_REFCASE=true
+
