@@ -12,3 +12,5 @@
  ---------------------------------------------------
 2025-11-29 15:02:43: build.clean success 
  ---------------------------------------------------
+2025-11-29 15:02:45: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
+ ---------------------------------------------------
