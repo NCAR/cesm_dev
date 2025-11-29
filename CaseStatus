@@ -16,3 +16,5 @@
  ---------------------------------------------------
 2025-11-29 15:02:46: xmlchange success <command> ./xmlchange RUN_TYPE=startup  </command>
  ---------------------------------------------------
+2025-11-29 15:02:48: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
+ ---------------------------------------------------
