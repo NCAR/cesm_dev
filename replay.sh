@@ -12,3 +12,9 @@ cd "${CASEDIR}"
 
 ./case.setup
 
+./preview_namelists
+
+./case.setup --reset
+
+./case.build --clean-all
+
