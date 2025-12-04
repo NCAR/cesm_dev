@@ -36,6 +36,7 @@ BCKGRND_VDC_BAN = 5.0E-04
 #override TEMP_IC_VAR = "Temp"
 #override SALT_IC_VAR = "Salt"
 #override RESTART_CHECKSUMS_REQUIRED = FALSE
+#override MAXTRUNC = 2000
 
 KPP%
 #override KPP_CVt2 = 1.8 
