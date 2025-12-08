@@ -74,3 +74,7 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=10
 
+./preview_namelists
+
+./case.build
+
