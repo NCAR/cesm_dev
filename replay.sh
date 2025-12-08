@@ -52,3 +52,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=0
 
+./case.build
+
