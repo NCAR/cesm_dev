@@ -40,3 +40,5 @@ P03010039, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2
  ---------------------------------------------------
 2025-12-10 18:57:07: case.build success 
  ---------------------------------------------------
+2025-12-10 18:57:09: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
