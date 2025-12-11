@@ -72,3 +72,15 @@ SALT_IC_VAR = "Salt"
 RESTART_CHECKSUMS_REQUIRED = FALSE
 
 MAXTRUNC = 2000
+
+! Resolution scaling:
+!! GM & Redi the same
+RESOLN_SCALED_KH = False      ! Don't apply scaling to Laplacian viscosity
+RESOLN_SCALED_KHTH = True  ! Already using, here for clarity. Apply scaling to GM.
+RESOLN_SCALED_KHTR = True  ! Already using, here for clarity. Apply scaling to Redi.
+KH_RES_SCALE_COEF = 0.67      ! GM distance factor approaching equator
+KH_RES_FN_POWER = 6                 ! GM shape factor approaching equator
+VISC_RES_SCALE_COEF = 0.67  ! Despite the name "visc" this is the Redi distance factor approaching equator
+VISC_RES_FN_POWER = 6             ! Despite the name "visc" this is the Redi shape factor approaching equator
+INTERPOLATE_RES_FN = True      ! Only computes resolution fn once (since they are the same), then interpolates cell centers to edges; reduces computation.
+

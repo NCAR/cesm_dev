@@ -39,6 +39,14 @@ BCKGRND_VDC_BAN = 5.0E-04
 #override SALT_IC_VAR = "Salt"
 #override RESTART_CHECKSUMS_REQUIRED = FALSE
 #override MAXTRUNC = 2000
+#override RESOLN_SCALED_KH = False 
+#override RESOLN_SCALED_KHTH = True 
+#override RESOLN_SCALED_KHTR = True 
+#override KH_RES_SCALE_COEF = 0.67 
+#override KH_RES_FN_POWER = 6 
+#override VISC_RES_SCALE_COEF = 0.67 
+VISC_RES_FN_POWER = 6 
+#override INTERPOLATE_RES_FN = True 
 
 KPP%
 #override KPP_CVt2 = 1.8 
