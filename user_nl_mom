@@ -1,15 +1,17 @@
-MEKE_GEOMETRIC_ALPHA = 0.09
+
+! Same as G 149
 SMAGORINSKY_KH = False
 MAXTRUNC = 1.0E6
 
-! Resolution scaling:
-!! GM & Redi the same
-RESOLN_SCALED_KH = False      ! Don't apply scaling to Laplacian viscosity
-RESOLN_SCALED_KHTH = True  ! Already using, here for clarity. Apply scaling to GM.
-RESOLN_SCALED_KHTR = True  ! Already using, here for clarity. Apply scaling to Redi.
-KH_RES_SCALE_COEF = 0.67      ! GM distance factor approaching equator
-KH_RES_FN_POWER = 6                 ! GM shape factor approaching equator
-VISC_RES_SCALE_COEF = 0.67  ! Despite the name "visc" this is the Redi distance factor approaching equator
-VISC_RES_FN_POWER = 6             ! Despite the name "visc" this is the Redi shape factor approaching equator
-INTERPOLATE_RES_FN = True      ! Only computes resolution fn once (since they are the same), then interpolates cell centers to edges; reduces computation.
+THICKNESS_CONFIG = thickness_file
+VELOCITY_CONFIG = file
+TS_CONFIG = file
 
+INIT_LAYERS_FROM_Z_FILE = False
+
+THICKNESS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.149/rest/0057-01-01-00000/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.149.mom6.r.0057-01-01-00000.nc"
+TS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.149/rest/0057-01-01-00000/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.149.mom6.r.0057-01-01-00000.nc"
+VELOCITY_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.149/rest/0057-01-01-00000/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.149.mom6.r.0057-01-01-00000.nc"
+
+TEMP_IC_VAR = "Temp"
+SALT_IC_VAR = "Salt"
