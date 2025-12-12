@@ -1,23 +1,15 @@
-!---------------------------------------------------------------------
-! Users should add all user specific MOM_input parameter changes after
-! these comments as follows:
-!   parameter_name = new_parameter_value
-!
-! If the parameter belongs to a module, enter the parameter in MOM6
-! runtime parameter format ,e.g., change N_SMOOTH parameter within the
-! KPP module as follows:
-!   KPP%
-!   N_SMOOTH = 3
-!   %KPP
-!
-! Note: The parameter changes added to this file will automatically be
-!       applied to:
-!   $RUNDIR/MOM_override
-!
-! WARNING: If a MOM_override file is placed in SourceMods/src.mom/,
-! any additional parameter changes in this file will trigger an error.
-!
-! Parameters:
-!---------------------------------------------------------------------
+MEKE_GEOMETRIC_ALPHA = 0.09
+SMAGORINSKY_KH = False
+MAXTRUNC = 1.0E6
 
+! Resolution scaling:
+!! GM & Redi the same
+RESOLN_SCALED_KH = False      ! Don't apply scaling to Laplacian viscosity
+RESOLN_SCALED_KHTH = True  ! Already using, here for clarity. Apply scaling to GM.
+RESOLN_SCALED_KHTR = True  ! Already using, here for clarity. Apply scaling to Redi.
+KH_RES_SCALE_COEF = 0.67      ! GM distance factor approaching equator
+KH_RES_FN_POWER = 6                 ! GM shape factor approaching equator
+VISC_RES_SCALE_COEF = 0.67  ! Despite the name "visc" this is the Redi distance factor approaching equator
+VISC_RES_FN_POWER = 6             ! Despite the name "visc" this is the Redi shape factor approaching equator
+INTERPOLATE_RES_FN = True      ! Only computes resolution fn once (since they are the same), then interpolates cell centers to edges; reduces computation.
 
