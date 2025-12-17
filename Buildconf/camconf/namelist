@@ -208,13 +208,11 @@ zmconv_c0_lnd = 0.0035D0
 
 micro_mg_vtrmi_factor = 1.2
 
-
+clubb_c8 = 4.5
 
 dust_emis_fact = 3.2
 
-clubb_c8 = 4.5
-
-clubb_c_K10h = 1.50 
+clubb_c_K10h = 0.15
 
 
 

@@ -207,7 +207,7 @@
  clubb_c_invrs_tau_shear		=  0.02    
  clubb_c_k1		=  0.75    
  clubb_c_k10		=  0.5     
- clubb_c_k10h		= 1.50
+ clubb_c_k10h		= 0.15
  clubb_c_k2		=  0.125   
  clubb_c_k8		=  1.25    
  clubb_c_k9		=  0.25    
