@@ -6,3 +6,5 @@
  ---------------------------------------------------
 2025-12-18 16:27:52: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
  ---------------------------------------------------
+2025-12-18 16:28:33: case.build starting 
+ ---------------------------------------------------
