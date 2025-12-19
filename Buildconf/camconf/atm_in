@@ -534,8 +534,8 @@
 /
 &radiation_nl
  graupel_in_rad		=  .false. 
- rrtmgp_coefs_lw_file		= '/glade/work/hannay/cesm_tags/cesm3_0_alpha07g/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-lw-g128.nc'
- rrtmgp_coefs_sw_file		= '/glade/work/hannay/cesm_tags/cesm3_0_alpha07g/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-sw-g112.nc'
+ rrtmgp_coefs_lw_file		= '/glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07g/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-lw-g128.nc'
+ rrtmgp_coefs_sw_file		= '/glade/work/gmarques/cesm.sandboxes/cesm3_0_alpha07g/components/cam/src/physics/rrtmgp/data/rrtmgp-gas-sw-g112.nc'
 /
 &ref_pres_nl
  clim_modal_aero_top_press		=  1.D-4 

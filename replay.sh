@@ -4,3 +4,7 @@
 
 ./case.build
 
+./check_case
+
+./case.submit
+

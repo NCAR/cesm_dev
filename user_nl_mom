@@ -1,4 +1,7 @@
 
+MLE%
+USE_CR_GRID = False
+%MLE
 
 INPUTDIR = "/glade/derecho/scratch/gmarques/g.e30_a07g.GW1850MARBL_JRA.TL319_t232_wgx3_hycom1_N75.2025.152/run/INPUT"
 MEKE_GEOMETRIC_ALPHA = 0.09
