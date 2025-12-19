@@ -30,3 +30,5 @@
  ---------------------------------------------------
 2025-12-19 08:54:50: xmlchange success <command> ./xmlchange CONTINUE_RUN=True,RESUBMIT=9  </command>
  ---------------------------------------------------
+2025-12-19 08:54:58: case.submit starting case.run:4012410.desched1, case.st_archive:4012411.desched1
+ ---------------------------------------------------

@@ -10,3 +10,5 @@
 
 ./xmlchange CONTINUE_RUN=True,RESUBMIT=9
 
+./case.submit
+
