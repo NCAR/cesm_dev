@@ -52,3 +52,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange JOB_PRIORITY=regular
+
