@@ -50,3 +50,5 @@
  ---------------------------------------------------
 2025-12-23 13:38:24: xmlchange success <command> ./xmlchange PROJECT=P03010039  </command>
  ---------------------------------------------------
+2025-12-23 13:38:25: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
