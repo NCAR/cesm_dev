@@ -54,3 +54,5 @@
  ---------------------------------------------------
 2025-12-23 13:41:39: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2025-12-23 14:40:26: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
