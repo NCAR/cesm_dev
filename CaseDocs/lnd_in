@@ -18,7 +18,7 @@
  for_testing_use_second_grain_pool = .false.
  fsnowaging = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc'
  fsnowoptics = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_c013122.nc'
- fsurdat = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/surfdata_esmf/ctsm5.4.0/surfdata_ne30np4.pg3_hist_1850_78pfts_c250723.nc'
+ fsurdat = '/glade/campaign/cesm/cesmdata/cseg/inputdata/lnd/clm2/surfdata_esmf/ctsm5.4.0/surfdata_ne30np4.pg3_hist_1850_78pfts_c251022.nc'
  glc_do_dynglacier = .true.
  glc_snow_persistence_max_days = 0
  h2osno_max = 10000.0
@@ -32,7 +32,7 @@
  nlevsno = 12
  nsegspc = 35
  o3_veg_stress_method = 'unset'
- paramfile = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/paramdata/ctsm5.3.041.Nfix_params.v13.c250221_upplim250.nc'
+ paramfile = '/glade/campaign/cesm/cesmdata/cseg/inputdata/lnd/clm2/paramdata/ctsm60_params_cal115_c250813.nc'
  run_zero_weight_urban = .false.
  snicar_dust_optics = 'sahara'
  snicar_numrad_snw = 5
@@ -70,6 +70,7 @@
  use_hillslope = .false.
  use_hillslope_routing = .false.
  use_hydrstress = .true.
+ use_init_interp = .true.
  use_lai_streams = .false.
  use_lch4 = .true.
  use_luna = .true.
@@ -88,10 +89,10 @@
  ndep_taxmode = 'cycle'
  ndep_varlist = 'NDEP_month'
  ndepmapalgo = 'bilinear'
- stream_fldfilename_ndep = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/ndepdata/fndep_clm_hist_b.e21.BWHIST.f09_g17.CMIP6-historical-WACCM.ensmean_1849-2015_monthly_0.9x1.25_c180926.nc'
+ stream_fldfilename_ndep = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/ndepdata/fndep_clm_f09_g17.CMIP6-SSP2-4.5-WACCM_1849-2101_monthly_c191007.nc'
  stream_meshfile_ndep = '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/fv0.9x1.25_141008_polemod_ESMFmesh.nc'
  stream_year_first_ndep = 1850
- stream_year_last_ndep = 2015
+ stream_year_last_ndep = 2101
 /
 &popd_streams
  model_year_align_popdens = 1850
@@ -99,7 +100,7 @@
  stream_fldfilename_popdens = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/firedata/clmforc.Li_2025_CMIP7_SSP3CMIP6_hdm_0.5x0.5_simyr1850-2100_c250717.nc'
  stream_meshfile_popdens = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/firedata/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0_ESMFmesh_cdf5_100621.nc'
  stream_year_first_popdens = 1850
- stream_year_last_popdens = 2016
+ stream_year_last_popdens = 2023
 /
 &urbantv_streams
  model_year_align_urbantv = 1850
@@ -121,10 +122,8 @@
 &lai_streams
 /
 &atm2lnd_inparm
- glcmec_downscale_longwave = .true.
+ glcmec_downscale_longwave = .false.
  lapse_rate = 0.006
- lapse_rate_longwave = 0.032
- longwave_downscaling_limit = 0.5
  precip_repartition_glc_all_rain_t = 0.
  precip_repartition_glc_all_snow_t = -2.
  precip_repartition_nonglc_all_rain_t = 2.
@@ -171,7 +170,7 @@
  do_transient_lakes = .true.
  do_transient_pfts = .true.
  do_transient_urban = .true.
- flanduse_timeseries = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/surfdata_esmf/ctsm5.4.0/landuse.timeseries_ne30np4.pg3_hist_1850-2023_78pfts_c250723.nc'
+ flanduse_timeseries = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/surfdata_esmf/ctsm5.4.0/landuse.timeseries_ne30np4.pg3_hist_1850-2023_78pfts_c251022.nc'
  reset_dynbal_baselines = .false.
  vars_1dwt_w_time = .true.
 /
@@ -184,6 +183,7 @@
 /
 &clm_initinterp_inparm
  init_interp_fill_missing_urban_with_hd = .true.
+ init_interp_method = 'general'
 /
 &century_soilbgcdecompcascade
 /
@@ -331,6 +331,7 @@
 /
 &cn_general
  dribble_crophrv_xsmrpool_2atm = .true.
+ reseed_dead_plants = .false.
 /
 &nitrif_inparm
 /
