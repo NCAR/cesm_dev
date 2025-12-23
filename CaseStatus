@@ -78,3 +78,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha07g
  ---------------------------------------------------
 2025-12-23 16:03:37: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.276  </command>
  ---------------------------------------------------
+2025-12-23 16:03:38: xmlchange success <command> ./xmlchange RUN_REFDATE=0041-01-01  </command>
+ ---------------------------------------------------
