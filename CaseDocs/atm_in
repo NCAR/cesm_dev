@@ -130,7 +130,7 @@
  xs_long_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/waccm/phot/temp_prs_GT200nm_c221005mm.nc'
 /
 &chem_surfvals_nl
- flbc_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/waccm/lb/LBC_17500116-20150116_CMIP6_0p5degLat_c180905.nc'
+ flbc_file		= '/glade/u/home/jzhan166/scripts/LBC/clean/LBC_17500116-20221216_CMIP7_0p5degLat_c250326.nc'
  flbc_list		= 'CO2','CH4','N2O','CFC11','CFC12','CFC11eq'
  flbc_type		= 'SERIAL'
  scenario_ghg		= 'CHEM_LBC_FILE'
