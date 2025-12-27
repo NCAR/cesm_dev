@@ -26,3 +26,7 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./check_case
+
+./xmlchange STOP_OPTION=nyears,STOP_N=4
+
