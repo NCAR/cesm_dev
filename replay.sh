@@ -98,3 +98,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=20
 
+./xmlchange RESUBMIT=30
+
