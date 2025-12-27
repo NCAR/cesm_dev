@@ -22,3 +22,5 @@
  ---------------------------------------------------
 2025-12-26 22:44:06: xmlchange success <command> ./xmlchange STOP_OPTION=nyears,STOP_N=4  </command>
  ---------------------------------------------------
+2025-12-26 22:44:43: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
+ ---------------------------------------------------
