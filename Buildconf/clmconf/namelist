@@ -1,5 +1,6 @@
 &comp_inparm 
 
-
+finidat = 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271.clm2.r.0109-01-01-00000.nc'
+finidat='/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/initdata_esmf/ctsm5.4/ctsm5.4.CMIP7_ciso_ctsm5.3.075_ne30_123_pSASU.clm2.r.0161-01-01-00000.nc'
 
 / 
