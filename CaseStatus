@@ -149,3 +149,5 @@ err=Attempt to call undefined import method with arguments ("main") via package 
 Log4perl: Seems like no initialization happened. Forgot to call init()?
 ERROR : CLM build-namelist::CLMBuildNamelist::setup_logic_megan_opts() : MEGAN options should NOT be set when MEGAN is NOT in use.
  ---------------------------------------------------
+2026-01-02 20:45:02: case.build starting 
+ ---------------------------------------------------
