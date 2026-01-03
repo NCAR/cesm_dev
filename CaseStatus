@@ -610,3 +610,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2026-01-02 19:55:34: case.submit success case.run:4535579.desched1, case.st_archive:4535580.desched1
  ---------------------------------------------------
+2026-01-02 19:56:41: case.run starting 4535579.desched1
+ ---------------------------------------------------
