@@ -620,3 +620,5 @@ ERROR: Could not find all inputdata on any server
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271_4xco2/run/med.log.4535579.desched1.260102-195641 
  
  ---------------------------------------------------
+2026-01-03 16:26:43: case.submit starting case.run:4541663.desched1, case.st_archive:4541664.desched1
+ ---------------------------------------------------
