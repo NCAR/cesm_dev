@@ -163,3 +163,7 @@ ERROR : CLM build-namelist::CLMBuildNamelist::setup_logic_megan_opts() : MEGAN o
  ---------------------------------------------------
 2026-01-03 01:04:54: model execution success 4535935.desched1
  ---------------------------------------------------
+2026-01-03 01:04:54: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/run/med.log.4535935.desched1.260102-204838 
+ 
+ ---------------------------------------------------
