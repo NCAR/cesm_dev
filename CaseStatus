@@ -616,3 +616,7 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2026-01-02 21:18:20: model execution success 4535579.desched1
  ---------------------------------------------------
+2026-01-02 21:18:21: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271_4xco2/run/med.log.4535579.desched1.260102-195641 
+ 
+ ---------------------------------------------------
