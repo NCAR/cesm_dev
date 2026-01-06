@@ -1,10 +1,12 @@
 &comp_inparm 
 
+ice_ic = "/glade/derecho/scratch/gmarques/archive/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.158/rest/0011-01-01-00000/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.158.cice.r.0011-01-01-00000.nc"
+
 
 
 tr_fsd = .true.
 
-restart_fsd = .true. 
+restart_fsd = .true.
 
 nfsd = 12
 
