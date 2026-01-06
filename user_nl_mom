@@ -1,7 +1,9 @@
 
 MLE%
 USE_CR_GRID = False
+CR = 0.005               !  Low value to improve Salinity cycle in Southern Ocean, especially Atlantic DMB
 %MLE
+MLE_DENSITY_DIFF = 0.03  ! Back to original Bodner (0.02 no longer helps)
 
 INPUTDIR = "/glade/derecho/scratch/gmarques/g.e30_a07g.GW1850MARBL_JRA.TL319_t232_wgx3_hycom1_N75.2025.152/run/INPUT"
 MEKE_GEOMETRIC_ALPHA = 0.09
@@ -12,6 +14,8 @@ MAXTRUNC = 1.0E6
 TAPER_LEITHY = True
 LEITH_BI_CONST = 85.0
 LEITHY_CK = 1.0
+LEITHY_DEPTH = 1000.0
+LEITHY_WIDTH = 500.0
 
 ! Background KH
 USE_KH_BG_2D = True
@@ -30,3 +34,16 @@ VISC_RES_SCALE_COEF = 0.5  ! Used for KHTR
 VISC_RES_FN_POWER = 6      ! Used for KHTR
 INTERPOLATE_RES_FN = True  ! Only computes resolution fn once, then interpolates
 
+THICKNESS_CONFIG = thickness_file
+VELOCITY_CONFIG = file
+TS_CONFIG = file
+
+INIT_LAYERS_FROM_Z_FILE = False
+
+THICKNESS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.158/rest/0011-01-01-00000/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.158.mom6.r.0011-01-01-00000.nc"
+
+TS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.158/rest/0011-01-01-00000/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.158.mom6.r.0011-01-01-00000.nc"
+VELOCITY_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.158/rest/0011-01-01-00000/g.e30_a07g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2025.158.mom6.r.0011-01-01-00000.nc"
+
+TEMP_IC_VAR = "Temp"
+SALT_IC_VAR = "Salt"
