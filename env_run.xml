@@ -283,7 +283,7 @@
       Sets the run length along with STOP_N and STOP_DATE
     </desc>
     </entry>
-    <entry id="STOP_N" value="1">
+    <entry id="STOP_N" value="3">
       <type>integer</type>
       <desc>
       Provides a numerical count for $STOP_OPTION.
@@ -405,7 +405,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to determine whether run has been submitted with the submit script or not</desc>
     </entry>
-    <entry id="JOB_IDS" value="case.run:4558894.desched1, case.st_archive:4558895.desched1">
+    <entry id="JOB_IDS" value="case.run:4563332.desched1, case.st_archive:4563333.desched1">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
