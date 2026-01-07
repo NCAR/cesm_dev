@@ -108,4 +108,4 @@ clubb_c8 = 4.6
 flbc_cycle_yr= 1
 flbc_file= '/glade/campaign/cesm/cesmdata/cseg/inputdata/atm/waccm/lb/LBC_CMIP6abrupt4xCO2_cyclicalYear1_0p5degLat_c180929.nc'
 
-clubb_gamma_coef		=  0.300001
+clubb_gamma_coef		=  0.300002
