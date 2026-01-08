@@ -60,3 +60,7 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=30
 
+./xmlchange RESUBMIT=4,JOB_PRIORITY=special
+
+./case.submit
+
