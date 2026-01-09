@@ -36,3 +36,5 @@ ERROR : CLM build-namelist::CLMBuildNamelist::setup_logic_megan_opts() : MEGAN o
  ---------------------------------------------------
 2026-01-09 15:25:34: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
  ---------------------------------------------------
+2026-01-09 15:25:36: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=30,STOP_N=1,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
