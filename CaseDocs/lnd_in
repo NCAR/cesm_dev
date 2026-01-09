@@ -30,7 +30,7 @@
  nlevsno = 12
  nsegspc = 35
  o3_veg_stress_method = 'unset'
- paramfile = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/paramdata/clm60_params.ctsm6_li2024.c250822.nc'
+ paramfile = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/paramdata/ctsm60_params.c251124.nc'
  run_zero_weight_urban = .false.
  snicar_dust_optics = 'sahara'
  snicar_numrad_snw = 5
