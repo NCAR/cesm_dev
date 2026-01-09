@@ -56,3 +56,4 @@ micro_mg_dcs = 500.D-6
 
 se_statefreq = 144
 
+ncdata = '/glade/derecho/scratch/shawnh/archive/b.e30_beta06_megan.B1850C_MTt4s.ne30.004/rest/0002-02-01-00000/b.e30_beta06_megan.B1850C_MTt4s.ne30.004.cam.i.0002-01-01-00000.nc'
