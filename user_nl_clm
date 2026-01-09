@@ -1,1 +1,4 @@
-megan_use_gamma_sm = .false.
+finidat='/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/initdata_esmf/ctsm5.4/ctsm5.4.CMIP7_ciso_ctsm5.3.075_ne30_123_pSASU.clm2.r.0161-01-01-00000.nc'
+paramfile = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/paramdata/clm60_params.ctsm6_li2024.c250822.nc'
+stream_fldfilename_cultivar_gdds = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/cropdata/calendars/processed/gdds_20250809_025305.tweaked_latlons.nc'
+stream_fldfilename_gdd20_baseline = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/cropdata/calendars/processed/20230714_cropcals_pr2_1deg.actually2deg.1980-2009.from_GDDB20.interpd_halfdeg.tweaked_latlons.nc'

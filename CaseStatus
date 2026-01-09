@@ -24,3 +24,5 @@ out=
 err=Attempt to call undefined import method with arguments ("main") via package "CLMBuildNamelist" (Perhaps you forgot to load the package?) at /glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/components/clm/bld/build-namelist line 21.
 ERROR : CLM build-namelist::CLMBuildNamelist::setup_logic_megan_opts() : MEGAN options should NOT be set when MEGAN is NOT in use.
  ---------------------------------------------------
+2026-01-09 15:12:00: case.build starting 
+ ---------------------------------------------------
