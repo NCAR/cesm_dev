@@ -52,3 +52,5 @@ Smartmatch is deprecated at /glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4
 CAM build-namelist - ERROR: Invalid namelist variable in '-infile' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280/Buildconf/camconf/namelist.
  ERROR: in _validate_pair (package Build::NamelistDefinition): Variable name fincl not found in /glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/components/cam/bld/namelist_files/namelist_definition.xml
  ---------------------------------------------------
+2026-01-10 21:22:01: case.submit starting 
+ ---------------------------------------------------
