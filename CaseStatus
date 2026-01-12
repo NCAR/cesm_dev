@@ -75,3 +75,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280/run/med.log.4599234.desched1.260110-212532 
  
  ---------------------------------------------------
+2026-01-12 14:47:20: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
