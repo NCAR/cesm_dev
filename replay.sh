@@ -26,3 +26,9 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
+./preview_namelists
+
+./preview_namelists
+
+./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run
+
