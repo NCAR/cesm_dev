@@ -1,0 +1,60 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) cesmdev/1.0   2) ncarenv/24.12
+CUPiD will not use dask in any notebooks
+CUPID_RUN_ALL is True, running diagnostics for all components
+INFO:util:
+  Generating atm time series files...
+INFO:util:	 Processing time series for case 'b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280' :
+INFO:util:	 - time series for PSL
+INFO:util:	 Processing time series for case 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271' :
+INFO:util:	 - time series for PSL
+INFO:util:  ... atm time series file generation has finished successfully.
+INFO:util:
+  No time series files requested for ocn...
+INFO:util:
+  Generating lnd time series files...
+INFO:util:	 Processing time series for case 'b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280' :
+INFO:util:	 - time series for SOILWATER_10CM
+INFO:util:	 - time series for FSH_TO_COUPLER
+INFO:util:	 Processing time series for case 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271' :
+INFO:util:	 - time series for SOILWATER_10CM
+INFO:util:	 - time series for FSH_TO_COUPLER
+INFO:util:  ... lnd time series file generation has finished successfully.
+INFO:util:
+  Generating ice time series files...
+INFO:util:	 Processing time series for case 'b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280' :
+INFO:util:	 - time series for aice
+INFO:util:	 - time series for hi
+INFO:util:	 - time series for hs
+INFO:util:	 Processing time series for case 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271' :
+INFO:util:	 - time series for aice
+INFO:util:	 - time series for hi
+INFO:util:	 - time series for hs
+INFO:util:  ... ice time series file generation has finished successfully.
+INFO:util:
+  No time series files requested for glc...
+INFO:util:
+  No time series files requested for rof...
+ADF diagnostics is starting...
+	Checking history files in '/glade/derecho/scratch/hannay/archive/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271/atm/hist'
+	Checking history files in '/glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/atm/hist'
+
+	Diagnostic Plot Location: ADF_output/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280_2_21_vs_b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271_2_21
+	INFO: Directory not found, making new diagnostic plot location
+Traceback (most recent call last):
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/externals/ADF/run_adf_diag", line 150, in <module>
+    diag.setup_run_cvdp()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/externals/ADF/lib/adf_diag.py", line 1013, in setup_run_cvdp
+    shutil.copytree(
+    ~~~~~~~~~~~~~~~^
+        self.get_cvdp_info("cvdp_codebase_loc"), cvdp_dir
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/glade/work/hannay/conda-envs/cupid-analysis/lib/python3.13/shutil.py", line 591, in copytree
+    with os.scandir(src) as itr:
+         ~~~~~~~~~~^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../../externals/ADF/lib/externals/CVDP/'

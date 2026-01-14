@@ -124,3 +124,7 @@ cd "${CASEDIR}"
 
 ./case.submit --only-job case.cupid
 
+/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/helper_scripts/generate_cupid_config_for_cesm_case.py --run-cvdp --case-root "${CASEDIR}" --cesm-root /glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142 --cupid-root /glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD --cupid-example key_metrics --cupid-baseline-case b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271 --cupid-baseline-root /glade/derecho/scratch/hannay/archive --cupid-ts-dir /glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/.. --cupid-startdate 0002-01-01 --cupid-enddate 0022-01-01 --cupid-base-startdate 0002-01-01 --cupid-base-enddate 0022-01-01 --adf-output-root "${CASEDIR}"/cupid-postprocessing --ldf-output-root "${CASEDIR}"/cupid-postprocessing --ilamb-output-root "${CASEDIR}"/cupid-postprocessing --cupid-run-adf TRUE --cupid-run-ldf FALSE --cupid-run-ilamb FALSE
+
+./xmlchange CUPID_RUN_CVDP=FALSE
+

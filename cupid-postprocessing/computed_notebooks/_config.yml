@@ -1,0 +1,29 @@
+title: CESM Key Metrics
+author: none
+copyright: '2023'
+execute:
+  execute_notebooks: false
+  only_build_toc_files: true
+latex:
+  latex_engine: pdflatex
+  latex_documents:
+    targetname: cupid-default.tex
+sphinx:
+  config:
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+launch_buttons:
+  jupyterhub_url: https://jupyterhub.hpc.ucar.edu
+  notebook_interface: jupyterlab
+html:
+  use_issues_button: false
+  use_repository_button: false
+  home_page_in_navbar: false
+parse:
+  myst_enable_extensions:
+  - amsmath
+  - colon_fence
+  - dollarmath
+  - html_image
+  - linkify
+  - smartquotes
+  - substitution

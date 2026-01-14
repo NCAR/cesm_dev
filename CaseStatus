@@ -545,3 +545,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08a
  ---------------------------------------------------
 2026-01-14 14:36:31: case.submit success case.cupid:4636677.desched1
  ---------------------------------------------------
+2026-01-14 14:57:12: xmlchange success <command> ./xmlchange CUPID_RUN_CVDP=FALSE  </command>
+ ---------------------------------------------------
