@@ -1,0 +1,17 @@
+Lmod has detected the following error: Error found in sourcing script
+"/glade/u/apps/opt/conda/etc/profile.d/conda.sh":
+/usr/bin/bash: /glade/u/apps/opt/conda/etc/profile.d/conda.sh: No such file or
+directory
+
+If this is a bash script please try:
+  $ set -exv; . /glade/u/apps/opt/conda/etc/profile.d/conda.sh
+See https://lmod.readthedocs.io/en/latest/260_sh_to_modulefile.html for
+details.
+
+While processing the following module(s):
+    Module fullname  Module Filename
+    ---------------  ---------------
+    conda/latest     /glade/u/apps/derecho/modules/24.12/Core/conda/latest.lua
+
+Python 3.8 is recommended to run CIME. You have 3.6.
+st_archive starting
