@@ -100,3 +100,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_STOP_N=20
 
+./xmlchange CUPID_BASE_STARTDATE=0002-01-01
+
