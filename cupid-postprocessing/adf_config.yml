@@ -53,7 +53,7 @@ diag_cam_baseline_climo:
   cam_tem_loc: /glade/derecho/scratch/${user}/${diag_cam_baseline_climo.cam_case_name}/tem/
   overwrite_tem: false
 diag_cvdp_info:
-  cvdp_run: true
+  cvdp_run: false
   cvdp_tar: false
   cvdp_codebase_loc: ../../externals/ADF/lib/externals/CVDP/
   cvdp_loc: ./CVDP_output/

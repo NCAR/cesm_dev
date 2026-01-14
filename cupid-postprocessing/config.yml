@@ -177,7 +177,7 @@ compute_notebooks:
         analysis_scripts:
         - amwg_table
         diag_cvdp_info:
-          cvdp_run: true
+          cvdp_run: false
           cvdp_tar: false
         regridded_output: false
         base_regridded_output: false

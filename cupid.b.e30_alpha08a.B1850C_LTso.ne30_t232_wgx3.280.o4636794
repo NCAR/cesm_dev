@@ -1,0 +1,289 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) cesmdev/1.0   2) ncarenv/24.12
+CUPiD will not use dask in any notebooks
+CUPID_RUN_ALL is True, running diagnostics for all components
+INFO:util:
+  Generating atm time series files...
+INFO:util:	 Processing time series for case 'b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280' :
+INFO:util:	 Processing time series for case 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271' :
+INFO:util:  ... atm time series file generation has finished successfully.
+INFO:util:
+  No time series files requested for ocn...
+INFO:util:
+  Generating lnd time series files...
+INFO:util:	 Processing time series for case 'b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280' :
+INFO:util:	 Processing time series for case 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271' :
+INFO:util:  ... lnd time series file generation has finished successfully.
+INFO:util:
+  Generating ice time series files...
+INFO:util:	 Processing time series for case 'b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280' :
+INFO:util:	 Processing time series for case 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271' :
+INFO:util:  ... ice time series file generation has finished successfully.
+INFO:util:
+  No time series files requested for glc...
+INFO:util:
+  No time series files requested for rof...
+ADF diagnostics is starting...
+	Checking history files in '/glade/derecho/scratch/hannay/archive/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271/atm/hist'
+	Checking history files in '/glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/atm/hist'
+
+	Diagnostic Plot Location: ADF_output/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280_2_21_vs_b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271_2_21
+
+  Calculating CAM time series...
+  ------------------------------
+	 Processing time series for case b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280, cam.h0a files:
+
+	 Writing time series files to:
+	/glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/../b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/atm/proc/tseries
+	 - time series for SST
+	 - time series for TS
+	 - time series for SWCF
+	 - time series for LWCF
+	 - time series for PRECT
+	 - time series for TAUX
+	 - time series for TAUY
+	 - time series for TGCLDLWP
+	 - time series for U
+	    INFO: Adding PS to file for 'U'
+	 - time series for PSL
+	    INFO: 'PSL' file was found and overwrite is False. Will use existing file.
+	 - time series for LANDFRAC
+	 - time series for TREFHT
+	 - time series for RELHUM
+	    INFO: Adding PS to file for 'RELHUM'
+	 - time series for T
+	    INFO: Adding PS to file for 'T'
+	 - time series for OCNFRAC
+  ...CAM time series file generation has finished successfully.
+
+  Calculating CAM time series...
+  ------------------------------
+	 Processing time series for baseline b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271, cam.h0a files:
+
+	 Writing time series files to:
+	/glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/../b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271/atm/proc/tseries
+	 - time series for SST
+	 - time series for TS
+	 - time series for SWCF
+	 - time series for LWCF
+	 - time series for PRECT
+	 - time series for TAUX
+	 - time series for TAUY
+	 - time series for TGCLDLWP
+	 - time series for U
+	    INFO: Adding PS to file for 'U'
+	 - time series for PSL
+	    INFO: 'PSL' file was found and overwrite is False. Will use existing file.
+	 - time series for LANDFRAC
+	 - time series for TREFHT
+	 - time series for RELHUM
+	    INFO: Adding PS to file for 'RELHUM'
+	 - time series for T
+	    INFO: Adding PS to file for 'T'
+	 - time series for OCNFRAC
+  ...CAM time series file generation has finished successfully.
+
+  Calculating CAM climatologies...
+  --------------------------------
+
+	 Calculating climatologies for case 'b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280' :
+	    /glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/../b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/atm/proc/climo not found, making new directory
+	 - climatology for SST
+	 - climatology for TS
+	 - climatology for SWCF
+	 - climatology for LWCF
+	 - climatology for PRECT
+	 - climatology for TAUX
+	 - climatology for TAUY
+	 - climatology for TGCLDLWP
+	 - climatology for U
+	 - climatology for PSL
+	 - climatology for LANDFRAC
+	 - climatology for TREFHT
+	 - climatology for RELHUM
+	 - climatology for T
+	 - climatology for OCNFRAC
+
+	 Calculating climatologies for case 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271' :
+	    /glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/../b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271/atm/proc/climo not found, making new directory
+	 - climatology for SST
+	 - climatology for TS
+	 - climatology for SWCF
+	 - climatology for LWCF
+	 - climatology for PRECT
+	 - climatology for TAUX
+	 - climatology for TAUY
+	 - climatology for TGCLDLWP
+	 - climatology for U
+	 - climatology for PSL
+	 - climatology for LANDFRAC
+	 - climatology for TREFHT
+	 - climatology for RELHUM
+	 - climatology for T
+	 - climatology for OCNFRAC
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+invalid escape sequence '\m'
+Interpolation point out of data bounds encountered
+Interpolation point out of data bounds encountered
+Interpolation point out of data bounds encountered
+Some vectors at source domain corners may not have been transformed correctly
+Some vectors at source domain corners may not have been transformed correctly
+  ...CAM climatologies have been calculated successfully.
+
+  Regridding CAM climatologies...
+  -------------------------------
+    /glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/../b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271/atm/proc/tseries/regrid not found, making new directory
+	 Regridding case 'b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280' :
+	 - regridding LANDFRAC (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding OCNFRAC (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding SST (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding TS (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding SWCF (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding LWCF (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding PRECT (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding TAUX (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding TAUY (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding TGCLDLWP (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding U (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+Please ignore the interpolation warnings that follow!
+Please ignore the interpolation warnings that follow!
+	 - regridding PSL (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding TREFHT (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+	 - regridding RELHUM (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+Please ignore the interpolation warnings that follow!
+Please ignore the interpolation warnings that follow!
+	 - regridding T (known targets: ['b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'])
+Please ignore the interpolation warnings that follow!
+Please ignore the interpolation warnings that follow!
+  ...CAM climatologies have been regridded successfully.
+
+  Calculating AMWG variable tables...
+  -----------------------------------
+
+  Creating table for 'b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280'...
+	 - Variable 'LANDFRAC' being added to table
+	 - Variable 'OCNFRAC' being added to table
+	 - Variable 'SST' being added to table
+	 - Variable 'TS' being added to table
+	 - Variable 'SWCF' being added to table
+	 - Variable 'LWCF' being added to table
+	 - Variable 'PRECT' being added to table
+	 - Variable 'TAUX' being added to table
+	 - Variable 'TAUY' being added to table
+	 - Variable 'TGCLDLWP' being added to table
+	 - Variable 'U' being added to table
+	    WARNING: Variable 'U' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+	 - Variable 'PSL' being added to table
+	 - Variable 'TREFHT' being added to table
+	 - Variable 'RELHUM' being added to table
+	    WARNING: Variable 'RELHUM' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+	 - Variable 'T' being added to table
+	    WARNING: Variable 'T' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+
+  Creating table for 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271'...
+	 - Variable 'LANDFRAC' being added to table
+	 - Variable 'OCNFRAC' being added to table
+	 - Variable 'SST' being added to table
+	 - Variable 'TS' being added to table
+	 - Variable 'SWCF' being added to table
+	 - Variable 'LWCF' being added to table
+	 - Variable 'PRECT' being added to table
+	 - Variable 'TAUX' being added to table
+	 - Variable 'TAUY' being added to table
+	 - Variable 'TGCLDLWP' being added to table
+	 - Variable 'U' being added to table
+	    WARNING: Variable 'U' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+	 - Variable 'PSL' being added to table
+	 - Variable 'TREFHT' being added to table
+	 - Variable 'RELHUM' being added to table
+	    WARNING: Variable 'RELHUM' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+	 - Variable 'T' being added to table
+	    WARNING: Variable 'T' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+
+  Making comparison table...
+  ... Comparison table has been generated successfully
+  ...AMWG variable table(s) have been generated successfully.
+
+  Generating lat/lon maps...
+  --------------------------
+  ...lat/lon maps have been generated successfully.
+
+  Generating lat/lon vector maps...
+  ---------------------------------
+	 NOTE: redo_plot is set to False
+	 - lat/lon vector maps for TAUX,TAUY
+	 - lat/lon vector maps for U,V
+	    WARNING: Did not find any regridded reference climo files. Will try to skip.
+	    INFO: Data Location, dclimo_loc is /glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280/../b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271/atm/proc/tseries/regrid
+	      The glob is: b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271_V_*.nc
+  ...lat/lon vector maps have been generated successfully.
+
+  Generating Taylor Diagrams...
+  -----------------------------
+Ambiguous plotting location since all cases go on same plot. Will put them in first location: ./ADF_output/b.e30_alpha08a.B1850C_LTso.ne30_t232_wgx3.280_2_21_vs_b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271_2_21
+	 NOTE: Plot type is set to png
+	 NOTE: redo_plot is set to False
+	 - Plotting Taylor Diagram, ANN
+Traceback (most recent call last):
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/externals/ADF/run_adf_diag", line 191, in <module>
+    diag.create_plots()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/externals/ADF/lib/adf_diag.py", line 975, in create_plots
+    self.__diag_scripts_caller(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "plotting", plot_func_names, log_section="create_plots"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/externals/ADF/lib/adf_diag.py", line 282, in __diag_scripts_caller
+    self.__function_caller(
+    ~~~~~~~~~~~~~~~~~~~~~~^
+        func_name, func_kwargs=func_kwargs, module_name=func_name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/externals/ADF/lib/adf_diag.py", line 321, in __function_caller
+    return func(self)
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/externals/ADF/lib/../scripts/plotting/cam_taylor_diagram.py", line 167, in cam_taylor_diagram
+    base_x = _retrieve(adfobj, v, data_name, data_loc) # get the baseline field
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/externals/ADF/lib/../scripts/plotting/cam_taylor_diagram.py", line 429, in _retrieve
+    da = func(adfobj, casename, location)  # these ONLY return DataArray
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/externals/ADF/lib/../scripts/plotting/cam_taylor_diagram.py", line 333, in get_u_at_plev
+    return get_var_at_plev(adf, casename, location, "U", 300)
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/externals/ADF/lib/../scripts/plotting/cam_taylor_diagram.py", line 326, in get_var_at_plev
+    vplev = gc.interp_hybrid_to_pressure(dset['U'], ps, dset['hyam'], dset['hybm'],
+                                         new_levels=np.array([100. * plev]), lev_dim='lev')
+  File "/glade/work/hannay/conda-envs/cupid-analysis/lib/python3.13/site-packages/geocat/comp/interpolation.py", line 652, in interp_hybrid_to_pressure
+    pressure = pressure_at_hybrid_levels(ps, hyam, hybm, p0)  # Pa
+  File "/glade/work/hannay/conda-envs/cupid-analysis/lib/python3.13/site-packages/geocat/comp/interpolation.py", line 406, in pressure_at_hybrid_levels
+    raise ValueError(f'hya and hyb must be 1-dimensional: {hya.shape}')
+ValueError: hya and hyb must be 1-dimensional: (12, 58)
