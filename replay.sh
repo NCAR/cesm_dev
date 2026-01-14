@@ -118,3 +118,5 @@ cd "${CASEDIR}"
 
 ./case.submit --only-job case.cupid
 
+./case.submit --only-job case.cupid
+
