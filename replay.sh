@@ -116,3 +116,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_RUN_ADF=TRUE
 
+./case.submit --only-job case.cupid
+
