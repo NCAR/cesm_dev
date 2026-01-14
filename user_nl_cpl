@@ -1,0 +1,2 @@
+wav_coupling_to_cice = .true.
+histaux_l2x1yrg = .true.
