@@ -547,3 +547,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08a
  ---------------------------------------------------
 2026-01-14 14:57:12: xmlchange success <command> ./xmlchange CUPID_RUN_CVDP=FALSE  </command>
  ---------------------------------------------------
+2026-01-14 14:57:14: xmlchange success <command> ./xmlchange CUPID_RUN_ADF=TRUE  </command>
+ ---------------------------------------------------
