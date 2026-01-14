@@ -351,3 +351,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08a
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280/run/med.log.4634181.desched1.260114-094807 
  
  ---------------------------------------------------
+2026-01-14 16:54:24: xmlchange success <command> ./xmlchange NTASKS_OCN=512  </command>
+ ---------------------------------------------------
