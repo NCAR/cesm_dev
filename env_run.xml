@@ -256,7 +256,7 @@
       Reference time of day (seconds) for hybrid or branch runs (sssss)
     </desc>
     </entry>
-    <entry id="GET_REFCASE" value="FALSE">
+    <entry id="GET_REFCASE" value="TRUE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>

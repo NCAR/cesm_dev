@@ -16,3 +16,5 @@
  ---------------------------------------------------
 2026-01-13 20:06:49: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
  ---------------------------------------------------
+2026-01-13 20:06:53: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
+ ---------------------------------------------------

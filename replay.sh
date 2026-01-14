@@ -24,3 +24,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_PRIORITY=special --force
 
+./xmlchange GET_REFCASE=true
+
