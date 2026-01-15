@@ -82,3 +82,5 @@ ERROR : CLM build-namelist::CLMBuildNamelist::setup_logic_megan_opts() : MEGAN o
  ---------------------------------------------------
 2026-01-15 10:30:37: st_archive starting 4640333.desched1
  ---------------------------------------------------
+2026-01-15 10:31:34: st_archive success 4640333.desched1
+ ---------------------------------------------------
