@@ -1,0 +1,10 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) cesmdev/1.0   2) ncarenv/24.12
+CUPiD will not use dask in any notebooks
+CUPID_RUN_ALL is True, running diagnostics for all components
+Usage: generate_cupid_config_for_cesm_case.py [OPTIONS]
+Try 'generate_cupid_config_for_cesm_case.py -h' for help.
+
+Error: No such option: --cupid-climo-end-year (Possible options: --cupid-base-enddate, --cupid-enddate, --cupid-ts-dir)
