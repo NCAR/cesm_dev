@@ -33,3 +33,5 @@ err=Attempt to call undefined import method with arguments ("main") via package 
 Log4perl: Seems like no initialization happened. Forgot to call init()?
 ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instead got:  ‘/glade/derecho/scratch/wwieder/archive/ctsm5.4.004_bgc_ne30_130_pSASU_greenland/rest/0121-01-01-00000/ctsm5.4.004_bgc_ne30_130_pSASU_greenland.clm2.r.0121-01-01-00000.nc’
  ---------------------------------------------------
+2026-01-16 13:54:08: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
