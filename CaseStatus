@@ -144,3 +144,5 @@ ERROR : CLM build-namelist::CLMBuildNamelist::setup_logic_megan_opts() : MEGAN o
  ---------------------------------------------------
 2026-01-16 12:00:27: case.run starting 4654796.desched1
  ---------------------------------------------------
+2026-01-16 12:00:37: model execution starting 4654796.desched1
+ ---------------------------------------------------
