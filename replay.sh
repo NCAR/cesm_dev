@@ -48,3 +48,13 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run
 
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./case.build
+
