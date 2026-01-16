@@ -565,3 +565,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08a
  ---------------------------------------------------
 2026-01-16 08:27:23: xmlchange success <command> ./xmlchange CUPID_BASELINE_CASE=b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271  </command>
  ---------------------------------------------------
+2026-01-16 08:27:25: xmlchange success <command> ./xmlchange CUPID_BASELINE_ROOT=/glade/derecho/scratch/hannay/archive  </command>
+ ---------------------------------------------------
