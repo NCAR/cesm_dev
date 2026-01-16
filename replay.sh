@@ -136,3 +136,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=25,JOB_PRIORITY=regular
 
+./xmlchange CUPID_STARTDATE=0002-01-01
+
