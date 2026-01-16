@@ -112,3 +112,5 @@ ERROR : CLM build-namelist::CLMBuildNamelist::setup_logic_megan_opts() : MEGAN o
  ---------------------------------------------------
 2026-01-16 03:18:45: model execution success 4647733.desched1
  ---------------------------------------------------
+2026-01-16 03:18:47: case.run success 4647733.desched1
+ ---------------------------------------------------
