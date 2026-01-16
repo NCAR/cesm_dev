@@ -1,5 +1,18 @@
 &comp_inparm 
 
+finidat = 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271.clm2.r.0109-01-01-00000.nc'
+paramfile = '/glade/u/home/slevis/paramfiles/ctsm60_params.c251211_mxmat67_300.nc'
+
+finidat = ‘glade/derecho/scratch/wwieder/archive/ctsm5.4.004_bgc_ne30_130_pSASU_greenland/rest/0121-01-01-00000/ctsm5.4.004_bgc_ne30_130_pSASU_greenland.clm2.r.0121-01-01-00000.nc’
+
+hist_fincl1 =  'QSNOFRZ_ICE',  'QSNOMELT_ICE', 
+
+ 'QSOIL_ICE', 'FIRE_ICE', 'FLDS_ICE', 
+
+ 'FSH_ICE', 'FSNO_ICE', 'FSR_ICE','SNOWICE_ICE', 'SNOWLIQ_ICE', 'SNOW_ICE','TG_ICE',  
+
+ 'TOPO_COL_ICE', 'TSA_ICE', ‘TSOI_ICE'
+
 
 
 / 
