@@ -587,3 +587,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08a
  ---------------------------------------------------
 2026-01-16 08:32:56: xmlchange success <command> ./xmlchange CUPID_CLIMO_END_YEAR=21  </command>
  ---------------------------------------------------
+2026-01-16 08:32:58: xmlchange success <command> ./xmlchange CUPID_CLIMO_N_YEAR=20  </command>
+ ---------------------------------------------------
