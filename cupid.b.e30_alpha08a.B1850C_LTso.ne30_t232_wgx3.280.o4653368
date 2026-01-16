@@ -1,0 +1,24 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) cesmdev/1.0   2) ncarenv/24.12
+CUPiD will not use dask in any notebooks
+CUPID_RUN_ALL is True, running diagnostics for all components
+Traceback (most recent call last):
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/helper_scripts/generate_cupid_config_for_cesm_case.py", line 416, in <module>
+    generate_cupid_config()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/click/core.py", line 1485, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/click/core.py", line 1406, in main
+    rv = self.invoke(ctx)
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/click/core.py", line 1269, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/click/core.py", line 824, in invoke
+    return callback(*args, **kwargs)
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha08a_cam6_4_142/tools/CUPiD/helper_scripts/generate_cupid_config_for_cesm_case.py", line 277, in generate_cupid_config
+    cupid_climo_end_year - cupid_climo_n_year + 1
+    ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
