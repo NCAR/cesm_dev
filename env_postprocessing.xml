@@ -58,7 +58,7 @@
       <valid_values>ndays,nmonths,nyears</valid_values>
       <desc>Sets the portion of base case output to include in CUPiD analysis, along with STOP_N.</desc>
     </entry>
-    <entry id="CUPID_BASE_STOP_N" value="100">
+    <entry id="CUPID_BASE_STOP_N" value="20">
       <type>integer</type>
       <desc>Provides a numerical count for $CUPID_BASE_STOP_OPTION.</desc>
     </entry>
