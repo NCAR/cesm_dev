@@ -164,3 +164,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_RUN_LDF=TRUE
 
+./xmlchange CUPID_BASE_STOP_N=20
+
