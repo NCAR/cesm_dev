@@ -35,3 +35,5 @@ err=Attempt to call undefined import method with arguments ("main") via package 
 Log4perl: Seems like no initialization happened. Forgot to call init()?
 ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instead got:  '/glade/campaign/cesm/cesmdata/cseg/inputdata/lnd/clm2/surfdata_esmf/ctsm5.4.0/surfdata_ne30np4.pg3_hist_1850_78pfts_c2510
  ---------------------------------------------------
+2026-01-17 16:40:38: case.build starting 
+ ---------------------------------------------------
