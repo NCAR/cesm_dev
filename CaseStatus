@@ -63,3 +63,5 @@ ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instea
  ---------------------------------------------------
 2026-01-17 17:20:43: case.submit starting case.run:4664176.desched1, case.st_archive:4664177.desched1
  ---------------------------------------------------
+2026-01-17 17:20:44: case.submit success case.run:4664176.desched1, case.st_archive:4664177.desched1
+ ---------------------------------------------------
