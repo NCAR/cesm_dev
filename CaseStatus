@@ -224,3 +224,5 @@
  ---------------------------------------------------
 2026-01-18 16:01:33: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
  ---------------------------------------------------
+2026-01-18 16:01:42: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
+ ---------------------------------------------------
