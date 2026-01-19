@@ -129,3 +129,5 @@ ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instea
  ---------------------------------------------------
 2026-01-19 03:19:10:   Timing files created for run 4673675.desched1.260118-190105
  ---------------------------------------------------
+2026-01-19 03:19:57: st_archive starting 4673676.desched1
+ ---------------------------------------------------
