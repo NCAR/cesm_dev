@@ -105,3 +105,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
  ---------------------------------------------------
 2026-01-18 21:11:22: st_archive success 4671505.desched1
  ---------------------------------------------------
+2026-01-18 21:11:23: case.submit starting case.run:4674077.desched1, case.st_archive:4674078.desched1
+ ---------------------------------------------------
