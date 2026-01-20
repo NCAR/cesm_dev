@@ -10,3 +10,7 @@
 
 ./xmlchange JOB_PRIORITY=premium
 
+./check_case
+
+./case.submit
+
