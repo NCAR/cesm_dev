@@ -27,3 +27,5 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-01-20 15:38:26: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=20,STOP_N=4,STOP_OPTION=nyears  </command>
  ---------------------------------------------------
+2026-01-20 15:38:27: xmlchange success <command> ./xmlchange PROJECT=P03010039  </command>
+ ---------------------------------------------------
