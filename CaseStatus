@@ -28,3 +28,5 @@
 ERROR: Model did not complete - see /glade/derecho/scratch/gmarques//b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.292/run/med.log.4692402.desched1.260120-131603 
  
  ---------------------------------------------------
+2026-01-20 14:17:33: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
