@@ -39,3 +39,5 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-01-20 15:57:45: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
  ---------------------------------------------------
+2026-01-20 15:57:47: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
