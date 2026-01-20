@@ -14,3 +14,5 @@
  ---------------------------------------------------
 2026-01-20 12:22:33: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
  ---------------------------------------------------
+2026-01-20 12:22:53: case.submit starting case.run:4692402.desched1, case.st_archive:4692403.desched1
+ ---------------------------------------------------
