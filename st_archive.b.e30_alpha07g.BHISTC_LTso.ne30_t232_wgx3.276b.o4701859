@@ -3616,3 +3616,15 @@ moving /glade/derecho/scratch/hannay/b.e30_alpha07g.BHISTC_LTso.ne30_t232_wgx3.2
 moving /glade/derecho/scratch/hannay/b.e30_alpha07g.BHISTC_LTso.ne30_t232_wgx3.276b/run/b.e30_alpha07g.BHISTC_LTso.ne30_t232_wgx3.276b.cpl.hx.1yr2glc.1861-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha07g.BHISTC_LTso.ne30_t232_wgx3.276b/cpl/hist/b.e30_alpha07g.BHISTC_LTso.ne30_t232_wgx3.276b.cpl.hx.1yr2glc.1861-01-01-00000.nc 
 moving /glade/derecho/scratch/hannay/b.e30_alpha07g.BHISTC_LTso.ne30_t232_wgx3.276b/run/b.e30_alpha07g.BHISTC_LTso.ne30_t232_wgx3.276b.cpl.hx.1yr2glc.1862-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha07g.BHISTC_LTso.ne30_t232_wgx3.276b/cpl/hist/b.e30_alpha07g.BHISTC_LTso.ne30_t232_wgx3.276b.cpl.hx.1yr2glc.1862-01-01-00000.nc 
 Archiving history files for dart (esp)
+st_archive completed
+resubmitting from st_archive, resubmit=18
+Submitting job 'case.run', resubmit=18
+submit_jobs case.run
+Submit job case.run
+Submitting job script qsub -q main -l walltime=12:00:00 -A CESM0023 -l job_priority=premium -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07g.BHISTC_LTso.ne30_t232_wgx3.276b/.case.run
+Submitted job id is 4706461.desched1
+Submit job case.st_archive
+Submitting job script qsub -q develop -l walltime=00:20:00 -A CESM0023 -l job_priority=premium  -W depend=afterok:4706461.desched1 -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07g.BHISTC_LTso.ne30_t232_wgx3.276b/case.st_archive
+Submitted job id is 4706462.desched1
+Submitted job case.run with id 4706461.desched1
+Submitted job case.st_archive with id 4706462.desched1
