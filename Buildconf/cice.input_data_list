@@ -1,2 +1,3 @@
 grid_file = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/horiz_grid_20230416.ieeer8
 kmt_file = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/topography_20230416.ieeei4
+ice_ic = b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271.cice.r.0109-01-01-00000.nc
