@@ -148,6 +148,6 @@ se_statefreq = 144
 
 
 
-ncdata = '/glade/derecho/scratch/tilmes/archive/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/rest/0032-01-01-00000/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001.cam.i.0032-01-01-00000.nc'
+ncdata = '/glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280/atm/hist/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280.cam.i.0002-01-01-00000.nc'
 
 / 
