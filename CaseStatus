@@ -42,3 +42,5 @@ P03010039, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2
  ---------------------------------------------------
 2026-01-23 15:18:31: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
  ---------------------------------------------------
+2026-01-23 15:18:32: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=4,STOP_N=4,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
