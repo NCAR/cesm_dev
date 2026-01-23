@@ -72,3 +72,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08a
  ---------------------------------------------------
 2026-01-23 15:55:43: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2026-01-23 15:55:50: case.submit starting case.run:4726602.desched1, case.st_archive:4726603.desched1
+ ---------------------------------------------------
