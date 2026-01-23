@@ -1,5 +1,10 @@
 &comp_inparm 
 
+finidat = 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.271.clm2.r.0109-01-01-00000.nc'
+finidat='/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/initdata_esmf/ctsm5.4/ctsm5.4.CMIP7_ciso_ctsm5.3.075_ne30_123_pSASU.clm2.r.0161-01-01-00000.nc'
 
+stream_fldfilename_cultivar_gdds = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/cropdata/calendars/processed/gdds_20250809_025305.tweaked_latlons.nc'
+
+stream_fldfilename_gdd20_baseline = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/cropdata/calendars/processed/20230714_cropcals_pr2_1deg.actually2deg.1980-2009.from_GDDB20.interpd_halfdeg.tweaked_latlons.nc'
 
 / 

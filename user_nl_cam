@@ -1,3 +1,74 @@
-! Users should add all user specific namelist changes below in the form of 
-! namelist_var = new_namelist_value 
- 
+mfilt               =       0,       5,     20,      40,      12,      120,      1,   1
+nhtfrq              =       0,     -24,    -24,      -3,       0,       -2,      0,  -8760
+ndens               =       2,       2,      2,       2,       2,        1,      2,   1
+interpolate_output  =  .true.,  .true., .true.,  .true., .false.,   .true.,     .true.
+interpolate_nlat    =     192,     192,    192,     192,      192,     192,      192
+interpolate_nlon    =     288,     288,    288,     288,      288,     288,      288
+
+empty_htapes = .true.
+
+fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODDUSTdn','AODVIS', 'AODVISdn','BURDENBC',
+'BURDENDUST', 'BURDENPOM', 'BURDENSEASALT',
+'BURDENSO4', 'BURDENSOA', 'CAPE', 'CCN3', 'CDNUMC', 'CH4', 'CLDHGH', 'CLDICE', 'CLDLIQ', 'CLDLOW',
+'CLDMED', 'CLDTOT', 'CLOUD', 'CMFMC_DP',
+'CT_H2O', 'DCQ', 'DQCORE', 'DTCOND', 'DTCORE', 'DTV', 'EVAPPREC', 'EVAPSNOW', 'FCTI', 'FCTL', 'FICE', 'FLDS', 'FLNS', 'FLNSC', 'FLNT', 'FLNTC', 'FLUT',
+'FREQZM', 'FSDS', 'FSDSC', 'FSNS', 'FSNSC', 'FSNT', 'FSNTC', 'FSNTOA', 'ICEFRAC', 'LANDFRAC', 'LHFLX', 'LWCF', 'MPDICE', 'MPDLIQ', 'MPDQ', 'MPDT',
+'OCNFRAC', 'OMEGA', 'OMEGA500', 'PBLH', 'PHIS', 'PINT', 'PMID', 'PRECC', 'PRECL', 'PRECSC', 'PRECSL', 'PRECT', 'PS', 'PSL', 'PTEQ', 'PTTEND', 'Q',
+'QFLX', 'QRL', 'QRS', 'QTGW', 'RCMTEND_CLUBB', 'RELHUM', 'RVMTEND_CLUBB', 'SHFLX', 'SOLIN', 'SST',
+'STEND_CLUBB', 'SWCF',
+'T', 'TAUX', 'TAUY', 'TFIX', 'TGCLDIWP', 'TGCLDLWP', 'TMQ', 'TREFHT', 'TS', 'TTGW', 'U', 'U10',
+'UBOT', 'UTGWORO', 'UTGW_TOTAL',
+'V', 'VBOT', 'VTGWORO', 'VTGW_TOTAL', 'WPRTP_CLUBB', 'WPTHLP_CLUBB', 'Z3', 'ZMDQ', 'ZMDT', 'N2O',
+ 'CO2','CFC11','CFC12',
+'AODVISdn','CCN3', 'CDNUMC', 'H2O', 'NUMICE', 'NUMLIQ','OMEGA500',
+ 'AQSO4_H2O2','AQSO4_O3', 'bc_a1', 'bc_a4', 'dst_a1', 'dst_a2', 'dst_a3', 'ncl_a1',
+'ncl_a1', 'ncl_a2', 'ncl_a3', 'pom_a1', 'pom_a4', 'so4_a1', 'so4_a2', 'so4_a3', 'soa_a2' ,
+'soa_a1', 'num_a1', 'num_a2', 'num_a3', 'num_a4',
+'bc_a1SFWET', 'bc_a4SFWET', 'dst_a1SFWET', 'dst_a2SFWET', 'dst_a3SFWET', 'ncl_a1SFWET',
+'ncl_a2SFWET', 'ncl_a3SFWET', 'pom_a1SFWET', 'pom_a4SFWET', 'so4_a1SFWET', 'so4_a2SFWET', 'so4_a3SFWET', 'soa_a1SFWET',
+'soa_a2SFWET', 'bc_c1SFWET', 'bc_c4SFWET', 'dst_c1SFWET', 'dst_c2SFWET', 'dst_c3SFWET', 'ncl_c1SFWET', 'ncl_c2SFWET',
+'ncl_c3SFWET', 'pom_c1SFWET', 'pom_c4SFWET', 'so4_c1SFWET', 'so4_c2SFWET', 'so4_c3SFWET', 'soa_c1SFWET', 'soa_c2SFWET',
+'bc_a1DDF', 'bc_a4DDF', 'dst_a1DDF', 'dst_a2DDF', 'dst_a3DDF', 'ncl_a1DDF', 'ncl_a2DDF', 'ncl_a3DDF',
+'pom_a1DDF', 'pom_a4DDF', 'so4_a1DDF', 'so4_a2DDF', 'so4_a3DDF', 'soa_a1DDF', 'soa_a2DDF',
+'so4_a1_CLXF', 'so4_a2_CLXF', 'SFbc_a4', 'SFpom_a4', 'SFso4_a1', 'SFso4_a2',
+'so4_a1_sfgaex1', 'so4_a2_sfgaex1', 'so4_a3_sfgaex1', 'soa_a1_sfgaex1', 'soa_a2_sfgaex1',
+'SFdst_a1','SFdst_a2', 'SFdst_a3', 'SFncl_a1', 'SFncl_a2', 'SFncl_a3',
+'num_a2_sfnnuc1', 'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO',
+'AODVISstdn', 'REFF_AERO', 'so4_a1', 'so4_a2', 'SAD_AERO', 'PS', 'TROP_P', 'FSNTOAC',
+'CME', 'CMEIOUT',
+'BTAUXSn32','BTAUYSn32','BTAUXSn31','BTAUYSn31','BTAUXSn30','BTAUYSn30','BTAUXSn29','BTAUYSn29','BTAUXSn28','BTAUYSn28','BTAUXSn27',
+'BTAUYSn27','BTAUXSn26','BTAUYSn26','BTAUXSn25','BTAUYSn25','BTAUXSn24','BTAUYSn24','BTAUXSn23','BTAUYSn23','BTAUXSn22','BTAUYSn22',
+'BTAUXSn21','BTAUYSn21','BTAUXSn20','BTAUYSn20','BTAUXSn19','BTAUYSn19','BTAUXSn18','BTAUYSn18','BTAUXSn17','BTAUYSn17','BTAUXSn16',
+'BTAUYSn16','BTAUXSn15','BTAUYSn15','BTAUXSn14','BTAUYSn14','BTAUXSn13','BTAUYSn13','BTAUXSn12','BTAUYSn12','BTAUXSn11','BTAUYSn11','BTAUXSn10',
+'BTAUYSn10','BTAUXSn09','BTAUYSn09','BTAUXSn08','BTAUYSn08','BTAUXSn07','BTAUYSn07','BTAUXSn06','BTAUYSn06','BTAUXSn05','BTAUYSn05','BTAUXSn04',
+'BTAUYSn04','BTAUXSn03','BTAUYSn03','BTAUXSn02','BTAUYSn02','BTAUXSn01','BTAUYSn01','BTAUXSp00','BTAUYSp00','BTAUXSp01','BTAUYSp01','BTAUXSp02',
+'BTAUYSp02','BTAUXSp03','BTAUYSp03','BTAUXSp04','BTAUYSp04','BTAUXSp05','BTAUYSp05','BTAUXSp06','BTAUYSp06','BTAUXSp07','BTAUYSp07','BTAUXSp08',
+'BTAUYSp08','BTAUXSp09','BTAUYSp09','BTAUXSp10','BTAUYSp10','BTAUXSp11','BTAUYSp11','BTAUXSp12','BTAUYSp12','BTAUXSp13','BTAUYSp13','BTAUXSp14',
+'BTAUYSp14','BTAUXSp15','BTAUYSp15','BTAUXSp16','BTAUYSp16','BTAUXSp17','BTAUYSp17','BTAUXSp18','BTAUYSp18','BTAUXSp19','BTAUYSp19','BTAUXSp20',
+'BTAUYSp20','BTAUXSp21','BTAUYSp21','BTAUXSp22','BTAUYSp22','BTAUXSp23','BTAUYSp23','BTAUXSp24','BTAUYSp24','BTAUXSp25','BTAUYSp25','BTAUXSp26',
+'BTAUYSp26','BTAUXSp27','BTAUYSp27','BTAUXSp28','BTAUYSp28','BTAUXSp29','BTAUYSp29','BTAUXSp30','BTAUYSp30','BTAUXSp31','BTAUYSp31','BTAUXSp32',
+'BTAUYSp32',
+ 'U', 'V', 'T', 'H2O' 
+
+fincl2 = 'U', 'V', 'T'
+
+fincl3 = 'PRECT', 'PRECC', 'FLUT', 'U850', 'U200', 'V850', 'V200', 'OMEGA500', 'TS', 'SST', 'PSL', 'Z500'
+
+fincl4 =  'PRECC','PRECL'
+
+fincl5 = 'Uzm','Vzm','Wzm','THzm', 'VTHzm','WTHzm','UVzm','UWzm'
+phys_grid_ctem_nfreq=-6
+phys_grid_ctem_zm_nbas=120
+phys_grid_ctem_za_nlat=90
+
+seasalt_emis_scale = 1.5
+clubb_c8 = 4.6
+cldfrc_dp1 =  0.1
+dust_emis_fact = 3.2
+micro_mg_vtrmi_factor = 1.2
+zmconv_c0_lnd = 0.0035D0
+micro_mg_dcs = 500.D-6
+
+se_statefreq = 144
+
+ncdata = '/glade/derecho/scratch/tilmes/archive/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/rest/0032-01-01-00000/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001.cam.i.0032-01-01-00000.nc'
