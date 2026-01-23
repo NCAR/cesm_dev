@@ -40,3 +40,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_PRIORITY=regular
 
+./xmlchange REST_OPTION=nyears,REST_N=1
+

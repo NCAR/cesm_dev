@@ -22,3 +22,5 @@
  ---------------------------------------------------
 2026-01-23 13:44:28: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
  ---------------------------------------------------
+2026-01-23 13:44:29: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
