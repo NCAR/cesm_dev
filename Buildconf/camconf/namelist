@@ -100,7 +100,7 @@ phys_grid_ctem_za_nlat=90
 
 seasalt_emis_scale = 1.5
 
-clubb_c8 = 4.6
+clubb_c8 = 4.4
 
 cldfrc_dp1 =  0.1
 
