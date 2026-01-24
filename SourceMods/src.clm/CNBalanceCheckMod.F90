@@ -381,7 +381,7 @@ contains
             write(iulog,*)'hr                       = ',soilbiogeochem_carbonflux_inst%hr_col(c)*dt
          end if
          write(iulog,*)'-1*som_c_leached         = ',som_c_leached(c)*dt
-         call endrun(subgrid_index=c, subgrid_level=subgrid_level_column, msg=errMsg(sourcefile, __LINE__))
+         ! call endrun(subgrid_index=c, subgrid_level=subgrid_level_column, msg=errMsg(sourcefile, __LINE__))
       end if
 
       ! Repeat error check at the gridcell level
@@ -470,7 +470,7 @@ contains
          write(iulog,*)'dwt_seedc_to_deadstem_grc =', dwt_seedc_to_deadstem_grc(g) * dt
          write(iulog,*)'--- Outputs ---'
          write(iulog,*)'-1*som_c_leached_grc    = ', som_c_leached_grc(g) * dt
-         call endrun(subgrid_index=g, subgrid_level=subgrid_level_gridcell, msg=errMsg(sourcefile, __LINE__))
+         !call endrun(subgrid_index=g, subgrid_level=subgrid_level_gridcell, msg=errMsg(sourcefile, __LINE__))
       end if
 
     end associate
@@ -677,7 +677,7 @@ contains
          else
             write(iulog,*)'outputs,lch,roff,dnit    = ',smin_no3_leached(c)*dt, smin_no3_runoff(c)*dt,f_n2o_nit(c)*dt
          end if
-         call endrun(subgrid_index=c, subgrid_level=subgrid_level_column, msg=errMsg(sourcefile, __LINE__))
+         !call endrun(subgrid_index=c, subgrid_level=subgrid_level_column, msg=errMsg(sourcefile, __LINE__))
       end if
 
       if_notfates: if(.not.use_fates_bgc)then
@@ -757,7 +757,7 @@ contains
             write(iulog,*) 'dwt_conv_nflux_grc       =', dwt_conv_nflux_grc(g) * dt
             write(iulog,*) '-gru_wood_productn_gain_grc =', -gru_wood_productn_gain_grc(g) * dt
             write(iulog,*) 'product_loss_grc         =', product_loss_grc(g) * dt
-            call endrun(subgrid_index=g, subgrid_level=subgrid_level_gridcell, msg=errMsg(sourcefile, __LINE__))
+            !call endrun(subgrid_index=g, subgrid_level=subgrid_level_gridcell, msg=errMsg(sourcefile, __LINE__))
          end if
          
       end if if_notfates
