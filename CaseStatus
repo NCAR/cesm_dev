@@ -421,3 +421,5 @@ ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instea
  ---------------------------------------------------
 2026-01-24 22:11:37: model execution starting 4737414.desched1
  ---------------------------------------------------
+2026-01-25 06:37:02: model execution success 4737414.desched1
+ ---------------------------------------------------
