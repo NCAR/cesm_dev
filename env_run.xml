@@ -405,11 +405,11 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to determine whether run has been submitted with the submit script or not</desc>
     </entry>
-    <entry id="JOB_IDS">
+    <entry id="JOB_IDS" value="case.run:4771719.desched1, case.st_archive:4771720.desched1">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
-    <entry id="JOB_PRIORITY" value="premium">
+    <entry id="JOB_PRIORITY" value="special">
       <type>char</type>
       <valid_values>regular,premium,economy</valid_values>
       <desc>job priority for systems supporting this option</desc>
