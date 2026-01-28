@@ -645,3 +645,5 @@ NCGD0067, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2026-01-28 13:45:42: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
  ---------------------------------------------------
+2026-01-28 13:46:12: case.submit starting 
+ ---------------------------------------------------
