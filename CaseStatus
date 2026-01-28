@@ -75,3 +75,5 @@ P03010039, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2
  ---------------------------------------------------
 2026-01-28 10:15:49: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=4,STOP_N=4,STOP_OPTION=nyears  </command>
  ---------------------------------------------------
+2026-01-28 10:15:50: xmlchange success <command> ./xmlchange PROJECT=CESM0019  </command>
+ ---------------------------------------------------
