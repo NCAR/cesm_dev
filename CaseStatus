@@ -658,3 +658,5 @@ CESM0023, Overspent, True
 NCGD0011, Normal, True
 NCGD0067, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287'
  ---------------------------------------------------
+2026-01-28 13:51:36: xmlchange success <command> ./xmlchange PROJECT=CESM0002  </command>
+ ---------------------------------------------------
