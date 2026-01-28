@@ -68,3 +68,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_PRIORITY=special --force
 
+./xmlchange PROJECT=CESM0019
+
