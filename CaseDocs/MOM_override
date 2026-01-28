@@ -3,7 +3,7 @@
         MOM6 parameter changes may ve made via SourceMods or user_nl_mom
         within CASEROOT.*/
 #override INPUTDIR = "/glade/derecho/scratch/gmarques/g.e30_a07g.GW1850MARBL_JRA.TL319_t232_wgx3_hycom1_N75.2025.152/run/INPUT"
-#override MEKE_GEOMETRIC_ALPHA = 0.09
+#override MEKE_GEOMETRIC_ALPHA = 0.07
 #override SMAGORINSKY_KH = False
 #override MAXTRUNC = 1.0E6
 TAPER_LEITHY = True
