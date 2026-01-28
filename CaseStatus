@@ -87,3 +87,5 @@ P03010039, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2
  ---------------------------------------------------
 2026-01-28 10:17:30: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
  ---------------------------------------------------
+2026-01-28 10:19:25: case.run starting 4771719.desched1
+ ---------------------------------------------------
