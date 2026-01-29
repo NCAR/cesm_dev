@@ -441,3 +441,5 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-01-29 04:57:44: st_archive success 4778207.desched1
  ---------------------------------------------------
+2026-01-29 04:57:46: case.submit starting case.run:4784320.desched1, case.st_archive:4784321.desched1
+ ---------------------------------------------------
