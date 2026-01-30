@@ -163,3 +163,5 @@ P03010039, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2
  ---------------------------------------------------
 2026-01-29 18:43:58: case.submit success case.run:4796301.desched1, case.st_archive:4796302.desched1
  ---------------------------------------------------
+2026-01-29 18:43:59: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
+ ---------------------------------------------------
