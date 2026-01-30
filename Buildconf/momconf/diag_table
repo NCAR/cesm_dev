@@ -138,6 +138,8 @@
 "ocean_model", "mass_wt",      "mass_wt",      "b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.300.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "frunoff_glc",  "frunoff_glc",  "b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.300.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "lrunoff_glc",  "lrunoff_glc",  "b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.300.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "BS_coeff_h",  "BS_coeff_h",  "b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.300.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "skeb_amp",  "skeb_amp",  "b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.300.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 
 # "b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.300.mom6.h.z%4yr-%2mo"
 "ocean_model_z", "uo",      "uo",      "b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.300.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
