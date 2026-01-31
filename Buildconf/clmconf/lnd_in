@@ -30,7 +30,7 @@
  nlevsno = 12
  nsegspc = 35
  o3_veg_stress_method = 'unset'
- paramfile = '/glade/work/linnia/CLM6 PPE/ctsm6_cal/paramfiles/ctsm60_params.c251211_BETTmedlynslope3.5.nc'
+ paramfile = '/glade/work/linnia/CLM6-PPE/ctsm6_cal/paramfiles/ctsm60_params.c251211_BETTmedlynslope3.5.nc'
  run_zero_weight_urban = .false.
  snicar_dust_optics = 'sahara'
  snicar_numrad_snw = 5
