@@ -9,7 +9,7 @@ use_init_interp = .true.
 
 reseed_dead_plants = .true.
 
-paramfile = '/glade/work/linnia/CLM6 PPE/ctsm6_cal/paramfiles/ctsm60_params.c251211_BETTmedlynslope3.5.nc' 
+paramfile = '/glade/work/linnia/CLM6-PPE/ctsm6_cal/paramfiles/ctsm60_params.c251211_BETTmedlynslope3.5.nc' 
 
 
 
