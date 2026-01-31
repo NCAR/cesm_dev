@@ -1,20 +1,6 @@
-!----------------------------------------------------------------------------------
-! Users should add all user specific namelist changes below in the form of 
-! namelist_var = new_namelist_value 
-!
-! EXCEPTIONS: 
-! Set use_cndv           by the compset you use and the CLM_BLDNML_OPTS -dynamic_vegetation setting
-! Set use_vichydro       by the compset you use and the CLM_BLDNML_OPTS -vichydro           setting
-! Set use_cn             by the compset you use and CLM_BLDNML_OPTS -bgc  setting
-! Set use_crop           by the compset you use and CLM_BLDNML_OPTS -crop setting
-! Set spinup_state       by the CLM_BLDNML_OPTS -bgc_spinup      setting
-! Set co2_ppmv           with CCSM_CO2_PPMV                      option
-! Set fatmlndfrc         with LND_DOMAIN_PATH/LND_DOMAIN_FILE    options
-! Set finidat            with RUN_REFCASE/RUN_REFDATE/RUN_REFTOD options for hybrid or branch cases
-!                        (includes $inst_string for multi-ensemble cases)
-!                        or with CLM_FORCE_COLDSTART to do a cold start
-!                        or set it with an explicit filename here.
-! Set maxpatch_glc       with GLC_NEC                            option
-! Set glc_do_dynglacier  with GLC_TWO_WAY_COUPLING               env variable
-!----------------------------------------------------------------------------------
+
+finidat = '/glade/campaign/cgd/tss/common/Land_Only_Simulations/CTSM54_DEV/ctsm5.4.004_bgc_ne30_130_pSASU_greenland/rest/0121-01-01-00000/ctsm5.4.004_bgc_ne30_130_pSASU_greenland.clm2.r.0121-01-01-00000.nc'
+use_init_interp = .true.
+reseed_dead_plants = .true.
+paramfile = '/glade/work/linnia/CLM6-PPE/ctsm6_cal/paramfiles/ctsm60_params.c251211_BETTmedlynslope3.5.nc' 
 
