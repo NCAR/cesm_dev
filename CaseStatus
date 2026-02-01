@@ -844,3 +844,5 @@ NCGD0067, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2026-02-01 03:04:25: case.submit success case.run:4897129.desched1, case.st_archive:4897131.desched1
  ---------------------------------------------------
+2026-02-01 03:05:46: case.run starting 4897129.desched1
+ ---------------------------------------------------
