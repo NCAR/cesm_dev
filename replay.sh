@@ -50,3 +50,7 @@ cd "${CASEDIR}"
 
 ./xmlchange REST_OPTION=nyears,REST_N=1
 
+./xmlchange JOB
+
+./case.build
+
