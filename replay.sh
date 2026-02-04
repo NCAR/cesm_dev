@@ -6,3 +6,7 @@
 
 ./case.build
 
+./check_case
+
+./xmlchange RESUBMIT=19
+
