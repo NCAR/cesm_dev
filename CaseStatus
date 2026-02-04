@@ -12,3 +12,5 @@
  ---------------------------------------------------
 2026-02-04 11:03:45: xmlchange success <command> ./xmlchange RESUBMIT=19  </command>
  ---------------------------------------------------
+2026-02-04 11:07:18: xmlchange success <command> ./xmlchange ROF2OCN_ICE_RMAPNAME=/glade/work/gmarques/cesm/tx2_3/runoff_mapping/map_r05_to_tx2_3_nnsm_e100r100_250327.nc  </command>
+ ---------------------------------------------------
