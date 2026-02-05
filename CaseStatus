@@ -320,3 +320,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08b
  ---------------------------------------------------
 2026-02-05 12:14:49: case.submit starting case.run:4963604.desched1, case.st_archive:4963605.desched1
  ---------------------------------------------------
+2026-02-05 12:14:50: case.submit success case.run:4963604.desched1, case.st_archive:4963605.desched1
+ ---------------------------------------------------
