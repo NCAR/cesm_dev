@@ -1,0 +1,5 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) cesmdev/1.0   2) ncarenv/24.12
+If CUPID_RUN_ALL is False, user must set at least one component
