@@ -380,3 +380,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08b
  ---------------------------------------------------
 2026-02-06 05:12:14: model execution starting 4975627.desched1
  ---------------------------------------------------
+2026-02-06 10:54:31: xmlchange success <command> ./xmlchange CUPID_STARTDATE=0002-01-01  </command>
+ ---------------------------------------------------
