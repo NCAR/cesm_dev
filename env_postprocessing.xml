@@ -85,7 +85,7 @@
     </entry>
   </group>
   <group id="cupid_run_components">
-    <entry id="CUPID_RUN_ALL" value="TRUE">
+    <entry id="CUPID_RUN_ALL" value="FALSE">
       <type>char</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Boolean value that determines whether or not diagnostics for all components are run</desc>
