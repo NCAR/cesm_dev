@@ -1,0 +1,213 @@
+Generating namelists for /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.307
+ - Prestaging REFCASE (/glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01) to /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.307/run
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0069-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0033-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0026-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0031-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0101-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0044-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0078-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0093-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0049-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0054-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0064-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0012-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0091-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0003-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0073-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.lnd.0125-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0101-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0052-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0079-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0093-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0055-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0094-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0121-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0077-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0067-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0024-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0033-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0066-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0025-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0015-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0025-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0033-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0007-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0006-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0113-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0043-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0013-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0041-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0117-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0101-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0049-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0093-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0022-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0084-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.glc.0125-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0061-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0037-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0092-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0013-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0050-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0023-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0087-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0056-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0081-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0017-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0071-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0113-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0082-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0045-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0048-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0005-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0009-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0069-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ice.0125-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0045-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0004-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0030-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0053-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0060-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0032-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0053-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0065-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0085-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0113-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0088-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0051-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0089-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0011-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0057-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0037-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0038-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0109-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0021-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0029-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0125-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0109-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0076-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0019-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0097-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0077-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0021-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0097-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0105-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0009-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0063-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0046-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0027-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0029-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0047-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0021-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.cam.0125-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0040-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0096-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0069-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0077-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0008-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0020-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0062-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0074-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0039-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0081-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0059-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0061-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0065-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0010-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0005-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0121-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0072-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0029-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0014-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0035-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0081-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0057-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0049-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.rof.0125-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0034-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0018-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0109-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0085-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0013-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0025-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0117-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0058-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0086-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0090-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0089-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0117-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0041-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0080-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0036-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0095-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0017-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0057-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0053-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0002-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0028-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0005-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0089-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0041-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0037-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0105-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0068-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0070-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0075-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0016-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0085-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0073-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0017-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0121-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.cpl.0125-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0009-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0065-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0061-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0045-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0001-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0083-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0001-01-01-14400
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0097-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0042-01-01-00000
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0073-01-01-10800
+Copy rpointer /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287/0125-01-01/rpointer.ocn.0105-01-01-10800
+  2026-02-06 15:58:22 atm 
+Create namelist for component cam
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.307/Buildconf/camconf/atm_in file2 /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.307/run/atm_in 
+  2026-02-06 15:58:22 lnd 
+Create namelist for component clm
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/clm//cime_config/buildnml
+  2026-02-06 15:58:23 ice 
+Create namelist for component cice
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/cice//cime_config/buildnml
+RUN: /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/cice/bld/generate_cice_decomp.pl -ccsmroot /glade/work/hannay/cesm_tags/cesm3_0_alpha08b -res tx2_3v2 -nx 540 -ny 480 -nproc 2700 -thrds 1 -output all 
+FROM: /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.307
+  output: 540 480 5 5 4 spacecurve square-ice
+
+  2026-02-06 15:58:24 ocn 
+Create namelist for component mom
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/mom//cime_config/buildnml
+  2026-02-06 15:58:24 rof 
+Create namelist for component mosart
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/mosart//cime_config/buildnml
+  2026-02-06 15:58:24 glc 
+Create namelist for component dglc
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/cdeps/dglc/cime_config/buildnml
+  2026-02-06 15:58:24 wav 
+Create namelist for component ww3
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/ww3//cime_config/buildnml
+   Running /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/ww3//cime_config/buildnml 
+  2026-02-06 15:58:26 esp 
+Create namelist for component sesp
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/cime/CIME/non_py/src/components/stub_comps_nuopc/sesp/cime_config/buildnml
+  2026-02-06 15:58:26 cpl 
+Create namelist for component drv
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/cmeps/cime_config/buildnml
+Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF', 'GLC', 'WAV']
+-------------------------------------------------------------------------
+ - Prestage required restarts into /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.307/run
+ - Case input data directory (DIN_LOC_ROOT) is /glade/campaign/cesm/cesmdata/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.307/bld/cesm.exe   >> cesm.log.$LID 2>&1  
