@@ -45,7 +45,7 @@
       <valid_values>ndays,nmonths,nyears</valid_values>
       <desc>Sets the portion of output to include in CUPiD analysis, along with STOP_N.</desc>
     </entry>
-    <entry id="CUPID_STOP_N" value="1">
+    <entry id="CUPID_STOP_N" value="64">
       <type>integer</type>
       <desc>Provides a numerical count for $CUPID_STOP_OPTION.</desc>
     </entry>
