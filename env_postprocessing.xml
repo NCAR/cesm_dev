@@ -120,7 +120,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Boolean value that determines whether or not GLC diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
     </entry>
-    <entry id="CUPID_RUN_ADF" value="FALSE">
+    <entry id="CUPID_RUN_ADF" value="TRUE">
       <type>char</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Boolean value that determines whether or not ADF diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
