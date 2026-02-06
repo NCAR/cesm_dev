@@ -43,3 +43,6 @@
  ---------------------------------------------------
 2026-02-06 15:33:49: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2026-02-06 15:35:36: case.build error 
+ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.308/env_run.xml appears to have changed without a corresponding invalidation.
+ ---------------------------------------------------
