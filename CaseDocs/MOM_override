@@ -22,3 +22,4 @@ KH_BG_2D_VARNAME = "KH"
 #override VISC_RES_SCALE_COEF = 0.5 
 VISC_RES_FN_POWER = 6 
 #override INTERPOLATE_RES_FN = True 
+#override KHTR_MIN = 50.
