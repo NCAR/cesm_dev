@@ -152,3 +152,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_RUN_ALL=FALSE
 
+./xmlchange CCUPID_RUN_ICE=TRUE
+
