@@ -74,3 +74,5 @@ cd "${CASEDIR}"
 
 ./xmlchange PROJECT=CESM0023
 
+./xmlchange REST_OPTION=nyears,REST_N=1
+
