@@ -138,3 +138,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_BASELINE_CASE=b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.299
 
+./xmlchange CUPID_BASE_STARTDATE=0002-01-01
+
