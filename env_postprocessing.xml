@@ -66,7 +66,7 @@
       <type>char</type>
       <desc>Baseline case to use in CUPiD analysis</desc>
     </entry>
-    <entry id="CUPID_BASELINE_ROOT" value="$DOUT_S_ROOT/..">
+    <entry id="CUPID_BASELINE_ROOT" value="/glade/derecho/scratch/hannay/archive">
       <type>char</type>
       <desc>Baseline case root to use in CUPiD analysis</desc>
     </entry>
