@@ -142,3 +142,9 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_BASE_STOP_N=20
 
+./xmlchange CUPID_BASE_CLIMO_N_YEAR=20
+
+./xmlchange CUPID_RUN_CVDP=TRUE
+
+./xmlchange CUPID_RUN_ADF=TRUE
+
