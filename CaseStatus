@@ -26,3 +26,6 @@
  ---------------------------------------------------
 2026-02-06 15:32:24: case.build starting 
  ---------------------------------------------------
+2026-02-06 15:33:38: case.build error 
+[Errno 17] File exists: '/glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.308/bld/intel/mpich/nodebug/nothreads/clm/obj'
+ ---------------------------------------------------
