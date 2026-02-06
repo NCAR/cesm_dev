@@ -112,3 +112,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_EXAMPLE=key_metrics
 
+./xmlchange CUPID_RUN_ALL=TRUE
+
