@@ -44,3 +44,9 @@ cd "${CASEDIR}"
 
 ./xmlchange ROF2OCN_LIQ_RMAPNAME=/glade/work/gmarques/cesm/tx2_3/runoff_mapping/map_r05_to_tx2_3_nnsm_e100r100_250327.nc
 
+./preview_namelists
+
+./preview_namelists
+
+./case.build
+
