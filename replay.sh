@@ -132,3 +132,9 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_STOP_N=64
 
+./xmlchange CUPID_CLIMO_END_YEAR=1
+
+./xmlchange CUPID_CLIMO_N_YEAR=20
+
+./xmlchange CUPID_BASELINE_CASE=b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.299
+
