@@ -62,7 +62,7 @@
       <type>integer</type>
       <desc>Provides a numerical count for $CUPID_BASE_STOP_OPTION.</desc>
     </entry>
-    <entry id="CUPID_BASELINE_CASE" value="b.e23_alpha17f.BLT1850.ne30_t232.092">
+    <entry id="CUPID_BASELINE_CASE" value="b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.299">
       <type>char</type>
       <desc>Baseline case to use in CUPiD analysis</desc>
     </entry>
