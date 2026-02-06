@@ -47,13 +47,14 @@ phys_grid_ctem_zm_nbas=120
 phys_grid_ctem_za_nlat=90
 
 seasalt_emis_scale = 1.6
-clubb_c8 = 4.6
+clubb_c8 = 4.5
 cldfrc_dp1 =  0.1
 dust_emis_fact = 3.2
-micro_mg_vtrmi_factor = 1.2
+micro_mg_vtrmi_factor = 1.0
 zmconv_c0_lnd = 0.0035D0
 micro_mg_dcs = 500.D-6
 microp_aero_wsub_scale = 0.8 
+clubb_c_k10h = 0.20
 
 se_statefreq = 144
 
