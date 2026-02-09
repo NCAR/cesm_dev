@@ -154,3 +154,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CCUPID_RUN_ICE=TRUE
 
+./case.submit
+
