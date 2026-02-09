@@ -414,3 +414,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08b
  ---------------------------------------------------
 2026-02-09 14:16:45: xmlchange success <command> ./xmlchange RESUBMIT=5  </command>
  ---------------------------------------------------
+2026-02-09 14:19:45: case.run starting 5026244.desched1
+ ---------------------------------------------------
