@@ -3525,3 +3525,8 @@ moving /glade/derecho/scratch/gmarques/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3
 moving /glade/derecho/scratch/gmarques/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.304/run/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.304.cpl.hx.ww3.0052-11-13-00000.nc to /glade/derecho/scratch/gmarques/archive/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.304/cpl/hist/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.304.cpl.hx.ww3.0052-11-13-00000.nc 
 moving /glade/derecho/scratch/gmarques/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.304/run/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.304.cpl.hx.ww3.0052-12-13-00000.nc to /glade/derecho/scratch/gmarques/archive/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.304/cpl/hist/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.304.cpl.hx.ww3.0052-12-13-00000.nc 
 Archiving history files for dart (esp)
+ERROR: Command: 'git -C /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.304 push origin' failed with error 'git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.304'
