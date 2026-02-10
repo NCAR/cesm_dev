@@ -14,3 +14,5 @@
  ---------------------------------------------------
 2026-02-10 15:57:19: case.build success 
  ---------------------------------------------------
+2026-02-10 16:06:22: xmlchange success <command> ./xmlchange ROF2OCN_ICE_RMAPNAME=/glade/work/gmarques/cesm/tx2_3/runoff_mapping/map_r05_to_tx2_3_nnsm_e250r250_230914.nc  </command>
+ ---------------------------------------------------
