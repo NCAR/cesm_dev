@@ -10,3 +10,7 @@
 
 ./xmlchange RESUBMIT=19
 
+./check_case
+
+./case.submit
+
