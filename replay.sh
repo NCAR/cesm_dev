@@ -6,3 +6,5 @@
 
 ./xmlchange RESUBMIT=19
 
+./xmlchange ROF2OCN_ICE_RMAPNAME=/glade/u/home/igrooms/runoff_mapping/map_r05_to_tx2_3_ad_hoc_260210.nc
+

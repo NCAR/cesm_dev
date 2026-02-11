@@ -12,3 +12,5 @@
  ---------------------------------------------------
 2026-02-11 10:00:17: xmlchange success <command> ./xmlchange RESUBMIT=19  </command>
  ---------------------------------------------------
+2026-02-11 10:00:57: xmlchange success <command> ./xmlchange ROF2OCN_ICE_RMAPNAME=/glade/u/home/igrooms/runoff_mapping/map_r05_to_tx2_3_ad_hoc_260210.nc  </command>
+ ---------------------------------------------------

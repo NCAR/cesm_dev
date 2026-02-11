@@ -603,7 +603,7 @@
       <type>char</type>
       <desc>rof2ocn runoff mapping file</desc>
     </entry>
-    <entry id="ROF2OCN_ICE_RMAPNAME" value="/glade/work/gmarques/cesm/tx2_3/runoff_mapping/map_r05_to_tx2_3_nnsm_e250r250_230914.nc">
+    <entry id="ROF2OCN_ICE_RMAPNAME" value="/glade/u/home/igrooms/runoff_mapping/map_r05_to_tx2_3_ad_hoc_260210.nc">
       <type>char</type>
       <desc>rof2ocn runoff mapping file</desc>
     </entry>
