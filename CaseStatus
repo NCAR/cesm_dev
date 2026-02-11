@@ -290,3 +290,5 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850
  ---------------------------------------------------
 2026-02-11 00:38:53: case.submit success case.run:5045013.desched1, case.st_archive:5045014.desched1
  ---------------------------------------------------
+2026-02-11 00:39:51: case.run starting 5045013.desched1
+ ---------------------------------------------------
