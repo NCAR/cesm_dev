@@ -32,3 +32,5 @@
 
 ./case.submit
 
+./xmlchange RESUBMIT=19
+

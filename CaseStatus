@@ -141,3 +141,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
 2026-02-13 13:12:45: case.submit error 
 ERROR: File /glade/derecho/scratch/gmarques/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.311/run/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.311.cpl.r.0005-01-01-00000.nc not present or does not match case b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.311
  ---------------------------------------------------
+2026-02-13 13:19:00: xmlchange success <command> ./xmlchange RESUBMIT=19  </command>
+ ---------------------------------------------------
