@@ -92,3 +92,5 @@
  ---------------------------------------------------
 2026-02-13 15:14:47: xmlchange success <command> ./xmlchange RESUBMIT=39  </command>
  ---------------------------------------------------
+2026-02-13 15:16:15: xmlchange success <command> ./xmlchange JOB_QUEUE=special --force  </command>
+ ---------------------------------------------------
