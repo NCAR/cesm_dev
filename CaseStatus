@@ -341,3 +341,5 @@ P03010039, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2
  ---------------------------------------------------
 2026-02-02 08:13:52: st_archive success 4913870.desched1
  ---------------------------------------------------
+2026-02-12 21:17:16: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular,RESUBMIT=12  </command>
+ ---------------------------------------------------

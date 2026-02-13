@@ -380,7 +380,7 @@
       Set to TRUE when continuing a run.
     </desc>
     </entry>
-    <entry id="RESUBMIT" value="0">
+    <entry id="RESUBMIT" value="12">
       <type>integer</type>
       <desc>If RESUBMIT is greater than 0, then case will automatically resubmit
     Enables the model to automatically resubmit a new run.  To get
@@ -409,7 +409,7 @@
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
-    <entry id="JOB_PRIORITY" value="premium">
+    <entry id="JOB_PRIORITY" value="regular">
       <type>char</type>
       <valid_values>regular,premium,economy</valid_values>
       <desc>job priority for systems supporting this option</desc>
