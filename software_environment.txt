@@ -1,10 +1,6 @@
 Currently Loaded Modules:
-  1) cesmdev/1.0   (H,S)   7) intel/2024.2.1       13) hdf5-mpi/1.12.3
-  2) ncarenv/24.12 (S)     8) mkl/2024.2.2         14) netcdf-mpi/4.9.3
-  3) conda/latest          9) kokkos/4.2.01        15) parallel-netcdf/1.14.0
-  4) nco/5.3.1            10) ncarcompilers/1.0.0  16) parallelio/2.6.6
-  5) craype/2.7.31        11) libfabric/1.15.2.0   17) esmf/8.9.0
-  6) cmake/3.26.6         12) cray-mpich/8.1.29
+  1) cesmdev/1.0   (H,S)   3) conda/latest   5) craype/2.7.31   7) intel/2024.2.1   9) kokkos/4.2.01        11) libfabric/1.15.2.0  13) hdf5-mpi/1.12.3   15) parallel-netcdf/1.14.0  17) esmf/8.9.0
+  2) ncarenv/24.12 (S)     4) nco/5.3.1      6) cmake/3.26.6    8) mkl/2024.2.2    10) ncarcompilers/1.0.0  12) cray-mpich/8.1.29   14) netcdf-mpi/4.9.3  16) parallelio/2.6.6
 
   Where:
    H:  Hidden Module
@@ -261,7 +257,7 @@ QSCACHE_SERVER=derecho
 SSH_TTY=/dev/pts/222
 FROM_HEADER=
 CRAY_MPICH_ROOTDIR=/opt/cray/pe/mpich/8.1.29
-_ModuleTable013_=Lip6ZmluYWwiLAp9LAp9LAptcGF0aEEgPSB7CiIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy9lbnZpcm9ubWVudCIsICIvZ2xhZGUvdS9hcHBzL2NzZWcvZGVyZWNoby9tb2R1bGVzLzI0LjEyL0NvcmUiCiwgIi9nbGFkZS93b3JrL2hhbm5heS9zcGFjay1kb3duc3RyZWFtcy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvQ29yZSIKLCAiL2dsYWRlL3UvYXBwcy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvQ29yZSIKLCAiL2dsYWRlL3UvYXBwcy9jc2VnL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9vbmVhcGkvMjAyNC4yLjEiCiwgIi9nbGFkZS93b3JrL2hhbm5heS9zcGFjay1kb3duc3RyZWFtcy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvb25lYXBpLzIwMjQuMi4xIgosICIvZ2xhZGUv
+_ModuleTable013_=Lip6ZmluYWwiLAp9LAp9LAptcGF0aEEgPSB7CiIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy9lbnZpcm9ubWVudCIsICIvZ2xhZGUvdS9hcHBzL2NzZWcvZGVyZWNoby9tb2R1bGVzLzI0LjEyL0NvcmUiLCAiL2dsYWRlL3dvcmsvaGFubmF5L3NwYWNrLWRvd25zdHJlYW1zL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9Db3JlIiwgIi9nbGFkZS91L2FwcHMvZGVyZWNoby9tb2R1bGVzLzI0LjEyL0NvcmUiCiwgIi9nbGFkZS91L2FwcHMvY3NlZy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvb25lYXBpLzIwMjQuMi4xIiwgIi9nbGFkZS93b3JrL2hhbm5heS9zcGFjay1kb3duc3RyZWFtcy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvb25lYXBpLzIwMjQuMi4xIiwgIi9nbGFkZS91L2Fw
 MAIL=/var/spool/mail/hannay
 PE_INTEL_FIXED_PKGCONFIG_PATH=/opt/cray/pe/mpich/8.1.29/ofi/intel/2022.1/lib/pkgconfig
 CXX=icpx
@@ -355,7 +351,7 @@ XDG_CONFIG_DIRS=/etc/xdg
 PATH=/glade/u/apps/derecho/24.12/spack/opt/spack/esmf/8.9.0/cray-mpich/8.1.29/oneapi/2024.2.1/zlqr/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/parallel-netcdf/1.14.0/cray-mpich/8.1.29/oneapi/2024.2.1/la34/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/hdf5/1.12.3/cray-mpich/8.1.29/oneapi/2024.2.1/3vyi/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2024.2.1/3aiv/bin/mpi:/opt/cray/pe/pals/1.2.12/bin:/opt/cray/libfabric/1.15.2.0/bin:/opt/cray/pe/mpich/8.1.29/ofi/intel/2022.1/bin:/opt/cray/pe/mpich/8.1.29/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/ncarcompilers/1.0.0/oneapi/2024.2.1/3aiv/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/kokkos/4.2.01/oneapi/2024.2.1/vr5f/bin:/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-mkl/2024.2.2/oneapi/2024.2.1/kvnq/mkl/2024.2/bin:/glade/u/apps/casper/24.12/spack/opt/spack/intel-oneapi-compilers/2024.2.1/gcc/12.4.0/iq3b/compiler/2024.2/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/cmake/3.26.6/gcc/12.4.0/okco/bin:/opt/cray/pe/craype/2.7.31/bin:/glade/u/apps/derecho/24.12/spack/opt/spack/nco/5.3.1/gcc/12.4.0/vih5/bin:/glade/u/apps/opt/miniforge/default/condabin:/glade/u/apps/casper/24.12/spack/opt/spack/gcc/12.4.0/5b5c/bin:/glade/u/apps/derecho/24.12/opt/utils/bin:/glade/u/apps/cseg/derecho/python/lib64/python3.10/site-packages/bin:/glade/u/apps/contrib/virtualenv/12.0.7:glade/apps/contrib/virtualenv/12.0.7:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/glade/u/home/hannay/.local/bin:/glade/u/home/hannay/bin:/usr/sbin:/opt/c3/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/opt/pbs/bin:/glade/u/apps/derecho/24.12/opt/view/bin:/usr/local/bin:/usr/bin:/sbin:/bin:/opt/cray/pe/bin
 ESMF_RUNTIME_PROFILE=ON
 PE_MPICH_GTL_LIBS_amd_gfx908=-lmpi_gtl_hsa
-_ModuleTable014_=dS9hcHBzL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9vbmVhcGkvMjAyNC4yLjEiCiwgIi9nbGFkZS91L2FwcHMvY3NlZy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvY3JheS1tcGljaC84LjEuMjkvb25lYXBpLzIwMjQuMi4xIgosICIvZ2xhZGUvd29yay9oYW5uYXkvc3BhY2stZG93bnN0cmVhbXMvZGVyZWNoby9tb2R1bGVzLzI0LjEyL2NyYXktbXBpY2gvOC4xLjI5L29uZWFwaS8yMDI0LjIuMSIsICIvZ2xhZGUvdS9hcHBzL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9jcmF5LW1waWNoLzguMS4yOS9vbmVhcGkvMjAyNC4yLjEiLAp9LApzeXN0ZW1CYXNlTVBBVEggPSAiL2dsYWRlL3UvYXBwcy9kZXJlY2hvL21vZHVsZXMvZW52aXJvbm1lbnQiLAp9Cg==
+_ModuleTable014_=cHMvZGVyZWNoby9tb2R1bGVzLzI0LjEyL29uZWFwaS8yMDI0LjIuMSIKLCAiL2dsYWRlL3UvYXBwcy9jc2VnL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9jcmF5LW1waWNoLzguMS4yOS9vbmVhcGkvMjAyNC4yLjEiLCAiL2dsYWRlL3dvcmsvaGFubmF5L3NwYWNrLWRvd25zdHJlYW1zL2RlcmVjaG8vbW9kdWxlcy8yNC4xMi9jcmF5LW1waWNoLzguMS4yOS9vbmVhcGkvMjAyNC4yLjEiLCAiL2dsYWRlL3UvYXBwcy9kZXJlY2hvL21vZHVsZXMvMjQuMTIvY3JheS1tcGljaC84LjEuMjkvb25lYXBpLzIwMjQuMi4xIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9nbGFkZS91L2FwcHMvZGVyZWNoby9tb2R1bGVzL2Vudmlyb25tZW50IiwKfQo=
 PE_MPICH_GTL_DIR_nvidia90=-L/opt/cray/pe/mpich/8.1.29/gtl/lib
 __LMOD_REF_COUNT_PE_PRODUCT_LIST=CRAYPE_X86_MILAN:1;CRAYPE:1
 NCAR_SPACK_HASH_NETCDF=rjvvb7yjaoov2pz5iy5ncpgmoxwmkouh
