@@ -34,3 +34,5 @@
 
 ./xmlchange RESUBMIT=19
 
+./xmlchange CONTINUE_RUN=False
+
