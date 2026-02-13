@@ -36,3 +36,7 @@
 
 ./xmlchange CONTINUE_RUN=False
 
+./check_case
+
+./case.submit
+
