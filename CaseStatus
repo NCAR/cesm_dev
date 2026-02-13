@@ -90,3 +90,5 @@
  ---------------------------------------------------
 2026-02-12 21:12:28: xmlchange success <command> ./xmlchange CONTINUE_RUN=False  </command>
  ---------------------------------------------------
+2026-02-12 21:12:35: xmlchange success <command> ./xmlchange RESUBMIT=19  </command>
+ ---------------------------------------------------
