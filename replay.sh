@@ -88,3 +88,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange JOB_QUEUE=regular --force
+
