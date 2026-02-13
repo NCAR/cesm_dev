@@ -160,4 +160,12 @@ stream_ndep_data_filename              = '/glade/derecho/scratch/tilmes/archive/
 
 
 
+gw_qbo_hdepth_scaling = 0.27D0
+
+effgw_beres_dp = 0.15D0
+
+effgw_movmtn_pbl  =  1.5d0
+
+ncdata = '/glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280/rest/0021-01-01-00000/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280.cam.i.0021-01-01-00000.nc'
+
 / 

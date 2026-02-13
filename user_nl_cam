@@ -81,3 +81,7 @@ se_statefreq = 144
 
 stream_ndep_data_filename              = '/glade/derecho/scratch/tilmes/archive/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/atm/proc/DepositionCyclical1850/fndep_clm_B1850C_MT4s.1850monthly.ne30_c251220.nc'
 
+gw_qbo_hdepth_scaling = 0.27D0
+effgw_beres_dp = 0.15D0
+effgw_movmtn_pbl  =  1.5d0
+ncdata = '/glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280/rest/0021-01-01-00000/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280.cam.i.0021-01-01-00000.nc'

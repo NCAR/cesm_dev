@@ -62,7 +62,7 @@
 /
 &cam_initfiles_nl
  bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/se/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greenlndantarcsgh30fac2.50_20250828.nc'
- ncdata		= 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287.cam.i.0125-01-01-00000.nc'
+ ncdata		= '/glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280/rest/0021-01-01-00000/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280.cam.i.0021-01-01-00000.nc'
  scale_dry_air_mass		=   98288.0D0 
  use_topo_file		=  .true.  
 /
@@ -329,7 +329,7 @@
  alpha_gw_movmtn		=  0.01d0  
  effgw_beres_dp		= 0.15D0
  effgw_cm		= 1.D0
- effgw_movmtn_pbl		=  1.0d0   
+ effgw_movmtn_pbl		= 1.5d0
  effgw_rdg_beta		= 0.5D0
  effgw_rdg_beta_max		= 0.5D0
  front_gaussian_width		=  30.D0 
@@ -343,7 +343,7 @@
  gw_oro_south_fac		= 1.d0   
  gw_polar_taper		= .false.
  gw_prndl		= 0.5D0
- gw_qbo_hdepth_scaling		= 0.32D0
+ gw_qbo_hdepth_scaling		= 0.27D0
  gw_top_taper		= .false.
  movmtn_plaunch		=  32500.0d0  
  movmtn_psteer		=  65000.0d0  
