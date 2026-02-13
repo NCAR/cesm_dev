@@ -20,3 +20,7 @@
 
 ./xmlchange ROF2OCN_ICE_RMAPNAME=/glade/u/home/igrooms/runoff_mapping/map_r05_to_tx2_3_nnsm_e250r250_modified_260212.nc
 
+./case.setup --reset
+
+./xmlchange PROJECT=CESM0023
+

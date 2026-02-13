@@ -94,3 +94,9 @@
  ---------------------------------------------------
 2026-02-12 21:13:09: xmlchange success <command> ./xmlchange ROF2OCN_ICE_RMAPNAME=/glade/u/home/igrooms/runoff_mapping/map_r05_to_tx2_3_nnsm_e250r250_modified_260212.nc  </command>
  ---------------------------------------------------
+2026-02-12 21:16:27: case.setup starting 
+ ---------------------------------------------------
+2026-02-12 21:16:29: case.setup success 
+ ---------------------------------------------------
+2026-02-12 21:17:01: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
+ ---------------------------------------------------
