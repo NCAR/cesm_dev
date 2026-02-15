@@ -34,7 +34,7 @@
       <valid_values/>
       <desc>The machine wallclock setting.  Default determined in config_machines.xml can be overwritten by testing</desc>
     </entry>
-    <entry id="JOB_QUEUE" value="special">
+    <entry id="JOB_QUEUE" value="premium">
       <type>char</type>
       <valid_values/>
       <desc>The machine queue in which to submit the job.  Default determined in config_machines.xml can be overwritten by testing</desc>
@@ -43,7 +43,7 @@
       <type>char</type>
       <desc>Store user override for walltime</desc>
     </entry>
-    <entry id="USER_REQUESTED_QUEUE" value="special">
+    <entry id="USER_REQUESTED_QUEUE" value="premium">
       <type>char</type>
       <desc>Store user override for queue</desc>
     </entry>
@@ -90,7 +90,7 @@
       <valid_values/>
       <desc>The machine wallclock setting.  Default determined in config_machines.xml can be overwritten by testing</desc>
     </entry>
-    <entry id="JOB_QUEUE" value="special">
+    <entry id="JOB_QUEUE" value="premium">
       <type>char</type>
       <valid_values/>
       <desc>The machine queue in which to submit the job.  Default determined in config_machines.xml can be overwritten by testing</desc>
@@ -99,7 +99,7 @@
       <type>char</type>
       <desc>Store user override for walltime</desc>
     </entry>
-    <entry id="USER_REQUESTED_QUEUE" value="special">
+    <entry id="USER_REQUESTED_QUEUE" value="premium">
       <type>char</type>
       <desc>Store user override for queue</desc>
     </entry>
@@ -152,7 +152,7 @@
       <valid_values/>
       <desc>The machine wallclock setting.  Default determined in config_machines.xml can be overwritten by testing</desc>
     </entry>
-    <entry id="JOB_QUEUE" value="special">
+    <entry id="JOB_QUEUE" value="premium">
       <type>char</type>
       <valid_values/>
       <desc>The machine queue in which to submit the job.  Default determined in config_machines.xml can be overwritten by testing</desc>
@@ -161,7 +161,7 @@
       <type>char</type>
       <desc>Store user override for walltime</desc>
     </entry>
-    <entry id="USER_REQUESTED_QUEUE" value="special">
+    <entry id="USER_REQUESTED_QUEUE" value="premium">
       <type>char</type>
       <desc>Store user override for queue</desc>
     </entry>

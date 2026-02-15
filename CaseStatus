@@ -116,3 +116,5 @@ ERROR: Command: 'qsub -q special -l walltime=12:00:00 -A CESM0023 -l job_priorit
 2026-02-15 12:14:39: case.submit error 
 ERROR: Command: 'qsub -q special -l walltime=12:00:00 -A CESM0023 -l job_priority=premium -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308/.case.run' failed with error 'qsub: Unknown queue' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308'
  ---------------------------------------------------
+2026-02-15 12:15:05: xmlchange success <command> ./xmlchange JOB_QUEUE=premium --force  </command>
+ ---------------------------------------------------
