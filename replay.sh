@@ -120,3 +120,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_QUEUE=regular --force
 
+./xmlchange JOB_QUEUE=main
+
