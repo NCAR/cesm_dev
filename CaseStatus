@@ -120,3 +120,8 @@ ERROR: Command: 'qsub -q special -l walltime=12:00:00 -A CESM0023 -l job_priorit
  ---------------------------------------------------
 2026-02-15 12:15:14: case.submit starting 
  ---------------------------------------------------
+2026-02-15 12:15:15: case.submit error 
+ERROR: Command: 'qsub -q premium -l walltime=12:00:00 -A CESM0023 -l job_priority=premium -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308/.case.run' failed with error 'qsub: 
+Unknown queue requested. Please correct or contact
+cislhelp@ucar.edu for assistance' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308'
+ ---------------------------------------------------
