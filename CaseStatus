@@ -111,3 +111,5 @@ ERROR: Command: 'qsub -q special -l walltime=12:00:00 -A CESM0023 -l job_priorit
  ---------------------------------------------------
 2026-02-15 12:14:10: xmlchange success <command> ./xmlchange JOB_QUEUE=special --force  </command>
  ---------------------------------------------------
+2026-02-15 12:14:37: case.submit starting 
+ ---------------------------------------------------
