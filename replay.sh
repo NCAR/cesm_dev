@@ -122,3 +122,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_QUEUE=main
 
+./case.submit
+
