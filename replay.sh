@@ -96,3 +96,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_QUEUE=special --force
 
+./xmlchange JOB_QUEUE=special --force
+
