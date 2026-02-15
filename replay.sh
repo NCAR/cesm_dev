@@ -108,3 +108,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_QUEUE=main
 
+./xmlchange JOB_PRIORITY=special --force
+
