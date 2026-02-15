@@ -104,3 +104,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_QUEUE=premium --force
 
+./case.submit
+
