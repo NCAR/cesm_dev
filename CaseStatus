@@ -460,3 +460,5 @@ cislhelp@ucar.edu for assistance' from dir '/glade/campaign/cesm/cesmdata/cseg/r
  ---------------------------------------------------
 2026-02-15 12:20:52: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
  ---------------------------------------------------
+2026-02-15 12:20:57: case.submit starting case.run:5111695.desched1, case.st_archive:5111696.desched1
+ ---------------------------------------------------
