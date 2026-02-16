@@ -938,3 +938,15 @@ Archiving history files for ww3 (wav)
 Archiving history files for drv (cpl)
 moving /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308/run/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308.cpl.hx.1yr2glc.0008-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308/cpl/hist/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308.cpl.hx.1yr2glc.0008-01-01-00000.nc 
 Archiving history files for dart (esp)
+st_archive completed
+resubmitting from st_archive, resubmit=33
+Submitting job 'case.run', resubmit=33
+submit_jobs case.run
+Submit job case.run
+Submitting job script qsub -q main -l walltime=12:00:00 -A CESM0023 -l job_priority=special -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308/.case.run
+Submitted job id is 5117043.desched1
+Submit job case.st_archive
+Submitting job script qsub -q develop -l walltime=00:20:00 -A CESM0023 -l job_priority=special  -W depend=afterok:5117043.desched1 -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308/case.st_archive
+Submitted job id is 5117044.desched1
+Submitted job case.run with id 5117043.desched1
+Submitted job case.st_archive with id 5117044.desched1
