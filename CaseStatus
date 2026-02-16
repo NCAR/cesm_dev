@@ -516,3 +516,5 @@ cislhelp@ucar.edu for assistance' from dir '/glade/campaign/cesm/cesmdata/cseg/r
  ---------------------------------------------------
 2026-02-16 04:48:37: st_archive success 5114555.desched1
  ---------------------------------------------------
+2026-02-16 15:39:32: xmlchange success <command> ./xmlchange RESUBMIT=3  </command>
+ ---------------------------------------------------
