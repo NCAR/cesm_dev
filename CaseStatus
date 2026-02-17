@@ -542,3 +542,5 @@ cislhelp@ucar.edu for assistance' from dir '/glade/campaign/cesm/cesmdata/cseg/r
  ---------------------------------------------------
 2026-02-17 10:11:08: model execution starting 5125795.desched1
  ---------------------------------------------------
+2026-02-17 10:43:42: xmlchange success <command> ./xmlchange RESUBMIT=20  </command>
+ ---------------------------------------------------
