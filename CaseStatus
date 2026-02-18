@@ -41,3 +41,5 @@
 2026-02-17 17:29:16: case.build error 
 ERROR: /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/cdeps/cime_config/buildlib FAILED, cat /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.313/bld/CDEPS.bldlog.260217-171905
  ---------------------------------------------------
+2026-02-17 17:29:18: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
