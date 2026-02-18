@@ -30,7 +30,7 @@
  nlevsno = 12
  nsegspc = 35
  o3_veg_stress_method = 'unset'
- paramfile = '/glade/work/linnia/CLM6-PPE/ctsm6_cal/paramfiles/ctsm60_params.c260204.nc'
+ paramfile = '/glade/work/linnia/CLM6-PPE/ctsm6_cal/paramfiles/ctsm60_params.c251211_BETTmedlynslope3.5.nc'
  run_zero_weight_urban = .false.
  snicar_dust_optics = 'sahara'
  snicar_numrad_snw = 5
@@ -87,10 +87,10 @@
  ndep_taxmode = 'cycle'
  ndep_varlist = 'NDEP_month'
  ndepmapalgo = 'bilinear'
- stream_fldfilename_ndep = '/glade/derecho/scratch/tilmes/archive/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/atm/proc/fndep_clm_B1850C_MT4s.1850monthly.ne30_c251209.nc'
+ stream_fldfilename_ndep = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/ndepdata/fndep_clm_WACCM6_CMIP6piControl001_y21-50avg_1850monthly_0.95x1.25_c180802.nc'
  stream_meshfile_ndep = '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/fv0.9x1.25_141008_polemod_ESMFmesh.nc'
- stream_year_first_ndep = 11
- stream_year_last_ndep = 11
+ stream_year_first_ndep = 1850
+ stream_year_last_ndep = 1850
 /
 &popd_streams
  popdensmapalgo = 'bilinear'
