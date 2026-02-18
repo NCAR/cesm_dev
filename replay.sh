@@ -34,3 +34,11 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./case.build
+
