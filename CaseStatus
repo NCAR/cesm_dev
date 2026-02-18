@@ -106,3 +106,5 @@ ERROR: /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/cdeps/cime_confi
  ---------------------------------------------------
 2026-02-18 15:59:14: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
  ---------------------------------------------------
+2026-02-18 15:59:16: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
