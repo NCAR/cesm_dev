@@ -21,3 +21,17 @@
  ---------------------------------------------------
 2026-02-19 10:23:57: case.submit starting 
  ---------------------------------------------------
+2026-02-19 10:23:59: case.submit error 
+ERROR: Command: 'qsub -q main -l walltime=12:00:00 -A 93300722 -l job_priority=regular -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.284.mpas/.case.run' failed with error 'qsub: Invalid account for CPU usage, available accounts:
+Project, Status, Active
+CESM0002, Normal, True
+CESM0024, Normal, True
+P93300065, Normal, True
+CESM0023, Normal, True
+P93300606, Normal, True
+P93300042, Normal, True
+P93300324, Normal, True
+CESM0019, Normal, True
+P03010039, Normal, True
+NCGD0006, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.284.mpas'
+ ---------------------------------------------------
