@@ -27,4 +27,4 @@ VISC_RES_SCALE_COEF = 0.5  ! Used for KHTR
 VISC_RES_FN_POWER = 6      ! Used for KHTR
 INTERPOLATE_RES_FN = True  ! Only computes resolution fn once, then interpolates
 
-BBL_EFFIC = 0.01
+BBL_EFFIC = 0.4

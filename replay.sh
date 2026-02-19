@@ -6,3 +6,9 @@
 
 ./xmlchange RESUBMIT=19
 
+./preview_namelists
+
+./check_case
+
+./case.submit
+
