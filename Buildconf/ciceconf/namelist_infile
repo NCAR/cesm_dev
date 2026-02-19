@@ -1,0 +1,57 @@
+&comp_inparm 
+
+
+
+tr_fsd = .true.
+
+restart_fsd = .true. 
+
+nfsd = 12
+
+wave_spec_type = 'alt'
+
+histfreq = "m", "x", "x", "x", "x"
+
+histfreq_n = 1, 1, 0, 0, 0
+
+
+
+f_fresh = 'mxxxx'
+
+f_fresh_ai = 'mxxxx'
+
+f_frzmlt = 'mdxxx'
+
+f_afsd = "mdxxx"
+
+f_afsdn = "mdxxx"
+
+f_dafsd_latg = "mdxxx"
+
+f_dafsd_latm = "mdxxx"
+
+f_dafsd_newi = "mdxxx"
+
+f_dafsd_wave = "mdxxx"
+
+f_dafsd_weld = "mdxxx"
+
+f_wave_sig_ht = "mdxxx"
+
+f_diam_ww = "mdxxx"
+
+f_hice_ww = "mdxxx"
+
+f_fsdrad = "mdxxx"
+
+f_fsdperim = "mdxxx"
+
+f_uvel = "mdxxx"
+
+f_vvel = "mdxxx"
+
+r_snw = 1.0
+
+
+
+/ 
