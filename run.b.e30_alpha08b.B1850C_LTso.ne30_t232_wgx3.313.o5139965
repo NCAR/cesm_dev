@@ -211,3 +211,4 @@ Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF'
  - Checking for required input datasets in DIN_LOC_ROOT
 -------------------------------------------------------------------------
 run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.313/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+=>> PBS: job killed: walltime 43209 exceeded limit 43200
