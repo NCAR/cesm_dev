@@ -56,7 +56,6 @@
          'so4_a2', 'SAD_AERO', 'PS', 'TROP_P', 'FSNTOAC', 'CME', 'CMEIOUT'
  fincl3		= 'PRECT','PRECC','FLUT','U850','U200','V850','V200','OMEGA500','TS','SST','PSL','Z500'
  fincl4		= 'PRECC','PRECL'
- fincl5		= 'Uzm','Vzm','Wzm','THzm','VTHzm','WTHzm','UVzm','UWzm'
  mfilt		= 0,5,20,40,12,120,1,1
  ndens		= 2,2,2,2,2,1,2,1
  nhtfrq		= 0,-24,-24,-3,0,-24,0,-8760
@@ -487,11 +486,6 @@
  use_simple_phys		= .false.
  use_subcol_microp		= .false.
  waccmx_opt		= 'off'
-/
-&phys_grid_ctem_opts
- phys_grid_ctem_nfreq		= -6
- phys_grid_ctem_za_nlat		= 90
- phys_grid_ctem_zm_nbas		= 120
 /
 &prescribed_ozone_nl
  prescribed_ozone_cycle_yr		=    1850    

@@ -81,16 +81,6 @@ fincl4 =  'PRECC','PRECL'
 
 
 
-fincl5 = 'Uzm','Vzm','Wzm','THzm', 'VTHzm','WTHzm','UVzm','UWzm'
-
-phys_grid_ctem_nfreq=-6
-
-phys_grid_ctem_zm_nbas=120
-
-phys_grid_ctem_za_nlat=90
-
-
-
 srf_emis_specifier             = 'bc_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/f09/CEDS-CMIP-2025-04-18_20251124/bc_a4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20251124.nc',
 
 'bc_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/f09/DRES-CMIP-BB4CMIP7-2-0_smoothed_20251102/bc_a4_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112_c20251102.nc',
