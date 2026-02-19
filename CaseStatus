@@ -57,3 +57,7 @@ NCGD0006, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2026-02-19 10:37:39: model execution success 5148307.desched1
  ---------------------------------------------------
+2026-02-19 10:37:40: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.284.mpas/run/med.log.5148307.desched1.260219-103541 
+ 
+ ---------------------------------------------------
