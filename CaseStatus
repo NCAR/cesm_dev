@@ -20,3 +20,5 @@
  ---------------------------------------------------
 2026-02-19 15:26:41: xmlchange success <command> ./xmlchange ROF2OCN_LIQ_RMAPNAME=/glade/work/gmarques/cesm/tx2_3/runoff_mapping/map_r05_to_tx2_3_nnsm_e100r100_250327.nc  </command>
  ---------------------------------------------------
+2026-02-19 15:27:58: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
