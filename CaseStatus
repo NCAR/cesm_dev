@@ -140,3 +140,5 @@ ERROR: /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/cdeps/cime_confi
  ---------------------------------------------------
 2026-02-19 12:38:36: case.submit starting case.run:5149840.desched1, case.st_archive:5149841.desched1
  ---------------------------------------------------
+2026-02-19 12:38:37: case.submit success case.run:5149840.desched1, case.st_archive:5149841.desched1
+ ---------------------------------------------------
