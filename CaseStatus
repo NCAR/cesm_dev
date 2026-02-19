@@ -148,3 +148,7 @@ ERROR: /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/cdeps/cime_confi
  ---------------------------------------------------
 2026-02-19 12:42:57: model execution success 5149840.desched1
  ---------------------------------------------------
+2026-02-19 12:42:58: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.313/run/med.log.5149840.desched1.260219-124148 
+ 
+ ---------------------------------------------------
