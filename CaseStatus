@@ -62,3 +62,5 @@
  ---------------------------------------------------
 2026-02-20 10:02:11: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
  ---------------------------------------------------
+2026-02-20 10:02:12: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=10,STOP_N=4,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
