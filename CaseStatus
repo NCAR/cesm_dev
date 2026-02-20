@@ -651,3 +651,5 @@ cislhelp@ucar.edu for assistance' from dir '/glade/campaign/cesm/cesmdata/cseg/r
  ---------------------------------------------------
 2026-02-20 01:17:33: st_archive success 5156138.desched1
  ---------------------------------------------------
+2026-02-20 01:17:34: case.submit starting case.run:5156666.desched1, case.st_archive:5156667.desched1
+ ---------------------------------------------------
