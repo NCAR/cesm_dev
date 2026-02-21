@@ -351,3 +351,5 @@ ERROR: File /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_w
  ---------------------------------------------------
 2026-02-20 21:26:31: xmlchange success <command> ./xmlchange RESUBMIT=10,STOP_N=3  </command>
  ---------------------------------------------------
+2026-02-20 21:40:48: case.run starting 5163732.desched1
+ ---------------------------------------------------
