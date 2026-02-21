@@ -11,7 +11,7 @@
  aer_drydep_list		= 'bc_a1', 'bc_a4', 'dst_a1', 'dst_a2', 'dst_a3', 'ncl_a1', 'ncl_a2', 'ncl_a3', 'num_a1', 'num_a2', 'num_a3',
          'num_a4', 'pom_a1', 'pom_a4', 'so4_a1', 'so4_a2', 'so4_a3', 'soa_a1', 'soa_a2'
  modal_accum_coarse_exch		= .true.
- seasalt_emis_scale		= 1.6
+ seasalt_emis_scale		= 1.5
 /
 &aerosol_optics_nl
  water_refindex_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/water_refindex_rrtmg_c080910.nc'
@@ -149,7 +149,7 @@
  cldfrc2m_rhminis		=   1.0D0 
 /
 &cldfrc_nl
- cldfrc_dp1		= 0.1
+ cldfrc_dp1		= 0.128945
  cldfrc_dp2		=  500.0D0 
  cldfrc_freeze_dry		= .true.
  cldfrc_ice		= .true.
@@ -194,7 +194,7 @@
  clubb_c6thlc		=  1.0     
  clubb_c7		=  0.1     
  clubb_c7b		=  0.5     
- clubb_c8		= 4.5
+ clubb_c8		= 4.6
  clubb_c8b		=  0.0     
  clubb_c_invrs_tau_bkgnd		=  1.0     
  clubb_c_invrs_tau_n2		=  0.1     
@@ -206,7 +206,7 @@
  clubb_c_invrs_tau_shear		=  0.02    
  clubb_c_k1		=  0.75    
  clubb_c_k10		=  0.5     
- clubb_c_k10h		= 0.20
+ clubb_c_k10h		= 0.2796414
  clubb_c_k2		=  0.125   
  clubb_c_k8		=  1.25    
  clubb_c_k9		=  0.25    
@@ -379,14 +379,14 @@
 /
 &micro_mg_nl
  micro_do_massless_droplet_destroyer		=   .false. 
- micro_mg_accre_enhan_fact		=   1.D0    
+ micro_mg_accre_enhan_fact		= 0.7312312
  micro_mg_accre_sees_auto		=  .true. 
  micro_mg_adjust_cpt		= .false.
  micro_mg_autocon_fact		=   0.01D0    
- micro_mg_autocon_lwp_exp		=   2.47D0    
+ micro_mg_autocon_lwp_exp		= 2.3699999
  micro_mg_autocon_nd_exp		=   -1.1D0    
  micro_mg_berg_eff_factor		=   1.D0    
- micro_mg_dcs		= 500.D-6
+ micro_mg_dcs		= 0.00045
  micro_mg_do_graupel		=  .true. 
  micro_mg_do_hail		=  .false. 
  micro_mg_effi_factor		=   1.D0    
@@ -398,7 +398,7 @@
  micro_mg_precip_frac_method		= 'in_cloud'
  micro_mg_sub_version		=     0          
  micro_mg_version		=     3          
- micro_mg_vtrmi_factor		= 1.0
+ micro_mg_vtrmi_factor		= 1.3882602
  micro_mg_vtrms_factor		=   1.D0    
  micro_mg_warm_rain		= 'kk2000'
 /
@@ -407,9 +407,9 @@
  microp_aero_npccn_scale		=   1.D0    
  microp_aero_wsub_min		=   0.1D0    
  microp_aero_wsub_min_asf		=   0.0D0    
- microp_aero_wsub_scale		= 0.8
+ microp_aero_wsub_scale		= 0.90
  microp_aero_wsubi_min		=   0.001D0    
- microp_aero_wsubi_scale		=   1.D0    
+ microp_aero_wsubi_scale		= 1.5
 /
 &ndep_stream_nl
  stream_ndep_data_filename		= '/glade/derecho/scratch/tilmes/archive/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/atm/proc/DepositionCyclical1850/fndep_clm_B1850C_MT4s.1850monthly.ne30_c251220.nc'
@@ -570,7 +570,7 @@
  gas_wetdep_method		= 'NEU'
 /
 &zmconv_nl
- zmconv_c0_lnd		= 0.0035D0
+ zmconv_c0_lnd		= 0.0054855
  zmconv_c0_ocn		=  0.0300D0 
  zmconv_capelmt		=  70.0    
  zmconv_dmpdz		=  -1.0E-3 
