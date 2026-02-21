@@ -761,3 +761,9 @@ cislhelp@ucar.edu for assistance' from dir '/glade/campaign/cesm/cesmdata/cseg/r
  ---------------------------------------------------
 2026-02-20 18:38:56: case.submit starting 
  ---------------------------------------------------
+2026-02-20 18:38:57: case.submit error 
+ERROR: Command: 'qsub -q main -l walltime=12:00:00 -A CESM0023 -l job_priority=premium -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308/.case.run' failed with error 'auth: error returned: 15019
+auth: Failed to obtain user-info for uid = 7912
+Connection refused
+qsub: cannot connect to server desched (errno=15010)' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_MTso.ne30_t232_wgx3.308'
+ ---------------------------------------------------
