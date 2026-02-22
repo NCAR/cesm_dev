@@ -553,3 +553,5 @@ ERROR: File /glade/derecho/scratch/gmarques/b.e30_alpha07g.B1850C_LTso.ne30_t232
  ---------------------------------------------------
 2026-02-22 15:14:11: case.submit starting case.run:5175716.desched1, case.st_archive:5175717.desched1
  ---------------------------------------------------
+2026-02-22 15:14:12: case.submit success case.run:5175716.desched1, case.st_archive:5175717.desched1
+ ---------------------------------------------------
