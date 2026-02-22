@@ -513,3 +513,5 @@ ERROR: File /glade/derecho/scratch/gmarques/b.e30_alpha07g.B1850C_LTso.ne30_t232
  ---------------------------------------------------
 2026-02-21 10:37:28: st_archive success 5165557.desched1
  ---------------------------------------------------
+2026-02-21 22:21:12: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
+ ---------------------------------------------------
