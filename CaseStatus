@@ -420,3 +420,5 @@
  ---------------------------------------------------
 2026-02-25 16:00:22: case.submit success case.run:5206951.desched1, case.st_archive:5206952.desched1
  ---------------------------------------------------
+2026-02-25 16:15:30: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
