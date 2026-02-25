@@ -64,3 +64,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=20,STOP_N=4
 
+./xmlchange JOB_PRIORITY=special --force
+
