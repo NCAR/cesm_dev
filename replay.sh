@@ -122,3 +122,5 @@ cd "${CASEDIR}"
 
 ./xmlchange REST_OPTION=ndays,REST_N=1
 
+./xmlchange JOB_PRIORITY=special --force
+
