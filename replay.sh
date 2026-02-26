@@ -26,3 +26,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
+./xmlchange RUN_STARTDATE=1980-01-01
+

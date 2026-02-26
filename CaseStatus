@@ -18,3 +18,5 @@
  ---------------------------------------------------
 2026-02-26 15:29:21: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2026-02-26 15:29:23: xmlchange success <command> ./xmlchange RUN_STARTDATE=1980-01-01  </command>
+ ---------------------------------------------------
