@@ -72,3 +72,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_alpha08b
  ---------------------------------------------------
 2026-02-25 18:57:51: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2026-02-25 18:58:01: case.submit starting case.run:5207385.desched1, case.st_archive:5207386.desched1
+ ---------------------------------------------------
