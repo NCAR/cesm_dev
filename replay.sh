@@ -110,3 +110,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_TYPE=startup
 
+./xmlchange JOB_PRIORITY=regular
+
