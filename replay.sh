@@ -72,3 +72,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=1
 
+./xmlchange NTASKS=2176
+

@@ -171,3 +171,5 @@ CAM build-namelist - ERROR: interpolate_output does not work with COSP.  Use cos
  ---------------------------------------------------
 2025-10-31 06:15:49: st_archive success 3503975.desched1
  ---------------------------------------------------
+2026-02-25 17:33:58: xmlchange success <command> ./xmlchange NTASKS=2176  </command>
+ ---------------------------------------------------
