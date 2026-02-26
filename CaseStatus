@@ -697,3 +697,5 @@ ERROR: File /glade/derecho/scratch/gmarques/b.e30_alpha07g.B1850C_LTso.ne30_t232
  ---------------------------------------------------
 2026-02-26 03:16:56: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
  ---------------------------------------------------
+2026-02-26 03:17:10: case.submit starting case.run:5208529.desched1, case.st_archive:5208530.desched1
+ ---------------------------------------------------
