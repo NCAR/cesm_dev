@@ -1,6 +1,5 @@
 &comp_inparm 
 
- ncdata = 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287.cam.i.0125-01-01-00000.nc'
  dtime = 1800
 mfilt               =       0,       5,     20,      40,      12,         20,      1,   1
 

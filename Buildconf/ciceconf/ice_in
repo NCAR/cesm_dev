@@ -13,7 +13,7 @@
   history_file = "unknown"
   history_format = "default"
   history_precision = 4
-  ice_ic = "b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287.cice.r.0125-01-01-00000.nc"
+  ice_ic = "default"
   latpnt = 90.0, -65.0
   lonpnt = 0.0, -45.0
   ndtd = 1
