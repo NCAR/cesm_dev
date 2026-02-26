@@ -43,15 +43,15 @@
     <entry id="NTASKS">
       <type>integer</type>
       <values>
-        <value compclass="ATM">2176</value>
-        <value compclass="CPL">2176</value>
-        <value compclass="OCN">2176</value>
-        <value compclass="WAV">2176</value>
-        <value compclass="GLC">2176</value>
-        <value compclass="ICE">2176</value>
-        <value compclass="ROF">2176</value>
-        <value compclass="LND">2176</value>
-        <value compclass="ESP">2176</value>
+        <value compclass="ATM">3200</value>
+        <value compclass="CPL">3200</value>
+        <value compclass="OCN">3200</value>
+        <value compclass="WAV">3200</value>
+        <value compclass="GLC">3200</value>
+        <value compclass="ICE">3200</value>
+        <value compclass="ROF">3200</value>
+        <value compclass="LND">3200</value>
+        <value compclass="ESP">3200</value>
       </values>
       <desc>number of tasks for each component</desc>
     </entry>
