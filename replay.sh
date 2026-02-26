@@ -100,3 +100,7 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDATE=0125-01-01
 
+./xmlchange RUN_TYPE=initial
+
+./xmlchange GET_REFCASE=true
+
