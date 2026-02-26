@@ -35,8 +35,8 @@ fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODDUSTdn','AODVIS', 
 'SFdst_a1','SFdst_a2', 'SFdst_a3', 'SFncl_a1', 'SFncl_a2', 'SFncl_a3',
 'num_a2_sfnnuc1', 'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO',
 'AODVISstdn', 'REFF_AERO', 'so4_a1', 'so4_a2', 'SAD_AERO', 'PS', 'TROP_P', 'FSNTOAC',
-'CME', 'CMEIOUT', 'AODSSdn', 'FRONTGF','TAU_MOVMTN','TAUE','TAUW','TAUN','TAUS','TAUARDGBETAX','TAUARDGBETAY',
-'BTAUE','BTAUW','BTAUN','BTAUS','NETDT','HDEPTH'
+'CME', 'CMEIOUT', 'AODSSdn', 
+
 
 fincl3 = 'PRECT', 'PRECC', 'FLUT', 'U850', 'U200', 'V850', 'V200', 'OMEGA500', 'TS', 'SST', 'PSL', 'Z500', 'U010:A', 'Z010:A'
 
@@ -47,8 +47,7 @@ phys_grid_ctem_nfreq=-6
 phys_grid_ctem_zm_nbas=120
 phys_grid_ctem_za_nlat=90
 
-!6 hourly - instantaneous (h5)
-fincl6 = 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I', 'PMID:I', 'Q:I'
+fincl6 = 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I', 'PMID:I'
 
 seasalt_emis_scale = 1.6
 clubb_c8 = 4.5

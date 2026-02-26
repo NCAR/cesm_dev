@@ -276,7 +276,7 @@
       Run start time-of-day, units are seconds with values from 0 to 86400.
     </desc>
     </entry>
-    <entry id="STOP_OPTION" value="nmonths">
+    <entry id="STOP_OPTION" value="ndays">
       <type>char</type>
       <valid_values>none,never,nsteps,nseconds,nminutes,nhours,ndays,nmonths,nyears,date,end</valid_values>
       <desc>
