@@ -120,3 +120,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=0,STOP_N=1,STOP_OPTION=ndays
 
+./xmlchange REST_OPTION=ndays,REST_N=1
+
