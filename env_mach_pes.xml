@@ -58,14 +58,14 @@
     <entry id="NTASKS_PER_INST">
       <type>integer</type>
       <values>
-        <value compclass="ATM">2176</value>
-        <value compclass="OCN">2176</value>
-        <value compclass="WAV">2176</value>
-        <value compclass="GLC">2176</value>
-        <value compclass="ICE">2176</value>
-        <value compclass="ROF">2176</value>
-        <value compclass="LND">2176</value>
-        <value compclass="ESP">2176</value>
+        <value compclass="ATM">3200</value>
+        <value compclass="OCN">3200</value>
+        <value compclass="WAV">3200</value>
+        <value compclass="GLC">3200</value>
+        <value compclass="ICE">3200</value>
+        <value compclass="ROF">3200</value>
+        <value compclass="LND">3200</value>
+        <value compclass="ESP">3200</value>
       </values>
       <desc>Number of tasks per instance for each component. DO NOT EDIT: Set automatically by case.setup based on NTASKS, NINST and MULTI_DRIVER</desc>
     </entry>
@@ -137,11 +137,11 @@
     </entry>
   </group>
   <group id="mach_pes_last">
-    <entry id="COST_PES" value="2176">
+    <entry id="COST_PES" value="3200">
       <type>integer</type>
       <desc>pes or cores used relative to MAX_MPITASKS_PER_NODE for accounting (0 means TOTALPES is valid)</desc>
     </entry>
-    <entry id="TOTALPES" value="2176">
+    <entry id="TOTALPES" value="3200">
       <type>integer</type>
       <desc>total number of MPI tasks (setup automatically - DO NOT EDIT)</desc>
     </entry>

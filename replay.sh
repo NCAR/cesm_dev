@@ -150,3 +150,9 @@ cd "${CASEDIR}"
 
 ./xmlchange NTASKS=3200
 
+./case.setup
+
+./case.setup --reset
+
+./case.build --clean-all
+
