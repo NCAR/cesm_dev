@@ -158,3 +158,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_alpha08b
  ---------------------------------------------------
 2026-02-26 12:03:57: xmlchange success <command> ./xmlchange RUN_STARTDATE=1980-01-01  </command>
  ---------------------------------------------------
+2026-02-26 12:04:11: case.submit starting case.run:5212959.desched1, case.st_archive:5212960.desched1
+ ---------------------------------------------------

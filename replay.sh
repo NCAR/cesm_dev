@@ -144,3 +144,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_STARTDATE=1980-01-01
 
+./case.submit
+
