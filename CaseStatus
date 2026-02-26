@@ -48,3 +48,5 @@
  ---------------------------------------------------
 2026-02-25 18:34:34: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=0,STOP_N=1,STOP_OPTION=nmonths  </command>
  ---------------------------------------------------
+2026-02-25 18:34:45: case.submit starting case.run:5207349.desched1, case.st_archive:5207350.desched1
+ ---------------------------------------------------
