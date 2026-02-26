@@ -296,7 +296,7 @@
       negative value implies off
     </desc>
     </entry>
-    <entry id="REST_OPTION" value="ndays">
+    <entry id="REST_OPTION" value="nyears">
       <type>char</type>
       <valid_values>none,never,nsteps,nseconds,nminutes,nhours,ndays,nmonths,nyears,date,end</valid_values>
       <desc>
