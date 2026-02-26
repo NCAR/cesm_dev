@@ -1,9 +1,9 @@
-mfilt               =       0,       5,     20,      40,      12,         8,      1,   1
-nhtfrq              =       0,     -24,    -24,      -3,       -24,       -6,      0,  -8760
-ndens               =       2,       2,      2,       2,       2,        1,      2,   1
-interpolate_output  =  .true.,  .true., .true.,  .true., .false.,   .true.,     .true.
-interpolate_nlat    =     192,     192,    192,     192,      192,     192,      192
-interpolate_nlon    =     288,     288,    288,     288,      288,     288,      288
+mfilt               =       0,       5,     20,      40,      12,         20,      1,   1
+nhtfrq              =       0,     -24,    -24,      -3,     -24,        -6,      0,  -8760
+ndens               =       2,       2,      2,       2,       2,         1,      2,   1
+interpolate_output  =  .true.,  .true., .true.,  .true., .false.,      .true.,     .true.
+interpolate_nlat    =     192,     192,    192,     192,      192,       192,      192
+interpolate_nlon    =     288,     288,    288,     288,      288,       288,      288
 
 empty_htapes = .true.
 
@@ -47,6 +47,8 @@ phys_grid_ctem_nfreq=-6
 phys_grid_ctem_zm_nbas=120
 phys_grid_ctem_za_nlat=90
 
+!6 hourly - instantaneous (h5)
+fincl6 = 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I', 'PMID:I', 'Q:I'
 
 seasalt_emis_scale = 1.6
 clubb_c8 = 4.5
@@ -60,14 +62,17 @@ clubb_c_k10h = 0.20
 
 se_statefreq = 144
 
-tracer_cnst_datapath           = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/tracer_cnst'
-tracer_cnst_file               = 'tracer_cnst_FHISTC_MTt4s_waccm_phys_c20260224.nc'
-prescribed_ozone_datapath              = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/ozone_strataero_day_5'
-prescribed_ozone_file          = 'ozone_strataero_f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys_1979_2011_c20260224.nc'
-prescribed_strataero_datapath          = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/ozone_strataero_day_5'
-prescribed_strataero_file              = 'ozone_strataero_f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys_1979_2011_c20260224.nc'
+tracer_cnst_datapath = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/tracer_cnst'
+tracer_cnst_file  = 'tracer_cnst_FHISTC_MTt4s_waccm_phys_c20260224.nc'
+prescribed_ozone_datapath = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/ozone_strataero_day_5'
+prescribed_ozone_file = 'ozone_strataero_f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys_1979_2011_c20260224.nc'
+prescribed_strataero_datapath = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/ozone_strataero_day_5'
+prescribed_strataero_file = 'ozone_strataero_f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys_1979_2011_c20260224.nc'
 
-stream_ndep_data_filename              = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/fndep_clm_FHISTC_MTt4s.1979_2011260223.nc'
+stream_ndep_data_filename = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/fndep_clm_FHISTC_MTt4s.1979_2011260223.nc'
+ stream_ndep_year_align= 1979
+ stream_ndep_year_first= 1979
+ stream_ndep_year_last= 2011
 
 rad_climate            = 'A:Q:H2O', 'N:O2:O2',
          'A:CO2:CO2', 'N:ozone:O3',
@@ -75,7 +80,8 @@ rad_climate            = 'A:Q:H2O', 'N:O2:O2',
          'N:CFC11STAR:CFC11', 'A:CFC12:CFC12',
          'M:mam4_mode1:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode1_rrtmg_aeronetdust_sig1.6_dgnh.48_c140304.nc', 'M:mam4_mode2:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode2_rrtmg_aitkendust_c141106.nc',
          'M:mam4_mode3:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode3_rrtmg_aeronetdust_c141106.nc', 'M:mam4_mode4:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode4_rrtmg_c130628.nc',
-         'N:VOLC_MMR1:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.6_mode1_c210211.nc', 'N:VOLC_MMR2:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.6_mode2_c210211.nc',   'N:VOLC_MMR3:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode3_c210211.nc',
+         'N:VOLC_MMR1:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.6_mode1_c210211.nc', 'N:VOLC_MMR2:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.6_mode2_c210211.nc',
+   'N:VOLC_MMR3:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode3_c210211.nc',
 'N:VOLC_MMR5:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode3_c210211.nc'
 
 gw_qbo_hdepth_scaling = 0.27D0

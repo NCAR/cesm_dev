@@ -52,3 +52,29 @@ cd "${CASEDIR}"
 
 ./xmlchange PROJECT=CESM0023
 
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./xmlchange JOB_PRIORITY=regular
+

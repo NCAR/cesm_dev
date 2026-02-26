@@ -53,10 +53,11 @@
          'Z010:A'
  fincl4		= 'PRECC','PRECL'
  fincl5		= 'Uzm','Vzm','Wzm','THzm','VTHzm','WTHzm','UVzm','UWzm'
+ fincl6		= 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I','PMID:I','Q:I'
  interpolate_nlat		= 192,192,192,192,192,192,192
  interpolate_nlon		= 288,288,288,288,288,288,288
  interpolate_output		= .true.,.true.,.true.,.true.,.false.,.true.,.true.
- mfilt		= 0,5,20,40,12,8,1,1
+ mfilt		= 0,5,20,40,12,20,1,1
  ndens		= 2,2,2,2,2,1,2,1
  nhtfrq		= 0,-24,-24,-3,-24,-6,0,-8760
 /
@@ -411,9 +412,9 @@
 &ndep_stream_nl
  stream_ndep_data_filename		= '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/fndep_clm_FHISTC_MTt4s.1979_2011260223.nc'
  stream_ndep_mesh_filename		= '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/fv0.9x1.25_141008_polemod_ESMFmesh.nc'
- stream_ndep_year_align		= 1850
- stream_ndep_year_first		= 1850
- stream_ndep_year_last		= 2015
+ stream_ndep_year_align		= 1979
+ stream_ndep_year_first		= 1979
+ stream_ndep_year_last		= 2011
 /
 &nucleate_ice_nl
  nucleate_ice_incloud		= .false.
