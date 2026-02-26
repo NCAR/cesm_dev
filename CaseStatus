@@ -64,3 +64,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_alpha08b
  ---------------------------------------------------
 2026-02-25 18:56:28: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
  ---------------------------------------------------
+2026-02-25 18:57:44: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287  </command>
+ ---------------------------------------------------

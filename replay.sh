@@ -96,3 +96,5 @@ cd "${CASEDIR}"
 
 ./xmlchange REST_OPTION=nyears,REST_N=1
 
+./xmlchange RUN_REFCASE=b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287
+
