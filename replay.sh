@@ -74,3 +74,7 @@ cd "${CASEDIR}"
 
 ./xmlchange NTASKS=2176
 
+./case.setup
+
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+
