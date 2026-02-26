@@ -132,3 +132,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange RUN_REFCASE=b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287
+

@@ -146,3 +146,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_alpha08b
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_alpha08b.FHISTC_MTso.ne30_t232_wgx3.315/run/med.log.5212907.desched1.260226-115605 
  
  ---------------------------------------------------
+2026-02-26 12:03:49: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287  </command>
+ ---------------------------------------------------
