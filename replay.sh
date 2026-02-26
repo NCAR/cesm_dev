@@ -94,3 +94,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange REST_OPTION=nyears,REST_N=1
+
