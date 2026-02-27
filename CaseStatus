@@ -12,3 +12,5 @@
  ---------------------------------------------------
 2026-02-27 14:24:32: xmlchange success <command> ./xmlchange RUN_REFDATE=0125-01-01  </command>
  ---------------------------------------------------
+2026-02-27 14:24:33: xmlchange success <command> ./xmlchange RUN_TYPE=startup  </command>
+ ---------------------------------------------------
