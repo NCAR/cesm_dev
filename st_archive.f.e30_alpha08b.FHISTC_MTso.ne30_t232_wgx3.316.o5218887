@@ -965,3 +965,15 @@ Archiving history files for drv (cpl)
 moving /glade/derecho/scratch/hannay/f.e30_alpha08b.FHISTC_MTso.ne30_t232_wgx3.316/run/f.e30_alpha08b.FHISTC_MTso.ne30_t232_wgx3.316.cpl.hx.1yr2glc.1983-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/f.e30_alpha08b.FHISTC_MTso.ne30_t232_wgx3.316/cpl/hist/f.e30_alpha08b.FHISTC_MTso.ne30_t232_wgx3.316.cpl.hx.1yr2glc.1983-01-01-00000.nc 
 moving /glade/derecho/scratch/hannay/f.e30_alpha08b.FHISTC_MTso.ne30_t232_wgx3.316/run/f.e30_alpha08b.FHISTC_MTso.ne30_t232_wgx3.316.cpl.hx.1yr2glc.1984-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/f.e30_alpha08b.FHISTC_MTso.ne30_t232_wgx3.316/cpl/hist/f.e30_alpha08b.FHISTC_MTso.ne30_t232_wgx3.316.cpl.hx.1yr2glc.1984-01-01-00000.nc 
 Archiving history files for dart (esp)
+st_archive completed
+resubmitting from st_archive, resubmit=14
+Submitting job 'case.run', resubmit=14
+submit_jobs case.run
+Submit job case.run
+Submitting job script qsub -q main -l walltime=12:00:00 -A CESM0023 -l job_priority=premium -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_alpha08b.FHISTC_MTso.ne30_t232_wgx3.316/.case.run
+Submitted job id is 5221685.desched1
+Submit job case.st_archive
+Submitting job script qsub -q develop -l walltime=00:20:00 -A CESM0023 -l job_priority=premium  -W depend=afterok:5221685.desched1 -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_alpha08b.FHISTC_MTso.ne30_t232_wgx3.316/case.st_archive
+Submitted job id is 5221686.desched1
+Submitted job case.run with id 5221685.desched1
+Submitted job case.st_archive with id 5221686.desched1
