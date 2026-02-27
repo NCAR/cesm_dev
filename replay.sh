@@ -76,3 +76,7 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange JOB_PRIOTITY=premium
+
+./xmlchange JOB_PRIORITY=premium
+
