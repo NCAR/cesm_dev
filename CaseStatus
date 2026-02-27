@@ -20,3 +20,5 @@
  ---------------------------------------------------
 2026-02-27 14:24:37: xmlchange success <command> ./xmlchange RUN_STARTDATE=1980-01-01  </command>
  ---------------------------------------------------
+2026-02-27 14:24:44: xmlchange success <command> ./xmlchange SSTICE_DATA_FILENAME=/glade/campaign/cesm/cesmdata/cseg/inputdata/atm/cam/sst/sst_HadOIBl_bc_1x1_1850_2021_SST4K_c241009b.nc  </command>
+ ---------------------------------------------------

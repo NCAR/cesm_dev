@@ -28,3 +28,7 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_STARTDATE=1980-01-01
 
+./preview_namelists
+
+./xmlchange SSTICE_DATA_FILENAME=/glade/campaign/cesm/cesmdata/cseg/inputdata/atm/cam/sst/sst_HadOIBl_bc_1x1_1850_2021_SST4K_c241009b.nc
+
