@@ -32,3 +32,7 @@ cd "${CASEDIR}"
 
 ./xmlchange SSTICE_DATA_FILENAME=/glade/campaign/cesm/cesmdata/cseg/inputdata/atm/cam/sst/sst_HadOIBl_bc_1x1_1850_2021_SST4K_c241009b.nc
 
+./preview_namelists
+
+./case.build
+
