@@ -16,3 +16,5 @@
  ---------------------------------------------------
 2026-03-04 16:46:34: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2026-03-04 16:46:36: xmlchange success <command> ./xmlchange ROF2OCN_ICE_RMAPNAME=/glade/u/home/igrooms/runoff_mapping/map_r05_to_tx2_3_nnsm_e250r250_modified_260212.nc  </command>
+ ---------------------------------------------------
