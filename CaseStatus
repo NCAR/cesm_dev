@@ -611,3 +611,5 @@ CESM0023, Overspent, True
 P03010039, Normal, True
 NCGD0006, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.315'
  ---------------------------------------------------
+2026-03-04 10:16:12: case.submit starting case.run:5268713.desched1, case.st_archive:5268714.desched1
+ ---------------------------------------------------
