@@ -122,61 +122,45 @@ clubb_c_k10h = 0.20
 
 se_statefreq = 144
 
-tracer_cnst_datapath           = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/tracer_cnst'
-
- tracer_cnst_file               = 'tracer_cnst_FHISTC_MTt4s_waccm_phys_c20260224.nc'
-
-prescribed_ozone_datapath              = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/ozone_strataero_day_5'
-
-prescribed_ozone_file          = 'ozone_strataero_f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys_1979_2011_c20260224.nc'
-
-prescribed_strataero_datapath          = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/ozone_strataero_day_5'
-
-prescribed_strataero_file              = 'ozone_strataero_f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys_1979_2011_c20260224.nc
 
 
+ prescribed_ozone_cycle_yr              =    1850
 
-stream_ndep_data_filename              = '/glade/derecho/scratch/tilmes/archive/f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys/atm/proc/fndep_clm_FHISTC_MTt4s.1979_2011260223.nc'
+ prescribed_ozone_datapath              = '/glade/derecho/scratch/tilmes/archive/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/atm/proc/ozone_strataero_day_5'
 
+ prescribed_ozone_file          = 'ozone_strataero_b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001_1850climo_zm_5day_c251204.nc'
 
+ prescribed_ozone_name          = 'O3'
 
+ prescribed_ozone_type          = 'CYCLICAL'
 
+ prescribed_strataero_cycle_yr          =       1850
 
-rad_climate            = 'A:Q:H2O', 'N:O2:O2',
+ prescribed_strataero_datapath          = '/glade/derecho/scratch/tilmes/archive/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/atm/proc/ozone_strataero_day_5'
 
+ prescribed_strataero_file              = 'ozone_strataero_b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001_1850climo_zm_5day_c251204.nc'
 
+ prescribed_strataero_type              = 'CYCLICAL'
 
-         'A:CO2:CO2', 'N:ozone:O3',
+ prescribed_strataero_use_chemtrop              =   .true.
 
+ tracer_cnst_cycle_yr           =    1850
 
+  tracer_cnst_datapath           = '/glade/derecho/scratch/tilmes/archive/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/atm/proc/TracerCnstCyclical1850'
 
-         'A:N2O:N2O', 'A:CH4:CH4',
+  tracer_cnst_file               = 'tracer_cnst_MTt4s_halons_3Dmonthly_1850climo251_c20251209.nc'
 
+  tracer_cnst_filelist           = ''
 
+  tracer_cnst_specifier          = 'O3','OH','NO3','HO2','HALONS'
 
-         'N:CFC11STAR:CFC11', 'A:CFC12:CFC12',
-
-
-
-         'M:mam4_mode1:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode1_rrtmg_aeronetdust_sig1.6_dgnh.48_c140304.nc', 'M:mam4_mode2:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode2_rrtmg_aitkendust_c141106.nc',
+  tracer_cnst_type               = 'CYCLICAL'
 
 
 
-         'M:mam4_mode3:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode3_rrtmg_aeronetdust_c141106.nc', 'M:mam4_mode4:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode4_rrtmg_c130628.nc',
+stream_ndep_data_filename              = '/glade/derecho/scratch/tilmes/archive/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/atm/proc/DepositionCyclical1850/fndep_clm_B1850C_MT4s.1850monthly.ne30_c251220.nc'
 
 
-
-         'N:VOLC_MMR1:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.6_mode1_c210211.nc', 'N:VOLC_MMR2:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.6_mode2_c210211.nc',
-
-
-
-
-
-   'N:VOLC_MMR3:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode3_c210211.nc',
-
-
-
-'N:VOLC_MMR5:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode3_c210211.nc'
 
 
 
