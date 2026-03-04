@@ -50,7 +50,7 @@
          'so4_a3_sfgaex1', 'soa_a1_sfgaex1', 'soa_a2_sfgaex1', 'SFdst_a1', 'SFdst_a2', 'SFdst_a3', 'SFncl_a1', 'SFncl_a2', 'SFncl_a3',
          'num_a2_sfnnuc1', 'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO', 'AODVISstdn', 'REFF_AERO', 'so4_a1',
          'so4_a2', 'SAD_AERO', 'PS', 'TROP_P', 'FSNTOAC', 'CME', 'CMEIOUT', 'AODSSdn', 'EXTINCTdn',
-         'VOLC_MMR1', 'VOLC_MMR2', 'VOLC_MMR3', 'VOLC_MMR5', 'VOLC_SAD', 'VOLC_MASS5', 'BURDENSO4dn'
+         'VOLC_MMR1', 'VOLC_MMR2', 'VOLC_MMR3', 'VOLC_SAD', 'BURDENSO4dn'
  fincl3		= 'PRECT','PRECC','FLUT','U850','U200','V850','V200','OMEGA500','TS','SST','PSL','Z500'
  fincl4		= 'PRECC','PRECL'
  fincl5		= 'Uzm','Vzm','Wzm','THzm','VTHzm','WTHzm','UVzm','UWzm'
