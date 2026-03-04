@@ -29,3 +29,5 @@ err=Smartmatch is deprecated at /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/co
 Smartmatch is deprecated at /glade/work/hannay/cesm_tags/cesm3_0_alpha08b/components/cam/bld/build-namelist line 2337.
 ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instead got:  'ozone_strataero_f.e30.cam6_4_149.FHISTC_MTt4s.ne30.1975_2020.waccm_phys_1979_2011_c20260224.nc
  ---------------------------------------------------
+2026-03-04 12:46:54: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
