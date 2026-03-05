@@ -1,0 +1,23 @@
+&debug_inparm
+  create_esmf_pet_files = .false.
+/
+&papi_inparm
+  papi_ctr1_str = "PAPI_FP_OPS"
+  papi_ctr2_str = "PAPI_NO_CTR"
+  papi_ctr3_str = "PAPI_NO_CTR"
+  papi_ctr4_str = "PAPI_NO_CTR"
+/
+&prof_inparm
+  profile_add_detail = .false.
+  profile_barrier = .false.
+  profile_depth_limit = 4
+  profile_detail_limit = 2
+  profile_disable = .false.
+  profile_global_stats = .true.
+  profile_outpe_num = 1
+  profile_outpe_stride = 0
+  profile_ovhd_measurement = .false.
+  profile_papi_enable = .false.
+  profile_single_file = .false.
+  profile_timer = 4
+/
