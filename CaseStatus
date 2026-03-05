@@ -42,3 +42,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
 2026-03-04 17:01:32: case.submit error 
 ERROR: Build complete is not True please rebuild the model by calling case.build
  ---------------------------------------------------
+2026-03-04 21:51:48: case.build starting 
+ ---------------------------------------------------
