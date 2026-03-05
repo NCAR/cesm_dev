@@ -42,3 +42,5 @@
  ---------------------------------------------------
 2026-03-04 22:22:29: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
  ---------------------------------------------------
+2026-03-04 22:22:30: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
