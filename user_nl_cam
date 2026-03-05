@@ -91,3 +91,8 @@ effgw_beres_dp = 0.15D0
 effgw_movmtn_pbl  =  1.5d0
 
 ncdata = '/glade/derecho/scratch/hannay/archive/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280/rest/0021-01-01-00000/b.e30_alpha08a.B1850C_MTso.ne30_t232_wgx3.280.cam.i.0021-01-01-00000.nc'
+
+ext_frc_cycle_yr=   1850
+ext_frc_type= 'CYCLICAL'
+srf_emis_cycle_yr=  1850
+srf_emis_type= 'CYCLICAL'
