@@ -95,3 +95,5 @@ ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instea
  ---------------------------------------------------
 2026-03-05 00:19:12: st_archive starting 5272943.desched1
  ---------------------------------------------------
+2026-03-05 00:20:33: st_archive success 5272943.desched1
+ ---------------------------------------------------
