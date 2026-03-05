@@ -264,7 +264,7 @@
       If TRUE, then the refcase data is prestaged into the executable directory
     </desc>
     </entry>
-    <entry id="RUN_STARTDATE" value="1979-01-01">
+    <entry id="RUN_STARTDATE" value="1990-01-01">
       <type>char</type>
       <desc>
       Run start date (yyyy-mm-dd). Only used for startup or hybrid runs.
