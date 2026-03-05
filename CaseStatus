@@ -87,3 +87,5 @@ ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instea
  ---------------------------------------------------
 2026-03-05 08:56:47: case.run success 5278830.desched1
  ---------------------------------------------------
+2026-03-05 08:56:49:   Timing files created for run 5278830.desched1.260305-003954
+ ---------------------------------------------------
