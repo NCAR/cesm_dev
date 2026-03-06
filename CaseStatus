@@ -155,3 +155,5 @@ ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instea
  ---------------------------------------------------
 2026-03-06 10:06:56: model execution starting 5294740.desched1
  ---------------------------------------------------
+2026-03-06 14:31:06: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
