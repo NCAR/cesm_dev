@@ -263,3 +263,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
  ---------------------------------------------------
 2026-03-06 07:31:55: st_archive success 5292898.desched1
  ---------------------------------------------------
+2026-03-06 09:40:12: xmlchange success <command> ./xmlchange RESUBMIT=5,STOP_N=4  </command>
+ ---------------------------------------------------
