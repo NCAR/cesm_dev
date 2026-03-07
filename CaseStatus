@@ -575,3 +575,7 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08b
  ---------------------------------------------------
 2026-03-07 15:49:40: model execution success 5311406.desched1
  ---------------------------------------------------
+2026-03-07 15:49:42: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.316/run/med.log.5311406.desched1.260307-154536 
+ 
+ ---------------------------------------------------
