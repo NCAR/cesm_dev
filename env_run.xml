@@ -316,7 +316,7 @@
       sets model restart write date with REST_OPTION and REST_N
     </desc>
     </entry>
-    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl">
+    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl.0100-01-01-00000">
       <type>char</type>
       <desc>
       Name of the restart pointer file, this can be used to restart from an
@@ -603,7 +603,7 @@
       <type>char</type>
       <desc>rof2ocn runoff mapping file</desc>
     </entry>
-    <entry id="ROF2OCN_ICE_RMAPNAME" value="cpl/gridmaps/r05/map_r05_to_tx2_3_nnsm_e1000r1000_230415.nc">
+    <entry id="ROF2OCN_ICE_RMAPNAME" value="/glade/u/home/igrooms/runoff_mapping/map_r05_to_tx2_3_nnsm_e250r250_modified_260212.nc">
       <type>char</type>
       <desc>rof2ocn runoff mapping file</desc>
     </entry>
