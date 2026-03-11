@@ -3,4 +3,22 @@
 finidat = 'b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.315.clm2.r.0100-01-01-00000.nc'
 
 
+paramfile = '/glade/u/home/slevis/paramfiles/iss3725_forFang/ctsm60_params.c260204.cesm3-01.nc'
+
+
+
+defo_fire_precip_thresh_bet = 1.4d00
+
+rh_hgh = 80.0d00
+
+
+
+use_init_interp = .true.
+
+reseed_dead_plants = .false.
+
+
+
+
+
 / 
