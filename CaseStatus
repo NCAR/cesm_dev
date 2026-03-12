@@ -299,3 +299,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.320/run/med.log.5304208.desched1.260307-085401 
  
  ---------------------------------------------------
+2026-03-12 09:49:29: case.submit starting case.run:5355220.desched1, case.st_archive:5355222.desched1
+ ---------------------------------------------------
