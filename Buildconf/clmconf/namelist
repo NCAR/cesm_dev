@@ -1,5 +1,38 @@
 &comp_inparm 
 
+finidat = 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287.clm2.r.0125-01-01-00000.nc'
+
+
+paramfile = '/glade/u/home/slevis/paramfiles/iss3725_forFang/ctsm60_params.c260204.cesm3-01.nc'
+
+
+
+defo_fire_precip_thresh_bet = 1.4d00
+
+rh_hgh = 80.0d00
+
+
+
+finidat = '/glade/derecho/scratch/wwieder/archive/ctsm5.4.015_BGCcrop_ne30_144_pSASU/rest/0181-01-01-00000/ctsm5.4.015_BGCcrop_ne30_144_pSASU.clm2.r.0181-01-01-00000.nc'
+
+
+
+use_init_interp = .true.
+
+reseed_dead_plants = .true.
+
+
+
+stream_fldfilename_ndep = '/glade/derecho/scratch/tilmes/archive/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/atm/proc/fndep_clm_B1850C_MT4s.1850monthly.ne30_c251209.nc'
+
+stream_year_first_ndep = 11
+
+stream_year_last_ndep = 11
+
+
+
+n_melt_glcmec = 1
+
 
 
 / 
