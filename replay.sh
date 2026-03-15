@@ -60,3 +60,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_PRIORITY=premium
 
+./xmlchange JOB_PRIORITY=premium
+
