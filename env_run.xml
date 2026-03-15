@@ -405,7 +405,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to determine whether run has been submitted with the submit script or not</desc>
     </entry>
-    <entry id="JOB_IDS" value="case.run:5376038.desched1, case.st_archive:5376039.desched1">
+    <entry id="JOB_IDS" value="case.run:5382436.desched1, case.st_archive:5382437.desched1">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
