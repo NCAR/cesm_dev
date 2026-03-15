@@ -1,0 +1,10 @@
+&dglc_nml
+  datamode = "noevolve"
+  model_datafiles_list = "/glade/campaign/cesm/cesmdata/inputdata/glc/cism/Greenland/greenland_4km_epsg3413_c251001.nc"
+  model_internal_gridsize = 4000
+  model_meshfiles_list = "/glade/campaign/cesm/cesmdata/inputdata/share/meshes/greenland_4km_epsg3413_c250909_ESMFmesh_c20250909.nc"
+  nx_global = 421
+  ny_global = 721
+  restfilm = "null"
+  skip_restart_read = .false.
+/
