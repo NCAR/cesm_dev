@@ -170,3 +170,5 @@
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.322/run/med.log.5382436.desched1.260314-202744 
  
  ---------------------------------------------------
+2026-03-15 16:45:15: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+ ---------------------------------------------------
