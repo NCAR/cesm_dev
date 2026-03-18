@@ -65,3 +65,6 @@ ERROR: BUILD FAIL: cice.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30
  ---------------------------------------------------
 2026-03-18 17:17:09: case.submit starting 
  ---------------------------------------------------
+2026-03-18 17:17:10: case.submit error 
+ERROR: Build complete is not True please rebuild the model by calling case.build
+ ---------------------------------------------------
