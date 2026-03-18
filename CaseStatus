@@ -83,3 +83,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
 2026-03-18 17:29:03: case.build error 
 ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/bld/cesm.bldlog.260318-172431
  ---------------------------------------------------
+2026-03-18 17:30:08: build.clean starting 
+ ---------------------------------------------------
