@@ -8,7 +8,7 @@
   hist_avg = .true., .true., .true., .true., .true.
   hist_suffix = "x", "1", "2", "3", "4"
   hist_time_axis = "middle"
-  histfreq = "m", "d", "x", "x", "x"
+  histfreq = "m", "x", "x", "x", "x"
   histfreq_n = 1, 1, 0, 0, 0
   history_file = "unknown"
   history_format = "default"
@@ -37,14 +37,14 @@
   dxrect = 30.0e5
   dyrect = 30.0e5
   grid_atm = "A"
-  grid_file = "/glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/horiz_grid_20230416.ieeer8"
-  grid_format = "bin"
+  grid_file = "/glade/work/gmarques/cesm/tx2_3/seaice_files/cice_grid_tx2_3v3_260305_cdf5.nc"
+  grid_format = 'nc'
   grid_ice = "B"
   grid_ocn = "A"
   grid_type = "tripole"
   gridcpl_file = "unknown_gridcpl_file"
   kcatbound = 0
-  kmt_file = "/glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/topography_20230416.ieeei4"
+  kmt_file = "/glade/work/gmarques/cesm/tx2_3/seaice_files/cice_grid_tx2_3v3_260305_cdf5.nc"
   kmt_type = "file"
   nblyr = 3
   ncat = 5
@@ -66,7 +66,7 @@
   n_zaero = 0
   restart_aero = .false.
   restart_age = .false.
-  restart_fsd = .false.
+  restart_fsd = .true.
   restart_fy = .false.
   restart_iso = .false.
   restart_lvl = .false.
@@ -138,7 +138,7 @@
   kalg = 0.0
   r_ice = 0.0
   r_pnd = 0.0
-  r_snw = 1.00
+  r_snw = 1.0
   rsnw_mlt = 1500.
   shortwave = "dEdd"
   sw_dtemp = 0.01d0
@@ -196,7 +196,7 @@
   update_ocn_f = .true.
   ustar_min = 0.005
   wave_spec_file = "unknown_wave_spec_file"
-  wave_spec_type = "alt"
+  wave_spec_type = 'alt'
 /
 &domain_nml
   add_mpi_barriers = .false.
@@ -272,18 +272,18 @@
   f_drag = "xxxxx"
 /
 &icefields_fsd_nml
-  f_afsd = "mxxxx"
-  f_afsdn = "mxxxx"
-  f_dafsd_latg = "mxxxx"
-  f_dafsd_latm = "mxxxx"
-  f_dafsd_newi = "mxxxx"
-  f_dafsd_wave = "mxxxx"
-  f_dafsd_weld = "mxxxx"
-  f_diam_ww = "mxxxx"
-  f_fsdperim = "mxxxx"
-  f_fsdrad = "mxxxx"
-  f_hice_ww = "mxxxx"
-  f_wave_sig_ht = "mxxxx"
+  f_afsd = "mdxxx"
+  f_afsdn = "mdxxx"
+  f_dafsd_latg = "mdxxx"
+  f_dafsd_latm = "mdxxx"
+  f_dafsd_newi = "mdxxx"
+  f_dafsd_wave = "mdxxx"
+  f_dafsd_weld = "mdxxx"
+  f_diam_ww = "mdxxx"
+  f_fsdperim = "mdxxx"
+  f_fsdrad = "mdxxx"
+  f_hice_ww = "mdxxx"
+  f_wave_sig_ht = "mdxxx"
 /
 &icefields_mechred_nml
   f_alvl = "xxxxx"
@@ -399,10 +399,10 @@
   f_fmeltt_ai = "xxxxx"
   f_fmelttn_ai = "xxxxx"
   f_frazil = "mdxxx"
-  f_fresh = "mdxxx"
-  f_fresh_ai = "mdxxx"
+  f_fresh = 'mxxxx'
+  f_fresh_ai = 'mxxxx'
   f_frz_onset = "xxxxx"
-  f_frzmlt = "xxxxx"
+  f_frzmlt = 'mdxxx'
   f_fsalt = "mdxxx"
   f_fsalt_ai = "mdxxx"
   f_fsens = "mxxxx"
@@ -545,7 +545,7 @@
   f_uarea = .true.
   f_uatm = "mxxxx"
   f_uocn = "xxxxx"
-  f_uvel = "mxxxx"
+  f_uvel = "mdxxx"
   f_vatm = "mxxxx"
   f_vgrdb = .true.
   f_vgrdi = .true.
@@ -553,5 +553,5 @@
   f_vicen = "mdhxx"
   f_vocn = "xxxxx"
   f_vsnon = "mdhxx"
-  f_vvel = "mxxxx"
+  f_vvel = "mdxxx"
 /

@@ -8,7 +8,7 @@
  crop_residue_removal_frac = 0.5d00
  do_sno_oc = .false.
  downscale_hillslope_meteorology = .true.
- finidat = 'b.e30_alpha07g.B1850C_LTso.ne30_t232_wgx3.287.clm2.r.0125-01-01-00000.nc'
+ finidat = '/glade/derecho/scratch/wwieder/archive/ctsm5.4.015_BGCcrop_ne30_144_pSASU/rest/0181-01-01-00000/ctsm5.4.015_BGCcrop_ne30_144_pSASU.clm2.r.0181-01-01-00000.nc'
  flush_gdd20 = .false.
  for_testing_no_crop_seed_replenishment = .false.
  for_testing_run_ncdiopio_tests = .false.
@@ -30,7 +30,7 @@
  nlevsno = 12
  nsegspc = 35
  o3_veg_stress_method = 'unset'
- paramfile = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/paramdata/ctsm60_params.c260303.nc'
+ paramfile = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/paramdata/ctsm60-cam70_params.c260305.nc'
  run_zero_weight_urban = .false.
  snicar_dust_optics = 'sahara'
  snicar_numrad_snw = 5
@@ -310,6 +310,7 @@
 /
 &cn_general
  dribble_crophrv_xsmrpool_2atm = .true.
+ reseed_dead_plants = .true.
 /
 &nitrif_inparm
 /
@@ -372,7 +373,7 @@
 /
 &scf_swenson_lawrence_2012_inparm
  int_snow_max = 2000.
- n_melt_glcmec = 10.0d00
+ n_melt_glcmec = 1
 /
 !#--------------------------------------------------------------------------------------------------------------------------
 !# lnd_in:: Comment:
