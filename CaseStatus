@@ -63,3 +63,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
 2026-03-18 17:15:57: case.build error 
 ERROR: BUILD FAIL: cice.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/bld/ice.bldlog.260318-171537
  ---------------------------------------------------
+2026-03-18 17:17:09: case.submit starting 
+ ---------------------------------------------------
