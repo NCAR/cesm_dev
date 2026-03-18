@@ -41,3 +41,5 @@
 2026-03-18 17:12:05: case.build error 
 ERROR: BUILD FAIL: cice.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/bld/ice.bldlog.260318-170001
  ---------------------------------------------------
+2026-03-18 17:12:09: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
