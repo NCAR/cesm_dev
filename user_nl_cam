@@ -91,6 +91,8 @@ rad_climate = 'A:Q:H2O', 'N:O2:O2', 'A:CO2:CO2', 'N:ozone:O3', 'A:N2O:N2O', 'A:C
         'N:VOLC_MMR3:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode3_c210211.nc',
         'N:VOLC_MMR5:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode5_c260228.nc'
 
-gw_qbo_hdepth_scaling = 0.27D0
-effgw_beres_dp = 0.15D0
+effgw_movmtn_pbl = 1.5d0
+effgw_rdg_beta = 0.75D0
+effgw_rdg_beta_max = 0.75D0
+gw_qbo_hdepth_scaling = 0.29D0
 
