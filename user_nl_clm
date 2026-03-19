@@ -2,4 +2,4 @@ reseed_dead_plants = .true.
 n_melt_glcmec = 1
 paramfile = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/paramdata/ctsm60-cam70_params.c260305.nc'
 finidat = '/glade/derecho/scratch/wwieder/archive/ctsm5.4.015_BGCcrop_ne30_144_pSASU/rest/0181-01-01-00000/ctsm5.4.015_BGCcrop_ne30_144_pSASU.clm2.r.0181-01-01-00000.nc'
-
+use_init_interp = .true.
