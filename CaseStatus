@@ -68,3 +68,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08l
  ---------------------------------------------------
 2026-03-19 13:54:26: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
  ---------------------------------------------------
+2026-03-19 13:54:28: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
+ ---------------------------------------------------
