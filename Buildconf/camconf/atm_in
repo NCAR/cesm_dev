@@ -524,7 +524,7 @@
          'M:mam4_mode1:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode1_rrtmg_aeronetdust_sig1.6_dgnh.48_c140304.nc', 'M:mam4_mode2:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode2_rrtmg_aitkendust_c141106.nc',
          'M:mam4_mode3:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode3_rrtmg_aeronetdust_c141106.nc', 'M:mam4_mode4:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode4_rrtmg_c130628.nc',
          'N:VOLC_MMR1:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.6_mode1_c210211.nc', 'N:VOLC_MMR2:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.6_mode2_c210211.nc',
-         'N:VOLC_MMR3:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode3_c210211.nc'
+         'N:VOLC_MMR3:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode3_c210211.nc', 'N:VOLC_MMR5:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode5_c260228.nc'
 /
 &radheat_nl
  p_bot_for_radmrg		=        20.D0 
