@@ -200,15 +200,15 @@
 /
 &domain_nml
   add_mpi_barriers = .false.
-  block_size_x = 9
-  block_size_y = 8
-  distribution_type = "sectrobin"
+  block_size_x = 5
+  block_size_y = 5
+  distribution_type = "spacecurve"
   distribution_wght = "blockall"
   ew_boundary_type = "cyclic"
   maskhalo_bound = .true.
   maskhalo_dyn = .true.
   maskhalo_remap = .true.
-  max_blocks = 5
+  max_blocks = 4
   ns_boundary_type = "tripole"
   nx_global = 540
   ny_global = 480
