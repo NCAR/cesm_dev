@@ -104,3 +104,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
  ---------------------------------------------------
 2026-03-19 11:33:03: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
  ---------------------------------------------------
+2026-03-19 11:33:05: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
