@@ -168,24 +168,6 @@ stream_ndep_data_filename              = '/glade/derecho/scratch/tilmes/archive/
 
 
 
-rad_climate = 'A:Q:H2O', 'N:O2:O2', 'A:CO2:CO2', 'N:ozone:O3', 'A:N2O:N2O', 'A:CH4:CH4', 'N:CFC11STAR:CFC11', 'A:CFC12:CFC12',
-
-         'M:mam4_mode1:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode1_rrtmg_aeronetdust_sig1.6_dgnh.48_c140304.nc',
-
-        'M:mam4_mode2:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode2_rrtmg_aitkendust_c141106.nc',
-
-        'M:mam4_mode3:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode3_rrtmg_aeronetdust_c141106.nc',
-
-        'M:mam4_mode4:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/mam4_mode4_rrtmg_c130628.nc',
-
-        'N:VOLC_MMR1:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.6_mode1_c210211.nc',
-
-        'N:VOLC_MMR2:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.6_mode2_c210211.nc',
-
-        'N:VOLC_MMR3:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode3_c210211.nc',
-
-        'N:VOLC_MMR5:/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/volc_camRRTMG_byradius_sigma1.2_mode5_c260228.nc'
-
 
 
 effgw_movmtn_pbl = 1.5d0
