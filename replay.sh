@@ -102,3 +102,9 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./case.setup
+
+./case.setup --reset
+
+./case.build --clean
+
