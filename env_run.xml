@@ -579,7 +579,7 @@
       <type>char</type>
       <desc>ice mesh file (full pahtname)</desc>
     </entry>
-    <entry id="OCN_DOMAIN_MESH" value="$DIN_LOC_ROOT/share/meshes/tx2_3v2_230415_ESMFmesh.nc">
+    <entry id="OCN_DOMAIN_MESH" value="/glade/work/gmarques/cesm/tx2_3/mesh/ESMF_mesh_tx2_3v3_260305_cdf5.nc">
       <type>char</type>
       <desc>ocn mesh file (full pathname)</desc>
     </entry>
