@@ -232,7 +232,7 @@
       a restart file.
     </desc>
     </entry>
-    <entry id="RUN_REFDIR" value="ccsm4_init">
+    <entry id="RUN_REFDIR" value="cesm2_init">
       <type>char</type>
       <desc>
       Reference directory containing RUN_REFCASE data - used for hybrid or branch runs
