@@ -6,3 +6,5 @@
  ---------------------------------------------------
 2026-03-20 15:50:11: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
  ---------------------------------------------------
+2026-03-20 15:51:34: xmlchange success <command> ./xmlchange MASK_MESH=/glade/work/gmarques/cesm/tx2_3/mesh/ESMF_mesh_tx2_3v3_260305_cdf5.n  </command>
+ ---------------------------------------------------
