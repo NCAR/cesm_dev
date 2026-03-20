@@ -39,7 +39,7 @@ VISC_RES_SCALE_COEF = 0.5  ! Used for KHTR
 VISC_RES_FN_POWER = 6      ! Used for KHTR
 INTERPOLATE_RES_FN = True  ! Only computes resolution fn once, then interpolates
 
-KHTR_MIN = 50.KHTR_MIN = 50.
+KHTR_MIN = 50.
 
 CORRECT_BBL_BOUNDS = True
 CHANNEL_DRAG_MAX_BBL_THICK = 5.0
