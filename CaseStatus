@@ -184,3 +184,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
  ---------------------------------------------------
 2026-03-20 06:10:34: model execution starting 5463339.desched1
  ---------------------------------------------------
+2026-03-20 11:13:26: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
+ ---------------------------------------------------
