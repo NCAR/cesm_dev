@@ -14,3 +14,5 @@
  ---------------------------------------------------
 2026-03-20 15:52:36: xmlchange success <command> ./xmlchange OCN_DOMAIN_MESH=/glade/work/gmarques/cesm/tx2_3/mesh/ESMF_mesh_tx2_3v3_260305_cdf5.nc  </command>
  ---------------------------------------------------
+2026-03-20 15:52:42: xmlchange success <command> ./xmlchange ICE_DOMAIN_MESH=/glade/work/gmarques/cesm/tx2_3/mesh/ESMF_mesh_tx2_3v3_260305_cdf5.nc  </command>
+ ---------------------------------------------------
