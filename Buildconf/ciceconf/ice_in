@@ -13,7 +13,7 @@
   history_file = "unknown"
   history_format = "default"
   history_precision = 4
-  ice_ic = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006/rest/0008-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006.cice.r.0008-01-01-00000.nc"
+  ice_ic = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008/rest/0006-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008.cice.r.0006-01-01-00000.nc"
   latpnt = 90.0, -65.0
   lonpnt = 0.0, -45.0
   ndtd = 1

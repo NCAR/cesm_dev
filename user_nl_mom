@@ -55,10 +55,10 @@ TS_CONFIG = file
 
 INIT_LAYERS_FROM_Z_FILE = False
 
-THICKNESS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006/rest/0008-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006.mom6.r.0008-01-01-00000.nc"
+THICKNESS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008/rest/0006-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008.mom6.r.0006-01-01-00000.nc"
 
-TS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006/rest/0008-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006.mom6.r.0008-01-01-00000.nc"
-VELOCITY_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006/rest/0008-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006.mom6.r.0008-01-01-00000.nc"
+TS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008/rest/0006-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008.mom6.r.0006-01-01-00000.nc"
+VELOCITY_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008/rest/0006-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008.mom6.r.0006-01-01-00000.nc"
 
 TEMP_IC_VAR = "Temp"
 SALT_IC_VAR = "Salt"
