@@ -35,15 +35,6 @@ VISC_RES_FN_POWER = 6
 #override KHTR_MIN = 50.
 CORRECT_BBL_BOUNDS = True
 CHANNEL_DRAG_MAX_BBL_THICK = 5.0
-THICKNESS_CONFIG = thickness_file
-VELOCITY_CONFIG = file
-TS_CONFIG = file
-#override INIT_LAYERS_FROM_Z_FILE = False
-THICKNESS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008/rest/0006-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008.mom6.r.0006-01-01-00000.nc"
-TS_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008/rest/0006-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008.mom6.r.0006-01-01-00000.nc"
-VELOCITY_FILE = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008/rest/0006-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.008.mom6.r.0006-01-01-00000.nc"
-TEMP_IC_VAR = "Temp"
-SALT_IC_VAR = "Salt"
 
 MLE%
 #override CR_FILE = "mle_cr_labsea_mask_tx2_3v3_260306.nc"
