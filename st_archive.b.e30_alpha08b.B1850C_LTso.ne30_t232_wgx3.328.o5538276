@@ -136,3 +136,4 @@ moving /glade/derecho/scratch/gmarques/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3
 moving /glade/derecho/scratch/gmarques/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328/run/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328.cpl.hx.atm.3h.avrg.0001-01-01-10800.nc to /glade/derecho/scratch/gmarques/archive/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328/cpl/hist/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328.cpl.hx.atm.3h.avrg.0001-01-01-10800.nc 
 moving /glade/derecho/scratch/gmarques/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328/run/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328.cpl.hx.atm.3hprec.avrg.0001-01-01-10800.nc to /glade/derecho/scratch/gmarques/archive/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328/cpl/hist/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328.cpl.hx.atm.3hprec.avrg.0001-01-01-10800.nc 
 Archiving history files for dart (esp)
+st_archive completed
