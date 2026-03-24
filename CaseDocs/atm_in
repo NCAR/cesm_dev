@@ -463,6 +463,7 @@
  radiation_scheme		= 'rrtmgp'
  shallow_scheme		= 'CLUBB_SGS'
  srf_flux_avg		= 0
+ state_debug_checks		= .true.
  use_gw_convect_dp		= .true.
  use_gw_convect_sh		= .false.
  use_gw_front		= .true.
