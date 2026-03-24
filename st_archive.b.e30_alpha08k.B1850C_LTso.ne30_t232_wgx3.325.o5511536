@@ -1,1 +1,349 @@
 st_archive starting
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/drv.log.5511535.desched1.260323-160849.gz to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/logs/drv.log.5511535.desched1.260323-160849.gz
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/cesm.log.5511535.desched1.260323-160849.gz to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/logs/cesm.log.5511535.desched1.260323-160849.gz
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/rof.log.5511535.desched1.260323-160849.gz to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/logs/rof.log.5511535.desched1.260323-160849.gz
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/lnd.log.5511535.desched1.260323-160849.gz to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/logs/lnd.log.5511535.desched1.260323-160849.gz
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/glc.log.5511535.desched1.260323-160849.gz to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/logs/glc.log.5511535.desched1.260323-160849.gz
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/med.log.5511535.desched1.260323-160849.gz to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/logs/med.log.5511535.desched1.260323-160849.gz
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/diags.log.5511535.desched1.260323-160849.gz to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/logs/diags.log.5511535.desched1.260323-160849.gz
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/ocn.log.5511535.desched1.260323-160849.gz to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/logs/ocn.log.5511535.desched1.260323-160849.gz
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/ice.log.5511535.desched1.260323-160849.gz to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/logs/ice.log.5511535.desched1.260323-160849.gz
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/atm.log.5511535.desched1.260323-160849.gz to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/logs/atm.log.5511535.desched1.260323-160849.gz
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/wav.log.5511535.desched1.260323-160849.gz to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/logs/wav.log.5511535.desched1.260323-160849.gz
+-------------------------------------------
+Archiving restarts for date date(29, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+WARNING, tried to add a duplicate file to histfiles
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.r.0029-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v nhfil /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.rs.0029-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: nhfil: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.rs.0029-01-01-00000.nc
+Archiving restarts for clm (lnd)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.r.0029-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0a.0029-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0a.0029-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0i.0029-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0i.0029-01-01-00000.nc
+Archiving restarts for cice (ice)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v histrest /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cice.r.0029-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: histrest: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cice.r.0029-01-01-00000.nc
+Archiving restarts for mom (ocn)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r.0029-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: None: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r.0029-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r_stoch.0029-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: None: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r_stoch.0029-01-01-00000.nc
+Archiving restarts for mosart (rof)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.r.0029-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0a.0029-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0a.0029-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0i.0029-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0i.0029-01-01-00000.nc
+Archiving restarts for dglc (glc)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.dglc.r.0029-01-01-00000.nc
+Archiving restarts for ww3 (wav)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.ww3.r.0029-01-01-00000
+Archiving restarts for drv (cpl)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cpl.r.0029-01-01-00000.nc
+Archiving restarts for dart (esp)
+-------------------------------------------
+Archiving restarts for date date(30, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+WARNING, tried to add a duplicate file to histfiles
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.r.0030-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v nhfil /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.rs.0030-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: nhfil: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.rs.0030-01-01-00000.nc
+Archiving restarts for clm (lnd)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.r.0030-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0a.0030-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0a.0030-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0i.0030-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0i.0030-01-01-00000.nc
+Archiving restarts for cice (ice)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v histrest /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cice.r.0030-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: histrest: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cice.r.0030-01-01-00000.nc
+Archiving restarts for mom (ocn)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r.0030-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: None: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r.0030-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r_stoch.0030-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: None: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r_stoch.0030-01-01-00000.nc
+Archiving restarts for mosart (rof)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.r.0030-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0a.0030-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0a.0030-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0i.0030-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0i.0030-01-01-00000.nc
+Archiving restarts for dglc (glc)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.dglc.r.0030-01-01-00000.nc
+Archiving restarts for ww3 (wav)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.ww3.r.0030-01-01-00000
+Archiving restarts for drv (cpl)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cpl.r.0030-01-01-00000.nc
+Archiving restarts for dart (esp)
+-------------------------------------------
+Archiving restarts for date date(31, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+WARNING, tried to add a duplicate file to histfiles
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.r.0031-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v nhfil /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.rs.0031-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: nhfil: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.rs.0031-01-01-00000.nc
+Archiving restarts for clm (lnd)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.r.0031-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0a.0031-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0a.0031-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0i.0031-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0i.0031-01-01-00000.nc
+Archiving restarts for cice (ice)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v histrest /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cice.r.0031-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: histrest: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cice.r.0031-01-01-00000.nc
+Archiving restarts for mom (ocn)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r.0031-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: None: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r.0031-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r_stoch.0031-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: None: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r_stoch.0031-01-01-00000.nc
+Archiving restarts for mosart (rof)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.r.0031-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0a.0031-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0a.0031-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0i.0031-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0i.0031-01-01-00000.nc
+Archiving restarts for dglc (glc)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.dglc.r.0031-01-01-00000.nc
+Archiving restarts for ww3 (wav)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.ww3.r.0031-01-01-00000
+Archiving restarts for drv (cpl)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cpl.r.0031-01-01-00000.nc
+Archiving restarts for dart (esp)
+-------------------------------------------
+Archiving restarts for date date(32, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+WARNING, tried to add a duplicate file to histfiles
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.r.0032-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v nhfil /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.rs.0032-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: nhfil: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.rs.0032-01-01-00000.nc
+Archiving restarts for clm (lnd)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.r.0032-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0a.0032-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0a.0032-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0i.0032-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0i.0032-01-01-00000.nc
+Archiving restarts for cice (ice)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v histrest /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cice.r.0032-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: histrest: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cice.r.0032-01-01-00000.nc
+Archiving restarts for mom (ocn)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r.0032-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: None: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r.0032-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r_stoch.0032-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: None: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r_stoch.0032-01-01-00000.nc
+Archiving restarts for mosart (rof)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.r.0032-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0a.0032-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0a.0032-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0i.0032-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0i.0032-01-01-00000.nc
+Archiving restarts for dglc (glc)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.dglc.r.0032-01-01-00000.nc
+Archiving restarts for ww3 (wav)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.ww3.r.0032-01-01-00000
+Archiving restarts for drv (cpl)
+removing interim restart file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cpl.r.0032-01-01-00000.nc
+Archiving restarts for dart (esp)
+-------------------------------------------
+Archiving restarts for date date(33, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+WARNING, tried to add a duplicate file to histfiles
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.r.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.r.0033-01-01-00000.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h4a.0032-12.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h4a.0032-12.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h3a.0032-12-27-10800.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h3a.0032-12-27-10800.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h2a.0032-12-13-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h2a.0032-12-13-00000.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h4i.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h4i.0033-01-01-00000.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.i.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.i.0033-01-01-00000.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h3i.0032-12-27-10800.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h3i.0032-12-27-10800.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0033-01-01-00000.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-12.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-12.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h2i.0032-12-13-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h2i.0032-12-13-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v nhfil /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.rs.0033-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: nhfil: No such variable
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.rs.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.rs.0033-01-01-00000.nc
+Archiving restarts for clm (lnd)
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.r.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.r.0033-01-01-00000.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.h0i.0032-12.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.h0i.0032-12.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.h0a.0032-12.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.h0a.0032-12.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0a.0033-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0a.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0a.0033-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0i.0033-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0i.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.clm2.rh0i.0033-01-01-00000.nc
+Archiving restarts for cice (ice)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v histrest /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cice.r.0033-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: histrest: No such variable
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cice.r.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cice.r.0033-01-01-00000.nc
+Archiving restarts for mom (ocn)
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r.0033-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: None: No such variable
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r.0033-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v None /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r_stoch.0033-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: None: No such variable
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r_stoch.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mom6.r_stoch.0033-01-01-00000.nc
+Archiving restarts for mosart (rof)
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.r.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.r.0033-01-01-00000.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.h0i.0032-12.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.h0i.0032-12.nc
+Copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.h0a.0032-12.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.h0a.0032-12.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0a.0033-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0a.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0a.0033-01-01-00000.nc
+ WARNING: /glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump -v locfnh /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0i.0033-01-01-00000.nc  failed rc=1
+    out=
+    err=/glade/u/apps/derecho/24.12/spack/opt/spack/netcdf/4.9.3/cray-mpich/8.1.29/oneapi/2024.2.1/rjvv/bin/ncdump: locfnh: No such variable
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0i.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.mosart.rh0i.0033-01-01-00000.nc
+Archiving restarts for dglc (glc)
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.dglc.r.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.dglc.r.0033-01-01-00000.nc
+Archiving restarts for ww3 (wav)
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.ww3.r.0033-01-01-00000 to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.ww3.r.0033-01-01-00000
+Archiving restarts for drv (cpl)
+copying file /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cpl.r.0033-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/rest/0033-01-01-00000/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cpl.r.0033-01-01-00000.nc
+Archiving restarts for dart (esp)
+Archiving history files for cam (atm)
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0028-12.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0028-12.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-01.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-01.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-02.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-02.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-03.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-03.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-04.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-04.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-05.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-05.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-06.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-06.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-07.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-07.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-08.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-08.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-09.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-09.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-10.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-10.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-11.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-11.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-12.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0029-12.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-01.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-01.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-02.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-02.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-03.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-03.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-04.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-04.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-05.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-05.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-06.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-06.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-07.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-07.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-08.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-08.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-09.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-09.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-10.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-10.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-11.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-11.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-12.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0030-12.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-01.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-01.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-02.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-02.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-03.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-03.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-04.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-04.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-05.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-05.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-06.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-06.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-07.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-07.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-08.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-08.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-09.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-09.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-10.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-10.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-11.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-11.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-12.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0031-12.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-01.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-01.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-02.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-02.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-03.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-03.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-04.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-04.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-05.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-05.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-06.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-06.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-07.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-07.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-08.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-08.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-09.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-09.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-10.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-10.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-11.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-11.nc 
+copying /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-12.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0a.0032-12.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-01-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-02-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-02-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-03-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-03-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-04-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-04-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-05-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-05-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-06-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-06-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-07-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-07-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-08-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-08-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-09-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-09-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-10-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-10-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-11-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-11-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-12-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0029-12-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-01-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-02-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-02-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-03-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-03-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-04-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-04-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-05-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-05-01-00000.nc 
+moving /glade/derecho/scratch/hannay/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/run/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-06-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325/atm/hist/b.e30_alpha08k.B1850C_LTso.ne30_t232_wgx3.325.cam.h0i.0030-06-01-00000.nc 
+=>> PBS: job killed: walltime 1223 exceeded limit 1200
