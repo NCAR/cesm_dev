@@ -1,7 +1,6 @@
 &comp_inparm 
 
  dtime = 1800
- state_debug_checks = .true.
 mfilt               =       0,       5,     20,      40,      12,      120,      1,   1
 
 nhtfrq              =       0,     -24,    -24,      -3,       0,       -2,      0,  -8760
