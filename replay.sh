@@ -44,3 +44,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange DEBUG=TRue
+

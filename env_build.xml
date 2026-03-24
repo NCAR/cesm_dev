@@ -171,7 +171,7 @@
       <valid_values>TRUE</valid_values>
       <desc>TRUE implies using the ESMF library specified by ESMF_LIBDIR or ESMFMKFILE</desc>
     </entry>
-    <entry id="DEBUG" value="FALSE">
+    <entry id="DEBUG" value="TRUE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>TRUE implies turning on run and compile time debugging
@@ -306,7 +306,7 @@
     </entry>
   </group>
   <group id="build_status">
-    <entry id="BUILD_COMPLETE" value="TRUE">
+    <entry id="BUILD_COMPLETE" value="FALSE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Status output: if TRUE, models have been built successfully. (DO NOT EDIT)&gt;</desc>
@@ -331,7 +331,7 @@
       <valid_values/>
       <desc>Status: ninst status of current case, coded string (DO NOT EDIT)</desc>
     </entry>
-    <entry id="BUILD_STATUS" value="0">
+    <entry id="BUILD_STATUS" value="1">
       <type>integer</type>
       <valid_values>0,1,2</valid_values>
       <desc>Status: of prior build. (DO NOT EDIT)</desc>
