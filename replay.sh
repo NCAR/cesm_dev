@@ -66,3 +66,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CONTINUE_RUN=True
 
+./case.submit
+
