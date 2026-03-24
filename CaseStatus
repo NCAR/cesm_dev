@@ -72,3 +72,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
  ---------------------------------------------------
 2026-03-23 20:39:35: xmlchange success <command> ./xmlchange DEBUG=TRue  </command>
  ---------------------------------------------------
+2026-03-23 20:39:40: build.clean starting 
+ ---------------------------------------------------

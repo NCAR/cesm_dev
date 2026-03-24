@@ -46,3 +46,5 @@ cd "${CASEDIR}"
 
 ./xmlchange DEBUG=TRue
 
+./case.build --clean-all
+
