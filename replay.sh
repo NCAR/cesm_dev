@@ -34,3 +34,11 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange JOB_PRIORITY=regular
+
+./case.setup
+
+./case.setup --reset
+
+./case.build
+
