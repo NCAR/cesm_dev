@@ -13,7 +13,7 @@
   history_file = "unknown"
   history_format = "default"
   history_precision = 4
-  ice_ic = "default"
+  ice_ic = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006/rest/0008-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006.cice.r.0008-01-01-00000.nc"
   latpnt = 90.0, -65.0
   lonpnt = 0.0, -45.0
   ndtd = 1
@@ -37,14 +37,14 @@
   dxrect = 30.0e5
   dyrect = 30.0e5
   grid_atm = "A"
-  grid_file = "/glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/horiz_grid_20230416.ieeer8"
-  grid_format = "bin"
+  grid_file = "/glade/work/gmarques/cesm/tx2_3/seaice_files/cice_grid_tx2_3v3_260305_cdf5.nc"
+  grid_format = 'nc'
   grid_ice = "B"
   grid_ocn = "A"
   grid_type = "tripole"
   gridcpl_file = "unknown_gridcpl_file"
   kcatbound = 0
-  kmt_file = "/glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v2/topography_20230416.ieeei4"
+  kmt_file = "/glade/work/gmarques/cesm/tx2_3/seaice_files/cice_grid_tx2_3v3_260305_cdf5.nc"
   kmt_type = "file"
   nblyr = 3
   ncat = 5
