@@ -599,7 +599,7 @@
       <type>char</type>
       <desc>rof2lnd flux mapping file</desc>
     </entry>
-    <entry id="ROF2OCN_LIQ_RMAPNAME" value="cpl/gridmaps/r05/map_r05_to_tx2_3_nnsm_e250r250_230914.nc">
+    <entry id="ROF2OCN_LIQ_RMAPNAME" value="/glade/work/gmarques/cesm/tx2_3/runoff_mapping/map_r05_to_tx2_3_nnsm_e100r100_260306.nc">
       <type>char</type>
       <desc>rof2ocn runoff mapping file</desc>
     </entry>
