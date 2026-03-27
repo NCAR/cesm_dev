@@ -97,8 +97,8 @@ phys_grid_ctem_za_nlat=90
 
 
 
-ncdata='/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/rest/0030-01-01-00000/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001.cam.i.0030-01-01-00000.nc'
 
 
+ncdata='/glade/campaign/cesm/cesmdata/inputdata/atm/cam/inic/se/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001.cam.i.0030-01-01-00000.nc'
 
 / 
