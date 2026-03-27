@@ -30,3 +30,5 @@
  ---------------------------------------------------
 2026-03-27 15:41:01: xmlchange success <command> ./xmlchange REST_OPTION=nmonths,REST_N=1  </command>
  ---------------------------------------------------
+2026-03-27 15:41:02: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
+ ---------------------------------------------------
