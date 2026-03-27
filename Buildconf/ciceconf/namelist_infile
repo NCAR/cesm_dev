@@ -1,7 +1,13 @@
 &comp_inparm 
 
+grid_file = "/glade/work/gmarques/cesm/tx2_3/seaice_files/cice_grid_tx2_3v3_260305_cdf5.nc"
 
+grid_format = 'nc'
 
- 
+ice_ic      = "/glade/derecho/scratch/gmarques/archive/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006/rest/0008-01-01-00000/g.e30_a08g.GW_JRA.TL319_t232_wgx3_hycom1_N75.2026.006.cice.r.0008-01-01-00000.nc"
+
+kmt_file = "/glade/work/gmarques/cesm/tx2_3/seaice_files/cice_grid_tx2_3v3_260305_cdf5.nc"
+
+restart_fsd = .true.
 
 / 
