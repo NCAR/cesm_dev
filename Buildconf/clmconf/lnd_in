@@ -303,6 +303,7 @@
 /
 &cn_general
  dribble_crophrv_xsmrpool_2atm = .true.
+ reseed_dead_plants = .true.
 /
 &nitrif_inparm
 /
