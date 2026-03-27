@@ -2,6 +2,4 @@
 
 reseed_dead_plants = .true.
 
-paramfile = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/paramdata/ctsm60-cam70_params.c260305.nc'
-
 / 

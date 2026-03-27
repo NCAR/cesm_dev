@@ -63,7 +63,7 @@
 /
 &cam_initfiles_nl
  bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/se/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greenlndantarcsgh30fac2.50_20250828.nc'
- ncdata		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/inic/se/c153_ne30pg3_FMTHIST_x02.cam.i.1990-01-01-00000_c240618.nc'
+ ncdata		= '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001/rest/0030-01-01-00000/b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001.cam.i.0030-01-01-00000.nc'
  scale_dry_air_mass		=   98288.0D0 
  use_topo_file		=  .true.  
 /
