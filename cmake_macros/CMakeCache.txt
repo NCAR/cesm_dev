@@ -48,6 +48,9 @@ CMAKE_C_COMPILER_AR:FILEPATH=CMAKE_C_COMPILER_AR-NOTFOUND
 //Generate index for LLVM archive
 CMAKE_C_COMPILER_RANLIB:FILEPATH=CMAKE_C_COMPILER_RANLIB-NOTFOUND
 
+//No help, variable specified on the command line.
+CMAKE_C_COMPILER_WORKS:UNINITIALIZED=1
+
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
 
@@ -95,6 +98,9 @@ CMAKE_Fortran_COMPILER_AR:FILEPATH=CMAKE_Fortran_COMPILER_AR-NOTFOUND
 
 //Generate index for LLVM archive
 CMAKE_Fortran_COMPILER_RANLIB:FILEPATH=CMAKE_Fortran_COMPILER_RANLIB-NOTFOUND
+
+//No help, variable specified on the command line.
+CMAKE_Fortran_COMPILER_WORKS:UNINITIALIZED=1
 
 //Flags used by the Fortran compiler during all build types.
 CMAKE_Fortran_FLAGS:STRING=
