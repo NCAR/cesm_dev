@@ -72,3 +72,7 @@
  ---------------------------------------------------
 2026-03-27 16:05:08: model execution success 5636384.desched1
  ---------------------------------------------------
+2026-03-27 16:05:10: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.330/run/med.log.5636384.desched1.260327-160250 
+ 
+ ---------------------------------------------------
