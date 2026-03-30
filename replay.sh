@@ -72,3 +72,5 @@ cd "${CASEDIR}"
 
 ./case.build --clean ocn
 
+./case.build
+
