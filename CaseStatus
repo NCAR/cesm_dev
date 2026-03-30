@@ -184,3 +184,5 @@ ERROR: BUILD FAIL: mom.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e3
  ---------------------------------------------------
 2026-03-29 22:30:03: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
  ---------------------------------------------------
+2026-03-29 22:30:50: case.submit starting 
+ ---------------------------------------------------
