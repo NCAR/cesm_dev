@@ -156,3 +156,6 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
  ---------------------------------------------------
 2026-03-29 21:54:31: case.build starting 
  ---------------------------------------------------
+2026-03-29 21:55:03: case.build error 
+ERROR: BUILD FAIL: mom.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328/bld/ocn.bldlog.260329-215434
+ ---------------------------------------------------
