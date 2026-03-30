@@ -1364,7 +1364,7 @@ RESTART_CHECKSUMS_REQUIRED = False
                                 ! run with a different mask_table than the current run, in which case the
                                 ! checksums will not match and cause crash.
 
-RESTARTFILE_APPENDIX_PREFIX = .mom6
+ENSEMBLE_APPENDIX_PREFIX = .mom6
                                 ! "default = ''
                                 ! The prefix for the restart file appendix (i.e., ensemble id for ensemble
                                 ! runs). If this prefix is found in the restart file name, the appendix is added
