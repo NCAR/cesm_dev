@@ -1,5 +1,5 @@
 
-DEGUB=True
+!DEGUB=True
 
 ! From Keith
 DT_THERM = 7200
