@@ -170,3 +170,5 @@ ERROR: BUILD FAIL: mom.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e3
  ---------------------------------------------------
 2026-03-29 22:24:37: build.clean starting 
  ---------------------------------------------------
+2026-03-29 22:24:41: build.clean success 
+ ---------------------------------------------------
