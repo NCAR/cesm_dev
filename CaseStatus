@@ -44,3 +44,5 @@
  ---------------------------------------------------
 2026-03-31 16:32:49: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
  ---------------------------------------------------
+2026-03-31 16:33:30: xmlchange success <command> ./xmlchange RUN_STARTDATE=1990-01-01  </command>
+ ---------------------------------------------------

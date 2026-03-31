@@ -58,3 +58,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_PRIORITY=special --force
 
+./xmlchange RUN_STARTDATE=1990-01-01
+
