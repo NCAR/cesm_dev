@@ -261,3 +261,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2026-03-31 20:12:32: st_archive starting 5671159.desched1
  ---------------------------------------------------
+2026-03-31 20:14:00: st_archive success 5671159.desched1
+ ---------------------------------------------------
