@@ -90,3 +90,7 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./pelayout
+
+./pelayout
+
