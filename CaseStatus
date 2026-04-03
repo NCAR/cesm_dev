@@ -366,3 +366,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
  ---------------------------------------------------
 2026-04-02 16:17:48: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
  ---------------------------------------------------
+2026-04-03 05:44:49: case.run starting 5698140.desched1
+ ---------------------------------------------------
