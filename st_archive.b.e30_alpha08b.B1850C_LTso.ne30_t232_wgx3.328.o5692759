@@ -3,3 +3,9 @@
 /glade/u/home/gmarques/.bashrc: line 8: bind: warning: line editing not enabled
 /glade/u/home/gmarques/.bashrc: line 9: bind: warning: line editing not enabled
 st_archive starting
+ERROR: Command: 'git -C /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328 push origin' failed with error 'remote: Internal Server Error        
+remote: Request ID 85ff0fd3775fccda27e182c066338877        
+remote: Time 2026-04-03T00:52:42Z
+To github.com:NCAR/cesm_dev.git
+ ! [remote rejected] b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328 -> b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328 (Internal Server Error)
+error: failed to push some refs to 'github.com:NCAR/cesm_dev.git'' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.328'
