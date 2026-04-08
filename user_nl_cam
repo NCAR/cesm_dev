@@ -46,3 +46,5 @@ phys_grid_ctem_nfreq=-6
 phys_grid_ctem_zm_nbas=120
 phys_grid_ctem_za_nlat=90
 
+seasalt_emis_scale= 1.55D0
+
