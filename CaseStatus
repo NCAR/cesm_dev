@@ -85,3 +85,5 @@
 2026-04-08 15:49:07: case.submit error 
 [Errno 17] File exists: '/glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.330/0104-01-01.tmp'
  ---------------------------------------------------
+2026-04-08 16:15:14: case.build starting 
+ ---------------------------------------------------
