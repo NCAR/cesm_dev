@@ -92,3 +92,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=9
 
+./xmlchange REST_OPTION=nyears,REST_N=4
+
