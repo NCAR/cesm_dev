@@ -60,4 +60,4 @@ seasalt_emis_scale = 1.5
 dust_emis_fact = 3.2
 
 se_statefreq = 144
-
+pertlim = 1.0d-14
