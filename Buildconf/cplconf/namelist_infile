@@ -1,0 +1,5 @@
+&comp_inparm 
+
+histaux_l2x1yrg = .true.
+
+/ 
