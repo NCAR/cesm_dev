@@ -473,3 +473,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2026-04-07 21:41:13: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
  ---------------------------------------------------
+2026-04-08 03:13:33: model execution success 5744166.desched1
+ ---------------------------------------------------
