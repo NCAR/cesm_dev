@@ -4,3 +4,5 @@
 
 ./xmlchange PROJECT=P93300065
 
+./xmlchange JOB_PRIORITY=regular
+
