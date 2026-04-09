@@ -94,3 +94,5 @@ cd "${CASEDIR}"
 
 ./xmlchange REST_OPTION=nyears,REST_N=4
 
+./xmlchange STOP_N=3,REST_N=3,RESUBMIT=10
+
