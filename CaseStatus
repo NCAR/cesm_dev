@@ -516,3 +516,5 @@ ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alph
  ---------------------------------------------------
 2026-04-09 00:42:54: model execution success 5753151.desched1
  ---------------------------------------------------
+2026-04-09 00:42:55: case.run success 5753151.desched1
+ ---------------------------------------------------
