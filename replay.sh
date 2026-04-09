@@ -56,3 +56,5 @@ cd "${CASEDIR}"
 
 ./xmlchange GET_REFCASE=true
 
+./xmlchange RUN_REFDIR=cesm2_init
+
