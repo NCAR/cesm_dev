@@ -56,3 +56,5 @@
  ---------------------------------------------------
 2026-04-09 09:40:25: xmlchange success <command> ./xmlchange MASK_MESH=/glade/work/gmarques/cesm/tx2_3/mesh/ESMF_mesh_tx2_3v3_260305_cdf5.nc  </command>
  ---------------------------------------------------
+2026-04-09 09:40:46: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.329  </command>
+ ---------------------------------------------------
