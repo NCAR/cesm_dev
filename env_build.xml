@@ -59,7 +59,7 @@
       <type>integer</type>
       <desc>number of ice cells in j direction - DO NOT EDIT (for experts only)</desc>
     </entry>
-    <entry id="ICE_NCAT" value="1">
+    <entry id="ICE_NCAT" value="5">
       <type>integer</type>
       <desc>number of ice thickness categories - DO NOT EDIT (set by CICE configure)</desc>
     </entry>
@@ -269,7 +269,7 @@
       variable to TRUE will involve the inclusion of C++ code in the model
       executable. This is currently only supported for certain machines.</desc>
     </entry>
-    <entry id="CASE_SUPPORT_LIBRARIES" value="gptl,pio,csm_share,FTorch,CDEPS">
+    <entry id="CASE_SUPPORT_LIBRARIES" value="gptl,pio,csm_share,FTorch,CDEPS,gptl,pio,csm_share,FMS">
       <type>char</type>
       <desc>Support libraries required</desc>
     </entry>
@@ -344,7 +344,7 @@
     </entry>
   </group>
   <group id="build_component_cam">
-    <entry id="CAM_CPPDEFS" value="UNSET">
+    <entry id="CAM_CPPDEFS" value="    -DPLON=1 -DPLAT=1 -DNUM_COMP_INST_ATM=1 -DNUM_COMP_INST_LND=1 -DNUM_COMP_INST_OCN=1 -DNUM_COMP_INST_ICE=1 -DNUM_COMP_INST_GLC=1 -DNUM_COMP_INST_ROF=1 -DNUM_COMP_INST_WAV=1 -DNUM_COMP_INST_IAC=1 -DNUM_COMP_INST_ESP=1 -DCAM  -D_WK_GRAD -DNP=4 -DHAVE_F2003_PTR_BND_REMAP -DFVM_TRACERS -D_MPI -DPLEV=93 -DPCNST=41 -DPCOLS=9 -DPSUBCOLS=1 -DN_RAD_CNST=80 -DRTE_USE_CBOOL -DSPMD -DMODAL_AERO -DMODAL_AERO_4MODE  -DCLUBB_SGS -DCLUBB_CAM -DNO_LAPACK_ISNAN -DCLUBB_REAL_TYPE=dp -DMODEL_ -DMODEL_CESM -DHEMCO_CESM -DUSE_REAL8">
       <type>char</type>
       <valid_values/>
       <desc>CAM cpp definitions (setup automatically - DO NOT EDIT)</desc>
@@ -354,7 +354,7 @@
       <valid_values>fv,fv3,se,mpas</valid_values>
       <desc>CAM dynamical core</desc>
     </entry>
-    <entry id="CAM_CONFIG_OPTS" value="-pcols 9 -phys cam7 -model_top mt">
+    <entry id="CAM_CONFIG_OPTS" value="-pcols 9 -phys cam7 -model_top mt  -pcols 9">
       <type>char</type>
       <valid_values/>
       <desc>
