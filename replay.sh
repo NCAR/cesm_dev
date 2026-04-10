@@ -12,3 +12,5 @@
 
 ./xmlchange CONTINUE_RUN=TRUE
 
+./xmlchange RESUBMIT=10
+
