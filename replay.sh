@@ -108,3 +108,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./pelayout
+
