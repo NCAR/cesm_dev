@@ -626,3 +626,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08o
  ---------------------------------------------------
 2026-04-13 17:08:16: case.submit success case.run:5812592.desched1, case.st_archive:5812593.desched1
  ---------------------------------------------------
+2026-04-13 17:08:19: xmlchange success <command> ./xmlchange RESUBMIT=5  </command>
+ ---------------------------------------------------
