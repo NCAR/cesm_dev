@@ -50,7 +50,7 @@ f_uvel = "mdxxx"
 
 f_vvel = "mdxxx"
 
-r_snw = 1.0
+r_snw = 0.75
 
 
 
