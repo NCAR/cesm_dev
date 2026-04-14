@@ -47,3 +47,5 @@
 2026-04-14 15:36:08: case.build error 
 ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but found 'x'
  ---------------------------------------------------
+2026-04-14 15:36:16: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
