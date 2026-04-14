@@ -44,3 +44,6 @@
  ---------------------------------------------------
 2026-04-14 15:35:43: case.build starting 
  ---------------------------------------------------
+2026-04-14 15:36:08: case.build error 
+ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but found 'x'
+ ---------------------------------------------------
