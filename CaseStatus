@@ -80,3 +80,6 @@ ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but 
  ---------------------------------------------------
 2026-04-15 09:41:22: case.build starting 
  ---------------------------------------------------
+2026-04-15 09:41:43: case.build error 
+ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but found 'x'
+ ---------------------------------------------------
