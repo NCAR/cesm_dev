@@ -60,3 +60,5 @@ ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but 
 2026-04-14 15:37:04: case.submit error 
 ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but found 'x'
  ---------------------------------------------------
+2026-04-15 09:40:05: case.build starting 
+ ---------------------------------------------------
