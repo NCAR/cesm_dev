@@ -87,3 +87,5 @@ ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but 
  ---------------------------------------------------
 2026-04-15 09:45:04: case.build success 
  ---------------------------------------------------
+2026-04-15 09:45:24: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
