@@ -30,3 +30,5 @@
  ---------------------------------------------------
 2026-04-15 09:57:54: xmlchange success <command> ./xmlchange MASK_MESH=/glade/work/gmarques/cesm/tx2_3/mesh/ESMF_mesh_tx2_3v3_260305_cdf5.nc  </command>
  ---------------------------------------------------
+2026-04-15 09:58:26: case.build starting 
+ ---------------------------------------------------
