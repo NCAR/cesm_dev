@@ -93,3 +93,5 @@ ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but 
  ---------------------------------------------------
 2026-04-15 09:45:27: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
  ---------------------------------------------------
+2026-04-15 09:45:29: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
+ ---------------------------------------------------
