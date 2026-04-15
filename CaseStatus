@@ -107,3 +107,5 @@ ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but 
  ---------------------------------------------------
 2026-04-15 10:21:42: model execution starting 5830618.desched1
  ---------------------------------------------------
+2026-04-15 17:59:49: model execution success 5830618.desched1
+ ---------------------------------------------------
