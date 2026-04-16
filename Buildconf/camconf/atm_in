@@ -122,8 +122,8 @@
          'SOAE -> 5.1004D0*/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-0_smoothed_20251102/MTERP_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112_c20251102.nc'
  srf_emis_type		= 'CYCLICAL'
  tracer_cnst_cycle_yr		=    1850    
- tracer_cnst_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/tracer_cnst'
- tracer_cnst_file		= 'tracer_cnst_MTt4s_halons_3Dmonthly_1850climo251_c20251209.nc'
+ tracer_cnst_datapath		= '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/TracerCnstCyclical1850/'
+ tracer_cnst_file		= 'tracer_cnst_MTt4s_halons_3Dmonthly_1850climo330_c20260415.nc'
  tracer_cnst_filelist		= ''
  tracer_cnst_specifier		= 'O3','OH','NO3','HO2','HALONS'
  tracer_cnst_type		= 'CYCLICAL'
@@ -411,7 +411,7 @@
  microp_aero_wsubi_scale		=   1.5D0    
 /
 &ndep_stream_nl
- stream_ndep_data_filename		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_strat_mam5_ts4_aero_spinup/ndep/fndep_clm_B1850C_MT4s.1850monthly.ne30_c251220.nc'
+ stream_ndep_data_filename		= '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/NDepositionCyclical1850/fndep_clm_MTt4s_3Dmonthly_1850climo330_c20260415.nc'
  stream_ndep_mesh_filename		= '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/fv0.9x1.25_141008_polemod_ESMFmesh.nc'
  stream_ndep_year_align		= 1
  stream_ndep_year_first		= 1850
@@ -479,15 +479,15 @@
 /
 &prescribed_ozone_nl
  prescribed_ozone_cycle_yr		=    1850    
- prescribed_ozone_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/ozone_strataero'
- prescribed_ozone_file		= 'ozone_strataero_b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001_1850climo_zm_5day_c251204.nc'
+ prescribed_ozone_datapath		= '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/ozone_strataero_day_5_zm/'
+ prescribed_ozone_file		= 'ozone_strataero_b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch_1850climo_zm_5day_c260415.nc'
  prescribed_ozone_name		= 'O3'
  prescribed_ozone_type		= 'CYCLICAL'
 /
 &prescribed_strataero_nl
  prescribed_strataero_cycle_yr		=       1850   
- prescribed_strataero_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/ozone_strataero'
- prescribed_strataero_file		= 'ozone_strataero_b.e30_alpha07c_cesm.B1850C_MTt4s.ne30_t232_wgx3.251.001_1850climo_zm_5day_c251204.nc'
+ prescribed_strataero_datapath		= '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/ozone_strataero_day_5_zm/'
+ prescribed_strataero_file		= 'ozone_strataero_b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch_1850climo_zm_5day_c260415.nc'
  prescribed_strataero_type		= 'CYCLICAL'
  prescribed_strataero_use_chemtrop		=   .true.   
 /

@@ -51,3 +51,5 @@ ERROR: Command /glade/work/gmarques/cesm.sandboxes/cesm3_0_beta08_dev_ncar/compo
 out=
 err=ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instead got:  'tracer_cnst_MTt4s_halons_3Dmonthly_1850climo330_c20260415.nc
  ---------------------------------------------------
+2026-04-16 13:01:12: case.build starting 
+ ---------------------------------------------------
