@@ -5,7 +5,7 @@
 "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.rho2%4yr-%2mo",                        1,  "months", 1, "days",   "time", 1, "months"
 "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo",                      1,  "months", 1, "days",   "time", 1, "months"
 "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.z%4yr-%2mo",                           1,  "months", 1, "days",   "time", 1, "months"
-"b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.sfc%4yr-%2mo",                         1,  "days",   1, "days",   "time", 1, "months"
+"b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.sfc%4yr-%2mo",                         5,  "days",   1, "days",   "time", 1, "months"
 "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.static",                               -1, "days",   1, "days",   "time"
 "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.Agulhas_Section%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
 "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.Barents_Opening%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
@@ -68,74 +68,6 @@
 "ocean_model", "umo",          "umo",          "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "uhGM",         "uhGM",         "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "uhml",         "uhml",         "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "uo",           "uo",           "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "vo",           "vo",           "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "h",            "h",            "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "e",            "e",            "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "thetao",       "thetao",       "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "so",           "so",           "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "KE",           "KE",           "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "MEKE",         "MEKE",         "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "rhopot0",      "rhopot0",      "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "rhopot2",      "rhopot2",      "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "difvho",       "difvho",       "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "difvso",       "difvso",       "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "Kv_u",         "Kv_u",         "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "Kv_v",         "Kv_v",         "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "taux_bot",     "taux_bot",     "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "tauy_bot",     "tauy_bot",     "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "KPP_OBLdepth", "oml",          "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "KPP_OBLdepth", "oml_min",      "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
-"ocean_model", "KPP_OBLdepth", "oml_max",      "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
-"ocean_model", "tauuo",        "tauuo",        "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "tauvo",        "tauvo",        "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "friver",       "friver",       "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "prsn",         "prsn",         "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "prlq",         "prlq",         "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "evs",          "evs",          "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "hfsso",        "hfsso",        "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "rlntds",       "rlntds",       "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "hfsnthermds",  "hfsnthermds",  "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "sfdsi",        "sfdsi",        "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "rsntds",       "rsntds",       "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "hfds",         "hfds",         "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "ustar",        "ustar",        "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "hfsifrazil",   "hfsifrazil",   "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "wfo",          "wfo",          "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "vprec",        "vprec",        "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "ficeberg",     "ficeberg",     "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "fsitherm",     "fsitherm",     "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "hflso",        "hflso",        "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "pso",          "pso",          "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "seaice_melt_heat","seaice_melt_heat","b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "Heat_PmE",     "Heat_PmE",     "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "salt_flux_added","salt_flux_added","b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "heat_content_lrunoff","heat_content_lrunoff","b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "heat_content_frunoff","heat_content_frunoff","b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "heat_content_lprec","heat_content_lprec","b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "heat_content_fprec","heat_content_fprec","b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "heat_content_vprec","heat_content_vprec","b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "heat_content_cond","heat_content_cond","b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "heat_content_evap","heat_content_evap","b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "tos",          "tos",          "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "tos",          "tos_min",      "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
-"ocean_model", "tos",          "tos_max",      "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
-"ocean_model", "sos",          "sos",          "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "sos",          "sos_min",      "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
-"ocean_model", "sos",          "sos_max",      "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
-"ocean_model", "SSU",          "SSU",          "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "SSV",          "SSV",          "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "opottempmint", "opottempmint", "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "somint",       "somint",       "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "Rd_dx",        "Rd_dx",        "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "speed",        "speed",        "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "mlotst",       "mlotst",       "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "mlotst",       "mlotst_min",   "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
-"ocean_model", "mlotst",       "mlotst_max",   "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
-"ocean_model", "sst_global",   "sst_global",   "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "sss_global",   "sss_global",   "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "SSH",          "SSH",          "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
-"ocean_model", "mass_wt",      "mass_wt",      "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "frunoff_glc",  "frunoff_glc",  "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "lrunoff_glc",  "lrunoff_glc",  "b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test1.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 
