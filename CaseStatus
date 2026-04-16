@@ -77,3 +77,5 @@ err=ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist in
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test2/run/med.log.5846138.desched1.260416-130507 
  
  ---------------------------------------------------
+2026-04-16 13:18:32: case.submit starting case.run:5846277.desched1, case.st_archive:5846278.desched1
+ ---------------------------------------------------
