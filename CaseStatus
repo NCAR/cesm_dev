@@ -40,3 +40,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08
  ---------------------------------------------------
 2026-04-15 17:52:06: st_archive success 5829860.desched1
  ---------------------------------------------------
+2026-04-16 11:20:42: xmlchange success <command> ./xmlchange CONTINUE_RUN=TRUE  </command>
+ ---------------------------------------------------
