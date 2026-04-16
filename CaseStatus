@@ -69,3 +69,5 @@ err=ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist in
  ---------------------------------------------------
 2026-04-16 13:05:07: case.run starting 5846138.desched1
  ---------------------------------------------------
+2026-04-16 13:05:36: model execution starting 5846138.desched1
+ ---------------------------------------------------
