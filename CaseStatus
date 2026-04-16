@@ -129,3 +129,5 @@ ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but 
  ---------------------------------------------------
 2026-04-16 02:14:37: case.run success 5835034.desched1
  ---------------------------------------------------
+2026-04-16 02:14:39:   Timing files created for run 5835034.desched1.260415-180505
+ ---------------------------------------------------
