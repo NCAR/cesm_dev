@@ -338,7 +338,7 @@
     </entry>
   </group>
   <group id="case_git">
-    <entry id="CASE_GIT_REPOSITORY">
+    <entry id="CASE_GIT_REPOSITORY" value="git@github.com:NCAR/cesm_dev.git">
       <type>char</type>
       <desc>Remote git repository used for this case</desc>
     </entry>
