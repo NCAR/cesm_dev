@@ -74,10 +74,34 @@ fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODDUSTdn','AODVIS', 
 
 'AODBCdn','AODSOAdn','AODSSdn','AODPOMdn','AODSO4dn', 'AODDUSTdn','AODVISdn', 'AODVISstdn','BURDENSO4dn', 'SFDMS','BURDENBCdn', 'BURDENDUSTdn', 
 
-
-
 'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn', 'AODBCdn','AODSOAdn','AODSSdn','AODPOMdn','AODSO4dn', 'AODDUSTdn','AODVISdn', 'AODVISstdn','BURDENSO4dn', 'SFDMS','BURDENBCdn', 'BURDENDUSTdn', 'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn', 
 
 'CCN3', 'CFC11', 'CFC12', 'CH4',' CO2', 'EXTINCTdn', 'N2O'
+
+
+
+fincl3 = 'PRECT', 'PRECC', 'FLUT', 'U850', 'U200', 'V850', 'V200', 'OMEGA500', 'TS', 'SST', 'PSL', 'Z500'
+
+
+
+fincl4 =  'PRECC','PRECL'
+
+
+
+fincl5 = 'Uzm','Vzm','Wzm','THzm', 'VTHzm','WTHzm','UVzm','UWzm'
+
+phys_grid_ctem_nfreq=-6
+
+phys_grid_ctem_zm_nbas=120
+
+phys_grid_ctem_za_nlat=90
+
+
+
+seasalt_emis_scale= 1.55D0
+
+
+
+
 
 / 

@@ -11,7 +11,7 @@
  aer_drydep_list		= 'bc_a1', 'bc_a4', 'dst_a1', 'dst_a2', 'dst_a3', 'ncl_a1', 'ncl_a2', 'ncl_a3', 'num_a1', 'num_a2', 'num_a3',
          'num_a4', 'pom_a1', 'pom_a4', 'so4_a1', 'so4_a2', 'so4_a3', 'soa_a1', 'soa_a2'
  modal_accum_coarse_exch		= .true.
- seasalt_emis_scale		= 1.50D0
+ seasalt_emis_scale		= 1.55D0
 /
 &aerosol_optics_nl
  water_refindex_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/physprops/water_refindex_rrtmg_c080910.nc'
@@ -48,6 +48,9 @@
          'AODSSdn', 'AODPOMdn', 'AODSO4dn', 'AODDUSTdn', 'AODVISdn', 'AODVISstdn', 'BURDENSO4dn', 'SFDMS', 'BURDENBCdn',
          'BURDENDUSTdn', 'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn', 'CCN3', 'CFC11', 'CFC12', 'CH4',
          ' CO2', 'EXTINCTdn', 'N2O'
+ fincl3		= 'PRECT','PRECC','FLUT','U850','U200','V850','V200','OMEGA500','TS','SST','PSL','Z500'
+ fincl4		= 'PRECC','PRECL'
+ fincl5		= 'Uzm','Vzm','Wzm','THzm','VTHzm','WTHzm','UVzm','UWzm'
  interpolate_nlat		= 192,192,192,192,192,192,192
  interpolate_nlon		= 288,288,288,288,288,288,288
  interpolate_output		= .true.,.true.,.true.,.true.,.false.,.true.,.true.
@@ -468,6 +471,11 @@
  use_simple_phys		= .false.
  use_subcol_microp		= .false.
  waccmx_opt		= 'off'
+/
+&phys_grid_ctem_opts
+ phys_grid_ctem_nfreq		= -6
+ phys_grid_ctem_za_nlat		= 90
+ phys_grid_ctem_zm_nbas		= 120
 /
 &prescribed_ozone_nl
  prescribed_ozone_cycle_yr		=    1850    
