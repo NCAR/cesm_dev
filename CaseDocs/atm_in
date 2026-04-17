@@ -411,7 +411,7 @@
  microp_aero_wsubi_scale		=   1.5D0    
 /
 &ndep_stream_nl
- stream_ndep_data_filename		= '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/NDepositionCyclical1850/fndep_clm_MTt4s_3Dmonthly_1850climo330_c20260415.nc'
+ stream_ndep_data_filename		= '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/NDepositionCyclical1850/fndep_clm_MTt4s_3Dmonthly_1850climo330_c20260416.nc'
  stream_ndep_mesh_filename		= '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/fv0.9x1.25_141008_polemod_ESMFmesh.nc'
  stream_ndep_year_align		= 1
  stream_ndep_year_first		= 1850
