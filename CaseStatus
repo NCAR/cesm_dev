@@ -175,3 +175,5 @@ ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but 
  ---------------------------------------------------
 2026-04-16 21:38:39: case.submit success case.run:5850088.desched1, case.st_archive:5850089.desched1
  ---------------------------------------------------
+2026-04-16 21:47:57: case.run starting 5850088.desched1
+ ---------------------------------------------------
