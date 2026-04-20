@@ -303,3 +303,5 @@ ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but 
  ---------------------------------------------------
 2026-04-19 21:25:19: case.run starting 5891548.desched1
  ---------------------------------------------------
+2026-04-19 21:25:30: model execution starting 5891548.desched1
+ ---------------------------------------------------
