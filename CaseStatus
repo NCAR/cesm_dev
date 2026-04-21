@@ -365,3 +365,5 @@ ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but 
  ---------------------------------------------------
 2026-04-21 13:30:59:   Timing files created for run 5907408.desched1.260421-032628
  ---------------------------------------------------
+2026-04-21 13:31:24: st_archive starting 5907409.desched1
+ ---------------------------------------------------
