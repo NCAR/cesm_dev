@@ -1,2 +1,4 @@
 ./case.setup
 
+./case.build
+
