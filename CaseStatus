@@ -877,3 +877,6 @@ ERROR: File /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_w
  ---------------------------------------------------
 2026-04-23 10:25:56: case.submit starting 
  ---------------------------------------------------
+2026-04-23 10:25:58: case.submit error 
+ERROR: File /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.327/run/b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.327.cpl.r.0169-01-01-00000.nc not present or does not match case b.e30_alpha08b.B1850C_LTso.ne30_t232_wgx3.327
+ ---------------------------------------------------
