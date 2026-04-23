@@ -24,3 +24,5 @@
 
 ./xmlchange RUN_TYPE=hybrid
 
+./xmlchange CONTINUE_RUN=FALSE
+
