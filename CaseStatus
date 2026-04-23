@@ -276,3 +276,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08
  ---------------------------------------------------
 2026-04-23 13:30:35: xmlchange success <command> ./xmlchange CONTINUE_RUN=FALSE  </command>
  ---------------------------------------------------
+2026-04-23 13:30:42: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+ ---------------------------------------------------

@@ -26,3 +26,5 @@
 
 ./xmlchange CONTINUE_RUN=FALSE
 
+./xmlchange RESUBMIT=0
+
