@@ -22,3 +22,5 @@
 
 ./xmlchange PROJECT=CESM0027
 
+./xmlchange RUN_TYPE=hybrid
+
