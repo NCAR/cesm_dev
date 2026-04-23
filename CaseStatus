@@ -882,3 +882,5 @@ ERROR: File /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_w
  ---------------------------------------------------
 2026-04-23 10:27:30: xmlchange success <command> ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0172-01-01-00000  </command>
  ---------------------------------------------------
+2026-04-23 10:28:16: case.submit starting case.run:5941873.desched1, case.st_archive:5941874.desched1
+ ---------------------------------------------------
