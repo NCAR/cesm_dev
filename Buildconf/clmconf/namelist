@@ -1,6 +1,6 @@
 &comp_inparm 
 
-nrevsn = 'b.e30_alpha08b.BHISTC_LTso.ne30_t232_wgx3.316.clm2.r.1970-01-01-00000.nc'
+finidat = 'b.e30_alpha08b.BHISTC_LTso.ne30_t232_wgx3.316.clm2.r.1970-01-01-00000.nc'
 
 
 paramfile = '/glade/u/home/slevis/paramfiles/iss3725_forFang/ctsm60_params.c260204.cesm3-01.nc'
