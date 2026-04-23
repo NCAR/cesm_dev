@@ -423,3 +423,5 @@ ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but 
  ---------------------------------------------------
 2026-04-22 22:38:15: st_archive starting 5927037.desched1
  ---------------------------------------------------
+2026-04-22 22:54:40: st_archive success 5927037.desched1
+ ---------------------------------------------------
