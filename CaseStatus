@@ -417,3 +417,5 @@ ERROR: Error in parsing namelist: expected one of the characters in ' \n,/' but 
  ---------------------------------------------------
 2026-04-22 22:37:44: model execution success 5927036.desched1
  ---------------------------------------------------
+2026-04-22 22:37:46: case.run success 5927036.desched1
+ ---------------------------------------------------
