@@ -270,3 +270,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08
 ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08b.BHISTC_LTso.ne30_t232_wgx3.316b/run/med.log.5860224.desched1.260418-093513 
  
  ---------------------------------------------------
+2026-04-23 13:30:15: xmlchange success <command> ./xmlchange PROJECT=CESM0027  </command>
+ ---------------------------------------------------
