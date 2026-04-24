@@ -92,3 +92,5 @@ cd "${CASEDIR}"
 
 ./xmlchange PROJECT=CESM0023,RESUBMIT=40,STOP_N=2,STOP_OPTION=nyears
 
+./xmlchange PROJECT=CESM0023
+

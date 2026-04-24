@@ -91,3 +91,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08o
  ---------------------------------------------------
 2026-04-24 15:41:19: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=40,STOP_N=2,STOP_OPTION=nyears  </command>
  ---------------------------------------------------
+2026-04-24 15:41:20: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
+ ---------------------------------------------------
