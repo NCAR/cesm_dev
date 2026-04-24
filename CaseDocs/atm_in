@@ -50,7 +50,6 @@
          'CO2', 'EXTINCTdn', 'N2O'
  fincl3		= 'PRECT','PRECC','FLUT','U850','U200','V850','V200','OMEGA500','TS','SST','PSL','Z500'
  fincl4		= 'PRECC','PRECL'
- fincl5		= 'Uzm','Vzm','Wzm','THzm','VTHzm','WTHzm','UVzm','UWzm'
  interpolate_nlat		= 192,192,192,192,192,192,192
  interpolate_nlon		= 288,288,288,288,288,288,288
  interpolate_output		= .true.,.true.,.true.,.true.,.false.,.true.,.true.
@@ -282,9 +281,6 @@
 &conv_water_nl
  conv_water_frac_limit		=  0.01d0  
  conv_water_in_rad		=  1 
-/
-&ctem_diags_nl
- ctem_diags_numlats		= 180
 /
 &dust_nl
  dust_emis_fact		= 3.2D0
