@@ -79,3 +79,7 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08o.B1850
  ---------------------------------------------------
 2026-04-24 15:29:33: model execution success 5960090.desched1
  ---------------------------------------------------
+2026-04-24 15:29:34: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/run/med.log.5960090.desched1.260424-152439 
+ 
+ ---------------------------------------------------
