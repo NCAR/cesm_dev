@@ -28,3 +28,5 @@
  ---------------------------------------------------
 2026-04-24 13:41:23: xmlchange success <command> ./xmlchange CONTINUE_RUN=TRUE  </command>
  ---------------------------------------------------
+2026-04-24 13:41:32: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
+ ---------------------------------------------------
