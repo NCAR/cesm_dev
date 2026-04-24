@@ -93,3 +93,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08o
  ---------------------------------------------------
 2026-04-24 15:41:20: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
  ---------------------------------------------------
+2026-04-24 15:41:22: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
+ ---------------------------------------------------
