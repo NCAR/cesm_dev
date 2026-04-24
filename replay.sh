@@ -16,3 +16,5 @@
 
 ./case.submit
 
+./xmlchange PROJECT=CESM0027
+
