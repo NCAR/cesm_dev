@@ -181,3 +181,4 @@ Archiving history files for drv (cpl)
 moving /glade/derecho/scratch/hannay/b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test2/run/b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test2.cpl.hx.ww3.0001-01-02-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test2/cpl/hist/b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test2.cpl.hx.ww3.0001-01-02-00000.nc 
 moving /glade/derecho/scratch/hannay/b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test2/run/b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test2.cpl.hx.ww3.0001-02-01-00000.nc to /glade/derecho/scratch/hannay/archive/b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test2/cpl/hist/b.e30_beta08_dev_ncar.B1850C_MTso.ne30_t232_wgx3.338_test2.cpl.hx.ww3.0001-02-01-00000.nc 
 Archiving history files for dart (esp)
+st_archive completed
