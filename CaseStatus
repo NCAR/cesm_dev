@@ -133,3 +133,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08o
 2026-04-24 17:05:42: case.build error 
 [Errno 17] File exists: '/glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334/0101-01-01/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334.clm2.h0a.0100-12.nc' -> '/glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/run/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334.clm2.h0a.0100-12.nc'
  ---------------------------------------------------
+2026-04-24 17:07:01: case.build starting 
+ ---------------------------------------------------
