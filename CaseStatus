@@ -113,3 +113,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_beta08_d
  ---------------------------------------------------
 2026-04-24 14:11:57: xmlchange success <command> ./xmlchange RUN_REFDATE=0100-01-01  </command>
  ---------------------------------------------------
+2026-04-24 14:11:59: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
