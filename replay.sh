@@ -38,3 +38,9 @@ cd "${CASEDIR}"
 
 ./xmlchange MASK_MESH=/glade/work/gmarques/cesm/tx2_3/mesh/ESMF_mesh_tx2_3v3_260305_cdf5.nc
 
+./preview_namelists
+
+./preview_namelists
+
+./xmlchange RUN_REFCASE=b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334
+
