@@ -972,3 +972,5 @@ ERROR: File /glade/derecho/scratch/hannay/b.e30_alpha08b.B1850C_LTso.ne30_t232_w
  ---------------------------------------------------
 2026-04-25 04:39:47: st_archive success 5963488.desched1
  ---------------------------------------------------
+2026-04-25 04:39:50: case.submit starting case.run:5968821.desched1, case.st_archive:5968822.desched1
+ ---------------------------------------------------
