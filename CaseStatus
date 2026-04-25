@@ -182,3 +182,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08
  ---------------------------------------------------
 2026-04-24 13:38:35: xmlchange success <command> ./xmlchange PROJECT=CESM0027  </command>
  ---------------------------------------------------
+2026-04-24 22:59:52: case.run starting 5952744.desched1
+ ---------------------------------------------------
