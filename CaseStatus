@@ -666,3 +666,5 @@
  ---------------------------------------------------
 2026-04-29 13:23:04: xmlchange success <command> ./xmlchange CUPID_EXAMPLE=key_metrics  </command>
  ---------------------------------------------------
+2026-04-29 13:23:05: xmlchange success <command> ./xmlchange CUPID_RUN_ALL=TRUE  </command>
+ ---------------------------------------------------
