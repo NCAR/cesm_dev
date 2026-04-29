@@ -668,3 +668,5 @@
  ---------------------------------------------------
 2026-04-29 13:23:05: xmlchange success <command> ./xmlchange CUPID_RUN_ALL=TRUE  </command>
  ---------------------------------------------------
+2026-04-29 13:23:07: xmlchange success <command> ./xmlchange CUPID_RUN_CVDP=TRUE  </command>
+ ---------------------------------------------------
