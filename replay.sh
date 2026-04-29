@@ -168,3 +168,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_RUN_LDF=TRUE
 
+./xmlchange --subgroup case.cupid JOB_WALLCLOCK_TIME=4:00:00
+
