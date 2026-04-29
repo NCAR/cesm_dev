@@ -1,22 +1,48 @@
+&comp_inparm 
+
+ dtime = 1800
 mfilt               =       0,       5,     20,      40,      12,         20,      1,   1
+
 nhtfrq              =       0,     -24,    -24,      -3,     -24,        -6,      0,  -8760
+
 ndens               =       2,       2,      2,       2,       2,         1,      2,   1
+
 interpolate_output  =  .true.,  .true., .true.,  .true., .false.,      .true.,     .true.
+
 interpolate_nlat    =     192,     192,    192,     192,      192,       192,      192
+
 interpolate_nlon    =     288,     288,    288,     288,      288,       288,      288
+
+
 
 empty_htapes = .true.
 
+
+
 fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODDUSTdn','AODVIS', 'AODVISdn','BURDENBC',
+
 'BURDENDUST', 'BURDENPOM', 'BURDENSEASALT',
+
 'BURDENSO4', 'BURDENSOA', 'CAPE', 'CCN3', 'CDNUMC', 'CH4', 'CLDHGH', 'CLDICE', 'CLDLIQ', 'CLDLOW',
+
 'CLDMED', 'CLDTOT', 'CLOUD', 'CMFMC_DP',
+
 'CT_H2O', 'DCQ', 'DQCORE', 'DTCOND', 'DTCORE', 'DTV', 'EVAPPREC', 'EVAPSNOW', 'FCTI', 'FCTL', 'FICE', 'FLDS', 'FLNS', 'FLNSC', 'FLNT', 'FLNTC', 'FLUT',
+
 'FREQZM', 'FSDS', 'FSDSC', 'FSNS', 'FSNSC', 'FSNT', 'FSNTC', 'FSNTOA', 'ICEFRAC', 'LANDFRAC', 'LHFLX', 'LWCF', 'MPDICE', 'MPDLIQ', 'MPDQ', 'MPDT',
+
 'OCNFRAC', 'OMEGA', 'OMEGA500', 'PBLH', 'PHIS', 'PINT', 'PMID', 'PRECC', 'PRECL', 'PRECSC', 'PRECSL', 'PRECT', 'PS', 'PSL', 'PTEQ', 'PTTEND', 'Q',
+
 'QFLX', 'QRL', 'QRS', 'QTGW', 'RCMTEND_CLUBB', 'RELHUM', 'RVMTEND_CLUBB', 'SHFLX', 'SOLIN', 'SST',
+
 'STEND_CLUBB', 'SWCF',
+
 'T', 'TAUX', 'TAUY', 'TFIX', 'TGCLDIWP', 'TGCLDLWP', 'TMQ', 'TREFHT', 'TS', 'TTGW', 'U', 'U10',
+
 'UBOT', 'UTGWORO', 'UTGW_TOTAL',
+
 'V', 'VBOT', 'VTGWORO', 'VTGW_TOTAL', 'WPRTP_CLUBB', 'WPTHLP_CLUBB', 'Z3', 'ZMDQ', 'ZMDT', 'N2O',
+
  'CO2','CFC11','CFC12',
+
+/ 
