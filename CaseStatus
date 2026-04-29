@@ -676,3 +676,5 @@
  ---------------------------------------------------
 2026-04-29 13:23:23: xmlchange success <command> ./xmlchange --subgroup case.cupid JOB_WALLCLOCK_TIME=4:00:00  </command>
  ---------------------------------------------------
+2026-04-29 13:24:00: case.submit starting case.cupid:6014342.desched1
+ ---------------------------------------------------
