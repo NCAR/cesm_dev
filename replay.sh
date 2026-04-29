@@ -12,3 +12,5 @@
 
 ./case.submit
 
+./xmlchange JOB_PRIORITY=premium
+
