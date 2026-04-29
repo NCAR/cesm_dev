@@ -662,3 +662,5 @@
  ---------------------------------------------------
 2026-04-29 13:23:00: xmlchange success <command> ./xmlchange CUPID_BASELINE_CASE=b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.329  </command>
  ---------------------------------------------------
+2026-04-29 13:23:02: xmlchange success <command> ./xmlchange CUPID_BASELINE_ROOT=/glade/derecho/scratch/hannay/archive  </command>
+ ---------------------------------------------------
