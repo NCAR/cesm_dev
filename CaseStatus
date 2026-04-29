@@ -664,3 +664,5 @@
  ---------------------------------------------------
 2026-04-29 13:23:02: xmlchange success <command> ./xmlchange CUPID_BASELINE_ROOT=/glade/derecho/scratch/hannay/archive  </command>
  ---------------------------------------------------
+2026-04-29 13:23:04: xmlchange success <command> ./xmlchange CUPID_EXAMPLE=key_metrics  </command>
+ ---------------------------------------------------
