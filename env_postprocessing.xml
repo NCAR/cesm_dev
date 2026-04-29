@@ -70,7 +70,7 @@
       <type>integer</type>
       <desc>Number of years to use for climatology, eg for LDF</desc>
     </entry>
-    <entry id="CUPID_BASE_CLIMO_END_YEAR" value="100">
+    <entry id="CUPID_BASE_CLIMO_END_YEAR" value="81">
       <type>integer</type>
       <desc>Year to end base case climatology, eg for LDF</desc>
     </entry>

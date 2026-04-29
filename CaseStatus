@@ -656,3 +656,5 @@
  ---------------------------------------------------
 2026-04-29 13:22:54: xmlchange success <command> ./xmlchange CUPID_CLIMO_N_YEAR=20  </command>
  ---------------------------------------------------
+2026-04-29 13:22:56: xmlchange success <command> ./xmlchange CUPID_BASE_CLIMO_END_YEAR=81  </command>
+ ---------------------------------------------------
