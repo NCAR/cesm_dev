@@ -672,3 +672,5 @@
  ---------------------------------------------------
 2026-04-29 13:23:09: xmlchange success <command> ./xmlchange CUPID_RUN_ADF=TRUE  </command>
  ---------------------------------------------------
+2026-04-29 13:23:14: xmlchange success <command> ./xmlchange CUPID_RUN_LDF=TRUE  </command>
+ ---------------------------------------------------
