@@ -1862,3 +1862,4 @@ moving /glade/derecho/scratch/hannay/f.e30_alpha08o.FHISTC_LTso.ne30_t232_wgx3_b
 moving /glade/derecho/scratch/hannay/f.e30_alpha08o.FHISTC_LTso.ne30_t232_wgx3_baseline.001/run/f.e30_alpha08o.FHISTC_LTso.ne30_t232_wgx3_baseline.001.cpl.hx.1yr2glc.2001-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/f.e30_alpha08o.FHISTC_LTso.ne30_t232_wgx3_baseline.001/cpl/hist/f.e30_alpha08o.FHISTC_LTso.ne30_t232_wgx3_baseline.001.cpl.hx.1yr2glc.2001-01-01-00000.nc 
 moving /glade/derecho/scratch/hannay/f.e30_alpha08o.FHISTC_LTso.ne30_t232_wgx3_baseline.001/run/f.e30_alpha08o.FHISTC_LTso.ne30_t232_wgx3_baseline.001.cpl.hx.1yr2glc.2002-01-01-00000.nc to /glade/derecho/scratch/hannay/archive/f.e30_alpha08o.FHISTC_LTso.ne30_t232_wgx3_baseline.001/cpl/hist/f.e30_alpha08o.FHISTC_LTso.ne30_t232_wgx3_baseline.001.cpl.hx.1yr2glc.2002-01-01-00000.nc 
 Archiving history files for dart (esp)
+st_archive completed

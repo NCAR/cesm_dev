@@ -70,3 +70,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange NTASKS=3200
+
