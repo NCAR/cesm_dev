@@ -376,3 +376,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08
  ---------------------------------------------------
 2026-04-28 18:40:36: case.submit success case.run:6006036.desched1, case.st_archive:6006037.desched1
  ---------------------------------------------------
+2026-04-29 13:12:14: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
+ ---------------------------------------------------
