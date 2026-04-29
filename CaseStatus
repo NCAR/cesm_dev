@@ -455,3 +455,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08o
  ---------------------------------------------------
 2026-04-28 21:37:30: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
  ---------------------------------------------------
+2026-04-28 21:37:48: case.submit starting case.run:6008143.desched1, case.st_archive:6008144.desched1
+ ---------------------------------------------------
