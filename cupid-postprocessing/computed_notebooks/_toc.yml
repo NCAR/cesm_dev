@@ -1,0 +1,23 @@
+format: jb-book
+root: infrastructure/summary_tables
+parts:
+- caption: Atmosphere
+  chapters:
+  - file: atm/Global_PSL_NMSE_compare_obs_lens
+  - file: atm/ADF
+  - file: atm/CVDP
+- caption: Land
+  chapters:
+  - file: lnd/Global_TerrestrialCouplingIndex_VisualCompareObs
+  - file: lnd/ILAMB
+  - file: lnd/LDF
+- caption: Sea Ice
+  chapters:
+  - file: ice/Hemis_seaice_visual_compare_obs_lens
+- caption: Land Ice
+  chapters:
+  - file: glc/Greenland_SMB_visual_compare_obs
+- caption: River Runoff
+  chapters:
+  - file: rof/global_discharge_gauge_compare_obs
+  - file: rof/global_discharge_ocean_compare_obs

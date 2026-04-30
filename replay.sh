@@ -172,3 +172,85 @@ cd "${CASEDIR}"
 
 ./case.submit --only-job case.cupid
 
+/glade/work/hannay/cesm_tags/cesm3_0_alpha08o/tools/CUPiD/helper_scripts/generate_cupid_config_for_cesm_case.py --run-cvdp --case-root "${CASEDIR}" --cesm-root /glade/work/hannay/cesm_tags/cesm3_0_alpha08o --cupid-root /glade/work/hannay/cesm_tags/cesm3_0_alpha08o/tools/CUPiD --cupid-example key_metrics --cupid-baseline-case b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.329 --cupid-baseline-root /glade/derecho/scratch/hannay/archive --cupid-ts-dir /glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334/.. --cupid-startdate 0002-01-01 --cupid-enddate 0022-01-01 --cupid-base-startdate 0002-01-01 --cupid-base-enddate 0022-01-01 --cupid-climo-end-year 21 --cupid-climo-n-year 20 --cupid-base-climo-end-year 81 --cupid-base-climo-n-year 100 --adf-output-root "${CASEDIR}"/cupid-postprocessing --ldf-output-root "${CASEDIR}"/cupid-postprocessing --ilamb-output-root "${CASEDIR}"/cupid-postprocessing --cupid-run-adf TRUE --cupid-run-ldf TRUE --cupid-run-ilamb FALSE
+
+./xmlchange CUPID_STARTDATE=0002-01-01
+
+./xmlchange CUPID_STOP_N=20
+
+./xmlchange CUPID_BASE_STARTDATE=0002-01-01
+
+./xmlchange CUPID_BASE_STOP_N=20
+
+./xmlchange CUPID_CLIMO_END_YEAR=21
+
+./xmlchange CUPID_CLIMO_N_YEAR=20
+
+./xmlchange CUPID_BASE_CLIMO_END_YEAR=81
+
+./xmlchange CUPID_BASE_CLIMO_N_YEAR=100
+
+./xmlchange CUPID_BASELINE_CASE=b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.329
+
+./xmlchange CUPID_BASELINE_ROOT=/glade/derecho/scratch/hannay/archive
+
+./xmlchange CUPID_EXAMPLE=key_metrics
+
+./xmlchange CUPID_RUN_ALL=TRUE
+
+./xmlchange CUPID_RUN_CVDP=TRUE
+
+./xmlchange CUPID_RUN_ADF=TRUE
+
+./xmlchange CUPID_RUN_LDF=TRUE
+
+./xmlchange --subgroup case.cupid JOB_WALLCLOCK_TIME=4:00:00
+
+./case.submit --only-job case.cupid
+
+./xmlchange CUPID_STARTDATE=0002-01-01
+
+./xmlchange CUPID_STOP_N=20
+
+./xmlchange CUPID_BASE_STARTDATE=0002-01-01
+
+./xmlchange CUPID_BASE_STOP_N=20
+
+./xmlchange CUPID_CLIMO_END_YEAR=21
+
+./xmlchange CUPID_CLIMO_N_YEAR=20
+
+./xmlchange CUPID_BASE_CLIMO_END_YEAR=81
+
+./xmlchange CUPID_BASE_CLIMO_N_YEAR=100
+
+./xmlchange CUPID_BASELINE_CASE=b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.329
+
+./xmlchange CUPID_BASELINE_ROOT=/glade/derecho/scratch/hannay/archive
+
+./xmlchange CUPID_EXAMPLE=key_metrics
+
+./xmlchange CUPID_RUN_ALL=TRUE
+
+./xmlchange CUPID_RUN_CVDP=TRUE
+
+./xmlchange CUPID_RUN_ADF=TRUE
+
+./xmlchange CUPID_RUN_LDF=TRUE
+
+./xmlchange --subgroup case.cupid JOB_WALLCLOCK_TIME=12:00:00
+
+./case.submit --only-job case.cupid
+
+./case.submit --only-job case.cupid
+
+./case.submit --only-job case.cupid
+
+./xmlchange RESUBMIT=1
+
+./xmlchange RESUBMIT=1
+
+./case.submit
+
+./case.submit
+

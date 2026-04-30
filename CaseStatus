@@ -680,3 +680,49 @@
  ---------------------------------------------------
 2026-04-29 13:24:02: case.submit success case.cupid:6014342.desched1
  ---------------------------------------------------
+2026-04-29 17:40:31: xmlchange success <command> ./xmlchange CUPID_STARTDATE=0002-01-01  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:48: xmlchange success <command> ./xmlchange CUPID_STOP_N=20  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:49: xmlchange success <command> ./xmlchange CUPID_BASE_STARTDATE=0002-01-01  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:49: xmlchange success <command> ./xmlchange CUPID_BASE_STOP_N=20  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:49: xmlchange success <command> ./xmlchange CUPID_CLIMO_END_YEAR=21  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:50: xmlchange success <command> ./xmlchange CUPID_CLIMO_N_YEAR=20  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:50: xmlchange success <command> ./xmlchange CUPID_BASE_CLIMO_END_YEAR=81  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:50: xmlchange success <command> ./xmlchange CUPID_BASE_CLIMO_N_YEAR=100  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:51: xmlchange success <command> ./xmlchange CUPID_BASELINE_CASE=b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.329  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:51: xmlchange success <command> ./xmlchange CUPID_BASELINE_ROOT=/glade/derecho/scratch/hannay/archive  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:51: xmlchange success <command> ./xmlchange CUPID_EXAMPLE=key_metrics  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:52: xmlchange success <command> ./xmlchange CUPID_RUN_ALL=TRUE  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:52: xmlchange success <command> ./xmlchange CUPID_RUN_CVDP=TRUE  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:53: xmlchange success <command> ./xmlchange CUPID_RUN_ADF=TRUE  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:53: xmlchange success <command> ./xmlchange CUPID_RUN_LDF=TRUE  </command>
+ ---------------------------------------------------
+2026-04-29 17:40:53: xmlchange success <command> ./xmlchange --subgroup case.cupid JOB_WALLCLOCK_TIME=12:00:00  </command>
+ ---------------------------------------------------
+2026-04-29 17:41:06: case.submit starting 
+ ---------------------------------------------------
+2026-04-29 17:41:45: case.submit starting 
+ ---------------------------------------------------
+2026-04-29 17:43:31: case.submit starting 
+ ---------------------------------------------------
+2026-04-30 14:36:45: xmlchange success <command> ./xmlchange RESUBMIT=1  </command>
+ ---------------------------------------------------
+2026-04-30 14:36:53: xmlchange success <command> ./xmlchange RESUBMIT=1  </command>
+ ---------------------------------------------------
+2026-04-30 14:37:39: case.submit starting case.run:6026209.desched1, case.st_archive:6026210.desched1
+ ---------------------------------------------------
+2026-04-30 14:40:22: case.submit starting case.run:6026226.desched1, case.st_archive:6026227.desched1
+ ---------------------------------------------------
