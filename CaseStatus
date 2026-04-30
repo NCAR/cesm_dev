@@ -108,3 +108,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08
  ---------------------------------------------------
 2026-04-29 13:07:33: xmlchange success <command> ./xmlchange JOB_PRIORITY=premium  </command>
  ---------------------------------------------------
+2026-04-29 22:11:16: model execution success 5999686.desched1
+ ---------------------------------------------------
