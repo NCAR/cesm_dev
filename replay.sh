@@ -84,3 +84,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=3
 
+./xmlchange RESUBMIT=5
+
