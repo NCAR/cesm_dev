@@ -420,3 +420,8 @@ ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08
  ---------------------------------------------------
 2026-05-04 10:17:18: case.submit starting 
  ---------------------------------------------------
+2026-05-04 10:17:19: case.submit error 
+ERROR: For your changes to take effect, run:
+./case.build --clean-all
+./case.build
+ ---------------------------------------------------
