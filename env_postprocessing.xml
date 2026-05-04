@@ -146,7 +146,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Boolean value that determines whether or not CVDP diagnostics are run (requires CUPID_RUN_ADF=TRUE)</desc>
     </entry>
-    <entry id="CUPID_RUN_LDF" value="FALSE">
+    <entry id="CUPID_RUN_LDF" value="TRUE">
       <type>char</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Boolean value that determines whether or not LDF diagnostics are run</desc>
