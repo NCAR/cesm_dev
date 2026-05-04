@@ -104,3 +104,5 @@ cd "${CASEDIR}"
 
 ./xmlchange --subgroup case.cupid JOB_WALLCLOCK_TIME=6:00:00
 
+./case.submit --only-job case.cupid
+
