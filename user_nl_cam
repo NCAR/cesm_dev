@@ -56,8 +56,7 @@ micro_mg_vtrmi_factor = 1.3882602
 microp_aero_wsub_scale = 0.90
 microp_aero_wsubi_scale = 1.5
 zmconv_c0_lnd = 0.0054855
-seasalt_emis_scale = 1.5
+seasalt_emis_scale = 1.6
 dust_emis_fact = 3.2
 
 se_statefreq = 144
-pertlim = 1.0d-14
