@@ -576,3 +576,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08o
  ---------------------------------------------------
 2026-05-04 15:59:20: xmlchange success <command> ./xmlchange --subgroup case.cupid JOB_WALLCLOCK_TIME=12:00:00  </command>
  ---------------------------------------------------
+2026-05-04 16:00:40: case.submit starting 
+ ---------------------------------------------------
