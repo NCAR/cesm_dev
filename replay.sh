@@ -68,3 +68,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=10
 
+./xmlchange CUPID_STARTDATE=0002-01-01
+

@@ -36,7 +36,7 @@
     </entry>
   </group>
   <group id="cupid_analysis">
-    <entry id="CUPID_STARTDATE" value="0001-01-01">
+    <entry id="CUPID_STARTDATE" value="0002-01-01">
       <type>char</type>
       <desc>First year of output to include in CUPiD analysis. Format YYYY-MM-DD.</desc>
     </entry>
