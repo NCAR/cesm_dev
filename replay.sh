@@ -44,3 +44,5 @@
 
 ./xmlchange CASE_GIT_REPOSITORY=https://github.com/NCAR/cesm_dev.git
 
+./case.submit
+
