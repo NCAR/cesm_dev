@@ -76,3 +76,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_BASE_STOP_N=40
 
+./xmlchange CUPID_CLIMO_END_YEAR=41
+
