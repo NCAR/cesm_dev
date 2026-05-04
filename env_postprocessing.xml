@@ -78,7 +78,7 @@
       <type>integer</type>
       <desc>Number of years to use for base case climatology, eg for LDF</desc>
     </entry>
-    <entry id="CUPID_BASELINE_CASE" value="b.e23_alpha17f.BLT1850.ne30_t232.092">
+    <entry id="CUPID_BASELINE_CASE" value="b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338">
       <type>char</type>
       <desc>Baseline case to use in CUPiD analysis</desc>
     </entry>
