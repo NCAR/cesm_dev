@@ -236,3 +236,7 @@ ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08
  ---------------------------------------------------
 2026-05-04 11:14:03: model execution success 6054133.desched1
  ---------------------------------------------------
+2026-05-04 11:14:03: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08b.BHISTC_LTso.ne30_t232_wgx3.316d/run/med.log.6054133.desched1.260504-085715 
+ 
+ ---------------------------------------------------
