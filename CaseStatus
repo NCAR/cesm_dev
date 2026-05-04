@@ -9,3 +9,5 @@
 2026-05-04 11:12:45: case.build error 
 ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.ocn(\.\d{4}-\d{2}-\d{2}-\d{5})?$.
  ---------------------------------------------------
+2026-05-04 12:02:52: case.build starting 
+ ---------------------------------------------------
