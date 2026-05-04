@@ -11,3 +11,5 @@ ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.o
  ---------------------------------------------------
 2026-05-04 12:02:52: case.build starting 
  ---------------------------------------------------
+2026-05-04 12:15:44: case.build success 
+ ---------------------------------------------------
