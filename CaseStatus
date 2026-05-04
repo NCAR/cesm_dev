@@ -210,3 +210,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08
  ---------------------------------------------------
 2026-05-03 23:19:30: case.submit starting case.run:6051127.desched1, case.st_archive:6051128.desched1
  ---------------------------------------------------
+2026-05-03 23:19:30: case.submit success case.run:6051127.desched1, case.st_archive:6051128.desched1
+ ---------------------------------------------------
