@@ -92,3 +92,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_RUN_ALL=TRUE
 
+./xmlchange CUPID_RUN_CVDP=TRUE
+
