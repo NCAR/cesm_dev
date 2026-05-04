@@ -564,3 +564,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08o
  ---------------------------------------------------
 2026-05-04 15:59:09: xmlchange success <command> ./xmlchange CUPID_BASELINE_ROOT=/glade/derecho/scratch/hannay/archive  </command>
  ---------------------------------------------------
+2026-05-04 15:59:11: xmlchange success <command> ./xmlchange CUPID_EXAMPLE=key_metrics  </command>
+ ---------------------------------------------------
