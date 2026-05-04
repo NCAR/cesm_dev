@@ -578,3 +578,14 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha08o
  ---------------------------------------------------
 2026-05-04 16:00:40: case.submit starting 
  ---------------------------------------------------
+2026-05-04 16:00:43: case.submit error 
+ERROR: Command: 'qsub -q develop -l walltime=12:00:00 -A CESM0023 -l job_priority=special  /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/case.cupid' failed with error 'qsub: 
+ERROR: your job has been rejected.
+
+your declared wallclock time (43200 seconds)
+exceeds your maximum limit of 21600 seconds
+the queue limit is 21600 seconds
+
+Please contact cislhelp@ucar.edu
+for assistance' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342'
+ ---------------------------------------------------
