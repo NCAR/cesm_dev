@@ -130,3 +130,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_BASELINE_CASE=b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338
 
+./xmlchange CUPID_BASELINE_ROOT=/glade/derecho/scratch/hannay/archive
+
