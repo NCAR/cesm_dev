@@ -687,3 +687,5 @@ See log file for details: /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MT
  ---------------------------------------------------
 2026-05-05 09:20:25: xmlchange success <command> ./xmlchange CUPID_RUN_LDF=TRUE  </command>
  ---------------------------------------------------
+2026-05-05 09:20:27: xmlchange success <command> ./xmlchange --subgroup case.cupid JOB_WALLCLOCK_TIME=6:00:00  </command>
+ ---------------------------------------------------
