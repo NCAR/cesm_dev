@@ -595,3 +595,13 @@ for assistance' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_
  ---------------------------------------------------
 2026-05-04 16:01:28: case.submit success case.cupid:6059093.desched1
  ---------------------------------------------------
+2026-05-04 19:26:06: model execution success 6058952.desched1
+ ---------------------------------------------------
+2026-05-04 19:26:23: case.run error 
+ERROR: RUN FAIL: Command 'mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/run/cesm.log.6058952.desched1.260504-155605
+ ---------------------------------------------------
+2026-05-04 20:32:37: case.submit starting case.run:6061772.desched1, case.st_archive:6061773.desched1
+ ---------------------------------------------------
+2026-05-04 20:44:50: case.submit starting case.run:6061798.desched1, case.st_archive:6061799.desched1
+ ---------------------------------------------------

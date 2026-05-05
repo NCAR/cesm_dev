@@ -1,0 +1,129 @@
+# This file has been auto-generated using generate_ldf_config_file.py
+# It is based off of ./config.yml
+# Arguments:
+# cupid_config_loc='.'
+# ldf_template='/glade/work/hannay/cesm_tags/cesm3_0_alpha08o/tools/CUPiD/externals/LDF/config_clm_unstructured_plots.yaml'
+# Output: out_file='ldf_config.yml'
+user: hannay
+diag_basic_info:
+  unstructured_plotting: true
+  compare_obs: false
+  create_html: true
+  obs_data_loc: /glade/campaign/cgd/tss/people/oleson/lnd_diag_data/obs_data
+  cam_regrid_loc: /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/lnd/proc/regrid
+  cam_overwrite_regrid: false
+  cam_diag_plot_loc: ./LDF_output
+  defaults_file: /glade/work/hannay/cesm_tags/cesm3_0_alpha08o/tools/CUPiD/externals/LDF/lib/ldf_variable_defaults.yaml
+  regions_file: /glade/work/hannay/cesm_tags/cesm3_0_alpha08o/tools/CUPiD/externals/LDF/lib/regions_lnd.yaml
+  central_longitude: 0
+  num_procs: 8
+  redo_plot: false
+  hist_str: clm2.h0a
+diag_cam_climo:
+  hist_str: clm2.h0a
+  calc_cam_climo: true
+  cam_climo_loc: /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/lnd/proc/climo
+  cam_overwrite_climo: false
+  cam_case_name: b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342
+  case_nickname: BLT1850_232
+  cam_hist_loc: /glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/lnd/hist
+  mesh_file: /glade/campaign/cesm/cesmdata/inputdata/share/meshes/ne30pg3_ESMFmesh_cdf5_c20211018.nc
+  start_year: 2
+  climo_start_year: 2
+  end_year: 41
+  cam_ts_done: false
+  cam_ts_save: false
+  cam_overwrite_ts: false
+  cam_ts_loc: /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/lnd/proc/tseries
+  climo_end_year: 41
+diag_cam_baseline_climo:
+  hist_str: clm2.h0a
+  calc_cam_climo: true
+  cam_overwrite_climo: false
+  cam_case_name: b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338
+  case_nickname: BLT1850_228
+  cam_hist_loc: /glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/lnd/hist
+  mesh_file: /glade/campaign/cesm/cesmdata/inputdata/share/meshes/ne30pg3_ESMFmesh_cdf5_c20211018.nc
+  cam_climo_loc: /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/lnd/proc/climo
+  start_year: 2
+  climo_start_year: 2
+  end_year: 41
+  cam_ts_done: false
+  cam_ts_save: true
+  cam_overwrite_ts: false
+  cam_ts_loc: /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/lnd/proc/tseries
+  climo_end_year: 41
+time_averaging_scripts:
+- create_climo_files
+regridding_scripts: null
+analysis_scripts:
+- lmwg_table
+plotting_scripts:
+- global_latlon_map
+- polar_map
+- global_mean_timeseries_lnd
+- regional_climatology
+- regional_timeseries
+diag_var_list:
+- TSA
+- TV
+- PREC
+- ELAI
+- FSDS
+- FLDS
+- QBOT
+- ASA
+- RNET
+- FSH
+- ET
+- FCTR
+- FGEV
+- FCEV
+- QRUNOFF_TO_COUPLER
+- SNOWDP
+- GPP
+- NPP
+- NEE
+- NBP
+- NPP_NUPTAKE
+- BTRANMN
+- TOTECOSYSC
+- TOTSOMC_1m
+- ALTMAX
+- TWS
+- SOILWATER_10CM
+- GRAINC_TO_FOOD
+- FAREA_BURNED
+region_list:
+- Global
+- N Hemisphere Land
+- S Hemisphere Land
+- Polar
+- Alaskan Arctic
+- Canadian Arctic
+- Russian Arctic
+- Greenland
+- Alaska
+- Northwest Canada
+- Central Canada
+- Eastern Canada
+- Northern Europe
+- Western Siberia
+- Eastern Siberia
+- Western US
+- Central US
+- Eastern US
+- CONUS
+- Europe
+- Mediterranean
+- Central America
+- Amazonia
+- Central Africa
+- Indonesia
+- S America
+- Brazil
+- Sahel
+- Southern Africa
+- India
+- Indochina
+- Australia

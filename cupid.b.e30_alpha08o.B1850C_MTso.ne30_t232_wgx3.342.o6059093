@@ -1,0 +1,509 @@
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) conda/latest     2) ncview/2.1.9
+
+The following have been reloaded with a version change:
+  1) cray-mpich/8.1.29 => cray-mpich/8.1.32
+  2) craype/2.7.31 => craype/2.7.34
+  3) hdf5/1.12.3 => hdf5/1.14.6
+  4) intel/2024.2.1 => intel/2025.2.1
+  5) libfabric/1.15.2.0 => libfabric/1.22.0
+  6) ncarcompilers/1.0.0 => ncarcompilers/1.2.0
+  7) ncarenv/24.12 => ncarenv/25.10
+  8) nco/5.3.1 => nco/5.3.4
+  9) netcdf/4.9.2 => netcdf/4.9.3
+
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) ncarenv/25.10   2) cesmdev/1.0
+CUPiD will not use dask in any notebooks
+CUPID_RUN_ALL is True, running diagnostics for all components
+INFO:util:
+  Generating atm time series files...
+INFO:util:	 Processing time series for case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342' :
+INFO:util:	 - time series for PSL
+INFO:util:	 Processing time series for case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338' :
+INFO:util:	 - time series for PSL
+INFO:util:  ... atm time series file generation has finished successfully.
+INFO:util:
+  No time series files requested for ocn...
+INFO:util:
+  Generating lnd time series files...
+INFO:util:	 Processing time series for case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342' :
+INFO:util:	 - time series for SOILWATER_10CM
+INFO:util:	 - time series for FSH_TO_COUPLER
+INFO:util:	 Processing time series for case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338' :
+INFO:util:	 - time series for SOILWATER_10CM
+INFO:util:	 - time series for FSH_TO_COUPLER
+INFO:util:  ... lnd time series file generation has finished successfully.
+INFO:util:
+  Generating ice time series files...
+INFO:util:	 Processing time series for case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342' :
+INFO:util:	 - time series for aice
+INFO:util:	 - time series for hi
+INFO:util:	 - time series for hs
+INFO:util:	 Processing time series for case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338' :
+INFO:util:	 - time series for aice
+INFO:util:	 - time series for hi
+INFO:util:	 - time series for hs
+INFO:util:  ... ice time series file generation has finished successfully.
+INFO:util:
+  No time series files requested for glc...
+INFO:util:
+  No time series files requested for rof...
+/bin/sh: ncl: command not found
+ADF diagnostics is starting...
+	Checking history files in '/glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/atm/hist'
+	 WARNING: Given end year '41' is not in current dataset b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338, using last found year: 36
+	Checking history files in '/glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/atm/hist'
+
+	Diagnostic Plot Location: ADF_output/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342_2_41_vs_b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338_2_36
+	INFO: Directory not found, making new diagnostic plot location
+   
+CVDP is running in background. ADF continuing.
+CVDP terminal output is located in /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/cupid-postprocessing/CVDP_output/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/cvdp.out
+CVDP graphical and netCDF file output can be found here: /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/cupid-postprocessing/CVDP_output/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/output/
+Open /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/cupid-postprocessing/CVDP_output/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/output/index.html file in web browser to view CVDP results.
+For CVDP information visit: https://www.cesm.ucar.edu/working_groups/CVC/cvdp/
+   
+
+  Calculating CAM time series...
+  ------------------------------
+	 Processing time series for case b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342, cam.h0a files:
+
+	 Writing time series files to:
+	/glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/../b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/atm/proc/tseries
+	 - time series for SST
+	 - time series for TS
+	 - time series for SWCF
+	 - time series for LWCF
+	 - time series for PRECT
+	 - time series for TAUX
+	 - time series for TAUY
+	 - time series for TGCLDLWP
+	 - time series for U
+	    INFO: Adding PS to file for 'U'
+	 - time series for PSL
+	    INFO: 'PSL' file was found and overwrite is False. Will use existing file.
+	 - time series for LANDFRAC
+	 - time series for TREFHT
+	 - time series for RELHUM
+	    INFO: Adding PS to file for 'RELHUM'
+	 - time series for T
+	    INFO: Adding PS to file for 'T'
+	 - time series for OCNFRAC
+  ...CAM time series file generation has finished successfully.
+
+  Calculating CAM time series...
+  ------------------------------
+	 Processing time series for baseline b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338, cam.h0a files:
+
+	 Writing time series files to:
+	/glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/../b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/atm/proc/tseries
+	 - time series for SST
+	 - time series for TS
+	 - time series for SWCF
+	 - time series for LWCF
+	 - time series for PRECT
+	 - time series for TAUX
+	 - time series for TAUY
+	 - time series for TGCLDLWP
+	 - time series for U
+	    INFO: Adding PS to file for 'U'
+	 - time series for PSL
+	    INFO: 'PSL' file was found and overwrite is False. Will use existing file.
+	 - time series for LANDFRAC
+	 - time series for TREFHT
+	 - time series for RELHUM
+	    INFO: Adding PS to file for 'RELHUM'
+	 - time series for T
+	    INFO: Adding PS to file for 'T'
+	 - time series for OCNFRAC
+  ...CAM time series file generation has finished successfully.
+
+  Calculating CAM climatologies...
+  --------------------------------
+
+	 Calculating climatologies for case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342' :
+	    /glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/../b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/atm/proc/climo not found, making new directory
+	 - climatology for SST
+	 - climatology for TS
+	 - climatology for SWCF
+	 - climatology for LWCF
+	 - climatology for PRECT
+	 - climatology for TAUX
+	 - climatology for TAUY
+	 - climatology for TGCLDLWP
+	 - climatology for U
+	 - climatology for PSL
+	 - climatology for LANDFRAC
+	 - climatology for TREFHT
+	 - climatology for RELHUM
+	 - climatology for T
+	 - climatology for OCNFRAC
+
+	 Calculating climatologies for case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338' :
+	    /glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/../b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/atm/proc/climo not found, making new directory
+	 - climatology for SST
+	 - climatology for TS
+	 - climatology for SWCF
+	 - climatology for LWCF
+	 - climatology for PRECT
+	 - climatology for TAUX
+	 - climatology for TAUY
+	 - climatology for TGCLDLWP
+	 - climatology for U
+	 - climatology for PSL
+	 - climatology for LANDFRAC
+	 - climatology for TREFHT
+	 - climatology for RELHUM
+	 - climatology for T
+	 - climatology for OCNFRAC
+Interpolation point out of data bounds encountered
+Interpolation point out of data bounds encountered
+Interpolation point out of data bounds encountered
+Some vectors at source domain corners may not have been transformed correctly
+Some vectors at source domain corners may not have been transformed correctly
+  ...CAM climatologies have been calculated successfully.
+
+  Regridding CAM climatologies...
+  -------------------------------
+    /glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/../b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/atm/proc/tseries/regrid not found, making new directory
+	 Regridding case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342' :
+	 - regridding LANDFRAC (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding OCNFRAC (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding SST (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding TS (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding SWCF (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding LWCF (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding PRECT (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding TAUX (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding TAUY (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding TGCLDLWP (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding U (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+Please ignore the interpolation warnings that follow!
+Please ignore the interpolation warnings that follow!
+	 - regridding PSL (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding TREFHT (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+	 - regridding RELHUM (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+Please ignore the interpolation warnings that follow!
+Please ignore the interpolation warnings that follow!
+	 - regridding T (known targets: ['b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'])
+Please ignore the interpolation warnings that follow!
+Please ignore the interpolation warnings that follow!
+  ...CAM climatologies have been regridded successfully.
+
+  Calculating AMWG variable tables...
+  -----------------------------------
+
+  Creating table for 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342'...
+	 - Variable 'LANDFRAC' being added to table
+	 - Variable 'OCNFRAC' being added to table
+	 - Variable 'SST' being added to table
+	 - Variable 'TS' being added to table
+	 - Variable 'SWCF' being added to table
+	 - Variable 'LWCF' being added to table
+	 - Variable 'PRECT' being added to table
+	 - Variable 'TAUX' being added to table
+	 - Variable 'TAUY' being added to table
+	 - Variable 'TGCLDLWP' being added to table
+	 - Variable 'U' being added to table
+	    WARNING: Variable 'U' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+	 - Variable 'PSL' being added to table
+	 - Variable 'TREFHT' being added to table
+	 - Variable 'RELHUM' being added to table
+	    WARNING: Variable 'RELHUM' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+	 - Variable 'T' being added to table
+	    WARNING: Variable 'T' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+
+  Creating table for 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338'...
+	 - Variable 'LANDFRAC' being added to table
+	 - Variable 'OCNFRAC' being added to table
+	 - Variable 'SST' being added to table
+	 - Variable 'TS' being added to table
+	 - Variable 'SWCF' being added to table
+	 - Variable 'LWCF' being added to table
+	 - Variable 'PRECT' being added to table
+	 - Variable 'TAUX' being added to table
+	 - Variable 'TAUY' being added to table
+	 - Variable 'TGCLDLWP' being added to table
+	 - Variable 'U' being added to table
+	    WARNING: Variable 'U' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+	 - Variable 'PSL' being added to table
+	 - Variable 'TREFHT' being added to table
+	 - Variable 'RELHUM' being added to table
+	    WARNING: Variable 'RELHUM' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+	 - Variable 'T' being added to table
+	    WARNING: Variable 'T' has a vertical dimension, which is currently not supported for the AMWG Table. Skipping...
+
+  Making comparison table...
+  ... Comparison table has been generated successfully
+  ...AMWG variable table(s) have been generated successfully.
+
+  Generating lat/lon maps...
+  --------------------------
+  ...lat/lon maps have been generated successfully.
+
+  Generating lat/lon vector maps...
+  ---------------------------------
+	 NOTE: redo_plot is set to False
+	 - lat/lon vector maps for TAUX,TAUY
+	 - lat/lon vector maps for U,V
+	    WARNING: Did not find any regridded reference climo files. Will try to skip.
+	    INFO: Data Location, dclimo_loc is /glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/../b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/atm/proc/tseries/regrid
+	      The glob is: b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338_V_*.nc
+  ...lat/lon vector maps have been generated successfully.
+
+  Generating Taylor Diagrams...
+  -----------------------------
+Ambiguous plotting location since all cases go on same plot. Will put them in first location: ./ADF_output/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342_2_41_vs_b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338_2_36
+	 NOTE: Plot type is set to png
+	 NOTE: redo_plot is set to False
+	 - Plotting Taylor Diagram, ANN
+	 - Plotting Taylor Diagram, DJF
+	 - Plotting Taylor Diagram, JJA
+	 - Plotting Taylor Diagram, MAM
+	 - Plotting Taylor Diagram, SON
+  ...Taylor Diagrams have been generated successfully.
+
+  Generating Diagnostics webpages...
+  ...Webpages have been generated successfully.
+
+ADF diagnostics has completed successfully.
+ADF diagnostics is starting...
+	Checking history files in '/glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/lnd/hist'
+	 WARNING: Given end year '41' is not in current dataset b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338, using last found year: 36
+	  Looks like this is a land unstructured grid, yeah
+	Checking history files in '/glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/lnd/hist'
+	  Looks like this is a land unstructured grid, yeah
+
+	Diagnostic Plot Location: LDF_output/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342_2_41_vs_b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338_2_36
+	INFO: Directory not found, making new diagnostic plot location
+All values in the list are the same as the string variable
+
+	 Not using ADF default variables yaml file, instead using /glade/work/hannay/cesm_tags/cesm3_0_alpha08o/tools/CUPiD/externals/LDF/lib/ldf_variable_defaults.yaml
+
+
+  Calculating CAM time series...
+  ------------------------------
+	 Processing time series for test case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342', clm2.h0a files:
+
+	 Writing time series files to:
+	/glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/lnd/proc/tseries
+	 - time series for TSA
+	 - time series for TV
+	 - time series for PREC
+	 - time series for ELAI
+	 - time series for FSDS
+	 - time series for FLDS
+	 - time series for QBOT
+	 - time series for ASA
+	 - time series for RNET
+	 - time series for FSH
+	 - time series for ET
+	 - time series for FCTR
+	 - time series for FGEV
+	 - time series for FCEV
+	 - time series for QRUNOFF_TO_COUPLER
+	 - time series for SNOWDP
+	 - time series for GPP
+	 - time series for NPP
+	 - time series for NEE
+	 - time series for NBP
+	 - time series for NPP_NUPTAKE
+	 - time series for BTRANMN
+	 - time series for TOTECOSYSC
+	 - time series for TOTSOMC_1m
+	 - time series for ALTMAX
+	 - time series for TWS
+	 - time series for SOILWATER_10CM
+	 - time series for GRAINC_TO_FOOD
+	 - time series for FAREA_BURNED
+	 - time series for RAIN
+	 - time series for SNOW
+	 - time series for FSR
+	 - time series for FSA
+	 - time series for FIRA
+	 - deriving time series for PREC
+	 - deriving time series for ASA
+	 - deriving time series for RNET
+	 - deriving time series for ET
+  ...CAM time series file generation has finished successfully.
+
+  Calculating CAM time series...
+  ------------------------------
+	 Processing time series for baseline case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338', clm2.h0a files:
+
+	 Writing time series files to:
+	/glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/lnd/proc/tseries
+	 - time series for TSA
+	 - time series for TV
+	 - time series for PREC
+	 - time series for ELAI
+	 - time series for FSDS
+	 - time series for FLDS
+	 - time series for QBOT
+	 - time series for ASA
+	 - time series for RNET
+	 - time series for FSH
+	 - time series for ET
+	 - time series for FCTR
+	 - time series for FGEV
+	 - time series for FCEV
+	 - time series for QRUNOFF_TO_COUPLER
+	 - time series for SNOWDP
+	 - time series for GPP
+	 - time series for NPP
+	 - time series for NEE
+	 - time series for NBP
+	 - time series for NPP_NUPTAKE
+	 - time series for BTRANMN
+	 - time series for TOTECOSYSC
+	 - time series for TOTSOMC_1m
+	 - time series for ALTMAX
+	 - time series for TWS
+	 - time series for SOILWATER_10CM
+	 - time series for GRAINC_TO_FOOD
+	 - time series for FAREA_BURNED
+	 - time series for RAIN
+	 - time series for SNOW
+	 - time series for FSR
+	 - time series for FSA
+	 - time series for FIRA
+	 - deriving time series for PREC
+	 - deriving time series for ASA
+	 - deriving time series for RNET
+	 - deriving time series for ET
+  ...CAM time series file generation has finished successfully.
+
+  Calculating CAM climatologies...
+  --------------------------------
+
+comp lnd 
+
+
+	 Calculating climatologies for case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342' :
+	    /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.342/lnd/proc/climo not found, making new directory
+	 - climatology for TSA
+	 - climatology for TV
+	 - climatology for PREC
+	 - climatology for ELAI
+	 - climatology for FSDS
+	 - climatology for FLDS
+	 - climatology for QBOT
+	 - climatology for ASA
+	 - climatology for RNET
+	 - climatology for FSH
+	 - climatology for ET
+	 - climatology for FCTR
+	 - climatology for FGEV
+	 - climatology for FCEV
+	 - climatology for QRUNOFF_TO_COUPLER
+	 - climatology for SNOWDP
+	 - climatology for GPP
+	 - climatology for NPP
+	 - climatology for NEE
+	 - climatology for NBP
+	 - climatology for NPP_NUPTAKE
+	 - climatology for BTRANMN
+	 - climatology for TOTECOSYSC
+	 - climatology for TOTSOMC_1m
+	 - climatology for ALTMAX
+	 - climatology for TWS
+	 - climatology for SOILWATER_10CM
+	 - climatology for GRAINC_TO_FOOD
+	 - climatology for FAREA_BURNED
+
+	 Calculating climatologies for case 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338' :
+	    /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.338/lnd/proc/climo not found, making new directory
+	 - climatology for TSA
+	 - climatology for TV
+	 - climatology for PREC
+	 - climatology for ELAI
+	 - climatology for FSDS
+	 - climatology for FLDS
+	 - climatology for QBOT
+	 - climatology for ASA
+	 - climatology for RNET
+	 - climatology for FSH
+	 - climatology for ET
+	 - climatology for FCTR
+	 - climatology for FGEV
+	 - climatology for FCEV
+	 - climatology for QRUNOFF_TO_COUPLER
+	 - climatology for SNOWDP
+	 - climatology for GPP
+	 - climatology for NPP
+	 - climatology for NEE
+	 - climatology for NBP
+	 - climatology for NPP_NUPTAKE
+	 - climatology for BTRANMN
+	 - climatology for TOTECOSYSC
+	 - climatology for TOTSOMC_1m
+	 - climatology for ALTMAX
+	 - climatology for TWS
+	 - climatology for SOILWATER_10CM
+	 - climatology for GRAINC_TO_FOOD
+	 - climatology for FAREA_BURNED
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
+invalid value encountered in multiply
