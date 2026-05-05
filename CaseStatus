@@ -659,3 +659,5 @@ See log file for details: /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MT
  ---------------------------------------------------
 2026-05-05 09:19:43: xmlchange success <command> ./xmlchange CUPID_STARTDATE=0002-01-01  </command>
  ---------------------------------------------------
+2026-05-05 09:19:47: xmlchange success <command> ./xmlchange CUPID_STOP_N=40  </command>
+ ---------------------------------------------------
