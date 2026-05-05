@@ -605,3 +605,5 @@ See log file for details: /glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MT
  ---------------------------------------------------
 2026-05-04 20:44:50: case.submit starting case.run:6061798.desched1, case.st_archive:6061799.desched1
  ---------------------------------------------------
+2026-05-04 20:45:33: case.submit success case.run:6061798.desched1, case.st_archive:6061799.desched1
+ ---------------------------------------------------
