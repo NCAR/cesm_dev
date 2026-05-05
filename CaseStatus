@@ -29,3 +29,5 @@ ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.o
  ---------------------------------------------------
 2026-05-04 21:52:36: st_archive starting 6055875.desched1
  ---------------------------------------------------
+2026-05-04 21:53:51: st_archive success 6055875.desched1
+ ---------------------------------------------------
