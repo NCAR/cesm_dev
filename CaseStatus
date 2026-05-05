@@ -21,3 +21,5 @@ ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.o
  ---------------------------------------------------
 2026-05-04 12:31:59: model execution starting 6055874.desched1
  ---------------------------------------------------
+2026-05-04 21:52:17: model execution success 6055874.desched1
+ ---------------------------------------------------
