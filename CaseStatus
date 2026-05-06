@@ -43,3 +43,5 @@ ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.o
  ---------------------------------------------------
 2026-05-06 12:24:12: model execution starting 6072867.desched1
  ---------------------------------------------------
+2026-05-06 13:00:16: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=https://github.com/NCAR/cesm_dev  </command>
+ ---------------------------------------------------
