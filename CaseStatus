@@ -35,3 +35,5 @@ ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.o
  ---------------------------------------------------
 2026-05-06 12:22:44: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
  ---------------------------------------------------
+2026-05-06 12:22:58: case.submit starting case.run:6072867.desched1, case.st_archive:6072868.desched1
+ ---------------------------------------------------
