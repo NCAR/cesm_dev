@@ -33,3 +33,5 @@ ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.o
  ---------------------------------------------------
 2026-05-06 12:22:38: xmlchange success <command> ./xmlchange CONTINUE_RUN=TRUE  </command>
  ---------------------------------------------------
+2026-05-06 12:22:44: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
+ ---------------------------------------------------
