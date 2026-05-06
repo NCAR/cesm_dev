@@ -45,3 +45,5 @@ ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.o
  ---------------------------------------------------
 2026-05-06 13:00:16: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=https://github.com/NCAR/cesm_dev  </command>
  ---------------------------------------------------
+2026-05-06 13:32:51: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
