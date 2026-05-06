@@ -18,3 +18,5 @@
 
 ./xmlchange PROJECT=CESM0027
 
+./xmlchange CASE_GIT_REPOSITORY=https://github.com/NCAR/cesm_dev
+
