@@ -240,3 +240,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08
 ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08b.BHISTC_LTso.ne30_t232_wgx3.316d/run/med.log.6054133.desched1.260504-085715 
  
  ---------------------------------------------------
+2026-05-06 13:01:12: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=https://github.com/NCAR/cesm_dev  </command>
+ ---------------------------------------------------
