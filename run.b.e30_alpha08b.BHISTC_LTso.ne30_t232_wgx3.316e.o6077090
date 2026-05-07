@@ -1,3 +1,6 @@
 Detected diff in locked file 'env_build.xml'
 	'BUILD_STATUS' has changed from 0 to 1
 	'CASE_GIT_REPOSITORY' has changed from 'git@github.com:NCAR/cesm_dev.git' to 'https://github.com/NCAR/cesm_dev'
+ERROR: For your changes to take effect, run:
+./case.build --clean-all
+./case.build

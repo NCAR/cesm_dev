@@ -16,3 +16,5 @@
 
 ./xmlchange JOB_PRIORITY=regular
 
+./case.build --clean-all
+
