@@ -63,3 +63,8 @@ ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.o
  ---------------------------------------------------
 2026-05-07 02:22:56: case.run starting 6077090.desched1
  ---------------------------------------------------
+2026-05-07 02:22:59: case.run error 
+ERROR: For your changes to take effect, run:
+./case.build --clean-all
+./case.build
+ ---------------------------------------------------
