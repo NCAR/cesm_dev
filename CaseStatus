@@ -51,3 +51,5 @@ ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.o
  ---------------------------------------------------
 2026-05-06 21:19:03: case.run success 6072867.desched1
  ---------------------------------------------------
+2026-05-06 21:19:05:   Timing files created for run 6072867.desched1.260506-122405
+ ---------------------------------------------------
