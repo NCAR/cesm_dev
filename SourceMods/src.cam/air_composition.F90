@@ -71,7 +71,6 @@ module air_composition
    character(len=3), public, protected :: enthalpy_reference_state = 'xxx'
 
    integer, protected, public :: wv_idx = -1 ! Water vapor index
-   integer, public            :: wv_idx_dycore = -1 ! Water vapor index dycore
 
    !------------- Variables for consistent themodynamics --------------------
    !
