@@ -96,3 +96,5 @@ ERROR: For your changes to take effect, run:
  ---------------------------------------------------
 2026-05-08 00:03:18: case.submit starting case.run:6088579.desched1, case.st_archive:6088580.desched1
  ---------------------------------------------------
+2026-05-08 00:03:19: case.submit success case.run:6088579.desched1, case.st_archive:6088580.desched1
+ ---------------------------------------------------
