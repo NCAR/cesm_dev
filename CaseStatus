@@ -45,3 +45,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_
  ---------------------------------------------------
 2026-05-08 09:07:24: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2026-05-08 09:07:44: case.submit starting case.run:6091858.desched1, case.st_archive:6091859.desched1
+ ---------------------------------------------------
