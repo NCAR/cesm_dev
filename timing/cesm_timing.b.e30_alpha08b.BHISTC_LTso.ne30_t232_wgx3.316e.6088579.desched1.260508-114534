@@ -1,0 +1,88 @@
+---------------- TIMING PROFILE ---------------------
+  Case        : b.e30_alpha08b.BHISTC_LTso.ne30_t232_wgx3.316e
+  LID         : 6088579.desched1.260508-114534
+  Machine     : derecho
+  Caseroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.BHISTC_LTso.ne30_t232_wgx3.316e
+  Timeroot    : /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha08b.BHISTC_LTso.ne30_t232_wgx3.316e/Tools
+  User        : dbailey
+  Curr Date   : Fri May  8 20:37:11 2026
+  Driver      : CMEPS
+  grid        : a%ne30np4.pg3_l%ne30np4.pg3_oi%tx2_3v2_r%r05_g%gris4_w%wgx3v7_z%null_m%tx2_3v2
+  compset     : HISTC_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_WW3_SESP
+  run type    : hybrid, continue_run = TRUE (inittype = FALSE)
+  stop option : nyears, stop_n = 4
+  run length  : 1460 days (1460.0 for ocean)
+
+  component       comp_pes    root_pe   tasks  x threads instances (stride) 
+  ---------        ------     -------   ------   ------  ---------  ------  
+  cpl = cpl        2700        0        2700   x 1       1      (1     ) 
+  atm = cam        2700        0        2700   x 1       1      (1     ) 
+  lnd = clm        2700        0        2700   x 1       1      (1     ) 
+  ice = cice       2700        0        2700   x 1       1      (1     ) 
+  ocn = mom        640         2816     640    x 1       1      (1     ) 
+  rof = mosart     1280        0        1280   x 1       1      (1     ) 
+  glc = dglc       116         2700     116    x 1       1      (1     ) 
+  wav = ww3        116         2700     116    x 1       1      (1     ) 
+  esp = sesp       1           0        1      x 1       1      (1     ) 
+
+  total pes active           : 3456 
+  mpi tasks per node         : 128 
+  pe count for cost estimate : 3456 
+
+  Overall Metrics: 
+    Model Cost:            7577.61   pe-hrs/simulated_year 
+    Model Throughput:        10.95   simulated_years/day 
+
+    Init Time   :     221.934 seconds 
+    Run Time    :   31573.373 seconds       21.626 seconds/day 
+    Final Time  :      19.014 seconds 
+
+
+Runs Time in total seconds, seconds/model-day, and model-years/wall-day 
+CPL Run Time represents time in CPL pes alone, not including time associated with data exchange with other components 
+
+    TOT Run Time:   31573.373 seconds       21.626 seconds/mday        10.95 myears/wday 
+    CPL Run Time:    1439.954 seconds        0.986 seconds/mday       240.01 myears/wday 
+    ATM Run Time:   19107.629 seconds       13.087 seconds/mday        18.09 myears/wday 
+    LND Run Time:    4855.249 seconds        3.326 seconds/mday        71.18 myears/wday 
+    ICE Run Time:    6729.723 seconds        4.609 seconds/mday        51.35 myears/wday 
+    OCN Run Time:   25043.572 seconds       17.153 seconds/mday        13.80 myears/wday 
+    ROF Run Time:     116.219 seconds        0.080 seconds/mday      2973.69 myears/wday 
+    GLC Run Time:       1.079 seconds        0.001 seconds/mday    320266.89 myears/wday 
+    WAV Run Time:    6493.133 seconds        4.447 seconds/mday        53.23 myears/wday 
+    ESP Run Time:       0.000 seconds        0.000 seconds/mday         0.00 myears/wday 
+    CPL COMM Time:   4711.450 seconds        3.227 seconds/mday        73.35 myears/wday 
+   NOTE: min:max driver timers (seconds/day):   
+                            CPL (pes 0 to 2699) 
+                                                ATM (pes 0 to 2699) 
+                                                LND (pes 0 to 2699) 
+                                                ICE (pes 0 to 2699) 
+                                                                                       OCN (pes 2816 to 3455) 
+                                                ROF (pes 0 to 1279) 
+                                                                                      GLC (pes 2700 to 2815) 
+                                                                                      WAV (pes 2700 to 2815) 
+                                                ESP (pes 0 to 0) 
+
+
+
+More info on coupler timing:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
