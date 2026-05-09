@@ -93,3 +93,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_
  ---------------------------------------------------
 2026-05-09 06:10:01: case.run success 6097783.desched1
  ---------------------------------------------------
+2026-05-09 06:10:03:   Timing files created for run 6097783.desched1.260508-232153
+ ---------------------------------------------------
