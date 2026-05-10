@@ -40,3 +40,7 @@ Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF'
  - Checking for required input datasets in DIN_LOC_ROOT
 -------------------------------------------------------------------------
 run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/dbailey/b.e30_alpha08b.BHISTC_LTso.ne30_t232_wgx3.316e/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach derecho 
+resubmit_num 7
