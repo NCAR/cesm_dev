@@ -1,7 +1,15 @@
 &comp_inparm 
 
+grid_file = "/glade/work/gmarques/cesm/tx2_3/seaice_files/cice_grid_tx2_3v3_260305_cdf5.nc"
 
+grid_format = 'nc'
 
- 
+kmt_file = "/glade/work/gmarques/cesm/tx2_3/seaice_files/cice_grid_tx2_3v3_260305_cdf5.nc"
+
+r_snw = 0.75
+
+restart_fsd = .true.
+
+histfreq = "m", "x", "x", "x", "x"
 
 / 
