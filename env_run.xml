@@ -587,7 +587,7 @@
       <type>char</type>
       <desc>glc mesh file (full pathname)</desc>
     </entry>
-    <entry id="MASK_MESH" value="$DIN_LOC_ROOT/share/meshes/tx2_3v2_230415_ESMFmesh.nc">
+    <entry id="MASK_MESH" value="/glade/work/gmarques/cesm/tx2_3/mesh/ESMF_mesh_tx2_3v3_260305_cdf5.nc">
       <type>char</type>
       <desc>mask mesh file (full pathname)</desc>
     </entry>
