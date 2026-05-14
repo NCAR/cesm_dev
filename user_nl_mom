@@ -1,23 +1,45 @@
-!---------------------------------------------------------------------
-! Users should add all user specific MOM_input parameter changes after
-! these comments as follows:
-!   parameter_name = new_parameter_value
-!
-! If the parameter belongs to a module, enter the parameter in MOM6
-! runtime parameter format ,e.g., change N_SMOOTH parameter within the
-! KPP module as follows:
-!   KPP%
-!   N_SMOOTH = 3
-!   %KPP
-!
-! Note: The parameter changes added to this file will automatically be
-!       applied to:
-!   $RUNDIR/MOM_override
-!
-! WARNING: If a MOM_override file is placed in SourceMods/src.mom/,
-! any additional parameter changes in this file will trigger an error.
-!
-! Parameters:
-!---------------------------------------------------------------------
+INPUTDIR = "/glade/derecho/scratch/hannay/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.330/run/INPUT"
+GRID_FILE = "ocean_hgrid_250930.nc"
+TOPO_FILE = "ocean_topo_tx2_3v3_260305.nc"
+TOPO_EDITS_FILE = ""
+TIDAL_ENERGY_FILE = "tidal_energy_tx2_3v3_conserve_260306.nc"
+CHL_FILE = "seawifs-clim-1997-2010-tx2_3v3_260305.nc"
+CHANNEL_LIST_FILE = "channels_tx2_3v3_260304.txt"
+GEOTHERMAL_FILE = "geothermal_davies2013_tx2_3v3_260305.nc"
+MLE%
+CR_FILE = "mle_cr_labsea_mask_tx2_3v3_260306.nc"
+%MLE
 
+MEKE_GEOMETRIC_ALPHA = 0.07
+SMAGORINSKY_KH = False
+MAXTRUNC = 1.0E6
+
+! Leith+E Settings
+TAPER_LEITHY = True
+LEITH_BI_CONST = 85.0
+LEITHY_CK = 1.0
+LEITHY_DEPTH = 1000.0
+LEITHY_WIDTH = 500.0
+
+! Background KH
+USE_KH_BG_2D = True
+KH_BG_2D_FILENAME = "KH_BG_2D_tx2_3v3_260306.nc"
+KH_BG_2D_VARNAME = "KH"
+
+! Resolution scaling:
+!! GM & Redi the same
+!! Don't apply scaling to Laplacian viscosity, which is the 2D background
+RESOLN_SCALED_KH = False
+RESOLN_SCALED_KHTH = True  ! Already using, here for clarity
+RESOLN_SCALED_KHTR = True  ! Already using, here for clarity
+KH_RES_SCALE_COEF = 0.5    ! Tighter around the equator
+KH_RES_FN_POWER = 6        ! Already using, here for clarity
+VISC_RES_SCALE_COEF = 0.5  ! Used for KHTR
+VISC_RES_FN_POWER = 6      ! Used for KHTR
+INTERPOLATE_RES_FN = True  ! Only computes resolution fn once, then interpolates
+
+KHTR_MIN = 50.
+
+CORRECT_BBL_BOUNDS = True
+CHANNEL_DRAG_MAX_BBL_THICK = 5.0
 
