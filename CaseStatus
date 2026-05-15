@@ -34,3 +34,5 @@ ERROR:  Missing CAM's config_cache.xml - cannot run build-namelist
 2026-05-15 10:30:07: case.build error 
 ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e30_alpha09a.B1850C_MTso.ne30_t233_wgx3.346/bld/atm.bldlog.260515-101759
  ---------------------------------------------------
+2026-05-15 10:32:11: case.build starting 
+ ---------------------------------------------------
