@@ -54,3 +54,9 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./pelayout
+
+./check_case
+
+./case.submit
+
