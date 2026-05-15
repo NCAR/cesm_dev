@@ -1,0 +1,14 @@
+Put source mods for the cdeps library in this directory.
+
+Note that this subdirectory should only contain files from CDEPS's
+dshr and streams source code directories.
+Files related to specific data models should go in SourceMods subdirectories
+for those data models (e.g., src.datm).
+
+WARNING: SourceMods are not kept under version control, and can easily
+become out of date if changes are made to the source code on which they
+are based. We only recommend using SourceMods for small, short-term
+changes that just apply to one or two cases. For larger or longer-term
+changes, including gradual, incremental changes towards a final
+solution, we highly recommend making changes in the main source tree,
+leveraging version control (git or svn).
