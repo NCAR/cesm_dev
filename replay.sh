@@ -48,3 +48,9 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./pelayout
+
+./case.setup --reset
+
+./case.build
+
