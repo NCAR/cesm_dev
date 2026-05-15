@@ -32,3 +32,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange CAM_CONFIG_OPTS="-pcols 9 -phys cam7 -model_top mt  -pcols 9"
+

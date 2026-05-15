@@ -27,3 +27,5 @@
 2026-05-15 10:14:54: case.build error 
 ERROR:  Missing CAM's config_cache.xml - cannot run build-namelist
  ---------------------------------------------------
+2026-05-15 10:17:34: xmlchange success <command> ./xmlchange CAM_CONFIG_OPTS=-pcols 9 -phys cam7 -model_top mt  -pcols 9  </command>
+ ---------------------------------------------------
