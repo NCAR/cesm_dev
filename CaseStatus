@@ -251,3 +251,5 @@ Timeout expired
  ---------------------------------------------------
 2026-05-16 12:41:08: case.submit starting case.run:6164845.desched1, case.st_archive:6164846.desched1
  ---------------------------------------------------
+2026-05-16 12:41:10: case.submit success case.run:6164845.desched1, case.st_archive:6164846.desched1
+ ---------------------------------------------------
