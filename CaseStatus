@@ -259,3 +259,7 @@ Timeout expired
  ---------------------------------------------------
 2026-05-16 16:25:59: model execution success 6164845.desched1
  ---------------------------------------------------
+2026-05-16 16:26:01: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/dbailey/b.e30_alpha08b.BHISTC_LTso.ne30_t232_wgx3.316e/run/med.log.6164845.desched1.260516-140822 
+ 
+ ---------------------------------------------------
