@@ -20,4 +20,4 @@
 ! Parameters:
 !---------------------------------------------------------------------
 
-
+DIAG_COORD_DEF_RHO2 = "FILE:ocean_rho2_190917.nc,interfaces=rho2"

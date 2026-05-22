@@ -519,3 +519,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e3
  ---------------------------------------------------
 2026-05-22 10:30:01: st_archive success 6224149.desched1
  ---------------------------------------------------
+2026-05-22 15:11:10: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
+ ---------------------------------------------------
