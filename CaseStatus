@@ -21,3 +21,5 @@
 2026-05-23 04:45:14: case.build error 
 ERROR: Could not download refcase from any server
  ---------------------------------------------------
+2026-05-23 04:47:44: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha09a.B1850C_MTso.ne30_t233_wgx3.347  </command>
+ ---------------------------------------------------
