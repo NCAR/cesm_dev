@@ -49,3 +49,5 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-05-23 05:02:33: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2026-05-23 05:02:56: case.submit starting 
+ ---------------------------------------------------
