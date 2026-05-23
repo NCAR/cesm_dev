@@ -16,3 +16,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CAM_CONFIG_OPTS=" -pcols 9" --append
 
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+
