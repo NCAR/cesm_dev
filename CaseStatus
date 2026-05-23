@@ -25,3 +25,5 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-05-23 04:47:46: xmlchange success <command> ./xmlchange RUN_REFDATE=0113-01-01  </command>
  ---------------------------------------------------
+2026-05-23 04:47:48: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
