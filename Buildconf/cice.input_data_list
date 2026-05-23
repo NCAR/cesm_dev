@@ -1,2 +1,3 @@
 grid_file = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/cice_grid_tx2_3v3_260305_cdf5.nc
 kmt_file = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/cice_grid_tx2_3v3_260305_cdf5.nc
+ice_ic = b.e30_alpha09a.B1850C_MTso.ne30_t233_wgx3.347.cice.r.0113-01-01-00000.nc
