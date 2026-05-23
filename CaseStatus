@@ -64,3 +64,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2026-05-23 05:03:48: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2026-05-23 05:04:02: case.submit starting 
+ ---------------------------------------------------
