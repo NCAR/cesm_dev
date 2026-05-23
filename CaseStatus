@@ -8,3 +8,9 @@
  ---------------------------------------------------
 2026-05-23 02:41:15: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
  ---------------------------------------------------
+2026-05-23 02:43:53: case.setup starting 
+ ---------------------------------------------------
+2026-05-23 02:43:55: case.setup success 
+ ---------------------------------------------------
+2026-05-23 02:43:59: xmlchange success <command> ./xmlchange CAM_CONFIG_OPTS= -pcols 9 --append  </command>
+ ---------------------------------------------------
