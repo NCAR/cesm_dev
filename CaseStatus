@@ -58,3 +58,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2026-05-23 05:03:42: xmlchange success <command> ./xmlchange RUN_REFDATE=0113-01-01  </command>
  ---------------------------------------------------
+2026-05-23 05:03:43: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
