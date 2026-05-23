@@ -42,3 +42,5 @@ cd "${CASEDIR}"
 
 ./preview_namelists
 
+./xmlchange OCN_DIAG_MODE=spinup
+

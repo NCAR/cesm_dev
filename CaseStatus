@@ -35,3 +35,5 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-05-23 05:00:50: case.build success 
  ---------------------------------------------------
+2026-05-23 05:00:53: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=spinup  </command>
+ ---------------------------------------------------
