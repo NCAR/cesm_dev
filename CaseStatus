@@ -74,3 +74,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2026-05-23 05:07:34: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2026-05-23 05:07:54: case.submit starting case.run:6240584.desched1, case.st_archive:6240585.desched1
+ ---------------------------------------------------
