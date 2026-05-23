@@ -66,3 +66,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2026-05-23 05:04:02: case.submit starting 
  ---------------------------------------------------
+2026-05-23 05:07:29: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
