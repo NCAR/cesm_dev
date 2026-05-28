@@ -35,3 +35,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e3
  ---------------------------------------------------
 2026-05-28 16:09:33: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=spinup  </command>
  ---------------------------------------------------
+2026-05-28 16:13:03: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=15,STOP_N=4,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
