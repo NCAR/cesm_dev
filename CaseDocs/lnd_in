@@ -8,7 +8,7 @@
  crop_residue_removal_frac = 0.5d00
  do_sno_oc = .false.
  downscale_hillslope_meteorology = .true.
- finidat = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/initdata_esmf/ctsm5.4/ctsm5.4.015_BGCcrop_ne30_144_pSASU.clm2.r.0181-01-01-00000.nc'
+ finidat = 'b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.350.clm2.r.0077-01-01-00000.nc'
  flush_gdd20 = .false.
  for_testing_no_crop_seed_replenishment = .false.
  for_testing_run_ncdiopio_tests = .false.
@@ -68,7 +68,6 @@
  use_hillslope = .false.
  use_hillslope_routing = .false.
  use_hydrstress = .true.
- use_init_interp = .true.
  use_lai_streams = .false.
  use_lch4 = .true.
  use_luna = .true.
@@ -160,7 +159,6 @@
 /
 &clm_initinterp_inparm
  init_interp_fill_missing_urban_with_hd = .true.
- init_interp_method = 'general'
 /
 &century_soilbgcdecompcascade
 /
@@ -305,6 +303,7 @@
 /
 &cn_general
  dribble_crophrv_xsmrpool_2atm = .true.
+ reseed_dead_plants = .true.
 /
 &nitrif_inparm
 /
@@ -334,6 +333,7 @@
  stream_meshfile_ch4finundated = '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/paramdata/finundated_inversiondata_0.9x1_ESMFmesh_cdf5_130621.nc'
 /
 &exice_streams
+ use_excess_ice_streams = .false.
 /
 &clm_temperature_inparm
  excess_ice_coldstart_depth = 0.5
@@ -368,7 +368,7 @@
 !#--------------------------------------------------------------------------------------------------------------------------
 !# lnd_in:: Comment:
 !# This namelist was created using the following command-line:
-!#     /glade/work/hannay/cesm_tags/cesm3_0_alpha09b/components/clm/bld/CLM build-namelist -cimeroot /glade/work/hannay/cesm_tags/cesm3_0_alpha09b/cime -landroot /glade/work/hannay/cesm_tags/cesm3_0_alpha09b/components/clm/ -infile /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.351/Buildconf/clmconf/namelist -csmdata /glade/campaign/cesm/cesmdata/inputdata -inputdata /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.351/Buildconf/ctsm.input_data_list -ignore_ic_year -namelist &clm_inparm  start_ymd=00010101 /  -no-megan -use_case 1850_control -res ne30np4.pg3 -clm_start_type default -envxml_dir /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.351 -configuration clm -structure standard -glc_nec 10 -co2_ppmv 284.7 -co2_type diagnostic -config /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.351/Buildconf/clmconf/config_cache.xml -driver nuopc --bgc bgc --crop --no-megan --no-drydep --no-fire_emis -clm_accelerated_spinup off -lnd_tuning_mode clm6_0_cam7.0 -mask tx2_3v3
+!#     /glade/work/hannay/cesm_tags/cesm3_0_alpha09b/components/clm/bld/CLM build-namelist -cimeroot /glade/work/hannay/cesm_tags/cesm3_0_alpha09b/cime -landroot /glade/work/hannay/cesm_tags/cesm3_0_alpha09b/components/clm/ -infile /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.351/Buildconf/clmconf/namelist -csmdata /glade/campaign/cesm/cesmdata/inputdata -inputdata /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.351/Buildconf/ctsm.input_data_list -ignore_ic_year -namelist &clm_inparm  start_ymd=00010101 /  -no-megan -use_case 1850_control -res ne30np4.pg3 -clm_start_type startup -envxml_dir /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.351 -configuration clm -structure standard -glc_nec 10 -co2_ppmv 284.7 -co2_type diagnostic -config /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.351/Buildconf/clmconf/config_cache.xml -driver nuopc --bgc bgc --crop --no-megan --no-drydep --no-fire_emis -clm_accelerated_spinup off -lnd_tuning_mode clm6_0_cam7.0 -mask tx2_3v3
 !# 
 !# For help on options use: /glade/work/hannay/cesm_tags/cesm3_0_alpha09b/components/clm/bld/CLM build-namelist -help
 !#--------------------------------------------------------------------------------------------------------------------------
