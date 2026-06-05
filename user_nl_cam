@@ -10,17 +10,17 @@ empty_htapes = .true.
 fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODDUSTdn','AODVIS', 'AODVISdn','BURDENBC',
 'BURDENDUST', 'BURDENPOM', 'BURDENSEASALT',
 'BURDENSO4', 'BURDENSOA', 'CAPE', 'CDNUMC',  'CLDHGH', 'CLDICE', 'CLDLIQ', 'CLDLOW',
-'CLDMED', 'CLDTOT', 'CLOUD', 
+'CLDMED', 'CLDTOT', 'CLOUD',
 'FCTI', 'FCTL', 'FLDS', 'FLNS', 'FLNSC', 'FLNT', 'FLNTC', 'FLUT',
 'FREQZM', 'FSDS', 'FSDSC', 'FSNS', 'FSNSC', 'FSNT', 'FSNTC', 'FSNTOA', 'ICEFRAC', 'LANDFRAC', 'LHFLX', 'LWCF',
 'OCNFRAC', 'OMEGA', 'OMEGA500', 'PBLH', 'PHIS', 'PINT', 'PMID', 'PRECC', 'PRECL', 'PRECSC', 'PRECSL', 'PRECT', 'PS', 'PSL',  'Q',
 'QFLX', 'RELHUM', 'SHFLX', 'SOLIN', 'SST',
 'SWCF',
 'T', 'TAUX', 'TAUY', 'TFIX', 'TGCLDIWP', 'TGCLDLWP', 'TMQ', 'TREFHT', 'TS', 'U', 'U10',
-'UBOT', 
-'V', 'VBOT', 'Z3', 
+'UBOT',
+'V', 'VBOT', 'Z3',
 'AODVISdn', 'CDNUMC',  'NUMICE', 'NUMLIQ','OMEGA500',
- 'AQSO4_H2O2','AQSO4_O3', 
+ 'AQSO4_H2O2','AQSO4_O3',
 'ncl_a1SFWET',
 'ncl_a2SFWET', 'ncl_a3SFWET', 'pom_a1SFWET', 'pom_a4SFWET', 'so4_a1SFWET', 'so4_a2SFWET', 'so4_a3SFWET', 'soa_a1SFWET',
 'soa_a2SFWET', 'bc_c1SFWET', 'bc_c4SFWET', 'dst_c1SFWET', 'dst_c2SFWET', 'dst_c3SFWET', 'ncl_c1SFWET', 'ncl_c2SFWET',
@@ -33,9 +33,9 @@ fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODDUSTdn','AODVIS', 
 'num_a2_sfnnuc1', 'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO',
 'AODVISstdn', 'REFF_AERO', 'so4_a1', 'so4_a2', 'SAD_AERO', 'PS', 'TROP_P', 'FSNTOAC',
 'AODSSdn', 'AODSSdn', 'BURDENSO4dn', 'AODVISdn', 'AODVISstdn',
-'AODBCdn','AODSOAdn','AODSSdn','AODPOMdn','AODSO4dn', 'AODDUSTdn','AODVISdn', 'AODVISstdn','BURDENSO4dn', 'SFDMS','BURDENBCdn', 'BURDENDUSTdn', 
-'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn', 'AODBCdn','AODSOAdn','AODSSdn','AODPOMdn','AODSO4dn', 'AODDUSTdn','AODVISdn', 'AODVISstdn','BURDENSO4dn', 'SFDMS','BURDENBCdn', 'BURDENDUSTdn', 'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn', 
-'CCN3', 'CFC11', 'CFC12', 'CH4','CO2', 'EXTINCTdn', 'N2O', 
+'AODBCdn','AODSOAdn','AODSSdn','AODPOMdn','AODSO4dn', 'AODDUSTdn','AODVISdn', 'AODVISstdn','BURDENSO4dn', 'SFDMS','BURDENBCdn', 'BURDENDUSTdn',
+'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn', 'AODBCdn','AODSOAdn','AODSSdn','AODPOMdn','AODSO4dn', 'AODDUSTdn','AODVISdn', 'AODVISstdn','BURDENSO4dn', 'SFDMS','BURDENBCdn', 'BURDENDUSTdn', 'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn',
+'CCN3', 'CFC11', 'CFC12', 'CH4','CO2', 'EXTINCTdn', 'N2O',
 'EFIX'
 
 fincl3 = 'PRECT', 'PRECC', 'FLUT', 'U850', 'U200', 'V850', 'V200', 'OMEGA500', 'TS', 'SST', 'PSL', 'Z500'
@@ -58,8 +58,8 @@ prescribed_strataero_datapath          = '/glade/campaign/acom/acom-climate/tilm
 
 stream_ndep_data_filename              = '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/NDepositionCyclical1850/fndep_clm_MTt4s_3Dmonthly_1850climo330_c20260424.nc'
 
-clubb_gamma_coef                =  0.298     
-clubb_gamma_coefb               =  0.298   
+clubb_gamma_coef                =  0.298
+clubb_gamma_coefb               =  0.298
 
 clubb_penta_solve_method = 2
 clubb_tridiag_solve_method = 2
