@@ -497,3 +497,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e3
  ---------------------------------------------------
 2026-06-05 02:21:33: case.run starting 6359285.desched1
  ---------------------------------------------------
+2026-06-05 02:21:47: model execution starting 6359285.desched1
+ ---------------------------------------------------
