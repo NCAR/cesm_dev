@@ -38,3 +38,5 @@ ERROR: For your changes to take effect, run:
 2026-06-05 15:59:47: case.build error 
 ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.352/bld/atm.bldlog.260605-154718
  ---------------------------------------------------
+2026-06-05 16:09:21: build.clean starting 
+ ---------------------------------------------------
