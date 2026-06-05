@@ -47,3 +47,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e3
 2026-06-05 16:12:06: case.build error 
 ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.352/bld/atm.bldlog.260605-160930
  ---------------------------------------------------
+2026-06-05 16:13:45: build.clean starting 
+ ---------------------------------------------------
