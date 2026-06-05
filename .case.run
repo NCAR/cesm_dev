@@ -4,7 +4,7 @@
 #PBS  -r n 
 #PBS  -j oe 
 #PBS  -S /bin/bash  
-#PBS  -l select=4:ncpus=128:mpiprocs=128:ompthreads=1:mem=235GB
+#PBS  -l select=48:ncpus=128:mpiprocs=128:ompthreads=1:mem=235GB
 
 """
 template to create a case run script. This should only ever be called
