@@ -30,3 +30,9 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDATE=0105-01-01
 
+./pelayout
+
+./pelayout
+
+./case.build
+
