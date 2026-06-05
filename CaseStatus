@@ -49,3 +49,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e3
  ---------------------------------------------------
 2026-06-05 16:13:45: build.clean starting 
  ---------------------------------------------------
+2026-06-05 16:13:50: build.clean success 
+ ---------------------------------------------------
