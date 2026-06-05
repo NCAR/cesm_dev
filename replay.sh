@@ -24,3 +24,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
+./xmlchange OCN_DIAG_MODE=spinup
+
