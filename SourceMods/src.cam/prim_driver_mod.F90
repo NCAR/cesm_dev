@@ -617,11 +617,9 @@ contains
           end do
        end do
        call TimeLevel_Qdp( tl, qsplit, n0_qdp, np1_qdp)
-       if (.not.last_step) then
-         call cslam2gll(elem, fvm, hybrid,nets,nete, tl%np1, np1_qdp)
-         if (del4_cslam_qgll) &
-           call hypervis_Qdp(elem, deriv, hybrid, tl%np1, np1_qdp, dt_remap, nets, nete)
-       end if
+       call cslam2gll(elem, fvm, hybrid,nets,nete, tl%np1, np1_qdp)
+       if (del4_cslam_qgll) &
+            call hypervis_Qdp(elem, deriv, hybrid, tl%np1, np1_qdp, dt_remap, nets, nete)
       else if ((mod(rstep,fvm_supercycling_jet) == 0)) then
         !
         ! shorter fvm time-step in jet region
