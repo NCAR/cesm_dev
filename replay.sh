@@ -36,3 +36,5 @@ cd "${CASEDIR}"
 
 ./xmlchange OCN_DIAG_MODE=spinup
 
+./case.build
+
