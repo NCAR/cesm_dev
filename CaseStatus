@@ -59,3 +59,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_
  ---------------------------------------------------
 2026-06-09 15:05:55: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=15,STOP_N=4,STOP_OPTION=nyears  </command>
  ---------------------------------------------------
+2026-06-09 15:05:56: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
+ ---------------------------------------------------
