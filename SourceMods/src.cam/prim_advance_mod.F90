@@ -1867,6 +1867,8 @@ contains
     use derivative_mod,   only: derivative_t
     use global_norms_mod, only: nu_q_cslam
     use viscosity_mod,    only: biharmonic_wk_scalar1
+    use edge_mod,         only: edgeVpack, edgeVunpack
+    use bndry_mod,        only: bndry_exchange
 
     type(element_t),    intent(inout) :: elem(:)
     type(derivative_t), intent(in)    :: deriv
@@ -1886,11 +1888,21 @@ contains
 
     call biharmonic_wk_scalar1(elem, qtens, deriv, edgeQdp, hybrid, nets, nete)
 
+    ! DSS the weak-form increment so it is continuous across element edges
+    ! before being added to Qdp.
+    do ie = nets, nete
+      call edgeVpack(edgeQdp, qtens(:,:,:,ie), nlev, 0, ie)
+    end do
+    call bndry_exchange(hybrid, edgeQdp, location='hypervis_Qdp')
+    do ie = nets, nete
+      call edgeVunpack(edgeQdp, qtens(:,:,:,ie), nlev, 0, ie)
+    end do
+
     do ie = nets, nete
       do k = 1, nlev
         elem(ie)%state%Qdp(:,:,k,wv_idx_dycore,tl_qdp) = elem(ie)%state%Qdp(:,:,k,wv_idx_dycore,tl_qdp) &
           - dt_fvm * nu_q_cslam * elem(ie)%state%dp3d(:,:,k,tl_f) &
-          * qtens(:,:,k,ie) / elem(ie)%spheremp(:,:)
+          * qtens(:,:,k,ie) * elem(ie)%rspheremp(:,:)
       end do
     end do
 

@@ -281,7 +281,6 @@ contains
     real (kind=r8) :: s_laplacian, s_hypervis, s_rk, s_rk_tracer !Stability region
     real (kind=r8) :: dt_max_adv, dt_max_gw, dt_max_tracer_se, dt_max_tracer_fvm
     real (kind=r8) :: dt_max_hypervis, dt_max_hypervis_tracer, dt_max_laplacian_top
-    real (kind=r8) :: dt_max_hypervis_cslam
 
     real(kind=r8) :: I_sphere, nu_max, nu_div_max
     real(kind=r8) :: fld(np,np,nets:nete)
@@ -584,7 +583,7 @@ contains
     call automatically_set_viscosity_coefficients(hybrid,ne,max_min_dx,min_min_dx,nu_div,2.5_r8 ,'_div')
 
     if (nu_q<0) nu_q = nu_p ! necessary for consistency
-    if (nu_t<0) nu_t = nu_p ! temperature damping is always equal to nu_p
+    if (nu_t<0) nu_tx = nu_p ! temperature damping is always equal to nu_p
     nu_q_cslam = 3.0_r8 * nu_p
 
     nu_div_lev(:) = nu_div
@@ -650,7 +649,7 @@ contains
     else if (top_090_140km.or.top_140_600km) then ! defaults for waccm(x)
       if (sponge_del4_lev       <0) sponge_del4_lev        = 20
       if (sponge_del4_nu_fac    <0) sponge_del4_nu_fac     = 5.0_r8
-      if (sponge_del4_nu_div_fac<0) sponge_del4_nu_div_fac = 10.0_r8
+      if (sponge_del4_nu_div_fac<0) sponge_del4_nu_div_fac = 7.5_r8
     else
       if (sponge_del4_lev       <0) sponge_del4_lev        = 1
       if (sponge_del4_nu_fac    <0) sponge_del4_nu_fac     = 1.0_r8
@@ -767,7 +766,6 @@ contains
     nu_max = MAX(MAXVAL(nu_div_lev(:)),MAXVAL(nu_lev(:)),MAXVAL(nu_t_lev(:)))
     dt_max_hypervis        = s_hypervis/(nu_max*normDinv_hypervis)
     dt_max_hypervis_tracer = s_hypervis/(nu_q*normDinv_hypervis)
-    dt_max_hypervis_cslam  = s_hypervis/(nu_q_cslam*normDinv_hypervis)
 
     max_laplace = MAX(MAXVAL(nu_scale_top(:))*nu_top,MAXVAL(kmvis_ref(:)/rho_ref(:)))
     max_laplace = MAX(max_laplace,MAXVAL(kmcnd_ref(:)/(cpair*rho_ref(:))))
@@ -798,11 +796,6 @@ contains
         write(iulog,'(a,f10.2,a,f10.2,a)') '* dt_tracer_fvm (time-stepping tracers ; q       ) < ',dt_max_tracer_fvm,&
              's ',dt_tracer_fvm_actual
         if (dt_tracer_fvm_actual>dt_max_tracer_fvm) write(iulog,*) 'WARNING: dt_tracer_fvm theortically unstable'
-        if (del4_cslam_qgll) then
-          write(iulog,'(a,f10.2,a,f10.2,a)') '* dt_remap_vis  (del4 Qdp hypervis    ; q       ) < ',&
-               dt_max_hypervis_cslam,'s ',dt_remap_actual,'s'
-          if (dt_remap_actual>dt_max_hypervis_cslam) write(iulog,*) 'WARNING: del4_cslam_qgll hyperviscosity theoretically unstable'
-        end if
       end if
       write(iulog,'(a,f10.2)') '* dt_remap (vertical remap dt) ',dt_remap_actual
       do k=1,ksponge_end
