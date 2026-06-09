@@ -337,7 +337,7 @@
       sets model restart write date with REST_OPTION and REST_N
     </desc>
     </entry>
-    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl">
+    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl.0077-01-01-00000">
       <type>char</type>
       <desc>
       Name of the restart pointer file, this can be used to restart from an
@@ -1303,7 +1303,7 @@ Caveats:
            parameterization is used.
     </desc>
     </entry>
-    <entry id="OCN_DIAG_MODE" value="production">
+    <entry id="OCN_DIAG_MODE" value="spinup">
       <type>char</type>
       <valid_values>spinup,production,development,none</valid_values>
       <desc> This variable is used to choose from a set of predefined ocean diagnostics configurations.
