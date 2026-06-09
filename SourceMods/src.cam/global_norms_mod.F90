@@ -583,7 +583,7 @@ contains
     call automatically_set_viscosity_coefficients(hybrid,ne,max_min_dx,min_min_dx,nu_div,2.5_r8 ,'_div')
 
     if (nu_q<0) nu_q = nu_p ! necessary for consistency
-    if (nu_t<0) nu_tx = nu_p ! temperature damping is always equal to nu_p
+    if (nu_t<0) nu_t = nu_p ! temperature damping is always equal to nu_p
     nu_q_cslam = 3.0_r8 * nu_p
 
     nu_div_lev(:) = nu_div
