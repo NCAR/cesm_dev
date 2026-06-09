@@ -24,3 +24,7 @@
  ---------------------------------------------------
 2026-06-09 14:08:48: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
  ---------------------------------------------------
+2026-06-09 14:08:50: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=15,STOP_N=4,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
+2026-06-09 14:09:16: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=spinup  </command>
+ ---------------------------------------------------
