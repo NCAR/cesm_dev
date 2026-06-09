@@ -35,3 +35,5 @@
 2026-06-09 14:22:00: case.build error 
 ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.353/bld/atm.bldlog.260609-140948
  ---------------------------------------------------
+2026-06-09 14:22:07: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
