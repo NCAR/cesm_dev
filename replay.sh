@@ -34,3 +34,7 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./case.setup --reset
+
+./case.build
+
