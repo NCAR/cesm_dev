@@ -40,3 +40,5 @@ ERROR: For your changes to take effect, run:
 2026-06-10 14:42:09: case.build error 
 ERROR: Could not download refcase from any server
  ---------------------------------------------------
+2026-06-10 14:43:49: xmlchange success <command> ./xmlchange RUN_REFDATE=0101-01-01  </command>
+ ---------------------------------------------------
