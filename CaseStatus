@@ -67,3 +67,5 @@ ERROR: Could not find all inputdata on any server
 ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.354/run/med.log.6421011.desched1.260610-153833 
  
  ---------------------------------------------------
+2026-06-10 15:55:02: case.submit starting case.run:6421137.desched1, case.st_archive:6421138.desched1
+ ---------------------------------------------------
