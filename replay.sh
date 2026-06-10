@@ -62,3 +62,5 @@ cd "${CASEDIR}"
 
 ./pelayout
 
+./xmlchange RESUBMIT=6
+
