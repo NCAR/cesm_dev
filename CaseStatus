@@ -46,3 +46,5 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-06-10 14:58:42: case.build success 
  ---------------------------------------------------
+2026-06-10 15:32:21: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
