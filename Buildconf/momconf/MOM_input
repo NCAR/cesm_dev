@@ -1521,7 +1521,7 @@ USE_CR_GRID = True
 CR_FILE = mle_cr_labsea_mask_tx2_3v3_260306.nc
                                 ! "The path to the file containing the Cr fields."
 
-WAVE_ENHANCED_USTAR = True
+WAVE_ENHANCED_USTAR = False
                                 ! "default = False
                                 ! If true, enhance ustar using surface waves, following Eq. 28 in Bodner23."
 
