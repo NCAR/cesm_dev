@@ -60,3 +60,5 @@ cd "${CASEDIR}"
 
 ./pelayout
 
+./pelayout
+
