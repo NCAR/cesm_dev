@@ -10,3 +10,5 @@
  ---------------------------------------------------
 2026-06-10 14:38:35: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334  </command>
  ---------------------------------------------------
+2026-06-10 14:38:38: xmlchange success <command> ./xmlchange RUN_REFDATE=0100-01-01  </command>
+ ---------------------------------------------------

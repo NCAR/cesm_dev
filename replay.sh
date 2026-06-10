@@ -18,3 +18,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFCASE=b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334
 
+./xmlchange RUN_REFDATE=0100-01-01
+
