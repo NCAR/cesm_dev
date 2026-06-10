@@ -37,3 +37,6 @@ ERROR: For your changes to take effect, run:
  ---------------------------------------------------
 2026-06-10 14:41:52: case.build starting 
  ---------------------------------------------------
+2026-06-10 14:42:09: case.build error 
+ERROR: Could not download refcase from any server
+ ---------------------------------------------------
