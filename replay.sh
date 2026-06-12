@@ -58,3 +58,5 @@ cd "${CASEDIR}"
 
 ./pelayout
 
+./xmlchange JOB_PRIORITY=regular
+
