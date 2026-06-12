@@ -937,3 +937,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e3
  ---------------------------------------------------
 2026-06-12 06:36:42: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
  ---------------------------------------------------
+2026-06-12 09:43:44: model execution success 6436015.desched1
+ ---------------------------------------------------
