@@ -263,3 +263,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_
  ---------------------------------------------------
 2026-06-12 12:39:49: model execution starting 6438144.desched1
  ---------------------------------------------------
+2026-06-12 14:49:58: xmlchange success <command> ./xmlchange RESUBMIT=20  </command>
+ ---------------------------------------------------
