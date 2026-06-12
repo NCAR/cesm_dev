@@ -921,3 +921,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e3
  ---------------------------------------------------
 2026-06-12 02:58:49: case.run success 6434363.desched1
  ---------------------------------------------------
+2026-06-12 02:58:51:   Timing files created for run 6434363.desched1.260611-201403
+ ---------------------------------------------------
