@@ -293,3 +293,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_
  ---------------------------------------------------
 2026-06-13 02:20:32: st_archive success 6439958.desched1
  ---------------------------------------------------
+2026-06-13 02:20:34: case.submit starting case.run:6441469.desched1, case.st_archive:6441470.desched1
+ ---------------------------------------------------
