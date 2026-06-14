@@ -389,3 +389,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/hannay/b.e30_
  ---------------------------------------------------
 2026-06-14 13:31:29: case.run starting 6449236.desched1
  ---------------------------------------------------
+2026-06-14 13:31:42: model execution starting 6449236.desched1
+ ---------------------------------------------------
