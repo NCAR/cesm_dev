@@ -215,3 +215,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
  ---------------------------------------------------
 2026-06-14 01:06:49: model execution starting 6446985.desched1
  ---------------------------------------------------
+2026-06-14 07:48:54: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
