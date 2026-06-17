@@ -45,6 +45,8 @@
 "ocean_model_rho2", "e",       "e",       "${CASE}.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 
 # "${CASE}.mom6.h.native%4yr-%2mo"
+"ocean_model", "MLD_restrat",         "MLD_restrat",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "BLD_restrat",         "BLD_restrat",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "soga",         "soga",         "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "thetaoga",     "thetaoga",     "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "uh",           "uh",           "${CASE}.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2

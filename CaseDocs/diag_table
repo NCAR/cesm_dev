@@ -45,6 +45,8 @@
 "ocean_model_rho2", "e",       "e",       "b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.357.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 
 # "b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.357.mom6.h.native%4yr-%2mo"
+"ocean_model", "MLD_restrat",         "MLD_restrat",         "b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.357.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "BLD_restrat",         "BLD_restrat",         "b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.357.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "soga",         "soga",         "b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.357.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "thetaoga",     "thetaoga",     "b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.357.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "uh",           "uh",           "b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.357.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
