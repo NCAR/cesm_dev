@@ -43,3 +43,5 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-06-17 15:36:45: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
  ---------------------------------------------------
+2026-06-17 15:37:23: case.submit starting case.run:6482249.desched1, case.st_archive:6482250.desched1
+ ---------------------------------------------------
