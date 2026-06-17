@@ -8,7 +8,7 @@
  crop_residue_removal_frac = 0.5d00
  do_sno_oc = .false.
  downscale_hillslope_meteorology = .true.
- finidat = 'b.e30_alpha09a.B1850C_MTso.ne30_t233_wgx3.348.clm2.r.0213-01-01-00000.nc'
+ finidat = '/glade/derecho/scratch/gunterl/archive/CLM6_cesm30alpha09b_ne30pg3_CPLHIST_1850.350_DATM_start80/rest/0320-01-01-00000/CLM6_cesm30alpha09b_ne30pg3_CPLHIST_1850.350_DATM_start80.clm2.r.0320-01-01-00000.nc'
  flush_gdd20 = .false.
  for_testing_no_crop_seed_replenishment = .false.
  for_testing_run_ncdiopio_tests = .false.
@@ -68,6 +68,7 @@
  use_hillslope = .false.
  use_hillslope_routing = .false.
  use_hydrstress = .true.
+ use_init_interp = .true.
  use_lai_streams = .false.
  use_lch4 = .true.
  use_luna = .true.
@@ -159,6 +160,7 @@
 /
 &clm_initinterp_inparm
  init_interp_fill_missing_urban_with_hd = .true.
+ init_interp_method = 'general'
 /
 &century_soilbgcdecompcascade
 /

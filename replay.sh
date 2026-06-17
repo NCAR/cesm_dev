@@ -44,3 +44,9 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./check_case
+
+./preview_namelists
+
+./case.submit
+

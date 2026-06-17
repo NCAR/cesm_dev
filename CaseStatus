@@ -51,3 +51,5 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-06-17 16:00:51: model execution starting 6482249.desched1
  ---------------------------------------------------
+2026-06-17 17:04:00: case.submit starting case.run:6483697.desched1, case.st_archive:6483698.desched1
+ ---------------------------------------------------
