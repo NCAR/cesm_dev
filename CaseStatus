@@ -261,3 +261,5 @@ ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/gmarques/b.e3
  ---------------------------------------------------
 2026-06-17 15:39:53: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
  ---------------------------------------------------
+2026-06-17 19:35:35: case.run starting 6468541.desched1
+ ---------------------------------------------------
