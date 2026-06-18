@@ -159,27 +159,23 @@ fincl4 =  'PRECC','PRECL'
 
 seasalt_emis_scale= 1.6D0
 
+
+
+
+
+prescribed_ozone_datapath              = '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/ozone_strataero_day_5_zm'
+
+prescribed_ozone_file          = 'ozone_strataero_b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch_1850_1850_2021_transient_zm_5day_c20260618.nc'
+
+prescribed_strataero_datapath              = '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/ozone_strataero_day_5_zm'
+
+prescribed_strataero_file          = 'ozone_strataero_b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch_1850_1850_2021_transient_zm_5day_c20260618.nc'
+
+
+
 tracer_cnst_datapath           = '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/TracerCnstCyclical1850'
 
-
-
 tracer_cnst_file               = 'tracer_cnst_MTt4s_halons_3Dmonthly_1850climo330_c20260423.nc'
-
-
-
-prescribed_ozone_datapath              = '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/ozone_strataero_day_5_zm'
-
-
-
-prescribed_ozone_file          = 'ozone_strataero_b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix_1850_5_30_climo_zm_5day_c260424.nc'
-
-
-
-prescribed_strataero_datapath          = '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/ozone_strataero_day_5_zm'
-
-
-
- prescribed_strataero_file              = 'ozone_strataero_b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix_1850_5_30_climo_zm_5day_c260424.nc'
 
 
 
