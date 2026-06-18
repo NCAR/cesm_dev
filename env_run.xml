@@ -259,7 +259,7 @@
       Reference directory containing RUN_REFCASE data - used for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFCASE" value="case.std">
+    <entry id="RUN_REFCASE" value="b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.357">
       <type>char</type>
       <desc>
       Reference case for hybrid or branch runs
