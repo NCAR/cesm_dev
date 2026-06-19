@@ -109,3 +109,5 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-06-19 02:27:44: case.submit success case.run:6497385.desched1, case.st_archive:6497386.desched1
  ---------------------------------------------------
+2026-06-19 02:31:04: case.run starting 6497385.desched1
+ ---------------------------------------------------
