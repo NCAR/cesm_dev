@@ -5,4 +5,6 @@ reseed_dead_plants = .true.
 
 use_excess_ice_streams=.false. 
 
+use_init_interp = .true.
+
 / 

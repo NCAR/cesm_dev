@@ -51,3 +51,5 @@ Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF'
  - Checking for required input datasets in DIN_LOC_ROOT
 -------------------------------------------------------------------------
 run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_alpha09b.BHISTC_MTso.ne30_t233_wgx3.357/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha09b.BHISTC_MTso.ne30_t233_wgx3.357/run/med.log.6505507.desched1.260619-223424 
+ 

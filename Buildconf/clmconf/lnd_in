@@ -68,6 +68,7 @@
  use_hillslope = .false.
  use_hillslope_routing = .false.
  use_hydrstress = .true.
+ use_init_interp = .true.
  use_lai_streams = .false.
  use_lch4 = .true.
  use_luna = .true.
@@ -169,6 +170,7 @@
 /
 &clm_initinterp_inparm
  init_interp_fill_missing_urban_with_hd = .true.
+ init_interp_method = 'general'
 /
 &century_soilbgcdecompcascade
 /
