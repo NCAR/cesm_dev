@@ -141,8 +141,8 @@
          'SOAE -> 6.5013D0*/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20251030/XYLENES-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-202312_c20251030.nc',
          'SOAE -> 5.1004D0*/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-0_smoothed_20251102/MTERP_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112_c20251102.nc'
  srf_emis_type		= 'INTERP_MISSING_MONTHS'
- tracer_cnst_datapath		= '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/TracerCnstCyclical1850'
- tracer_cnst_file		= 'tracer_cnst_MTt4s_halons_3Dmonthly_1850climo330_c20260423.nc'
+ tracer_cnst_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/tracer_cnst'
+ tracer_cnst_file		= 'tracer_cnst_halons_3D_L70_1849-2015_CMIP6ensAvg_c180927.nc'
  tracer_cnst_filelist		= ''
  tracer_cnst_specifier		= 'O3','OH','NO3','HO2','HALONS'
  tracer_cnst_type		= 'INTERP_MISSING_MONTHS'
@@ -356,8 +356,8 @@
  effgw_beres_dp		= 0.15D0
  effgw_cm		= 1.D0
  effgw_movmtn_pbl		=  1.5d0   
- effgw_rdg_beta		= 0.75D0
- effgw_rdg_beta_max		= 0.75D0
+ effgw_rdg_beta		= 1.0D0
+ effgw_rdg_beta_max		= 1.0D0
  front_gaussian_width		=  30.D0 
  frontgfc		= 3.00D-15
  gw_apply_tndmax		= .false.
@@ -439,7 +439,7 @@
  microp_aero_wsubi_scale		=   1.5D0    
 /
 &ndep_stream_nl
- stream_ndep_data_filename		= '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/NDepositionCyclical1850/fndep_clm_MTt4s_3Dmonthly_1850climo330_c20260424.nc'
+ stream_ndep_data_filename		= '/glade/campaign/cesm/cesmdata/inputdata/lnd/clm2/ndepdata/fndep_clm_hist_b.e21.BWHIST.f09_g17.CMIP6-historical-WACCM.ensmean_1849-2015_monthly_0.9x1.25_c180926.nc'
  stream_ndep_mesh_filename		= '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/fv0.9x1.25_141008_polemod_ESMFmesh.nc'
  stream_ndep_year_align		= 1850
  stream_ndep_year_first		= 1850

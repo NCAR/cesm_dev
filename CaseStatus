@@ -34,3 +34,5 @@
  ---------------------------------------------------
 2026-06-19 22:25:50: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=spinup  </command>
  ---------------------------------------------------
+2026-06-19 22:27:09: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.357  </command>
+ ---------------------------------------------------
