@@ -1,6 +1,6 @@
 &comp_inparm 
 
- ncdata = 'b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.357.cam.i.0013-01-01-00000.nc'
+ ncdata = 'b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.357.cam.i.0025-01-01-00000.nc'
  cam_physics_mesh = '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/ne30pg3_ESMFmesh_cdf5_c20211018.nc'
  dtime = 1800
 mfilt               =       0,      0,     20,      40,      12,      120,      1,   1
