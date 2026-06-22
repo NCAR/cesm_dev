@@ -501,13 +501,13 @@
  waccmx_opt		= 'off'
 /
 &prescribed_ozone_nl
- prescribed_ozone_datapath		= '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/ozone_strataero_day_5_zm'
+ prescribed_ozone_datapath		= '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/ozone_strataero_day_5_zm/'
  prescribed_ozone_file		= 'ozone_strataero_b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch_1850_1850_2021_transient_zm_5day_c20260618.nc'
  prescribed_ozone_name		= 'O3'
  prescribed_ozone_type		= 'SERIAL'
 /
 &prescribed_strataero_nl
- prescribed_strataero_datapath		= '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/ozone_strataero_day_5_zm'
+ prescribed_strataero_datapath		= '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch/atm/proc/ozone_strataero_day_5_zm/'
  prescribed_strataero_file		= 'ozone_strataero_b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch_1850_1850_2021_transient_zm_5day_c20260618.nc'
  prescribed_strataero_type		= 'SERIAL'
  prescribed_strataero_use_chemtrop		=    .true.                                                                       
