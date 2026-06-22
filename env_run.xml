@@ -259,7 +259,7 @@
       Reference directory containing RUN_REFCASE data - used for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFCASE" value="b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.350">
+    <entry id="RUN_REFCASE" value="b.e30_alpha09a.B1850C_MTso.ne30_t233_wgx3.348">
       <type>char</type>
       <desc>
       Reference case for hybrid or branch runs
@@ -337,7 +337,7 @@
       sets model restart write date with REST_OPTION and REST_N
     </desc>
     </entry>
-    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl">
+    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl.0077-01-01-00000">
       <type>char</type>
       <desc>
       Name of the restart pointer file, this can be used to restart from an
