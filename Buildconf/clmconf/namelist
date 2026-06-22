@@ -1,6 +1,10 @@
 &comp_inparm 
 
-finidat = 'b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.350.clm2.r.0077-01-01-00000.nc'
+finidat = 'b.e30_alpha09a.B1850C_MTso.ne30_t233_wgx3.348.clm2.r.0213-01-01-00000.nc'
+use_init_interp = .true.
+
+finidat='/glade/derecho/scratch/gunterl/archive/CLM6_cesm30alpha09b_ne30pg3_CPLHIST_1850.350_DATM_start80/rest/0320-01-01-00000/CLM6_cesm30alpha09b_ne30pg3_CPLHIST_1850.350_DATM_start80.clm2.r.0320-01-01-00000.nc'
+
 reseed_dead_plants = .true.
 
 use_excess_ice_streams=.false. 

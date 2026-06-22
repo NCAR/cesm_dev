@@ -13,13 +13,13 @@
   history_file = "unknown"
   history_format = "default"
   history_precision = 4
-  ice_ic = "b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.350.cice.r.0077-01-01-00000.nc"
+  ice_ic = "b.e30_alpha09a.B1850C_MTso.ne30_t233_wgx3.348.cice.r.0213-01-01-00000.nc"
   latpnt = 90.0, -65.0
   lonpnt = 0.0, -45.0
   ndtd = 1
   numax = 99
   numin = 11
-  pointer_file = "rpointer.ice.0077-01-01-00000"
+  pointer_file = "rpointer.ice.0213-01-01-00000"
   print_global = .true.
   print_points = .false.
   restart_ext = .false.

@@ -82,7 +82,7 @@
 /
 &cam_initfiles_nl
  bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/se/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greenlndantarcsgh30fac2.50_20250828.nc'
- ncdata		= 'b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.350.cam.i.0077-01-01-00000.nc'
+ ncdata		= 'b.e30_alpha09a.B1850C_MTso.ne30_t233_wgx3.348.cam.i.0213-01-01-00000.nc'
  scale_dry_air_mass		=   98288.0D0 
  use_topo_file		=  .true.  
 /
