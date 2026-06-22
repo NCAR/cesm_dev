@@ -8,3 +8,5 @@
  ---------------------------------------------------
 2026-06-22 16:27:50: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
  ---------------------------------------------------
+2026-06-22 16:27:52: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha09a.B1850C_MTso.ne30_t233_wgx3.348  </command>
+ ---------------------------------------------------
