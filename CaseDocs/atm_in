@@ -501,14 +501,14 @@
  waccmx_opt		= 'off'
 /
 &prescribed_ozone_nl
- prescribed_ozone_datapath		= '/glade/derecho/scratch/hannay/'
- prescribed_ozone_file		= 'ozone_strataero_b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch_1850_1850_2021_transient_zm_5day_c20260618.nc'
+ prescribed_ozone_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/ozone_strataero'
+ prescribed_ozone_file		= 'ozone_strataero_WACCM_L70_zm5day_18500101-20150103_CMIP6ensAvg_c180923.nc'
  prescribed_ozone_name		= 'O3'
  prescribed_ozone_type		= 'SERIAL'
 /
 &prescribed_strataero_nl
- prescribed_strataero_datapath		= '/glade/derecho/scratch/hannay/'
- prescribed_strataero_file		= 'ozone_strataero_b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch_1850_1850_2021_transient_zm_5day_c20260618.nc'
+ prescribed_strataero_datapath		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/ozone_strataero'
+ prescribed_strataero_file		= 'ozone_strataero_WACCM_L70_zm5day_18500101-20150103_CMIP6ensAvg_c180923.nc'
  prescribed_strataero_type		= 'SERIAL'
  prescribed_strataero_use_chemtrop		=    .true.                                                                       
 /
