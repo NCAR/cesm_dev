@@ -84,3 +84,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha09b
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha09b.BHISTC_MTso.ne30_t233_wgx3.357/run/med.log.6505793.desched1.260619-224618 
  
  ---------------------------------------------------
+2026-06-21 21:31:42: xmlchange success <command> ./xmlchange RESUBMIT=1  </command>
+ ---------------------------------------------------
