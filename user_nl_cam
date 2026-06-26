@@ -87,3 +87,9 @@ clubb_tridiag_solve_method = 2
 effgw_rdg_beta         = 1.0D0
 effgw_rdg_beta_max             = 1.0D0
 
+prescribed_ozone_datapath              = '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/'
+prescribed_ozone_file          = 'ozone_strataero_b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch_1850_1850_2021_transient_zm_5day_c20260625.nc'
+
+prescribed_strataero_datapath          = '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/'
+prescribed_strataero_file          = 'ozone_strataero_b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch_1850_1850_2021_transient_zm_5day_c20260625.nc'
+
