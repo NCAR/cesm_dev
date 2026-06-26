@@ -387,3 +387,5 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-06-26 07:30:45: model execution starting 6566131.desched1
  ---------------------------------------------------
+2026-06-26 11:41:57: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------

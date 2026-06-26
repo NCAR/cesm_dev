@@ -430,7 +430,7 @@
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
-    <entry id="JOB_PRIORITY" value="premium">
+    <entry id="JOB_PRIORITY" value="regular">
       <type>char</type>
       <valid_values>regular,premium,economy</valid_values>
       <desc>job priority for systems supporting this option</desc>
