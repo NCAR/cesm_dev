@@ -1877,33 +1877,41 @@ contains
     real(r8),           intent(in)    :: dt_fvm
 
     real(r8) :: qtens(np,np,nlev,nets:nete)
-    integer  :: ie, k
+    real(r8) :: dt_sub
+    integer  :: ie, k, isub
+    integer, parameter :: hypervis_subcycle_cslam_q = 2
 
-    do ie = nets, nete
-      do k = 1, nlev
-        qtens(:,:,k,ie) = elem(ie)%state%Qdp(:,:,k,wv_idx_dycore,tl_qdp) &
-                         / elem(ie)%state%dp3d(:,:,k,tl_f)
+    dt_sub = dt_fvm / real(hypervis_subcycle_cslam_q, r8)
+
+    do isub = 1, hypervis_subcycle_cslam_q
+
+      do ie = nets, nete
+        do k = 1, nlev
+          qtens(:,:,k,ie) = elem(ie)%state%Qdp(:,:,k,wv_idx_dycore,tl_qdp) &
+                           / elem(ie)%state%dp3d(:,:,k,tl_f)
+        end do
       end do
-    end do
 
-    call biharmonic_wk_scalar1(elem, qtens, deriv, edgeQdp, hybrid, nets, nete)
+      call biharmonic_wk_scalar1(elem, qtens, deriv, edgeQdp, hybrid, nets, nete)
 
-    ! DSS the weak-form increment so it is continuous across element edges
-    ! before being added to Qdp.
-    do ie = nets, nete
-      call edgeVpack(edgeQdp, qtens(:,:,:,ie), nlev, 0, ie)
-    end do
-    call bndry_exchange(hybrid, edgeQdp, location='hypervis_Qdp')
-    do ie = nets, nete
-      call edgeVunpack(edgeQdp, qtens(:,:,:,ie), nlev, 0, ie)
-    end do
-
-    do ie = nets, nete
-      do k = 1, nlev
-        elem(ie)%state%Qdp(:,:,k,wv_idx_dycore,tl_qdp) = elem(ie)%state%Qdp(:,:,k,wv_idx_dycore,tl_qdp) &
-          - dt_fvm * nu_q_cslam * elem(ie)%state%dp3d(:,:,k,tl_f) &
-          * qtens(:,:,k,ie) * elem(ie)%rspheremp(:,:)
+      ! DSS the weak-form increment so it is continuous across element edges
+      ! before being added to Qdp.
+      do ie = nets, nete
+        call edgeVpack(edgeQdp, qtens(:,:,:,ie), nlev, 0, ie)
       end do
+      call bndry_exchange(hybrid, edgeQdp, location='hypervis_Qdp')
+      do ie = nets, nete
+        call edgeVunpack(edgeQdp, qtens(:,:,:,ie), nlev, 0, ie)
+      end do
+
+      do ie = nets, nete
+        do k = 1, nlev
+          elem(ie)%state%Qdp(:,:,k,wv_idx_dycore,tl_qdp) = elem(ie)%state%Qdp(:,:,k,wv_idx_dycore,tl_qdp) &
+            - dt_sub * nu_q_cslam * elem(ie)%state%dp3d(:,:,k,tl_f) &
+            * qtens(:,:,k,ie) * elem(ie)%rspheremp(:,:)
+        end do
+      end do
+
     end do
 
   end subroutine hypervis_Qdp
