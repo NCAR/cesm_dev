@@ -18,4 +18,6 @@ histaux_atm2med_file5_history_option = 'ndays'
 
 histaux_atm2med_file5_ntperfile = 1
 
+histaux_rof2med_file1_enabled = .true.
+
 / 
