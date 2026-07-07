@@ -838,3 +838,7 @@
  ---------------------------------------------------
 2026-07-07 10:54:12: case.submit starting 
  ---------------------------------------------------
+2026-07-07 10:54:15: case.submit error 
+ERROR: Command: 'qsub -q main -l walltime=12:00:00 -A CESM0023 -l job_priority=special -v ARGS_FOR_SCRIPT='--resubmit' /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.360/.case.run' failed with error 'Connection refused
+qsub: cannot connect to server desched (errno=15010)' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.360'
+ ---------------------------------------------------
