@@ -5,3 +5,4 @@
 DIAG_COORD_DEF_RHO2 = "FILE:ocean_rho2_190917.nc,interfaces=rho2"
 MLE_TAPER_FN_DEPTH = 1500.
 MLE_TAPER_FN_POWER = 4
+#override BBL_EFFIC = 0.2

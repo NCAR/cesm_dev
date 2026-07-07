@@ -20,4 +20,6 @@ histaux_atm2med_file5_ntperfile = 1
 
 histaux_rof2med_file1_enabled = .true.
 
+histaux_rof2med_file1_ntperfile = 8
+
 / 
