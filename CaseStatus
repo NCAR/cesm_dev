@@ -844,3 +844,5 @@ qsub: cannot connect to server desched (errno=15010)' from dir '/glade/campaign/
  ---------------------------------------------------
 2026-07-07 10:56:16: case.submit starting case.run:6658007.desched1, case.st_archive:6658008.desched1
  ---------------------------------------------------
+2026-07-07 10:56:18: case.submit success case.run:6658007.desched1, case.st_archive:6658008.desched1
+ ---------------------------------------------------
