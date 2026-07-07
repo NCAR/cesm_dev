@@ -401,7 +401,7 @@
       Set to TRUE when continuing a run.
     </desc>
     </entry>
-    <entry id="RESUBMIT" value="0">
+    <entry id="RESUBMIT" value="10">
       <type>integer</type>
       <desc>If RESUBMIT is greater than 0, then case will automatically resubmit
     Enables the model to automatically resubmit a new run.  To get
@@ -426,7 +426,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to determine whether run has been submitted with the submit script or not</desc>
     </entry>
-    <entry id="JOB_IDS" value="case.run:6653527.desched1, case.st_archive:6653528.desched1">
+    <entry id="JOB_IDS" value="case.run:6656876.desched1, case.st_archive:6656877.desched1">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
