@@ -852,3 +852,5 @@ qsub: cannot connect to server desched (errno=15010)' from dir '/glade/campaign/
  ---------------------------------------------------
 2026-07-07 22:22:04: model execution success 6656876.desched1
  ---------------------------------------------------
+2026-07-07 22:22:06: case.run success 6656876.desched1
+ ---------------------------------------------------
