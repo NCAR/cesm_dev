@@ -946,3 +946,5 @@ qsub: cannot connect to server desched (errno=15010)' from dir '/glade/campaign/
  ---------------------------------------------------
 2026-07-09 14:58:32:   Timing files created for run 6678357.desched1.260709-071840
  ---------------------------------------------------
+2026-07-09 14:58:55: st_archive starting 6678358.desched1
+ ---------------------------------------------------
