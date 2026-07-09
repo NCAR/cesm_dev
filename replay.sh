@@ -64,3 +64,5 @@ cd "${CASEDIR}"
 
 ./preview_namelists
 
+./xmlchange RESUBMIT=0
+
