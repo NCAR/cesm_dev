@@ -1,0 +1,27 @@
+!-----------------------------------------------------------------------
+! There are multiple user_nl_cism files in your case directory:
+!
+! - user_nl_cism is for:
+!   - settings that appear in cism_in; these are settings used by the
+!     CISM-wrapper layer (the layer sitting between the main CISM code
+!     and the rest of CESM), which apply to all ice sheets
+!   - settings that appear in the ice sheet-specific cism.config files,
+!     for which you want to make the same change for all ice sheets
+!
+! - user_nl_cism_icesheet (e.g., user_nl_cism_ais, user_nl_cism_gris)
+!   is for settings that appear in the ice sheet-specific cism.config
+!   files, for which you want to make a change for just one ice sheet
+!   (if you set the same variable in both user_nl_cism and
+!   user_nl_cism_icesheet, the latter will be used for the given ice
+!   sheet)
+!
+! Users should add all user specific namelist changes below using the
+! following syntax:
+!
+!   namelist_var = new_namelist_value
+!
+! In user_nl_cism, there is no distinction between variables that will
+! appear in cism_in and those that will appear in the cism.config files:
+! simply add a new variable setting here, and it will be added to the
+! appropriate place in cism_in or the cism.config files.
+!-----------------------------------------------------------------------
