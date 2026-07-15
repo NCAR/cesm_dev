@@ -42,3 +42,9 @@ cd "${CASEDIR}"
 
 ./xmlchange OCN_DIAG_MODE=spinup
 
+./preview_namelists
+
+./preview_namelists
+
+./xmlchange PROJECT=CESM0023,RESUBMIT=15,STOP_N=4,STOP_OPTION=nyears
+

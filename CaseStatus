@@ -32,3 +32,5 @@
  ---------------------------------------------------
 2026-07-14 21:44:04: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=spinup  </command>
  ---------------------------------------------------
+2026-07-14 21:44:43: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=15,STOP_N=4,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
