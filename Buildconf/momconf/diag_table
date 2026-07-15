@@ -2,186 +2,217 @@
 1 1 1 0 0 0
 ### Section-1: File List
 #========================
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr",                        1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr",                      1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr",                           1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr",                         5,  "days",   1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.static",                          -1, "days",   1, "days",   "time"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr",             1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr",             1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr",               1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr",            1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr",                1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr",              1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr",               1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr",             1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr",                 1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr",             1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr",    1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr",                1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr",            1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr",              1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr",      1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr",          1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr",        1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr",             1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr",                1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr",            1,  "years",  1, "days",   "time", 1, "years"
-"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr",             1,  "years",  1, "days",   "time", 1, "years"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo",                        1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo",                      1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo",                           1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo",                         1,  "days",   1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.static",                               -1, "days",   1, "days",   "time"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr-%2mo",               1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr-%2mo",            1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr-%2mo",                1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr-%2mo",              1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr-%2mo",               1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr-%2mo",                 1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr-%2mo",    1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr-%2mo",                1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr-%2mo",            1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr-%2mo",              1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr-%2mo",      1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr-%2mo",          1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr-%2mo",        1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr-%2mo",                1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr-%2mo",            1,  "months", 1, "days",   "time", 1, "months"
+"b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr-%2mo",             1,  "months", 1, "days",   "time", 1, "months"
 
 ### Section-2: Fields List
 #=========================
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr"
-"ocean_model_rho2", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr", "all", "mean", "none", 2
-"ocean_model_rho2", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr", "all", "mean", "none", 2
-"ocean_model_rho2", "vhGM",    "vhGM",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr", "all", "mean", "none", 2
-"ocean_model_rho2", "vhml",    "vhml",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr", "all", "mean", "none", 2
-"ocean_model_rho2", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr", "all", "mean", "none", 2
-"ocean_model_rho2", "uhGM",    "uhGM",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr", "all", "mean", "none", 2
-"ocean_model_rho2", "uhml",    "uhml",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr", "all", "mean", "none", 2
-"ocean_model_rho2", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr", "all", "mean", "none", 2
-"ocean_model_rho2", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr", "all", "mean", "none", 2
-"ocean_model_rho2", "agessc",  "agessc",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr", "all", "mean", "none", 2
-"ocean_model_rho2", "e",       "e",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr", "all", "mean", "none", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo"
+"ocean_model_rho2", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "vhGM",    "vhGM",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "vhml",    "vhml",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "uhGM",    "uhGM",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "uhml",    "uhml",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "agessc",  "agessc",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "e",       "e",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr"
-"ocean_model", "soga",         "soga",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "thetaoga",     "thetaoga",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "uh",           "uh",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "vh",           "vh",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "vhbt",         "vhbt",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "uhbt",         "uhbt",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "rsdo",         "rsdo",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "agessc",       "agessc",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "T_ady_2d",     "T_ady_2d",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "T_adx_2d",     "T_adx_2d",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "T_diffy_2d",   "T_diffy_2d",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "T_diffx_2d",   "T_diffx_2d",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "T_hbd_diffx_2d","T_hbd_diffx_2d","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "T_hbd_diffy_2d","T_hbd_diffy_2d","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "diftrelo",     "diftrelo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "diftrblo",     "diftrblo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "difmxybo",     "difmxybo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "difmxylo",     "difmxylo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "volcello",     "volcello",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "vmo",          "vmo",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "vhGM",         "vhGM",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "vhml",         "vhml",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "umo",          "umo",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "uhGM",         "uhGM",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "uhml",         "uhml",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "uo",           "uo",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "vo",           "vo",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "h",            "h",            "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "e",            "e",            "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "thetao",       "thetao",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "so",           "so",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "KE",           "KE",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "MEKE",         "MEKE",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "rhopot0",      "rhopot0",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "rhopot2",      "rhopot2",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "difvho",       "difvho",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "difvso",       "difvso",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "Kv_u",         "Kv_u",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "Kv_v",         "Kv_v",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "taux_bot",     "taux_bot",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "tauy_bot",     "tauy_bot",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "KPP_OBLdepth", "oml",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "KPP_OBLdepth", "oml_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "min", "none", 2
-"ocean_model", "KPP_OBLdepth", "oml_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "max", "none", 2
-"ocean_model", "tauuo",        "tauuo",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "tauvo",        "tauvo",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "friver",       "friver",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "prsn",         "prsn",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "prlq",         "prlq",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "evs",          "evs",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "hfsso",        "hfsso",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "rlntds",       "rlntds",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "hfsnthermds",  "hfsnthermds",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "sfdsi",        "sfdsi",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "rsntds",       "rsntds",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "hfds",         "hfds",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "ustar",        "ustar",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "hfsifrazil",   "hfsifrazil",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "wfo",          "wfo",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "ficeberg",     "ficeberg",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "fsitherm",     "fsitherm",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "hflso",        "hflso",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "pso",          "pso",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "seaice_melt_heat","seaice_melt_heat","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "Heat_PmE",     "Heat_PmE",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "heat_content_lrunoff","heat_content_lrunoff","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "heat_content_frunoff","heat_content_frunoff","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "heat_content_lprec","heat_content_lprec","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "heat_content_fprec","heat_content_fprec","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "heat_content_cond","heat_content_cond","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "heat_content_evap","heat_content_evap","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "tos",          "tos",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "tos",          "tos_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "min", "none", 2
-"ocean_model", "tos",          "tos_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "max", "none", 2
-"ocean_model", "sos",          "sos",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "sos",          "sos_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "min", "none", 2
-"ocean_model", "sos",          "sos_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "max", "none", 2
-"ocean_model", "SSU",          "SSU",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "SSV",          "SSV",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "opottempmint", "opottempmint", "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "somint",       "somint",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "Rd_dx",        "Rd_dx",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "speed",        "speed",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "mlotst",       "mlotst",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "mlotst",       "mlotst_min",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "min", "none", 2
-"ocean_model", "mlotst",       "mlotst_max",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "max", "none", 2
-"ocean_model", "tosga",        "tosga",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "sosga",        "sosga",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "SSH",          "SSH",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "mass_wt",      "mass_wt",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "frunoff_glc",  "frunoff_glc",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "lrunoff_glc",  "lrunoff_glc",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
-"ocean_model", "heat_content_frunoff_glc","heat_content_frunoff_glc","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr", "all", "mean", "none", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo"
+"ocean_model", "MLD_restrat",         "MLD_restrat",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "BLD_restrat",         "BLD_restrat",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "soga",         "soga",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "thetaoga",     "thetaoga",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uh",           "uh",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vh",           "vh",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vhbt",         "vhbt",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uhbt",         "uhbt",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rsdo",         "rsdo",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "agessc",       "agessc",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_ady_2d",     "T_ady_2d",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_adx_2d",     "T_adx_2d",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_diffy_2d",   "T_diffy_2d",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_diffx_2d",   "T_diffx_2d",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_hbd_diffx_2d","T_hbd_diffx_2d","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_hbd_diffy_2d","T_hbd_diffy_2d","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "diftrelo",     "diftrelo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "diftrblo",     "diftrblo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difmxybo",     "difmxybo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difmxylo",     "difmxylo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "volcello",     "volcello",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vmo",          "vmo",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vhGM",         "vhGM",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vhml",         "vhml",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "umo",          "umo",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uhGM",         "uhGM",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uhml",         "uhml",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uo",           "uo",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vo",           "vo",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "h",            "h",            "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "e",            "e",            "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "thetao",       "thetao",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "so",           "so",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KE",           "KE",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "MEKE",         "MEKE",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rhopot0",      "rhopot0",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rhopot2",      "rhopot2",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difvho",       "difvho",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difvso",       "difvso",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Kv_u",         "Kv_u",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Kv_v",         "Kv_v",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "taux_bot",     "taux_bot",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tauy_bot",     "tauy_bot",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "tauuo",        "tauuo",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tauvo",        "tauvo",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "friver",       "friver",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "prsn",         "prsn",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "prlq",         "prlq",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "evs",          "evs",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfsso",        "hfsso",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rlntds",       "rlntds",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfsnthermds",  "hfsnthermds",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sfdsi",        "sfdsi",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rsntds",       "rsntds",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfds",         "hfds",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "ustar",        "ustar",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfsifrazil",   "hfsifrazil",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "wfo",          "wfo",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "ficeberg",     "ficeberg",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "fsitherm",     "fsitherm",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hflso",        "hflso",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "pso",          "pso",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "seaice_melt_heat","seaice_melt_heat","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Heat_PmE",     "Heat_PmE",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_lrunoff","heat_content_lrunoff","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_frunoff","heat_content_frunoff","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_lprec","heat_content_lprec","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_fprec","heat_content_fprec","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_cond","heat_content_cond","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_evap","heat_content_evap","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "tos",          "tos_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "sos",          "sos",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sos",          "sos_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "sos",          "sos_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "SSU",          "SSU",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSV",          "SSV",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottempmint", "opottempmint", "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "somint",       "somint",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Rd_dx",        "Rd_dx",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "speed",        "speed",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst_min",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "mlotst",       "mlotst_max",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "tosga",        "tosga",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sosga",        "sosga",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSH",          "SSH",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mass_wt",      "mass_wt",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "dispkexyfo",   "dispkexyfo",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfibthermds",  "hfibthermds",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotstsq",     "mlotstsq",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "pbo",          "pbo",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_adx_2d",     "S_adx_2d",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_ady_2d",     "S_ady_2d",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sob",          "sob",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sossq",        "sossq",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tob",          "tob",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tossq",        "tossq",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "zos",          "zos",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "zossq",        "zossq",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "BS_coeff_h",   "BS_coeff_h",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "skeb_amp",     "skeb_amp",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "frunoff_glc",  "frunoff_glc",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "lrunoff_glc",  "lrunoff_glc",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_frunoff_glc","heat_content_frunoff_glc","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr"
-"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "h",       "h",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "agessc",  "agessc",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "rhopot0", "rhopot0", "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "N2_int",  "N2_int",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "rhopot2", "rhopot2", "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "difvho",  "difvho",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "difvso",  "difvso",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "Kv_u",    "Kv_u",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "Kv_v",    "Kv_v",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "vhGM",    "vhGM",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "vhml",    "vhml",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "uhGM",    "uhGM",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
-"ocean_model_z", "uhml",    "uhml",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr", "all", "mean", "none", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo"
+"ocean_model_z", "uo",           "uo",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vo",           "vo",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "h",            "h",            "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "thetao",       "thetao",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "so",           "so",           "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "agessc",       "agessc",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "rhopot0",      "rhopot0",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "N2_int",       "N2_int",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "rhopot2",      "rhopot2",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "difvho",       "difvho",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "difvso",       "difvso",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "Kv_u",         "Kv_u",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "Kv_v",         "Kv_v",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "volcello",     "volcello",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vmo",          "vmo",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vhGM",         "vhGM",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vhml",         "vhml",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "umo",          "umo",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "uhGM",         "uhGM",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "uhml",         "uhml",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "diftrelo",     "diftrelo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "diftrblo",     "diftrblo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "difmxybo",     "difmxybo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "difmxylo",     "difmxylo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "opottempdiff", "opottempdiff", "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "T_advection_xy","T_advection_xy","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "opottemptend", "opottemptend", "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "osaltdiff",    "osaltdiff",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "S_advection_xy","S_advection_xy","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "osalttend",    "osalttend",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "rsdoabsorb",   "rsdoabsorb",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr"
-"ocean_model", "tos",          "tos",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "tos",          "tos_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "min", "none", 2
-"ocean_model", "tos",          "tos_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "max", "none", 2
-"ocean_model", "sos",          "sos",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "sos",          "sos_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "min", "none", 2
-"ocean_model", "sos",          "sos_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "max", "none", 2
-"ocean_model", "SSU",          "SSU",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "SSV",          "SSV",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "opottempmint", "opottempmint", "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "somint",       "somint",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "Rd_dx",        "Rd_dx",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "speed",        "speed",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "mlotst",       "mlotst",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "mlotst",       "mlotst_min",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "min", "none", 2
-"ocean_model", "mlotst",       "mlotst_max",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "max", "none", 2
-"ocean_model", "zos",          "zos",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "zossq",        "zossq",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "KPP_OBLdepth", "oml",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "mean", "none", 2
-"ocean_model", "KPP_OBLdepth", "oml_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "min", "none", 2
-"ocean_model", "KPP_OBLdepth", "oml_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr", "all", "max", "none", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo"
+"ocean_model", "tos",          "tos",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "tos",          "tos_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "sos",          "sos",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sos",          "sos_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "sos",          "sos_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "SSU",          "SSU",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSV",          "SSV",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottempmint", "opottempmint", "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "somint",       "somint",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Rd_dx",        "Rd_dx",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "speed",        "speed",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst",       "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst_min",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "mlotst",       "mlotst_max",   "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "zos",          "zos",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "zossq",        "zossq",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml",          "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_min",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_max",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "tossq",        "tossq",        "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rsdo",         "rsdo",         "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_adx_2d",     "T_adx_2d",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_ady_2d",     "T_ady_2d",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
 
 # "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.static"
 "ocean_model", "geolon",      "geolon",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.static", "all", ".false.", "none", 2
@@ -210,150 +241,150 @@
 "ocean_model", "skeb_taper_u","skeb_taper_u","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.static", "all", ".false.", "none", 2
 "ocean_model", "Geo_heat",    "Geo_heat",    "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.static", "all", ".false.", "none", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
-"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
-"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Agulhas_Section%4yr-%2mo", "all", ".true.", "20.1 20.1 -69.8 -34.6 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr-%2mo", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr-%2mo", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr-%2mo", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr-%2mo", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Barents_Opening%4yr-%2mo", "all", ".true.", "-5.75 19.0  78.93 78.93 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr-%2mo", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr-%2mo", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr-%2mo", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr-%2mo", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bering_Strait%4yr-%2mo", "all", ".true.", "-174.5 -172.3 66.6 66.6 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr-%2mo", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr-%2mo", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr-%2mo", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr-%2mo", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Bosphorus_Strait%4yr-%2mo", "all", ".true.", "28.3 29.0 42.9 42.9 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr-%2mo", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr-%2mo", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr-%2mo", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr-%2mo", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Davis_Strait%4yr-%2mo", "all", ".true.", "-53.1 -46.2 69.5 69.5 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr-%2mo", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr-%2mo", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr-%2mo", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr-%2mo", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Denmark_Strait%4yr-%2mo", "all", ".true.", "-38.0 -22.5 65.0 65.0 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
-"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
-"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr-%2mo", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr-%2mo", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr-%2mo", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr-%2mo", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Drake_Passage%4yr-%2mo", "all", ".true.", "-67.0 -67.0 -67.2 -55.1 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
-"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
-"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr-%2mo", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr-%2mo", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr-%2mo", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr-%2mo", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.English_Channel%4yr-%2mo", "all", ".true.", "-0.333 -0.333 51.1 51.7 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Fram_Strait%4yr-%2mo", "all", ".true.", "-21.0 -10.4 80.5 80.5 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas%4yr-%2mo", "all", ".true.", "-80.26 -78.24 25.5 25.5 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Bahamas_extended%4yr-%2mo", "all", ".true.", "-78.0 -72.0 24.5 24.5 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
-"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
-"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr-%2mo", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr-%2mo", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr-%2mo", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr-%2mo", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Florida_Cuba%4yr-%2mo", "all", ".true.", "-80.75 -80.75 23.0 25.5 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
-"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
-"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Gibraltar_Strait%4yr-%2mo", "all", ".true.", "-6.3 -6.3 35.7 36.4 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Iceland_Norway%4yr-%2mo", "all", ".true.", "-17.0 1.5 65.0 65.0 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr-%2mo", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr-%2mo", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr-%2mo", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr-%2mo", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Indonesian_Throughflow%4yr-%2mo", "all", ".true.", "-246.5 -220.8 -7.0 -7.0 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr-%2mo", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr-%2mo", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr-%2mo", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr-%2mo", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Mozambique_Channel%4yr-%2mo", "all", ".true.", "39.9 44.7 -16.25 -16.25 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
-"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
-"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr-%2mo", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr-%2mo", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr-%2mo", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr-%2mo", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Pacific_undercurrent%4yr-%2mo", "all", ".true.", "-155.0 -155.0 -2.0 2.0 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
-"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
-"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr-%2mo", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr-%2mo", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr-%2mo", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr-%2mo", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Robeson_Channel%4yr-%2mo", "all", ".true.", "-34.8 -34.8 83.07 83.70 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
-"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
-"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr-%2mo", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr-%2mo", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr-%2mo", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
+"ocean_model_z", "umo",     "umo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr-%2mo", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
+"ocean_model_z", "uo",      "uo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Taiwan_Luzon%4yr-%2mo", "all", ".true.", "-239.0 -239.0 18.5 22.45 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr-%2mo", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr-%2mo", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr-%2mo", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr-%2mo", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Windward_Passage%4yr-%2mo", "all", ".true.", "-74.35 -73.0 19.92 19.92 -1 -1", 2
 
-# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr"
-"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
-"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
-"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
-"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
-"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
+# "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr-%2mo", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
+"ocean_model_z", "thetao",  "thetao",  "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr-%2mo", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
+"ocean_model_z", "so",      "so",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr-%2mo", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
+"ocean_model_z", "vmo",     "vmo",     "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr-%2mo", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
+"ocean_model_z", "vo",      "vo",      "b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.mom6.h.Yucatan_Channel%4yr-%2mo", "all", ".true.", "-87.0 -85.0 21.785 21.785 -1 -1", 2
 
