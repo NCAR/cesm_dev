@@ -22,3 +22,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDATE=0139-01-01
 
+./xmlchange RUN_TYPE=hybrid
+
