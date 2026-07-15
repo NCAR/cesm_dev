@@ -30,3 +30,5 @@ cd "${CASEDIR}"
 
 ./xmlchange OCN_DIAG_MODE=spinup
 
+./xmlchange RUN_REFCASE=bg.e30_alpha09b.B1850C_MTso.ne30_t233_wgx3.360a
+
