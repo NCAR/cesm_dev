@@ -1,0 +1,15 @@
+#!/bin/bash -e
+
+# Batch system directives
+#PBS -N cupid.b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.367
+#PBS  -r n 
+#PBS  -j oe 
+#PBS  -S /bin/bash  
+#PBS  -l select=1:ncpus=1:mpiprocs=1:ompthreads=1:mem=10GB
+
+# Set environment for CESM
+source .env_mach_specific.sh
+
+# Run shell script in CUPiD external
+CUPID_ROOT=`./xmlquery --value CUPID_ROOT`
+(. ${CUPID_ROOT}/helper_scripts/cesm_postprocessing.sh)
