@@ -3,7 +3,7 @@
 <config_definition>
 
 <commandline>
-/glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/cam/bld/configure -s -fc_type intel -dyn se -hgrid ne30np4.pg3 -cpl nuopc -usr_src /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris.ne30_t233_wgx3.369/SourceMods/src.cam -spmd -nosmp -phys cam7 -model_top mt
+/glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/cam/bld/configure -s -fc_type intel -dyn se -hgrid ne30np4.pg3 -cpl nuopc -usr_src /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris.ne30_t233_wgx3.369/SourceMods/src.cam -spmd -nosmp -phys cam7 -model_top mt -pcols 9
 </commandline>
 <entry id="age_of_air_trcs" value="0" list="" valid_values="0,1">
 Switch on (off) age of air tracers: 0=off, 1=on.
@@ -228,7 +228,7 @@ Switch to turn on FV offline driver: 0 => no, 1 => yes.
 PBL package: uw (University of Washington), hb (Holtslag and Boville), hbr
  (Holtslag, Boville, and Rasch), clubb_sgs, none.
 </entry>
-<entry id="pcols" value="16" list="" valid_values="">
+<entry id="pcols" value="9" list="" valid_values="">
 Maximum number of columns in a chunk (physics data structure).
 </entry>
 <entry id="pergro" value="0" list="" valid_values="0,1">
