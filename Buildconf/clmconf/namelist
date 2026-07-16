@@ -1,5 +1,10 @@
 &comp_inparm 
 
+finidat = 'b.e30_alpha09b.B1850C_MTso_Gris.ne30_t233_wgx3.366.clm2.r.0021-01-01-00000.nc'
+use_init_interp = .true.
 
+reseed_dead_plants = .true.
+
+use_excess_ice_streams=.false. 
 
 / 
