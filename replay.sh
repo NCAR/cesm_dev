@@ -30,3 +30,7 @@ cd "${CASEDIR}"
 
 ./xmlchange OCN_DIAG_MODE=spinup
 
+./preview_namelists
+
+./xmlchange JOB_PRIORITY=special --force
+

@@ -22,3 +22,5 @@
  ---------------------------------------------------
 2026-07-17 14:45:01: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=spinup  </command>
  ---------------------------------------------------
+2026-07-17 14:45:32: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
