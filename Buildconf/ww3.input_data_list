@@ -1,0 +1,8 @@
+prestage_wind = /glade/campaign/cesm/cesmdata/inputdata/wav/ww3/core2_G4_wns_30min_20000601_to_05.nc
+prestage_mod_def = /glade/campaign/cesm/cesmdata/inputdata/wav/ww3/G4L1.mod_def.ww3.121031
+grid_inp_mapsta = /glade/campaign/cesm/cesmdata/inputdata/wav/ww3/grid_inp.wgx3v7.260527/g37_mapsta.inp
+grid_inp_bottom = /glade/campaign/cesm/cesmdata/inputdata/wav/ww3/grid_inp.wgx3v7.260527/g37_bottom.inp
+grid_inp_y = /glade/campaign/cesm/cesmdata/inputdata/wav/ww3/grid_inp.wgx3v7.260527/g37_y.inp
+grid_inp_x = /glade/campaign/cesm/cesmdata/inputdata/wav/ww3/grid_inp.wgx3v7.260527/g37_x.inp
+grid_inp = /glade/campaign/cesm/cesmdata/inputdata/wav/ww3/grid_inp.wgx3v7.260527/ww3_grid.inp
+grid_inp_strt = /glade/campaign/cesm/cesmdata/inputdata/wav/ww3/grid_inp.wgx3v7.260527/ww3_strt.inp
