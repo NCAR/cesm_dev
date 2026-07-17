@@ -297,14 +297,14 @@
       Run start time-of-day, units are seconds with values from 0 to 86400.
     </desc>
     </entry>
-    <entry id="STOP_OPTION" value="ndays">
+    <entry id="STOP_OPTION" value="nyears">
       <type>char</type>
       <valid_values>none,never,nsteps,nseconds,nminutes,nhours,ndays,nmonths,nyears,date,end</valid_values>
       <desc>
       Sets the run length along with STOP_N and STOP_DATE
     </desc>
     </entry>
-    <entry id="STOP_N" value="5">
+    <entry id="STOP_N" value="1">
       <type>integer</type>
       <desc>
       Provides a numerical count for $STOP_OPTION.
