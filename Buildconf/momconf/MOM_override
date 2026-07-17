@@ -6,3 +6,5 @@
 MLE_TAPER_FN_DEPTH = 2000.
 MLE_TAPER_FN_POWER = 4
 #override BBL_EFFIC = 0.2
+#override MARBL_TRACERS_IC_FILE = "/glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/ecosys_jan_IC_omip_latlon_1x1_180W_c250613.nc"
+#override MARBL_TRACERS_IC_FILE_IS_Z = True
