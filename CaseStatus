@@ -36,3 +36,5 @@
  ---------------------------------------------------
 2026-07-17 14:42:08: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=0,STOP_N=1,STOP_OPTION=nyears  </command>
  ---------------------------------------------------
+2026-07-17 14:42:10: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
+ ---------------------------------------------------
