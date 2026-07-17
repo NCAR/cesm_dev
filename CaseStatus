@@ -20,3 +20,5 @@
  ---------------------------------------------------
 2026-07-17 14:44:59: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2026-07-17 14:45:01: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=spinup  </command>
+ ---------------------------------------------------

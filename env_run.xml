@@ -1306,7 +1306,7 @@ Caveats:
            parameterization is used.
     </desc>
     </entry>
-    <entry id="OCN_DIAG_MODE" value="production">
+    <entry id="OCN_DIAG_MODE" value="spinup">
       <type>char</type>
       <valid_values>spinup,production,development,none</valid_values>
       <desc> This variable is used to choose from a set of predefined ocean diagnostics configurations.
