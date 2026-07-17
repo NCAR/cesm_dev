@@ -43,14 +43,14 @@
     <entry id="NTASKS">
       <type>integer</type>
       <values>
-        <value compclass="ATM">-3</value>
-        <value compclass="CPL">-3</value>
-        <value compclass="OCN">-1</value>
-        <value compclass="WAV">-1</value>
-        <value compclass="GLC">-1</value>
-        <value compclass="ICE">-2</value>
-        <value compclass="ROF">-1</value>
-        <value compclass="LND">-1</value>
+        <value compclass="ATM">5400</value>
+        <value compclass="CPL">5400</value>
+        <value compclass="OCN">940</value>
+        <value compclass="WAV">104</value>
+        <value compclass="GLC">104</value>
+        <value compclass="ICE">5400</value>
+        <value compclass="ROF">104</value>
+        <value compclass="LND">5400</value>
         <value compclass="ESP">1</value>
       </values>
       <desc>number of tasks for each component</desc>
@@ -58,13 +58,13 @@
     <entry id="NTASKS_PER_INST">
       <type>integer</type>
       <values>
-        <value compclass="ATM">384</value>
-        <value compclass="OCN">128</value>
-        <value compclass="WAV">128</value>
-        <value compclass="GLC">128</value>
-        <value compclass="ICE">256</value>
-        <value compclass="ROF">128</value>
-        <value compclass="LND">128</value>
+        <value compclass="ATM">5400</value>
+        <value compclass="OCN">940</value>
+        <value compclass="WAV">104</value>
+        <value compclass="GLC">104</value>
+        <value compclass="ICE">5400</value>
+        <value compclass="ROF">104</value>
+        <value compclass="LND">5400</value>
         <value compclass="ESP">1</value>
       </values>
       <desc>Number of tasks per instance for each component. DO NOT EDIT: Set automatically by case.setup based on NTASKS, NINST and MULTI_DRIVER</desc>
@@ -89,11 +89,11 @@
       <values>
         <value compclass="ATM">0</value>
         <value compclass="CPL">0</value>
-        <value compclass="OCN">-3</value>
-        <value compclass="WAV">0</value>
-        <value compclass="GLC">0</value>
-        <value compclass="ICE">-1</value>
-        <value compclass="ROF">0</value>
+        <value compclass="OCN">5504</value>
+        <value compclass="WAV">5400</value>
+        <value compclass="GLC">5400</value>
+        <value compclass="ICE">0</value>
+        <value compclass="ROF">5400</value>
         <value compclass="LND">0</value>
         <value compclass="ESP">0</value>
       </values>
@@ -137,11 +137,11 @@
     </entry>
   </group>
   <group id="mach_pes_last">
-    <entry id="COST_PES" value="512">
+    <entry id="COST_PES" value="6528">
       <type>integer</type>
       <desc>pes or cores used relative to MAX_MPITASKS_PER_NODE for accounting (0 means TOTALPES is valid)</desc>
     </entry>
-    <entry id="TOTALPES" value="512">
+    <entry id="TOTALPES" value="6444">
       <type>integer</type>
       <desc>total number of MPI tasks (setup automatically - DO NOT EDIT)</desc>
     </entry>

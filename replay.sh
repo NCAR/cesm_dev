@@ -74,3 +74,11 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./case.setup --reset
+
+./case.setup
+
+./preview_namelists
+
+./xmlchange CAM_CONFIG_OPTS=" -pcols 9" --append
+
