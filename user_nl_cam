@@ -1,3 +1,73 @@
-! Users should add all user specific namelist changes below in the form of 
-! namelist_var = new_namelist_value 
- 
+mfilt               =       0,      0,     20,      40,      12,      120,      1,   1
+nhtfrq              =       0,      0,    -24,      -3,       0,       -2,      0,  -8760
+ndens               =       2,       2,      2,       2,       2,        1,      2,   1
+interpolate_output  =  .true.,  .false., .true.,  .true., .false.,   .true.,     .true.
+interpolate_nlat    =     192,     192,    192,     192,      192,     192,      192
+interpolate_nlon    =     288,     288,    288,     288,      288,     288,      288
+
+empty_htapes = .true.
+
+fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODDUSTdn','AODVIS', 'AODVISdn','BURDENBC',
+'BURDENDUST', 'BURDENPOM', 'BURDENSEASALT',
+'BURDENSO4', 'BURDENSOA', 'CAPE', 'CDNUMC',  'CLDHGH', 'CLDICE', 'CLDLIQ', 'CLDLOW',
+'CLDMED', 'CLDTOT', 'CLOUD', 
+'FCTI', 'FCTL', 'FLDS', 'FLNS', 'FLNSC', 'FLNT', 'FLNTC', 'FLUT',
+'FREQZM', 'FSDS', 'FSDSC', 'FSNS', 'FSNSC', 'FSNT', 'FSNTC', 'FSNTOA', 'ICEFRAC', 'LANDFRAC', 'LHFLX', 'LWCF',
+'OCNFRAC', 'OMEGA', 'OMEGA500', 'PBLH', 'PHIS', 'PINT', 'PMID', 'PRECC', 'PRECL', 'PRECSC', 'PRECSL', 'PRECT', 'PS', 'PSL',  'Q',
+'QFLX', 'RELHUM', 'SHFLX', 'SOLIN', 'SST',
+'SWCF',
+'T', 'TAUX', 'TAUY', 'TFIX', 'TGCLDIWP', 'TGCLDLWP', 'TMQ', 'TREFHT', 'TS', 'U', 'U10',
+'UBOT', 
+'V', 'VBOT', 'Z3', 
+'AODVISdn', 'CDNUMC',  'NUMICE', 'NUMLIQ','OMEGA500',
+ 'AQSO4_H2O2','AQSO4_O3', 
+'ncl_a1SFWET',
+'ncl_a2SFWET', 'ncl_a3SFWET', 'pom_a1SFWET', 'pom_a4SFWET', 'so4_a1SFWET', 'so4_a2SFWET', 'so4_a3SFWET', 'soa_a1SFWET',
+'soa_a2SFWET', 'bc_c1SFWET', 'bc_c4SFWET', 'dst_c1SFWET', 'dst_c2SFWET', 'dst_c3SFWET', 'ncl_c1SFWET', 'ncl_c2SFWET',
+'ncl_c3SFWET', 'pom_c1SFWET', 'pom_c4SFWET', 'so4_c1SFWET', 'so4_c2SFWET', 'so4_c3SFWET', 'soa_c1SFWET', 'soa_c2SFWET',
+'bc_a1DDF', 'bc_a4DDF', 'dst_a1DDF', 'dst_a2DDF', 'dst_a3DDF', 'ncl_a1DDF', 'ncl_a2DDF', 'ncl_a3DDF',
+'pom_a1DDF', 'pom_a4DDF', 'so4_a1DDF', 'so4_a2DDF', 'so4_a3DDF', 'soa_a1DDF', 'soa_a2DDF',
+'so4_a1_CLXF', 'so4_a2_CLXF', 'SFbc_a4', 'SFpom_a4', 'SFso4_a1', 'SFso4_a2',
+'so4_a1_sfgaex1', 'so4_a2_sfgaex1', 'so4_a3_sfgaex1', 'soa_a1_sfgaex1', 'soa_a2_sfgaex1',
+'SFdst_a1','SFdst_a2', 'SFdst_a3', 'SFncl_a1', 'SFncl_a2', 'SFncl_a3',
+'num_a2_sfnnuc1', 'SFSO2', 'OCN_FLUX_DMS', 'SAD_SULFC', 'SAD_TROP', 'SAD_AERO',
+'AODVISstdn', 'REFF_AERO', 'so4_a1', 'so4_a2', 'SAD_AERO', 'PS', 'TROP_P', 'FSNTOAC',
+'AODSSdn', 'AODSSdn', 'BURDENSO4dn', 'AODVISdn', 'AODVISstdn',
+'AODBCdn','AODSOAdn','AODSSdn','AODPOMdn','AODSO4dn', 'AODDUSTdn','AODVISdn', 'AODVISstdn','BURDENSO4dn', 'SFDMS','BURDENBCdn', 'BURDENDUSTdn', 
+'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn', 'AODBCdn','AODSOAdn','AODSSdn','AODPOMdn','AODSO4dn', 'AODDUSTdn','AODVISdn', 'AODVISstdn','BURDENSO4dn', 'SFDMS','BURDENBCdn', 'BURDENDUSTdn', 'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn', 
+'CCN3', 'CFC11', 'CFC12', 'CH4','CO2', 'EXTINCTdn', 'N2O', 
+'EFIX'
+
+fincl3 = 'PRECT', 'PRECC', 'FLUT', 'U850', 'U200', 'V850', 'V200', 'OMEGA500', 'TS', 'SST', 'PSL', 'Z500'
+
+fincl4 =  'PRECC','PRECL'
+
+seasalt_emis_scale= 1.6D0
+
+!tracer_cnst_datapath           = '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/TracerCnstCyclical1850'
+tracer_cnst_datapath = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/TracerCnstFileCyclic1850'
+
+!tracer_cnst_file               = 'tracer_cnst_MTt4s_halons_3Dmonthly_1850climo330_c20260423.nc'
+tracer_cnst_file = 'tracer_cnst_MTt4s_halons_3Dmonthly_1850climo360_c20260706.nc'
+
+!prescribed_ozone_datapath              = '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/ozone_strataero_day_5_zm'
+prescribed_ozone_datapath = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/ozone_strataero_day_5_zm'
+
+!prescribed_ozone_file          = 'ozone_strataero_b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix_1850_5_30_climo_zm_5day_c260424.nc'
+prescribed_ozone_file = 'ozone_strataero_b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360_1850_0005_0030_transient_zm_5day_c20260706.nc'
+
+!prescribed_strataero_datapath          = '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/ozone_strataero_day_5_zm'
+prescribed_strataero_datapath = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/ozone_strataero_day_5_zm'
+
+!prescribed_strataero_file              = 'ozone_strataero_b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix_1850_5_30_climo_zm_5day_c260424.nc'
+prescribed_strataero_file = 'ozone_strataero_b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360_1850_0005_0030_transient_zm_5day_c20260706.nc'
+
+!stream_ndep_data_filename              = '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/NDepositionCyclical1850/fndep_clm_MTt4s_3Dmonthly_1850climo330_c20260424.nc'
+stream_ndep_data_filename = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/NDepositionCyclic1850/fndep_clm_MTt4s_3Dmonthly_1850climo330_c20260706.nc'
+
+clubb_gamma_coef                =  0.298
+clubb_gamma_coefb               =  0.298
+
+clubb_penta_solve_method = 2
+clubb_tridiag_solve_method = 2
+
