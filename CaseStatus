@@ -82,3 +82,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha09d
  ---------------------------------------------------
 2026-07-17 18:18:23: xmlchange success <command> ./xmlchange NTASKS_OCN=2560  </command>
  ---------------------------------------------------
+2026-07-17 18:18:25: xmlchange success <command> ./xmlchange NTASKS_OCN=2816  </command>
+ ---------------------------------------------------

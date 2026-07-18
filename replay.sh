@@ -62,3 +62,5 @@ cd "${CASEDIR}"
 
 ./xmlchange NTASKS_OCN=2560
 
+./xmlchange NTASKS_OCN=2816
+

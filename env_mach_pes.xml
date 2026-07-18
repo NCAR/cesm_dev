@@ -45,7 +45,7 @@
       <values>
         <value compclass="ATM">5400</value>
         <value compclass="CPL">5400</value>
-        <value compclass="OCN">2560</value>
+        <value compclass="OCN">2816</value>
         <value compclass="WAV">104</value>
         <value compclass="GLC">104</value>
         <value compclass="ICE">5400</value>
