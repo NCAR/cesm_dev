@@ -80,3 +80,11 @@ cd "${CASEDIR}"
 
 ./xmlchange NTASKS_OCN=2560
 
+./case.setup
+
+./case.setup --reset
+
+./case.setup --reset
+
+./case.build
+
