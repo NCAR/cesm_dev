@@ -60,3 +60,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange NTASKS_OCN=2560
+
