@@ -1,0 +1,10 @@
+autotroph_settings(2)%kFe = 4e-05
+grazing_relationship_settings(3,1)%z_grz = 2.3
+autotroph_settings(4)%thetaN_max = 2.1
+grazing_relationship_settings(1,2)%z_umax_0_per_day = 0.93
+grazing_relationship_settings(1,2)%z_grz = 0.87
+grazing_relationship_settings(1,2)%f_zoo_detr = 0.38
+autotroph_settings(2)%mort_per_day = 0.14
+grazing_relationship_settings(2,2)%graze_poc = 0.15
+grazing_relationship_settings(2,1)%z_grz = 1.5
+grazing_relationship_settings(3,2)%z_grz = 1.5
