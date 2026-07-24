@@ -50,3 +50,5 @@
  ---------------------------------------------------
 2026-07-24 16:00:56: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2026-07-24 16:14:43: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=production  </command>
+ ---------------------------------------------------
