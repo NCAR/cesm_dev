@@ -20,3 +20,5 @@
  ---------------------------------------------------
 2026-07-24 15:34:40: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
  ---------------------------------------------------
+2026-07-24 15:34:42: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
+ ---------------------------------------------------
