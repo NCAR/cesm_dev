@@ -20,3 +20,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
 
+./xmlchange RUN_REFCASE=b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.370
+
