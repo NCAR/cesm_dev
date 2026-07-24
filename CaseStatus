@@ -32,3 +32,5 @@
  ---------------------------------------------------
 2026-07-24 15:38:36: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
  ---------------------------------------------------
+2026-07-24 15:38:38: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
+ ---------------------------------------------------
