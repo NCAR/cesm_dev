@@ -58,3 +58,7 @@ cd "${CASEDIR}"
 
 ./xmlchange OCN_DIAG_MODE=production
 
+./preview_namelists
+
+./xmlchange JOB_PRIORITY=regular
+
