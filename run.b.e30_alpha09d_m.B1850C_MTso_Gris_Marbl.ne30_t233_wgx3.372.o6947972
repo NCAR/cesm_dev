@@ -1,0 +1,41 @@
+Generating namelists for /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.372
+  2026-07-29 09:41:32 atm 
+Create namelist for component cam
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.372/Buildconf/camconf/atm_in file2 /glade/derecho/scratch/hannay/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.372/run/atm_in 
+  2026-07-29 09:41:33 lnd 
+Create namelist for component clm
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/clm//cime_config/buildnml
+  2026-07-29 09:41:34 ice 
+Create namelist for component cice
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/cice//cime_config/buildnml
+RUN: /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/cice/bld/generate_cice_decomp.pl -ccsmroot /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL -res tx2_3v3 -nx 540 -ny 480 -nproc 5400 -thrds 1 -output all 
+FROM: /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.372
+  output: 540 480 4 4 3 spacecurve square-ice
+
+  2026-07-29 09:41:34 ocn 
+Create namelist for component mom
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/mom//cime_config/buildnml
+  2026-07-29 09:41:35 rof 
+Create namelist for component mosart
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/mosart//cime_config/buildnml
+  2026-07-29 09:41:35 glc 
+Create namelist for component cism
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/cism//cime_config/buildnml
+  2026-07-29 09:41:35 wav 
+Create namelist for component ww3
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/ww3//cime_config/buildnml
+   Running /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/ww3//cime_config/buildnml 
+  2026-07-29 09:41:37 esp 
+Create namelist for component sesp
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/cime/CIME/non_py/src/components/stub_comps_nuopc/sesp/cime_config/buildnml
+  2026-07-29 09:41:37 cpl 
+Create namelist for component drv
+   Calling /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/cmeps/cime_config/buildnml
+Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND', 'ICE', 'OCN', 'ROF', 'GLC', 'WAV']
+-------------------------------------------------------------------------
+ - Prestage required restarts into /glade/derecho/scratch/hannay/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.372/run
+ - Case input data directory (DIN_LOC_ROOT) is /glade/campaign/cesm/cesmdata/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.372/bld/cesm.exe   >> cesm.log.$LID 2>&1  
