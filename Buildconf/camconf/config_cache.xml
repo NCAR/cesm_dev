@@ -3,7 +3,7 @@
 <config_definition>
 
 <commandline>
-/glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/cam/bld/configure -s -fc_type intel -dyn se -hgrid ne30np4.pg3 -cpl nuopc -usr_src /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374/SourceMods/src.cam -spmd -nosmp -phys cam7 -model_top mt -pcols 9
+/glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/cam/bld/configure -s -fc_type intel -dyn se -hgrid ne30np4.pg3 -cpl nuopc -usr_src /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374rsnw/SourceMods/src.cam -spmd -nosmp -phys cam7 -model_top mt -pcols 9
 </commandline>
 <entry id="age_of_air_trcs" value="0" list="" valid_values="0,1">
 Switch on (off) age of air tracers: 0=off, 1=on.
@@ -19,7 +19,7 @@ Switch for aquaplanet mode.  Used by build-namelist.
 <entry id="build_chem_proc" value="0,1" list="" valid_values="">
 Switch to force the build of the chemistry preprocessor.
 </entry>
-<entry id="cam_bld" value="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374/Buildconf/camconf" list="" valid_values="">
+<entry id="cam_bld" value="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374rsnw/Buildconf/camconf" list="" valid_values="">
 CAM build directory; contains .o and .mod files.
 </entry>
 <entry id="cam_dir" value="/glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/cam" list="" valid_values="">
@@ -293,7 +293,7 @@ Option to build TUV-X library: 0 => no, 1 => yes
 <entry id="usr_mech_infile" value="" list="" valid_values="">
 Path and file name of the user supplied chemistry mechanism file.
 </entry>
-<entry id="usr_src" value="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374/SourceMods/src.cam" list="1" valid_values="">
+<entry id="usr_src" value="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374rsnw/SourceMods/src.cam" list="1" valid_values="">
 User source directories to prepend to the filepath.  Multiple directories
 are specified as a comma separated list with no embedded white space.
 </entry>
