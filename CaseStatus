@@ -6,3 +6,5 @@
  ---------------------------------------------------
 2026-08-04 11:50:06: xmlchange success <command> ./xmlchange PROJECT=P3300065  </command>
  ---------------------------------------------------
+2026-08-04 11:50:18: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
