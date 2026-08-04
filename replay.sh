@@ -12,3 +12,5 @@
 
 ./xmlchange PROJECT=P93300065
 
+./case.submit
+
