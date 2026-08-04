@@ -1,0 +1,5 @@
+DIAG_COORD_DEF_RHO2 = "FILE:ocean_rho2_190917.nc,interfaces=rho2"
+BBL_EFFIC = 0.2 
+MARBL_TRACERS_IC_FILE = "/glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/ecosys_jan_IC_omip_latlon_1x1_180W_c250613.nc"
+MARBL_TRACERS_IC_FILE_IS_Z = True
+LEITH_BI_CONST = 80 

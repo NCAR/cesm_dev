@@ -1,0 +1,25 @@
+&cism_params
+  cism_debug = .false.
+  enable_frac_overrides = .false.
+  ice_flux_routing = "ocn"
+  icesheet_names = "gris"
+  num_icesheets = 1
+  paramfile_base = "cism"
+  test_coupling = .false.
+/
+&time_manager_nml
+  allow_leapyear = .false.
+  date_separator = "-"
+  dt_count = 1
+  dt_option = "steps_per_day"
+  iday0 = 1
+  ihour0 = 0
+  iminute0 = 0
+  imonth0 = 1
+  isecond0 = 0
+  iyear0 = 1
+  runid = "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374"
+  stop_option = "never"
+/
+&glc_override_nml
+/
