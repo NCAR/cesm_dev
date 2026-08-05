@@ -55,3 +55,5 @@ UCUB0120, Overspent, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/ces
  ---------------------------------------------------
 2026-08-05 06:09:33: st_archive success 7012344.desched1
  ---------------------------------------------------
+2026-08-05 11:05:45: xmlchange success <command> ./xmlchange CONTINUE_RUN=TRUE  </command>
+ ---------------------------------------------------
