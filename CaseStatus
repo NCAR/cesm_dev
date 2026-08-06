@@ -77,3 +77,5 @@ UCUB0120, Overspent, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/ces
  ---------------------------------------------------
 2026-08-05 22:36:29: st_archive success 7023137.desched1
  ---------------------------------------------------
+2026-08-05 22:36:29: case.submit starting case.run:7027403.desched1, case.st_archive:7027404.desched1
+ ---------------------------------------------------
