@@ -461,6 +461,11 @@
 "ocean_model", "geolat",       "geolat",       "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "geolon",       "geolon",       "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.native%4yr-%2mo", "all", "mean", "none", 2
 
+"ocean_model", "ALK_RIV_FLUX","ALK_RIV_FLUX","b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "DOC_RIV_FLUX","DOC_RIV_FLUX","b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "DOCR_RIV_FLUX","DOCR_RIV_FLUX","b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "DIC_RIV_FLUX","DIC_RIV_FLUX","b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.native%4yr-%2mo", "all", "mean", "none", 2
+
 # "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo"
 "ocean_model_z", "so",         "so",         "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_z", "ALK",        "ALK",        "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
@@ -493,3 +498,23 @@
 "ocean_model_z", "volcello",   "volcello",   "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_z", "h",          "h",          "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
 
+"ocean_model_z", "Lig",        "Lig",        "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "DIC_ALT_CO2","DIC_ALT_CO2","b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "ALK_ALT_CO2","ALK_ALT_CO2","b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "DON",        "DON",        "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "DOP",        "DOP",        "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "DOPr",       "DOPr",       "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "DONr",       "DONr",       "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "spP",        "spP",        "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "spN",        "spN",        "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "spFe",       "spFe",       "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "diatP",      "diatP",      "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "diatN",      "diatN",      "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "diatFe",     "diatFe",     "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "diatSi",     "diatSi",     "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "diazP",      "diazP",      "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "diazN",      "diazN",      "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "diazFe",     "diazFe",     "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "coccoP",     "coccoP",     "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "coccoN",     "coccoN",     "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "coccoFe",    "coccoFe",    "b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z%4yr-%2mo", "all", "mean", "none", 2
