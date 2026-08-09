@@ -4,3 +4,4 @@ MARBL_TRACERS_IC_FILE = "/glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.
 MARBL_TRACERS_IC_FILE_IS_Z = True
 ATM_ALT_CO2_OPT = "constant"
 LEITH_BI_CONST = 80 
+DT=1800
