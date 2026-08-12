@@ -210,3 +210,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha09d
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.376/run/med.log.7096932.desched1.260811-174559 
  
  ---------------------------------------------------
+2026-08-11 19:23:28: xmlchange success <command> ./xmlchange STOP_N=1,RESUBMIT=40  </command>
+ ---------------------------------------------------
