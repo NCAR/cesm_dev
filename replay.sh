@@ -48,3 +48,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange STOP_N=1,RESUBMIT=40
+
