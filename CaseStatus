@@ -42,3 +42,5 @@
  ---------------------------------------------------
 2026-08-13 14:47:27: xmlchange success <command> ./xmlchange CUPID_BASELINE_ROOT=/glade/derecho/scratch/hannay/archive  </command>
  ---------------------------------------------------
+2026-08-13 14:47:32: xmlchange success <command> ./xmlchange CUPID_REGRID_BASE_ATM_FILE=NONE  </command>
+ ---------------------------------------------------

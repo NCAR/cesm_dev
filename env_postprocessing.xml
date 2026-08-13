@@ -42,7 +42,7 @@
       <type>char</type>
       <desc>File to use to remap atmosphere time series files from case (NONE =&gt; do not remap)</desc>
     </entry>
-    <entry id="CUPID_REGRID_BASE_ATM_FILE" value="$DIN_LOC_ROOT/cpl/gridmaps/ne30pg3/map_ne30pg3_TO_fv0.9x1.25_blin.240826.nc">
+    <entry id="CUPID_REGRID_BASE_ATM_FILE" value="NONE">
       <type>char</type>
       <desc>File to use to remap atmosphere time series files from baseline case (NONE =&gt; do not remap)</desc>
     </entry>
