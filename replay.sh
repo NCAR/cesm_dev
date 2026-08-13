@@ -48,3 +48,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_BASE_STOP_N=116
 
+./xmlchange CUPID_BASELINE_ROOT=/glade/derecho/scratch/hannay/archive
+

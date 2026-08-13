@@ -104,7 +104,7 @@
       <type>char</type>
       <desc>Baseline case to use in CUPiD analysis</desc>
     </entry>
-    <entry id="CUPID_BASELINE_ROOT" value="/glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing">
+    <entry id="CUPID_BASELINE_ROOT" value="/glade/derecho/scratch/hannay/archive">
       <type>char</type>
       <desc>Baseline case root to use in CUPiD analysis</desc>
     </entry>
