@@ -108,7 +108,7 @@
       <type>char</type>
       <desc>Baseline case root to use in CUPiD analysis</desc>
     </entry>
-    <entry id="CUPID_NICKNAME" value="$CASE">
+    <entry id="CUPID_NICKNAME" value="376.cupid">
       <type>char</type>
       <desc>Label to use in plot legends to describe case</desc>
     </entry>

@@ -38,3 +38,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_BASELINE_ROOT=/glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing
 
+./xmlchange CUPID_NICKNAME=376.cupid
+
