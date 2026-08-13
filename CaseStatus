@@ -38,3 +38,5 @@
  ---------------------------------------------------
 2026-08-13 14:47:23: xmlchange success <command> ./xmlchange CUPID_BASE_NICKNAME=374  </command>
  ---------------------------------------------------
+2026-08-13 14:47:25: xmlchange success <command> ./xmlchange CUPID_BASE_STOP_N=116  </command>
+ ---------------------------------------------------

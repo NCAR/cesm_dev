@@ -46,3 +46,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_BASE_NICKNAME=374
 
+./xmlchange CUPID_BASE_STOP_N=116
+
