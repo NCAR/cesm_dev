@@ -26,3 +26,5 @@
  ---------------------------------------------------
 2026-08-13 14:42:44: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=production  </command>
  ---------------------------------------------------
+2026-08-13 14:43:51: xmlchange success <command> ./xmlchange RUN_POSTPROCESSING=TRUE  </command>
+ ---------------------------------------------------

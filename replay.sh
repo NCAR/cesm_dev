@@ -32,3 +32,7 @@ cd "${CASEDIR}"
 
 ./xmlchange OCN_DIAG_MODE=production
 
+./preview_namelists
+
+./xmlchange RUN_POSTPROCESSING=TRUE
+

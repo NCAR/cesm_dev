@@ -337,7 +337,7 @@
       sets model restart write date with REST_OPTION and REST_N
     </desc>
     </entry>
-    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl">
+    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl.0239-01-01-00000">
       <type>char</type>
       <desc>
       Name of the restart pointer file, this can be used to restart from an
@@ -443,7 +443,7 @@
       <desc>Logical to turn on short term archiving.
     If TRUE, short term archiving will be turned on.</desc>
     </entry>
-    <entry id="RUN_POSTPROCESSING" value="FALSE">
+    <entry id="RUN_POSTPROCESSING" value="TRUE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>Logical to run post-processing analysis tools.
