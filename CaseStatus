@@ -28,3 +28,5 @@
  ---------------------------------------------------
 2026-08-13 14:43:51: xmlchange success <command> ./xmlchange RUN_POSTPROCESSING=TRUE  </command>
  ---------------------------------------------------
+2026-08-13 14:43:54: xmlchange success <command> ./xmlchange CUPID_BASELINE_ROOT=/glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing  </command>
+ ---------------------------------------------------

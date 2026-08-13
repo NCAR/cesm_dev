@@ -36,3 +36,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_POSTPROCESSING=TRUE
 
+./xmlchange CUPID_BASELINE_ROOT=/glade/campaign/cesm/development/cross-wg/diagnostic_framework/CESM_output_for_testing
+
