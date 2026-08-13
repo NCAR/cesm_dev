@@ -112,7 +112,7 @@
       <type>char</type>
       <desc>Label to use in plot legends to describe case</desc>
     </entry>
-    <entry id="CUPID_BASE_NICKNAME" value="NONE">
+    <entry id="CUPID_BASE_NICKNAME" value="374">
       <type>char</type>
       <desc>Label to use in plot legends to describe baseline case</desc>
     </entry>

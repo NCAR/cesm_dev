@@ -44,3 +44,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_BASELINE_CASE=b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374
 
+./xmlchange CUPID_BASE_NICKNAME=374
+
