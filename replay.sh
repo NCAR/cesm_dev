@@ -52,3 +52,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CUPID_REGRID_BASE_ATM_FILE=NONE
 
+./xmlchange JOB_PRIORITY=special --force
+
