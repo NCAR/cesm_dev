@@ -69,3 +69,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
  ---------------------------------------------------
 2026-08-13 15:39:23: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2026-08-13 15:39:52: case.submit starting case.run:7111667.desched1, case.st_archive:7111668.desched1, case.cupid:7111669.desched1
+ ---------------------------------------------------
