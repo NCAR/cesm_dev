@@ -6,3 +6,5 @@
  ---------------------------------------------------
 2026-08-14 09:54:06: xmlchange success <command> ./xmlchange CAM_CONFIG_OPTS=-pcols 9 --append  </command>
  ---------------------------------------------------
+2026-08-14 09:56:38: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.341  </command>
+ ---------------------------------------------------
