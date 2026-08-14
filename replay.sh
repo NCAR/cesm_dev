@@ -50,3 +50,5 @@ cd "${CASEDIR}"
 
 ./xmlchange STOP_N=4,STOP_OPTION=nyears,RESUBMIT=30
 
+./xmlchange JOB_PRIORITY=special --force
+
