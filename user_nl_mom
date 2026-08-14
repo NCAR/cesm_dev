@@ -7,3 +7,17 @@ ATM_ALT_CO2_OPT = "constant"
 LEITH_BI_CONST = 80
 MLE_TAPER_FN_DEPTH = 2000.
 MLE_TAPER_FN_POWER = 4
+
+
+! restart T/S from b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.341.mom6.h.z.0238.nc
+
+AGE_IC_FILE = "/glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.341/ocn/hist/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.341.mom6.h.z.0238.nc"
+AGE_IC_FILE_IS_Z = True
+INIT_LAYERS_FROM_Z_FILE = True
+TEMP_SALT_Z_INIT_FILE = "/glade/derecho/scratch/hannay/archive/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.341/ocn/hist/b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.341.mom6.h.z.0238.nc`"
+TEMP_IC_VAR = "thetao"
+SALT_IC_VAR = "so"
+VELOCITY_CONFIG = "zero"
+Z_INIT_FILE_PTEMP_VAR = "thetao" ! default = "ptemp"
+Z_INIT_FILE_SALT_VAR = "so"
+
