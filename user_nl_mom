@@ -1,8 +1,9 @@
+TOPO_EDITS_FILE = "topo_edits_truncations_avg8.nc"
 DIAG_COORD_DEF_RHO2 = "FILE:ocean_rho2_190917.nc,interfaces=rho2"
-BBL_EFFIC = 0.2 
+BBL_EFFIC = 0.2
 MARBL_TRACERS_IC_FILE = "/glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374/ocn/hist/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.mom6.h.bgc.z.0136-12.nc"
 MARBL_TRACERS_IC_FILE_IS_Z = True
 ATM_ALT_CO2_OPT = "constant"
-LEITH_BI_CONST = 80 
+LEITH_BI_CONST = 80
 MLE_TAPER_FN_DEPTH = 2000.
 MLE_TAPER_FN_POWER = 4

@@ -1,0 +1,12 @@
+&comp_inparm 
+
+finidat = 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.341.clm2.r.0239-01-01-00000.nc'
+finidat = '/glade/campaign/cesm/cesmdata/cseg/inputdata/cesm2_init/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374/0137-01-01/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374.clm2.r.0137-01-01-00000.nc' 
+
+use_init_interp = .true.
+
+reseed_dead_plants = .true.
+
+use_excess_ice_streams=.false. 
+
+/ 
