@@ -60,3 +60,6 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
  ---------------------------------------------------
 2026-08-14 16:31:03: case.submit starting 
  ---------------------------------------------------
+2026-08-14 16:31:05: case.submit error 
+ERROR: Could not find all inputdata on any server
+ ---------------------------------------------------
