@@ -31,3 +31,289 @@ INFO:util:	 - time series for TS
 INFO:util:	 - time series for ICEFRAC
 INFO:util:	 - time series for FLNT
 INFO:util:	 - time series for FSNT
+INFO:util:  ... atm time series file generation has finished successfully.
+INFO:util:
+  No time series files requested for ocn...
+INFO:util:
+  No time series files requested for lnd...
+INFO:util:
+  No time series files requested for ice...
+INFO:util:
+  No time series files requested for glc...
+INFO:util:
+  No time series files requested for rof...
+INFO:ploomber.products.product.File:Product of task "summary_tables" does not exist, it will be executed...
+INFO:ploomber.products.product.File:Product of task "TimeSeriesPlots" does not exist, it will be executed...
+/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/dag/dag.py:455: UserWarning: 
+=========================== DAG render with warnings ===========================
+- NotebookRunner: summary_tables -> File('computed_notebook...mmary_tables.ipynb') -
+- /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/tools/CUPiD/nblibrary/infrastructure/summary_tables.ipynb -
+These parameters are not used in the task's source code: 'CESM_output_dir', 'base_case_nickname', 'base_case_output_dir', 'base_climo_end_year', 'base_climo_start_year', 'case_nickname', 'climo_end_year', 'climo_start_year', 'lc_kwargs', 'serial', 'subset_kwargs', and 'ts_dir'
+- NotebookRunner: TimeSeriesPlots -> File('computed_notebook...eSeriesPlots.ipynb') -
+- /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/tools/CUPiD/nblibrary/atm/TimeSeriesPlots.ipynb -
+These parameters are not used in the task's source code: 'base_climo_end_year', 'base_climo_start_year', 'base_end_date', 'base_start_date', 'climo_end_year', 'climo_start_year', 'end_date', 'lc_kwargs', 'serial', 'start_date', and 'subset_kwargs'
+============================== Summary (2 tasks) ===============================
+NotebookRunner: summary_tables -> File('computed_notebook...mmary_tables.ipynb')
+NotebookRunner: TimeSeriesPlots -> File('computed_notebook...eSeriesPlots.ipynb')
+=========================== DAG render with warnings ===========================
+
+  warnings.warn(str(warnings_))
+INFO:ploomber.dag.dag:Building DAG DAG("No name")
+  0%|          | 0/2 [00:00<?, ?it/s]Building task 'summary_tables':   0%|          | 0/2 [00:00<?, ?it/s]INFO:ploomber.tasks.abc.NotebookRunner:Starting execution: NotebookRunner: summary_tables -> File('computed_notebook...mmary_tables.ipynb')
+INFO:papermill:Input Notebook:  /glade/derecho/scratch/hannay/tmp/tmpd6voh0_b.ipynb
+INFO:papermill:Output Notebook: /glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.376.cupid/cupid/computed_notebooks/infrastructure/summary_tables.ipynb
+INFO:papermill:Working directory: /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/tools/CUPiD/nblibrary/infrastructure
+
+Executing:   0%|          | 0/10 [00:00<?, ?cell/s]INFO:papermill:Executing notebook with kernel: cupid-analysis
+
+Executing:  10%|█         | 1/10 [00:12<01:55, 12.84s/cell]
+Executing:  20%|██        | 2/10 [00:20<01:18,  9.82s/cell]
+Executing:  40%|████      | 4/10 [00:20<00:22,  3.71s/cell]
+Executing:  60%|██████    | 6/10 [00:20<00:07,  1.98s/cell]Executing: 100%|██████████| 10/10 [00:21<00:00,  2.14s/cell]
+INFO:ploomber.tasks.abc.NotebookRunner:Done. Operation took 21.5 seconds
+Building task 'summary_tables':  50%|█████     | 1/2 [00:21<00:21, 21.48s/it]Building task 'TimeSeriesPlots':  50%|█████     | 1/2 [00:21<00:21, 21.48s/it]INFO:ploomber.tasks.abc.NotebookRunner:Starting execution: NotebookRunner: TimeSeriesPlots -> File('computed_notebook...eSeriesPlots.ipynb')
+INFO:papermill:Input Notebook:  /glade/derecho/scratch/hannay/tmp/tmpjpxs4dvr.ipynb
+INFO:papermill:Output Notebook: /glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.376.cupid/cupid/computed_notebooks/atm/TimeSeriesPlots.ipynb
+INFO:papermill:Working directory: /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/tools/CUPiD/nblibrary/atm
+
+Executing:   0%|          | 0/10 [00:00<?, ?cell/s]INFO:papermill:Executing notebook with kernel: cupid-analysis
+
+Executing:  10%|█         | 1/10 [00:01<00:09,  1.03s/cell]
+Executing:  20%|██        | 2/10 [00:07<00:35,  4.46s/cell]
+Executing:  50%|█████     | 5/10 [00:07<00:06,  1.29s/cell]
+Executing:  70%|███████   | 7/10 [00:18<00:03,  1.29s/cell]
+Executing:  80%|████████  | 8/10 [00:34<00:10,  5.08s/cell]Executing:  80%|████████  | 8/10 [00:37<00:09,  4.63s/cell]
+ERROR:ploomber.tasks.abc.NotebookRunner:Error building task "TimeSeriesPlots"
+Traceback (most recent call last):
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/tasks/notebook.py", line 774, in run
+    pm.execute_notebook(
+    ~~~~~~~~~~~~~~~~~~~^
+        str(tmp), str(path_to_out_ipynb), **self.papermill_params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [6]":
+---------------------------------------------------------------------------
+OSError                                   Traceback (most recent call last)
+Cell In[6], line 25
+     21                 region[2],
+     22                 region[3],
+     23             )
+     24         elif vars[var] == "Global":
+---> 25             regional_var[label] = spmeans.compute_var_g_ann(
+     26                 output_root,
+     27                 casename,
+     28                 var,
+
+File /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/tools/CUPiD/cupid_utils/cupid_utils/multi_component/spatial_means.py:63, in compute_var_g_ann(filepath, case, var)
+     55 """
+     56 Compute the weighted annual global mean of
+     57 a given variable.
+   (...)     60    var = variable name
+     61 """
+     62 filename = os.path.join(filepath, f"{case}.*.{var}.*.nc")
+---> 63 ds = xr.open_mfdataset(
+     64     filename,
+     65     parallel=False,
+     66     data_vars="minimal",
+     67     compat="override",
+     68     coords="minimal",
+     69 )
+     70 return global_mean(ds[var].groupby("time.year").mean())
+
+File /glade/work/hannay/conda-envs/cupid-analysis/lib/python3.13/site-packages/xarray/backends/api.py:1597, in open_mfdataset(paths, chunks, concat_dim, compat, preprocess, engine, data_vars, coords, combine, parallel, join, attrs_file, combine_attrs, **kwargs)
+   1594 paths = _find_absolute_paths(paths, engine=engine, **kwargs)
+   1596 if not paths:
+-> 1597     raise OSError("no files to open")
+   1599 paths1d: list[str | ReadBuffer]
+   1600 if combine == "nested":
+
+OSError: no files to open
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/tasks/abc.py", line 559, in _build
+    res = self._run()
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/tasks/abc.py", line 671, in _run
+    self.run()
+    ~~~~~~~~^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/tasks/notebook.py", line 792, in run
+    raise TaskBuildError(
+    ...<5 lines>...
+    ) from e
+ploomber.exceptions.TaskBuildError: Error when executing task 'TimeSeriesPlots'. Partially executed notebook available at /glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.376.cupid/cupid/computed_notebooks/atm/TimeSeriesPlots.ipynb
+ERROR:ploomber.executors.serial:Error building task "TimeSeriesPlots"
+Traceback (most recent call last):
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/tasks/notebook.py", line 774, in run
+    pm.execute_notebook(
+    ~~~~~~~~~~~~~~~~~~~^
+        str(tmp), str(path_to_out_ipynb), **self.papermill_params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [6]":
+---------------------------------------------------------------------------
+OSError                                   Traceback (most recent call last)
+Cell In[6], line 25
+     21                 region[2],
+     22                 region[3],
+     23             )
+     24         elif vars[var] == "Global":
+---> 25             regional_var[label] = spmeans.compute_var_g_ann(
+     26                 output_root,
+     27                 casename,
+     28                 var,
+
+File /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/tools/CUPiD/cupid_utils/cupid_utils/multi_component/spatial_means.py:63, in compute_var_g_ann(filepath, case, var)
+     55 """
+     56 Compute the weighted annual global mean of
+     57 a given variable.
+   (...)     60    var = variable name
+     61 """
+     62 filename = os.path.join(filepath, f"{case}.*.{var}.*.nc")
+---> 63 ds = xr.open_mfdataset(
+     64     filename,
+     65     parallel=False,
+     66     data_vars="minimal",
+     67     compat="override",
+     68     coords="minimal",
+     69 )
+     70 return global_mean(ds[var].groupby("time.year").mean())
+
+File /glade/work/hannay/conda-envs/cupid-analysis/lib/python3.13/site-packages/xarray/backends/api.py:1597, in open_mfdataset(paths, chunks, concat_dim, compat, preprocess, engine, data_vars, coords, combine, parallel, join, attrs_file, combine_attrs, **kwargs)
+   1594 paths = _find_absolute_paths(paths, engine=engine, **kwargs)
+   1596 if not paths:
+-> 1597     raise OSError("no files to open")
+   1599 paths1d: list[str | ReadBuffer]
+   1600 if combine == "nested":
+
+OSError: no files to open
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/tasks/abc.py", line 559, in _build
+    res = self._run()
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/tasks/abc.py", line 671, in _run
+    self.run()
+    ~~~~~~~~^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/tasks/notebook.py", line 792, in run
+    raise TaskBuildError(
+    ...<5 lines>...
+    ) from e
+ploomber.exceptions.TaskBuildError: Error when executing task 'TimeSeriesPlots'. Partially executed notebook available at /glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.376.cupid/cupid/computed_notebooks/atm/TimeSeriesPlots.ipynb
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/executors/serial.py", line 280, in catch_exceptions
+    fn()
+    ~~^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/executors/serial.py", line 224, in __call__
+    return self.fn(**self.kwargs)
+           ~~~~~~~^^^^^^^^^^^^^^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/executors/serial.py", line 246, in catch_warnings
+    result = fn()
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/executors/serial.py", line 224, in __call__
+    return self.fn(**self.kwargs)
+           ~~~~~~~^^^^^^^^^^^^^^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/executors/serial.py", line 384, in build_in_subprocess
+    report, meta = task._build(**build_kwargs)
+                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/tasks/abc.py", line 578, in _build
+    raise TaskBuildError(msg) from e
+ploomber.exceptions.TaskBuildError: Error building task "TimeSeriesPlots"
+Building task 'TimeSeriesPlots': 100%|██████████| 2/2 [00:58<00:00, 30.69s/it]Building task 'TimeSeriesPlots': 100%|██████████| 2/2 [00:58<00:00, 29.31s/it]
+Traceback (most recent call last):
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/tools/CUPiD/cupid/run_diagnostics.py", line 250, in <module>
+    run_diagnostics()
+    ~~~~~~~~~~~~~~~^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/click/core.py", line 1485, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/click/core.py", line 1406, in main
+    rv = self.invoke(ctx)
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/click/core.py", line 1269, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/click/core.py", line 824, in invoke
+    return callback(*args, **kwargs)
+  File "/glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/tools/CUPiD/cupid/run_diagnostics.py", line 244, in run_diagnostics
+    dag.build()
+    ~~~~~~~~~^^
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/dag/dag.py", line 557, in build
+    report = callable_()
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/dag/dag.py", line 662, in _build
+    raise build_exception
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/dag/dag.py", line 591, in _build
+    task_reports = self._executor(dag=self, show_progress=show_progress)
+  File "/glade/work/hannay/conda-envs/cupid-infrastructure/lib/python3.14/site-packages/ploomber/executors/serial.py", line 203, in __call__
+    raise DAGBuildError(str(exceptions_all))
+ploomber.exceptions.DAGBuildError: 
+=============================== DAG build failed ===============================
+- NotebookRunner: TimeSeriesPlots -> File('computed_notebook...eSeriesPlots.ipynb') -
+- /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/tools/CUPiD/nblibrary/atm/TimeSeriesPlots.ipynb -
+
+---------------------------------------------------------------------------
+Exception encountered at "In [6]":
+---------------------------------------------------------------------------
+OSError                                   Traceback (most recent call last)
+Cell In[6], line 25
+     21                 region[2],
+     22                 region[3],
+     23             )
+     24         elif vars[var] == "Global":
+---> 25             regional_var[label] = spmeans.compute_var_g_ann(
+     26                 output_root,
+     27                 casename,
+     28                 var,
+
+File /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/tools/CUPiD/cupid_utils/cupid_utils/multi_component/spatial_means.py:63, in compute_var_g_ann(filepath, case, var)
+     55 """
+     56 Compute the weighted annual global mean of
+     57 a given variable.
+   (...)     60    var = variable name
+     61 """
+     62 filename = os.path.join(filepath, f"{case}.*.{var}.*.nc")
+---> 63 ds = xr.open_mfdataset(
+     64     filename,
+     65     parallel=False,
+     66     data_vars="minimal",
+     67     compat="override",
+     68     coords="minimal",
+     69 )
+     70 return global_mean(ds[var].groupby("time.year").mean())
+
+File /glade/work/hannay/conda-envs/cupid-analysis/lib/python3.13/site-packages/xarray/backends/api.py:1597, in open_mfdataset(paths, chunks, concat_dim, compat, preprocess, engine, data_vars, coords, combine, parallel, join, attrs_file, combine_attrs, **kwargs)
+   1594 paths = _find_absolute_paths(paths, engine=engine, **kwargs)
+   1596 if not paths:
+-> 1597     raise OSError("no files to open")
+   1599 paths1d: list[str | ReadBuffer]
+   1600 if combine == "nested":
+
+OSError: no files to open
+
+ploomber.exceptions.TaskBuildError: Error when executing task 'TimeSeriesPlots'. Partially executed notebook available at /glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.376.cupid/cupid/computed_notebooks/atm/TimeSeriesPlots.ipynb
+ploomber.exceptions.TaskBuildError: Error building task "TimeSeriesPlots"
+=============================== Summary (1 task) ===============================
+NotebookRunner: TimeSeriesPlots -> File('computed_notebook...eSeriesPlots.ipynb')
+=============================== DAG build failed ===============================
+
+Need help? https://ploomber.io/community
