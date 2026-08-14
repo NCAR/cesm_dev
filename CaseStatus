@@ -121,3 +121,5 @@ UCUB0120, Overspent, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/ces
  ---------------------------------------------------
 2026-08-07 09:03:40: model execution starting 7034808.desched1
  ---------------------------------------------------
+2026-08-14 13:53:37: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=https://github.com/NCAR/cesm_dev.git  </command>
+ ---------------------------------------------------
