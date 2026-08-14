@@ -103,3 +103,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
  ---------------------------------------------------
 2026-08-14 05:21:34: st_archive starting 7113574.desched1
  ---------------------------------------------------
+2026-08-14 05:23:11: st_archive success 7113574.desched1
+ ---------------------------------------------------
