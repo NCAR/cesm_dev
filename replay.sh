@@ -38,3 +38,11 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./pelayout
+
+./case.setup
+
+./case.setup --reset
+
+./case.build
+
