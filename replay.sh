@@ -20,3 +20,9 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDATE=0239-01-01
 
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+
