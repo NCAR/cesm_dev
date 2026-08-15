@@ -83,3 +83,7 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2026-08-14 22:18:37: model execution success 7120503.desched1
  ---------------------------------------------------
+2026-08-14 22:18:39: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.381/run/med.log.7120503.desched1.260814-221700 
+ 
+ ---------------------------------------------------
