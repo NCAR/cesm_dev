@@ -22,3 +22,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFCASE=b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377
 
+./xmlchange RUN_REFDATE=0096-01-01
+
