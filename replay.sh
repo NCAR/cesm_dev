@@ -32,3 +32,9 @@ cd "${CASEDIR}"
 
 ./xmlchange OCN_DIAG_MODE=production
 
+./preview_namelists
+
+./preview_namelists
+
+./case.build
+
