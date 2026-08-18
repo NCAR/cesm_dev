@@ -39,3 +39,13 @@ ERROR: Could not download refcase from any server
  ---------------------------------------------------
 2026-08-17 17:44:52: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2026-08-18 15:20:39: case.setup starting 
+ ---------------------------------------------------
+2026-08-18 15:20:41: case.setup success 
+ ---------------------------------------------------
+2026-08-18 15:20:42: case.setup starting 
+ ---------------------------------------------------
+2026-08-18 15:20:44: case.setup success 
+ ---------------------------------------------------
+2026-08-18 15:21:01: xmlchange success <command> ./xmlchange CAM_CONFIG_OPTS= -pcols 9 --append  </command>
+ ---------------------------------------------------
