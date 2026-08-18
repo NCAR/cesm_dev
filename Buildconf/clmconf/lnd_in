@@ -149,6 +149,7 @@
 &clm_soilhydrology_inparm
 /
 &dynamic_subgrid
+ for_testing_zero_dynbal_fluxes = .true.
  reset_dynbal_baselines = .false.
 /
 &cnvegcarbonstate
