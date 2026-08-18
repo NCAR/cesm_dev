@@ -93,3 +93,5 @@ err=Attempt to call undefined import method with arguments ("main") via package 
 Log4perl: Seems like no initialization happened. Forgot to call init()?
 ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instead got:  '/glade/campaign/cesm/cesmdata/cseg/inputdata/cesm2_init/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t2use_init_interp = .true.
  ---------------------------------------------------
+2026-08-18 13:52:41: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
