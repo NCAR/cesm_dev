@@ -86,3 +86,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=5
 
+./xmlchange JOB_PRIORITY=regular
+
