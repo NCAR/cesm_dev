@@ -64,3 +64,7 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./preview_namelists
+
+./xmlchange CONTINUE_RUN=FALSE
+
