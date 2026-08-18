@@ -86,3 +86,10 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha09d
  ---------------------------------------------------
 2026-08-18 13:52:29: case.build starting 
  ---------------------------------------------------
+2026-08-18 13:52:37: case.build error 
+ERROR: Command /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/clm/bld/build-namelist failed rc=255
+out=
+err=Attempt to call undefined import method with arguments ("main") via package "CLMBuildNamelist" (Perhaps you forgot to load the package?) at /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/components/clm/bld/build-namelist line 21.
+Log4perl: Seems like no initialization happened. Forgot to call init()?
+ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instead got:  '/glade/campaign/cesm/cesmdata/cseg/inputdata/cesm2_init/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t2use_init_interp = .true.
+ ---------------------------------------------------
