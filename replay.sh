@@ -68,3 +68,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CONTINUE_RUN=FALSE
 
+./case.build
+
