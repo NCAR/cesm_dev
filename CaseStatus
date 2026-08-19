@@ -8,3 +8,5 @@
  ---------------------------------------------------
 2026-08-19 08:30:37: xmlchange success <command> ./xmlchange CAM_CONFIG_OPTS=-pcols 9 --append  </command>
  ---------------------------------------------------
+2026-08-19 08:30:46: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------

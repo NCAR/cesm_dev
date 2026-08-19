@@ -16,3 +16,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CAM_CONFIG_OPTS="-pcols 9" --append
 
+./xmlchange RUN_TYPE=hybrid
+
