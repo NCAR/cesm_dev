@@ -16,3 +16,5 @@
  ---------------------------------------------------
 2026-08-19 08:31:11: xmlchange success <command> ./xmlchange STOP_N=4,STOP_OPTION=nyears,RESUBMIT=30  </command>
  ---------------------------------------------------
+2026-08-19 08:31:17: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
