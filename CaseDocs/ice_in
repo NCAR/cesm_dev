@@ -138,7 +138,7 @@
   kalg = 0.0
   r_ice = 0.0
   r_pnd = 0.0
-  r_snw = 1.00
+  r_snw = 0.75
   rsnw_mlt = 1500.
   shortwave = "dEdd"
   sw_dtemp = 0.01d0
