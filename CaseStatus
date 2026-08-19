@@ -27,3 +27,5 @@
 2026-08-19 08:34:44: case.build error 
 ERROR: Reference case directory /glade/campaign/cesm/cesmdata/inputdata/cesm2_init/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377/0120-01-01 does not contain any rpointer files
  ---------------------------------------------------
+2026-08-19 08:39:05: case.build starting 
+ ---------------------------------------------------
