@@ -14,3 +14,5 @@
  ---------------------------------------------------
 2026-08-19 08:31:01: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2026-08-19 08:31:11: xmlchange success <command> ./xmlchange STOP_N=4,STOP_OPTION=nyears,RESUBMIT=30  </command>
+ ---------------------------------------------------

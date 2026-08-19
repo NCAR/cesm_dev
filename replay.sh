@@ -22,3 +22,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
+./xmlchange STOP_N=4,STOP_OPTION=nyears,RESUBMIT=30
+
