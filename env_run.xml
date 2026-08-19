@@ -13,7 +13,7 @@
       <valid_values>cesm</valid_values>
       <desc>coupling mode</desc>
     </entry>
-    <entry id="CPL_I2O_PER_CAT" value="FALSE">
+    <entry id="CPL_I2O_PER_CAT" value="TRUE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>determine if per ice thickness category fields are passed from ice to ocean - DO NOT EDIT (set by MOM6)</desc>
@@ -337,7 +337,7 @@
       sets model restart write date with REST_OPTION and REST_N
     </desc>
     </entry>
-    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl">
+    <entry id="DRV_RESTART_POINTER" value="rpointer.cpl.0120-01-01-00000">
       <type>char</type>
       <desc>
       Name of the restart pointer file, this can be used to restart from an
@@ -811,7 +811,7 @@
     </entry>
     <entry id="PIO_TYPENAME">
       <type>char</type>
-      <valid_values>netcdf,pnetcdf,netcdf4p,netcdf4c,default</valid_values>
+      <valid_values>netcdf,netcdf4p,netcdf4c,pnetcdf,nothing</valid_values>
       <desc>pio io type</desc>
       <values>
         <value compclass="ATM">pnetcdf</value>

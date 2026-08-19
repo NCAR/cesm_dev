@@ -29,3 +29,7 @@ ERROR: Reference case directory /glade/campaign/cesm/cesmdata/inputdata/cesm2_in
  ---------------------------------------------------
 2026-08-19 08:39:05: case.build starting 
  ---------------------------------------------------
+2026-08-19 08:39:11: xmlchange via MOM buildnml: CPL_I2O_PER_CAT=True
+ ---------------------------------------------------
+2026-08-19 08:52:38: case.build success 
+ ---------------------------------------------------
