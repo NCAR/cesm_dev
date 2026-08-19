@@ -156,6 +156,6 @@ powerlaw_c_min = 100.
 
 which_ho_precond = 1
 
-cisminputfile='/glade/derecho/scratch/hannay/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.374/run/b.374.cism.gris.r.0137-01-01-00000.nc'
+cisminputfile='/glade/derecho/scratch/gmarques//b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.386/run/INPUT/b.377.cism.gris.r.0120-01-01-00000.nc'
 
 / 
