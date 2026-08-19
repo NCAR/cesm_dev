@@ -40,3 +40,23 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./pelayout
+
+./pelayout
+
+./case.setup --reset
+
+./case.setup --reset
+
+./case.setup --reset
+
+./case.setup --reset
+
+./case.setup
+
+./pelayout
+
+./case.setup --reset
+
+./case.build --clean-all
+

@@ -61,3 +61,14 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha0
 ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.386/run/med.log.7162956.desched1.260819-091817 
  
  ---------------------------------------------------
+2026-08-19 09:26:54: case.setup starting 
+ ---------------------------------------------------
+2026-08-19 09:28:45: case.setup error 
+
+ ---------------------------------------------------
+2026-08-19 09:34:24: case.setup starting 
+ ---------------------------------------------------
+2026-08-19 09:34:28: case.setup success 
+ ---------------------------------------------------
+2026-08-19 09:34:37: build.clean starting 
+ ---------------------------------------------------
