@@ -74,3 +74,5 @@
  ---------------------------------------------------
 2026-08-21 16:59:42: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2026-08-21 16:59:52: case.submit starting case.run:7200845.desched1, case.st_archive:7200846.desched1
+ ---------------------------------------------------
