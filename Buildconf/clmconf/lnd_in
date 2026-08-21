@@ -149,7 +149,7 @@
 &clm_soilhydrology_inparm
 /
 &dynamic_subgrid
- reset_dynbal_baselines = .false.
+ reset_dynbal_baselines = .true.
 /
 &cnvegcarbonstate
  initial_vegc = 100.d00
