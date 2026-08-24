@@ -54,3 +54,11 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
  ---------------------------------------------------
 2026-08-23 22:16:29: case.build starting 
  ---------------------------------------------------
+2026-08-23 22:16:33: case.build error 
+ERROR: 
+ERROR env_build HAS CHANGED
+  A manual clean of your obj directories is required
+  You should execute the following:
+    ./case.build --clean-all
+
+ ---------------------------------------------------
