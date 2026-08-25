@@ -855,3 +855,5 @@ ERROR: Cannot change drv_restart_pointer in user_nl file: set via xml variable D
  ---------------------------------------------------
 2026-08-25 16:01:55: build.clean starting 
  ---------------------------------------------------
+2026-08-25 16:02:01: build.clean success 
+ ---------------------------------------------------
