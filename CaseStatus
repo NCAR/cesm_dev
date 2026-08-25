@@ -851,3 +851,5 @@ ERROR: Error in parsing namelist: expected literal value, but got 'rpointer.cpl.
 2026-08-25 16:00:38: case.build error 
 ERROR: Cannot change drv_restart_pointer in user_nl file: set via xml variable DRV_RESTART_POINTER
  ---------------------------------------------------
+2026-08-25 16:01:18: xmlchange success <command> ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0096-01-01-00000  </command>
+ ---------------------------------------------------
