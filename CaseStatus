@@ -853,3 +853,5 @@ ERROR: Cannot change drv_restart_pointer in user_nl file: set via xml variable D
  ---------------------------------------------------
 2026-08-25 16:01:18: xmlchange success <command> ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0096-01-01-00000  </command>
  ---------------------------------------------------
+2026-08-25 16:01:55: build.clean starting 
+ ---------------------------------------------------
