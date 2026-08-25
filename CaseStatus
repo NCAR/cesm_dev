@@ -873,3 +873,5 @@ ERROR: Cannot change drv_restart_pointer in user_nl file: set via xml variable D
  ---------------------------------------------------
 2026-08-25 16:51:07: case.submit starting case.run:7243694.desched1, case.st_archive:7243695.desched1
  ---------------------------------------------------
+2026-08-25 16:51:09: case.submit success case.run:7243694.desched1, case.st_archive:7243695.desched1
+ ---------------------------------------------------
