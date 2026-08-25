@@ -861,3 +861,5 @@ ERROR: Cannot change drv_restart_pointer in user_nl file: set via xml variable D
  ---------------------------------------------------
 2026-08-25 16:16:44: case.build success 
  ---------------------------------------------------
+2026-08-25 16:49:46: case.build starting 
+ ---------------------------------------------------
