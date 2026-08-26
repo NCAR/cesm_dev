@@ -885,3 +885,5 @@ ERROR: Cannot change drv_restart_pointer in user_nl file: set via xml variable D
  ---------------------------------------------------
 2026-08-25 20:52:13:   Timing files created for run 7243694.desched1.260825-190428
  ---------------------------------------------------
+2026-08-25 20:52:38: st_archive starting 7243695.desched1
+ ---------------------------------------------------
