@@ -877,3 +877,5 @@ ERROR: Cannot change drv_restart_pointer in user_nl file: set via xml variable D
  ---------------------------------------------------
 2026-08-25 19:04:28: case.run starting 7243694.desched1
  ---------------------------------------------------
+2026-08-25 19:04:40: model execution starting 7243694.desched1
+ ---------------------------------------------------
