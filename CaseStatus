@@ -901,3 +901,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2026-08-27 16:17:59: xmlchange success <command> ./xmlchange DRV_RESTART_POINTER=rpointer.cpl.0152-01-01-00000  </command>
  ---------------------------------------------------
+2026-08-27 16:18:31: case.build starting 
+ ---------------------------------------------------
