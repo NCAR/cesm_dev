@@ -906,3 +906,5 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
 2026-08-27 16:18:37: case.build error 
 ERROR: Missing rpointer files in rundir. Expected files with pattern rpointer\.ocn(\.\d{4}-\d{2}-\d{2}-\d{5})?$.
  ---------------------------------------------------
+2026-08-27 16:18:41: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
