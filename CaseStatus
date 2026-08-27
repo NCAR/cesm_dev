@@ -919,3 +919,6 @@ ERROR: CONTINUE_RUN is true but this case does not appear to have restart files 
  ---------------------------------------------------
 2026-08-27 16:19:43: case.submit starting 
  ---------------------------------------------------
+2026-08-27 16:19:45: case.submit error 
+ERROR: Build complete is not True please rebuild the model by calling case.build
+ ---------------------------------------------------
