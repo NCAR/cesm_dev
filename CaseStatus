@@ -647,3 +647,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha09d
 2026-08-27 17:04:46: case.submit error 
 ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.380/env_run.xml appears to have changed without a corresponding invalidation.
  ---------------------------------------------------
+2026-08-27 17:04:50: model execution starting 7264761.desched1
+ ---------------------------------------------------

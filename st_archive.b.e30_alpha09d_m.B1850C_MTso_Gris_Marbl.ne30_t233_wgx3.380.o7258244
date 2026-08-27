@@ -13649,3 +13649,4 @@ Archiving history files for dart (esp)
 st_archive completed
 resubmitting from st_archive, resubmit=6
 Submitting job 'case.run', resubmit=6
+ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.380/env_run.xml appears to have changed without a corresponding invalidation.
