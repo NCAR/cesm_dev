@@ -114,3 +114,7 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_PRIORITY=special --force
 
+./xmlchange PROJECT=CESM0023,RESUBMIT=20,STOP_N=,STOP_OPTION=nyears
+
+./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run
+
