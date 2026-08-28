@@ -1090,3 +1090,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
  ---------------------------------------------------
 2026-08-28 10:43:42: model execution starting 7275812.desched1
  ---------------------------------------------------
+2026-08-28 11:45:59: xmlchange success <command> ./xmlchange RESUBMIT=25  </command>
+ ---------------------------------------------------
