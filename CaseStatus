@@ -687,3 +687,5 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B18
  ---------------------------------------------------
 2026-08-28 11:46:13: xmlchange success <command> ./xmlchange RESUBMIT=25  </command>
  ---------------------------------------------------
+2026-08-28 15:18:09: model execution success 7273422.desched1
+ ---------------------------------------------------
