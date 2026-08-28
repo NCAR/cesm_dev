@@ -1132,3 +1132,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
  ---------------------------------------------------
 2026-08-28 16:11:40: case.run success 7278053.desched1
  ---------------------------------------------------
+2026-08-28 16:11:42:   Timing files created for run 7278053.desched1.260828-142328
+ ---------------------------------------------------
