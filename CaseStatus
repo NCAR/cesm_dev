@@ -1198,3 +1198,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
  ---------------------------------------------------
 2026-08-28 22:16:22: case.run starting 7280877.desched1
  ---------------------------------------------------
+2026-08-28 22:16:30: model execution starting 7280877.desched1
+ ---------------------------------------------------
