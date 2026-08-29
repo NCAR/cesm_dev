@@ -733,3 +733,5 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B18
  ---------------------------------------------------
 2026-08-29 06:27:14: st_archive success 7281220.desched1
  ---------------------------------------------------
+2026-08-29 06:27:17: case.submit starting case.run:7285425.desched1, case.st_archive:7285426.desched1
+ ---------------------------------------------------
