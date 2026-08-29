@@ -1224,3 +1224,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
  ---------------------------------------------------
 2026-08-29 02:27:37:   Timing files created for run 7282013.desched1.260829-003459
  ---------------------------------------------------
+2026-08-29 02:28:14: st_archive starting 7282014.desched1
+ ---------------------------------------------------
