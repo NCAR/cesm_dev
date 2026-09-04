@@ -50,16 +50,18 @@
          'SFDMS', 'BURDENBCdn', 'BURDENDUSTdn', 'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn', 'AODBCdn', 'AODSOAdn',
          'AODSSdn', 'AODPOMdn', 'AODSO4dn', 'AODDUSTdn', 'AODVISdn', 'AODVISstdn', 'BURDENSO4dn', 'SFDMS', 'BURDENBCdn',
          'BURDENDUSTdn', 'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn', 'CCN3', 'CFC11', 'CFC12', 'CH4',
-         'CO2', 'EXTINCTdn', 'N2O', 'EFIX'
+         'CO2', 'EXTINCTdn', 'N2O', 'EFIX', 'ABS_dPSdt'
  fincl3		= 'PRECT','PRECC','FLUT','U850','U200','V850','V200','OMEGA500','TS','SST','PSL','Z500'
  fincl4		= 'PRECC','PRECL'
  fincl6		= 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I','PMID:I'
+ fincl7		= 'Uzm', 'Vzm', 'Wzm', 'THzm', 'VTHzm', 'WTHzm', 'UVzm', 'UWzm', 'UTEND_CORE', 'UTEND_PHYSTOT', 'UTEND_GWDTOT'
+ fincl8		= 'Uzm:I','Vzm:I','Wzm:I','THzm:I','VTHzm:I','WTHzm:I','UVzm:I','UWzm:I'
  interpolate_nlat		= 192,192,192,192,192,192,192
  interpolate_nlon		= 288,288,288,288,288,288,288
  interpolate_output		= .true.,.false.,.true.,.true.,.false.,.true.,.true.
- mfilt		= 0,0,20,40,12,120,1,1
- ndens		= 2,2,2,2,2,1,2,1
- nhtfrq		= 0,0,-24,-3,0,-2,0,-8760
+ mfilt		= 0,0,20,40,12,120,40,40
+ ndens		= 2,2,2,2,2,1,2,2
+ nhtfrq		= 0,0,-24,-3,0,-2,-6,-6
 /
 &cam_initfiles_nl
  bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/se/ne30pg3_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greenlndantarcsgh30fac2.50_20250828.nc'
@@ -296,12 +298,12 @@
  dust_emis_fact		= 3.2D0
 /
 &dyn_se_inparm
- se_cslam_q_filter_nu_fac		=  0.5 
+ se_cslam_q_filter_nu_fac		= -1.0
  se_dribble_in_rsplit_loop		=     0
  se_ftype		=  2 
  se_fv_nphys		= 3
  se_fvm_supercycling		= -1
- se_gll_advect_q		=  .true.  
+ se_gll_advect_q		= .false.
  se_horz_num_threads		=  0 
  se_hypervis_subcycle		= -1 
  se_hypervis_subcycle_q		= 1                 

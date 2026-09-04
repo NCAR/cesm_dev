@@ -2,11 +2,11 @@
 
  cam_physics_mesh = '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/ne30pg3_ESMFmesh_cdf5_c20211018.nc'
  dtime = 1800
-mfilt               =       0,      0,     20,      40,      12,      120,      1,   1
+mfilt               =       0,      0,     20,      40,      12,      120,      40,   40
 
-nhtfrq              =       0,      0,    -24,      -3,       0,       -2,      0,  -8760
+nhtfrq              =       0,      0,    -24,      -3,       0,       -2,      -6,  -6
 
-ndens               =       2,       2,      2,       2,       2,        1,      2,   1
+ndens               =       2,       2,      2,       2,       2,        1,      2,   2
 
 interpolate_output  =  .true.,  .false., .true.,  .true., .false.,   .true.,     .true.
 
@@ -78,7 +78,9 @@ fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODDUSTdn','AODVIS', 
 
 'CCN3', 'CFC11', 'CFC12', 'CH4','CO2', 'EXTINCTdn', 'N2O', 
 
-'EFIX'
+'EFIX', 'ABS_dPSdt'
+
+
 
 
 
@@ -91,6 +93,12 @@ fincl4 =  'PRECC','PRECL'
 
 
 fincl6 = 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I', 'PMID:I'
+
+
+
+fincl7 = 'Uzm','Vzm','Wzm','THzm','VTHzm','WTHzm','UVzm','UWzm', 'UTEND_CORE', 'UTEND_PHYSTOT', 'UTEND_GWDTOT'
+
+fincl8 = 'Uzm:I','Vzm:I','Wzm:I','THzm:I','VTHzm:I','WTHzm:I','UVzm:I','UWzm:I'
 
 
 
@@ -107,6 +115,12 @@ clubb_gamma_coefb               =  0.298
 clubb_penta_solve_method = 2
 
 clubb_tridiag_solve_method = 2
+
+
+
+se_cslam_q_filter_nu_fac    =   -1.0
+
+se_gll_advect_q             =    .false.
 
 
 
