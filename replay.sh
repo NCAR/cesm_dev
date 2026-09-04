@@ -54,3 +54,5 @@ cd "${CASEDIR}"
 
 ./case.build --clean atm
 
+./case.build
+
