@@ -94,3 +94,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_gll_doub
  ---------------------------------------------------
 2026-09-04 13:55:40: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
  ---------------------------------------------------
+2026-09-04 13:55:42: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=9,STOP_N=2,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
