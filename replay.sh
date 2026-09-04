@@ -60,3 +60,5 @@ cd "${CASEDIR}"
 
 ./case.build --clean
 
+./xmlchange RUN_TYPE=startup
+
