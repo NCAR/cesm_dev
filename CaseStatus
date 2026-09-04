@@ -125,3 +125,9 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_gll_doub
  ---------------------------------------------------
 2026-09-04 13:51:53: build.clean success 
  ---------------------------------------------------
+2026-09-04 13:52:31: case.setup starting 
+ ---------------------------------------------------
+2026-09-04 13:52:34: case.setup success 
+ ---------------------------------------------------
+2026-09-04 13:52:35: xmlchange success <command> ./xmlchange RUN_TYPE=startup  </command>
+ ---------------------------------------------------

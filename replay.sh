@@ -120,3 +120,7 @@ cd "${CASEDIR}"
 
 ./case.build --clean
 
+./case.setup --reset
+
+./xmlchange RUN_TYPE=startup
+
