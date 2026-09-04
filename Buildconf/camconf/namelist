@@ -8,7 +8,7 @@ nhtfrq              =       0,      0,    -24,      -3,       0,       -2,      
 
 ndens               =       2,       2,      2,       2,       2,        1,      2,   2
 
-interpolate_output  =  .true.,  .false., .true.,  .true., .false.,   .true.,     .true.
+interpolate_output  =  .true.,  .false., .true.,  .true., .false.,   .false.,     .false.
 
 interpolate_nlat    =     192,     192,    192,     192,      192,     192,      192
 
