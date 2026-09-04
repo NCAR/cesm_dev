@@ -93,3 +93,5 @@ err=Cannot set both Spherical Harmonics and ESMF regrid methods of TEM zonal mea
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_gll_double_adv.FHISTC_MTso.ne30_control.001/run/med.log.7313827.desched1.260904-103352 
  
  ---------------------------------------------------
+2026-09-04 10:45:32: case.submit starting case.run:7313939.desched1, case.st_archive:7313940.desched1
+ ---------------------------------------------------
