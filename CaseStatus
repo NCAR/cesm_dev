@@ -137,3 +137,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_gll_doub
  ---------------------------------------------------
 2026-09-04 13:52:42: xmlchange success <command> ./xmlchange RUN_STARTDATE=1980-01-01  </command>
  ---------------------------------------------------
+2026-09-04 13:53:13: case.build starting 
+ ---------------------------------------------------

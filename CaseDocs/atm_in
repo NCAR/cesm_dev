@@ -51,12 +51,16 @@
          'AODSSdn', 'AODPOMdn', 'AODSO4dn', 'AODDUSTdn', 'AODVISdn', 'AODVISstdn', 'BURDENSO4dn', 'SFDMS', 'BURDENBCdn',
          'BURDENDUSTdn', 'BURDENPOMdn', 'BURDENSEASALTdn', 'BURDENSO4dn', 'BURDENSOAdn', 'CCN3', 'CFC11', 'CFC12', 'CH4',
          'CO2', 'EXTINCTdn', 'N2O', 'EFIX', 'ABS_dPSdt'
- fincl3		= 'PRECT','PRECC','FLUT','U850','U200','V850','V200','OMEGA500','TS','SST','PSL','Z500'
+ fincl3		= 'PRECT', 'PRECC', 'FLUT', 'U850', 'U200', 'V850', 'V200', 'OMEGA500', 'TS', 'SST', 'PSL',
+         'Z500', 'U010:A', 'Z010:A', 'FRONTGF', 'TAU_MOVMTN', 'TAUE', 'TAUW', 'TAUN', 'TAUS', 'TAUARDGBETAX', 'TAUARDGBETAY',
+         'BTAUE', 'BTAUW', 'BTAUN', 'BTAUS', 'NETDT', 'HDEPTH'
  fincl4		= 'PRECC','PRECL'
  fincl6		= 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I','PMID:I'
+ fincl7		= 'Uzm', 'Vzm', 'Wzm', 'THzm', 'VTHzm', 'WTHzm', 'UVzm', 'UWzm', 'UTEND_CORE', 'UTEND_PHYSTOT', 'UTEND_GWDTOT'
+ fincl8		= 'Uzm:I','Vzm:I','Wzm:I','THzm:I','VTHzm:I','WTHzm:I','UVzm:I','UWzm:I'
  interpolate_nlat		= 192,192,192,192,192,192,192
  interpolate_nlon		= 288,288,288,288,288,288,288
- interpolate_output		= .true.,.false.,.true.,.true.,.false.,.true.,.true.
+ interpolate_output		= .true.,.false.,.true.,.true.,.false.,.false.,.false.
  mfilt		= 0,0,20,40,12,120,40,40
  ndens		= 2,2,2,2,2,1,2,2
  nhtfrq		= 0,0,-24,-3,0,-2,-6,-6
