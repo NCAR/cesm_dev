@@ -23,3 +23,5 @@ ERROR: Command /glade/work/hannay/cesm_tags/gll_double_adv/bld/build-namelist -n
 out=
 err=Cannot set both Spherical Harmonics and ESMF regrid methods of TEM zonal mean diagnostics.
  ---------------------------------------------------
+2026-09-04 10:08:09: case.build starting 
+ ---------------------------------------------------

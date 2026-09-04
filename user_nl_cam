@@ -45,11 +45,6 @@ fincl3 = 'PRECT', 'PRECC', 'FLUT', 'U850', 'U200', 'V850', 'V200', 'OMEGA500', '
 
 fincl4 =  'PRECC','PRECL'
 
-fincl5 = 'Uzm','Vzm','Wzm','THzm', 'VTHzm','WTHzm','UVzm','UWzm'
-phys_grid_ctem_nfreq=-6
-phys_grid_ctem_zm_nbas=120
-phys_grid_ctem_za_nlat=90
-
 fincl6 = 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I', 'PMID:I'
 
 
