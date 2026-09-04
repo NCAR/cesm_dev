@@ -83,3 +83,5 @@ err=Cannot set both Spherical Harmonics and ESMF regrid methods of TEM zonal mea
  ---------------------------------------------------
 2026-09-04 10:31:17: case.submit success case.run:7313827.desched1, case.st_archive:7313828.desched1
  ---------------------------------------------------
+2026-09-04 10:33:52: case.run starting 7313827.desched1
+ ---------------------------------------------------
