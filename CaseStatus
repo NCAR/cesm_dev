@@ -29,3 +29,5 @@ err=Cannot set both Spherical Harmonics and ESMF regrid methods of TEM zonal mea
  ---------------------------------------------------
 2026-09-04 10:17:55: case.build starting 
  ---------------------------------------------------
+2026-09-04 10:18:09: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
