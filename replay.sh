@@ -78,3 +78,9 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./preview_namelists
+
+./preview_namelists
+
+./case.build
+
