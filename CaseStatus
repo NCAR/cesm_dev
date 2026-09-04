@@ -59,3 +59,5 @@ err=Cannot set both Spherical Harmonics and ESMF regrid methods of TEM zonal mea
  ---------------------------------------------------
 2026-09-04 10:29:37: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
  ---------------------------------------------------
+2026-09-04 10:29:39: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
