@@ -82,3 +82,7 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_STARTDATE=1980-01-01
 
+./preview_namelists
+
+./xmlchange RUN_TYPE=startup
+
