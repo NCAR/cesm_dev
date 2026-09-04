@@ -62,3 +62,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_gll_doub
  ---------------------------------------------------
 2026-09-04 13:46:00: xmlchange success <command> ./xmlchange RUN_TYPE=startup  </command>
  ---------------------------------------------------
+2026-09-04 13:46:02: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
+ ---------------------------------------------------
