@@ -18,3 +18,8 @@
  ---------------------------------------------------
 2026-09-04 10:06:34: case.build starting 
  ---------------------------------------------------
+2026-09-04 10:06:40: case.build error 
+ERROR: Command /glade/work/hannay/cesm_tags/gll_double_adv/bld/build-namelist -ntasks 3200 -csmdata /glade/campaign/cesm/cesmdata/inputdata -infile /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_gll_double_adv.FHISTC_MTso.ne30_control.001/Buildconf/camconf/namelist -start_ymd 19800101 -ignore_ic_year -use_case hist_cam_mt -inputdata /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_gll_double_adv.FHISTC_MTso.ne30_control.001/Buildconf/cam.input_data_list -namelist " &atmexp /"  -cmeps failed rc=255
+out=
+err=Cannot set both Spherical Harmonics and ESMF regrid methods of TEM zonal mean diagnostics.
+ ---------------------------------------------------
