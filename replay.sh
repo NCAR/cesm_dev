@@ -54,3 +54,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange NTASKS=5400
+
