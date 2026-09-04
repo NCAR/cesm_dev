@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<file id="env_postprocessing.xml" version="2.0">
+  <header>
+      These variables may be changed anytime during a run, they
+      control jobs that are dependent on case.run.
+    </header>
+  <group id="cupid_config">
+    <entry id="CUPID_ROOT" value="$SRCROOT/tools/CUPiD">
+      <type>char</type>
+      <desc>Location of CUPiD for CESM workflow</desc>
+    </entry>
+    <entry id="CUPID_GEN_TIMESERIES" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>When TRUE, CUPiD will generate time series files from history output</desc>
+    </entry>
+    <entry id="CUPID_GEN_DIAGNOSTICS" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>When TRUE, CUPiD will generate diagnostic plots</desc>
+    </entry>
+    <entry id="CUPID_GEN_HTML" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>When TRUE, CUPiD will generate web pages from the diagnostic plots</desc>
+    </entry>
+  </group>
+  <group id="cupid_environments">
+    <entry id="CUPID_ANALYSIS_ENV" value="cupid-analysis">
+      <type>char</type>
+      <desc>Conda environment to use when running CUPiD notebooks</desc>
+    </entry>
+    <entry id="CUPID_INFRASTRUCTURE_ENV" value="cupid-infrastructure">
+      <type>char</type>
+      <desc>Conda environment to use when running CUPiD tools</desc>
+    </entry>
+  </group>
+  <group id="cupid_analysis">
+    <entry id="CUPID_STARTDATE" value="0001-01-01">
+      <type>char</type>
+      <desc>First year of output to include in CUPiD analysis. Format YYYY-MM-DD.</desc>
+    </entry>
+    <entry id="CUPID_STOP_OPTION" value="nyears">
+      <type>char</type>
+      <valid_values>ndays,nmonths,nyears</valid_values>
+      <desc>Sets the portion of output to include in CUPiD analysis, along with STOP_N.</desc>
+    </entry>
+    <entry id="CUPID_STOP_N" value="1">
+      <type>integer</type>
+      <desc>Provides a numerical count for $CUPID_STOP_OPTION.</desc>
+    </entry>
+    <entry id="CUPID_BASE_STARTDATE" value="0001-01-01">
+      <type>char</type>
+      <desc>First date of baseline output to include in CUPiD analysis. Format YYYY-MM-DD.</desc>
+    </entry>
+    <entry id="CUPID_BASE_STOP_OPTION" value="nyears">
+      <type>char</type>
+      <valid_values>ndays,nmonths,nyears</valid_values>
+      <desc>Sets the portion of base case output to include in CUPiD analysis, along with STOP_N.</desc>
+    </entry>
+    <entry id="CUPID_BASE_STOP_N" value="100">
+      <type>integer</type>
+      <desc>Provides a numerical count for $CUPID_BASE_STOP_OPTION.</desc>
+    </entry>
+    <entry id="CUPID_CLIMO_END_YEAR" value="100">
+      <type>integer</type>
+      <desc>Year to end climatology, eg for LDF</desc>
+    </entry>
+    <entry id="CUPID_CLIMO_N_YEAR" value="25">
+      <type>integer</type>
+      <desc>Number of years to use for climatology, eg for LDF</desc>
+    </entry>
+    <entry id="CUPID_BASE_CLIMO_END_YEAR" value="100">
+      <type>integer</type>
+      <desc>Year to end base case climatology, eg for LDF</desc>
+    </entry>
+    <entry id="CUPID_BASE_CLIMO_N_YEAR" value="25">
+      <type>integer</type>
+      <desc>Number of years to use for base case climatology, eg for LDF</desc>
+    </entry>
+    <entry id="CUPID_BASELINE_CASE" value="b.e23_alpha17f.BLT1850.ne30_t232.092">
+      <type>char</type>
+      <desc>Baseline case to use in CUPiD analysis</desc>
+    </entry>
+    <entry id="CUPID_BASELINE_ROOT" value="$DOUT_S_ROOT/..">
+      <type>char</type>
+      <desc>Baseline case root to use in CUPiD analysis</desc>
+    </entry>
+    <entry id="CUPID_TS_DIR" value="$DOUT_S_ROOT/..">
+      <type>char</type>
+      <desc>Timeseries directory for baseline case to use in generating ts. Change this in the case of directory permission issues to eg, your scratch directory</desc>
+    </entry>
+    <entry id="CUPID_EXAMPLE" value="key_metrics">
+      <type>char</type>
+      <desc>Example to use in CUPiD analysis</desc>
+    </entry>
+    <entry id="CUPID_RUN_TYPE" value="BGC">
+      <type>char</type>
+      <valid_values>BGC,SP</valid_values>
+      <desc>Type of CTSM run: either 'BGC' (biogeochemistry) or 'SP' (satellite phenology)</desc>
+    </entry>
+  </group>
+  <group id="cupid_run_components">
+    <entry id="CUPID_RUN_ALL" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not diagnostics for all components are run</desc>
+    </entry>
+    <entry id="CUPID_RUN_ATM" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ATM diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_OCN" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not OCN diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_LND" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not LND diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_ICE" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ICE diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_ROF" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ROF diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_GLC" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not GLC diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_ADF" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ADF diagnostics are run</desc>
+    </entry>
+    <entry id="CUPID_RUN_CVDP" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not CVDP diagnostics are run (requires CUPID_RUN_ADF=TRUE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_LDF" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not LDF diagnostics are run</desc>
+    </entry>
+    <entry id="CUPID_RUN_ILAMB" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ILAMB diagnostics are run</desc>
+    </entry>
+  </group>
+</file>
