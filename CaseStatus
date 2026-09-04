@@ -50,3 +50,5 @@
 2026-09-04 17:39:57: case.build error 
 ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09e_m_gll.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.393/env_build.xml appears to have changed without a corresponding invalidation.
  ---------------------------------------------------
+2026-09-04 17:41:45: build.clean starting 
+ ---------------------------------------------------
