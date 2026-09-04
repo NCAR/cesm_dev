@@ -146,3 +146,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_gll_doub
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_gll_double_adv.FHISTC_MTso.ne30_nirvana.001/run/med.log.7316331.desched1.260904-141952 
  
  ---------------------------------------------------
+2026-09-04 14:32:17: xmlchange success <command> ./xmlchange RUN_TYPE=startup  </command>
+ ---------------------------------------------------

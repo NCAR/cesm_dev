@@ -132,3 +132,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange RUN_TYPE=startup
+
