@@ -74,3 +74,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange RUN_TYPE=startup
+
