@@ -56,7 +56,8 @@
          'BTAUE', 'BTAUW', 'BTAUN', 'BTAUS', 'NETDT', 'HDEPTH'
  fincl4		= 'PRECC','PRECL'
  fincl6		= 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I','PMID:I'
- fincl7		= 'Uzm', 'Vzm', 'Wzm', 'THzm', 'VTHzm', 'WTHzm', 'UVzm', 'UWzm', 'UTEND_CORE', 'UTEND_PHYSTOT', 'UTEND_GWDTOT'
+ fincl7		= 'Uzm', 'Vzm', 'Wzm', 'THzm', 'VTHzm', 'WTHzm', 'UVzm', 'UWzm', 'UTEND_CORE',
+         'VTEND_CORE', 'UTEND_PHYSTOT', 'VTEND_PHYSTOT', 'UTEND_GWDTOT', 'VTEND_GWDTOT'
  fincl8		= 'Uzm:I','Vzm:I','Wzm:I','THzm:I','VTHzm:I','WTHzm:I','UVzm:I','UWzm:I'
  interpolate_nlat		= 192,192,192,192,192,192,192,192
  interpolate_nlon		= 288,288,288,288,288,288,288,288
