@@ -2,19 +2,17 @@
 
  cam_physics_mesh = '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/ne30pg3_ESMFmesh_cdf5_c20211018.nc'
  dtime = 1800
-mfilt               =       0,      0,     20,      40,      12,      120,      40,   40
+mfilt               =       0,      0,     20,      40,      12,      120,      40,      40
 
-nhtfrq              =       0,      0,    -24,      -3,       0,       -2,      -6,  -6
+nhtfrq              =       0,      0,    -24,      -3,       0,       -2,      -6,      -6
 
-ndens               =       2,       2,      2,       2,       2,        1,      2,   2
+ndens               =       2,       2,      2,       2,       2,        1,      2,      2
 
-interpolate_output  =  .true.,  .false., .true.,  .true., .false.,   .false.,     .false.
+interpolate_output  =  .true.,  .false., .true.,  .true.,  .true.,   .true.,  .false.,   .false.
 
-interpolate_nlat    =     192,     192,    192,     192,      192,     192,      192
+interpolate_nlat    =     192,     192,    192,     192,      192,     192,      192,         192
 
-interpolate_nlon    =     288,     288,    288,     288,      288,     288,      288
-
-
+interpolate_nlon    =     288,     288,    288,     288,      288,     288,      288,      288
 
 empty_htapes = .true.
 
