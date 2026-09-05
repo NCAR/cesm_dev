@@ -121,6 +121,8 @@ prescribed_ozone_file = 'ozone_strataero_b.e30_alpha09b.B1850C_MTt4s.ne30_t233_w
 
 prescribed_ozone_cycle_yr = 1850
 
+prescribed_ozone_name = 'O3'
+
 
 
 prescribed_strataero_datapath = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/ozone_strataero_day_5_zm'
