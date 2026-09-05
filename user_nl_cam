@@ -60,12 +60,14 @@ prescribed_ozone_datapath = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706
 
 !prescribed_ozone_file          = 'ozone_strataero_b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix_1850_5_30_climo_zm_5day_c260424.nc'
 prescribed_ozone_file = 'ozone_strataero_b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360_1850_0005_0030_transient_zm_5day_c20260706.nc'
+prescribed_ozone_cycle_yr = 1850
 
 !prescribed_strataero_datapath          = '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/ozone_strataero_day_5_zm'
 prescribed_strataero_datapath = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/ozone_strataero_day_5_zm'
 
 !prescribed_strataero_file              = 'ozone_strataero_b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix_1850_5_30_climo_zm_5day_c260424.nc'
 prescribed_strataero_file = 'ozone_strataero_b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360_1850_0005_0030_transient_zm_5day_c20260706.nc'
+prescribed_strataero_cycle_yr = 1850
 
 !stream_ndep_data_filename              = '/glade/campaign/acom/acom-climate/tilmes/CAM7/b.e30_alpha08o.B1850C_MTt4s.ne30_t232_wgx3.330_branch.fix/atm/proc/NDepositionCyclical1850/fndep_clm_MTt4s_3Dmonthly_1850climo330_c20260424.nc'
 stream_ndep_data_filename = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/NDepositionCyclic1850/fndep_clm_MTt4s_3Dmonthly_1850climo330_c20260706.nc'
