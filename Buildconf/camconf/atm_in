@@ -127,7 +127,7 @@
          'SOAE -> 6.5013D0*/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/historical_ne30pg3/emissions-cmip6_XYLENES_anthro_surface_175001-201412_ne30pg3_c20191118.nc',
          'SOAE -> 6.5013D0*/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/historical_ne30pg3/emissions-cmip6_XYLENES_bb_surface_175001-201512_ne30pg3_c20191118.nc'
  srf_emis_type		= 'CYCLICAL'
- tracer_cnst_cycle_yr		= 2000
+ tracer_cnst_cycle_yr		= 1850
  tracer_cnst_datapath		= '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/TracerCnstFileCyclic1850'
  tracer_cnst_file		= 'tracer_cnst_MTt4s_halons_3Dmonthly_1850climo360_c20260706.nc'
  tracer_cnst_specifier		= 'O3','OH','NO3','HO2','HALONS'
@@ -426,9 +426,9 @@
 &ndep_stream_nl
  stream_ndep_data_filename		= '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/NDepositionCyclic1850/fndep_clm_MTt4s_3Dmonthly_1850climo330_c20260706.nc'
  stream_ndep_mesh_filename		= '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/fv0.9x1.25_141008_polemod_ESMFmesh.nc'
- stream_ndep_year_align		= 1
- stream_ndep_year_first		= 2000
- stream_ndep_year_last		= 2000
+ stream_ndep_year_align		= 1850
+ stream_ndep_year_first		= 1850
+ stream_ndep_year_last		= 1850
 /
 &nucleate_ice_nl
  nucleate_ice_incloud		= .false.

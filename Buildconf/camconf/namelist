@@ -109,6 +109,8 @@ tracer_cnst_datapath = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e3
 
 tracer_cnst_file = 'tracer_cnst_MTt4s_halons_3Dmonthly_1850climo360_c20260706.nc'
 
+tracer_cnst_cycle_yr = 1850
+
 
 
 prescribed_ozone_datapath = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/ozone_strataero_day_5_zm'
@@ -128,6 +130,12 @@ prescribed_strataero_file = 'ozone_strataero_b.e30_alpha09b.B1850C_MTt4s.ne30_t2
 
 
 stream_ndep_data_filename = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/NDepositionCyclic1850/fndep_clm_MTt4s_3Dmonthly_1850climo330_c20260706.nc'
+
+stream_ndep_year_first = 1850
+
+stream_ndep_year_last  = 1850
+
+stream_ndep_year_align = 1850
 
 
 
