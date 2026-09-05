@@ -87,3 +87,7 @@ ERROR env_build HAS CHANGED
  ---------------------------------------------------
 2026-09-04 18:32:32: model execution success 7322198.desched1
  ---------------------------------------------------
+2026-09-04 18:32:34: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha09e_m_gll.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.393/run/med.log.7322198.desched1.260904-182451 
+ 
+ ---------------------------------------------------
