@@ -1091,3 +1091,5 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09d_m.B18
  ---------------------------------------------------
 2026-09-08 11:59:06: case.submit success case.run:7350548.desched1, case.st_archive:7350549.desched1
  ---------------------------------------------------
+2026-09-08 12:06:03: xmlchange success <command> ./xmlchange RESUBMIT=10  </command>
+ ---------------------------------------------------
