@@ -1,0 +1,44 @@
+&drydep_inparm
+ dep_data_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_mozart/dvel/dep_data_c20221208.nc'
+ drydep_list		= 'BIGALK', 'C2H4', 'C2H5OH', 'C2H5OOH', 'C2H6', 'C3H6', 'C3H7OOH', 'C3H8', 'CH2O', 'CH3CHO', 'CH3COCH3', 'CH3COCHO',
+         'CH3COOH', 'CH3COOOH', 'CH3OH', 'CH3OOH', 'CO', 'DMS', 'EOOH', 'GLYALD', 'GLYOXAL', 'H2O2', 'H2SO4', 'HNO3',
+         'HO2NO2', 'HYAC', 'HYDRALD', 'ISOP', 'ISOPOOH', 'MACR', 'MACROOH', 'MPAN', 'MVK', 'N2O5', 'NH3', 'NH4',
+         'NO', 'NO2', 'NOA', 'O3', 'O3S', 'ONITR', 'PAN', 'POOH', 'ROOH', 'SO2', 'SOAG', 'XOOH'
+/
+&megan_emis_nl
+ megan_factors_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_mozart/emis/megan21_emis_factors_78pft_c20161108.nc'
+ megan_mapped_emisfctrs		= .false.
+ megan_specifier		= 'ISOP = isoprene', 'TERP = carene_3 + pinene_a + thujene_a + bornene + terpineol_4 + terpineol_a + terpinyl_ACT_a +',
+         ' myrtenal + sabinene + pinene_b + camphene + fenchene_a + limonene + phellandrene_a + terpinene_a +', ' terpinene_g + terpinolene + phellandrene_b + linalool + ionone_b + geranyl_acetone + neryl_acetone +',
+         ' jasmone + verbenene + ipsenol + myrcene + ocimene_t_b + ocimene_al + ocimene_c_b + 2met_nonatriene +', ' farnescene_a + caryophyllene_b + acoradiene + aromadendrene + bergamotene_a + bergamotene_b +',
+         ' bisabolene_a + bisabolene_b + bourbonene_b + cadinene_d + cadinene_g + cedrene_a + copaene_a +', ' cubebene_a + cubebene_b + elemene_b + farnescene_b + germacrene_B + germacrene_D + gurjunene_b +',
+         ' humulene_a + humulene_g + isolongifolene + longifolene + longipinene + muurolene_a + muurolene_g +', ' selinene_b + selinene_d + nerolidol_c + nerolidol_t',
+         'BIGALK = tricyclene + camphor + fenchone + thujone_a + thujone_b + cineole_1_8 + borneol + bornyl_ACT +', ' cedrol + decanal + heptanal + heptane + hexane + nonanal + octanal + octanol + oxopentanal + pentane +',
+         ' hexanal + hexanol_1 + pentanal + heptanone', 'CH3OH = methanol',
+         'CH3COCH3 = acetone', 'CH3CHO = acetaldehyde',
+         'C2H5OH = ethanol', 'CH2O = formaldehyde',
+         'CH3COOH = acetic_acid', 'CO = carbon_monoxide',
+         'C2H6 = ethane', 'C2H4 = ethene',
+         'C3H8 = propane', 'C3H6 = propene',
+         'SOAE = 0.5954*isoprene + 5.1004*(carene_3 + pinene_a + thujene_a + bornene +', ' terpineol_4 + terpineol_a + terpinyl_ACT_a + myrtenal + sabinene + pinene_b + camphene +',
+         ' fenchene_a + limonene + phellandrene_a + terpinene_a + terpinene_g + terpinolene +', ' phellandrene_b + linalool + ionone_b + geranyl_acetone + neryl_acetone + jasmone +',
+         ' verbenene + ipsenol + myrcene + ocimene_t_b + ocimene_al + ocimene_c_b + 2met_nonatriene) + ', ' 12.3942*(farnescene_a + caryophyllene_b + acoradiene + aromadendrene + bergamotene_a +',
+         ' bergamotene_b + bisabolene_a + bisabolene_b + bourbonene_b + cadinene_d + cadinene_g +', ' cedrene_a + copaene_a + cubebene_a + cubebene_b + elemene_b + farnescene_b +',
+         ' germacrene_B + germacrene_D + gurjunene_b + humulene_a + humulene_g + isolongifolene +', ' longifolene + longipinene + muurolene_a + muurolene_g + selinene_b + selinene_d +',
+         ' nerolidol_c + nerolidol_t)'
+/
+&fire_emis_nl
+/
+&carma_inparm
+/
+&ndep_inparm
+/
+&ozone_coupling_nl
+ atm_ozone_frequency		= 'subdaily'
+/
+&lightning_coupling_nl
+ atm_provides_lightning		= .true.
+/
+&dust_emis_inparm
+ dust_emis_method		= 'Leung_2023'
+/
