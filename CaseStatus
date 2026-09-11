@@ -78,3 +78,5 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09e_m.B18
  ---------------------------------------------------
 2026-09-11 14:22:00: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
  ---------------------------------------------------
+2026-09-11 14:22:18: case.submit starting case.run:7402122.desched1, case.st_archive:7402123.desched1
+ ---------------------------------------------------
