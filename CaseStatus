@@ -70,3 +70,5 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09e_m.B18
  ---------------------------------------------------
 2026-09-11 14:21:43: case.build success 
  ---------------------------------------------------
+2026-09-11 14:21:48: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
