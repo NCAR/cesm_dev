@@ -74,3 +74,5 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09e_m.B18
  ---------------------------------------------------
 2026-09-11 14:21:52: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=25,STOP_N=4,STOP_OPTION=nyears  </command>
  ---------------------------------------------------
+2026-09-11 14:21:56: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
+ ---------------------------------------------------
