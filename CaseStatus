@@ -47,3 +47,11 @@ ERROR: /glade/work/hannay/cesm_tags/cesm3_0_alpha09e_MARBL/libraries/FMS/buildli
  ---------------------------------------------------
 2026-09-11 13:59:53: case.build starting 
  ---------------------------------------------------
+2026-09-11 13:59:57: case.build error 
+ERROR: 
+ERROR env_build HAS CHANGED
+  A manual clean of your obj directories is required
+  You should execute the following:
+    ./case.build --clean-all
+
+ ---------------------------------------------------
