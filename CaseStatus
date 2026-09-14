@@ -200,3 +200,5 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09e_m.B18
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.396/run/med.log.7429731.desched1.260913-114402 
  
  ---------------------------------------------------
+2026-09-13 20:35:43: case.submit starting case.run:7436887.desched1, case.st_archive:7436888.desched1
+ ---------------------------------------------------
