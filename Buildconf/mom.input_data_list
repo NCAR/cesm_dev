@@ -1,0 +1,17 @@
+GRID_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/ocean_hgrid_250930.nc
+ALE_COORDINATE_CONFIG = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/hybrid_75layer_zstar_2.50m-2025-09-12.nc
+MAXIMUM_INT_DEPTH_CONFIG = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/lev-2025-09-12.nc
+MAX_LAYER_THICKNESS_CONFIG = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/dz_max-2025-09-12.nc
+TOPO_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/ocean_topo_tx2_3v3_260305.nc
+KH_BG_2D = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/KH_BG_2D_tx2_3v3_260427.nc
+SALT_RESTORE_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/state_restore_tx2_3v3_260305.nc
+TIDAL_ENERGY_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/tidal_energy_tx2_3v3_conserve_260306.nc
+CHANNEL_LIST_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/channels_tx2_3v3_260304.txt
+GEOTHERMAL_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/geothermal_davies2013_tx2_3v3_260305.nc
+CHL_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/seawifs-clim-1997-2010-tx2_3v3_260305.nc
+CR_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/mle_cr_labsea_mask_tx2_3v3_260306.nc
+CFC_BC_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/cfc_atm_20230310.nc
+DIAG_COORD_DEF_RHO2 = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/ocean_rho2_190917.nc
+MARBL_TRACERS_IC_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/ecosys_jan_IC_omip_latlon_1x1_180W_c250613.nc
+MARBL_FE_INTERIOR_SOURCE_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/fe_sources_sed2024algo_vent2026algo_tx2_3v3.c260701.nc
+RIV_FLUX_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/riv_nut.gnews_gnm.r05_to_tx2_3v3_nnsm_e100r100_260306.20260424.nc
