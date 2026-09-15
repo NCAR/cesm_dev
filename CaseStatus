@@ -75,3 +75,5 @@ ERROR: Could not find all inputdata on any server
  ---------------------------------------------------
 2026-09-15 15:15:00: xmlchange success <command> ./xmlchange STOP_N=1  </command>
  ---------------------------------------------------
+2026-09-15 15:15:07: case.build starting 
+ ---------------------------------------------------
