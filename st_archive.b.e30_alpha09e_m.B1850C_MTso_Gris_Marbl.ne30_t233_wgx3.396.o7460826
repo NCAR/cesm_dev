@@ -1,1 +1,7 @@
 st_archive starting
+ERROR: Command: 'git -C /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.396 push origin' failed with error 'remote: Internal Server Error        
+remote: Request ID CEF0:12295A:B553AE:DA1B10:6AA90F24        
+remote: Time 2026-09-15T09:26:08Z
+To github.com:NCAR/cesm_dev.git
+ ! [remote rejected] b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.396 -> b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.396 (Internal Server Error)
+error: failed to push some refs to 'github.com:NCAR/cesm_dev.git'' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.396'
