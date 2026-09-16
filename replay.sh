@@ -82,3 +82,11 @@ cd "${CASEDIR}"
 
 ./xmlchange STOP_N=4
 
+./case.setup
+
+./case.setup --reset
+
+./preview_namelists
+
+./xmlchange CAM_CONFIG_OPTS=" -pcols 9" --append
+
