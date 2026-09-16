@@ -316,7 +316,7 @@
       <valid_values/>
       <desc>Status: smp status of previous build, coded string. (DO NOT EDIT)</desc>
     </entry>
-    <entry id="SMP_VALUE" value="0">
+    <entry id="SMP_VALUE" value="c0a0l0i0o0r0g0w0">
       <type>char</type>
       <valid_values/>
       <desc>Status: smp status of current case, coded string (DO NOT EDIT)</desc>
@@ -326,7 +326,7 @@
       <valid_values/>
       <desc>Status: ninst status of previous build, coded string. (DO NOT EDIT)&gt;</desc>
     </entry>
-    <entry id="NINST_VALUE" value="0">
+    <entry id="NINST_VALUE" value="c1a1l1i1o1r1g1w1">
       <type>char</type>
       <valid_values/>
       <desc>Status: ninst status of current case, coded string (DO NOT EDIT)</desc>
@@ -344,7 +344,7 @@
     </entry>
   </group>
   <group id="build_component_cam">
-    <entry id="CAM_CPPDEFS" value="    -DPLON=1 -DPLAT=1 -DNUM_COMP_INST_ATM=1 -DNUM_COMP_INST_LND=1 -DNUM_COMP_INST_OCN=1 -DNUM_COMP_INST_ICE=1 -DNUM_COMP_INST_GLC=1 -DNUM_COMP_INST_ROF=1 -DNUM_COMP_INST_WAV=1 -DNUM_COMP_INST_IAC=1 -DNUM_COMP_INST_ESP=1 -DCAM  -D_WK_GRAD -DNP=4 -DHAVE_F2003_PTR_BND_REMAP -DFVM_TRACERS -D_MPI -DPLEV=93 -DPCNST=41 -DPCOLS=16 -DPSUBCOLS=1 -DN_RAD_CNST=80 -DRTE_USE_CBOOL -DSPMD -DMODAL_AERO -DMODAL_AERO_4MODE  -DCLUBB_SGS -DCLUBB_CAM -DNO_LAPACK_ISNAN -DCLUBB_REAL_TYPE=dp -DMODEL_ -DMODEL_CESM -DHEMCO_CESM -DUSE_REAL8">
+    <entry id="CAM_CPPDEFS" value="    -DPLON=1 -DPLAT=1 -DNUM_COMP_INST_ATM=1 -DNUM_COMP_INST_LND=1 -DNUM_COMP_INST_OCN=1 -DNUM_COMP_INST_ICE=1 -DNUM_COMP_INST_GLC=1 -DNUM_COMP_INST_ROF=1 -DNUM_COMP_INST_WAV=1 -DNUM_COMP_INST_IAC=1 -DNUM_COMP_INST_ESP=1 -DCAM  -D_WK_GRAD -DNP=4 -DHAVE_F2003_PTR_BND_REMAP -DFVM_TRACERS -D_MPI -DPLEV=93 -DPCNST=41 -DPCOLS=9 -DPSUBCOLS=1 -DN_RAD_CNST=80 -DRTE_USE_CBOOL -DSPMD -DMODAL_AERO -DMODAL_AERO_4MODE  -DCLUBB_SGS -DCLUBB_CAM -DNO_LAPACK_ISNAN -DCLUBB_REAL_TYPE=dp -DMODEL_ -DMODEL_CESM -DHEMCO_CESM -DUSE_REAL8">
       <type>char</type>
       <valid_values/>
       <desc>CAM cpp definitions (setup automatically - DO NOT EDIT)</desc>
