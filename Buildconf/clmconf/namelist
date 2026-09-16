@@ -3,8 +3,8 @@
 finidat = 'b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.396.clm2.r.0037-01-01-00000.nc'
 use_init_interp = .true.
 
-reseed_dead_plants = .true.
+reseed_dead_plants = .false.
 
-use_excess_ice_streams=.false. 
+use_excess_ice_streams=.false.
 
 / 

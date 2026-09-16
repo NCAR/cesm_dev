@@ -44,16 +44,10 @@ fincl4 =  'PRECC','PRECL'
 
 seasalt_emis_scale= 1.6D0
 
-!tracer_cnst_datapath = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/TracerCnstFileCyclic1850'
-!tracer_cnst_file = 'tracer_cnst_MTt4s_halons_3Dmonthly_1850climo360_c20260706.nc'
-
-!prescribed_ozone_datapath = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/ozone_strataero_day_5_zm'
-!prescribed_ozone_file = 'ozone_strataero_b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360_1850_0005_0030_transient_zm_5day_c20260706.nc'
-
-!prescribed_strataero_datapath = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260706/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/ozone_strataero_day_5_zm'
-!prescribed_strataero_file = 'ozone_strataero_b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360_1850_0005_0030_transient_zm_5day_c20260706.nc'
-
-!stream_ndep_data_filename = '/glade/derecho/scratch/shawnh/Forcings_tmp/20260911/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/NDepositionCyclic1850/fndep_clm_MTt4s_3Dmonthly_1850climo360_c20260911.nc'
+prescribed_ozone_datapath     = '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/'
+prescribed_ozone_file         = 'ozone_strataero_b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch_1850_1850_2021_transient_zm_5day_c20260627.nc'
+prescribed_strataero_datapath = '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/'
+prescribed_strataero_file     = 'ozone_strataero_b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch_1850_1850_2021_transient_zm_5day_c20260627.nc'
 
 clubb_gamma_coef                =  0.298
 clubb_gamma_coefb               =  0.298
