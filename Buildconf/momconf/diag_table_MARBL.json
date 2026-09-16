@@ -1,0 +1,180 @@
+{
+   "Files": {
+      "medium": {
+         "suffix": {
+            "$OCN_DIAG_MODE == \"spinup\"": "h.bgc.native_annual%4yr",
+            "$TEST == True": "h.bgc.native%4yr-%2mo-%2dy",
+            "else": "h.bgc.native%4yr-%2mo"
+         },
+         "output_freq": 1,
+         "new_file_freq": 1,
+         "output_freq_units": {
+            "$OCN_DIAG_MODE == \"spinup\"": "years",
+            "$TEST == True": "days",
+            "False == True": "hours",
+            "else": "months"
+         },
+         "new_file_freq_units": {
+            "$OCN_DIAG_MODE == \"spinup\"": "years",
+            "$TEST == True": "days",
+            "False == True": "hours",
+            "else": "months"
+         },
+         "time_axis_units": "days",
+         "reduction_method": "mean",
+         "regional_section": "none",
+         "fields": {
+            "$OCN_DIAG_MODE != \"none\"": {
+               "module": "ocean_model",
+               "packing": "= 1 if $TEST or $MARBL_DIAG_MODE == 'test_suite' else 2",
+               "lists": [
+                  [
+                     "ATM_FINE_DUST_FLUX_CPL",
+                     "ATM_COARSE_DUST_FLUX_CPL",
+                     "SEAICE_DUST_FLUX_CPL",
+                     "ATM_BLACK_CARBON_FLUX_CPL",
+                     "SEAICE_BLACK_CARBON_FLUX_CPL",
+                     "Jint_100m_ALK",
+                     "STF_SALT_ALK",
+                     "Jint_100m_DIC",
+                     "STF_SALT_DIC",
+                     "CaCO3_FLUX_100m",
+                     "CaCO3_PROD_zint",
+                     "DUST_FLUX",
+                     "DpCO2",
+                     "ECOSYS_IFRAC",
+                     "FG_CO2",
+                     "IRON_FLUX",
+                     "NHx_SURFACE_EMIS",
+                     "NHy_FLUX",
+                     "NOx_FLUX",
+                     "O2_ZMIN",
+                     "O2_ZMIN_DEPTH",
+                     "POC_FLUX_100m",
+                     "POC_PROD_zint",
+                     "P_iron_FLUX_100m",
+                     "SiO2_FLUX_100m",
+                     "bsiToSed",
+                     "calcToSed",
+                     "cocco_C_lim_Cweight_avg_100m",
+                     "cocco_C_lim_surf",
+                     "cocco_Fe_lim_Cweight_avg_100m",
+                     "cocco_Fe_lim_surf",
+                     "cocco_N_lim_Cweight_avg_100m",
+                     "cocco_N_lim_surf",
+                     "cocco_P_lim_Cweight_avg_100m",
+                     "cocco_P_lim_surf",
+                     "cocco_light_lim_Cweight_avg_100m",
+                     "diat_Fe_lim_Cweight_avg_100m",
+                     "diat_Fe_lim_surf",
+                     "diat_N_lim_Cweight_avg_100m",
+                     "diat_N_lim_surf",
+                     "diat_P_lim_Cweight_avg_100m",
+                     "diat_P_lim_surf",
+                     "diat_SiO3_lim_Cweight_avg_100m",
+                     "diat_SiO3_lim_surf",
+                     "diat_light_lim_Cweight_avg_100m",
+                     "diaz_Fe_lim_Cweight_avg_100m",
+                     "diaz_Fe_lim_surf",
+                     "diaz_P_lim_Cweight_avg_100m",
+                     "diaz_P_lim_surf",
+                     "diaz_light_lim_Cweight_avg_100m",
+                     "dustToSed",
+                     "pCO2SURF",
+                     "pfeToSed",
+                     "photoC_TOT_zint",
+                     "photoC_TOT_zint_100m",
+                     "photoC_cocco_zint",
+                     "photoC_diat_zint",
+                     "photoC_diaz_zint",
+                     "photoC_sp_zint",
+                     "pocToSed",
+                     "sp_Fe_lim_Cweight_avg_100m",
+                     "sp_Fe_lim_surf",
+                     "sp_N_lim_Cweight_avg_100m",
+                     "sp_N_lim_surf",
+                     "sp_P_lim_Cweight_avg_100m",
+                     "sp_P_lim_surf",
+                     "sp_light_lim_Cweight_avg_100m",
+                     "x_graze_mesozoo_zint",
+                     "x_graze_microzoo_zint"
+                  ],
+                  [
+                     "geolat",
+                     "geolon"
+                  ]
+               ]
+            }
+         }
+      },
+      "medium_z": {
+         "suffix": {
+            "$OCN_DIAG_MODE == \"spinup\"": "h.bgc.z_annual%4yr",
+            "$TEST == True": "h.bgc.z%4yr-%2mo-%2dy",
+            "False == True": "h.bgc.z_nstep%4yr-%2mo-%2dy",
+            "else": "h.bgc.z%4yr-%2mo"
+         },
+         "output_freq": 1,
+         "new_file_freq": 1,
+         "output_freq_units": {
+            "$OCN_DIAG_MODE == \"spinup\"": "years",
+            "$TEST == True": "days",
+            "False == True": "hours",
+            "else": "months"
+         },
+         "new_file_freq_units": {
+            "$OCN_DIAG_MODE == \"spinup\"": "years",
+            "$TEST == True": "days",
+            "False == True": "hours",
+            "else": "months"
+         },
+         "time_axis_units": "days",
+         "reduction_method": "mean",
+         "regional_section": "none",
+         "fields": {
+            "$OCN_DIAG_MODE != \"none\"": {
+               "module": "ocean_model_z",
+               "packing": "= 1 if $TEST or $MARBL_DIAG_MODE == 'test_suite' else 2",
+               "lists": [
+                  [
+                     "so",
+                     "ALK",
+                     "DIC",
+                     "DOC",
+                     "DOCr",
+                     "Fe",
+                     "NH4",
+                     "NO3",
+                     "O2",
+                     "PO4",
+                     "SiO3",
+                     "coccoC",
+                     "coccoCaCO3",
+                     "coccoChl",
+                     "diatC",
+                     "diatChl",
+                     "diazC",
+                     "diazChl",
+                     "mesozooC",
+                     "microzooC",
+                     "spC",
+                     "spChl",
+                     "DENITRIF",
+                     "POC_FLUX_IN",
+                     "SiO2_PROD",
+                     "diaz_Nfix"
+                  ],
+                  [
+                     "geolat",
+                     "geolon"
+                  ],
+                  [
+                     "volcello",
+                     "h"
+                  ]
+               ]
+            }
+         }
+      }
+   }
+}
