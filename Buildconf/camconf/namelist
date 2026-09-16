@@ -119,7 +119,7 @@ clubb_tridiag_solve_method = 2
 
 ext_frc_specifier               = 'bc_a4 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20251030/bc_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20251030.nc',
 
-         'num_a4 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20251030/num_bc_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20251030.nc',
+         'num_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20260911/num_bc_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20260911.nc',
 
          'SO2 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20251030/SO2-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20251030.nc',
 
@@ -198,7 +198,5 @@ srf_emis_specifier              = 'bc_a4 -> /glade/campaign/cesm/cesmdata/inputd
          'SOAE -> 6.5013D0*/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20251030/XYLENES-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-202312_c20251030.nc',
 
          'SOAE -> 5.1004D0*/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/cmip7/ne30/DRES-CMIP-BB4CMIP7-2-0_smoothed_20251102/MTERP_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-202112_c20251102.nc'
-
-
 
 / 

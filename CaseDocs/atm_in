@@ -73,7 +73,7 @@
  drydep_srf_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_mam/atmsrf_ne30pg3_180522.nc'
  exo_coldens_file		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/trop_mozart/phot/exo_coldens.nc'
  ext_frc_specifier		= 'bc_a4 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20251030/bc_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20251030.nc',
-         'num_a4 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20251030/num_bc_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20251030.nc',
+         'num_a4 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20260911/num_bc_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20260911.nc',
          'SO2 -> /glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20251030/SO2-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20251030.nc',
          'so4_a1 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20260826/so4_a1_ene_vertical-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20260826.nc',
          'num_a1 -> /glade/campaign/acom/MUSICA/emis/cmip7/ne30/CEDS-CMIP-2025-04-18_20260826/num_so4_a1_ene_vertical-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20260826.nc',
