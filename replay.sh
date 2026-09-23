@@ -58,3 +58,13 @@ cd "${CASEDIR}"
 
 ./xmlchange CAM_NML_USE_CASE=1850_cam_mt
 
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./preview_namelists
+
+./xmlchange JOB_PRIORITY=special --force
+
