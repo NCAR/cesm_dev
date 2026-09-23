@@ -197,7 +197,7 @@
     </entry>
   </group>
   <group id="run_begin_stop_restart">
-    <entry id="RUN_TYPE" value="startup">
+    <entry id="RUN_TYPE" value="hybrid">
       <type>char</type>
       <valid_values>startup,hybrid,branch</valid_values>
       <desc>
@@ -259,7 +259,7 @@
       Reference directory containing RUN_REFCASE data - used for hybrid or branch runs
     </desc>
     </entry>
-    <entry id="RUN_REFCASE" value="b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.3977">
+    <entry id="RUN_REFCASE" value="b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.397">
       <type>char</type>
       <desc>
       Reference case for hybrid or branch runs

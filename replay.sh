@@ -24,3 +24,7 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDATE=0094-01-01
 
+./xmlchange RUN_TYPE=hybrid
+
+./xmlchange RUN_REFCASE=b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.397
+
