@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -e
+
+# Created 2026-09-25 11:59:14
+
+CASEDIR="/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha10a.B1850C_MTso.ne30_t233_wgx3.399"
+
+/glade/work/hannay/cesm_tags/cesm3_0_alpha10a/cime/scripts/create_newcase --compset 1850C_CAM70%MT_CLM60%BGC-CROP_CICE_MOM6%MARBL-BIO_MOSART_CISM2%GRIS-EVOLVE_WW3_SESP --res ne30pg3_t233_wg37_gris4 --case "${CASEDIR}" --run-unsupported --project 93300722
+
+cd "${CASEDIR}"
+
+./case.setup
+
