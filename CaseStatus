@@ -26,3 +26,5 @@
  ---------------------------------------------------
 2026-09-25 12:00:07: xmlchange success <command> ./xmlchange CAM_NML_USE_CASE=1850_cam_mt  </command>
  ---------------------------------------------------
+2026-09-25 12:00:10: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=production  </command>
+ ---------------------------------------------------
