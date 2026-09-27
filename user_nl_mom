@@ -1,0 +1,23 @@
+!---------------------------------------------------------------------
+! Users should add all user specific MOM_input parameter changes after
+! these comments as follows:
+!   parameter_name = new_parameter_value
+!
+! If the parameter belongs to a module, enter the parameter in MOM6
+! runtime parameter format ,e.g., change N_SMOOTH parameter within the
+! KPP module as follows:
+!   KPP%
+!   N_SMOOTH = 3
+!   %KPP
+!
+! Note: The parameter changes added to this file will automatically be
+!       applied to:
+!   $RUNDIR/MOM_override
+!
+! WARNING: If a MOM_override file is placed in SourceMods/src.mom/,
+! any additional parameter changes in this file will trigger an error.
+!
+! Parameters:
+!---------------------------------------------------------------------
+
+
