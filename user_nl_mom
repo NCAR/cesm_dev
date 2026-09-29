@@ -1,0 +1,3 @@
+BBL_EFFIC = 0.2 
+ATM_ALT_CO2_OPT = "constant"
+LEITH_BI_CONST = 80 
