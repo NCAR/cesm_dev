@@ -94,3 +94,9 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./check_case
+
+./preview_namelists
+
+./case.build
+
