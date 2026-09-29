@@ -24,4 +24,6 @@ pseudo_plastic_q = 0.25
 
 p_ocean_penetration = 0.5
 
+cisminputfile='/glade/campaign/cesm/development/liwg/leguy/CESM3/CESM3_input/GrIS/input_for_BGrun397_spinup/gris_init_397.cesm.spinup.nc'
+
 / 

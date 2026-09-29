@@ -8,7 +8,7 @@
  crop_residue_removal_frac = 0.5d00
  do_sno_oc = .false.
  downscale_hillslope_meteorology = .true.
- finidat = 'b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.397.clm2.r.0094-01-01-00000.nc'
+ finidat = '/glade/derecho/scratch/wwieder/archive/wetlands_CplHist_397_ne30_BgcCrop_181_pSASU/rest/0157-01-01-00000/wetlands_CplHist_397_ne30_BgcCrop_181_pSASU.clm2.r.0157-01-01-00000.nc'
  flush_gdd20 = .false.
  for_testing_no_crop_seed_replenishment = .false.
  for_testing_run_ncdiopio_tests = .false.
