@@ -1,3 +1,159 @@
 &comp_inparm 
 
+dew = 4000.
+
+dns = 4000.
+
+ewn = 421
+
+nsn = 721
+
+upn = 11
+
+
+
+idiag = 136
+
+jdiag = 294
+
+
+
+dycore = 2
+
+flow_law = 2
+
+evolution = 3
+
+temperature = 1
+
+temp_init = 3
+
+marine_margin = 1
+
+calving_domain = 1
+
+calving_init = 1
+
+limit_marine_cliffs = .false.
+
+basal_mass_balance = 1
+
+
+
+gthf = 1
+
+smb_input = 0
+
+smb_input_function = 0
+
+artm_input_function = 0
+
+bmlt_float = 0
+
+dm_dt_diag = 1
+
+
+
+compute_blocks = 0
+
+which_ho_powerlaw_c = 2
+
+which_ho_babc = 9
+
+which_ho_bwat = 0
+
+which_ho_effecpress = 0
+
+which_ho_efvs = 2
+
+which_ho_thermal_timestep = 0
+
+which_ho_resid = 4
+
+which_ho_sparse = 3
+
+which_ho_nonlinear = 1
+
+which_ho_gradient = 0
+
+which_ho_gradient_margin = 1
+
+which_ho_assemble_beta = 1
+
+which_ho_assemble_bfric = 1
+
+which_ho_assemble_taud = 1
+
+which_ho_assemble_lateral = 1
+
+which_ho_approx = 4
+
+diva_slope_correction = .true.
+
+which_ho_precond = 3
+
+which_ho_calving_front = 0
+
+which_ho_ground = 2
+
+which_ho_flotation_function = 2
+
+glissade_maxiter = 100
+
+block_inception = .false.
+
+remove_ice_caps = .false.
+
+
+
+flow_factor_ground = 1.
+
+flow_factor_float = 1.
+
+ice_limit = 1.
+
+thck_gradient_ramp = 100.
+
+marine_limit = -200
+
+max_slope = 0.5
+
+rhoi = 917.
+
+rhoo = 1026.
+
+grav = 9.80616
+
+shci = 2117.27
+
+lhci = 3.337e5
+
+trpt = 273.16
+
+pmp_offset = 10.
+
+beta_grounded_min = 100.
+
+beta_powerlaw_umax = 5000.
+
+pseudo_plastic_q = 0.25
+
+pseudo_plastic_u0 = 100.
+
+p_ocean_penetration = 0.5
+
+cliff_timescale = 0.0
+
+taumax_cliff = 1.e6
+
+powerlaw_m = 3.0
+
+powerlaw_c_const = 20000.
+
+powerlaw_c_max = 100000.
+
+powerlaw_c_min = 100.
+
+which_ho_precond = 1
+
 / 
