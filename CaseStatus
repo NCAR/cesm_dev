@@ -32,3 +32,5 @@
  ---------------------------------------------------
 2026-09-30 11:45:10: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
  ---------------------------------------------------
+2026-09-30 11:45:14: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=25,STOP_N=4,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
