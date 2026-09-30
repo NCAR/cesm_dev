@@ -24,3 +24,5 @@
  ---------------------------------------------------
 2026-09-30 11:29:58: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2026-09-30 11:30:01: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=production  </command>
+ ---------------------------------------------------
