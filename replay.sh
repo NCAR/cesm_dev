@@ -30,3 +30,5 @@ cd "${CASEDIR}"
 
 ./xmlchange OCN_DIAG_MODE=production
 
+./xmlchange JOB_PRIORITY=special --force
+
