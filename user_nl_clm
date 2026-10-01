@@ -1,0 +1,4 @@
+use_init_interp = .true.
+reseed_dead_plants = .true.
+use_excess_ice_streams=.false. 
+finidat = '/glade/derecho/scratch/wwieder/archive/wetlands_CplHist_397_ne30_BgcCrop_181_pSASU/rest/0157-01-01-00000/wetlands_CplHist_397_ne30_BgcCrop_181_pSASU.clm2.r.0157-01-01-00000.nc'
