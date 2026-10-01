@@ -1,0 +1,32 @@
+!----------------------------------------------------------------------------------
+! Users should add all user specific namelist changes below in the form of
+!   namelist_var = new_namelist_value
+! Note - that it does not matter what namelist group the namelist_var belongs to
+! The following namelist variables that contain % must bespecified keywords that
+! replace the % with _percent_
+! the following translations will then occur when the namelist is generated
+!
+! domain_percent_start =>  domain%start
+! domain_percent_stop  =>  domain%stop
+!
+! input_percent_forcing_percent_water_levels=>  input%forcing%water_levels
+! input_percent_forcing_percent_currents    =>  input%forcing%currents
+! input_percent_forcing_percent_winds	    =>  input%forcing%winds
+! input_percent_forcing_percent_ice_conc    =>  input%forcing%ice_conc
+! input_percent_forcing_percent_ice_param1  =>  input%forcing%ice_param1
+! input_percent_forcing_percent_ice_param5  =>  input%forcing%ice_param5
+! 
+! type_percent_field_percent_list =>  type%field%list
+! type_percent_point_percent_file =>  type%point%file
+! 
+! date_percent_field_percent_outffile =>  date%field%outffile
+! date_percent_field_percent_start    =>  date%field%start
+! date_percent_field_percent_stride   =>  date%field%stride
+! date_percent_field_percent_stop     =>  date%field%stop
+! date_percent_restart_percent_start  =>  date%restart%start
+! date_percent_restart_percent_stride =>  date%restart%stride
+! date_percent_restart_percent_stop   =>  date%restart%stop
+! date_percent_restart2_percent_start =>  date%restart2%start
+! date_percent_restart2_percent_strid =>  date%restart2%stride
+! date_percent_restart2_percent_stop  =>  date%restart2%stop
+!----------------------------------------------------------------------------------
