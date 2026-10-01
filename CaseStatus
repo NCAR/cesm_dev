@@ -18,3 +18,5 @@
  ---------------------------------------------------
 2026-10-01 15:37:29: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2026-10-01 15:37:37: xmlchange success <command> ./xmlchange CAM_NML_USE_CASE=1850_cam_mt  </command>
+ ---------------------------------------------------
