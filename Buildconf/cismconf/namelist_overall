@@ -1,0 +1,29 @@
+&comp_inparm 
+
+which_ho_powerlaw_c = 2
+
+which_ho_babc = 9
+
+which_ho_bwat = 0
+
+which_ho_effecpress = 0
+
+glissade_maxiter = 100
+
+block_inception = .false.
+
+remove_ice_caps = .false.
+
+thck_gradient_ramp = 100.
+
+pmp_offset = 10.
+
+beta_powerlaw_umax = 5000.
+
+pseudo_plastic_q = 0.25
+
+p_ocean_penetration = 0.5
+
+cisminputfile='/glade/campaign/cesm/development/liwg/leguy/CESM3/CESM3_input/GrIS/input_for_BGrun397_spinup/gris_init_397.cesm.spinup.nc'
+
+/ 
