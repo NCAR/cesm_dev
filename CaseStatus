@@ -78,3 +78,5 @@ ERROR env_build HAS CHANGED
  ---------------------------------------------------
 2026-10-06 15:38:33: model execution starting 7733805.desched1
  ---------------------------------------------------
+2026-10-06 15:51:18: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
