@@ -48,3 +48,5 @@ ERROR: Build complete is not True please rebuild the model by calling case.build
 2026-10-06 14:33:45: case.build error 
 ERROR: /glade/work/hannay/cesm_tags/cesm3_0_alpha10c/components/cdeps/cime_config/buildlib FAILED, cat /glade/derecho/scratch/hannay/b.e30_alpha10c.B1850C_MTso.ne30_t233_wgx3.405/bld/CDEPS.bldlog.261006-142330
  ---------------------------------------------------
+2026-10-06 14:50:59: case.build starting 
+ ---------------------------------------------------
