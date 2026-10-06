@@ -43,3 +43,5 @@
 2026-10-06 14:20:25: case.submit error 
 ERROR: Build complete is not True please rebuild the model by calling case.build
  ---------------------------------------------------
+2026-10-06 14:23:28: case.build starting 
+ ---------------------------------------------------
