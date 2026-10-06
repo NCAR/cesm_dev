@@ -1,1 +1,1 @@
-cisminputfile = /glade/campaign/cesm/cesmdata/inputdata/glc/cism/Greenland/greenland_4km_epsg3413_c251001.nc
+cisminputfile = /glade/campaign/cesm/development/liwg/leguy/CESM3/CESM3_input/GrIS/input_for_BGrun397_spinup/gris_init_397.cesm.spinup.nc
