@@ -337,7 +337,7 @@
 /
 &gw_drag_nl
  alpha_gw_movmtn		=  0.01d0  
- effgw_beres_dp		= 0.15D0
+ effgw_beres_dp		= 0.13D0
  effgw_cm		= 1.D0
  effgw_movmtn_pbl		=  1.5d0   
  effgw_rdg_beta		= 0.75D0
