@@ -527,3 +527,5 @@
 ERROR: RUN FAIL: Command 'mpibind  --label  --line-buffer  --  /glade/derecho/scratch/hannay/b.e30_alpha10c.B1850C_MTso.ne30_t233_wgx3.402/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
 See log file for details: /glade/derecho/scratch/hannay/b.e30_alpha10c.B1850C_MTso.ne30_t233_wgx3.402/run/cesm.log.7741293.desched1.261007-032650
  ---------------------------------------------------
+2026-10-07 16:00:10: case.submit starting case.run:7751911.desched1, case.st_archive:7751912.desched1
+ ---------------------------------------------------
