@@ -158,3 +158,5 @@ ERROR env_build HAS CHANGED
  ---------------------------------------------------
 2026-10-07 11:52:34: model execution starting 7748201.desched1
  ---------------------------------------------------
+2026-10-07 15:21:04: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+ ---------------------------------------------------
