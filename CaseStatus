@@ -753,3 +753,5 @@ ERROR: Command: 'qsub -q main -l walltime=12:00:00 -A CESM0023 -l job_priority=s
  ---------------------------------------------------
 2026-10-08 17:36:10: st_archive success 7762521.desched1
  ---------------------------------------------------
+2026-10-08 17:36:13: case.submit starting case.run:7768329.desched1, case.st_archive:7768330.desched1
+ ---------------------------------------------------
