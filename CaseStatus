@@ -743,3 +743,5 @@ ERROR: Command: 'qsub -q main -l walltime=12:00:00 -A CESM0023 -l job_priority=s
  ---------------------------------------------------
 2026-10-08 10:09:49: xmlchange success <command> ./xmlchange RESUBMIT=16  </command>
  ---------------------------------------------------
+2026-10-08 17:32:45: model execution success 7762520.desched1
+ ---------------------------------------------------
