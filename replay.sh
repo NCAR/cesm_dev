@@ -94,3 +94,5 @@ cd "${CASEDIR}"
 
 ./xmlchange JOB_PRIORITY=speciall --force
 
+./case.submit
+
