@@ -731,3 +731,5 @@ ERROR: Command: 'qsub -q main -l walltime=12:00:00 -A CESM0023 -l job_priority=s
  ---------------------------------------------------
 2026-10-08 09:56:01: xmlchange success <command> ./xmlchange RESUBMIT=18  </command>
  ---------------------------------------------------
+2026-10-08 09:56:10: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
