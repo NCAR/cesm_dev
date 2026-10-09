@@ -104,3 +104,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=16
 
+./case.submit
+

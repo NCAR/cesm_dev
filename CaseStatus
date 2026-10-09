@@ -803,3 +803,5 @@ ERROR: Command: 'qsub -q main -l walltime=12:00:00 -A CESM0023 -l job_priority=s
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/b.e30_alpha09e_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.396/run/med.log.7773179.desched1.261009-093624 
  
  ---------------------------------------------------
+2026-10-09 14:26:07: case.submit starting case.run:7776114.desched1, case.st_archive:7776115.desched1
+ ---------------------------------------------------
