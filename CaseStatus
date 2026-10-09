@@ -583,3 +583,5 @@ See log file for details: /glade/derecho/scratch/hannay/b.e30_alpha10c.B1850C_MT
  ---------------------------------------------------
 2026-10-09 10:04:30: xmlchange success <command> ./xmlchange RESUBMIT=25  </command>
  ---------------------------------------------------
+2026-10-09 10:34:38: case.submit starting case.run:7774179.desched1, case.st_archive:7774180.desched1
+ ---------------------------------------------------
