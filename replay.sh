@@ -60,3 +60,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./case.submit
+
