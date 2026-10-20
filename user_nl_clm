@@ -1,0 +1,5 @@
+use_init_interp = .true.
+reseed_dead_plants = .true.
+use_excess_ice_streams=.false. 
+!finidat = '/glade/derecho/scratch/wwieder/archive/ctsm54_062_CplHist_402_ne30_BgcCrop_183_pSASU/rest/0151-01-01-00000/ctsm54_062_CplHist_402_ne30_BgcCrop_183_pSASU.clm2.r.0151-01-01-00000.nc'
+finidat = '/glade/work/bdobbins/406_finidat_renamed_vars/ctsm54_062_CplHist_402_ne30_BgcCrop_183_pSASU.clm2.r.0151-01-01-00000_renamed.nc'
