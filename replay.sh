@@ -12,3 +12,15 @@ cd "${CASEDIR}"
 
 ./case.setup
 
+./case.setup --reset
+
+./preview_namelists
+
+./case.setup
+
+./case.setup --reset
+
+./preview_namelists
+
+./xmlchange CAM_CONFIG_OPTS=" -pcols 9" --append
+
