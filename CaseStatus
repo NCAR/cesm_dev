@@ -25,3 +25,5 @@ ERROR env_build HAS CHANGED
     ./case.build --clean-all
 
  ---------------------------------------------------
+2026-10-21 09:30:30: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
