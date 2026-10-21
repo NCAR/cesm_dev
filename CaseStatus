@@ -21,3 +21,5 @@ err=ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist in
  ---------------------------------------------------
 2026-10-21 09:53:42: case.build success 
  ---------------------------------------------------
+2026-10-21 09:53:47: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
