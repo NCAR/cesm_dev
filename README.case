@@ -1,0 +1,38 @@
+2026-10-21 09:13:49: ./create_newcase --compset FHISTC_LTso --res ne30pg3_ne30pg3_mg17 --case /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_cam6_4_213.FHISTC_LTso.ne30_control.001 --run-unsupported --project 93300722
+ ---------------------------------------------------
+2026-10-21 09:13:49: Compset longname is HIST_CAM70%LT_CLM60%SP_CICE%PRES_DOCN%DOM_MOSART_DGLC%NOEVOLVE_SWAV_SESP
+ ---------------------------------------------------
+2026-10-21 09:13:49: Compset specification file is /glade/work/hannay/cesm_tags/cam6_4_213/cime_config/config_compsets.xml
+ ---------------------------------------------------
+2026-10-21 09:13:49: Pes     specification file is /glade/work/hannay/cesm_tags/cam6_4_213/cime_config/config_pes.xml
+ ---------------------------------------------------
+2026-10-21 09:13:49: Forcing is Historic transient 
+ ---------------------------------------------------
+2026-10-21 09:13:49: Using 1 coupler instances
+ ---------------------------------------------------
+2026-10-21 09:13:49: Component ATM is CAM cam7 physics:CAM low top model 
+ ---------------------------------------------------
+2026-10-21 09:13:49: ATM_GRID is ne30np4.pg3
+ ---------------------------------------------------
+2026-10-21 09:13:49: Component LND is clm6.0:Satellite phenology:
+ ---------------------------------------------------
+2026-10-21 09:13:49: LND_GRID is ne30np4.pg3
+ ---------------------------------------------------
+2026-10-21 09:13:49: Component ICE is Sea ICE (cice) model version 6 :prescribed cice
+ ---------------------------------------------------
+2026-10-21 09:13:49: ICE_GRID is ne30np4.pg3
+ ---------------------------------------------------
+2026-10-21 09:13:49: Component OCN is DOCN   prescribed ocean mode
+ ---------------------------------------------------
+2026-10-21 09:13:49: OCN_GRID is ne30np4.pg3
+ ---------------------------------------------------
+2026-10-21 09:13:49: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
+ ---------------------------------------------------
+2026-10-21 09:13:49: ROF_GRID is r05
+ ---------------------------------------------------
+2026-10-21 09:13:49: Component GLC is Data glc model (DGLC) no evolve mode 
+ ---------------------------------------------------
+2026-10-21 09:13:49: GLC_GRID is gris4
+ ---------------------------------------------------
+2026-10-21 09:13:49: ESP_GRID is None
+ ---------------------------------------------------
