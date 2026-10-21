@@ -40,3 +40,6 @@
  ---------------------------------------------------
 2026-10-21 14:19:01: xmlchange success <command> ./xmlchange CAM_NML_USE_CASE=1850_cam_mt  </command>
  ---------------------------------------------------
+2026-10-21 14:19:04: case.build error 
+ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha11b.B1850C_MTso.ne30_t233_wgx3.410/env_run.xml appears to have changed without a corresponding invalidation.
+ ---------------------------------------------------
