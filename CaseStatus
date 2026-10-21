@@ -12,3 +12,8 @@
  ---------------------------------------------------
 2026-10-21 09:42:34: case.build starting 
  ---------------------------------------------------
+2026-10-21 09:42:41: case.build error 
+ERROR: Command /glade/work/hannay/cesm_tags/cam6_4_213/bld/build-namelist -ntasks 5400 -csmdata /glade/campaign/cesm/cesmdata/inputdata -infile /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_cam6_4_213.FHISTC_LTso.ne30_q_ubc.001/Buildconf/camconf/namelist -start_ymd 19900101 -ignore_ic_year -use_case hist_cam_lt -inputdata /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/f.e30_cam6_4_213.FHISTC_LTso.ne30_q_ubc.001/Buildconf/cam.input_data_list -namelist " &atmexp /"  -cmeps failed rc=255
+out=
+err=ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instead got:  '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/ubc/b.e21.BWHIST.f09_g17.CMIP6-historical-WACCM.ensAvg123.cam.h0zm.H2O.1849-2014_c240604.nc
+ ---------------------------------------------------
