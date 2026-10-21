@@ -77,3 +77,5 @@ ERROR: /glade/work/hannay/cesm_tags/cesm3_0_alpha11b/components/cdeps/cime_confi
 2026-10-21 15:29:55: case.submit error 
 ERROR: Build complete is not True please rebuild the model by calling case.build
  ---------------------------------------------------
+2026-10-21 15:31:17: case.build starting 
+ ---------------------------------------------------
