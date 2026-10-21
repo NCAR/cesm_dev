@@ -89,6 +89,12 @@ fincl3 = 'PRECT', 'PRECC', 'FLUT', 'U850', 'U200', 'V850', 'V200', 'OMEGA500', '
 
 fincl4 =  'PRECC','PRECL'
 
+effgw_beres_dp   =0.13D0
 
+gw_qbo_hdepth_scaling = 0.29D0
+
+effgw_rdg_beta         = 0.75D0        
+
+effgw_rdg_beta_max     = 0.75D0
 
 / 
