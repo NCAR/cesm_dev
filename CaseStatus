@@ -64,3 +64,5 @@ ERROR env_build HAS CHANGED
  ---------------------------------------------------
 2026-10-21 09:56:51: case.build success 
  ---------------------------------------------------
+2026-10-21 09:56:56: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
