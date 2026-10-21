@@ -98,3 +98,5 @@ ERROR env_build HAS CHANGED
  ---------------------------------------------------
 2026-10-21 13:23:07: case.submit starting case.run:7897851.desched1, case.st_archive:7897852.desched1
  ---------------------------------------------------
+2026-10-21 13:23:09: case.submit success case.run:7897851.desched1, case.st_archive:7897852.desched1
+ ---------------------------------------------------
