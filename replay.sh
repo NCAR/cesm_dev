@@ -60,3 +60,5 @@ cd "${CASEDIR}"
 
 ./xmlchange CAM_NML_USE_CASE=1850_cam_mt
 
+./case.build
+
