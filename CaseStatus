@@ -12,3 +12,6 @@
  ---------------------------------------------------
 2026-10-21 09:20:57: case.build starting 
  ---------------------------------------------------
+2026-10-21 09:30:03: case.build error 
+ERROR: BUILD FAIL: cam.buildlib failed, cat /glade/derecho/scratch/hannay/f.e30_cam6_4_213.FHISTC_LTso.ne30_control.001/bld/atm.bldlog.261021-092102
+ ---------------------------------------------------
