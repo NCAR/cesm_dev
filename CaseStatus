@@ -55,3 +55,5 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha11b.B1850
  ---------------------------------------------------
 2026-10-21 14:23:50: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2026-10-21 14:23:52: xmlchange success <command> ./xmlchange CAM_NML_USE_CASE=1850_cam_mt  </command>
+ ---------------------------------------------------
