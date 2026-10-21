@@ -48,5 +48,6 @@ fincl6 = 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I', 'PMID:I'
 fincl7 = 'Uzm','Vzm','Wzm','THzm','VTHzm','WTHzm','UVzm','UWzm', 'UTEND_CORE', 'VTEND_CORE', 'UTEND_PHYSTOT', 'VTEND_PHYSTOT', 'UTEND_GWDTOT', 'VTEND_GWDTOT'
 fincl8 = 'Uzm:I','Vzm:I','Wzm:I','THzm:I','VTHzm:I','WTHzm:I','UVzm:I','UWzm:I'
 
+ubc_specifier       = 'Q:H2O->UBC_FILE'
 ubc_file_input_type            = 'SERIAL'
 ubc_file_path          = '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/ubc/b.e21.BWHIST.f09_g17.CMIP6-historical-WACCM.ensAvg123.cam.h0zm.H2O.1849-2014_c240604.nc'

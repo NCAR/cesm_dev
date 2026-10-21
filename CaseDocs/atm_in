@@ -553,6 +553,9 @@
  ubc_file_input_type		= 'SERIAL'
  ubc_file_path		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/chem/ubc/b.e21.BWHIST.f09_g17.CMIP6-historical-WACCM.ensAvg123.cam.h0zm.H2O.1849-2014_c240604.nc'
 /
+&upper_bc_opts
+ ubc_specifier		= 'Q:H2O->UBC_FILE'
+/
 &vert_diff_nl
  diff_cnsrv_mass_check		=  .false. 
  diff_sponge_fac		=  0.0D0 
