@@ -62,3 +62,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange RUN_REFCASE=b.e30_alpha10c.B1850C_MTso.ne30_t233_wgx3.402
+
