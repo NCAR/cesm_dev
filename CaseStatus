@@ -39,3 +39,6 @@ ERROR env_build HAS CHANGED
  ---------------------------------------------------
 2026-10-21 09:30:51: case.submit starting 
  ---------------------------------------------------
+2026-10-21 09:30:53: case.submit error 
+ERROR: Build complete is not True please rebuild the model by calling case.build
+ ---------------------------------------------------
