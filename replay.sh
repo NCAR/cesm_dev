@@ -72,3 +72,5 @@ cd "${CASEDIR}"
 
 ./xmlchange STOP_N=4,RESUBMIT=1
 
+./xmlchange STOP_N=4,RESUBMIT=1
+
