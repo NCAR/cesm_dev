@@ -6,3 +6,4 @@
 #override ATM_ALT_CO2_OPT = "constant"
 #override LEITH_BI_CONST = 80
 #override DO_SKEB = False
+#override SKEB_USE_GM = False
