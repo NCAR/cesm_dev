@@ -7,3 +7,6 @@
 #override LEITH_BI_CONST = 80
 #override DO_SKEB = False
 #override SKEB_USE_GM = False
+#override SKEB_USE_FRICT = False
+#override SKEB_NPASS = 0
+#override SKEB_GM_COEF = 0.0

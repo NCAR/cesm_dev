@@ -3,3 +3,7 @@ ATM_ALT_CO2_OPT = "constant"
 LEITH_BI_CONST = 80
 DO_SKEB = False
 SKEB_USE_GM = False
+SKEB_USE_FRICT = False
+SKEB_NPASS = 0
+SKEB_GM_COEF = 0.0
+
