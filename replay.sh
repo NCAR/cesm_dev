@@ -8,3 +8,5 @@
 
 ./case.submit
 
+./xmlchange RESUBMIT=0
+
