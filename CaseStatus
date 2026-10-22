@@ -118,3 +118,5 @@ ERROR env_build HAS CHANGED
  ---------------------------------------------------
 2026-10-22 09:56:03: case.submit success case.run:7907323.desched1, case.st_archive:7907324.desched1
  ---------------------------------------------------
+2026-10-22 11:34:13: xmlchange success <command> ./xmlchange STOP_N=4,RESUBMIT=1  </command>
+ ---------------------------------------------------
