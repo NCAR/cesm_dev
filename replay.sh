@@ -4,3 +4,5 @@
 
 ./xmlchange RESUBMIT=25
 
+./case.build
+
