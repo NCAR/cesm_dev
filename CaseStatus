@@ -6,3 +6,5 @@
  ---------------------------------------------------
 2026-10-22 15:39:12: xmlchange success <command> ./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git  </command>
  ---------------------------------------------------
+2026-10-22 15:39:19: xmlchange success <command> ./xmlchange RESUBMIT=25  </command>
+ ---------------------------------------------------
