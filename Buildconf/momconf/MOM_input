@@ -184,7 +184,7 @@ MARBL_TRACERS_IC_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_ind
                                 ! "Name of file containing initial conditions
                                 ! for the MARBL tracer package."
 
-MARBL_TRACERS_IC_FILE_OVERRIDE_POINTER = ./rpointer.ocn.0101-01-01-00000
+MARBL_TRACERS_IC_FILE_OVERRIDE_POINTER = ./rpointer.ocn.0049-01-01-00000
                                 ! "File containing tracer IC filenames overriding MARBL_TRACERS_IC_FILE."
 
 MARBL_TRACERS_IC_FILE_IS_Z = False
@@ -1386,7 +1386,7 @@ THICKNESS_CONFIG = thickness_file
                                 ! rossby_front - a mixed layer front in thermal wind balance.
                                 ! USER - call a user modified routine."
 
-THICKNESS_FILE = ./b.e30_alpha10c.B1850C_MTso.ne30_t233_wgx3.402.mom6.r.0101-01-01-00000.nc
+THICKNESS_FILE = ./b.e30_alpha10c.B1850C_MTso.ne30_t233_wgx3.402.mom6.r.0049-01-01-00000.nc
                                 ! The name of the thickness file
 
 HYCOM1_ONLY_IMPROVES = True
@@ -1414,7 +1414,7 @@ TS_CONFIG = file
                                 ! SCM_ideal_hurr - used in the SCM idealized hurricane test.
                                 ! USER - call a user modified routine."
 
-TS_FILE = ./b.e30_alpha10c.B1850C_MTso.ne30_t233_wgx3.402.mom6.r.0101-01-01-00000.nc
+TS_FILE = ./b.e30_alpha10c.B1850C_MTso.ne30_t233_wgx3.402.mom6.r.0049-01-01-00000.nc
                                 ! The initial condition file for the temperature and salinity.
 
 TEMP_IC_VAR = Temp
@@ -1426,7 +1426,7 @@ SALT_IC_VAR = Salt
 VELOCITY_CONFIG = file
                                 ! A string that determines how the initial velocities are specified for a new run.
 
-VELOCITY_FILE = ./b.e30_alpha10c.B1850C_MTso.ne30_t233_wgx3.402.mom6.r.0101-01-01-00000.nc
+VELOCITY_FILE = ./b.e30_alpha10c.B1850C_MTso.ne30_t233_wgx3.402.mom6.r.0049-01-01-00000.nc
                                 ! The name of the velocity initial condition file.
 
 REMAP_AFTER_INITIALIZATION = False
@@ -1436,7 +1436,7 @@ REMAP_AFTER_INITIALIZATION = False
                                 ! legacy step and should not be needed if the initialization is
                                 ! consistent with the coordinate mode."
 
-AGE_IC_FILE_OVERRIDE_POINTER = ./rpointer.ocn.0101-01-01-00000
+AGE_IC_FILE_OVERRIDE_POINTER = ./rpointer.ocn.0049-01-01-00000
                                 ! "File containing tracer IC filenames overriding AGE_IC_FILE."
 
 KV = 1e-06

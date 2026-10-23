@@ -10,3 +10,9 @@
 
 ./xmlchange RUN_REFDATE=0049-01-01
 
+./check_case
+
+./check_case
+
+./case.submit
+
