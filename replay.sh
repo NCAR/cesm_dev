@@ -6,3 +6,7 @@
 
 ./case.build
 
+./check_case
+
+./xmlchange RUN_REFDATE=0049-01-01
+
