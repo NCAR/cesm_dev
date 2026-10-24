@@ -141,3 +141,5 @@ err=ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist in
  ---------------------------------------------------
 2026-10-24 17:59:55: st_archive success 7919411.desched1
  ---------------------------------------------------
+2026-10-24 17:59:57: case.submit starting case.run:7942885.desched1, case.st_archive:7942886.desched1
+ ---------------------------------------------------
