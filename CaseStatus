@@ -10,3 +10,5 @@
  ---------------------------------------------------
 2026-10-26 10:40:56: xmlchange success <command> ./xmlchange RUN_STARTDATE=1990-01-01  </command>
  ---------------------------------------------------
+2026-10-26 10:41:09: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
