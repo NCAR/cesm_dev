@@ -96,3 +96,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_cam6_4_2
  ---------------------------------------------------
 2026-10-26 11:38:06: case.build success 
  ---------------------------------------------------
+2026-10-26 11:38:16: case.submit starting case.run:7960945.desched1, case.st_archive:7960946.desched1
+ ---------------------------------------------------
