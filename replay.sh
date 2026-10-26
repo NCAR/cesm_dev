@@ -14,3 +14,7 @@ cd "${CASEDIR}"
 
 ./case.setup
 
+./pelayout
+
+./xmlchange NTASKS=5400
+
