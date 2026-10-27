@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<file id="env_postprocessing.xml" version="2.0">
+  <header>
+      These variables may be changed anytime during a run, they
+      control jobs that are dependent on case.run.
+    </header>
+  <group id="cupid_config">
+    <entry id="CUPID_ROOT" value="$SRCROOT/tools/CUPiD">
+      <type>char</type>
+      <desc>Location of CUPiD for CESM workflow</desc>
+    </entry>
+    <entry id="CUPID_OUTPUT_DIR" value="$DOUT_S_ROOT/cupid">
+      <type>char</type>
+      <desc>Location of CUPiD output written by CESM workflow</desc>
+    </entry>
+    <entry id="CUPID_GEN_TIMESERIES" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>When TRUE, CUPiD will generate time series files from history output</desc>
+    </entry>
+    <entry id="CUPID_REGRID" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>When TRUE, CUPiD will regrid the time series files (requires CUPID_GEN_TIMESERIES=TRUE)</desc>
+    </entry>
+    <entry id="CUPID_GEN_DIAGNOSTICS" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>When TRUE, CUPiD will generate diagnostic plots</desc>
+    </entry>
+    <entry id="CUPID_GEN_HTML" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>When TRUE, CUPiD will generate web pages from the diagnostic plots</desc>
+    </entry>
+    <entry id="CUPID_CMORIZATION" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>When TRUE, CUPiD will run the CESM-specific Climate Model Output Rewriter (CMOR) tools</desc>
+    </entry>
+    <entry id="CUPID_REGRID_ATM_FILE" value="$DIN_LOC_ROOT/cpl/gridmaps/ne30pg3/map_ne30pg3_TO_fv0.9x1.25_blin.240826.nc">
+      <type>char</type>
+      <desc>File to use to remap atmosphere time series files from case (NONE =&gt; do not remap)</desc>
+    </entry>
+    <entry id="CUPID_COMPARISON_REGRID_ATM_FILES" value="$DIN_LOC_ROOT/cpl/gridmaps/ne30pg3/map_ne30pg3_TO_fv0.9x1.25_blin.240826.nc">
+      <type>char</type>
+      <desc>File to use to remap atmosphere time series files from baseline case (NONE =&gt; do not remap)</desc>
+    </entry>
+  </group>
+  <group id="cupid_environments">
+    <entry id="CUPID_ANALYSIS_ENV" value="cupid-analysis">
+      <type>char</type>
+      <desc>Conda environment to use when running CUPiD notebooks</desc>
+    </entry>
+    <entry id="CUPID_INFRASTRUCTURE_ENV" value="cupid-infrastructure">
+      <type>char</type>
+      <desc>Conda environment to use when running CUPiD tools</desc>
+    </entry>
+  </group>
+  <group id="cupid_analysis">
+    <entry id="CUPID_STARTDATE" value="0001-01-01">
+      <type>char</type>
+      <desc>First year of output to include in CUPiD analysis. Format YYYY-MM-DD.</desc>
+    </entry>
+    <entry id="CUPID_STOP_OPTION" value="nyears">
+      <type>char</type>
+      <valid_values>ndays,nmonths,nyears</valid_values>
+      <desc>Sets the portion of output to include in CUPiD analysis, along with STOP_N.</desc>
+    </entry>
+    <entry id="CUPID_STOP_N" value="1">
+      <type>integer</type>
+      <desc>Provides a numerical count for $CUPID_STOP_OPTION.</desc>
+    </entry>
+    <entry id="CUPID_CLIMO_END_YEAR" value="100">
+      <type>integer</type>
+      <desc>Year to end climatology, eg for LDF</desc>
+    </entry>
+    <entry id="CUPID_CLIMO_N_YEAR" value="25">
+      <type>integer</type>
+      <desc>Number of years to use for climatology, eg for LDF</desc>
+    </entry>
+    <entry id="CUPID_ALIGN_YEAR" value="0">
+      <type>integer</type>
+      <desc>Number of years offset time axis when plotting global timeseries of CESM case</desc>
+    </entry>
+    <entry id="CUPID_GENTS_SLICE_SIZE" value="10">
+      <type>integer</type>
+      <desc>Number of years to include per time series file when running GenTS</desc>
+    </entry>
+    <entry id="CUPID_NICKNAME" value="$CASE">
+      <type>char</type>
+      <desc>Label to use in plot legends to describe case</desc>
+    </entry>
+    <entry id="CUPID_COMPARISON_GENTS_SLICE_SIZES" value="10">
+      <type>char</type>
+      <desc>Number of years to include per time series file when running GenTS for comparison cases. Can be single value for all cases or comma-separated list.</desc>
+    </entry>
+    <entry id="CUPID_TS_DIR" value="$DOUT_S_ROOT/..">
+      <type>char</type>
+      <desc>Timeseries directory for baseline case to use in generating ts. Change this in the case of directory permission issues to eg, your scratch directory</desc>
+    </entry>
+    <entry id="CUPID_EXAMPLE" value="intermediary_outputs">
+      <type>char</type>
+      <desc>Example to use in CUPiD analysis</desc>
+    </entry>
+    <entry id="CUPID_RUN_TYPE" value="BGC">
+      <type>char</type>
+      <valid_values>BGC,SP</valid_values>
+      <desc>Type of CTSM run: either 'BGC' (biogeochemistry) or 'SP' (satellite phenology)</desc>
+    </entry>
+  </group>
+  <group id="cupid_comparison">
+    <entry id="CUPID_COMPARISON_STARTDATES" value="0001-01-01">
+      <type>char</type>
+      <desc>First date of output to include in each CUPiD comparison list. Format YYYY-MM-DD (or comma-separated list).</desc>
+    </entry>
+    <entry id="CUPID_COMPARISON_STOP_NS" value="100">
+      <type>char</type>
+      <desc>Provides a numerical count for comparison cases in units of $CUPID_STOP_OPTION. Can be single value or comma-separated list.</desc>
+    </entry>
+    <entry id="CUPID_COMPARISON_CLIMO_END_YEARS" value="100">
+      <type>char</type>
+      <desc>Year to end comparison case climatologies, eg for LDF. Can be single value for all cases or comma-separated list.</desc>
+    </entry>
+    <entry id="CUPID_COMPARISON_ALIGN_YEARS" value="0">
+      <type>char</type>
+      <desc>Number of years offset time axis when plotting global timeseries of comparison case(s)</desc>
+    </entry>
+    <entry id="CUPID_COMPARISON_CLIMO_N_YEARS" value="25">
+      <type>char</type>
+      <desc>Number of years to use for comparison case climatologies, eg for LDF. Can be single value for all cases or comma-separated list.</desc>
+    </entry>
+    <entry id="CUPID_COMPARISON_CASES">
+      <type>char</type>
+      <desc>Comma-separated list of cases to compare to current CESM case</desc>
+    </entry>
+    <entry id="CUPID_COMPARISON_ROOTS" value="$DOUT_S_ROOT/..">
+      <type>char</type>
+      <desc>Root of all cases being compared. Can be a single string if common across cases, otherwise comma-separated list of same length as CUPID_COMPARISON_CASES</desc>
+    </entry>
+    <entry id="CUPID_COMPARISON_NICKNAMES" value="NONE">
+      <type>char</type>
+      <desc>Label to use in plot legends to describe baseline case. Can be single value or comma-separated list.</desc>
+    </entry>
+  </group>
+  <group id="cupid_run_components">
+    <entry id="CUPID_RUN_ALL" value="TRUE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not diagnostics for all components are run</desc>
+    </entry>
+    <entry id="CUPID_RUN_ATM" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ATM diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_OCN" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not OCN diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_LND" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not LND diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_ICE" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ICE diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_ROF" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ROF diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_GLC" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not GLC diagnostics are run (if CUPID_RUN_ALL is FALSE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_ADF" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ADF diagnostics are run</desc>
+    </entry>
+    <entry id="CUPID_RUN_CVDP" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not CVDP diagnostics are run (requires CUPID_RUN_ADF=TRUE)</desc>
+    </entry>
+    <entry id="CUPID_RUN_LDF" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not LDF diagnostics are run</desc>
+    </entry>
+    <entry id="CUPID_RUN_ILAMB" value="FALSE">
+      <type>char</type>
+      <valid_values>TRUE,FALSE</valid_values>
+      <desc>Boolean value that determines whether or not ILAMB diagnostics are run</desc>
+    </entry>
+  </group>
+</file>
