@@ -58,3 +58,7 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./preview_namelists
+
+./xmlchange JOB_PRIORITY=special --force
+
