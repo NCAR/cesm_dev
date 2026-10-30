@@ -16,3 +16,5 @@
 
 ./pelayout
 
+./xmlchange RESUBMIT=12
+
