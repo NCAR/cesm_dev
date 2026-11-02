@@ -78,3 +78,5 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./xmlchange PROJECT=CESM0024
+
