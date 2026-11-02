@@ -76,3 +76,7 @@ cd "${CASEDIR}"
 
 ./xmlchange RESUBMIT=10
 
+./xmlchange JOB_QUEUE=CESM0024
+
+./case.submit
+
