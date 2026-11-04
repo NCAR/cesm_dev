@@ -52,3 +52,11 @@ cd "${CASEDIR}"
 
 ./xmlchange PROJECT=CESM0023
 
+./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run
+
+./preview_namelists
+
+./preview_namelists
+
+./xmlchange OCN_DIAG_MODE=production
+
