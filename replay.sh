@@ -34,3 +34,9 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./check_case
+
+./check_case
+
+./case.submit
+
