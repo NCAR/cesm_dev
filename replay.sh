@@ -26,3 +26,5 @@
 
 ./case.submit
 
+./xmlchange RESUBMIT=10
+
