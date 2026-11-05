@@ -582,3 +582,5 @@ UCGD0009, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_
  ---------------------------------------------------
 2026-11-05 06:39:42: st_archive success 8076261.desched1
  ---------------------------------------------------
+2026-11-05 06:39:46: case.submit starting case.run:8078133.desched1, case.st_archive:8078134.desched1
+ ---------------------------------------------------
