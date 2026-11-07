@@ -1,0 +1,7 @@
+&comp_inparm 
+
+ cam_physics_mesh = '/glade/campaign/cesm/cesmdata/inputdata/share/meshes/ne30pg3_ESMFmesh_cdf5_c20211018.nc'
+ dtime = 1800
+ 
+
+/ 

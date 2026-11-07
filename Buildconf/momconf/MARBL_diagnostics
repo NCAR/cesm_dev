@@ -1,0 +1,1147 @@
+# This file contains a list of all ecosystem-related diagnostics MOM output for a given MARBL configuration,
+# as well as the recommended frequency and operator for outputting each diagnostic.
+# Some diagnostics are computed in MOM, while others are provided by MARBL.
+# The format of this file is:
+#
+# DIAGNOSTIC_NAME : frequency_operator
+#
+# And fields that should be output at multiple different frequencies will be comma-separated:
+#
+# DIAGNOSTIC_NAME : frequency1_operator1, frequency2_operator2, ..., frequencyN_operatorN
+#
+# Frequencies are never, low, medium, and high.
+# Operators are instantaneous, average, minimum, and maximum.
+#
+# To change BGC-related diagnostic output, copy this file to SourceMods/src.mom/
+# and edit as desired.
+#
+########################################
+#       MOM-generated diagnostics      #
+########################################
+#
+# Dust and Carbon Fluxes from the Coupler
+#
+ATM_FINE_DUST_FLUX_CPL : medium_average
+ATM_COARSE_DUST_FLUX_CPL : medium_average
+SEAICE_DUST_FLUX_CPL : medium_average
+ATM_BLACK_CARBON_FLUX_CPL : medium_average
+SEAICE_BLACK_CARBON_FLUX_CPL : medium_average
+#
+# temperature and salinity
+#
+so: medium_average
+thetao: never_average
+#
+# Bottom Flux to Tendency Conversion
+#
+BOT_FLUX_TO_TEND : never_average
+#
+# per-category forcings
+#
+FRACR_CAT_1: never_average
+QSW_CAT_1: never_average
+FRACR_CAT_2: never_average
+QSW_CAT_2: never_average
+FRACR_CAT_3: never_average
+QSW_CAT_3: never_average
+FRACR_CAT_4: never_average
+QSW_CAT_4: never_average
+FRACR_CAT_5: never_average
+QSW_CAT_5: never_average
+FRACR_CAT_6: never_average
+QSW_CAT_6: never_average
+#
+# Diagnostics for tracer ALK
+#
+ALK : medium_average
+Jint_100m_ALK : medium_average
+STF_ALK : never_average
+J_ALK : never_average
+Jint_ALK : never_average
+ALK_zint_100m : never_average
+ALK_RIV_FLUX : never_average
+STF_SALT_ALK : medium_average
+ALK_adx : never_average
+ALK_ady : never_average
+ALK_dfx : never_average
+ALK_dfy : never_average
+ALK_tendency_vert_remap : never_average
+ALK_tendency : never_average
+#
+# Diagnostics for tracer ALK_ALT_CO2
+#
+ALK_ALT_CO2 : never_average
+Jint_100m_ALK_ALT_CO2 : never_average
+STF_ALK_ALT_CO2 : never_average
+J_ALK_ALT_CO2 : never_average
+Jint_ALK_ALT_CO2 : never_average
+ALK_ALT_CO2_zint_100m : never_average
+ALK_ALT_CO2_RIV_FLUX : never_average
+ALK_ALT_CO2_adx : never_average
+ALK_ALT_CO2_ady : never_average
+ALK_ALT_CO2_dfx : never_average
+ALK_ALT_CO2_dfy : never_average
+ALK_ALT_CO2_tendency_vert_remap : never_average
+ALK_ALT_CO2_tendency : never_average
+#
+# Diagnostics for tracer DIC
+#
+DIC : medium_average
+Jint_100m_DIC : medium_average
+STF_DIC : never_average
+J_DIC : never_average
+Jint_DIC : never_average
+DIC_zint_100m : never_average
+DIC_RIV_FLUX : never_average
+STF_SALT_DIC : medium_average
+DIC_adx : never_average
+DIC_ady : never_average
+DIC_dfx : never_average
+DIC_dfy : never_average
+DIC_tendency_vert_remap : never_average
+DIC_tendency : never_average
+#
+# Diagnostics for tracer DIC_ALT_CO2
+#
+DIC_ALT_CO2 : never_average
+Jint_100m_DIC_ALT_CO2 : never_average
+STF_DIC_ALT_CO2 : never_average
+J_DIC_ALT_CO2 : never_average
+Jint_DIC_ALT_CO2 : never_average
+DIC_ALT_CO2_zint_100m : never_average
+DIC_ALT_CO2_RIV_FLUX : never_average
+DIC_ALT_CO2_adx : never_average
+DIC_ALT_CO2_ady : never_average
+DIC_ALT_CO2_dfx : never_average
+DIC_ALT_CO2_dfy : never_average
+DIC_ALT_CO2_tendency_vert_remap : never_average
+DIC_ALT_CO2_tendency : never_average
+#
+# Diagnostics for tracer DOC
+#
+DOC : medium_average
+Jint_100m_DOC : never_average
+STF_DOC : never_average
+J_DOC : never_average
+Jint_DOC : never_average
+DOC_zint_100m : never_average
+DOC_RIV_FLUX : never_average
+DOC_adx : never_average
+DOC_ady : never_average
+DOC_dfx : never_average
+DOC_dfy : never_average
+DOC_tendency_vert_remap : never_average
+DOC_tendency : never_average
+#
+# Diagnostics for tracer DOCr
+#
+DOCr : medium_average
+Jint_100m_DOCr : never_average
+STF_DOCr : never_average
+J_DOCr : never_average
+Jint_DOCr : never_average
+DOCr_zint_100m : never_average
+DOCr_RIV_FLUX : never_average
+DOCr_adx : never_average
+DOCr_ady : never_average
+DOCr_dfx : never_average
+DOCr_dfy : never_average
+DOCr_tendency_vert_remap : never_average
+DOCr_tendency : never_average
+#
+# Diagnostics for tracer DON
+#
+DON : never_average
+Jint_100m_DON : never_average
+STF_DON : never_average
+J_DON : never_average
+Jint_DON : never_average
+DON_zint_100m : never_average
+DON_RIV_FLUX : never_average
+DON_adx : never_average
+DON_ady : never_average
+DON_dfx : never_average
+DON_dfy : never_average
+DON_tendency_vert_remap : never_average
+DON_tendency : never_average
+#
+# Diagnostics for tracer DONr
+#
+DONr : never_average
+Jint_100m_DONr : never_average
+STF_DONr : never_average
+J_DONr : never_average
+Jint_DONr : never_average
+DONr_zint_100m : never_average
+DONr_RIV_FLUX : never_average
+DONr_adx : never_average
+DONr_ady : never_average
+DONr_dfx : never_average
+DONr_dfy : never_average
+DONr_tendency_vert_remap : never_average
+DONr_tendency : never_average
+#
+# Diagnostics for tracer DOP
+#
+DOP : never_average
+Jint_100m_DOP : never_average
+STF_DOP : never_average
+J_DOP : never_average
+Jint_DOP : never_average
+DOP_zint_100m : never_average
+DOP_RIV_FLUX : never_average
+DOP_adx : never_average
+DOP_ady : never_average
+DOP_dfx : never_average
+DOP_dfy : never_average
+DOP_tendency_vert_remap : never_average
+DOP_tendency : never_average
+#
+# Diagnostics for tracer DOPr
+#
+DOPr : never_average
+Jint_100m_DOPr : never_average
+STF_DOPr : never_average
+J_DOPr : never_average
+Jint_DOPr : never_average
+DOPr_zint_100m : never_average
+DOPr_RIV_FLUX : never_average
+DOPr_adx : never_average
+DOPr_ady : never_average
+DOPr_dfx : never_average
+DOPr_dfy : never_average
+DOPr_tendency_vert_remap : never_average
+DOPr_tendency : never_average
+#
+# Diagnostics for tracer Fe
+#
+Fe : medium_average
+Jint_100m_Fe : never_average
+STF_Fe : never_average
+J_Fe : never_average
+Jint_Fe : never_average
+Fe_zint_100m : never_average
+Fe_RIV_FLUX : never_average
+Fe_adx : never_average
+Fe_ady : never_average
+Fe_dfx : never_average
+Fe_dfy : never_average
+Fe_tendency_vert_remap : never_average
+Fe_tendency : never_average
+#
+# Diagnostics for tracer Lig
+#
+Lig : never_average
+Jint_100m_Lig : never_average
+STF_Lig : never_average
+J_Lig : never_average
+Jint_Lig : never_average
+Lig_zint_100m : never_average
+Lig_adx : never_average
+Lig_ady : never_average
+Lig_dfx : never_average
+Lig_dfy : never_average
+Lig_tendency_vert_remap : never_average
+Lig_tendency : never_average
+#
+# Diagnostics for tracer NH4
+#
+NH4 : medium_average
+Jint_100m_NH4 : never_average
+STF_NH4 : never_average
+J_NH4 : never_average
+Jint_NH4 : never_average
+NH4_zint_100m : never_average
+NH4_adx : never_average
+NH4_ady : never_average
+NH4_dfx : never_average
+NH4_dfy : never_average
+NH4_tendency_vert_remap : never_average
+NH4_tendency : never_average
+#
+# Diagnostics for tracer NO3
+#
+NO3 : medium_average
+Jint_100m_NO3 : never_average
+STF_NO3 : never_average
+J_NO3 : never_average
+Jint_NO3 : never_average
+NO3_zint_100m : never_average
+NO3_RIV_FLUX : never_average
+NO3_adx : never_average
+NO3_ady : never_average
+NO3_dfx : never_average
+NO3_dfy : never_average
+NO3_tendency_vert_remap : never_average
+NO3_tendency : never_average
+#
+# Diagnostics for tracer O2
+#
+O2 : medium_average
+Jint_100m_O2 : never_average
+STF_O2 : never_average
+J_O2 : never_average
+Jint_O2 : never_average
+O2_zint_100m : never_average
+O2_adx : never_average
+O2_ady : never_average
+O2_dfx : never_average
+O2_dfy : never_average
+O2_tendency_vert_remap : never_average
+O2_tendency : never_average
+#
+# Diagnostics for tracer PO4
+#
+PO4 : medium_average
+Jint_100m_PO4 : never_average
+STF_PO4 : never_average
+J_PO4 : never_average
+Jint_PO4 : never_average
+PO4_zint_100m : never_average
+PO4_RIV_FLUX : never_average
+PO4_adx : never_average
+PO4_ady : never_average
+PO4_dfx : never_average
+PO4_dfy : never_average
+PO4_tendency_vert_remap : never_average
+PO4_tendency : never_average
+#
+# Diagnostics for tracer SiO3
+#
+SiO3 : medium_average
+Jint_100m_SiO3 : never_average
+STF_SiO3 : never_average
+J_SiO3 : never_average
+Jint_SiO3 : never_average
+SiO3_zint_100m : never_average
+SiO3_RIV_FLUX : never_average
+SiO3_adx : never_average
+SiO3_ady : never_average
+SiO3_dfx : never_average
+SiO3_dfy : never_average
+SiO3_tendency_vert_remap : never_average
+SiO3_tendency : never_average
+#
+# Diagnostics for tracer coccoC
+#
+coccoC : medium_average
+Jint_100m_coccoC : never_average
+STF_coccoC : never_average
+J_coccoC : never_average
+Jint_coccoC : never_average
+coccoC_zint_100m : never_average
+coccoC_adx : never_average
+coccoC_ady : never_average
+coccoC_dfx : never_average
+coccoC_dfy : never_average
+coccoC_tendency_vert_remap : never_average
+coccoC_tendency : never_average
+#
+# Diagnostics for tracer coccoCaCO3
+#
+coccoCaCO3 : medium_average
+Jint_100m_coccoCaCO3 : never_average
+STF_coccoCaCO3 : never_average
+J_coccoCaCO3 : never_average
+Jint_coccoCaCO3 : never_average
+coccoCaCO3_zint_100m : never_average
+coccoCaCO3_adx : never_average
+coccoCaCO3_ady : never_average
+coccoCaCO3_dfx : never_average
+coccoCaCO3_dfy : never_average
+coccoCaCO3_tendency_vert_remap : never_average
+coccoCaCO3_tendency : never_average
+#
+# Diagnostics for tracer coccoChl
+#
+coccoChl : medium_average
+Jint_100m_coccoChl : never_average
+STF_coccoChl : never_average
+J_coccoChl : never_average
+Jint_coccoChl : never_average
+coccoChl_zint_100m : never_average
+coccoChl_SURF : never_average
+coccoChl_adx : never_average
+coccoChl_ady : never_average
+coccoChl_dfx : never_average
+coccoChl_dfy : never_average
+coccoChl_tendency_vert_remap : never_average
+coccoChl_tendency : never_average
+#
+# Diagnostics for tracer coccoFe
+#
+coccoFe : never_average
+Jint_100m_coccoFe : never_average
+STF_coccoFe : never_average
+J_coccoFe : never_average
+Jint_coccoFe : never_average
+coccoFe_zint_100m : never_average
+coccoFe_adx : never_average
+coccoFe_ady : never_average
+coccoFe_dfx : never_average
+coccoFe_dfy : never_average
+coccoFe_tendency_vert_remap : never_average
+coccoFe_tendency : never_average
+#
+# Diagnostics for tracer coccoN
+#
+coccoN : never_average
+Jint_100m_coccoN : never_average
+STF_coccoN : never_average
+J_coccoN : never_average
+Jint_coccoN : never_average
+coccoN_zint_100m : never_average
+coccoN_adx : never_average
+coccoN_ady : never_average
+coccoN_dfx : never_average
+coccoN_dfy : never_average
+coccoN_tendency_vert_remap : never_average
+coccoN_tendency : never_average
+#
+# Diagnostics for tracer coccoP
+#
+coccoP : never_average
+Jint_100m_coccoP : never_average
+STF_coccoP : never_average
+J_coccoP : never_average
+Jint_coccoP : never_average
+coccoP_zint_100m : never_average
+coccoP_adx : never_average
+coccoP_ady : never_average
+coccoP_dfx : never_average
+coccoP_dfy : never_average
+coccoP_tendency_vert_remap : never_average
+coccoP_tendency : never_average
+#
+# Diagnostics for tracer diatC
+#
+diatC : medium_average
+Jint_100m_diatC : never_average
+STF_diatC : never_average
+J_diatC : never_average
+Jint_diatC : never_average
+diatC_zint_100m : never_average
+diatC_adx : never_average
+diatC_ady : never_average
+diatC_dfx : never_average
+diatC_dfy : never_average
+diatC_tendency_vert_remap : never_average
+diatC_tendency : never_average
+#
+# Diagnostics for tracer diatChl
+#
+diatChl : medium_average
+Jint_100m_diatChl : never_average
+STF_diatChl : never_average
+J_diatChl : never_average
+Jint_diatChl : never_average
+diatChl_zint_100m : never_average
+diatChl_SURF : never_average
+diatChl_adx : never_average
+diatChl_ady : never_average
+diatChl_dfx : never_average
+diatChl_dfy : never_average
+diatChl_tendency_vert_remap : never_average
+diatChl_tendency : never_average
+#
+# Diagnostics for tracer diatFe
+#
+diatFe : never_average
+Jint_100m_diatFe : never_average
+STF_diatFe : never_average
+J_diatFe : never_average
+Jint_diatFe : never_average
+diatFe_zint_100m : never_average
+diatFe_adx : never_average
+diatFe_ady : never_average
+diatFe_dfx : never_average
+diatFe_dfy : never_average
+diatFe_tendency_vert_remap : never_average
+diatFe_tendency : never_average
+#
+# Diagnostics for tracer diatN
+#
+diatN : never_average
+Jint_100m_diatN : never_average
+STF_diatN : never_average
+J_diatN : never_average
+Jint_diatN : never_average
+diatN_zint_100m : never_average
+diatN_adx : never_average
+diatN_ady : never_average
+diatN_dfx : never_average
+diatN_dfy : never_average
+diatN_tendency_vert_remap : never_average
+diatN_tendency : never_average
+#
+# Diagnostics for tracer diatP
+#
+diatP : never_average
+Jint_100m_diatP : never_average
+STF_diatP : never_average
+J_diatP : never_average
+Jint_diatP : never_average
+diatP_zint_100m : never_average
+diatP_adx : never_average
+diatP_ady : never_average
+diatP_dfx : never_average
+diatP_dfy : never_average
+diatP_tendency_vert_remap : never_average
+diatP_tendency : never_average
+#
+# Diagnostics for tracer diatSi
+#
+diatSi : never_average
+Jint_100m_diatSi : never_average
+STF_diatSi : never_average
+J_diatSi : never_average
+Jint_diatSi : never_average
+diatSi_zint_100m : never_average
+diatSi_adx : never_average
+diatSi_ady : never_average
+diatSi_dfx : never_average
+diatSi_dfy : never_average
+diatSi_tendency_vert_remap : never_average
+diatSi_tendency : never_average
+#
+# Diagnostics for tracer diazC
+#
+diazC : medium_average
+Jint_100m_diazC : never_average
+STF_diazC : never_average
+J_diazC : never_average
+Jint_diazC : never_average
+diazC_zint_100m : never_average
+diazC_adx : never_average
+diazC_ady : never_average
+diazC_dfx : never_average
+diazC_dfy : never_average
+diazC_tendency_vert_remap : never_average
+diazC_tendency : never_average
+#
+# Diagnostics for tracer diazChl
+#
+diazChl : medium_average
+Jint_100m_diazChl : never_average
+STF_diazChl : never_average
+J_diazChl : never_average
+Jint_diazChl : never_average
+diazChl_zint_100m : never_average
+diazChl_SURF : never_average
+diazChl_adx : never_average
+diazChl_ady : never_average
+diazChl_dfx : never_average
+diazChl_dfy : never_average
+diazChl_tendency_vert_remap : never_average
+diazChl_tendency : never_average
+#
+# Diagnostics for tracer diazFe
+#
+diazFe : never_average
+Jint_100m_diazFe : never_average
+STF_diazFe : never_average
+J_diazFe : never_average
+Jint_diazFe : never_average
+diazFe_zint_100m : never_average
+diazFe_adx : never_average
+diazFe_ady : never_average
+diazFe_dfx : never_average
+diazFe_dfy : never_average
+diazFe_tendency_vert_remap : never_average
+diazFe_tendency : never_average
+#
+# Diagnostics for tracer diazN
+#
+diazN : never_average
+Jint_100m_diazN : never_average
+STF_diazN : never_average
+J_diazN : never_average
+Jint_diazN : never_average
+diazN_zint_100m : never_average
+diazN_adx : never_average
+diazN_ady : never_average
+diazN_dfx : never_average
+diazN_dfy : never_average
+diazN_tendency_vert_remap : never_average
+diazN_tendency : never_average
+#
+# Diagnostics for tracer diazP
+#
+diazP : never_average
+Jint_100m_diazP : never_average
+STF_diazP : never_average
+J_diazP : never_average
+Jint_diazP : never_average
+diazP_zint_100m : never_average
+diazP_adx : never_average
+diazP_ady : never_average
+diazP_dfx : never_average
+diazP_dfy : never_average
+diazP_tendency_vert_remap : never_average
+diazP_tendency : never_average
+#
+# Diagnostics for tracer mesozooC
+#
+mesozooC : medium_average
+Jint_100m_mesozooC : never_average
+STF_mesozooC : never_average
+J_mesozooC : never_average
+Jint_mesozooC : never_average
+mesozooC_zint_100m : never_average
+mesozooC_adx : never_average
+mesozooC_ady : never_average
+mesozooC_dfx : never_average
+mesozooC_dfy : never_average
+mesozooC_tendency_vert_remap : never_average
+mesozooC_tendency : never_average
+#
+# Diagnostics for tracer microzooC
+#
+microzooC : medium_average
+Jint_100m_microzooC : never_average
+STF_microzooC : never_average
+J_microzooC : never_average
+Jint_microzooC : never_average
+microzooC_zint_100m : never_average
+microzooC_adx : never_average
+microzooC_ady : never_average
+microzooC_dfx : never_average
+microzooC_dfy : never_average
+microzooC_tendency_vert_remap : never_average
+microzooC_tendency : never_average
+#
+# Diagnostics for tracer spC
+#
+spC : medium_average
+Jint_100m_spC : never_average
+STF_spC : never_average
+J_spC : never_average
+Jint_spC : never_average
+spC_zint_100m : never_average
+spC_adx : never_average
+spC_ady : never_average
+spC_dfx : never_average
+spC_dfy : never_average
+spC_tendency_vert_remap : never_average
+spC_tendency : never_average
+#
+# Diagnostics for tracer spChl
+#
+spChl : medium_average
+Jint_100m_spChl : never_average
+STF_spChl : never_average
+J_spChl : never_average
+Jint_spChl : never_average
+spChl_zint_100m : never_average
+spChl_SURF : never_average
+spChl_adx : never_average
+spChl_ady : never_average
+spChl_dfx : never_average
+spChl_dfy : never_average
+spChl_tendency_vert_remap : never_average
+spChl_tendency : never_average
+#
+# Diagnostics for tracer spFe
+#
+spFe : never_average
+Jint_100m_spFe : never_average
+STF_spFe : never_average
+J_spFe : never_average
+Jint_spFe : never_average
+spFe_zint_100m : never_average
+spFe_adx : never_average
+spFe_ady : never_average
+spFe_dfx : never_average
+spFe_dfy : never_average
+spFe_tendency_vert_remap : never_average
+spFe_tendency : never_average
+#
+# Diagnostics for tracer spN
+#
+spN : never_average
+Jint_100m_spN : never_average
+STF_spN : never_average
+J_spN : never_average
+Jint_spN : never_average
+spN_zint_100m : never_average
+spN_adx : never_average
+spN_ady : never_average
+spN_dfx : never_average
+spN_dfy : never_average
+spN_tendency_vert_remap : never_average
+spN_tendency : never_average
+#
+# Diagnostics for tracer spP
+#
+spP : never_average
+Jint_100m_spP : never_average
+STF_spP : never_average
+J_spP : never_average
+Jint_spP : never_average
+spP_zint_100m : never_average
+spP_adx : never_average
+spP_ady : never_average
+spP_dfx : never_average
+spP_dfy : never_average
+spP_tendency_vert_remap : never_average
+spP_tendency : never_average
+#
+########################################
+#      MARBL-generated diagnostics     #
+########################################
+#
+ALK_ALT_CO2_RESTORE_TEND : never_average
+ALK_RESTORE_TEND : never_average
+AOU : never_average
+ATM_ALT_CO2 : never_average
+ATM_CO2 : never_average
+CO2STAR : never_average
+CO2STAR_ALT_CO2 : never_average
+CO3 : never_average
+CO3_ALT_CO2 : never_average
+CaCO3_ALT_CO2_FLUX_IN : never_average
+CaCO3_ALT_CO2_PROD : never_average
+CaCO3_ALT_CO2_REMIN : never_average
+CaCO3_FLUX_100m : medium_average
+CaCO3_FLUX_IN : never_average
+CaCO3_PROD : never_average
+CaCO3_PROD_zint : medium_average
+CaCO3_PROD_zint_100m : never_average
+CaCO3_REMIN : never_average
+CaCO3_REMIN_zint : never_average
+CaCO3_REMIN_zint_100m : never_average
+CaCO3_form : never_average
+CaCO3_form_zint : never_average
+CaCO3_form_zint_100m : never_average
+DCO2STAR : never_average
+DCO2STAR_ALT_CO2 : never_average
+DENITRIF : medium_average
+DIC_ALT_CO2_RESTORE_TEND : never_average
+DIC_RESTORE_TEND : never_average
+DOC_RESTORE_TEND : never_average
+DOC_prod : never_average
+DOC_prod_zint : never_average
+DOC_prod_zint_100m : never_average
+DOC_remin : never_average
+DOC_remin_zint : never_average
+DOC_remin_zint_100m : never_average
+DOCr_RESTORE_TEND : never_average
+DOCr_remin : never_average
+DOCr_remin_zint : never_average
+DOCr_remin_zint_100m : never_average
+DON_RESTORE_TEND : never_average
+DON_loss_N_bal : never_average
+DON_prod : never_average
+DON_remin : never_average
+DONr_RESTORE_TEND : never_average
+DONr_remin : never_average
+DOP_RESTORE_TEND : never_average
+DOP_cocco_uptake : never_average
+DOP_diat_uptake : never_average
+DOP_diaz_uptake : never_average
+DOP_loss_P_bal : never_average
+DOP_prod : never_average
+DOP_remin : never_average
+DOP_sp_uptake : never_average
+DOPr_RESTORE_TEND : never_average
+DOPr_remin : never_average
+DUST_FLUX : medium_average
+DpCO2 : medium_average
+DpCO2_ALT_CO2 : never_average
+ECOSYS_ATM_PRESS : never_average
+ECOSYS_IFRAC : medium_average
+ECOSYS_XKW : never_average
+FEREDSEDFLUX : never_average
+FESEDFLUX : never_average
+FEVENTFLUX : never_average
+FG_ALT_CO2 : never_average
+FG_CO2 : medium_average
+Fe_RESTORE_TEND : never_average
+Fe_scavenge : never_average
+Fe_scavenge_rate : never_average
+Fefree : never_average
+H2CO3 : never_average
+H2CO3_ALT_CO2 : never_average
+HCO3 : never_average
+HCO3_ALT_CO2 : never_average
+IRON_FLUX : medium_average
+Jint_Ctot : never_average
+Jint_Fetot : never_average
+Jint_Ntot : never_average
+Jint_Ptot : never_average
+Jint_Sitot : never_average
+Lig_RESTORE_TEND : never_average
+Lig_deg : never_average
+Lig_loss : never_average
+Lig_photochem : never_average
+Lig_prod : never_average
+Lig_scavenge : never_average
+NH4_RESTORE_TEND : never_average
+NHx_SURFACE_EMIS : medium_average
+NHy_FLUX : medium_average
+NITRIF : never_average
+NO3_RESTORE_TEND : never_average
+NOx_FLUX : medium_average
+Nfix : never_average
+O2SAT : never_average
+O2_CONSUMPTION : never_average
+O2_PRODUCTION : never_average
+O2_RESTORE_TEND : never_average
+O2_ZMIN : medium_average
+O2_ZMIN_DEPTH : medium_average
+OtherRemin : never_average
+PAR_avg : never_average
+PH : never_average
+PH_ALT_CO2 : never_average
+PO4_RESTORE_TEND : never_average
+PO4_cocco_uptake : never_average
+PO4_diat_uptake : never_average
+PO4_diaz_uptake : never_average
+PO4_sp_uptake : never_average
+POC_FLUX_100m : medium_average
+POC_FLUX_IN : medium_average
+POC_PROD : never_average
+POC_PROD_zint : medium_average
+POC_PROD_zint_100m : never_average
+POC_REMIN_DIC : never_average
+POC_REMIN_DIC_zint : never_average
+POC_REMIN_DIC_zint_100m : never_average
+POC_REMIN_DOCr : never_average
+POC_REMIN_DOCr_zint : never_average
+POC_REMIN_DOCr_zint_100m : never_average
+POC_hFLUX_IN : never_average
+POC_sFLUX_IN : never_average
+PON_FLUX_100m : never_average
+PON_FLUX_IN : never_average
+PON_PROD : never_average
+PON_REMIN_DONr : never_average
+PON_REMIN_NH4 : never_average
+POP_FLUX_100m : never_average
+POP_FLUX_IN : never_average
+POP_PROD : never_average
+POP_REMIN_DOPr : never_average
+POP_REMIN_PO4 : never_average
+PV_CO2 : never_average
+PV_O2 : never_average
+P_iron_FLUX_100m : medium_average
+P_iron_FLUX_IN : never_average
+P_iron_PROD : never_average
+P_iron_REMIN : never_average
+SCHMIDT_CO2 : never_average
+SCHMIDT_O2 : never_average
+SedDenitrif : never_average
+SiO2_FLUX_100m : medium_average
+SiO2_FLUX_IN : never_average
+SiO2_PROD : medium_average
+SiO2_REMIN : never_average
+SiO3_RESTORE_TEND : never_average
+bSi_form : never_average
+bsiToSed : medium_average
+calcToFloor : never_average
+calcToSed : medium_average
+calcToSed_ALT_CO2 : never_average
+co3_sat_arag : never_average
+co3_sat_calc : never_average
+coccoC_RESTORE_TEND : never_average
+coccoCaCO3_RESTORE_TEND : never_average
+coccoChl_RESTORE_TEND : never_average
+coccoFe_RESTORE_TEND : never_average
+coccoN_RESTORE_TEND : never_average
+coccoP_RESTORE_TEND : never_average
+cocco_C_lim_Cweight_avg_100m : medium_average
+cocco_C_lim_surf : medium_average
+cocco_CaCO3_form : never_average
+cocco_CaCO3_form_zint : never_average
+cocco_CaCO3_form_zint_100m : never_average
+cocco_Fe_lim_Cweight_avg_100m : medium_average
+cocco_Fe_lim_surf : medium_average
+cocco_N_lim_Cweight_avg_100m : medium_average
+cocco_N_lim_surf : medium_average
+cocco_P_lim_Cweight_avg_100m : medium_average
+cocco_P_lim_surf : medium_average
+cocco_Qn : never_average
+cocco_Qp : never_average
+cocco_agg : never_average
+cocco_agg_zint : never_average
+cocco_agg_zint_100m : never_average
+cocco_light_lim_Cweight_avg_100m : medium_average
+cocco_light_lim_surf : never_average
+cocco_loss : never_average
+cocco_loss_doc : never_average
+cocco_loss_doc_zint : never_average
+cocco_loss_doc_zint_100m : never_average
+cocco_loss_poc : never_average
+cocco_loss_poc_zint : never_average
+cocco_loss_poc_zint_100m : never_average
+cocco_loss_zint : never_average
+cocco_loss_zint_100m : never_average
+diatC_RESTORE_TEND : never_average
+diatChl_RESTORE_TEND : never_average
+diatFe_RESTORE_TEND : never_average
+diatN_RESTORE_TEND : never_average
+diatP_RESTORE_TEND : never_average
+diatSi_RESTORE_TEND : never_average
+diat_Fe_lim_Cweight_avg_100m : medium_average
+diat_Fe_lim_surf : medium_average
+diat_N_lim_Cweight_avg_100m : medium_average
+diat_N_lim_surf : medium_average
+diat_P_lim_Cweight_avg_100m : medium_average
+diat_P_lim_surf : medium_average
+diat_Qn : never_average
+diat_Qp : never_average
+diat_SiO3_lim_Cweight_avg_100m : medium_average
+diat_SiO3_lim_surf : medium_average
+diat_agg : never_average
+diat_agg_zint : never_average
+diat_agg_zint_100m : never_average
+diat_bSi_form : never_average
+diat_light_lim_Cweight_avg_100m : medium_average
+diat_light_lim_surf : never_average
+diat_loss : never_average
+diat_loss_doc : never_average
+diat_loss_doc_zint : never_average
+diat_loss_doc_zint_100m : never_average
+diat_loss_poc : never_average
+diat_loss_poc_zint : never_average
+diat_loss_poc_zint_100m : never_average
+diat_loss_zint : never_average
+diat_loss_zint_100m : never_average
+diazC_RESTORE_TEND : never_average
+diazChl_RESTORE_TEND : never_average
+diazFe_RESTORE_TEND : never_average
+diazN_RESTORE_TEND : never_average
+diazP_RESTORE_TEND : never_average
+diaz_Fe_lim_Cweight_avg_100m : medium_average
+diaz_Fe_lim_surf : medium_average
+diaz_N_lim_Cweight_avg_100m : never_average
+diaz_N_lim_surf : never_average
+diaz_Nfix : medium_average
+diaz_P_lim_Cweight_avg_100m : medium_average
+diaz_P_lim_surf : medium_average
+diaz_Qn : never_average
+diaz_Qp : never_average
+diaz_agg : never_average
+diaz_agg_zint : never_average
+diaz_agg_zint_100m : never_average
+diaz_light_lim_Cweight_avg_100m : medium_average
+diaz_light_lim_surf : never_average
+diaz_loss : never_average
+diaz_loss_doc : never_average
+diaz_loss_doc_zint : never_average
+diaz_loss_doc_zint_100m : never_average
+diaz_loss_poc : never_average
+diaz_loss_poc_zint : never_average
+diaz_loss_poc_zint_100m : never_average
+diaz_loss_zint : never_average
+diaz_loss_zint_100m : never_average
+dustToSed : medium_average
+dust_FLUX_IN : never_average
+dust_REMIN : never_average
+graze_auto_TOT : never_average
+graze_cocco : never_average
+graze_cocco_doc : never_average
+graze_cocco_doc_zint : never_average
+graze_cocco_doc_zint_100m : never_average
+graze_cocco_mesozoo : never_average
+graze_cocco_mesozoo_zint : never_average
+graze_cocco_mesozoo_zint_100m : never_average
+graze_cocco_microzoo : never_average
+graze_cocco_microzoo_zint : never_average
+graze_cocco_microzoo_zint_100m : never_average
+graze_cocco_poc : never_average
+graze_cocco_poc_zint : never_average
+graze_cocco_poc_zint_100m : never_average
+graze_cocco_zint : never_average
+graze_cocco_zint_100m : never_average
+graze_cocco_zootot : never_average
+graze_diat : never_average
+graze_diat_doc : never_average
+graze_diat_doc_zint : never_average
+graze_diat_doc_zint_100m : never_average
+graze_diat_mesozoo : never_average
+graze_diat_mesozoo_zint : never_average
+graze_diat_mesozoo_zint_100m : never_average
+graze_diat_microzoo : never_average
+graze_diat_microzoo_zint : never_average
+graze_diat_microzoo_zint_100m : never_average
+graze_diat_poc : never_average
+graze_diat_poc_zint : never_average
+graze_diat_poc_zint_100m : never_average
+graze_diat_zint : never_average
+graze_diat_zint_100m : never_average
+graze_diat_zootot : never_average
+graze_diaz : never_average
+graze_diaz_doc : never_average
+graze_diaz_doc_zint : never_average
+graze_diaz_doc_zint_100m : never_average
+graze_diaz_mesozoo : never_average
+graze_diaz_mesozoo_zint : never_average
+graze_diaz_mesozoo_zint_100m : never_average
+graze_diaz_microzoo : never_average
+graze_diaz_microzoo_zint : never_average
+graze_diaz_microzoo_zint_100m : never_average
+graze_diaz_poc : never_average
+graze_diaz_poc_zint : never_average
+graze_diaz_poc_zint_100m : never_average
+graze_diaz_zint : never_average
+graze_diaz_zint_100m : never_average
+graze_diaz_zootot : never_average
+graze_mesozoo : never_average
+graze_mesozoo_doc : never_average
+graze_mesozoo_doc_zint : never_average
+graze_mesozoo_doc_zint_100m : never_average
+graze_mesozoo_mesozoo : never_average
+graze_mesozoo_mesozoo_zint : never_average
+graze_mesozoo_mesozoo_zint_100m : never_average
+graze_mesozoo_microzoo : never_average
+graze_mesozoo_microzoo_zint : never_average
+graze_mesozoo_microzoo_zint_100m : never_average
+graze_mesozoo_poc : never_average
+graze_mesozoo_poc_zint : never_average
+graze_mesozoo_poc_zint_100m : never_average
+graze_mesozoo_zint : never_average
+graze_mesozoo_zint_100m : never_average
+graze_mesozoo_zootot : never_average
+graze_microzoo : never_average
+graze_microzoo_doc : never_average
+graze_microzoo_doc_zint : never_average
+graze_microzoo_doc_zint_100m : never_average
+graze_microzoo_mesozoo : never_average
+graze_microzoo_mesozoo_zint : never_average
+graze_microzoo_mesozoo_zint_100m : never_average
+graze_microzoo_microzoo : never_average
+graze_microzoo_microzoo_zint : never_average
+graze_microzoo_microzoo_zint_100m : never_average
+graze_microzoo_poc : never_average
+graze_microzoo_poc_zint : never_average
+graze_microzoo_poc_zint_100m : never_average
+graze_microzoo_zint : never_average
+graze_microzoo_zint_100m : never_average
+graze_microzoo_zootot : never_average
+graze_sp : never_average
+graze_sp_doc : never_average
+graze_sp_doc_zint : never_average
+graze_sp_doc_zint_100m : never_average
+graze_sp_mesozoo : never_average
+graze_sp_mesozoo_zint : never_average
+graze_sp_mesozoo_zint_100m : never_average
+graze_sp_microzoo : never_average
+graze_sp_microzoo_zint : never_average
+graze_sp_microzoo_zint_100m : never_average
+graze_sp_poc : never_average
+graze_sp_poc_zint : never_average
+graze_sp_poc_zint_100m : never_average
+graze_sp_zint : never_average
+graze_sp_zint_100m : never_average
+graze_sp_zootot : never_average
+insitu_temp : never_average
+mesozooC_RESTORE_TEND : never_average
+mesozoo_loss : never_average
+mesozoo_loss_basal : never_average
+mesozoo_loss_basal_zint : never_average
+mesozoo_loss_basal_zint_100m : never_average
+mesozoo_loss_doc : never_average
+mesozoo_loss_doc_zint : never_average
+mesozoo_loss_doc_zint_100m : never_average
+mesozoo_loss_poc : never_average
+mesozoo_loss_poc_zint : never_average
+mesozoo_loss_poc_zint_100m : never_average
+mesozoo_loss_zint : never_average
+mesozoo_loss_zint_100m : never_average
+mesozoo_loss_zint_150m : never_average
+microzooC_RESTORE_TEND : never_average
+microzoo_loss : never_average
+microzoo_loss_basal : never_average
+microzoo_loss_basal_zint : never_average
+microzoo_loss_basal_zint_100m : never_average
+microzoo_loss_doc : never_average
+microzoo_loss_doc_zint : never_average
+microzoo_loss_doc_zint_100m : never_average
+microzoo_loss_poc : never_average
+microzoo_loss_poc_zint : never_average
+microzoo_loss_poc_zint_100m : never_average
+microzoo_loss_zint : never_average
+microzoo_loss_zint_100m : never_average
+microzoo_loss_zint_150m : never_average
+pCO2SURF : medium_average
+pCO2SURF_ALT_CO2 : never_average
+pH_3D : never_average
+pH_3D_ALT_CO2 : never_average
+pfeToSed : medium_average
+photoC_NO3_TOT : never_average
+photoC_NO3_TOT_zint : never_average
+photoC_NO3_TOT_zint_100m : never_average
+photoC_NO3_cocco : never_average
+photoC_NO3_cocco_zint : never_average
+photoC_NO3_diat : never_average
+photoC_NO3_diat_zint : never_average
+photoC_NO3_diaz : never_average
+photoC_NO3_diaz_zint : never_average
+photoC_NO3_sp : never_average
+photoC_NO3_sp_zint : never_average
+photoC_TOT : never_average
+photoC_TOT_zint : medium_average
+photoC_TOT_zint_100m : medium_average
+photoC_cocco : never_average
+photoC_cocco_zint : medium_average
+photoC_cocco_zint_100m : never_average
+photoC_diat : never_average
+photoC_diat_zint : medium_average
+photoC_diat_zint_100m : never_average
+photoC_diaz : never_average
+photoC_diaz_zint : medium_average
+photoC_diaz_zint_100m : never_average
+photoC_sp : never_average
+photoC_sp_zint : medium_average
+photoC_sp_zint_100m : never_average
+photoFe_cocco : never_average
+photoFe_diat : never_average
+photoFe_diaz : never_average
+photoFe_sp : never_average
+photoNH4_cocco : never_average
+photoNH4_diat : never_average
+photoNH4_diaz : never_average
+photoNH4_sp : never_average
+photoNO3_cocco : never_average
+photoNO3_diat : never_average
+photoNO3_diaz : never_average
+photoNO3_sp : never_average
+pocToFloor : never_average
+pocToSed : medium_average
+ponToSed : never_average
+popToSed : never_average
+spC_RESTORE_TEND : never_average
+spChl_RESTORE_TEND : never_average
+spFe_RESTORE_TEND : never_average
+spN_RESTORE_TEND : never_average
+spP_RESTORE_TEND : never_average
+sp_Fe_lim_Cweight_avg_100m : medium_average
+sp_Fe_lim_surf : medium_average
+sp_N_lim_Cweight_avg_100m : medium_average
+sp_N_lim_surf : medium_average
+sp_P_lim_Cweight_avg_100m : medium_average
+sp_P_lim_surf : medium_average
+sp_Qn : never_average
+sp_Qp : never_average
+sp_agg : never_average
+sp_agg_zint : never_average
+sp_agg_zint_100m : never_average
+sp_light_lim_Cweight_avg_100m : medium_average
+sp_light_lim_surf : never_average
+sp_loss : never_average
+sp_loss_doc : never_average
+sp_loss_doc_zint : never_average
+sp_loss_doc_zint_100m : never_average
+sp_loss_poc : never_average
+sp_loss_poc_zint : never_average
+sp_loss_poc_zint_100m : never_average
+sp_loss_zint : never_average
+sp_loss_zint_100m : never_average
+x_graze_mesozoo : never_average
+x_graze_mesozoo_zint : medium_average
+x_graze_mesozoo_zint_100m : never_average
+x_graze_microzoo : never_average
+x_graze_microzoo_zint : medium_average
+x_graze_microzoo_zint_100m : never_average
+zsatarag : never_average
+zsatcalc : never_average
