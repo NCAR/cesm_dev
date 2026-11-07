@@ -164,3 +164,27 @@
  ---------------------------------------------------
 2026-11-06 17:34:26: model execution starting 8099496.desched1
  ---------------------------------------------------
+2026-11-06 18:06:48: case.setup starting 
+ ---------------------------------------------------
+2026-11-06 18:06:50: case.setup success 
+ ---------------------------------------------------
+2026-11-06 18:06:50: case.setup starting 
+ ---------------------------------------------------
+2026-11-06 18:06:53: case.setup success 
+ ---------------------------------------------------
+2026-11-06 18:06:56: xmlchange success <command> ./xmlchange CAM_CONFIG_OPTS= -pcols 9 --append  </command>
+ ---------------------------------------------------
+2026-11-06 18:06:56: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.419  </command>
+ ---------------------------------------------------
+2026-11-06 18:06:57: xmlchange success <command> ./xmlchange RUN_REFDATE=0061-01-01  </command>
+ ---------------------------------------------------
+2026-11-06 18:06:57: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
+2026-11-06 18:06:57: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
+ ---------------------------------------------------
+2026-11-06 18:06:57: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
+ ---------------------------------------------------
+2026-11-06 18:06:58: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=production  </command>
+ ---------------------------------------------------
+2026-11-07 00:59:54: model execution success 8099496.desched1
+ ---------------------------------------------------
