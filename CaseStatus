@@ -75,3 +75,5 @@ err=CAM build-namelist - ERROR: interpolate_output is not supported for mpas dyc
  ---------------------------------------------------
 2026-11-10 10:05:40: case.build success 
  ---------------------------------------------------
+2026-11-10 10:05:53: case.submit starting case.run:8138959.desched1, case.st_archive:8138960.desched1
+ ---------------------------------------------------
