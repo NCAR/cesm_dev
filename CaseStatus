@@ -51,3 +51,7 @@ err=CAM build-namelist - ERROR: interpolate_output is not supported for mpas dyc
  ---------------------------------------------------
 2026-11-10 10:02:44: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=0,STOP_N=5,STOP_OPTION=ndays  </command>
  ---------------------------------------------------
+2026-11-10 10:02:46: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
+ ---------------------------------------------------
+2026-11-10 10:02:47: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
