@@ -57,3 +57,7 @@ err=CAM build-namelist - ERROR: interpolate_output is not supported for mpas dyc
  ---------------------------------------------------
 2026-11-10 10:02:47: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
  ---------------------------------------------------
+2026-11-10 10:02:50: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
+2026-11-10 10:02:50: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
+ ---------------------------------------------------
