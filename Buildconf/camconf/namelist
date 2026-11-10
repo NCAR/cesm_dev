@@ -72,7 +72,7 @@ fincl1 = 'ACTNI', 'ACTNL', 'ACTREI', 'ACTREL', 'AODDUST', 'AODDUSTdn','AODVIS', 
 
 'CCN3', 'CFC11', 'CFC12', 'CH4','CO2', 'EXTINCTdn', 'N2O', 
 
-'EFIX', 'ABS_dPSdt'
+'EFIX',
 
 
 
