@@ -18,3 +18,5 @@
  ---------------------------------------------------
 2026-11-10 09:26:24: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
  ---------------------------------------------------
+2026-11-10 09:26:27: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
