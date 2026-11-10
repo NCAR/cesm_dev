@@ -521,3 +521,5 @@ P03010039, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2
  ---------------------------------------------------
 2026-11-09 16:19:53: model execution starting 8128556.desched1
  ---------------------------------------------------
+2026-11-09 17:25:39: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+ ---------------------------------------------------
