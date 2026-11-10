@@ -67,3 +67,5 @@ err=CAM build-namelist - ERROR: interpolate_output is not supported for mpas dyc
  ---------------------------------------------------
 2026-11-10 10:02:57: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
  ---------------------------------------------------
+2026-11-10 10:02:58: case.build starting 
+ ---------------------------------------------------
