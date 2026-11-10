@@ -29,3 +29,5 @@ ERROR: Command /glade/work/hannay/cesm_tags/cam6_4_215/bld/build-namelist -ntask
 out=
 err=CAM build-namelist - ERROR: interpolate_output is not supported for mpas dycore at /glade/work/hannay/cesm_tags/cam6_4_215/bld/build-namelist line 4572.
  ---------------------------------------------------
+2026-11-10 09:51:34: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
