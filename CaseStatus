@@ -85,3 +85,7 @@ err=CAM build-namelist - ERROR: interpolate_output is not supported for mpas dyc
  ---------------------------------------------------
 2026-11-10 10:11:33: model execution success 8138959.desched1
  ---------------------------------------------------
+2026-11-10 10:11:35: case.run error 
+ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_cam6_4_215.FHISTC_MTso.mapsa120.001/run/med.log.8138959.desched1.261110-100803 
+ 
+ ---------------------------------------------------
