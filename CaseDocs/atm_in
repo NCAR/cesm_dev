@@ -62,9 +62,9 @@
  fincl7		= 'Uzm', 'Vzm', 'Wzm', 'THzm', 'VTHzm', 'WTHzm', 'UVzm', 'UWzm', 'UTEND_CORE',
          'VTEND_CORE', 'UTEND_PHYSTOT', 'VTEND_PHYSTOT', 'UTEND_GWDTOT', 'VTEND_GWDTOT'
  fincl8		= 'Uzm:I','Vzm:I','Wzm:I','THzm:I','VTHzm:I','WTHzm:I','UVzm:I','UWzm:I'
- mfilt		= 0,0,20,40,12,120,40,40
+ mfilt		= 0,0,20,40,12,1,40,40
  ndens		= 2,2,2,2,2,1,2,2
- nhtfrq		= 0,0,-24,-3,0,-2,-6,-6
+ nhtfrq		= 0,0,-24,-3,0,-6,-6,-6
 /
 &cam_initfiles_nl
  bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/mpas/mpasa120_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_20240507.nc'
@@ -513,9 +513,9 @@
  prescribed_strataero_use_chemtrop		=    .true.                                                                       
 /
 &printout
- mpas_print_detailed_minmax_vel		=  .false. 
+ mpas_print_detailed_minmax_vel		= .true.
  mpas_print_global_minmax_sca		=  .false. 
- mpas_print_global_minmax_vel		=  .false. 
+ mpas_print_global_minmax_vel		= .true.
 /
 &pumas_stochastic_tau_nl
  pumas_stochastic_tau_kernel_filename		= '/glade/work/hannay/cesm_tags/cam6_4_215/bld/../src/atmos_phys/schemes/pumas/pumas/KBARF_tau_kernel.dat'

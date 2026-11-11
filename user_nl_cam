@@ -1,5 +1,5 @@
-mfilt               =       0,      0,     20,      40,      12,      120,      40,      40
-nhtfrq              =       0,      0,    -24,      -3,       0,       -2,      -6,      -6
+mfilt               =       0,      0,     20,      40,      12,      1,      40,      40
+nhtfrq              =       0,      0,    -24,      -3,       0,       -6,      -6,      -6
 ndens               =       2,       2,      2,       2,       2,        1,      2,      2
 
 empty_htapes = .true.
@@ -56,4 +56,7 @@ dust_emis_fact = 3.2D0
 zmconv_ke = 5.0E-6
 mpas_cam_coef = 1.0D0
 mpas_cam_damping_levels = 3
+
+mpas_print_detailed_minmax_vel = .true.
+mpas_print_global_minmax_vel = .true.
 
