@@ -201,3 +201,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_cam6_4_2
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_cam6_4_215.FHISTC_MTso.mapsa120.001/run/med.log.8160916.desched1.261111-215230 
  
  ---------------------------------------------------
+2026-11-12 09:21:34: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=4,STOP_N=2,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
