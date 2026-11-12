@@ -551,7 +551,7 @@
 /
 &upper_bc_file_opts
  ubc_file_input_type		= 'SERIAL'
- ubc_file_path		= '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/b.e30_alpha09b.B1850C_MTt4s.ne30_t233_wgx3.360/atm/proc/GHGloss_rates/GHGloss_rates_MTt4s_monthly_zm_transient360_c20260925.nc'
+ ubc_file_path		= '/glade/campaign/acom/acom-climate/shawnh/Forcing_Files/b.e30_alpha08o.BHISTC_MTt4s.ne30_t232_wgx3.330_branch.v1/GHGloss_rates/GHGloss_rates_1850_1850_2021_month_1zm_Transient_c20261111.nc'
 /
 &upper_bc_opts
  ubc_specifier		= 'Q:H2O->UBC_FILE'
