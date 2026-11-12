@@ -45,8 +45,12 @@
 "ocean_model_rho2", "so",      "so",      "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_rho2", "agessc",  "agessc",  "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_rho2", "e",       "e",       "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "dye001",  "dye001",  "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "dye002",  "dye002",  "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
 
 # "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.native%4yr-%2mo"
+"ocean_model", "dye001",       "dye001",       "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "dye002",       "dye002",       "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "soga",         "soga",         "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "thetaoga",     "thetaoga",     "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model", "uh",           "uh",           "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
@@ -163,6 +167,8 @@
 "ocean_model", "surface_stokes_y","sdvo",         "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
 
 # "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.z%4yr-%2mo"
+"ocean_model_z", "dye001",       "dye001",       "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "dye002",       "dye002",       "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_z", "uo",           "uo",           "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_z", "vo",           "vo",           "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
 "ocean_model_z", "h",            "h",            "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.424.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
