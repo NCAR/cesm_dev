@@ -30,3 +30,5 @@
  ---------------------------------------------------
 2026-11-12 15:52:01: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=0,STOP_N=5,STOP_OPTION=ndays  </command>
  ---------------------------------------------------
+2026-11-12 15:52:03: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
+ ---------------------------------------------------
