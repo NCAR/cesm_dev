@@ -24,3 +24,5 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_TYPE=hybrid
 
+./xmlchange GET_REFCASE=true
+
