@@ -24,6 +24,7 @@
     The following values should not be set by the user since they'll be
     overwritten by scripts: TOTALPES, NTASKS_PER_INST
     </header>
+  <comment>none</comment>
   <group id="mach_pes">
     <entry id="ESMF_AWARE_THREADING" value="FALSE">
       <type>logical</type>

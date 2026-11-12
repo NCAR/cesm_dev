@@ -104,3 +104,47 @@ ERROR: Model did not complete - see /glade/derecho/scratch/gmarques/b.e30_alpha1
  ---------------------------------------------------
 2026-11-12 14:42:39: model execution starting 8168005.desched1
  ---------------------------------------------------
+2026-11-12 15:44:37: case.setup starting 
+ ---------------------------------------------------
+2026-11-12 15:44:41: case.setup success 
+ ---------------------------------------------------
+2026-11-12 15:44:41: case.setup starting 
+ ---------------------------------------------------
+2026-11-12 15:44:44: case.setup success 
+ ---------------------------------------------------
+2026-11-12 15:44:50: xmlchange success <command> ./xmlchange CAM_CONFIG_OPTS= -pcols 9 --append  </command>
+ ---------------------------------------------------
+2026-11-12 15:44:50: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.419  </command>
+ ---------------------------------------------------
+2026-11-12 15:44:51: xmlchange success <command> ./xmlchange RUN_REFDATE=0041-01-01  </command>
+ ---------------------------------------------------
+2026-11-12 15:44:51: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
+2026-11-12 15:44:51: xmlchange success <command> ./xmlchange GET_REFCASE=true  </command>
+ ---------------------------------------------------
+2026-11-12 15:44:52: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
+ ---------------------------------------------------
+2026-11-12 15:44:52: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=production  </command>
+ ---------------------------------------------------
+2026-11-12 15:44:55: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
+2026-11-12 15:44:55: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=25,STOP_N=4,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
+2026-11-12 15:44:56: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
+ ---------------------------------------------------
+2026-11-12 15:44:56: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run  </command>
+ ---------------------------------------------------
+2026-11-12 15:48:26: case.build starting 
+ ---------------------------------------------------
+2026-11-12 15:53:36: case.setup starting 
+ ---------------------------------------------------
+2026-11-12 15:53:43: case.setup success 
+ ---------------------------------------------------
+2026-11-12 15:53:44: case.setup starting 
+ ---------------------------------------------------
+2026-11-12 15:53:48: case.setup success 
+ ---------------------------------------------------
+2026-11-12 15:53:53: xmlchange success <command> ./xmlchange CAM_CONFIG_OPTS= -pcols 9 --append  </command>
+ ---------------------------------------------------
+2026-11-12 16:55:36: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+ ---------------------------------------------------

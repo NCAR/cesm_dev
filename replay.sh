@@ -46,3 +46,51 @@ cd "${CASEDIR}"
 
 ./case.submit
 
+./case.setup
+
+./case.setup --reset
+
+./preview_namelists
+
+./xmlchange CAM_CONFIG_OPTS=" -pcols 9" --append
+
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+
+./xmlchange RUN_REFCASE=b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.419
+
+./xmlchange RUN_REFDATE=0041-01-01
+
+./xmlchange RUN_TYPE=hybrid
+
+./xmlchange GET_REFCASE=true
+
+./xmlchange RUN_REFDIR=cesm2_init
+
+./xmlchange OCN_DIAG_MODE=production
+
+./preview_namelists
+
+./xmlchange JOB_PRIORITY=special --force
+
+./xmlchange PROJECT=CESM0023,RESUBMIT=25,STOP_N=4,STOP_OPTION=nyears
+
+./xmlchange PROJECT=CESM0023
+
+./xmlchange JOB_WALLCLOCK_TIME=12:00:00 --subgroup case.run
+
+./preview_namelists
+
+./case.build
+
+./case.setup
+
+./case.setup --reset
+
+./preview_namelists
+
+./xmlchange CAM_CONFIG_OPTS=" -pcols 9" --append
+
+./xmlchange CASE_GIT_REPOSITORY=git@github.com:NCAR/cesm_dev.git
+
+./xmlchange RESUBMIT=0
+
