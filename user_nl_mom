@@ -14,3 +14,18 @@ DYE_SOURCE_MINLAT = -79.0, -79.0
 DYE_SOURCE_MAXLAT = -75.5, -74.5
 DYE_SOURCE_MINDEPTH = 400.0, 300.0
 DYE_SOURCE_MAXDEPTH = 1500.0, 1500.0
+
+BBL_EFFIC = 0.01
+
+! HYBRID_MAP test 3 (2026-11-11): 034 profile north of 60S, h750 south of 65S (034 floors to 560 m, then 10 m layers to 750 m), linear blend between
+! same map and sigma2 targets as hm2.nc (037); built by cesm_mom6_progress/cesm3/HYBRID_MAP_Nov_2026/make_hybrid_map.py
+ALE_COORDINATE_CONFIG = "HYBRID_MAP:/glade/work/gmarques/mom6_input/hm3.nc,map,sigma2,dz"
+
+! Fix for noise-triggered CVMix convection in vanished bottom layers
+! (new parameters in SourceMods/src.mom/MOM_CVMix_conv.F90)
+CVMix_CONVECTION%
+CONV_VANISHED_THICKNESS = 0.01
+CONV_N2_MIN_SPACING = 0.1
+%CVMix_CONVECTION
+~
+
