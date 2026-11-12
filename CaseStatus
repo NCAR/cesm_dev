@@ -159,3 +159,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_cam6_4_2
  ---------------------------------------------------
 2026-11-11 21:12:11: xmlchange success <command> ./xmlchange PROJECT=CESM0023  </command>
  ---------------------------------------------------
+2026-11-11 21:12:14: xmlchange success <command> ./xmlchange REST_OPTION=nyears,REST_N=1  </command>
+ ---------------------------------------------------
