@@ -41,7 +41,7 @@ fincl3 = 'PRECT', 'PRECC', 'FLUT', 'U850', 'U200', 'V850', 'V200', 'OMEGA500', '
 
 fincl4 =  'PRECC','PRECL'
 
-fincl6 = 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I', 'PMID:I'
+fincl6 = 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I', 'PMID:I', 'UTGWORO:I', 'UTGWSPEC:I', 'UTGW_MOVMTN:I', 'UTEND_RAYLEIGH:I', 'DTV'
 
 fincl7 = 'Uzm','Vzm','Wzm','THzm','VTHzm','WTHzm','UVzm','UWzm', 'UTEND_CORE', 'VTEND_CORE', 'UTEND_PHYSTOT', 'VTEND_PHYSTOT', 'UTEND_GWDTOT', 'VTEND_GWDTOT'
 fincl8 = 'Uzm:I','Vzm:I','Wzm:I','THzm:I','VTHzm:I','WTHzm:I','UVzm:I','UWzm:I'
@@ -50,7 +50,6 @@ ncdata = '/glade/campaign/cgd/amp/aherring/mpas-uniform/mpasa120/inic/betacast_m
 taubgnd = 1.25D-3
 frontgfc = 3.00D-15
 ctem_diags_numlats = 180
-diff_sponge_fac = 0.1D0
 clubb_c14 = 1.6D0
 dust_emis_fact = 3.2D0
 zmconv_ke = 5.0E-6
@@ -59,4 +58,6 @@ mpas_cam_damping_levels = 3
 
 mpas_print_detailed_minmax_vel = .true.
 mpas_print_global_minmax_vel = .true.
+diff_sponge_fac = 1.0
+bnd_topo = '/glade/campaign/cgd/amp/pel/topo/files/mpasa120_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greenlndantarcsgh30fac2.50_20261111.nc'
 
