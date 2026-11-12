@@ -151,3 +151,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_cam6_4_2
 ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_cam6_4_215.FHISTC_MTso.mapsa120.001/run/med.log.8157115.desched1.261111-135146 
  
  ---------------------------------------------------
+2026-11-11 21:12:04: xmlchange success <command> ./xmlchange JOB_PRIORITY=regular  </command>
+ ---------------------------------------------------
