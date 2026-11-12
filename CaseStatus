@@ -183,3 +183,5 @@ ERROR: Model did not complete - see /glade/derecho/scratch/hannay/f.e30_cam6_4_2
  ---------------------------------------------------
 2026-11-11 21:29:40: case.build success 
  ---------------------------------------------------
+2026-11-11 21:29:44: xmlchange success <command> ./xmlchange PROJECT=CESM0023,RESUBMIT=4,STOP_N=2,STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
