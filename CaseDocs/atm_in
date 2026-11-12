@@ -68,7 +68,7 @@
  nhtfrq		= 0,0,-24,-3,0,-6,-6,-6
 /
 &cam_initfiles_nl
- bnd_topo		= '/glade/campaign/cgd/amp/pel/topo/files/mpasa120_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greenlndantarcsgh30fac2.50_20261111.nc'
+ bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/mpas/mpasa120_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_20240507.nc'
  ncdata		= '/glade/campaign/cgd/amp/aherring/mpas-uniform/mpasa120/inic/betacast_mpasa120_L93_ERA5ml_20000101_c261115_cdf5.nc'
  scale_dry_air_mass		=   98288.0D0 
  use_topo_file		=  .true.  

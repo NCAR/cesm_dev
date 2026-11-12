@@ -124,8 +124,6 @@ mpas_print_global_minmax_vel = .true.
 
 diff_sponge_fac = 1.0
 
-bnd_topo = '/glade/campaign/cgd/amp/pel/topo/files/mpasa120_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greenlndantarcsgh30fac2.50_20261111.nc'
-
 
 
 / 
