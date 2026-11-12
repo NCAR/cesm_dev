@@ -14,6 +14,7 @@ DYE_SOURCE_MINDEPTH = 400.0, 300.0
 DYE_SOURCE_MAXDEPTH = 1500.0, 1500.0
 !!! BBL_EFFIC = 0.01 !(UNCHANGED)
 #override ALE_COORDINATE_CONFIG = "HYBRID_MAP:/glade/work/gmarques/mom6_input/hm3.nc,map,sigma2,dz"
+#override MARBL_TRACERS_IC_FILE_OVERRIDE_POINTER = ""
 #override MARBL_TRACERS_IC_FILE = "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.419.mom6.h.bgc.z.0040-12.nc"
 #override MARBL_TRACERS_IC_FILE_IS_Z = True
 AGE_IC_FILE = "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.419.mom6.h.z.0040-12.nc"
