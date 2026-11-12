@@ -58,7 +58,8 @@
          'Z500', 'U010:A', 'Z010:A', 'FRONTGF', 'TAU_MOVMTN', 'TAUE', 'TAUW', 'TAUN', 'TAUS', 'TAUARDGBETAX', 'TAUARDGBETAY',
          'BTAUE', 'BTAUW', 'BTAUN', 'BTAUS', 'NETDT', 'HDEPTH'
  fincl4		= 'PRECC','PRECL'
- fincl6		= 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I','PMID:I'
+ fincl6		= 'PS:I', 'U:I', 'V:I', 'T:I', 'OMEGA:I', 'Q:I', 'PMID:I', 'UTGWORO:I', 'UTGWSPEC:I', 'UTGW_MOVMTN:I',
+         'UTEND_RAYLEIGH:I', 'DTV'
  fincl7		= 'Uzm', 'Vzm', 'Wzm', 'THzm', 'VTHzm', 'WTHzm', 'UVzm', 'UWzm', 'UTEND_CORE',
          'VTEND_CORE', 'UTEND_PHYSTOT', 'VTEND_PHYSTOT', 'UTEND_GWDTOT', 'VTEND_GWDTOT'
  fincl8		= 'Uzm:I','Vzm:I','Wzm:I','THzm:I','VTHzm:I','WTHzm:I','UVzm:I','UWzm:I'
@@ -67,7 +68,7 @@
  nhtfrq		= 0,0,-24,-3,0,-6,-6,-6
 /
 &cam_initfiles_nl
- bnd_topo		= '/glade/campaign/cesm/cesmdata/inputdata/atm/cam/topo/mpas/mpasa120_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_20240507.nc'
+ bnd_topo		= '/glade/campaign/cgd/amp/pel/topo/files/mpasa120_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greenlndantarcsgh30fac2.50_20261111.nc'
  ncdata		= '/glade/campaign/cgd/amp/aherring/mpas-uniform/mpasa120/inic/betacast_mpasa120_L93_ERA5ml_20000101_c261115_cdf5.nc'
  scale_dry_air_mass		=   98288.0D0 
  use_topo_file		=  .true.  
@@ -584,7 +585,7 @@
 /
 &vert_diff_nl
  diff_cnsrv_mass_check		=  .false. 
- diff_sponge_fac		= 0.1D0
+ diff_sponge_fac		= 1.0
  do_iss		=  .true.  
 /
 &wetdep_inparm

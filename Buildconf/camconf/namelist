@@ -88,7 +88,7 @@ fincl4 =  'PRECC','PRECL'
 
 
 
-fincl6 = 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I', 'PMID:I'
+fincl6 = 'PS:I','U:I','V:I','T:I','OMEGA:I','Q:I', 'PMID:I', 'UTGWORO:I', 'UTGWSPEC:I', 'UTGW_MOVMTN:I', 'UTEND_RAYLEIGH:I', 'DTV'
 
 
 
@@ -106,8 +106,6 @@ frontgfc = 3.00D-15
 
 ctem_diags_numlats = 180
 
-diff_sponge_fac = 0.1D0
-
 clubb_c14 = 1.6D0
 
 dust_emis_fact = 3.2D0
@@ -123,6 +121,10 @@ mpas_cam_damping_levels = 3
 mpas_print_detailed_minmax_vel = .true.
 
 mpas_print_global_minmax_vel = .true.
+
+diff_sponge_fac = 1.0
+
+bnd_topo = '/glade/campaign/cgd/amp/pel/topo/files/mpasa120_gmted2010_modis_bedmachine_nc3000_Laplace0100_noleak_greenlndantarcsgh30fac2.50_20261111.nc'
 
 
 
