@@ -14,3 +14,5 @@ cd "${CASEDIR}"
 
 ./case.setup
 
+./xmlchange CAM_CONFIG_OPTS="-pcols 9" --append
+
