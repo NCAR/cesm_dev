@@ -1,3 +1,4 @@
+MEKE_IC_override_pointer = "rpointer.ocn.0101-01-01-00000"
 BBL_EFFIC = 0.2
 ATM_ALT_CO2_OPT = "constant"
 LEITH_BI_CONST = 80
