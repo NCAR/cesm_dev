@@ -18,7 +18,7 @@
   imonth0 = 1
   isecond0 = 0
   iyear0 = 1
-  runid = "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.425"
+  runid = "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.428"
   stop_option = "never"
 /
 &glc_override_nml
