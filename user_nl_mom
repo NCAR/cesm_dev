@@ -14,3 +14,5 @@ DYE_SOURCE_MINLAT = -79.0, -79.0
 DYE_SOURCE_MAXLAT = -75.5, -74.5
 DYE_SOURCE_MINDEPTH = 400.0, 300.0
 DYE_SOURCE_MAXDEPTH = 1500.0, 1500.0
+
+MARBL_TRACERS_IC_FILE = "/glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377/ocn/hist/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377.mom6.h.bgc.z.0301-12.nc"
