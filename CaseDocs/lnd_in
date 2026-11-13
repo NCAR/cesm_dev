@@ -8,7 +8,7 @@
  crop_residue_removal_frac = 0.5d00
  do_sno_oc = .false.
  downscale_hillslope_meteorology = .true.
- finidat = 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334.clm2.r.0101-01-01-00000.nc'
+ finidat = '/glade/campaign/cesm/cesmdata/cseg/inputdata/cesm2_init/b.e30_alpha11b.B1850C_MTso.ne30_t233_wgx3.416/0021-01-01/b.e30_alpha11b.B1850C_MTso.ne30_t233_wgx3.416.clm2.r.0021-01-01-00000.nc'
  flush_gdd20 = .false.
  for_testing_no_crop_seed_replenishment = .false.
  for_testing_run_ncdiopio_tests = .false.

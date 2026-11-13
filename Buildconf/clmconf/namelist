@@ -7,4 +7,6 @@ reseed_dead_plants = .true.
 
 use_excess_ice_streams=.false. 
 
+finidat ='/glade/campaign/cesm/cesmdata/cseg/inputdata/cesm2_init/b.e30_alpha11b.B1850C_MTso.ne30_t233_wgx3.416/0021-01-01/b.e30_alpha11b.B1850C_MTso.ne30_t233_wgx3.416.clm2.r.0021-01-01-00000.nc'
+
 / 
