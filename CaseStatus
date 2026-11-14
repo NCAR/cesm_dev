@@ -20,3 +20,5 @@
  ---------------------------------------------------
 2026-11-13 19:49:55: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=production  </command>
  ---------------------------------------------------
+2026-11-13 19:50:04: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
