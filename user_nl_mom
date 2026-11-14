@@ -1,23 +1,48 @@
-!---------------------------------------------------------------------
-! Users should add all user specific MOM_input parameter changes after
-! these comments as follows:
-!   parameter_name = new_parameter_value
-!
-! If the parameter belongs to a module, enter the parameter in MOM6
-! runtime parameter format ,e.g., change N_SMOOTH parameter within the
-! KPP module as follows:
-!   KPP%
-!   N_SMOOTH = 3
-!   %KPP
-!
-! Note: The parameter changes added to this file will automatically be
-!       applied to:
-!   $RUNDIR/MOM_override
-!
-! WARNING: If a MOM_override file is placed in SourceMods/src.mom/,
-! any additional parameter changes in this file will trigger an error.
-!
-! Parameters:
-!---------------------------------------------------------------------
 
+MEKE_IC_override_pointer="rpointer.ocn.0041-01-01-00000"
+
+ATM_ALT_CO2_OPT = "constant"
+LEITH_BI_CONST = 80
+
+KPP%
+KPP_NONSOLAR_BUOY_FLUX_BUG = False
+%KPP
+
+USE_REGIONAL_DYES = True
+NUM_DYE_TRACERS = 2
+DYE_SOURCE_MINLON = -200.0, -62.0
+DYE_SOURCE_MAXLON = -172.0, -40.0
+DYE_SOURCE_MINLAT = -79.0, -79.0
+DYE_SOURCE_MAXLAT = -75.5, -74.5
+DYE_SOURCE_MINDEPTH = 400.0, 300.0
+DYE_SOURCE_MAXDEPTH = 1500.0, 1500.0
+
+BBL_EFFIC = 0.01
+
+! HYBRID_MAP test 3 (2026-11-11): 034 profile north of 60S, h750 south of 65S (034 floors to 560 m, then 10 m layers to 750 m), linear blend between
+! same map and sigma2 targets as hm2.nc (037); built by cesm_mom6_progress/cesm3/HYBRID_MAP_Nov_2026/make_hybrid_map.py
+ALE_COORDINATE_CONFIG = "HYBRID_MAP:/glade/work/gmarques/mom6_input/hm3.nc,map,sigma2,dz"
+
+! Fix for noise-triggered CVMix convection in vanished bottom layers
+! (new parameters in SourceMods/src.mom/MOM_CVMix_conv.F90)
+CVMix_CONVECTION%
+CONV_VANISHED_THICKNESS = 0.01
+CONV_N2_MIN_SPACING = 0.1
+%CVMix_CONVECTION
+
+! MARBL IC's
+!MARBL_TRACERS_IC_FILE_OVERRIDE_POINTER = "./rpointer.ocn.0041-01-01-00000"
+!MARBL_TRACERS_IC_FILE_IS_Z = False
+!MARBL_REMAP_NON_Z_IC = True
+
+! MOM IC's
+!AGE_IC_FILE = "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.419.mom6.h.z.0040-12.nc"
+!AGE_IC_FILE_IS_Z = True
+!INIT_LAYERS_FROM_Z_FILE = True
+!TEMP_SALT_Z_INIT_FILE = "b.e30_alpha11d.B1850_MTso.ne30_t233_wgx3.419.mom6.h.z.0040-12.nc"
+!TEMP_IC_VAR = "thetao"
+!SALT_IC_VAR = "so"
+!VELOCITY_CONFIG = "zero"
+!Z_INIT_FILE_PTEMP_VAR = "thetao" ! default = "ptemp"
+!Z_INIT_FILE_SALT_VAR = "so"
 
