@@ -39,7 +39,7 @@
       <valid_values/>
       <desc>The machine queue in which to submit the job.  Default determined in config_machines.xml can be overwritten by testing</desc>
     </entry>
-    <entry id="USER_REQUESTED_WALLTIME">
+    <entry id="USER_REQUESTED_WALLTIME" value="12:00:00">
       <type>char</type>
       <desc>Store user override for walltime</desc>
     </entry>
