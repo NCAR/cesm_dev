@@ -28,3 +28,8 @@
  ---------------------------------------------------
 2026-11-13 19:53:04: case.build starting 
  ---------------------------------------------------
+2026-11-13 19:53:12: xmlchange via MOM buildnml: CPL_I2O_PER_CAT=True
+ ---------------------------------------------------
+2026-11-13 19:53:12: case.build error 
+ERROR: Variable 'ice_covered_thck_scale' from file '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha11d_landice.B1850_MTso.ne30_t233_wgx3.430/Buildconf/cismconf/namelist_overall' is not in the namelist definition.
+ ---------------------------------------------------

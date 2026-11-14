@@ -1,0 +1,31 @@
+&comp_inparm 
+
+which_ho_powerlaw_c = 2
+
+which_ho_babc = 9
+
+which_ho_bwat = 0
+
+which_ho_effecpress = 0
+
+glissade_maxiter = 100
+
+block_inception = .false.
+
+remove_ice_caps = .false.
+
+thck_gradient_ramp = 100.
+
+pmp_offset = 10.
+
+beta_powerlaw_umax = 5000.
+
+pseudo_plastic_q = 0.25
+
+p_ocean_penetration = 0.5
+
+ice_covered_thck_scale = 4.0
+
+cisminputfile ='/glade/campaign/cesm/cesmdata/cseg/inputdata/cesm2_init/b.e30_alpha11b.B1850C_MTso.ne30_t233_wgx3.416/0021-01-01/b.e30_alpha11b.B1850C_MTso.ne30_t233_wgx3.416.cism.gris.r.0021-01-01-00000.nc'
+
+/ 
