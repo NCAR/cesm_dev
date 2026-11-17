@@ -3,6 +3,11 @@ MEKE_IC_override_pointer = "rpointer.ocn.0101-01-01-00000"
 ATM_ALT_CO2_OPT = "constant"
 LEITH_BI_CONST = 80
 
+MLE%
+CR_FILE = "
+mle_cr_labsea_ant1000m_mask_tx2_3v3_261117.nc"
+%MLE
+
 KPP%
 KPP_NONSOLAR_BUOY_FLUX_BUG = False
 %KPP
