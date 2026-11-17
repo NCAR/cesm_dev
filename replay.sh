@@ -50,3 +50,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange PROJECT=CESM0023
+
