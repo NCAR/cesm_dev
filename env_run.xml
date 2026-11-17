@@ -13,7 +13,7 @@
       <valid_values>cesm</valid_values>
       <desc>coupling mode</desc>
     </entry>
-    <entry id="CPL_I2O_PER_CAT" value="FALSE">
+    <entry id="CPL_I2O_PER_CAT" value="TRUE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>determine if per ice thickness category fields are passed from ice to ocean - DO NOT EDIT (set by MOM6)</desc>
