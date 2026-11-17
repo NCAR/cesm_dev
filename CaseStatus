@@ -50,3 +50,5 @@
  ---------------------------------------------------
 2026-11-17 15:37:16: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=production  </command>
  ---------------------------------------------------
+2026-11-17 16:22:09: xmlchange success <command> ./xmlchange PROJECT=CESM0024  </command>
+ ---------------------------------------------------

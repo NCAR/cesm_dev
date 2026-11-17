@@ -180,7 +180,7 @@ USE_MARBL_TRACERS = True
                                 ! "[Boolean] default = False
                                 ! If true, use the MARBL tracer package."
 
-MARBL_TRACERS_IC_FILE = ./b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377.mom6.r.0302-01-01-00000.nc
+MARBL_TRACERS_IC_FILE = ./b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334.mom6.r.0101-01-01-00000.nc
                                 ! "Name of file containing initial conditions
                                 ! for the MARBL tracer package."
 
@@ -1358,7 +1358,7 @@ THICKNESS_CONFIG = thickness_file
                                 ! rossby_front - a mixed layer front in thermal wind balance.
                                 ! USER - call a user modified routine."
 
-THICKNESS_FILE = ./b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377.mom6.r.0302-01-01-00000.nc
+THICKNESS_FILE = ./b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334.mom6.r.0101-01-01-00000.nc
                                 ! The name of the thickness file
 
 HYCOM1_ONLY_IMPROVES = True
@@ -1386,7 +1386,7 @@ TS_CONFIG = file
                                 ! SCM_ideal_hurr - used in the SCM idealized hurricane test.
                                 ! USER - call a user modified routine."
 
-TS_FILE = ./b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377.mom6.r.0302-01-01-00000.nc
+TS_FILE = ./b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334.mom6.r.0101-01-01-00000.nc
                                 ! The initial condition file for the temperature and salinity.
 
 TEMP_IC_VAR = Temp
@@ -1398,10 +1398,10 @@ SALT_IC_VAR = Salt
 VELOCITY_CONFIG = file
                                 ! A string that determines how the initial velocities are specified for a new run.
 
-VELOCITY_FILE = ./b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377.mom6.r.0302-01-01-00000.nc
+VELOCITY_FILE = ./b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334.mom6.r.0101-01-01-00000.nc
                                 ! The name of the velocity initial condition file.
 
-AGE_IC_FILE = ./b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377.mom6.r.0302-01-01-00000.nc
+AGE_IC_FILE = ./b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334.mom6.r.0101-01-01-00000.nc
                                 ! "The file in which the age-tracer initial values can be found, or an empty
                                 ! string for internal initialization."
 
