@@ -52,3 +52,5 @@ cd "${CASEDIR}"
 
 ./xmlchange PROJECT=CESM0023
 
+./xmlchange PROJECT=CESM0024
+
