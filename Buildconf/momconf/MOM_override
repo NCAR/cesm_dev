@@ -18,9 +18,19 @@ DYE_SOURCE_MAXDEPTH = 1500.0, 1500.0
 #override MARBL_TRACERS_IC_FILE_OVERRIDE_POINTER = ""
 #override MARBL_TRACERS_IC_FILE_IS_Z = True
 #override MARBL_TRACERS_IC_FILE = "/glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377/ocn/hist/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377.mom6.h.bgc.z.0301-12.nc"
+!!! WAVE_METHOD = EFACTOR !(UNCHANGED)
+STOKES_DDT = False
+STOKES_VF = False
+STOKES_PGF = False
+FPMIX = False
+NL_VSTRESS = False
 
 KPP%
 KPP_NONSOLAR_BUOY_FLUX_BUG = False
+#override KPP_CVt2 = 1.0
+STOKES_MOST = False
+!!! USE_KPP_LT_K = True !(UNCHANGED)
+!!! USE_KPP_LT_VT2 = True !(UNCHANGED)
 %KPP
 
 

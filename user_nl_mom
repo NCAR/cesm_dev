@@ -5,6 +5,10 @@ LEITH_BI_CONST = 80
 
 KPP%
 KPP_NONSOLAR_BUOY_FLUX_BUG = False
+KPP_CVt2 = 1.0
+STOKES_MOST = False
+USE_KPP_LT_K = True
+USE_KPP_LT_VT2 = True
 %KPP
 
 USE_REGIONAL_DYES = True
@@ -32,3 +36,11 @@ CONV_N2_MIN_SPACING = 0.1
 MARBL_TRACERS_IC_FILE_OVERRIDE_POINTER = ""
 MARBL_TRACERS_IC_FILE_IS_Z = True
 MARBL_TRACERS_IC_FILE = "/glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377/ocn/hist/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377.mom6.h.bgc.z.0301-12.nc"
+
+
+WAVE_METHOD = EFACTOR
+STOKES_DDT = False
+STOKES_VF = False
+STOKES_PGF = False
+FPMIX = False
+NL_VSTRESS = False
