@@ -44,3 +44,5 @@ cd "${CASEDIR}"
 
 ./case.build
 
+./xmlchange OCN_DIAG_MODE=production
+
