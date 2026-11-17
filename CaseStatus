@@ -58,3 +58,6 @@
  ---------------------------------------------------
 2026-11-17 16:02:49: case.build starting 
  ---------------------------------------------------
+2026-11-17 16:03:05: case.build error 
+ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha11d_landice.B1850_MTso.ne30_t233_wgx3.432/env_run.xml appears to have changed without a corresponding invalidation.
+ ---------------------------------------------------

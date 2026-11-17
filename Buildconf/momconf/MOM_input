@@ -1342,15 +1342,6 @@ DO_GEOTHERMAL = True
                                 ! "[Boolean] default = False
                                 ! If true, apply geothermal heating."
 
-FPMIX = True
-                                ! "[Boolean] default = False
-                                ! If true, add non-local momentum flux increments and diffuse down the Eulerian
-                                ! gradient.
-
-CEMP_NL = 3.5
-                                ! "default = 3.6
-                                ! Empirical coefficient of non-local momentum mixing."
-
 VISC_REM_BUG = False
                                 ! "[Boolean] default = True
                                 ! If true, visc_rem_[uv] in split mode is incorrectly calculated or accounted
@@ -1478,41 +1469,13 @@ USE_WAVES = True
                                 ! "default = False
                                 ! If true, enables surface wave modules."
 
-WAVE_METHOD = SURFACE_BANDS
+WAVE_METHOD = EFACTOR
                                 ! "Choice of wave method, valid options include:
                                 !  TEST_PROFILE  - Prescribed from surface Stokes drift...
                                 !  SURFACE_BANDS - Computed from multiple surface values...
                                 !  DHH85         - Uses Donelan et al. 1985 empirical...
                                 !  LF17          - Infers Stokes drift profile from wind...
                                 !  EFACTOR       - Applies an enhancement factor to the KPP...""
-
-SURFBAND_SOURCE = COUPLER
-                                ! Choice of SURFACE_BANDS data mode, valid options include:
-                                ! DATAOVERRIDE  - Read from NetCDF using FMS DataOverride.
-                                ! COUPLER       - Look for variables from coupler pass
-                                ! INPUT         - Testing with fixed values.
-
-STOKES_DDT = True
-                                ! default = False
-                                ! Flag to use Stokes d/dt
-
-STOKES_VF = True
-                                ! default = False
-                                ! Flag to use Stokes vortex force
-
-STOKES_PGF = True
-                                ! default = False
-                                ! Flag to use Stokes pressure gradient force
-
-STK_BAND_COUPLER = 3
-                                ! default = 1
-                                ! STK_BAND_COUPLER is the number of Stokes drift bands in the coupler. This has
-                                ! to be consistent with the number of Stokes drift bands in WW3, or the model
-                                ! will fail.
-
-SURFBAND_WAVENUMBERS = 0.04, 0.11, 0.33
-                                ! [rad/m] default = 0.12566
-                                ! Central wavenumbers for surface Stokes drift bands.
 
 IO_LAYOUT = 1, 1
                                 ! The processor layout to be used, or 0,0 to automatically set the io_layout to
@@ -1591,6 +1554,29 @@ KPP_IS_ADDITIVE = False
                                 ! If true, adds KPP diffusivity to diffusivity from other schemes.If false, KPP is
                                 ! the only diffusivity wherever KPP is non-zero."
 
+USE_KPP_LT_K = True
+                                ! default = False
+                                ! Flag for Langmuir turbulence enhancement of turbulentmixing coefficient.
+
+USE_KPP_LT_VT2 = True
+                                ! default = False
+                                ! Flag for Langmuir turbulence enhancement of Vt2in Bulk Richardson Number.
+
+KPP_LT_K_METHOD = VR12
+                                ! default = "CONSTANT"
+                                ! Method to enhance mixing coefficient in KPP. Valid options are:
+                                !    CONSTANT = Constant value (KPP_K_ENH_FAC)
+                                !    VR12     = Function of Langmuir number based on VR12
+                                !    RW16     = Function of Langmuir number based on RW16
+
+KPP_LT_VT2_METHOD = VR12
+                                ! default = "CONSTANT"
+                                ! Method to enhance Vt2 in KPP. Valid options are:
+                                !    CONSTANT = Constant value (KPP_VT2_ENH_FAC)
+                                !    VR12     = Function of Langmuir number based on VR12
+                                !    RW16     = Function of Langmuir number based on RW16
+                                !    LF17     = Function of Langmuir number based on LF17
+
 KPP_CVt2 = 1.8
                                 ! "[nondim] default = 1.6
                                 ! Parameter for Stokes MOST convection entrainment."
@@ -1598,10 +1584,6 @@ KPP_CVt2 = 1.8
 ENHANCE_DIFFUSION = False
                                 ! "default = True
                                 ! If True, adds enhanced diffusion at the based of the boundary layer."
-
-STOKES_MOST = True
-                                ! "default = False
-                                ! If True, use Stokes Similarity package."
 
 COMPUTE_MONIN_OBUKHOV = True
                                 ! "default = False
