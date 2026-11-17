@@ -54,3 +54,5 @@ ERROR: Cannot parse the following line in user_nl_mom: mle_cr_labsea_ant1000m_ma
 2026-11-17 16:24:38: case.build error 
 ERROR: BUILD FAIL: buildexe failed, cat /glade/derecho/scratch/hannay/b.e30_alpha11d_landice.B1850_MTso.ne30_t233_wgx3.433/bld/cesm.bldlog.261117-161037
  ---------------------------------------------------
+2026-11-17 16:25:32: case.build success 
+ ---------------------------------------------------
