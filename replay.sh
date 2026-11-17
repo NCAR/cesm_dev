@@ -62,3 +62,5 @@ cd "${CASEDIR}"
 
 ./xmlchange OCN_DIAG_MODE=production
 
+./xmlchange MOM6_WW3_CPL_METHOD=legacy
+

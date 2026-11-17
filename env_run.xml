@@ -1306,7 +1306,7 @@ Caveats:
     </entry>
   </group>
   <group id="run_component_mom">
-    <entry id="MOM6_WW3_CPL_METHOD" value="most">
+    <entry id="MOM6_WW3_CPL_METHOD" value="legacy">
       <type>char</type>
       <valid_values>none,legacy,most</valid_values>
       <desc> This variable determines the method used to couple MOM6 to WW3.
