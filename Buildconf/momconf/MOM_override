@@ -19,6 +19,11 @@ DYE_SOURCE_MAXDEPTH = 1500.0, 1500.0
 #override MARBL_TRACERS_IC_FILE_IS_Z = True
 #override MARBL_TRACERS_IC_FILE = "/glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377/ocn/hist/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377.mom6.h.bgc.z.0301-12.nc"
 
+MLE%
+#override CR_FILE = "mle_cr_labsea_ant1000m_mask_tx2_3v3_261117.nc"
+%MLE
+
+
 KPP%
 KPP_NONSOLAR_BUOY_FLUX_BUG = False
 %KPP
