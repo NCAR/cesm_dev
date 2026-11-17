@@ -40,3 +40,5 @@
  ---------------------------------------------------
 2026-11-17 16:28:38: xmlchange success <command> ./xmlchange OCN_DIAG_MODE=production  </command>
  ---------------------------------------------------
+2026-11-17 16:28:48: xmlchange success <command> ./xmlchange ROF2OCN_ICE_RMAPNAME=/glade/work/gmarques/cesm/tx2_3/runoff_mapping/r05_1000km/map_r05_to_tx2_3_nnsm_e1000r1000sh_e250r250nh_merged_modified_261117.nc  </command>
+ ---------------------------------------------------

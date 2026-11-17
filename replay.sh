@@ -46,3 +46,5 @@ cd "${CASEDIR}"
 
 ./xmlchange OCN_DIAG_MODE=production
 
+./xmlchange ROF2OCN_ICE_RMAPNAME=/glade/work/gmarques/cesm/tx2_3/runoff_mapping/r05_1000km/map_r05_to_tx2_3_nnsm_e1000r1000sh_e250r250nh_merged_modified_261117.nc
+
