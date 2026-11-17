@@ -3,7 +3,6 @@ ALE_COORDINATE_CONFIG = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/
 MAXIMUM_INT_DEPTH_CONFIG = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/lev-2025-09-12.nc
 MAX_LAYER_THICKNESS_CONFIG = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/grid_indpt/dz_max-2025-09-12.nc
 TOPO_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/ocean_topo_tx2_3v3_260305.nc
-TEMP_SALT_Z_INIT_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/woa18_04_initial_conditions.nc
 KH_BG_2D = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/KH_BG_2D_tx2_3v3_260427.nc
 SALT_RESTORE_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/state_restore_tx2_3v3_260305.nc
 TIDAL_ENERGY_FILE = /glade/campaign/cesm/cesmdata/inputdata/ocn/mom/tx2_3v3/tidal_energy_tx2_3v3_conserve_260306.nc
