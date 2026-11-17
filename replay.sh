@@ -64,3 +64,5 @@ cd "${CASEDIR}"
 
 ./xmlchange MOM6_WW3_CPL_METHOD=legacy
 
+./xmlchange JOB_PRIORITY=special --force
+

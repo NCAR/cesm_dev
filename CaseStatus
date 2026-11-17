@@ -48,3 +48,5 @@
  ---------------------------------------------------
 2026-11-17 16:02:12: xmlchange success <command> ./xmlchange MOM6_WW3_CPL_METHOD=legacy  </command>
  ---------------------------------------------------
+2026-11-17 16:02:34: xmlchange success <command> ./xmlchange JOB_PRIORITY=special --force  </command>
+ ---------------------------------------------------
