@@ -121,3 +121,5 @@ ERROR: File /glade/campaign/cesm/cesmdata/cseg/runs/cesm2_0/b.e30_alpha11d_landi
  ---------------------------------------------------
 2026-11-18 17:35:12: case.submit success case.run:8232908.desched1, case.st_archive:8232909.desched1
  ---------------------------------------------------
+2026-11-18 17:55:01: case.run starting 8232908.desched1
+ ---------------------------------------------------
