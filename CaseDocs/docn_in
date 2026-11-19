@@ -1,0 +1,11 @@
+&docn_nml
+  datamode = "sstdata"
+  import_data_fields = "none"
+  model_maskfile = "/glade/campaign/cesm/cesmdata/inputdata/share/meshes/gx1v7_151008_ESMFmesh.nc"
+  model_meshfile = "/glade/campaign/cesm/cesmdata/inputdata/share/meshes/ne30pg3_ESMFmesh_cdf5_c20211018.nc"
+  nx_global = 48600
+  ny_global = 1
+  restfilm = "null"
+  skip_restart_read = .false.
+  sst_constant_value = -1.0
+/
