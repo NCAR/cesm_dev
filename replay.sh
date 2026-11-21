@@ -52,3 +52,11 @@ cd "${CASEDIR}"
 
 ./xmlchange RUN_REFDIR=cesm2_init
 
+./case.setup
+
+./case.setup --reset
+
+./preview_namelists
+
+./xmlchange CAM_CONFIG_OPTS=" -pcols 9" --append
+
