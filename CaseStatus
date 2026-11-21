@@ -24,3 +24,5 @@
  ---------------------------------------------------
 2026-11-21 10:40:47: xmlchange success <command> ./xmlchange RUN_REFDIR=cesm2_init  </command>
  ---------------------------------------------------
+2026-11-21 10:40:49: xmlchange success <command> ./xmlchange RUN_REFCASE=b.e30_alpha11d_landice.B1850_MTso.ne30_t233_wgx3.429  </command>
+ ---------------------------------------------------
