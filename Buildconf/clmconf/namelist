@@ -1,5 +1,14 @@
 &comp_inparm 
 
+finidat = 'b.e30_alpha08o.B1850C_MTso.ne30_t232_wgx3.334.clm2.r.0101-01-01-00000.nc'
+use_init_interp = .true.
 
+reseed_dead_plants = .true.
+
+use_excess_ice_streams=.false. 
+
+finidat ='/glade/derecho/scratch/wwieder/archive/snowcapping_CplHist_397_ne30_BgcCrop_186_pSASU/rest/0031-01-01-00000/snowcapping_CplHist_397_ne30_BgcCrop_186_pSASU.clm2.r.0031-01-01-00000.nc'
+
+ hist_fincl1   += 'ICE_RUNOFF_STORAGE', 'QRUNOFF_ICE_BEFORE_STORAGE'
 
 / 
