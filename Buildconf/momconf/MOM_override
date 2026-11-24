@@ -4,7 +4,6 @@
         within CASEROOT.*/
 MEKE_IC_override_pointer = "rpointer.ocn.0101-01-01-00000"
 #override ATM_ALT_CO2_OPT = "constant"
-#override LEITH_BI_CONST = 80
 USE_REGIONAL_DYES = True
 NUM_DYE_TRACERS = 2
 DYE_SOURCE_MINLON = -200.0, -62.0
@@ -19,6 +18,12 @@ NL_VSTRESS = False
 #override MARBL_TRACERS_IC_FILE_OVERRIDE_POINTER = ""
 #override MARBL_TRACERS_IC_FILE_IS_Z = True
 #override MARBL_TRACERS_IC_FILE = "/glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377/ocn/hist/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377.mom6.h.bgc.z.0301-12.nc"
+#override AH = 2.0E+12
+#override LEITH_BI_CONST = 90.0
+#override LEITHY_CK = 0.88
+#override SKEB_GM_COEF = 0.67
+#override MEKE_GMCOEFF = 0.33
+#override MEKE_FRCOEFF = 0.25
 
 KPP%
 KPP_NONSOLAR_BUOY_FLUX_BUG = False
