@@ -1,23 +1,35 @@
-!---------------------------------------------------------------------
-! Users should add all user specific MOM_input parameter changes after
-! these comments as follows:
-!   parameter_name = new_parameter_value
-!
-! If the parameter belongs to a module, enter the parameter in MOM6
-! runtime parameter format ,e.g., change N_SMOOTH parameter within the
-! KPP module as follows:
-!   KPP%
-!   N_SMOOTH = 3
-!   %KPP
-!
-! Note: The parameter changes added to this file will automatically be
-!       applied to:
-!   $RUNDIR/MOM_override
-!
-! WARNING: If a MOM_override file is placed in SourceMods/src.mom/,
-! any additional parameter changes in this file will trigger an error.
-!
-! Parameters:
-!---------------------------------------------------------------------
+MEKE_IC_override_pointer = "rpointer.ocn.0101-01-01-00000"
 
+ATM_ALT_CO2_OPT = "constant"
+LEITH_BI_CONST = 80
 
+KPP%
+KPP_NONSOLAR_BUOY_FLUX_BUG = False
+%KPP
+
+USE_REGIONAL_DYES = True
+NUM_DYE_TRACERS = 2
+DYE_SOURCE_MINLON = -200.0, -62.0
+DYE_SOURCE_MAXLON = -172.0, -40.0
+DYE_SOURCE_MINLAT = -79.0, -79.0
+DYE_SOURCE_MAXLAT = -75.5, -74.5
+DYE_SOURCE_MINDEPTH = 400.0, 300.0
+DYE_SOURCE_MAXDEPTH = 1500.0, 1500.0
+
+BBL_EFFIC = 0.01
+NL_VSTRESS = False
+
+! HYBRID_MAP test 4 (2026-11-13)
+ALE_COORDINATE_CONFIG = "HYBRID_MAP:/glade/work/gmarques/mom6_input/hm4.nc,map,sigma2,dz"
+
+! Fix for noise-triggered CVMix convection in vanished bottom layers
+! (new parameters in SourceMods/src.mom/MOM_CVMix_conv.F90)
+CVMix_CONVECTION%
+CONV_VANISHED_THICKNESS = 0.01
+CONV_N2_MIN_SPACING = 0.1
+%CVMix_CONVECTION
+
+! MARBL IC's
+MARBL_TRACERS_IC_FILE_OVERRIDE_POINTER = ""
+MARBL_TRACERS_IC_FILE_IS_Z = True
+MARBL_TRACERS_IC_FILE = "/glade/derecho/scratch/hannay/archive/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377/ocn/hist/b.e30_alpha09d_m.B1850C_MTso_Gris_Marbl.ne30_t233_wgx3.377.mom6.h.bgc.z.0301-12.nc"
