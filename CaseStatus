@@ -143,3 +143,5 @@ can only concatenate str (not "PosixPath") to str
  ---------------------------------------------------
 2026-11-26 06:06:00: case.submit starting case.run:8318701.desched1, case.st_archive:8318702.desched1
  ---------------------------------------------------
+2026-11-26 06:06:02: case.submit success case.run:8318701.desched1, case.st_archive:8318702.desched1
+ ---------------------------------------------------
