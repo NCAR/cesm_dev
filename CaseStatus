@@ -938,3 +938,5 @@ P03010039, Normal, True' from dir '/glade/campaign/cesm/cesmdata/cseg/runs/cesm2
  ---------------------------------------------------
 2026-11-26 07:43:38: case.submit starting case.run:8319033.desched1, case.st_archive:8319034.desched1
  ---------------------------------------------------
+2026-11-26 07:43:40: case.submit success case.run:8319033.desched1, case.st_archive:8319034.desched1
+ ---------------------------------------------------
